@@ -21,10 +21,40 @@
     "consecutiveFailures": 0
   },
   {
+    "sourceId": "aws-news-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 1816,
+    "itemsFetched": 20,
+    "newItems": 20,
+    "consecutiveFailures": 0
+  },
+  {
     "sourceId": "bcg-insights",
     "status": "disabled",
     "itemsFetched": 0,
     "newItems": 0,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "bleepingcomputer",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 165,
+    "itemsFetched": 15,
+    "newItems": 15,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "capgemini-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 1928,
+    "itemsFetched": 10,
+    "newItems": 10,
     "consecutiveFailures": 0
   },
   {
@@ -35,10 +65,60 @@
     "consecutiveFailures": 0
   },
   {
+    "sourceId": "cisco-blogs",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 1070,
+    "itemsFetched": 9,
+    "newItems": 9,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "cloudflare-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 1878,
+    "itemsFetched": 20,
+    "newItems": 20,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "crowdstrike-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 976,
+    "itemsFetched": 10,
+    "newItems": 10,
+    "consecutiveFailures": 0
+  },
+  {
     "sourceId": "cyberark-blog",
     "status": "disabled",
     "itemsFetched": 0,
     "newItems": 0,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "darkreading",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 444,
+    "itemsFetched": 50,
+    "newItems": 50,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "databricks-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 169,
+    "itemsFetched": 10,
+    "newItems": 10,
     "consecutiveFailures": 0
   },
   {
@@ -56,10 +136,30 @@
     "consecutiveFailures": 0
   },
   {
+    "sourceId": "github-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 1871,
+    "itemsFetched": 10,
+    "newItems": 10,
+    "consecutiveFailures": 0
+  },
+  {
     "sourceId": "google-cloud-blog",
     "status": "disabled",
     "itemsFetched": 0,
     "newItems": 0,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "huggingface-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 131,
+    "itemsFetched": 846,
+    "newItems": 846,
     "consecutiveFailures": 0
   },
   {
@@ -98,10 +198,50 @@
     "consecutiveFailures": 0
   },
   {
+    "sourceId": "mit-technology-review",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 107,
+    "itemsFetched": 10,
+    "newItems": 10,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "mongodb-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 2495,
+    "itemsFetched": 50,
+    "newItems": 50,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "nvidia-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 72,
+    "itemsFetched": 18,
+    "newItems": 18,
+    "consecutiveFailures": 0
+  },
+  {
     "sourceId": "okta-blog",
     "status": "disabled",
     "itemsFetched": 0,
     "newItems": 0,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "openai-news",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 56,
+    "itemsFetched": 1143,
+    "newItems": 1143,
     "consecutiveFailures": 0
   },
   {
@@ -112,10 +252,70 @@
     "consecutiveFailures": 0
   },
   {
+    "sourceId": "paloaltonetworks-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 239,
+    "itemsFetched": 10,
+    "newItems": 10,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "proofpoint-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 106,
+    "itemsFetched": 10,
+    "newItems": 10,
+    "consecutiveFailures": 0
+  },
+  {
     "sourceId": "pwc-insights",
     "status": "disabled",
     "itemsFetched": 0,
     "newItems": 0,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "rapid7-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 722,
+    "itemsFetched": 20,
+    "newItems": 20,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "redhat-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 141,
+    "itemsFetched": 10,
+    "newItems": 10,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "salesforce-news",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 240,
+    "itemsFetched": 10,
+    "newItems": 10,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "sentinelone-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 358,
+    "itemsFetched": 10,
+    "newItems": 10,
     "consecutiveFailures": 0
   },
   {
@@ -126,10 +326,90 @@
     "consecutiveFailures": 0
   },
   {
+    "sourceId": "snyk-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 836,
+    "itemsFetched": 1662,
+    "newItems": 1662,
+    "consecutiveFailures": 0
+  },
+  {
     "sourceId": "sopra-steria-blog",
     "status": "disabled",
     "itemsFetched": 0,
     "newItems": 0,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "techcrunch",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 117,
+    "itemsFetched": 20,
+    "newItems": 20,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "tenable-blog",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 211,
+    "itemsFetched": 10,
+    "newItems": 10,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "thehackernews",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 197,
+    "itemsFetched": 50,
+    "newItems": 50,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "theregister",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 457,
+    "itemsFetched": 50,
+    "newItems": 50,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "thoughtworks-insights",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 81,
+    "itemsFetched": 2711,
+    "newItems": 2711,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "venturebeat",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 135,
+    "itemsFetched": 7,
+    "newItems": 7,
+    "consecutiveFailures": 0
+  },
+  {
+    "sourceId": "wired",
+    "status": "healthy",
+    "lastAttemptAt": "2026-08-22T22:53:05.335Z",
+    "lastSuccessAt": "2026-08-22T22:53:05.335Z",
+    "responseTimeMs": 117,
+    "itemsFetched": 50,
+    "newItems": 50,
     "consecutiveFailures": 0
   },
   {
