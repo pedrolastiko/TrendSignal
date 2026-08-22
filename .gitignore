@@ -1,0 +1,17 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.local
+coverage/
+playwright-report/
+test-results/
+public/data/*.json
+!public/data/.gitkeep
+.DS_Store
+*.log
+npm-debug.log*
+.data-worktree/
+.demo-data/
+*.tsbuildinfo

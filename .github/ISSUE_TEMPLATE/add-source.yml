@@ -1,0 +1,77 @@
+name: Add a source
+description: Propose a new monitored source for TrendSignal's config/sources.yml
+title: '[source] '
+labels: ['source']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sources are declarative config reviewed and merged through Git — this issue is a proposal, not a live change.
+        A source is only enabled once its feed URL has been validated live (see `docs/adding-a-source.md`).
+        Do not guess or invent a feed URL — leave it blank if you have not confirmed it works.
+  - type: input
+    id: id
+    attributes:
+      label: Source id
+      description: Stable, kebab-case identifier (e.g. `acme-blog`).
+      placeholder: acme-blog
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Source name
+      placeholder: Acme Blog
+    validations:
+      required: true
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: Acme Corp
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - consulting
+        - technology
+        - cybersecurity
+        - artificial-intelligence
+        - media
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage URL
+      placeholder: https://acme.example.com/blog
+    validations:
+      required: true
+  - type: dropdown
+    id: collection-mode
+    attributes:
+      label: Collection method
+      options:
+        - rss
+        - atom
+        - sitemap
+        - html
+    validations:
+      required: true
+  - type: input
+    id: feed-url
+    attributes:
+      label: Feed / sitemap / listing URL (leave blank if not yet validated)
+      placeholder: https://acme.example.com/blog/feed/
+    validations:
+      required: false
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation notes
+      description: How did you confirm this endpoint is live and returns the expected format (e.g. curl output, date checked)?
+    validations:
+      required: false

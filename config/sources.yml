@@ -1,0 +1,701 @@
+# Source definitions for TrendSignal.
+#
+# Validation policy (see AGENTS.md #9): a source is only set to `enabled: true`
+# once its feedUrl has been fetched live and confirmed to return a parseable
+# RSS/Atom document. Validation was performed on 2026-08-22 with
+# `curl -A "TrendSignalBot/1.0" <feedUrl>` and manual inspection of the
+# response body. Sources that could not be validated (HTTP error, bot
+# detection, HTML instead of XML, or no known public feed) are kept
+# `enabled: false` with `feedUrl: REPLACE_AFTER_VALIDATION`.
+schemaVersion: 1
+sources:
+  # --- Consulting ---------------------------------------------------------
+  - id: capgemini-blog
+    name: Capgemini Blog
+    company: Capgemini
+    category: consulting
+    homepageUrl: https://www.capgemini.com/
+    collectionMode: rss
+    feedUrl: https://www.capgemini.com/feed/
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: thoughtworks-insights
+    name: Thoughtworks Insights
+    company: Thoughtworks
+    category: consulting
+    homepageUrl: https://www.thoughtworks.com/
+    collectionMode: rss
+    feedUrl: https://www.thoughtworks.com/rss/insights.xml
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: accenture-newsroom
+    name: Accenture Newsroom
+    company: Accenture
+    category: consulting
+    homepageUrl: https://newsroom.accenture.com/
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: deloitte-insights
+    name: Deloitte Insights
+    company: Deloitte
+    category: consulting
+    homepageUrl: https://www2.deloitte.com/us/en/insights.html
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: pwc-insights
+    name: PwC Insights
+    company: PwC
+    category: consulting
+    homepageUrl: https://www.pwc.com/gx/en/issues.html
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: mckinsey-insights
+    name: McKinsey & Company Insights
+    company: McKinsey & Company
+    category: consulting
+    homepageUrl: https://www.mckinsey.com/insights
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: bcg-insights
+    name: BCG Insights
+    company: Boston Consulting Group
+    category: consulting
+    homepageUrl: https://www.bcg.com/publications
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: sopra-steria-blog
+    name: Sopra Steria Blog
+    company: Sopra Steria
+    category: consulting
+    homepageUrl: https://www.soprasteria.com/
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 4
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  # --- Technology ----------------------------------------------------------
+  - id: aws-news-blog
+    name: AWS News Blog
+    company: Amazon Web Services
+    category: technology
+    homepageUrl: https://aws.amazon.com/blogs/aws/
+    collectionMode: rss
+    feedUrl: https://aws.amazon.com/blogs/aws/feed/
+    enabled: true
+    priority: 8
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: github-blog
+    name: The GitHub Blog
+    company: GitHub
+    category: technology
+    homepageUrl: https://github.blog/
+    collectionMode: rss
+    feedUrl: https://github.blog/feed/
+    enabled: true
+    priority: 7
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: cloudflare-blog
+    name: Cloudflare Blog
+    company: Cloudflare
+    category: technology
+    homepageUrl: https://blog.cloudflare.com/
+    collectionMode: rss
+    feedUrl: https://blog.cloudflare.com/rss/
+    enabled: true
+    priority: 7
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: mongodb-blog
+    name: MongoDB Blog
+    company: MongoDB
+    category: technology
+    homepageUrl: https://www.mongodb.com/blog
+    collectionMode: rss
+    feedUrl: https://www.mongodb.com/blog/rss
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: databricks-blog
+    name: Databricks Blog
+    company: Databricks
+    category: technology
+    homepageUrl: https://www.databricks.com/blog
+    collectionMode: rss
+    feedUrl: https://www.databricks.com/feed
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: salesforce-news
+    name: Salesforce News
+    company: Salesforce
+    category: technology
+    homepageUrl: https://www.salesforce.com/news/
+    collectionMode: rss
+    feedUrl: https://www.salesforce.com/news/feed/
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: cisco-blogs
+    name: Cisco Blogs
+    company: Cisco
+    category: technology
+    homepageUrl: https://blogs.cisco.com/
+    collectionMode: rss
+    feedUrl: https://blogs.cisco.com/feed
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: nvidia-blog
+    name: NVIDIA Blog
+    company: NVIDIA
+    category: technology
+    homepageUrl: https://blogs.nvidia.com/
+    collectionMode: rss
+    feedUrl: https://blogs.nvidia.com/feed/
+    enabled: true
+    priority: 7
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: redhat-blog
+    name: Red Hat Blog
+    company: Red Hat
+    category: technology
+    homepageUrl: https://www.redhat.com/en/blog
+    collectionMode: rss
+    feedUrl: https://www.redhat.com/en/rss/blog
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: microsoft-blog
+    name: Microsoft Blog
+    company: Microsoft
+    category: technology
+    homepageUrl: https://blogs.microsoft.com/
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 8
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: google-cloud-blog
+    name: Google Cloud Blog
+    company: Google Cloud
+    category: technology
+    homepageUrl: https://cloud.google.com/blog
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 7
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: ibm-blog
+    name: IBM Blog
+    company: IBM
+    category: technology
+    homepageUrl: https://www.ibm.com/blog
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: oracle-news
+    name: Oracle News
+    company: Oracle
+    category: technology
+    homepageUrl: https://www.oracle.com/news/
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 4
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: servicenow-blog
+    name: ServiceNow Blog
+    company: ServiceNow
+    category: technology
+    homepageUrl: https://www.servicenow.com/blogs.html
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 4
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  # --- Artificial intelligence ---------------------------------------------
+  - id: huggingface-blog
+    name: Hugging Face Blog
+    company: Hugging Face
+    category: artificial-intelligence
+    homepageUrl: https://huggingface.co/blog
+    collectionMode: rss
+    feedUrl: https://huggingface.co/blog/feed.xml
+    enabled: true
+    priority: 7
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: openai-news
+    name: OpenAI News
+    company: OpenAI
+    category: artificial-intelligence
+    homepageUrl: https://openai.com/news/
+    collectionMode: rss
+    feedUrl: https://openai.com/news/rss.xml
+    enabled: true
+    priority: 8
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: anthropic-news
+    name: Anthropic News
+    company: Anthropic
+    category: artificial-intelligence
+    homepageUrl: https://www.anthropic.com/news
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 8
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: mistral-ai-news
+    name: Mistral AI News
+    company: Mistral AI
+    category: artificial-intelligence
+    homepageUrl: https://mistral.ai/news
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  # --- Cybersecurity ---------------------------------------------------------
+  - id: crowdstrike-blog
+    name: CrowdStrike Blog
+    company: CrowdStrike
+    category: cybersecurity
+    homepageUrl: https://www.crowdstrike.com/en-us/blog/
+    collectionMode: rss
+    feedUrl: https://www.crowdstrike.com/blog/feed/
+    enabled: true
+    priority: 7
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: paloaltonetworks-blog
+    name: Palo Alto Networks Blog
+    company: Palo Alto Networks
+    category: cybersecurity
+    homepageUrl: https://www.paloaltonetworks.com/blog
+    collectionMode: rss
+    feedUrl: https://www.paloaltonetworks.com/blog/feed
+    enabled: true
+    priority: 7
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: rapid7-blog
+    name: Rapid7 Blog
+    company: Rapid7
+    category: cybersecurity
+    homepageUrl: https://www.rapid7.com/blog/
+    collectionMode: rss
+    feedUrl: https://www.rapid7.com/blog/rss/
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: snyk-blog
+    name: Snyk Blog
+    company: Snyk
+    category: cybersecurity
+    homepageUrl: https://snyk.io/blog/
+    collectionMode: rss
+    feedUrl: https://snyk.io/blog/feed.xml
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: sentinelone-blog
+    name: SentinelOne Blog
+    company: SentinelOne
+    category: cybersecurity
+    homepageUrl: https://www.sentinelone.com/blog/
+    collectionMode: rss
+    feedUrl: https://sentinelone.com/blog/feed/
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: tenable-blog
+    name: Tenable Blog
+    company: Tenable
+    category: cybersecurity
+    homepageUrl: https://www.tenable.com/blog
+    collectionMode: rss
+    feedUrl: https://www.tenable.com/blog/feed
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: proofpoint-blog
+    name: Proofpoint Blog
+    company: Proofpoint
+    category: cybersecurity
+    homepageUrl: https://www.proofpoint.com/us/blog
+    collectionMode: rss
+    feedUrl: https://www.proofpoint.com/us/rss.xml
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: cyberark-blog
+    name: CyberArk Blog
+    company: CyberArk
+    category: cybersecurity
+    homepageUrl: https://www.cyberark.com/resources/blog/
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: wiz-blog
+    name: Wiz Blog
+    company: Wiz
+    category: cybersecurity
+    homepageUrl: https://www.wiz.io/blog
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: fortinet-blog
+    name: Fortinet Blog
+    company: Fortinet
+    category: cybersecurity
+    homepageUrl: https://www.fortinet.com/blog
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: zscaler-blog
+    name: Zscaler Blog
+    company: Zscaler
+    category: cybersecurity
+    homepageUrl: https://www.zscaler.com/blogs
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 4
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: okta-blog
+    name: Okta Blog
+    company: Okta
+    category: cybersecurity
+    homepageUrl: https://www.okta.com/blog/
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 4
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: checkpoint-blog
+    name: Check Point Blog
+    company: Check Point
+    category: cybersecurity
+    homepageUrl: https://blog.checkpoint.com/
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 4
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  # --- Media -----------------------------------------------------------------
+  - id: techcrunch
+    name: TechCrunch
+    company: TechCrunch
+    category: media
+    homepageUrl: https://techcrunch.com/
+    collectionMode: rss
+    feedUrl: https://techcrunch.com/feed/
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 40
+    includePaths: []
+    excludePaths: []
+
+  - id: bleepingcomputer
+    name: BleepingComputer
+    company: BleepingComputer
+    category: media
+    homepageUrl: https://www.bleepingcomputer.com/
+    collectionMode: rss
+    feedUrl: https://www.bleepingcomputer.com/feed/
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 40
+    includePaths: []
+    excludePaths: []
+
+  - id: thehackernews
+    name: The Hacker News
+    company: The Hacker News
+    category: media
+    homepageUrl: https://thehackernews.com/
+    collectionMode: rss
+    feedUrl: https://feeds.feedburner.com/TheHackersNews
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 40
+    includePaths: []
+    excludePaths: []
+
+  - id: darkreading
+    name: Dark Reading
+    company: Dark Reading
+    category: media
+    homepageUrl: https://www.darkreading.com/
+    collectionMode: rss
+    feedUrl: https://www.darkreading.com/rss.xml
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 40
+    includePaths: []
+    excludePaths: []
+
+  - id: mit-technology-review
+    name: MIT Technology Review
+    company: MIT Technology Review
+    category: media
+    homepageUrl: https://www.technologyreview.com/
+    collectionMode: rss
+    feedUrl: https://www.technologyreview.com/feed/
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: wired
+    name: Wired
+    company: Wired
+    category: media
+    homepageUrl: https://www.wired.com/
+    collectionMode: rss
+    feedUrl: https://www.wired.com/feed/rss
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 40
+    includePaths: []
+    excludePaths: []
+
+  - id: theregister
+    name: The Register
+    company: The Register
+    category: media
+    homepageUrl: https://www.theregister.com/
+    collectionMode: rss
+    feedUrl: https://www.theregister.com/headlines.atom
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 40
+    includePaths: []
+    excludePaths: []
+
+  - id: venturebeat
+    name: VentureBeat
+    company: VentureBeat
+    category: media
+    homepageUrl: https://venturebeat.com/
+    collectionMode: rss
+    feedUrl: https://venturebeat.com/feed/
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 40
+    includePaths: []
+    excludePaths: []
+
+  - id: ars-technica
+    name: Ars Technica
+    company: Ars Technica
+    category: media
+    homepageUrl: https://arstechnica.com/
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: infoq
+    name: InfoQ
+    company: InfoQ
+    category: media
+    homepageUrl: https://www.infoq.com/
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 4
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
