@@ -54,8 +54,10 @@ jobs:
 
       - name: Determine deploy gate
         id: gate
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: |
-          if [ "${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}" = "true" ]; then
+          if [ "$DRY_RUN" = "true" ]; then
             echo "should_deploy=false" >> "$GITHUB_OUTPUT"
           else
             echo "should_deploy=true" >> "$GITHUB_OUTPUT"
@@ -79,8 +81,14 @@ jobs:
       - name: Collect (source failures are isolated, not fatal)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FULL_REFRESH: ${{ github.event_name == 'workflow_dispatch' && inputs.full_refresh }}
-          SOURCE_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.source_id }}
+          # github.event.inputs.* (not the typed `inputs` context) is used here: it is simply
+          # absent/null on non-dispatch triggers, interpolating to an empty string. The typed
+          # `inputs` context combined with `event_name == 'workflow_dispatch' && ...` instead
+          # short-circuits to the *boolean* false on a push/schedule trigger, which GitHub Actions
+          # stringifies to the literal text "false" — a non-empty string that broke the `-n`
+          # check below and silently limited every push-triggered run to zero sources.
+          FULL_REFRESH: ${{ github.event.inputs.full_refresh }}
+          SOURCE_ID: ${{ github.event.inputs.source_id }}
         run: |
           set -eo pipefail
           args=(--data-dir=data-branch)
