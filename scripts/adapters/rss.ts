@@ -54,7 +54,11 @@ export async function collectFromRss(
   const feed = await parser.parseString(result.body);
   const candidates: RawArticleCandidate[] = [];
 
-  for (const item of feed.items as RssItem[]) {
+  // RSS/Atom feeds are conventionally ordered newest-first; some publishers serve their
+  // entire archive rather than just recent posts, so this cap keeps each run bounded.
+  const items = (feed.items as RssItem[]).slice(0, source.maxItemsPerRun);
+
+  for (const item of items) {
     const url = item.link;
     if (!url || !isSafeUrl(url)) continue;
     const publishedAt =
