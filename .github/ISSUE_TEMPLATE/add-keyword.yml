@@ -1,0 +1,70 @@
+name: Add a keyword
+description: Propose a new monitored keyword for TrendSignal's config/keywords.yml
+title: '[keyword] '
+labels: ['keyword']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keywords are declarative config reviewed and merged through Git — this issue is a proposal, not a live change.
+        See `docs/adding-a-source.md` and `config/keywords.yml` for the shape of an entry and existing examples.
+  - type: input
+    id: id
+    attributes:
+      label: Keyword id
+      description: Stable, kebab-case identifier (e.g. `zero-trust`). Must be unique in config/keywords.yml.
+      placeholder: zero-trust
+    validations:
+      required: true
+  - type: input
+    id: label-fr
+    attributes:
+      label: French label
+      placeholder: Zero Trust
+    validations:
+      required: true
+  - type: input
+    id: label-en
+    attributes:
+      label: English label
+      placeholder: Zero Trust
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - consulting
+        - technology
+        - cybersecurity
+        - artificial-intelligence
+        - media
+    validations:
+      required: true
+  - type: textarea
+    id: terms
+    attributes:
+      label: Terms (one per line)
+      description: Bilingual synonyms/phrases used for matching. Include both French and English terms.
+      placeholder: |
+        zero trust
+        ZTNA
+        confiance zéro
+    validations:
+      required: true
+  - type: textarea
+    id: excluded-terms
+    attributes:
+      label: Excluded terms (one per line, optional)
+      description: Phrases that should suppress a false-positive match.
+    validations:
+      required: false
+  - type: input
+    id: weight
+    attributes:
+      label: Weight
+      description: Positive number, typically between 1.0 and 1.3.
+      placeholder: '1.1'
+    validations:
+      required: true

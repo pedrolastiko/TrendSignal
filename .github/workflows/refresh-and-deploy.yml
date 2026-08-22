@@ -1,0 +1,159 @@
+name: Refresh and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: 'Ignore HTTP conditional-request caching and re-fetch every enabled source in full'
+        type: boolean
+        default: false
+      source_id:
+        description: 'Limit collection to a single source id (config/sources.yml)'
+        type: string
+        default: ''
+      dry_run:
+        description: 'Run the full pipeline but do not push to the data branch or deploy to Pages'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trendsignal-refresh-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Collect, generate data, and build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      should_deploy: ${{ steps.gate.outputs.should_deploy }}
+      data_sha: ${{ steps.push-data.outputs.data_sha }}
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate configuration
+        run: npm run validate:config
+
+      - name: Determine deploy gate
+        id: gate
+        run: |
+          if [ "${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}" = "true" ]; then
+            echo "should_deploy=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout or bootstrap data branch
+        id: data-branch
+        run: |
+          set -e
+          if git ls-remote --exit-code --heads origin data > /dev/null 2>&1; then
+            echo "bootstrap=false" >> "$GITHUB_OUTPUT"
+            git fetch origin data:refs/remotes/origin/data
+            git worktree add data-branch origin/data
+          else
+            echo "bootstrap=true" >> "$GITHUB_OUTPUT"
+            git worktree add --detach data-branch
+            (cd data-branch && git checkout --orphan data && git rm -rf . > /dev/null 2>&1 || true)
+            mkdir -p data-branch/articles data-branch/state data-branch/generated
+          fi
+
+      - name: Collect (source failures are isolated, not fatal)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FULL_REFRESH: ${{ github.event_name == 'workflow_dispatch' && inputs.full_refresh }}
+          SOURCE_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.source_id }}
+        run: |
+          set -eo pipefail
+          args=(--data-dir=data-branch)
+          if [ "$FULL_REFRESH" = "true" ]; then args+=(--full-refresh); fi
+          if [ -n "$SOURCE_ID" ]; then args+=("--source-id=$SOURCE_ID"); fi
+          npm run collect -- "${args[@]}" 2>&1 | tee collect.log
+
+      - name: Commit and push data branch
+        id: push-data
+        if: steps.gate.outputs.should_deploy == 'true'
+        working-directory: data-branch
+        run: |
+          set -e
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore(data): refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push origin HEAD:data
+          fi
+          echo "data_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Publish validated public data
+        run: npm run publish:data -- --data-dir=data-branch --out-dir=public/data
+
+      - name: Build
+        run: npm run build
+        env:
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
+
+      - name: Upload Pages artifact
+        if: steps.gate.outputs.should_deploy == 'true'
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: dist
+
+      - name: Upload run logs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: refresh-run-logs
+          path: |
+            collect.log
+            data-branch/state/run-history.json
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Append data commit SHA to summary
+        if: always()
+        run: |
+          {
+            echo "- Data branch commit: ${{ steps.push-data.outputs.data_sha || '(dry run — not pushed)' }}"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    if: needs.build.outputs.should_deploy == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+      - name: Append deployment URL to summary
+        run: echo "- Deployed to ${{ steps.deployment.outputs.page_url }}" >> "$GITHUB_STEP_SUMMARY"
