@@ -57,13 +57,18 @@ sources:
     company: Deloitte
     category: consulting
     homepageUrl: https://www2.deloitte.com/us/en/insights.html
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    # No public RSS/Atom feed exists for Deloitte Insights (checked directly and via
+    # page <link rel="alternate"> — none present). Article pages do carry JSON-LD
+    # Article metadata (headline/datePublished), so generic-html collection against
+    # the listing page works — validated 2026-08-22 via collectFromGenericHtml,
+    # which returned 7 real, dated articles from https://www2.deloitte.com/us/en/insights.html.
+    collectionMode: html
+    feedUrl: https://www2.deloitte.com/us/en/insights.html
+    enabled: true
     priority: 6
     language: en
     maxItemsPerRun: 30
-    includePaths: []
+    includePaths: ['/insights/']
     excludePaths: []
 
   - id: pwc-insights

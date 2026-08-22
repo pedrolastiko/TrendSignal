@@ -136,7 +136,7 @@ the branch's file layout.
 - Directly: edit `config/sources.yml` / `config/keywords.yml` and open a pull request. See
   `docs/adding-a-source.md` for the required validation step before setting `enabled: true`.
 
-`config/sources.yml` currently ships with 49 declared sources, 28 of them live-validated and
+`config/sources.yml` currently ships with 49 declared sources, 29 of them live-validated and
 enabled (spanning consulting, technology, cybersecurity, AI, and media) as of 2026-08-22 — see the
 header comment in that file for the validation method. The rest are documented candidates kept
 `enabled: false` with `feedUrl: REPLACE_AFTER_VALIDATION` until someone validates a real endpoint.
