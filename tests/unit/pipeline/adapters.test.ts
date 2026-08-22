@@ -51,6 +51,12 @@ describe('collectFromRss (fixture-backed, no live network)', () => {
     const aiArticle = result.candidates.find((c) => c.title.includes('AI governance'));
     expect(aiArticle?.imageUrl).toBe('https://example-security.test/images/ai-governance.jpg');
   });
+
+  it('caps the number of candidates at maxItemsPerRun for feeds larger than the limit', async () => {
+    const source = baseSource({ feedUrl: `${server.baseUrl}/rss/feed.xml`, maxItemsPerRun: 2 });
+    const result = await collectFromRss(source, undefined, undefined);
+    expect(result.candidates.length).toBe(2);
+  });
 });
 
 describe('collectFromSitemap (fixture-backed, no live network)', () => {
