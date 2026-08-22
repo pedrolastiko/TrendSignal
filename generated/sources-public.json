@@ -1,0 +1,492 @@
+[
+  {
+    "id": "accenture-newsroom",
+    "name": "Accenture Newsroom",
+    "company": "Accenture",
+    "category": "consulting",
+    "homepageUrl": "https://newsroom.accenture.com/",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 6
+  },
+  {
+    "id": "anthropic-news",
+    "name": "Anthropic News",
+    "company": "Anthropic",
+    "category": "artificial-intelligence",
+    "homepageUrl": "https://www.anthropic.com/news",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 8
+  },
+  {
+    "id": "ars-technica",
+    "name": "Ars Technica",
+    "company": "Ars Technica",
+    "category": "media",
+    "homepageUrl": "https://arstechnica.com/",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 5
+  },
+  {
+    "id": "aws-news-blog",
+    "name": "AWS News Blog",
+    "company": "Amazon Web Services",
+    "category": "technology",
+    "homepageUrl": "https://aws.amazon.com/blogs/aws/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 8
+  },
+  {
+    "id": "bcg-insights",
+    "name": "BCG Insights",
+    "company": "Boston Consulting Group",
+    "category": "consulting",
+    "homepageUrl": "https://www.bcg.com/publications",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 5
+  },
+  {
+    "id": "bleepingcomputer",
+    "name": "BleepingComputer",
+    "company": "BleepingComputer",
+    "category": "media",
+    "homepageUrl": "https://www.bleepingcomputer.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "capgemini-blog",
+    "name": "Capgemini Blog",
+    "company": "Capgemini",
+    "category": "consulting",
+    "homepageUrl": "https://www.capgemini.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "checkpoint-blog",
+    "name": "Check Point Blog",
+    "company": "Check Point",
+    "category": "cybersecurity",
+    "homepageUrl": "https://blog.checkpoint.com/",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 4
+  },
+  {
+    "id": "cisco-blogs",
+    "name": "Cisco Blogs",
+    "company": "Cisco",
+    "category": "technology",
+    "homepageUrl": "https://blogs.cisco.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "cloudflare-blog",
+    "name": "Cloudflare Blog",
+    "company": "Cloudflare",
+    "category": "technology",
+    "homepageUrl": "https://blog.cloudflare.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 7
+  },
+  {
+    "id": "crowdstrike-blog",
+    "name": "CrowdStrike Blog",
+    "company": "CrowdStrike",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.crowdstrike.com/en-us/blog/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 7
+  },
+  {
+    "id": "cyberark-blog",
+    "name": "CyberArk Blog",
+    "company": "CyberArk",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.cyberark.com/resources/blog/",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 5
+  },
+  {
+    "id": "darkreading",
+    "name": "Dark Reading",
+    "company": "Dark Reading",
+    "category": "media",
+    "homepageUrl": "https://www.darkreading.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "databricks-blog",
+    "name": "Databricks Blog",
+    "company": "Databricks",
+    "category": "technology",
+    "homepageUrl": "https://www.databricks.com/blog",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "deloitte-insights",
+    "name": "Deloitte Insights",
+    "company": "Deloitte",
+    "category": "consulting",
+    "homepageUrl": "https://www2.deloitte.com/us/en/insights.html",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 6
+  },
+  {
+    "id": "fortinet-blog",
+    "name": "Fortinet Blog",
+    "company": "Fortinet",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.fortinet.com/blog",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 5
+  },
+  {
+    "id": "github-blog",
+    "name": "The GitHub Blog",
+    "company": "GitHub",
+    "category": "technology",
+    "homepageUrl": "https://github.blog/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 7
+  },
+  {
+    "id": "google-cloud-blog",
+    "name": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "category": "technology",
+    "homepageUrl": "https://cloud.google.com/blog",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 7
+  },
+  {
+    "id": "huggingface-blog",
+    "name": "Hugging Face Blog",
+    "company": "Hugging Face",
+    "category": "artificial-intelligence",
+    "homepageUrl": "https://huggingface.co/blog",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 7
+  },
+  {
+    "id": "ibm-blog",
+    "name": "IBM Blog",
+    "company": "IBM",
+    "category": "technology",
+    "homepageUrl": "https://www.ibm.com/blog",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 6
+  },
+  {
+    "id": "infoq",
+    "name": "InfoQ",
+    "company": "InfoQ",
+    "category": "media",
+    "homepageUrl": "https://www.infoq.com/",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 4
+  },
+  {
+    "id": "mckinsey-insights",
+    "name": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "category": "consulting",
+    "homepageUrl": "https://www.mckinsey.com/insights",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 6
+  },
+  {
+    "id": "microsoft-blog",
+    "name": "Microsoft Blog",
+    "company": "Microsoft",
+    "category": "technology",
+    "homepageUrl": "https://blogs.microsoft.com/",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 8
+  },
+  {
+    "id": "mistral-ai-news",
+    "name": "Mistral AI News",
+    "company": "Mistral AI",
+    "category": "artificial-intelligence",
+    "homepageUrl": "https://mistral.ai/news",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 6
+  },
+  {
+    "id": "mit-technology-review",
+    "name": "MIT Technology Review",
+    "company": "MIT Technology Review",
+    "category": "media",
+    "homepageUrl": "https://www.technologyreview.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "mongodb-blog",
+    "name": "MongoDB Blog",
+    "company": "MongoDB",
+    "category": "technology",
+    "homepageUrl": "https://www.mongodb.com/blog",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "nvidia-blog",
+    "name": "NVIDIA Blog",
+    "company": "NVIDIA",
+    "category": "technology",
+    "homepageUrl": "https://blogs.nvidia.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 7
+  },
+  {
+    "id": "okta-blog",
+    "name": "Okta Blog",
+    "company": "Okta",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.okta.com/blog/",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 4
+  },
+  {
+    "id": "openai-news",
+    "name": "OpenAI News",
+    "company": "OpenAI",
+    "category": "artificial-intelligence",
+    "homepageUrl": "https://openai.com/news/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 8
+  },
+  {
+    "id": "oracle-news",
+    "name": "Oracle News",
+    "company": "Oracle",
+    "category": "technology",
+    "homepageUrl": "https://www.oracle.com/news/",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 4
+  },
+  {
+    "id": "paloaltonetworks-blog",
+    "name": "Palo Alto Networks Blog",
+    "company": "Palo Alto Networks",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.paloaltonetworks.com/blog",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 7
+  },
+  {
+    "id": "proofpoint-blog",
+    "name": "Proofpoint Blog",
+    "company": "Proofpoint",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.proofpoint.com/us/blog",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "pwc-insights",
+    "name": "PwC Insights",
+    "company": "PwC",
+    "category": "consulting",
+    "homepageUrl": "https://www.pwc.com/gx/en/issues.html",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 5
+  },
+  {
+    "id": "rapid7-blog",
+    "name": "Rapid7 Blog",
+    "company": "Rapid7",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.rapid7.com/blog/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "redhat-blog",
+    "name": "Red Hat Blog",
+    "company": "Red Hat",
+    "category": "technology",
+    "homepageUrl": "https://www.redhat.com/en/blog",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "salesforce-news",
+    "name": "Salesforce News",
+    "company": "Salesforce",
+    "category": "technology",
+    "homepageUrl": "https://www.salesforce.com/news/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "sentinelone-blog",
+    "name": "SentinelOne Blog",
+    "company": "SentinelOne",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.sentinelone.com/blog/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "servicenow-blog",
+    "name": "ServiceNow Blog",
+    "company": "ServiceNow",
+    "category": "technology",
+    "homepageUrl": "https://www.servicenow.com/blogs.html",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 4
+  },
+  {
+    "id": "snyk-blog",
+    "name": "Snyk Blog",
+    "company": "Snyk",
+    "category": "cybersecurity",
+    "homepageUrl": "https://snyk.io/blog/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "sopra-steria-blog",
+    "name": "Sopra Steria Blog",
+    "company": "Sopra Steria",
+    "category": "consulting",
+    "homepageUrl": "https://www.soprasteria.com/",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 4
+  },
+  {
+    "id": "techcrunch",
+    "name": "TechCrunch",
+    "company": "TechCrunch",
+    "category": "media",
+    "homepageUrl": "https://techcrunch.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "tenable-blog",
+    "name": "Tenable Blog",
+    "company": "Tenable",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.tenable.com/blog",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "thehackernews",
+    "name": "The Hacker News",
+    "company": "The Hacker News",
+    "category": "media",
+    "homepageUrl": "https://thehackernews.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 6
+  },
+  {
+    "id": "theregister",
+    "name": "The Register",
+    "company": "The Register",
+    "category": "media",
+    "homepageUrl": "https://www.theregister.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "thoughtworks-insights",
+    "name": "Thoughtworks Insights",
+    "company": "Thoughtworks",
+    "category": "consulting",
+    "homepageUrl": "https://www.thoughtworks.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "venturebeat",
+    "name": "VentureBeat",
+    "company": "VentureBeat",
+    "category": "media",
+    "homepageUrl": "https://venturebeat.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "wired",
+    "name": "Wired",
+    "company": "Wired",
+    "category": "media",
+    "homepageUrl": "https://www.wired.com/",
+    "collectionMode": "rss",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "wiz-blog",
+    "name": "Wiz Blog",
+    "company": "Wiz",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.wiz.io/blog",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 5
+  },
+  {
+    "id": "zscaler-blog",
+    "name": "Zscaler Blog",
+    "company": "Zscaler",
+    "category": "cybersecurity",
+    "homepageUrl": "https://www.zscaler.com/blogs",
+    "collectionMode": "rss",
+    "enabled": false,
+    "priority": 4
+  }
+]
