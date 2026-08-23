@@ -117,7 +117,13 @@ publisher.
   `data` branch, builds, and deploys to Pages. Runs on push to `main`, on a schedule
   (`17 */6 * * *`, i.e. every six hours at a non-zero minute), and manually via
   `workflow_dispatch` with `full_refresh`, `source_id`, and `dry_run` inputs.
-- Both workflows use the default `GITHUB_TOKEN` (never a PAT) with per-job minimal permissions, and
+- `.github/workflows/probe-source-candidates.yml` — manual (`workflow_dispatch`) discovery job for
+  candidate publishers: resolves the feeds a site declares, tries the conventional paths, falls back
+  to the sitemaps in `robots.txt`, and samples article pages through the production metadata
+  extractor. Read-only — it never writes to the `data` branch or deploys. Use it to validate a
+  `feedUrl` when your own machine cannot reach publisher domains; `audit_source_id` additionally
+  audits an already-enabled source.
+- All three workflows use the default `GITHUB_TOKEN` (never a PAT) with per-job minimal permissions, and
   pin third-party actions to a full commit SHA with a version comment.
 
 No repository secrets are required for the default setup.
@@ -136,7 +142,7 @@ the branch's file layout.
 - Directly: edit `config/sources.yml` / `config/keywords.yml` and open a pull request. See
   `docs/adding-a-source.md` for the required validation step before setting `enabled: true`.
 
-`config/sources.yml` ships **39 sources, all enabled and all verified to contribute** as of
+`config/sources.yml` ships **44 sources, all enabled and all verified to contribute** as of
 2026-08-23, spanning consulting, technology, cybersecurity, AI, and media. A source is only
 enabled once its endpoint has been fetched live _and_ `scripts/audit-sources.ts` shows it
 returning real dated articles — an HTTP 200 is not sufficient, since several publishers answer
@@ -147,7 +153,9 @@ Candidates that could not be collected were **removed** rather than parked as pe
 disabled placeholders, with the reason recorded in the file's header comment: no public
 feed or sitemap (Accenture, IBM, Oracle, ServiceNow, Zscaler, Sopra Steria), redirecting to a
 publisher already covered (CyberArk → Palo Alto Networks), anti-bot protection we will not
-circumvent (Wired, Ars Technica, BCG), or no publication date in static HTML (Anthropic).
+circumvent (Wired, Ars Technica, BCG), or no publication date in static HTML (Anthropic). The
+same sweep over independent consultancies added L.E.K., Simon-Kucher, Oliver Wyman, BearingPoint
+and FTI Consulting, and left out ten others for the same reasons.
 
 After changing a source definition, run `npx tsx scripts/audit-sources.ts` to check what each
 source actually contributes — health alone does not distinguish a working source from one that

@@ -20,6 +20,23 @@
 #     (rendered client-side). The sitemap's `lastmod` is not a substitute — Deloitte
 #     shows it running years ahead of the editorial date, which would misdate articles
 #     and corrupt trend scoring.
+#
+# A second sweep of independent and specialist consultancies ran on 2026-08-23 via the
+# `Probe source candidates` workflow (scripts/probe-source-candidates.ts), which applies
+# the collector's own fetch policy and metadata extractor. It added L.E.K.,
+# Simon-Kucher, Oliver Wyman, BearingPoint and FTI Consulting. The rest were left out:
+#
+#   - HTTP 403 on every request including robots.txt, the same anti-bot protection as
+#     above: Arthur D. Little, Alvarez & Marsal, Gartner.
+#   - Roland Berger: 404 on every conventional path, /sitemap.xml included — no
+#     collectable endpoint at the origin root.
+#   - Reachable sitemap, but its freshest URLs are listing, careers or service pages
+#     carrying no publication date, and no article path filter could be identified:
+#     Kearney, PA Consulting, OC&C, Protiviti, Korn Ferry. (OC&C additionally answers
+#     200 with HTML at /feed, /rss and /insights/feed/ — an app shell, not a feed.)
+#   - Mercer: its sitemap does surface real /insights/ articles, but none expose a date
+#     through JSON-LD, article:published_time or any standard meta. This is the PwC
+#     pattern — add it once the publisher-specific dateMetaNames value is identified.
 schemaVersion: 1
 sources:
   # --- Consulting ---------------------------------------------------------
@@ -104,6 +121,90 @@ sources:
     language: en
     maxItemsPerRun: 30
     includePaths: []
+    excludePaths: []
+  - id: lek-insights
+    name: L.E.K. Insights
+    company: L.E.K. Consulting
+    category: consulting
+    homepageUrl: https://www.lek.com/
+    # No <link rel="alternate"> in <head>, but /rss.xml serves a real RSS 2.0
+    # channel. Audited 2026-08-23: 10 articles, newest 2 days old.
+    collectionMode: rss
+    feedUrl: https://www.lek.com/rss.xml
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+  - id: simon-kucher-insights
+    name: Simon-Kucher Insights
+    company: Simon-Kucher
+    category: consulting
+    homepageUrl: https://www.simon-kucher.com/
+    # /rss.xml and /en/rss.xml both serve the same channel; the unprefixed one is
+    # used so the feed is not pinned to a locale path. Audited 2026-08-23: 10
+    # articles, newest 1 day old.
+    collectionMode: rss
+    feedUrl: https://www.simon-kucher.com/rss.xml
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+  - id: oliver-wyman-insights
+    name: Oliver Wyman Insights
+    company: Oliver Wyman
+    category: consulting
+    homepageUrl: https://www.oliverwyman.com/
+    # No feed at any conventional path (all 404). sitemap.xml is a <sitemapindex>
+    # of 21 children whose newest entries are article-dense, with JSON-LD Article
+    # metadata on every sampled page. includePaths keeps the selection on thought
+    # leadership and away from the media center and error pages. Audited
+    # 2026-08-23: 30 articles, 12 keyword matches, newest 4 days old.
+    collectionMode: sitemap
+    feedUrl: https://www.oliverwyman.com/sitemap.xml
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: ['/our-expertise/insights/']
+    excludePaths: ['/error-pages/', '/contact-us']
+  - id: bearingpoint-insights
+    name: BearingPoint Insights
+    company: BearingPoint
+    category: consulting
+    homepageUrl: https://www.bearingpoint.com/
+    # No feed (all 404). sitemap.xml is a <sitemapindex> of 30 children; its
+    # freshest entries mix insights with the privacy statement and campaign
+    # landing pages, so includePaths pins the selection to the insights-and-events
+    # section. Audited 2026-08-23: 30 articles, 9 keyword matches, newest 3 days old.
+    collectionMode: sitemap
+    feedUrl: https://www.bearingpoint.com/sitemap.xml
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: ['/insights-events/']
+    excludePaths: []
+  - id: fti-consulting-insights
+    name: FTI Consulting Insights
+    company: FTI Consulting
+    category: consulting
+    homepageUrl: https://www.fticonsulting.com/
+    # /rss.xml, /atom.xml and /index.xml answer 403, but sitemap.xml is a plain
+    # <urlset> of 5423 URLs that serves fine. Only /insights/articles/ pages carry
+    # an extractable date — country insight listings and videos-and-podcasts
+    # entries do not — so includePaths targets just those. Audited 2026-08-23:
+    # 30 articles, 5 keyword matches, newest 4 days old.
+    collectionMode: sitemap
+    feedUrl: https://www.fticonsulting.com/sitemap.xml
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: ['/insights/articles/']
     excludePaths: []
   - id: aws-news-blog
     name: AWS News Blog

@@ -53,6 +53,14 @@ npx tsx scripts/audit-sources.ts --source-id=<id>
 Only set `enabled: true` once that reports real, recent, keyword-matching articles. Every source
 in `config/sources.yml` was validated this way — see the header comment at the top of that file.
 
+If your machine or sandbox cannot reach publisher domains at all, run the **Probe source
+candidates** workflow (`workflow_dispatch`) instead of the two steps above. It performs the same
+checks from a GitHub runner — declared feeds, conventional paths, `robots.txt` sitemaps, then a
+metadata sample through the production extractor — using the collector's own `fetchWithPolicy`,
+so it reproduces the 403-to-the-collector case that `curl` hides. Add the publisher to
+`CANDIDATES` in `scripts/probe-source-candidates.ts`, or probe one ad hoc with
+`--homepage=<url>`; its `audit_source_id` input runs the audit harness on the same runner.
+
 ## 4. Add the entry
 
 ```yaml
