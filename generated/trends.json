@@ -7,8 +7,8 @@
     "score": 34,
     "status": "stable",
     "articleCount": 1,
-    "previousArticleCount": 1,
-    "growthRate": 0,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 1,
     "leadingSourceIds": [
       "techcrunch"
@@ -37,10 +37,10 @@
       "983abfeb78ba93e4d74766cafbcaf74bebddeddbd10a068f83e2c0ee31b61f85",
       "6a8f3f0b01b07c48177469de98fdd0c4a5b2310a1fdf2819fe7e96b4bbfbc8ad",
       "f2fd2516f26ac23135c7bbdac65dd21c65bf2382266948cc8666bb8f2d90b016",
-      "4e763440b99bc6e639d3e13c1fbaa187be4bce3a88427377afd1f15dc3b4a922",
       "0af10b6ce4c0675e4d7b1299e2c4f96f9829b1ba95f596f1616cf21bd82fcc6a",
       "7a3389dd0d0e9cf065dfdb9d6d4f856dce477c83950ee19d382b5b75b3c6b414",
       "b2fe88ac5233545e49b6b6c99d00d55d798f0593671783f3523afeebc52c993c",
+      "4e763440b99bc6e639d3e13c1fbaa187be4bce3a88427377afd1f15dc3b4a922",
       "8a2f26df549a7bd73df6bbf8be18bd6ddb7835c82102d3cd6b8cdad2fc67398e",
       "9428cc2bc3c996d8505a0fdff4b7b0532b635f8bddc4272ecf0fa57da3a9db52",
       "4b63b8134d3b93905a19bae403303c8f35c2f0e28add8fea9befdb425c2af8c8"
@@ -65,8 +65,8 @@
     "relatedArticleIds": [
       "983abfeb78ba93e4d74766cafbcaf74bebddeddbd10a068f83e2c0ee31b61f85",
       "6a8f3f0b01b07c48177469de98fdd0c4a5b2310a1fdf2819fe7e96b4bbfbc8ad",
-      "4e763440b99bc6e639d3e13c1fbaa187be4bce3a88427377afd1f15dc3b4a922",
       "7a3389dd0d0e9cf065dfdb9d6d4f856dce477c83950ee19d382b5b75b3c6b414",
+      "4e763440b99bc6e639d3e13c1fbaa187be4bce3a88427377afd1f15dc3b4a922",
       "8a2f26df549a7bd73df6bbf8be18bd6ddb7835c82102d3cd6b8cdad2fc67398e",
       "03dde35f7e023aa6cd30e8363091ca715e72f5b6901bce30388f8bb516067dc1",
       "0c1b8ac4190705cb692e70f3d6245e84e837953d9fe87a53364e779c81171293",
@@ -198,21 +198,21 @@
     "score": 59,
     "status": "rising",
     "articleCount": 6,
-    "previousArticleCount": 20,
-    "growthRate": -70,
+    "previousArticleCount": 19,
+    "growthRate": -68,
     "distinctSourceCount": 3,
     "leadingSourceIds": [
       "techcrunch",
-      "venturebeat",
-      "infoq"
+      "infoq",
+      "venturebeat"
     ],
     "relatedArticleIds": [
       "e0cf4087263d4676e0505f98e8da3f156c40b91d5dedcd955dfb80bcbbdf948f",
       "89e7c92b661d65079653fb066b8b4106a727f63dd4a15b299b7e20f6d891c620",
       "d69d98e58a53054e1467e81fab393f79a5239ed6ad3c62243ce6774ea367dbff",
-      "efbde8355f8fb85d54559aa4b3bc1823e5221c35c7b6d7976b22ce1bd2c445b2",
       "00850b1911a5f9b22f23cddebea36e8c7fd485ca5899f6e597a632615e53d84b",
-      "416c0c38cbc7fc9919c4ae80a01622bbae2d8cf707aca429549110e38dc2b0d3"
+      "416c0c38cbc7fc9919c4ae80a01622bbae2d8cf707aca429549110e38dc2b0d3",
+      "830711aca517bbb0172a98beedeec5b70a785b9c57afaabf041abb1ae172ff20"
     ]
   },
   {
@@ -222,9 +222,9 @@
     "timeframe": "30d",
     "score": 94,
     "status": "breakout",
-    "articleCount": 252,
+    "articleCount": 253,
     "previousArticleCount": 75,
-    "growthRate": 236,
+    "growthRate": 237,
     "distinctSourceCount": 41,
     "leadingSourceIds": [
       "openai-news",
@@ -236,12 +236,12 @@
       "983abfeb78ba93e4d74766cafbcaf74bebddeddbd10a068f83e2c0ee31b61f85",
       "6a8f3f0b01b07c48177469de98fdd0c4a5b2310a1fdf2819fe7e96b4bbfbc8ad",
       "f2fd2516f26ac23135c7bbdac65dd21c65bf2382266948cc8666bb8f2d90b016",
-      "4e763440b99bc6e639d3e13c1fbaa187be4bce3a88427377afd1f15dc3b4a922",
       "08c542988ee1493af641e604dd11ea278fc1d93ed0a9f75fe2af74c26d5a0485",
       "0af10b6ce4c0675e4d7b1299e2c4f96f9829b1ba95f596f1616cf21bd82fcc6a",
       "7a3389dd0d0e9cf065dfdb9d6d4f856dce477c83950ee19d382b5b75b3c6b414",
       "b2fe88ac5233545e49b6b6c99d00d55d798f0593671783f3523afeebc52c993c",
-      "3d196224ab27a2df369cbcf0994d8b85125e1e44f774a26b897579f4f210801c"
+      "3d196224ab27a2df369cbcf0994d8b85125e1e44f774a26b897579f4f210801c",
+      "f8ec64126bdac17b3b31c4b605b37e973d9d687edd758330e6ea3e1eb48255f8"
     ]
   },
   {
@@ -251,9 +251,9 @@
     "timeframe": "7d",
     "score": 93,
     "status": "breakout",
-    "articleCount": 132,
+    "articleCount": 133,
     "previousArticleCount": 47,
-    "growthRate": 181,
+    "growthRate": 183,
     "distinctSourceCount": 31,
     "leadingSourceIds": [
       "theregister",
@@ -263,9 +263,9 @@
     "relatedArticleIds": [
       "983abfeb78ba93e4d74766cafbcaf74bebddeddbd10a068f83e2c0ee31b61f85",
       "6a8f3f0b01b07c48177469de98fdd0c4a5b2310a1fdf2819fe7e96b4bbfbc8ad",
-      "4e763440b99bc6e639d3e13c1fbaa187be4bce3a88427377afd1f15dc3b4a922",
       "08c542988ee1493af641e604dd11ea278fc1d93ed0a9f75fe2af74c26d5a0485",
       "7a3389dd0d0e9cf065dfdb9d6d4f856dce477c83950ee19d382b5b75b3c6b414",
+      "4e763440b99bc6e639d3e13c1fbaa187be4bce3a88427377afd1f15dc3b4a922",
       "8a2f26df549a7bd73df6bbf8be18bd6ddb7835c82102d3cd6b8cdad2fc67398e",
       "03dde35f7e023aa6cd30e8363091ca715e72f5b6901bce30388f8bb516067dc1",
       "0c1b8ac4190705cb692e70f3d6245e84e837953d9fe87a53364e779c81171293",
@@ -595,7 +595,7 @@
     "score": 0,
     "status": "declining",
     "articleCount": 0,
-    "previousArticleCount": 2,
+    "previousArticleCount": 1,
     "growthRate": -100,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
