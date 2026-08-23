@@ -1,0 +1,63 @@
+name: Probe source candidates
+
+# Manual-only discovery job. It hits live publishers to find out which candidate
+# firms expose a usable RSS/Atom feed or sitemap, so config/sources.yml entries can
+# be written from observed responses rather than guessed URLs (AGENTS.md #9).
+#
+# It never writes to the repository, the data branch, or Pages — the output is a
+# step summary plus a JSON artifact to read before opening the follow-up PR.
+
+on:
+  workflow_dispatch:
+    inputs:
+      candidate_id:
+        description: 'Limit the probe to a single candidate id (see scripts/probe-source-candidates.ts)'
+        type: string
+        default: ''
+  # TEMPORARY: workflow_dispatch only becomes available once the file is on the
+  # default branch, so this push trigger is what produces the first probe run.
+  # Remove it in the follow-up commit that adds the validated sources.
+  push:
+    branches: [claude/source-update-frequency-bxretj]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trendsignal-probe-source-candidates
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    name: Probe candidate publishers
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Probe candidates
+        env:
+          CANDIDATE_ID: ${{ github.event.inputs.candidate_id }}
+        run: |
+          set -eo pipefail
+          args=(--json=probe-report.json)
+          if [ -n "$CANDIDATE_ID" ]; then args+=("--candidate-id=$CANDIDATE_ID"); fi
+          npx tsx scripts/probe-source-candidates.ts "${args[@]}"
+
+      - name: Upload probe report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: source-candidate-probe
+          path: probe-report.json
+          retention-days: 14
+          if-no-files-found: warn
