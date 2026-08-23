@@ -53,6 +53,16 @@ jobs:
           if [ -n "$CANDIDATE_ID" ]; then args+=("--candidate-id=$CANDIDATE_ID"); fi
           npx tsx scripts/probe-source-candidates.ts "${args[@]}"
 
+      # TEMPORARY: confirms what the five newly enabled sources actually yield
+      # end-to-end (docs/adding-a-source.md step 5). Remove with the push trigger.
+      - name: Audit newly enabled sources
+        run: |
+          set -eo pipefail
+          for id in lek-insights simon-kucher-insights oliver-wyman-insights bearingpoint-insights fti-consulting-insights; do
+            echo "===== $id ====="
+            npx tsx scripts/audit-sources.ts --source-id="$id" || echo "audit failed for $id"
+          done
+
       - name: Upload probe report
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

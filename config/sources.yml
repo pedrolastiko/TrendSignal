@@ -136,6 +136,270 @@ sources:
     includePaths: []
     excludePaths: []
 
+  # Independent and specialist consultancies, validated 2026-08-23 by the
+  # `Probe source candidates` workflow (scripts/probe-source-candidates.ts), which
+  # runs the same fetch policy and metadata extractor the collector uses.
+
+  - id: lek-insights
+    name: L.E.K. Insights
+    company: L.E.K. Consulting
+    category: consulting
+    homepageUrl: https://www.lek.com/
+    # Undeclared in <head>, but /rss.xml serves a real RSS 2.0 channel: 200 with
+    # 10 items. No sitemap needed.
+    collectionMode: rss
+    feedUrl: https://www.lek.com/rss.xml
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: simon-kucher-insights
+    name: Simon-Kucher Insights
+    company: Simon-Kucher
+    category: consulting
+    homepageUrl: https://www.simon-kucher.com/
+    # /rss.xml and /en/rss.xml both return 200 with 10 items; the unprefixed one
+    # is used so the feed is not pinned to a locale path.
+    collectionMode: rss
+    feedUrl: https://www.simon-kucher.com/rss.xml
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: oliver-wyman-insights
+    name: Oliver Wyman Insights
+    company: Oliver Wyman
+    category: consulting
+    homepageUrl: https://www.oliverwyman.com/
+    # No feed at any conventional path (all 404). sitemap.xml is a <sitemapindex>
+    # of 21 children; the newest ones are article-dense — all 5 sampled pages
+    # extracted a title and datePublished from JSON-LD. includePaths keeps the
+    # selection on thought leadership and away from media-center and error pages.
+    collectionMode: sitemap
+    feedUrl: https://www.oliverwyman.com/sitemap.xml
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: ['/our-expertise/insights/']
+    excludePaths: ['/error-pages/', '/contact-us']
+
+  - id: bearingpoint-insights
+    name: BearingPoint Insights
+    company: BearingPoint
+    category: consulting
+    homepageUrl: https://www.bearingpoint.com/
+    # No feed (all 404). sitemap.xml is a <sitemapindex> of 30 children; 5/5
+    # sampled pages extracted title and date, but the freshest entries mix
+    # insights with the privacy statement and campaign landing pages, so
+    # includePaths pins the selection to the insights-and-events section.
+    collectionMode: sitemap
+    feedUrl: https://www.bearingpoint.com/sitemap.xml
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: ['/insights-events/']
+    excludePaths: []
+
+  - id: fti-consulting-insights
+    name: FTI Consulting Insights
+    company: FTI Consulting
+    category: consulting
+    homepageUrl: https://www.fticonsulting.com/
+    # /rss.xml, /atom.xml and /index.xml answer 403, but sitemap.xml is a plain
+    # <urlset> of 5423 URLs that serves fine. Only the /insights/articles/ pages
+    # carry an extractable date — country insight listings and the
+    # videos-and-podcasts entries do not — so includePaths targets just those.
+    collectionMode: sitemap
+    feedUrl: https://www.fticonsulting.com/sitemap.xml
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: ['/insights/articles/']
+    excludePaths: []
+
+  - id: kearney-insights
+    name: Kearney Insights
+    company: Kearney
+    category: consulting
+    homepageUrl: https://www.kearney.com/
+    # sitemap.xml is reachable (<urlset>, 4991 URLs) but carries no usable
+    # lastmod ordering: the entries it surfaces first are the industry index and
+    # careers/diversity pages, none of which expose a publication date (0/5
+    # sampled). No article path could be identified to filter on, so this stays
+    # disabled rather than shipping a source that collects nothing.
+    collectionMode: sitemap
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: roland-berger-insights
+    name: Roland Berger Insights
+    company: Roland Berger
+    category: consulting
+    homepageUrl: https://www.rolandberger.com/
+    # The homepage answers 200 but declares no <link rel="alternate">, and every
+    # conventional path 404s — including /sitemap.xml and /sitemap_index.xml, so
+    # there is not even a sitemap to fall back on at the origin root.
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: arthur-d-little-insights
+    name: Arthur D. Little Insights
+    company: Arthur D. Little
+    category: consulting
+    homepageUrl: https://www.adlittle.com/
+    # Bot protection: every request answers 403, robots.txt and the homepage
+    # included, with the same contact-carrying User-Agent the other sources
+    # accept. Nothing to validate until that changes.
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: alvarez-marsal-insights
+    name: Alvarez & Marsal Insights
+    company: Alvarez & Marsal
+    category: consulting
+    homepageUrl: https://www.alvarezandmarsal.com/
+    # Bot protection: 403 on every path including robots.txt, same as Arthur D.
+    # Little and Gartner.
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: pa-consulting-insights
+    name: PA Consulting Insights
+    company: PA Consulting
+    category: consulting
+    homepageUrl: https://www.paconsulting.com/
+    # sitemap.xml resolves (<sitemapindex>, 21 children) but its freshest entries
+    # are job postings, which carry no publication date (0/5 sampled). The
+    # client-story pages sampled in an earlier run were equally dateless, so no
+    # includePaths value is known to work yet.
+    collectionMode: sitemap
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: occ-strategy-insights
+    name: OC&C Insights
+    company: OC&C Strategy Consultants
+    category: consulting
+    homepageUrl: https://www.occstrategy.com/
+    # /feed, /rss and /insights/feed/ all answer 200 with HTML, not XML — a
+    # redirect to a page, not a feed. sitemap_index.xml is a real <sitemapindex>
+    # (16 children), but its newest entries are the per-locale /insights/ listing
+    # pages rather than articles (0/5 extractable), and the article URLs found in
+    # an earlier run were 2021 press items duplicated across locales.
+    collectionMode: sitemap
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 4
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: protiviti-insights
+    name: Protiviti Insights
+    company: Protiviti
+    category: consulting
+    homepageUrl: https://www.protiviti.com/
+    # sitemap.xml is a <sitemapindex> of 30 children, but the newest ones are
+    # per-locale service pages (/ve-es/...) with no publication date (0/5
+    # sampled). Needs a locale-scoped child sitemap this probe did not identify.
+    collectionMode: sitemap
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: mercer-insights
+    name: Mercer Insights
+    company: Mercer
+    category: consulting
+    homepageUrl: https://www.mercer.com/
+    # Distinct from the others: sitemap.xml (<urlset>, 2305 URLs) does surface
+    # genuine /insights/ article URLs, but none of them yielded a title and date
+    # — no JSON-LD, no article:published_time, no standard date meta. This is the
+    # dateMetaNames case (as with PwC); enabling it needs the publisher-specific
+    # meta name identified first.
+    collectionMode: sitemap
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: korn-ferry-insights
+    name: Korn Ferry Insights
+    company: Korn Ferry
+    category: consulting
+    homepageUrl: https://www.kornferry.com/
+    # sitemap.xml is a large <urlset> (10188 URLs) whose freshest entries are the
+    # per-locale insight listing pages (/uk/insights, /de/einblicke, ...), not
+    # articles — 0/5 sampled carried a date.
+    collectionMode: sitemap
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 5
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
+  - id: gartner-newsroom
+    name: Gartner Newsroom
+    company: Gartner
+    category: consulting
+    homepageUrl: https://www.gartner.com/
+    # Bot protection: 403 on every path including robots.txt.
+    collectionMode: rss
+    feedUrl: REPLACE_AFTER_VALIDATION
+    enabled: false
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
+
   # --- Technology ----------------------------------------------------------
   - id: aws-news-blog
     name: AWS News Blog
