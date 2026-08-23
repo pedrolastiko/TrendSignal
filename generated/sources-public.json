@@ -144,8 +144,8 @@
     "name": "Deloitte Insights",
     "company": "Deloitte",
     "category": "consulting",
-    "homepageUrl": "https://www2.deloitte.com/us/en/insights.html",
-    "collectionMode": "html",
+    "homepageUrl": "https://www.deloitte.com/global/en.html",
+    "collectionMode": "sitemap",
     "enabled": true,
     "priority": 6
   },
@@ -325,8 +325,8 @@
     "company": "PwC",
     "category": "consulting",
     "homepageUrl": "https://www.pwc.com/gx/en/issues.html",
-    "collectionMode": "rss",
-    "enabled": false,
+    "collectionMode": "sitemap",
+    "enabled": true,
     "priority": 5
   },
   {
@@ -466,7 +466,7 @@
     "category": "media",
     "homepageUrl": "https://www.wired.com/",
     "collectionMode": "rss",
-    "enabled": true,
+    "enabled": false,
     "priority": 5
   },
   {
