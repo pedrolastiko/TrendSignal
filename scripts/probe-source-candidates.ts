@@ -22,6 +22,7 @@
  */
 import { writeFile, appendFile } from 'node:fs/promises';
 import * as cheerio from 'cheerio';
+import { XMLParser } from 'fast-xml-parser';
 import pLimit from 'p-limit';
 import { fetchWithPolicy, HttpFetchError } from './http.ts';
 import { extractArticleMetadata } from './adapters/html-metadata.ts';
@@ -37,7 +38,25 @@ const MAX_ROBOTS_SITEMAPS = 4;
 /** Child sitemaps followed from a <sitemapindex> before sampling article pages. */
 const MAX_CHILD_SITEMAPS = 2;
 /** Article pages fetched per sitemap hit to verify extractable metadata. */
-const METADATA_SAMPLE_SIZE = 3;
+const METADATA_SAMPLE_SIZE = 5;
+
+/** Mirrors the sitemap adapter's parser configuration so both read a document identically. */
+const xmlParser = new XMLParser({ ignoreAttributes: false });
+
+interface SitemapEntry {
+  loc: string;
+  lastmod?: string;
+}
+
+interface ParsedSitemap {
+  urlset?: { url?: SitemapEntry | SitemapEntry[] };
+  sitemapindex?: { sitemap?: SitemapEntry | SitemapEntry[] };
+}
+
+function toArray<T>(value: T | T[] | undefined): T[] {
+  if (!value) return [];
+  return Array.isArray(value) ? value : [value];
+}
 
 const repositoryUrl = resolveRepositoryUrl();
 
@@ -218,8 +237,16 @@ function countEntries(body: string, kind: EndpointKind): number {
   return 0;
 }
 
-function extractLocs(body: string): string[] {
-  return [...body.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/gi)].map((m) => m[1]).filter(isSafeUrl);
+/**
+ * Parsed with the same XMLParser configuration the sitemap adapter uses, so a
+ * document it can read is a document this can read.
+ */
+function extractEntries(body: string): SitemapEntry[] {
+  const parsed = xmlParser.parse(body) as ParsedSitemap;
+  const nodes = [...toArray(parsed.urlset?.url), ...toArray(parsed.sitemapindex?.sitemap)];
+  return nodes
+    .filter((entry): entry is SitemapEntry => Boolean(entry.loc && isSafeUrl(entry.loc)))
+    .sort((a, b) => (b.lastmod ?? '').localeCompare(a.lastmod ?? ''));
 }
 
 function newestLastmod(body: string): string | undefined {
@@ -293,19 +320,28 @@ async function sampleMetadata(
   body: string,
   kind: EndpointKind,
 ): Promise<CandidateReport['metadataSample']> {
-  let locs = extractLocs(body);
+  let entries = extractEntries(body);
 
+  // Mirror collectFromSitemap: follow the most recently modified children of an
+  // index, then work newest-first. Sampling in document order instead reports
+  // whatever a publisher happens to list last -- usually static service pages --
+  // and understates a sitemap that does carry dated articles.
   if (kind === 'sitemap-index') {
-    const children = locs.slice(0, MAX_CHILD_SITEMAPS);
-    locs = [];
+    const children = entries.slice(0, MAX_CHILD_SITEMAPS);
+    entries = [];
     for (const child of children) {
-      const { result, body: childBody } = await probe(child);
-      if (result.ok && childBody) locs.push(...extractLocs(childBody));
+      const { result, body: childBody } = await probe(child.loc);
+      if (result.ok && childBody) entries.push(...extractEntries(childBody));
     }
+    entries.sort((a, b) => (b.lastmod ?? '').localeCompare(a.lastmod ?? ''));
   }
 
-  // Sitemaps are usually oldest-first, so the tail is the freshest content.
-  const sample = locs.slice(-METADATA_SAMPLE_SIZE);
+  // A nested sitemap is not an article page; following it here would just report
+  // "no extractable title/date" for an XML document.
+  const sample = entries
+    .filter((entry) => !new URL(entry.loc).pathname.endsWith('.xml'))
+    .slice(0, METADATA_SAMPLE_SIZE)
+    .map((entry) => entry.loc);
   const examples: string[] = [];
   let extracted = 0;
 
