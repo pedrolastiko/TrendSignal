@@ -22,14 +22,13 @@ import { fetchWithPolicy } from './http.ts';
 import { collectFromSitemap } from './adapters/sitemap.ts';
 import { loadSourcesConfig } from './config-loader.ts';
 import { resolveRepositoryUrl } from './repository-url.ts';
+import { splitAndCleanTags } from './tags.ts';
 import type { SourceConfig } from './schemas.ts';
 
 const SOURCE_CONCURRENCY = 5;
 const PAGE_FETCH_CONCURRENCY = 3;
 /** Article pages fetched per sitemap source — each one is a full HTML download. */
 const SAMPLE_PAGES_PER_SITEMAP_SOURCE = 8;
-/** Tag values longer than this are prose, not a tag (some publishers put a sentence in `keywords`). */
-const MAX_TAG_LENGTH = 60;
 const DEFAULT_TOP_TAGS = 80;
 
 const repositoryUrl = resolveRepositoryUrl();
@@ -66,26 +65,9 @@ interface SourceReport {
   error?: string;
 }
 
-/**
- * Tag values arrive with wildly inconsistent shape — leading hashes, wrapping quotes,
- * comma-joined strings, sentence case. Normalizing here keeps the frequency table from
- * splitting the same concept across several near-identical rows.
- */
-function cleanTagValue(raw: string): string[] {
-  return raw
-    .split(/[,;|]/)
-    .map((part) =>
-      part
-        .replace(/^#/, '')
-        .replace(/^["'\s]+|["'\s]+$/g, '')
-        .replace(/\s+/g, ' ')
-        .trim(),
-    )
-    .filter((part) => part.length > 1 && part.length <= MAX_TAG_LENGTH);
-}
-
 function addTags(tags: ItemTags, channel: TagChannel, values: (string | undefined)[]): void {
-  const cleaned = values.filter((v): v is string => Boolean(v)).flatMap(cleanTagValue);
+  // No stoplist here on purpose: the survey must show the editorial rubrics too.
+  const cleaned = splitAndCleanTags(values);
   if (cleaned.length === 0) return;
   tags.byChannel[channel] = [...(tags.byChannel[channel] ?? []), ...cleaned];
 }

@@ -25,7 +25,10 @@ export const articleSchema = z.object({
   summary: z.string().max(320),
   imageUrl: z.string().url().optional(),
   language: z.enum(['fr', 'en', 'unknown']),
+  // Defaulted so the app keeps rendering against data published before tags existed.
+  tags: z.array(z.string()).default([]),
   matchedKeywordIds: z.array(z.string()),
+  tagMatchedIds: z.array(z.string()).default([]),
   relevanceScore: z.number().int().min(0).max(100),
   trendScore: z.number().int().min(0).max(100).optional(),
 });

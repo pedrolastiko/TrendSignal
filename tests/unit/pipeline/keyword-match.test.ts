@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { matchKeywords } from '../../../scripts/keyword-match.ts';
+import { matchKeywords, matchKeywordsByTags } from '../../../scripts/keyword-match.ts';
 import type { KeywordConfig } from '../../../scripts/schemas.ts';
 
 function keyword(overrides: Partial<KeywordConfig>): KeywordConfig {
@@ -8,6 +8,7 @@ function keyword(overrides: Partial<KeywordConfig>): KeywordConfig {
     labels: { fr: 'Test', en: 'Test' },
     category: 'technology',
     terms: ['test'],
+    aliases: [],
     excludedTerms: [],
     weight: 1,
     enabled: true,
@@ -81,5 +82,26 @@ describe('matchKeywords', () => {
     );
     expect(result.titleMatchedIds).toContain('kw');
     expect(result.summaryMatchedIds).not.toContain('kw');
+  });
+});
+
+describe('matchKeywordsByTags', () => {
+  const ai = keyword({ id: 'ai', terms: ['artificial intelligence'], aliases: ['ai', 'ai & ml'] });
+
+  it('matches an alias regardless of case, separators and ampersand spelling', () => {
+    expect(matchKeywordsByTags(['AI'], [ai])).toEqual(['ai']);
+    expect(matchKeywordsByTags(['AI & ML'], [ai])).toEqual(['ai']);
+    expect(matchKeywordsByTags(['ai-and-ml'], [ai])).toEqual(['ai']);
+  });
+
+  it('matches a term exactly, never as a substring', () => {
+    expect(matchKeywordsByTags(['Artificial Intelligence'], [ai])).toEqual(['ai']);
+    // "AI Bots" contains the alias "ai" but is a different label the publisher chose.
+    expect(matchKeywordsByTags(['AI Bots'], [ai])).toEqual([]);
+  });
+
+  it('ignores disabled keywords and empty tag lists', () => {
+    expect(matchKeywordsByTags(['ai'], [{ ...ai, enabled: false }])).toEqual([]);
+    expect(matchKeywordsByTags([], [ai])).toEqual([]);
   });
 });

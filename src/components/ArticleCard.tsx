@@ -5,6 +5,8 @@ import { useI18n } from '../hooks/useI18n';
 import { CATEGORY_LABELS } from '../data/categories';
 
 const PLACEHOLDER_IMAGE = `${import.meta.env.BASE_URL}images/article-placeholder.svg`;
+/** Tag-heavy publishers emit a dozen per article; the card shows the first few. */
+const MAX_VISIBLE_TAGS = 5;
 
 function formatDate(iso: string, locale: string): string {
   const date = new Date(iso);
@@ -68,6 +70,19 @@ export function ArticleCard({
         )}
 
         <p className="line-clamp-4 text-sm text-muted">{article.summary}</p>
+
+        {article.tags.length > 0 && (
+          <ul className="flex flex-wrap gap-1.5" aria-label={t.article.publisherTags}>
+            {article.tags.slice(0, MAX_VISIBLE_TAGS).map((tag) => (
+              <li
+                key={tag}
+                className="rounded-full border border-border px-2 py-0.5 text-xs text-muted"
+              >
+                {tag}
+              </li>
+            ))}
+          </ul>
+        )}
 
         <div className="mt-auto flex items-center justify-between pt-2 text-xs text-muted">
           <span>{formatDate(article.publishedAt, locale)}</span>

@@ -15,9 +15,6 @@ on:
         description: 'How many vocabulary rows to render'
         type: string
         default: '80'
-  # TEMPORARY: workflow_dispatch is only available once the file is on the default branch.
-  push:
-    branches: [claude/source-update-frequency-bxretj]
 
 permissions:
   contents: read

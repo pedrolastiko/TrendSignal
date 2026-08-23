@@ -18,7 +18,11 @@ export interface Article {
   summary: string;
   imageUrl?: string;
   language: 'fr' | 'en' | 'unknown';
+  /** Publisher-supplied tags, normalized during collection. */
+  tags: string[];
   matchedKeywordIds: string[];
+  /** Keywords reached through a tag alias; not yet folded into relevance or trends. */
+  tagMatchedIds: string[];
   relevanceScore: number;
   trendScore?: number;
 }

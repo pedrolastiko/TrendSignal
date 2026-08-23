@@ -10,6 +10,7 @@ const keywords: KeywordConfig[] = [
     labels: { fr: 'Zero Trust', en: 'Zero Trust' },
     category: 'cybersecurity',
     terms: ['zero trust'],
+    aliases: [],
     excludedTerms: [],
     weight: 1,
     enabled: true,
@@ -65,7 +66,9 @@ function article(overrides: Partial<Article>): Article {
     discoveredAt: now.toISOString(),
     summary: 'Summary',
     language: 'en',
+    tags: [],
     matchedKeywordIds: ['zero-trust'],
+    tagMatchedIds: [],
     relevanceScore: 50,
     ...overrides,
   };

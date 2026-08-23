@@ -48,6 +48,13 @@ export const keywordConfigSchema = z.object({
   labels: z.object({ fr: z.string().min(1), en: z.string().min(1) }),
   category: z.string().min(1),
   terms: z.array(z.string().min(1)).min(1),
+  /**
+   * Publisher tag spellings that denote this keyword. Matched by exact equality on the
+   * normalized tag key, never as a substring — a tag is an explicit assertion, so it
+   * needs none of the word-boundary machinery `terms` requires, and exact matching keeps
+   * a broad alias like "ai" from firing on unrelated prose.
+   */
+  aliases: z.array(z.string()).default([]),
   excludedTerms: z.array(z.string()).default([]),
   weight: z.number().positive(),
   enabled: z.boolean(),
@@ -89,7 +96,15 @@ export const articleSchema = z.object({
   summary: z.string().max(320),
   imageUrl: z.string().url().optional(),
   language: z.enum(['fr', 'en', 'unknown']),
+  /** Publisher-supplied tags, normalized but not mapped onto the vocabulary. */
+  tags: z.array(z.string()).default([]),
   matchedKeywordIds: z.array(z.string()),
+  /**
+   * Keywords matched through a tag alias rather than through the article text. Kept
+   * separate from `matchedKeywordIds` so the added recall can be measured before it is
+   * allowed to influence relevance or trends.
+   */
+  tagMatchedIds: z.array(z.string()).default([]),
   relevanceScore: z.number().int().min(0).max(100),
   trendScore: z.number().int().min(0).max(100).optional(),
 });

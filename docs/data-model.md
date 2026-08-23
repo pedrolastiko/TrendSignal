@@ -68,7 +68,9 @@ interface Article {
   summary: string; // plain text, <= 320 chars
   imageUrl?: string;
   language: 'fr' | 'en' | 'unknown';
+  tags: string[]; // publisher-supplied, normalized (see below)
   matchedKeywordIds: string[];
+  tagMatchedIds: string[]; // reached via a tag alias; not yet scored
   relevanceScore: number; // 0-100
   trendScore?: number; // 0-100, from the matching keyword's best 7d trend
 }
@@ -77,6 +79,27 @@ interface Article {
 See `src/types/index.ts` (browser) and `scripts/schemas.ts` (pipeline) for the full set of types —
 `KeywordDefinition`/`KeywordConfig`, `PublicSource`/`SourceConfig`, `SourceHealth`, `Trend`,
 `DataManifest`, `Statistics`.
+
+## Publisher tags (`scripts/tags.ts`)
+
+Sources that tag their own articles are a higher-precision signal than a term appearing in a
+summary: a tag is an assertion by the publisher, not an incidental occurrence. Collection reads
+them from `<category>` (RSS — by far the richest channel), and from JSON-LD `keywords`,
+`article:tag` and `<meta name="keywords">` on article pages.
+
+They are messy, so `normalizeTags` splits comma-joined values, strips decoration, drops a small
+stoplist of editorial rubrics (`uncategorized`, `company news`, `week in review`, …),
+de-duplicates on a case/accent/separator-folded key, and caps the count per article.
+
+Mapping a tag onto the vocabulary is separate, and deliberately so: a keyword's `aliases` list
+holds the spellings publishers use for it, and `matchKeywordsByTags` matches them by **exact
+equality** on the folded key — never as a substring. `terms` need word boundaries because they
+hunt a concept inside prose; a tag is already a discrete label, so `AI Bots` must not count as
+the alias `ai`.
+
+The result lands in `tagMatchedIds`, kept **separate from `matchedKeywordIds`**: relevance and
+trends still run on the text-matching model alone, so the extra recall tags provide can be
+measured from published data before it is allowed to move any score.
 
 ## Relevance scoring (`scripts/scoring.ts`)
 
@@ -129,7 +152,7 @@ Status thresholds:
 
 - `config/categories.yml` — the five `SourceCategory` values with bilingual labels.
 - `config/keywords.yml` — `KeywordDefinition`-shaped entries: id, bilingual labels, category,
-  `terms`, optional `excludedTerms`, `weight`, `enabled`.
+  `terms`, `aliases`, optional `excludedTerms`, `weight`, `enabled`.
 - `config/sources.yml` — `PublicSource`-shaped entries plus collector-only fields (`feedUrl`,
   `language`, `maxItemsPerRun`, `includePaths`, `excludePaths`). A source's `feedUrl` is only ever
   a real, validated endpoint when `enabled: true`; otherwise it's the literal string

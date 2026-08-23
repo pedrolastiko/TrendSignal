@@ -18,6 +18,7 @@ import {
   guessLanguage,
 } from './normalize.ts';
 import { scoreArticleRelevance } from './scoring.ts';
+import { matchKeywordsByTags } from './keyword-match.ts';
 import { updateSourceHealth, disabledSourceHealth } from './source-health.ts';
 import { collectFromRss } from './adapters/rss.ts';
 import { collectFromSitemap } from './adapters/sitemap.ts';
@@ -109,6 +110,10 @@ function buildArticleFromCandidate(
   );
 
   const existing = existingById.get(id);
+  const tags = candidate.tags ?? [];
+  // Recorded but not merged into matchedKeywordIds: relevance and trends stay on the
+  // text-matching model until the added recall has been measured against real data.
+  const tagMatchedIds = matchKeywordsByTags(tags, keywords);
 
   return {
     id,
@@ -125,7 +130,9 @@ function buildArticleFromCandidate(
     summary,
     imageUrl: candidate.imageUrl,
     language,
+    tags,
     matchedKeywordIds,
+    tagMatchedIds,
     relevanceScore,
   };
 }

@@ -53,6 +53,26 @@ describe('collectFromRss (fixture-backed, no live network)', () => {
     expect(aiArticle?.imageUrl).toBe('https://example-security.test/images/ai-governance.jpg');
   });
 
+  it('reads <category> elements as tags, dropping editorial rubrics and duplicates', async () => {
+    const source = baseSource({ feedUrl: `${server.baseUrl}/rss/feed.xml` });
+    const result = await collectFromRss(source, undefined, undefined);
+
+    const aiArticle = result.candidates.find((c) => c.title.includes('AI governance'));
+    // "Uncategorized" is an editorial rubric, not a topic.
+    expect(aiArticle?.tags).toEqual(['AI Governance', 'Responsible AI']);
+
+    const ransomware = result.candidates.find((c) => c.title.includes('Ransomware group'));
+    // "Ransomware" and "ransomware" are one tag; the first spelling seen is kept.
+    expect(ransomware?.tags).toEqual(['Ransomware', 'Threat Intelligence']);
+  });
+
+  it('leaves tags empty for an item with no <category>', async () => {
+    const source = baseSource({ feedUrl: `${server.baseUrl}/rss/feed.xml` });
+    const result = await collectFromRss(source, undefined, undefined);
+    const untagged = result.candidates.find((c) => c.title.includes('Souveraineté'));
+    expect(untagged?.tags).toEqual([]);
+  });
+
   it('caps the number of candidates at maxItemsPerRun for feeds larger than the limit', async () => {
     const source = baseSource({ feedUrl: `${server.baseUrl}/rss/feed.xml`, maxItemsPerRun: 2 });
     const result = await collectFromRss(source, undefined, undefined);
@@ -84,6 +104,19 @@ describe('collectFromSitemap (fixture-backed, no live network)', () => {
       'Post-quantum cryptography migration guidance published',
       'Zero Trust adoption accelerates across financial services',
     ]);
+  });
+
+  it('merges JSON-LD keywords with <meta name="keywords"> into article tags', async () => {
+    const source = baseSource({
+      collectionMode: 'sitemap',
+      feedUrl: `${server.baseUrl}/sitemap/sitemap.xml`,
+      includePaths: ['/pages/'],
+    });
+    const result = await collectFromSitemap(source, undefined, undefined);
+    const zeroTrust = result.candidates.find((c) => c.title.includes('Zero Trust'));
+    // JSON-LD first, then the meta list; "Company News" is stoplisted and "Zero Trust"
+    // appears in both channels but only once in the result.
+    expect(zeroTrust?.tags).toEqual(['Zero Trust', 'IAM', 'Cloud Security']);
   });
 
   it('resolves a <sitemapindex> by following its child sitemaps', async () => {
