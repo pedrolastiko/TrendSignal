@@ -1,0 +1,61 @@
+name: Survey article tags
+
+# Manual-only diagnostic. Measures how much tag metadata the configured sources expose
+# and aggregates the vocabulary they use, so the keyword taxonomy can be grounded in what
+# publishers actually publish. Read-only: no data branch write, no deploy.
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_id:
+        description: 'Limit the survey to a single enabled source id'
+        type: string
+        default: ''
+      top:
+        description: 'How many vocabulary rows to render'
+        type: string
+        default: '80'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trendsignal-survey-article-tags
+  cancel-in-progress: true
+
+jobs:
+  survey:
+    name: Survey tag metadata
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Survey tags
+        env:
+          SOURCE_ID: ${{ github.event.inputs.source_id }}
+          TOP: ${{ github.event.inputs.top }}
+        run: |
+          set -eo pipefail
+          args=(--json=tag-survey.json)
+          if [ -n "$SOURCE_ID" ]; then args+=("--source-id=$SOURCE_ID"); fi
+          if [ -n "$TOP" ]; then args+=("--top=$TOP"); fi
+          npx tsx scripts/survey-article-tags.ts "${args[@]}"
+
+      - name: Upload survey
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: article-tag-survey
+          path: tag-survey.json
+          retention-days: 14
+          if-no-files-found: warn

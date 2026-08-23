@@ -31,6 +31,7 @@ export interface TranslationDictionary {
     imageAlt: string;
     placeholderAlt: string;
     matchedKeywords: string;
+    publisherTags: string;
   };
   trends: {
     title: string;

@@ -10,6 +10,14 @@ keywords:
       - AI
       - intelligence artificielle
       - IA
+    aliases:
+      - ai
+      - artificial intelligence
+      - ai & ml
+      - ai and ml
+      - ai & machine learning
+      - machine learning
+      - ai/ml
     excludedTerms:
       - IA (International Accreditation)
     weight: 1.0
@@ -27,6 +35,12 @@ keywords:
       - LLM
       - IA générative
       - modèle de langage
+    aliases:
+      - generative ai
+      - genai
+      - large language models
+      - llm
+      - llms
     weight: 1.1
     enabled: true
 
@@ -41,6 +55,12 @@ keywords:
       - autonomous agent
       - IA agentique
       - agent autonome
+    aliases:
+      - agentic ai
+      - ai agents
+      - agents
+      - autonomous agents
+      - mcp
     weight: 1.2
     enabled: true
 
@@ -55,6 +75,12 @@ keywords:
       - AI Act
       - gouvernance de l'IA
       - IA responsable
+    aliases:
+      - ai governance
+      - responsible ai
+      - ai ethics
+      - ai policy
+      - ai act
     weight: 1.15
     enabled: true
 
@@ -68,6 +94,11 @@ keywords:
       - prompt injection
       - model security
       - sécurité de l'IA
+    aliases:
+      - ai security
+      - securing ai
+      - agentic soc
+      - ai safety
     weight: 1.2
     enabled: true
 
@@ -82,6 +113,13 @@ keywords:
       - information security
       - cybersécurité
       - sécurité informatique
+    aliases:
+      - security
+      - cybersecurity
+      - cyber security
+      - cyber
+      - infosec
+      - information security
     weight: 1.0
     enabled: true
 
@@ -95,6 +133,11 @@ keywords:
       - cyberdefense
       - cyberdéfense
       - défense cyber
+    aliases:
+      - cyber defense
+      - cyberdefense
+      - soc
+      - security operations
     weight: 1.05
     enabled: true
 
@@ -108,6 +151,13 @@ keywords:
       - cyber threat intelligence
       - CTI
       - renseignement sur les menaces
+    aliases:
+      - threat intelligence
+      - emergent threat response
+      - threat research
+      - cyber-crime
+      - cybercrime
+      - malware
     weight: 1.1
     enabled: true
 
@@ -120,6 +170,8 @@ keywords:
       - ransomware
       - rançongiciel
       - rançongiciels
+    aliases:
+      - ransomware
     weight: 1.2
     enabled: true
 
@@ -136,6 +188,10 @@ keywords:
       - souveraineté numérique
       - souveraineté des données
       - cloud souverain
+    aliases:
+      - digital sovereignty
+      - data sovereignty
+      - sovereign cloud
     excludedTerms:
       - political sovereignty
     weight: 1.2
@@ -151,6 +207,11 @@ keywords:
       - CSPM
       - sécurité du cloud
       - sécurité cloud
+    aliases:
+      - cloud security
+      - cloud & application security
+      - cspm
+      - sase
     weight: 1.05
     enabled: true
 
@@ -163,6 +224,9 @@ keywords:
       - zero trust
       - ZTNA
       - confiance zéro
+    aliases:
+      - zero trust
+      - ztna
     weight: 1.1
     enabled: true
 
@@ -178,6 +242,11 @@ keywords:
       - PAM
       - gestion des identités et des accès
       - gestion des accès à privilèges
+    aliases:
+      - identity and access management
+      - iam
+      - identity
+      - pam
     weight: 1.05
     enabled: true
 
@@ -190,6 +259,12 @@ keywords:
       - DevSecOps
       - platform engineering
       - ingénierie de plateforme
+    aliases:
+      - devsecops
+      - devops
+      - platform engineering
+      - developer platform
+      - ci/cd
     weight: 1.0
     enabled: true
 
@@ -204,6 +279,12 @@ keywords:
       - quantum computing
       - cryptographie post-quantique
       - informatique quantique
+    aliases:
+      - post-quantum cryptography
+      - pqc
+      - quantum computing
+      - quantum
+      - cryptography
     weight: 1.15
     enabled: true
 
@@ -218,6 +299,10 @@ keywords:
       - ICS security
       - sécurité OT
       - sécurité des systèmes industriels
+    aliases:
+      - ot security
+      - ics security
+      - operational technology
     weight: 1.1
     enabled: true
 
@@ -231,6 +316,11 @@ keywords:
       - TPRM
       - vendor risk management
       - gestion des risques tiers
+    aliases:
+      - third-party risk management
+      - tprm
+      - vendor risk
+      - supply chain risk
     weight: 1.0
     enabled: true
 
@@ -245,6 +335,11 @@ keywords:
       - supply chain attack
       - sécurité de la chaîne logicielle
       - chaîne d'approvisionnement logicielle
+    aliases:
+      - software supply chain security
+      - sbom
+      - supply chain security
+      - open source security
     weight: 1.15
     enabled: true
 
@@ -260,5 +355,11 @@ keywords:
       - protection des données
       - respect de la vie privée
       - RGPD
+    aliases:
+      - data protection
+      - privacy
+      - gdpr
+      - rgpd
+      - privacy engineering
     weight: 1.0
     enabled: true

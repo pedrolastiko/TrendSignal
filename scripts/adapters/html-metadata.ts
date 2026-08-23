@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import { isSafeUrl } from '../normalize.ts';
+import { normalizeTags } from '../tags.ts';
 import type { RawArticleCandidate } from './types.ts';
 
 const ARTICLE_TYPES = new Set(['Article', 'NewsArticle', 'BlogPosting']);
@@ -14,6 +15,7 @@ interface JsonLdNode {
   description?: string;
   image?: string | { url?: string } | (string | { url?: string })[];
   inLanguage?: string;
+  keywords?: string | string[];
 }
 
 function isArticleType(node: JsonLdNode): boolean {
@@ -64,6 +66,24 @@ function findArticleJsonLd($: cheerio.CheerioAPI): JsonLdNode | undefined {
 function meta($: cheerio.CheerioAPI, selector: string): string | undefined {
   const value = $(selector).attr('content');
   return value?.trim() || undefined;
+}
+
+/**
+ * Tag channels an article page can carry, in the order they are trusted. Of these only
+ * `<meta name="keywords">` is currently populated anywhere in `config/sources.yml`
+ * (Oliver Wyman), but JSON-LD `keywords` and `article:tag` are the two standard ways to
+ * express the same thing, so a publisher adopting either is picked up without a change
+ * here.
+ */
+function extractTags($: cheerio.CheerioAPI, jsonLd: JsonLdNode | undefined): string[] {
+  const jsonLdKeywords = jsonLd?.keywords;
+  return normalizeTags([
+    ...(Array.isArray(jsonLdKeywords) ? jsonLdKeywords : [jsonLdKeywords]),
+    ...$('meta[property="article:tag"]')
+      .map((_, el) => $(el).attr('content'))
+      .get(),
+    meta($, 'meta[name="keywords"]'),
+  ]);
 }
 
 /**
@@ -167,5 +187,6 @@ export function extractArticleMetadata(
     summary,
     imageUrl,
     language,
+    tags: extractTags($, jsonLd),
   };
 }

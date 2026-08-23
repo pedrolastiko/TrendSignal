@@ -6,6 +6,8 @@ export interface RawArticleCandidate {
   summary: string;
   imageUrl?: string;
   language?: 'fr' | 'en';
+  /** Publisher-supplied tags, already normalized by `scripts/tags.ts`. */
+  tags?: string[];
 }
 
 export interface AdapterResult {

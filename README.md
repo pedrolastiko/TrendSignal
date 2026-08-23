@@ -147,7 +147,10 @@ TrendSignal is an installable Progressive Web App — including on iPhone/iPad, 
   extractor. Read-only — it never writes to the `data` branch or deploys. Use it to validate a
   `feedUrl` when your own machine cannot reach publisher domains; `audit_source_id` additionally
   audits an already-enabled source.
-- All three workflows use the default `GITHUB_TOKEN` (never a PAT) with per-job minimal permissions, and
+- `.github/workflows/survey-article-tags.yml` — manual (`workflow_dispatch`) diagnostic that
+  measures how much tag metadata each source exposes and aggregates the vocabulary they use.
+  Read-only. Use it before extending `aliases` in `config/keywords.yml`.
+- All four workflows use the default `GITHUB_TOKEN` (never a PAT) with per-job minimal permissions, and
   pin third-party actions to a full commit SHA with a version comment.
 
 No repository secrets are required for the default setup.

@@ -16,7 +16,9 @@ function article(overrides: Partial<Article>): Article {
     discoveredAt: '2026-08-20T10:05:00.000Z',
     summary: 'A short summary.',
     language: 'en',
+    tags: [],
     matchedKeywordIds: [],
+    tagMatchedIds: [],
     relevanceScore: 10,
     ...overrides,
   };

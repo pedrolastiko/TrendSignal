@@ -1,4 +1,5 @@
 import type { KeywordConfig } from './schemas.ts';
+import { tagKey } from './tags.ts';
 
 function escapeRegExp(value: string): string {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -45,6 +46,29 @@ export interface KeywordMatchResult {
   matchedKeywordIds: string[];
   titleMatchedIds: string[];
   summaryMatchedIds: string[];
+}
+
+/**
+ * Maps publisher tags onto the vocabulary by exact match against a keyword's `aliases`
+ * or its `terms`, on the normalized tag key.
+ *
+ * Deliberately exact rather than substring: `terms` exist to find a concept inside
+ * running prose and need word boundaries to stay honest, whereas a tag is a discrete
+ * label the publisher chose. Treating "AI Bots" as a match for the term "AI" would
+ * reintroduce exactly the over-matching the word-boundary matcher avoids.
+ */
+export function matchKeywordsByTags(tags: string[], keywords: KeywordConfig[]): string[] {
+  if (tags.length === 0) return [];
+  const keys = new Set(tags.map(tagKey));
+
+  return keywords
+    .filter(
+      (keyword) =>
+        keyword.enabled &&
+        [...keyword.aliases, ...keyword.terms].some((value) => keys.has(tagKey(value))),
+    )
+    .map((keyword) => keyword.id)
+    .sort();
 }
 
 export function matchKeywords(

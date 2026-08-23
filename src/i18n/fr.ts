@@ -46,6 +46,7 @@ export const fr: TranslationDictionary = {
     imageAlt: 'Illustration article',
     placeholderAlt: 'Aucune image disponible',
     matchedKeywords: 'Mots-clés correspondants',
+    publisherTags: "Tags de l'éditeur",
   },
   trends: {
     title: 'Tendances',

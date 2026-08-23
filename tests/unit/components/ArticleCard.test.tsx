@@ -18,7 +18,9 @@ function baseArticle(overrides: Partial<Article> = {}): Article {
     discoveredAt: '2026-08-20T10:05:00.000Z',
     summary: 'A short summary of the article.',
     language: 'en',
+    tags: [],
     matchedKeywordIds: ['zero-trust'],
+    tagMatchedIds: [],
     relevanceScore: 72,
     ...overrides,
   };
@@ -82,5 +84,29 @@ describe('ArticleCard', () => {
     renderCard(baseArticle());
     expect(screen.getByText('Zero Trust adoption accelerates')).toBeInTheDocument();
     expect(screen.getByText(/72/)).toBeInTheDocument();
+  });
+});
+
+describe('ArticleCard publisher tags', () => {
+  it('renders publisher tags and caps how many are shown', () => {
+    const tags = ['Cloud', 'Zero Trust', 'IAM', 'SASE', 'Ransomware', 'Quantum'];
+    render(
+      <I18nProvider>
+        <ArticleCard article={baseArticle({ tags })} keywordsById={keywordsById} />
+      </I18nProvider>,
+    );
+    expect(screen.getByText('Cloud')).toBeInTheDocument();
+    expect(screen.getByText('Ransomware')).toBeInTheDocument();
+    // Sixth tag is beyond the cap.
+    expect(screen.queryByText('Quantum')).not.toBeInTheDocument();
+  });
+
+  it('renders no tag list when the publisher supplied none', () => {
+    render(
+      <I18nProvider>
+        <ArticleCard article={baseArticle({ tags: [] })} keywordsById={keywordsById} />
+      </I18nProvider>,
+    );
+    expect(screen.queryByLabelText(/tags/i)).not.toBeInTheDocument();
   });
 });

@@ -1,9 +1,12 @@
 import Parser from 'rss-parser';
 import { fetchWithPolicy } from '../http.ts';
 import { isSafeUrl } from '../normalize.ts';
+import { normalizeTags } from '../tags.ts';
 import type { HttpCacheEntry, SourceConfig } from '../schemas.ts';
 import type { AdapterResult, RawArticleCandidate } from './types.ts';
 
+// `categories` is populated by rss-parser out of the box from <category> elements —
+// the single richest tag channel across the configured sources.
 const parser = new Parser({
   customFields: {
     item: [
@@ -68,6 +71,7 @@ export async function collectFromRss(
       summary: item.contentSnippet ?? item.content ?? item.summary ?? '',
       imageUrl: extractImageUrl(item),
       language: source.language,
+      tags: normalizeTags(item.categories ?? []),
     });
   }
 
