@@ -112,6 +112,20 @@ export const en: TranslationDictionary = {
     menu: 'Menu',
     externalLink: 'opens a new tab',
   },
+  notifications: {
+    enable: 'Enable notifications',
+    enabled: 'Notifications enabled',
+    disable: 'Disable',
+    unsupported: 'Notifications are not supported on this device',
+    denied: 'Notifications are blocked in browser settings',
+    hint: 'Get notified when new articles are published.',
+  },
+  update: {
+    available: 'A new version of TrendSignal is available.',
+    reload: 'Update',
+    dismiss: 'Later',
+    offlineReady: 'TrendSignal is ready to work offline.',
+  },
   attribution:
     'TrendSignal indexes public metadata. Rights remain with original publishers; visit their sites for full articles.',
 };

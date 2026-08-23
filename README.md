@@ -109,6 +109,30 @@ publisher.
    (`/${{ github.event.repository.name }}/`) — no owner/repo is hard-coded in source. For a
    user/org root Pages site (`username.github.io`), override `VITE_BASE_PATH` to `/`.
 
+## PWA & notifications
+
+TrendSignal is an installable Progressive Web App — including on iPhone/iPad, via Safari's
+**Share → Add to Home Screen** (no App Store involved). Behind the scenes:
+
+- `vite-plugin-pwa` (`injectManifest` strategy, source at `src/sw.ts`) generates
+  `manifest.webmanifest`, precaches the built app shell for offline use, and runtime-caches
+  published data (network-first) and images (cache-first).
+- `src/components/UpdatePrompt.tsx` shows a small toast when a new build is available or the app
+  is ready to work offline.
+- **New-article notifications** work without a backend, matching the fact that this site has none
+  (see Architecture above): the service worker compares the published `data/manifest.json`'s
+  `generatedAt` against the last value it saw — on app open, on tab foreground, every 30 minutes
+  while a tab stays open, and (Chromium only, progressive enhancement) via the Periodic Background
+  Sync API — and raises an OS notification when it changed. Users opt in from the
+  **Activer les notifications** button in the sidebar/drawer (`src/hooks/useArticleNotifications.ts`).
+  This covers "notify while the browser/PWA is running somewhere in the background"; it cannot wake
+  a fully closed browser the way native push can, since that needs a server to hold subscriptions
+  and send pushes — out of scope for a static site with no backend.
+- Icons are generated PNGs in `public/icons/`, produced from the SVG sources in
+  `assets/pwa-icons/` by `npm run generate:icons` (`scripts/generate-pwa-icons.ts`). Edit the SVGs
+  and re-run the script if the brand mark changes; update the `icons` array in `vite.config.ts`'s
+  `VitePWA({ manifest: ... })` block if you add or rename sizes.
+
 ## GitHub Actions setup
 
 - `.github/workflows/ci.yml` — lint, typecheck, unit tests, build, and a separate Playwright job.

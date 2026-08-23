@@ -46,5 +46,11 @@ export default [
     },
     settings: { react: { version: 'detect' } },
   },
+  {
+    files: ['src/sw.ts', 'src/types/periodic-sync.d.ts'],
+    languageOptions: {
+      globals: { ...globals.serviceworker },
+    },
+  },
   prettierConfig,
 ];

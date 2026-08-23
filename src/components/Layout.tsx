@@ -2,6 +2,7 @@ import { useState, type ReactNode } from 'react';
 import { NavLink } from 'react-router-dom';
 import { LayoutDashboard, TrendingUp, Tags, Rss, Menu, X } from 'lucide-react';
 import { useI18n } from '../hooks/useI18n';
+import { NotificationsToggle } from './NotificationsToggle';
 
 const navItems = [
   { to: '/', icon: LayoutDashboard, key: 'dashboard' as const },
@@ -79,6 +80,9 @@ export function Layout({ children }: { children: ReactNode }) {
               </button>
             </div>
             <NavList onNavigate={() => setDrawerOpen(false)} />
+            <div className="mt-4 border-t border-border pt-4">
+              <NotificationsToggle className="w-full justify-center" />
+            </div>
           </div>
         </div>
       )}
@@ -90,6 +94,9 @@ export function Layout({ children }: { children: ReactNode }) {
             <p className="text-xs text-muted">{t.app.tagline}</p>
           </div>
           <NavList />
+          <div className="mt-auto pt-4">
+            <NotificationsToggle className="w-full justify-center" />
+          </div>
         </aside>
         <main id="main-content" className="min-w-0 flex-1 px-4 py-6 sm:px-6 lg:px-8">
           {children}
