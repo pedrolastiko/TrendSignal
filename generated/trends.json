@@ -4,11 +4,11 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "24h",
-    "score": 24,
-    "status": "declining",
+    "score": 34,
+    "status": "stable",
     "articleCount": 1,
-    "previousArticleCount": 2,
-    "growthRate": -50,
+    "previousArticleCount": 1,
+    "growthRate": 0,
     "distinctSourceCount": 1,
     "leadingSourceIds": [
       "techcrunch"
@@ -129,10 +129,10 @@
     "keywordId": "ai-security",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 1,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -195,27 +195,24 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 66,
-    "status": "emerging",
-    "articleCount": 9,
+    "score": 59,
+    "status": "rising",
+    "articleCount": 6,
     "previousArticleCount": 20,
-    "growthRate": -55,
-    "distinctSourceCount": 4,
+    "growthRate": -70,
+    "distinctSourceCount": 3,
     "leadingSourceIds": [
       "techcrunch",
-      "theregister",
-      "venturebeat"
+      "venturebeat",
+      "infoq"
     ],
     "relatedArticleIds": [
       "e0cf4087263d4676e0505f98e8da3f156c40b91d5dedcd955dfb80bcbbdf948f",
+      "89e7c92b661d65079653fb066b8b4106a727f63dd4a15b299b7e20f6d891c620",
       "d69d98e58a53054e1467e81fab393f79a5239ed6ad3c62243ce6774ea367dbff",
       "efbde8355f8fb85d54559aa4b3bc1823e5221c35c7b6d7976b22ce1bd2c445b2",
-      "058d495cab2c8c26823cb4785ec59c56b412ceec76fa81bc79e4442d41ab0efb",
       "00850b1911a5f9b22f23cddebea36e8c7fd485ca5899f6e597a632615e53d84b",
-      "416c0c38cbc7fc9919c4ae80a01622bbae2d8cf707aca429549110e38dc2b0d3",
-      "fc6bcc66ad37b0c41257f676055c6ba68b3d5135fb8d113c7a2a735479864118",
-      "1a0492973d07390d62cee1b4a32ab2488ca6e6b697ac64ad95b49bfc0f8cd6aa",
-      "a6527316a91da5dd2d83ace5f44e09906a41e847e2ea9c6bbee2385fbda33194"
+      "416c0c38cbc7fc9919c4ae80a01622bbae2d8cf707aca429549110e38dc2b0d3"
     ]
   },
   {
@@ -225,9 +222,9 @@
     "timeframe": "30d",
     "score": 94,
     "status": "breakout",
-    "articleCount": 251,
+    "articleCount": 252,
     "previousArticleCount": 75,
-    "growthRate": 235,
+    "growthRate": 236,
     "distinctSourceCount": 41,
     "leadingSourceIds": [
       "openai-news",
@@ -254,9 +251,9 @@
     "timeframe": "7d",
     "score": 93,
     "status": "breakout",
-    "articleCount": 131,
+    "articleCount": 132,
     "previousArticleCount": 47,
-    "growthRate": 179,
+    "growthRate": 181,
     "distinctSourceCount": 31,
     "leadingSourceIds": [
       "theregister",
@@ -384,7 +381,7 @@
     "score": 0,
     "status": "declining",
     "articleCount": 0,
-    "previousArticleCount": 2,
+    "previousArticleCount": 1,
     "growthRate": -100,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
@@ -445,7 +442,7 @@
       "dc4ea76936f5d20b40e0deecaad537690a10a3fe152530e2b0dd3e66810f70fb",
       "38501a6f51a8c6f4909b1093c733c8d0b0313c32d86796f29839b7e0a5e36df5",
       "1fa6d7e9ebd5e1bbe22abe9c48cc06be214e70d61e80d0ce9a7e41b828151504",
-      "a14ae8840031f4a719bd124c7f74e3660a0224780e0e1de2dac2b64fe8e13364"
+      "1380f7766171a5a616fa9c577a9838fc6a9a2eedb637829cee254df1dadbabf0"
     ]
   },
   {
@@ -762,10 +759,10 @@
     "keywordId": "post-quantum-cryptography",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 1,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -786,8 +783,8 @@
       "darkreading"
     ],
     "relatedArticleIds": [
-      "c18f8e667a2aaf13c53ddfe53daa0f8beb4376e43977e6a531e55aad668fa3d0",
       "39622fce393db25699f2725d7acc73bfc0a79e2348fa477bdd7ef2b49d8a1d70",
+      "c18f8e667a2aaf13c53ddfe53daa0f8beb4376e43977e6a531e55aad668fa3d0",
       "24be7a4f11a5840894d87ba7295c3a0e10a637efcad3306953c707d0bd81610e"
     ]
   },
@@ -803,8 +800,8 @@
     "growthRate": 100,
     "distinctSourceCount": 2,
     "leadingSourceIds": [
-      "google-cloud-blog",
-      "darkreading"
+      "darkreading",
+      "google-cloud-blog"
     ],
     "relatedArticleIds": [
       "c18f8e667a2aaf13c53ddfe53daa0f8beb4376e43977e6a531e55aad668fa3d0",
@@ -846,10 +843,10 @@
       "f71a263ea769e9e43d9b5cda1493e0bd73183386afdae5bf34ddc3c2778cb78d",
       "4afd90bb4546bba71af370b4042ae811aced31b67555b6522d434f2580488c4a",
       "dc4ea76936f5d20b40e0deecaad537690a10a3fe152530e2b0dd3e66810f70fb",
-      "a4d839dd506ecdd54074530f386e16067c53ef90dc85871d44fc31d33d931195",
       "8236a23529ca59c324e820df0e8f88c214220ecd1150e35d86fb33e2f30629a9",
       "ee1a3760dd26f889c52b6bf09c00c2a9b227829126d92799560a9da282e772dd",
       "1f616d071c66b5ee2eb816039e287026fba181ef2a2e72e06f62c198f56040a7",
+      "a4d839dd506ecdd54074530f386e16067c53ef90dc85871d44fc31d33d931195",
       "29dd711ae886cb35ae3000d717016d554287dd5a9046f80b7731ddf20fd5ffb6",
       "5556828abfadd68d045e264b1db271c08acace2b195356d793db43f6d58a6110"
     ]
@@ -874,9 +871,9 @@
       "983abfeb78ba93e4d74766cafbcaf74bebddeddbd10a068f83e2c0ee31b61f85",
       "f71a263ea769e9e43d9b5cda1493e0bd73183386afdae5bf34ddc3c2778cb78d",
       "dc4ea76936f5d20b40e0deecaad537690a10a3fe152530e2b0dd3e66810f70fb",
-      "a4d839dd506ecdd54074530f386e16067c53ef90dc85871d44fc31d33d931195",
       "ee1a3760dd26f889c52b6bf09c00c2a9b227829126d92799560a9da282e772dd",
       "1f616d071c66b5ee2eb816039e287026fba181ef2a2e72e06f62c198f56040a7",
+      "a4d839dd506ecdd54074530f386e16067c53ef90dc85871d44fc31d33d931195",
       "00fd962a8ab0a671468aeeca31ed843741f7d496b4ec85ac02b2a1a9f1b71f52"
     ]
   },
@@ -1013,8 +1010,8 @@
       "4afd90bb4546bba71af370b4042ae811aced31b67555b6522d434f2580488c4a",
       "661028b1988992c8d3385563d9f01723420d086dbfc66da0cd5a6cde4a0ad91b",
       "5abab8c3d4804dc00d39e75b96ae6c11661389ecfc176a792813fe911bfaab55",
-      "2c5dc657cf67ffd4aeae1142ece891dc7749bd8b1a9499a5cbcaaa609f20e7fe",
-      "9ab8c1a0adf3cf30bfb9141812bd54858c0c7a6a99f71823ff4c5b05dbb516e7"
+      "9ab8c1a0adf3cf30bfb9141812bd54858c0c7a6a99f71823ff4c5b05dbb516e7",
+      "2c5dc657cf67ffd4aeae1142ece891dc7749bd8b1a9499a5cbcaaa609f20e7fe"
     ]
   },
   {
