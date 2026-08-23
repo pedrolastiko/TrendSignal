@@ -142,7 +142,7 @@ the branch's file layout.
 - Directly: edit `config/sources.yml` / `config/keywords.yml` and open a pull request. See
   `docs/adding-a-source.md` for the required validation step before setting `enabled: true`.
 
-`config/sources.yml` ships **44 sources, all enabled and all verified to contribute** as of
+`config/sources.yml` ships **45 sources, all enabled and all verified to contribute** as of
 2026-08-23, spanning consulting, technology, cybersecurity, AI, and media. A source is only
 enabled once its endpoint has been fetched live _and_ `scripts/audit-sources.ts` shows it
 returning real dated articles — an HTTP 200 is not sufficient, since several publishers answer

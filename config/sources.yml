@@ -53,6 +53,22 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
+  - id: cgi-blog
+    name: CGI Blog
+    company: CGI
+    category: consulting
+    homepageUrl: https://www.cgi.com/en/blogs
+    # The blog landing page is /en/blogs but the feed is at /en/blog/feed (singular);
+    # /en/blogs/rss and /en/rss.xml do not serve one. Audited 2026-08-23: 330 items in
+    # the feed, newest 4 days old.
+    collectionMode: rss
+    feedUrl: https://www.cgi.com/en/blog/feed
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 30
+    includePaths: []
+    excludePaths: []
   - id: thoughtworks-insights
     name: Thoughtworks Insights
     company: Thoughtworks
