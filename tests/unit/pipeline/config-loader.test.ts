@@ -17,6 +17,25 @@ describe('config-loader (validates the real repository config files)', () => {
     }
   });
 
+  it('gives every source a real feed URL, never a placeholder', () => {
+    // Sources that cannot be collected are removed from the config rather than parked
+    // as permanently-disabled placeholders, so no entry should carry the sentinel.
+    for (const source of loadSourcesConfig()) {
+      expect(source.feedUrl).not.toBe('REPLACE_AFTER_VALIDATION');
+      expect(source.feedUrl).toMatch(/^https?:\/\//);
+    }
+  });
+
+  it('gives every sitemap and html source at least one includePath', () => {
+    // Without a path filter these adapters crawl an entire site's navigation, which is
+    // how Deloitte ended up contributing almost nothing.
+    for (const source of loadSourcesConfig()) {
+      if (source.collectionMode === 'sitemap' || source.collectionMode === 'html') {
+        expect(source.includePaths.length).toBeGreaterThan(0);
+      }
+    }
+  });
+
   it('has unique source ids', () => {
     const sources = loadSourcesConfig();
     const ids = new Set(sources.map((s) => s.id));

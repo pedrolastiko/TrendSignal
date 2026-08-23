@@ -136,10 +136,18 @@ the branch's file layout.
 - Directly: edit `config/sources.yml` / `config/keywords.yml` and open a pull request. See
   `docs/adding-a-source.md` for the required validation step before setting `enabled: true`.
 
-`config/sources.yml` currently ships with 49 declared sources, 29 of them live-validated and
-enabled (spanning consulting, technology, cybersecurity, AI, and media) as of 2026-08-23 — see the
-header comment in that file for the validation method. The rest are documented candidates kept
-`enabled: false` with `feedUrl: REPLACE_AFTER_VALIDATION` until someone validates a real endpoint.
+`config/sources.yml` ships **39 sources, all enabled and all verified to contribute** as of
+2026-08-23, spanning consulting, technology, cybersecurity, AI, and media. A source is only
+enabled once its endpoint has been fetched live _and_ `scripts/audit-sources.ts` shows it
+returning real dated articles — an HTTP 200 is not sufficient, since several publishers answer
+200 with an HTML app shell for a `.xml` path, and others answer 200 to `curl` but 403 to the
+collector.
+
+Candidates that could not be collected were **removed** rather than parked as permanently
+disabled placeholders, with the reason recorded in the file's header comment: no public
+feed or sitemap (Accenture, IBM, Oracle, ServiceNow, Zscaler, Sopra Steria), redirecting to a
+publisher already covered (CyberArk → Palo Alto Networks), anti-bot protection we will not
+circumvent (Wired, Ars Technica, BCG), or no publication date in static HTML (Anthropic).
 
 After changing a source definition, run `npx tsx scripts/audit-sources.ts` to check what each
 source actually contributes — health alone does not distinguish a working source from one that
@@ -150,10 +158,15 @@ fetches successfully but yields no usable article. See `docs/architecture.md`.
 - MVP-scope generic HTML/sitemap adapters use metadata extraction only (JSON-LD → Open Graph →
   standard `<meta>` → publisher-specific `<meta>` names declared per source); no headless browser
   and no source-specific scraping beyond that.
-- Some publishers block the collector outright. Wired answers HTTP 403 to every request regardless
-  of headers while serving the same URL to a browser — anti-bot protection keyed on the client's
-  TLS fingerprint. Circumventing that is out of scope by design (AGENTS.md #9), so the source is
-  kept `enabled: false` with the reason recorded in `config/sources.yml`.
+- Some publishers block the collector outright. Wired, Ars Technica and BCG answer HTTP 403 to
+  every request regardless of headers while serving the same URLs to a browser (and to `curl`) —
+  anti-bot protection keyed on the client's TLS fingerprint. Circumventing that is out of scope by
+  design (AGENTS.md #9), so those sources are removed with the reason recorded in
+  `config/sources.yml`.
+- Some publishers ship no publication date in static HTML at all, rendering it client-side
+  (Anthropic). A headless browser is out of MVP scope, and substituting the sitemap's `lastmod`
+  would misdate articles — Deloitte's `lastmod` runs years ahead of its editorial dates — which
+  would in turn corrupt trend scoring. Such sources are left out rather than dated approximately.
 - Consulting firms publish flagship research a few times a quarter rather than daily, so their
   articles are naturally sparser in the dashboard's most-recent window than the daily news feeds.
 - Demo/fixture data has fixed calendar dates, so the 24h trend view can be sparse right after

@@ -2,11 +2,24 @@
 #
 # Validation policy (see AGENTS.md #9): a source is only set to `enabled: true`
 # once its feedUrl has been fetched live and confirmed to return a parseable
-# RSS/Atom document. Validation was performed on 2026-08-22 with
-# `curl -A "TrendSignalBot/1.0" <feedUrl>` and manual inspection of the
-# response body. Sources that could not be validated (HTTP error, bot
-# detection, HTML instead of XML, or no known public feed) are kept
-# `enabled: false` with `feedUrl: REPLACE_AFTER_VALIDATION`.
+# RSS/Atom feed or sitemap, AND `npx tsx scripts/audit-sources.ts --source-id=<id>`
+# shows it yielding real, dated articles. An HTTP 200 is not sufficient — several
+# publishers answer 200 with an HTML app shell for a .xml path.
+#
+# Every entry below was validated this way on 2026-08-23. Candidates that could not
+# be collected were removed rather than left as permanent placeholders:
+#
+#   - No public feed or sitemap (.xml paths serve an HTML app shell):
+#     Accenture, IBM, Oracle, ServiceNow, Zscaler, Sopra Steria.
+#   - Redirects to a publisher already covered here: CyberArk (now Palo Alto Networks).
+#   - Answer HTTP 403 to the collector on every request, with or without headers,
+#     while serving browsers normally — anti-bot protection keyed on the client's TLS
+#     fingerprint, which AGENTS.md #9 forbids circumventing: Wired, Ars Technica, BCG.
+#     (curl reaches all three, so a curl-only check is not a valid validation.)
+#   - Anthropic: no feed, and article pages carry no publication date in static HTML
+#     (rendered client-side). The sitemap's `lastmod` is not a substitute — Deloitte
+#     shows it running years ahead of the editorial date, which would misdate articles
+#     and corrupt trend scoring.
 schemaVersion: 1
 sources:
   # --- Consulting ---------------------------------------------------------
@@ -23,7 +36,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: thoughtworks-insights
     name: Thoughtworks Insights
     company: Thoughtworks
@@ -37,21 +49,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: accenture-newsroom
-    name: Accenture Newsroom
-    company: Accenture
-    category: consulting
-    homepageUrl: https://newsroom.accenture.com/
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 6
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
   - id: deloitte-insights
     name: Deloitte Insights
     company: Deloitte
@@ -74,7 +71,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: ['/research/', '/perspectives/', '/blogs/', '/insights/', '/our-thinking/']
     excludePaths: ['/about/people/', '/press-room/', '/recognition/']
-
   - id: pwc-insights
     name: PwC Insights
     company: PwC
@@ -93,50 +89,22 @@ sources:
     includePaths: ['/issues/', '/services/', '/industries/']
     excludePaths: ['/about/', '/careers/', '/alliances/', '/case-studies/']
     dateMetaNames: ['pwcReleaseDate']
-
   - id: mckinsey-insights
     name: McKinsey & Company Insights
     company: McKinsey & Company
     category: consulting
     homepageUrl: https://www.mckinsey.com/insights
+    # Validated 2026-08-23. The feed opens with an <?xml-stylesheet?> processing
+    # instruction before <rss>, which is why a naive "does it start with <rss" check
+    # first classified it as non-XML.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://www.mckinsey.com/insights/rss
+    enabled: true
     priority: 6
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: bcg-insights
-    name: BCG Insights
-    company: Boston Consulting Group
-    category: consulting
-    homepageUrl: https://www.bcg.com/publications
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: sopra-steria-blog
-    name: Sopra Steria Blog
-    company: Sopra Steria
-    category: consulting
-    homepageUrl: https://www.soprasteria.com/
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 4
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  # --- Technology ----------------------------------------------------------
   - id: aws-news-blog
     name: AWS News Blog
     company: Amazon Web Services
@@ -150,7 +118,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: github-blog
     name: The GitHub Blog
     company: GitHub
@@ -164,7 +131,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: cloudflare-blog
     name: Cloudflare Blog
     company: Cloudflare
@@ -178,7 +144,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: mongodb-blog
     name: MongoDB Blog
     company: MongoDB
@@ -192,7 +157,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: databricks-blog
     name: Databricks Blog
     company: Databricks
@@ -206,7 +170,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: salesforce-news
     name: Salesforce News
     company: Salesforce
@@ -220,7 +183,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: cisco-blogs
     name: Cisco Blogs
     company: Cisco
@@ -234,7 +196,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: nvidia-blog
     name: NVIDIA Blog
     company: NVIDIA
@@ -248,7 +209,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: redhat-blog
     name: Red Hat Blog
     company: Red Hat
@@ -262,78 +222,51 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: microsoft-blog
-    name: Microsoft Blog
+    name: Microsoft Source
     company: Microsoft
     category: technology
-    homepageUrl: https://blogs.microsoft.com/
+    homepageUrl: https://news.microsoft.com/source/
+    # blogs.microsoft.com/feed/ answers 403; the Microsoft Source newsroom feed does
+    # not. Validated 2026-08-23.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://news.microsoft.com/source/feed/
+    enabled: true
     priority: 8
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: google-cloud-blog
-    name: Google Cloud Blog
-    company: Google Cloud
-    category: technology
-    homepageUrl: https://cloud.google.com/blog
+  - id: microsoft-security-blog
+    name: Microsoft Security Blog
+    company: Microsoft
+    category: cybersecurity
+    homepageUrl: https://www.microsoft.com/en-us/security/blog/
+    # Added 2026-08-23: a distinct publication from Microsoft Source, and the one that
+    # actually covers the monitored cybersecurity and AI-security topics.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://www.microsoft.com/en-us/security/blog/feed/
+    enabled: true
     priority: 7
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: ibm-blog
-    name: IBM Blog
-    company: IBM
+  - id: google-cloud-blog
+    name: Google Cloud Blog
+    company: Google Cloud
     category: technology
-    homepageUrl: https://www.ibm.com/blog
+    homepageUrl: https://cloud.google.com/blog
+    # cloud.google.com/blog/rss/ serves the HTML app shell; the canonical feed lives on
+    # cloudblog.withgoogle.com. Validated 2026-08-23.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 6
+    feedUrl: https://cloudblog.withgoogle.com/rss/
+    enabled: true
+    priority: 7
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: oracle-news
-    name: Oracle News
-    company: Oracle
-    category: technology
-    homepageUrl: https://www.oracle.com/news/
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 4
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: servicenow-blog
-    name: ServiceNow Blog
-    company: ServiceNow
-    category: technology
-    homepageUrl: https://www.servicenow.com/blogs.html
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 4
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  # --- Artificial intelligence ---------------------------------------------
   - id: huggingface-blog
     name: Hugging Face Blog
     company: Hugging Face
@@ -347,7 +280,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: openai-news
     name: OpenAI News
     company: OpenAI
@@ -361,29 +293,15 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: anthropic-news
-    name: Anthropic News
-    company: Anthropic
-    category: artificial-intelligence
-    homepageUrl: https://www.anthropic.com/news
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 8
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
   - id: mistral-ai-news
     name: Mistral AI News
     company: Mistral AI
     category: artificial-intelligence
     homepageUrl: https://mistral.ai/news
+    # Validated 2026-08-23 — the feed is at /rss.xml, not the /news/rss.xml first tried.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://mistral.ai/rss.xml
+    enabled: true
     priority: 6
     language: en
     maxItemsPerRun: 30
@@ -404,7 +322,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: paloaltonetworks-blog
     name: Palo Alto Networks Blog
     company: Palo Alto Networks
@@ -418,7 +335,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: rapid7-blog
     name: Rapid7 Blog
     company: Rapid7
@@ -432,7 +348,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: snyk-blog
     name: Snyk Blog
     company: Snyk
@@ -446,7 +361,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: sentinelone-blog
     name: SentinelOne Blog
     company: SentinelOne
@@ -460,7 +374,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: tenable-blog
     name: Tenable Blog
     company: Tenable
@@ -474,7 +387,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: proofpoint-blog
     name: Proofpoint Blog
     company: Proofpoint
@@ -488,85 +400,59 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: cyberark-blog
-    name: CyberArk Blog
-    company: CyberArk
-    category: cybersecurity
-    homepageUrl: https://www.cyberark.com/resources/blog/
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
   - id: wiz-blog
     name: Wiz Blog
     company: Wiz
     category: cybersecurity
     homepageUrl: https://www.wiz.io/blog
+    # Validated 2026-08-23 — the feed is at /feed/rss.xml, not /blog/rss.xml.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://www.wiz.io/feed/rss.xml
+    enabled: true
     priority: 5
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: fortinet-blog
     name: Fortinet Blog
     company: Fortinet
     category: cybersecurity
     homepageUrl: https://www.fortinet.com/blog
+    # Validated 2026-08-23. Fortinet publishes through FeedBlitz; the feed opens with an
+    # <?xml-stylesheet?> processing instruction, which first masked it as non-XML.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://feeds.fortinet.com/fortinet/blog/threat-research
+    enabled: true
     priority: 5
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: zscaler-blog
-    name: Zscaler Blog
-    company: Zscaler
-    category: cybersecurity
-    homepageUrl: https://www.zscaler.com/blogs
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 4
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
   - id: okta-blog
     name: Okta Blog
     company: Okta
     category: cybersecurity
-    homepageUrl: https://www.okta.com/blog/
+    homepageUrl: https://sec.okta.com/
+    # Validated 2026-08-23. www.okta.com/blog has no feed; Okta Security Research
+    # (sec.okta.com) does, and it is the identity-security content we monitor.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://sec.okta.com/rss.xml
+    enabled: true
     priority: 4
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: checkpoint-blog
     name: Check Point Blog
     company: Check Point
     category: cybersecurity
     homepageUrl: https://blog.checkpoint.com/
+    # Validated 2026-08-23 — the feed is on blog.checkpoint.com, not www.checkpoint.com.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://blog.checkpoint.com/feed/
+    enabled: true
     priority: 4
     language: en
     maxItemsPerRun: 30
@@ -587,7 +473,6 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
   - id: bleepingcomputer
     name: BleepingComputer
     company: BleepingComputer
@@ -601,7 +486,6 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
   - id: thehackernews
     name: The Hacker News
     company: The Hacker News
@@ -615,7 +499,6 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
   - id: darkreading
     name: Dark Reading
     company: Dark Reading
@@ -629,7 +512,6 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
   - id: mit-technology-review
     name: MIT Technology Review
     company: MIT Technology Review
@@ -643,26 +525,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: wired
-    name: Wired
-    company: Wired
-    category: media
-    homepageUrl: https://www.wired.com/
-    # Disabled 2026-08-22: the feed returns HTTP 403 to the collector on every
-    # request, with or without headers, while the same URL serves 200 to curl —
-    # i.e. anti-bot protection keyed on the client's TLS fingerprint rather than
-    # on the user agent. AGENTS.md #9 forbids circumventing anti-bot controls, so
-    # this stays disabled rather than being worked around.
-    collectionMode: rss
-    feedUrl: https://www.wired.com/feed/rss
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 40
-    includePaths: []
-    excludePaths: []
-
   - id: theregister
     name: The Register
     company: The Register
@@ -676,7 +538,6 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
   - id: venturebeat
     name: VentureBeat
     company: VentureBeat
@@ -690,29 +551,15 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
-  - id: ars-technica
-    name: Ars Technica
-    company: Ars Technica
-    category: media
-    homepageUrl: https://arstechnica.com/
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
   - id: infoq
     name: InfoQ
     company: InfoQ
     category: media
     homepageUrl: https://www.infoq.com/
+    # Validated 2026-08-23 — the feed is on feed.infoq.com.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://feed.infoq.com/
+    enabled: true
     priority: 4
     language: en
     maxItemsPerRun: 30
