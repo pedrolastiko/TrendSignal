@@ -112,6 +112,20 @@ export const fr: TranslationDictionary = {
     menu: 'Menu',
     externalLink: 'ouvre un nouvel onglet',
   },
+  notifications: {
+    enable: 'Activer les notifications',
+    enabled: 'Notifications activées',
+    disable: 'Désactiver',
+    unsupported: 'Notifications non prises en charge sur cet appareil',
+    denied: 'Notifications bloquées dans les réglages du navigateur',
+    hint: 'Soyez averti quand de nouveaux articles sont publiés.',
+  },
+  update: {
+    available: 'Une nouvelle version de TrendSignal est disponible.',
+    reload: 'Mettre à jour',
+    dismiss: 'Plus tard',
+    offlineReady: 'TrendSignal est prêt à fonctionner hors connexion.',
+  },
   attribution:
     "TrendSignal indexe des métadonnées publiques. Les droits appartiennent aux éditeurs d'origine ; consultez les articles complets sur leur site.",
 };

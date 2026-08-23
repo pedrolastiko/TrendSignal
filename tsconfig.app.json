@@ -18,5 +18,6 @@
     "noUncheckedIndexedAccess": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src", "tests/unit/components", "tests/unit/setup.ts"]
+  "include": ["src", "tests/unit/components", "tests/unit/setup.ts"],
+  "exclude": ["src/sw.ts", "src/types/periodic-sync.d.ts"]
 }

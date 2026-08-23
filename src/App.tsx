@@ -1,6 +1,7 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import { I18nProvider } from './hooks/useI18n';
 import { Layout } from './components/Layout';
+import { UpdatePrompt } from './components/UpdatePrompt';
 import { DashboardPage } from './pages/DashboardPage';
 import { TrendsPage } from './pages/TrendsPage';
 import { KeywordsPage } from './pages/KeywordsPage';
@@ -18,6 +19,7 @@ export default function App() {
             <Route path="/sources" element={<SourcesPage />} />
           </Routes>
         </Layout>
+        <UpdatePrompt />
       </HashRouter>
     </I18nProvider>
   );

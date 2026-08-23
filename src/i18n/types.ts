@@ -86,5 +86,19 @@ export interface TranslationDictionary {
     showLocally: string;
   };
   common: { close: string; reset: string; loading: string; menu: string; externalLink: string };
+  notifications: {
+    enable: string;
+    enabled: string;
+    disable: string;
+    unsupported: string;
+    denied: string;
+    hint: string;
+  };
+  update: {
+    available: string;
+    reload: string;
+    dismiss: string;
+    offlineReady: string;
+  };
   attribution: string;
 }
