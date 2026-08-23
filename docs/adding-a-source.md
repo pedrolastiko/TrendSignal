@@ -36,6 +36,13 @@ Confirm:
   `NewsArticle`, or `BlogPosting`) or Open Graph metadata — that's what
   `scripts/adapters/html-metadata.ts` extracts (title, `datePublished`, description, image).
 
+If your machine or sandbox cannot reach publisher domains, run the **Probe source candidates**
+workflow instead (`workflow_dispatch`). It performs the same checks from a GitHub runner —
+declared feeds, conventional paths, `robots.txt` sitemaps, then a metadata sample through the
+production extractor — and prints a per-candidate verdict. Add the publisher to `CANDIDATES` in
+`scripts/probe-source-candidates.ts`, or probe an arbitrary site locally with
+`npx tsx scripts/probe-source-candidates.ts --homepage=<url>`.
+
 Only set `enabled: true` once you've done this. Every currently-enabled source in
 `config/sources.yml` was validated this way — see the header comment at the top of that file for
 the method and date.

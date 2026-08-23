@@ -117,6 +117,12 @@ publisher.
   `data` branch, builds, and deploys to Pages. Runs on push to `main`, on a schedule
   (`17 */6 * * *`, i.e. every six hours at a non-zero minute), and manually via
   `workflow_dispatch` with `full_refresh`, `source_id`, and `dry_run` inputs.
+- `.github/workflows/probe-source-candidates.yml` — manual (`workflow_dispatch`) discovery job for
+  candidate publishers: resolves the feeds a site declares, tries the conventional paths, falls back
+  to the sitemaps in `robots.txt`, and samples article pages through the production metadata
+  extractor. Read-only — it never writes to the `data` branch or deploys. Use it to validate a
+  `feedUrl` when your own machine cannot reach publisher domains; `audit_source_id` additionally
+  audits an already-enabled source.
 - Both workflows use the default `GITHUB_TOKEN` (never a PAT) with per-job minimal permissions, and
   pin third-party actions to a full commit SHA with a version comment.
 

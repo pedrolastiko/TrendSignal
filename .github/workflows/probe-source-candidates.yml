@@ -14,11 +14,10 @@ on:
         description: 'Limit the probe to a single candidate id (see scripts/probe-source-candidates.ts)'
         type: string
         default: ''
-  # TEMPORARY: workflow_dispatch only becomes available once the file is on the
-  # default branch, so this push trigger is what produces the first probe run.
-  # Remove it in the follow-up commit that adds the validated sources.
-  push:
-    branches: [claude/source-update-frequency-bxretj]
+      audit_source_id:
+        description: 'Also audit one already-enabled source id from config/sources.yml'
+        type: string
+        default: ''
 
 permissions:
   contents: read
@@ -53,15 +52,13 @@ jobs:
           if [ -n "$CANDIDATE_ID" ]; then args+=("--candidate-id=$CANDIDATE_ID"); fi
           npx tsx scripts/probe-source-candidates.ts "${args[@]}"
 
-      # TEMPORARY: confirms what the five newly enabled sources actually yield
-      # end-to-end (docs/adding-a-source.md step 5). Remove with the push trigger.
-      - name: Audit newly enabled sources
-        run: |
-          set -eo pipefail
-          for id in lek-insights simon-kucher-insights oliver-wyman-insights bearingpoint-insights fti-consulting-insights; do
-            echo "===== $id ====="
-            npx tsx scripts/audit-sources.ts --source-id="$id" || echo "audit failed for $id"
-          done
+      # docs/adding-a-source.md step 5: a source can be "healthy" while yielding no
+      # usable article, so confirm what it actually produces before trusting it.
+      - name: Audit enabled sources
+        if: inputs.audit_source_id != ''
+        env:
+          AUDIT_SOURCE_ID: ${{ inputs.audit_source_id }}
+        run: npx tsx scripts/audit-sources.ts --source-id="$AUDIT_SOURCE_ID"
 
       - name: Upload probe report
         if: always()
