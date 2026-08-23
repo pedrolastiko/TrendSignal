@@ -2,11 +2,41 @@
 #
 # Validation policy (see AGENTS.md #9): a source is only set to `enabled: true`
 # once its feedUrl has been fetched live and confirmed to return a parseable
-# RSS/Atom document. Validation was performed on 2026-08-22 with
-# `curl -A "TrendSignalBot/1.0" <feedUrl>` and manual inspection of the
-# response body. Sources that could not be validated (HTTP error, bot
-# detection, HTML instead of XML, or no known public feed) are kept
-# `enabled: false` with `feedUrl: REPLACE_AFTER_VALIDATION`.
+# RSS/Atom feed or sitemap, AND `npx tsx scripts/audit-sources.ts --source-id=<id>`
+# shows it yielding real, dated articles. An HTTP 200 is not sufficient — several
+# publishers answer 200 with an HTML app shell for a .xml path.
+#
+# Every entry below was validated this way on 2026-08-23. Candidates that could not
+# be collected were removed rather than left as permanent placeholders:
+#
+#   - No public feed or sitemap (.xml paths serve an HTML app shell):
+#     Accenture, IBM, Oracle, ServiceNow, Zscaler, Sopra Steria.
+#   - Redirects to a publisher already covered here: CyberArk (now Palo Alto Networks).
+#   - Answer HTTP 403 to the collector on every request, with or without headers,
+#     while serving browsers normally — anti-bot protection keyed on the client's TLS
+#     fingerprint, which AGENTS.md #9 forbids circumventing: Wired, Ars Technica, BCG.
+#     (curl reaches all three, so a curl-only check is not a valid validation.)
+#   - Anthropic: no feed, and article pages carry no publication date in static HTML
+#     (rendered client-side). The sitemap's `lastmod` is not a substitute — Deloitte
+#     shows it running years ahead of the editorial date, which would misdate articles
+#     and corrupt trend scoring.
+#
+# A second sweep of independent and specialist consultancies ran on 2026-08-23 via the
+# `Probe source candidates` workflow (scripts/probe-source-candidates.ts), which applies
+# the collector's own fetch policy and metadata extractor. It added L.E.K.,
+# Simon-Kucher, Oliver Wyman, BearingPoint and FTI Consulting. The rest were left out:
+#
+#   - HTTP 403 on every request including robots.txt, the same anti-bot protection as
+#     above: Arthur D. Little, Alvarez & Marsal, Gartner.
+#   - Roland Berger: 404 on every conventional path, /sitemap.xml included — no
+#     collectable endpoint at the origin root.
+#   - Reachable sitemap, but its freshest URLs are listing, careers or service pages
+#     carrying no publication date, and no article path filter could be identified:
+#     Kearney, PA Consulting, OC&C, Protiviti, Korn Ferry. (OC&C additionally answers
+#     200 with HTML at /feed, /rss and /insights/feed/ — an app shell, not a feed.)
+#   - Mercer: its sitemap does surface real /insights/ articles, but none expose a date
+#     through JSON-LD, article:published_time or any standard meta. This is the PwC
+#     pattern — add it once the publisher-specific dateMetaNames value is identified.
 schemaVersion: 1
 sources:
   # --- Consulting ---------------------------------------------------------
@@ -23,7 +53,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: thoughtworks-insights
     name: Thoughtworks Insights
     company: Thoughtworks
@@ -37,21 +66,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: accenture-newsroom
-    name: Accenture Newsroom
-    company: Accenture
-    category: consulting
-    homepageUrl: https://newsroom.accenture.com/
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 6
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
   - id: deloitte-insights
     name: Deloitte Insights
     company: Deloitte
@@ -74,7 +88,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: ['/research/', '/perspectives/', '/blogs/', '/insights/', '/our-thinking/']
     excludePaths: ['/about/people/', '/press-room/', '/recognition/']
-
   - id: pwc-insights
     name: PwC Insights
     company: PwC
@@ -93,60 +106,29 @@ sources:
     includePaths: ['/issues/', '/services/', '/industries/']
     excludePaths: ['/about/', '/careers/', '/alliances/', '/case-studies/']
     dateMetaNames: ['pwcReleaseDate']
-
   - id: mckinsey-insights
     name: McKinsey & Company Insights
     company: McKinsey & Company
     category: consulting
     homepageUrl: https://www.mckinsey.com/insights
+    # Validated 2026-08-23. The feed opens with an <?xml-stylesheet?> processing
+    # instruction before <rss>, which is why a naive "does it start with <rss" check
+    # first classified it as non-XML.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://www.mckinsey.com/insights/rss
+    enabled: true
     priority: 6
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: bcg-insights
-    name: BCG Insights
-    company: Boston Consulting Group
-    category: consulting
-    homepageUrl: https://www.bcg.com/publications
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: sopra-steria-blog
-    name: Sopra Steria Blog
-    company: Sopra Steria
-    category: consulting
-    homepageUrl: https://www.soprasteria.com/
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 4
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  # Independent and specialist consultancies, validated 2026-08-23 by the
-  # `Probe source candidates` workflow (scripts/probe-source-candidates.ts), which
-  # runs the same fetch policy and metadata extractor the collector uses.
-
   - id: lek-insights
     name: L.E.K. Insights
     company: L.E.K. Consulting
     category: consulting
     homepageUrl: https://www.lek.com/
-    # Undeclared in <head>, but /rss.xml serves a real RSS 2.0 channel: 200 with
-    # 10 items. No sitemap needed.
+    # No <link rel="alternate"> in <head>, but /rss.xml serves a real RSS 2.0
+    # channel. Audited 2026-08-23: 10 articles, newest 2 days old.
     collectionMode: rss
     feedUrl: https://www.lek.com/rss.xml
     enabled: true
@@ -155,14 +137,14 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: simon-kucher-insights
     name: Simon-Kucher Insights
     company: Simon-Kucher
     category: consulting
     homepageUrl: https://www.simon-kucher.com/
-    # /rss.xml and /en/rss.xml both return 200 with 10 items; the unprefixed one
-    # is used so the feed is not pinned to a locale path.
+    # /rss.xml and /en/rss.xml both serve the same channel; the unprefixed one is
+    # used so the feed is not pinned to a locale path. Audited 2026-08-23: 10
+    # articles, newest 1 day old.
     collectionMode: rss
     feedUrl: https://www.simon-kucher.com/rss.xml
     enabled: true
@@ -171,16 +153,16 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: oliver-wyman-insights
     name: Oliver Wyman Insights
     company: Oliver Wyman
     category: consulting
     homepageUrl: https://www.oliverwyman.com/
     # No feed at any conventional path (all 404). sitemap.xml is a <sitemapindex>
-    # of 21 children; the newest ones are article-dense — all 5 sampled pages
-    # extracted a title and datePublished from JSON-LD. includePaths keeps the
-    # selection on thought leadership and away from media-center and error pages.
+    # of 21 children whose newest entries are article-dense, with JSON-LD Article
+    # metadata on every sampled page. includePaths keeps the selection on thought
+    # leadership and away from the media center and error pages. Audited
+    # 2026-08-23: 30 articles, 12 keyword matches, newest 4 days old.
     collectionMode: sitemap
     feedUrl: https://www.oliverwyman.com/sitemap.xml
     enabled: true
@@ -189,16 +171,15 @@ sources:
     maxItemsPerRun: 30
     includePaths: ['/our-expertise/insights/']
     excludePaths: ['/error-pages/', '/contact-us']
-
   - id: bearingpoint-insights
     name: BearingPoint Insights
     company: BearingPoint
     category: consulting
     homepageUrl: https://www.bearingpoint.com/
-    # No feed (all 404). sitemap.xml is a <sitemapindex> of 30 children; 5/5
-    # sampled pages extracted title and date, but the freshest entries mix
-    # insights with the privacy statement and campaign landing pages, so
-    # includePaths pins the selection to the insights-and-events section.
+    # No feed (all 404). sitemap.xml is a <sitemapindex> of 30 children; its
+    # freshest entries mix insights with the privacy statement and campaign
+    # landing pages, so includePaths pins the selection to the insights-and-events
+    # section. Audited 2026-08-23: 30 articles, 9 keyword matches, newest 3 days old.
     collectionMode: sitemap
     feedUrl: https://www.bearingpoint.com/sitemap.xml
     enabled: true
@@ -207,16 +188,16 @@ sources:
     maxItemsPerRun: 30
     includePaths: ['/insights-events/']
     excludePaths: []
-
   - id: fti-consulting-insights
     name: FTI Consulting Insights
     company: FTI Consulting
     category: consulting
     homepageUrl: https://www.fticonsulting.com/
     # /rss.xml, /atom.xml and /index.xml answer 403, but sitemap.xml is a plain
-    # <urlset> of 5423 URLs that serves fine. Only the /insights/articles/ pages
-    # carry an extractable date — country insight listings and the
-    # videos-and-podcasts entries do not — so includePaths targets just those.
+    # <urlset> of 5423 URLs that serves fine. Only /insights/articles/ pages carry
+    # an extractable date — country insight listings and videos-and-podcasts
+    # entries do not — so includePaths targets just those. Audited 2026-08-23:
+    # 30 articles, 5 keyword matches, newest 4 days old.
     collectionMode: sitemap
     feedUrl: https://www.fticonsulting.com/sitemap.xml
     enabled: true
@@ -225,182 +206,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: ['/insights/articles/']
     excludePaths: []
-
-  - id: kearney-insights
-    name: Kearney Insights
-    company: Kearney
-    category: consulting
-    homepageUrl: https://www.kearney.com/
-    # sitemap.xml is reachable (<urlset>, 4991 URLs) but carries no usable
-    # lastmod ordering: the entries it surfaces first are the industry index and
-    # careers/diversity pages, none of which expose a publication date (0/5
-    # sampled). No article path could be identified to filter on, so this stays
-    # disabled rather than shipping a source that collects nothing.
-    collectionMode: sitemap
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: roland-berger-insights
-    name: Roland Berger Insights
-    company: Roland Berger
-    category: consulting
-    homepageUrl: https://www.rolandberger.com/
-    # The homepage answers 200 but declares no <link rel="alternate">, and every
-    # conventional path 404s — including /sitemap.xml and /sitemap_index.xml, so
-    # there is not even a sitemap to fall back on at the origin root.
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 6
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: arthur-d-little-insights
-    name: Arthur D. Little Insights
-    company: Arthur D. Little
-    category: consulting
-    homepageUrl: https://www.adlittle.com/
-    # Bot protection: every request answers 403, robots.txt and the homepage
-    # included, with the same contact-carrying User-Agent the other sources
-    # accept. Nothing to validate until that changes.
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: alvarez-marsal-insights
-    name: Alvarez & Marsal Insights
-    company: Alvarez & Marsal
-    category: consulting
-    homepageUrl: https://www.alvarezandmarsal.com/
-    # Bot protection: 403 on every path including robots.txt, same as Arthur D.
-    # Little and Gartner.
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: pa-consulting-insights
-    name: PA Consulting Insights
-    company: PA Consulting
-    category: consulting
-    homepageUrl: https://www.paconsulting.com/
-    # sitemap.xml resolves (<sitemapindex>, 21 children) but its freshest entries
-    # are job postings, which carry no publication date (0/5 sampled). The
-    # client-story pages sampled in an earlier run were equally dateless, so no
-    # includePaths value is known to work yet.
-    collectionMode: sitemap
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: occ-strategy-insights
-    name: OC&C Insights
-    company: OC&C Strategy Consultants
-    category: consulting
-    homepageUrl: https://www.occstrategy.com/
-    # /feed, /rss and /insights/feed/ all answer 200 with HTML, not XML — a
-    # redirect to a page, not a feed. sitemap_index.xml is a real <sitemapindex>
-    # (16 children), but its newest entries are the per-locale /insights/ listing
-    # pages rather than articles (0/5 extractable), and the article URLs found in
-    # an earlier run were 2021 press items duplicated across locales.
-    collectionMode: sitemap
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 4
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: protiviti-insights
-    name: Protiviti Insights
-    company: Protiviti
-    category: consulting
-    homepageUrl: https://www.protiviti.com/
-    # sitemap.xml is a <sitemapindex> of 30 children, but the newest ones are
-    # per-locale service pages (/ve-es/...) with no publication date (0/5
-    # sampled). Needs a locale-scoped child sitemap this probe did not identify.
-    collectionMode: sitemap
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: mercer-insights
-    name: Mercer Insights
-    company: Mercer
-    category: consulting
-    homepageUrl: https://www.mercer.com/
-    # Distinct from the others: sitemap.xml (<urlset>, 2305 URLs) does surface
-    # genuine /insights/ article URLs, but none of them yielded a title and date
-    # — no JSON-LD, no article:published_time, no standard date meta. This is the
-    # dateMetaNames case (as with PwC); enabling it needs the publisher-specific
-    # meta name identified first.
-    collectionMode: sitemap
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: korn-ferry-insights
-    name: Korn Ferry Insights
-    company: Korn Ferry
-    category: consulting
-    homepageUrl: https://www.kornferry.com/
-    # sitemap.xml is a large <urlset> (10188 URLs) whose freshest entries are the
-    # per-locale insight listing pages (/uk/insights, /de/einblicke, ...), not
-    # articles — 0/5 sampled carried a date.
-    collectionMode: sitemap
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: gartner-newsroom
-    name: Gartner Newsroom
-    company: Gartner
-    category: consulting
-    homepageUrl: https://www.gartner.com/
-    # Bot protection: 403 on every path including robots.txt.
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 6
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  # --- Technology ----------------------------------------------------------
   - id: aws-news-blog
     name: AWS News Blog
     company: Amazon Web Services
@@ -414,7 +219,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: github-blog
     name: The GitHub Blog
     company: GitHub
@@ -428,7 +232,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: cloudflare-blog
     name: Cloudflare Blog
     company: Cloudflare
@@ -442,7 +245,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: mongodb-blog
     name: MongoDB Blog
     company: MongoDB
@@ -456,7 +258,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: databricks-blog
     name: Databricks Blog
     company: Databricks
@@ -470,7 +271,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: salesforce-news
     name: Salesforce News
     company: Salesforce
@@ -484,7 +284,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: cisco-blogs
     name: Cisco Blogs
     company: Cisco
@@ -498,7 +297,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: nvidia-blog
     name: NVIDIA Blog
     company: NVIDIA
@@ -512,7 +310,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: redhat-blog
     name: Red Hat Blog
     company: Red Hat
@@ -526,78 +323,51 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: microsoft-blog
-    name: Microsoft Blog
+    name: Microsoft Source
     company: Microsoft
     category: technology
-    homepageUrl: https://blogs.microsoft.com/
+    homepageUrl: https://news.microsoft.com/source/
+    # blogs.microsoft.com/feed/ answers 403; the Microsoft Source newsroom feed does
+    # not. Validated 2026-08-23.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://news.microsoft.com/source/feed/
+    enabled: true
     priority: 8
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: google-cloud-blog
-    name: Google Cloud Blog
-    company: Google Cloud
-    category: technology
-    homepageUrl: https://cloud.google.com/blog
+  - id: microsoft-security-blog
+    name: Microsoft Security Blog
+    company: Microsoft
+    category: cybersecurity
+    homepageUrl: https://www.microsoft.com/en-us/security/blog/
+    # Added 2026-08-23: a distinct publication from Microsoft Source, and the one that
+    # actually covers the monitored cybersecurity and AI-security topics.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://www.microsoft.com/en-us/security/blog/feed/
+    enabled: true
     priority: 7
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: ibm-blog
-    name: IBM Blog
-    company: IBM
+  - id: google-cloud-blog
+    name: Google Cloud Blog
+    company: Google Cloud
     category: technology
-    homepageUrl: https://www.ibm.com/blog
+    homepageUrl: https://cloud.google.com/blog
+    # cloud.google.com/blog/rss/ serves the HTML app shell; the canonical feed lives on
+    # cloudblog.withgoogle.com. Validated 2026-08-23.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 6
+    feedUrl: https://cloudblog.withgoogle.com/rss/
+    enabled: true
+    priority: 7
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: oracle-news
-    name: Oracle News
-    company: Oracle
-    category: technology
-    homepageUrl: https://www.oracle.com/news/
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 4
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  - id: servicenow-blog
-    name: ServiceNow Blog
-    company: ServiceNow
-    category: technology
-    homepageUrl: https://www.servicenow.com/blogs.html
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 4
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
-  # --- Artificial intelligence ---------------------------------------------
   - id: huggingface-blog
     name: Hugging Face Blog
     company: Hugging Face
@@ -611,7 +381,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: openai-news
     name: OpenAI News
     company: OpenAI
@@ -625,29 +394,15 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: anthropic-news
-    name: Anthropic News
-    company: Anthropic
-    category: artificial-intelligence
-    homepageUrl: https://www.anthropic.com/news
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 8
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
   - id: mistral-ai-news
     name: Mistral AI News
     company: Mistral AI
     category: artificial-intelligence
     homepageUrl: https://mistral.ai/news
+    # Validated 2026-08-23 — the feed is at /rss.xml, not the /news/rss.xml first tried.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://mistral.ai/rss.xml
+    enabled: true
     priority: 6
     language: en
     maxItemsPerRun: 30
@@ -668,7 +423,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: paloaltonetworks-blog
     name: Palo Alto Networks Blog
     company: Palo Alto Networks
@@ -682,7 +436,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: rapid7-blog
     name: Rapid7 Blog
     company: Rapid7
@@ -696,7 +449,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: snyk-blog
     name: Snyk Blog
     company: Snyk
@@ -710,7 +462,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: sentinelone-blog
     name: SentinelOne Blog
     company: SentinelOne
@@ -724,7 +475,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: tenable-blog
     name: Tenable Blog
     company: Tenable
@@ -738,7 +488,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: proofpoint-blog
     name: Proofpoint Blog
     company: Proofpoint
@@ -752,85 +501,59 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: cyberark-blog
-    name: CyberArk Blog
-    company: CyberArk
-    category: cybersecurity
-    homepageUrl: https://www.cyberark.com/resources/blog/
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
   - id: wiz-blog
     name: Wiz Blog
     company: Wiz
     category: cybersecurity
     homepageUrl: https://www.wiz.io/blog
+    # Validated 2026-08-23 — the feed is at /feed/rss.xml, not /blog/rss.xml.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://www.wiz.io/feed/rss.xml
+    enabled: true
     priority: 5
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: fortinet-blog
     name: Fortinet Blog
     company: Fortinet
     category: cybersecurity
     homepageUrl: https://www.fortinet.com/blog
+    # Validated 2026-08-23. Fortinet publishes through FeedBlitz; the feed opens with an
+    # <?xml-stylesheet?> processing instruction, which first masked it as non-XML.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://feeds.fortinet.com/fortinet/blog/threat-research
+    enabled: true
     priority: 5
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: zscaler-blog
-    name: Zscaler Blog
-    company: Zscaler
-    category: cybersecurity
-    homepageUrl: https://www.zscaler.com/blogs
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 4
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
   - id: okta-blog
     name: Okta Blog
     company: Okta
     category: cybersecurity
-    homepageUrl: https://www.okta.com/blog/
+    homepageUrl: https://sec.okta.com/
+    # Validated 2026-08-23. www.okta.com/blog has no feed; Okta Security Research
+    # (sec.okta.com) does, and it is the identity-security content we monitor.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://sec.okta.com/rss.xml
+    enabled: true
     priority: 4
     language: en
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
   - id: checkpoint-blog
     name: Check Point Blog
     company: Check Point
     category: cybersecurity
     homepageUrl: https://blog.checkpoint.com/
+    # Validated 2026-08-23 — the feed is on blog.checkpoint.com, not www.checkpoint.com.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://blog.checkpoint.com/feed/
+    enabled: true
     priority: 4
     language: en
     maxItemsPerRun: 30
@@ -851,7 +574,6 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
   - id: bleepingcomputer
     name: BleepingComputer
     company: BleepingComputer
@@ -865,7 +587,6 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
   - id: thehackernews
     name: The Hacker News
     company: The Hacker News
@@ -879,7 +600,6 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
   - id: darkreading
     name: Dark Reading
     company: Dark Reading
@@ -893,7 +613,6 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
   - id: mit-technology-review
     name: MIT Technology Review
     company: MIT Technology Review
@@ -907,26 +626,6 @@ sources:
     maxItemsPerRun: 30
     includePaths: []
     excludePaths: []
-
-  - id: wired
-    name: Wired
-    company: Wired
-    category: media
-    homepageUrl: https://www.wired.com/
-    # Disabled 2026-08-22: the feed returns HTTP 403 to the collector on every
-    # request, with or without headers, while the same URL serves 200 to curl —
-    # i.e. anti-bot protection keyed on the client's TLS fingerprint rather than
-    # on the user agent. AGENTS.md #9 forbids circumventing anti-bot controls, so
-    # this stays disabled rather than being worked around.
-    collectionMode: rss
-    feedUrl: https://www.wired.com/feed/rss
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 40
-    includePaths: []
-    excludePaths: []
-
   - id: theregister
     name: The Register
     company: The Register
@@ -940,7 +639,6 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
   - id: venturebeat
     name: VentureBeat
     company: VentureBeat
@@ -954,29 +652,15 @@ sources:
     maxItemsPerRun: 40
     includePaths: []
     excludePaths: []
-
-  - id: ars-technica
-    name: Ars Technica
-    company: Ars Technica
-    category: media
-    homepageUrl: https://arstechnica.com/
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
-    priority: 5
-    language: en
-    maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
-
   - id: infoq
     name: InfoQ
     company: InfoQ
     category: media
     homepageUrl: https://www.infoq.com/
+    # Validated 2026-08-23 — the feed is on feed.infoq.com.
     collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    feedUrl: https://feed.infoq.com/
+    enabled: true
     priority: 4
     language: en
     maxItemsPerRun: 30

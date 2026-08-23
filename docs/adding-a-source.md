@@ -17,35 +17,49 @@ someone still needs to validate the endpoint and open a pull request.
 - If neither exists, `collectionMode: html` can work against a listing page, but it's the least
   reliable option and should be a last resort.
 
-**Never invent, guess, or leave a placeholder feed URL enabled.** If you can't find or validate a
-real endpoint, add the source with `enabled: false` and `feedUrl: REPLACE_AFTER_VALIDATION`.
+**Never invent or guess a feed URL.** If you cannot find and validate a real endpoint, do not add
+the source at all — `config/sources.yml` holds only sources that actually collect, so a candidate
+that cannot be reached is left out (or removed) with the reason recorded in the file's header
+comment, rather than parked as a permanently-disabled placeholder.
 
 ## 3. Validate it live before enabling it
 
+A quick look with `curl` is a useful first pass:
+
 ```bash
-curl -sI -A "TrendSignalBot/1.0 (+https://github.com/<owner>/<repo>)" "<feed-url>"
-curl -s  -A "TrendSignalBot/1.0 (+https://github.com/<owner>/<repo>)" "<feed-url>" | head -c 300
+curl -s -A "TrendSignalBot/1.0 (+https://github.com/<owner>/<repo>)" "<feed-url>" | head -c 300
 ```
 
-Confirm:
+Confirm the body actually looks like what `collectionMode` expects — `<rss` / `<feed` for
+`rss`/`atom`, `<urlset` or `<sitemapindex>` for `sitemap`, real HTML with article links for
+`html`. Watch for an `<?xml-stylesheet?>` processing instruction before `<rss` (McKinsey and
+Fortinet both have one) — the feed is still valid.
 
-- A `200` (or a `301`/`302` that lands on a `200`) response.
-- The body actually looks like what `collectionMode` expects — `<rss` / `<feed` for
-  `rss`/`atom`, `<urlset` for `sitemap`, real HTML with article links for `html`.
-- For `sitemap`/`html` sources, that the linked article pages carry JSON-LD (`Article`,
-  `NewsArticle`, or `BlogPosting`) or Open Graph metadata — that's what
-  `scripts/adapters/html-metadata.ts` extracts (title, `datePublished`, description, image).
+**`curl` alone is not a validation.** Three failure modes it will not show you:
 
-If your machine or sandbox cannot reach publisher domains, run the **Probe source candidates**
-workflow instead (`workflow_dispatch`). It performs the same checks from a GitHub runner —
-declared feeds, conventional paths, `robots.txt` sitemaps, then a metadata sample through the
-production extractor — and prints a per-candidate verdict. Add the publisher to `CANDIDATES` in
-`scripts/probe-source-candidates.ts`, or probe an arbitrary site locally with
-`npx tsx scripts/probe-source-candidates.ts --homepage=<url>`.
+- **HTTP 200 with an HTML app shell** for a `.xml` path (IBM, Sopra Steria). The status is fine;
+  the body is a single-page app.
+- **200 to `curl`, 403 to the collector** — several CDNs fingerprint the TLS handshake, so Node's
+  `fetch` is rejected where `curl` is not (Wired, Ars Technica, BCG). We do not work around this.
+- **Pages with no publication date in static HTML**, rendered client-side (Anthropic). The
+  adapter drops every such page, so the source yields nothing.
 
-Only set `enabled: true` once you've done this. Every currently-enabled source in
-`config/sources.yml` was validated this way — see the header comment at the top of that file for
-the method and date.
+So finish with the audit harness, which runs the real adapters exactly as the workflow does:
+
+```bash
+npx tsx scripts/audit-sources.ts --source-id=<id>
+```
+
+Only set `enabled: true` once that reports real, recent, keyword-matching articles. Every source
+in `config/sources.yml` was validated this way — see the header comment at the top of that file.
+
+If your machine or sandbox cannot reach publisher domains at all, run the **Probe source
+candidates** workflow (`workflow_dispatch`) instead of the two steps above. It performs the same
+checks from a GitHub runner — declared feeds, conventional paths, `robots.txt` sitemaps, then a
+metadata sample through the production extractor — using the collector's own `fetchWithPolicy`,
+so it reproduces the 403-to-the-collector case that `curl` hides. Add the publisher to
+`CANDIDATES` in `scripts/probe-source-candidates.ts`, or probe one ad hoc with
+`--homepage=<url>`; its `audit_source_id` input runs the audit harness on the same runner.
 
 ## 4. Add the entry
 
