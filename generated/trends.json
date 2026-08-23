@@ -72,7 +72,7 @@
       "0c1b8ac4190705cb692e70f3d6245e84e837953d9fe87a53364e779c81171293",
       "151d2ef64da824b8e0434944f00c2099423c5c3c525e314504121628694a5431",
       "e0cf4087263d4676e0505f98e8da3f156c40b91d5dedcd955dfb80bcbbdf948f",
-      "64fb72e4f152cc7519d102eec96f21571e1687c618ed439b07edda1f16e4f469"
+      "6d68a2521c317f0e51611a63d88475ce6df8d330d6b703c296791e9cd1d504d0"
     ]
   },
   {
@@ -197,23 +197,22 @@
     "timeframe": "24h",
     "score": 66,
     "status": "emerging",
-    "articleCount": 11,
-    "previousArticleCount": 23,
-    "growthRate": -52,
+    "articleCount": 9,
+    "previousArticleCount": 20,
+    "growthRate": -55,
     "distinctSourceCount": 4,
     "leadingSourceIds": [
       "techcrunch",
-      "infoq",
-      "theregister"
+      "theregister",
+      "venturebeat"
     ],
     "relatedArticleIds": [
       "e0cf4087263d4676e0505f98e8da3f156c40b91d5dedcd955dfb80bcbbdf948f",
-      "c252463b3baf3a480ac9e6dcdb206075c159926e29e694af3ad67a3b9e632a3b",
       "d69d98e58a53054e1467e81fab393f79a5239ed6ad3c62243ce6774ea367dbff",
       "efbde8355f8fb85d54559aa4b3bc1823e5221c35c7b6d7976b22ce1bd2c445b2",
       "058d495cab2c8c26823cb4785ec59c56b412ceec76fa81bc79e4442d41ab0efb",
       "00850b1911a5f9b22f23cddebea36e8c7fd485ca5899f6e597a632615e53d84b",
-      "c5204ae06bccdaaf5827a2a18e5a0587775bcd43c8a10b48bdad73f3daec4ea8",
+      "416c0c38cbc7fc9919c4ae80a01622bbae2d8cf707aca429549110e38dc2b0d3",
       "fc6bcc66ad37b0c41257f676055c6ba68b3d5135fb8d113c7a2a735479864118",
       "1a0492973d07390d62cee1b4a32ab2488ca6e6b697ac64ad95b49bfc0f8cd6aa",
       "a6527316a91da5dd2d83ace5f44e09906a41e847e2ea9c6bbee2385fbda33194"
@@ -226,9 +225,9 @@
     "timeframe": "30d",
     "score": 94,
     "status": "breakout",
-    "articleCount": 250,
-    "previousArticleCount": 76,
-    "growthRate": 229,
+    "articleCount": 251,
+    "previousArticleCount": 75,
+    "growthRate": 235,
     "distinctSourceCount": 41,
     "leadingSourceIds": [
       "openai-news",
@@ -255,9 +254,9 @@
     "timeframe": "7d",
     "score": 93,
     "status": "breakout",
-    "articleCount": 130,
+    "articleCount": 131,
     "previousArticleCount": 47,
-    "growthRate": 177,
+    "growthRate": 179,
     "distinctSourceCount": 31,
     "leadingSourceIds": [
       "theregister",
@@ -385,7 +384,7 @@
     "score": 0,
     "status": "declining",
     "articleCount": 0,
-    "previousArticleCount": 6,
+    "previousArticleCount": 2,
     "growthRate": -100,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
@@ -596,18 +595,14 @@
     "label": "Generative AI",
     "keywordId": "generative-ai",
     "timeframe": "24h",
-    "score": 21,
+    "score": 0,
     "status": "declining",
-    "articleCount": 1,
+    "articleCount": 0,
     "previousArticleCount": 2,
-    "growthRate": -50,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "infoq"
-    ],
-    "relatedArticleIds": [
-      "c252463b3baf3a480ac9e6dcdb206075c159926e29e694af3ad67a3b9e632a3b"
-    ]
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "generative-ai-30d",
@@ -628,9 +623,9 @@
     "relatedArticleIds": [
       "6a8f3f0b01b07c48177469de98fdd0c4a5b2310a1fdf2819fe7e96b4bbfbc8ad",
       "03dde35f7e023aa6cd30e8363091ca715e72f5b6901bce30388f8bb516067dc1",
-      "c252463b3baf3a480ac9e6dcdb206075c159926e29e694af3ad67a3b9e632a3b",
       "4dcdb23ada5feaca03cf3710ec1ca04ac2735a33d16ee76319577c77efe174eb",
       "2971793c430eabd03fb013fb81709ae6537953e2a4105ffa1bde4b868811f59e",
+      "c252463b3baf3a480ac9e6dcdb206075c159926e29e694af3ad67a3b9e632a3b",
       "96ec203c7324f913033e4ecbbe45e453bf3b56816212b2759936448dd2937065",
       "8236a23529ca59c324e820df0e8f88c214220ecd1150e35d86fb33e2f30629a9",
       "a89c63ee1b75865c91be4fcd979e9bbed28308f72b6ef8b982b63a2bbd6a76b0",
@@ -656,9 +651,9 @@
     "relatedArticleIds": [
       "6a8f3f0b01b07c48177469de98fdd0c4a5b2310a1fdf2819fe7e96b4bbfbc8ad",
       "03dde35f7e023aa6cd30e8363091ca715e72f5b6901bce30388f8bb516067dc1",
-      "c252463b3baf3a480ac9e6dcdb206075c159926e29e694af3ad67a3b9e632a3b",
       "4dcdb23ada5feaca03cf3710ec1ca04ac2735a33d16ee76319577c77efe174eb",
       "2971793c430eabd03fb013fb81709ae6537953e2a4105ffa1bde4b868811f59e",
+      "c252463b3baf3a480ac9e6dcdb206075c159926e29e694af3ad67a3b9e632a3b",
       "a89c63ee1b75865c91be4fcd979e9bbed28308f72b6ef8b982b63a2bbd6a76b0",
       "d97b8b615b7f70193d7d777c7aa09267c0dc4b79278b7989dc686e65b2cda924"
     ]
@@ -669,10 +664,10 @@
     "keywordId": "identity-access-management",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 1,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -767,10 +762,10 @@
     "keywordId": "post-quantum-cryptography",
     "timeframe": "24h",
     "score": 0,
-    "status": "stable",
+    "status": "declining",
     "articleCount": 0,
-    "previousArticleCount": 0,
-    "growthRate": null,
+    "previousArticleCount": 1,
+    "growthRate": -100,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -780,18 +775,20 @@
     "label": "Post-quantum cryptography",
     "keywordId": "post-quantum-cryptography",
     "timeframe": "30d",
-    "score": 30,
+    "score": 33,
     "status": "stable",
-    "articleCount": 2,
+    "articleCount": 3,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 1,
+    "distinctSourceCount": 2,
     "leadingSourceIds": [
-      "google-cloud-blog"
+      "google-cloud-blog",
+      "darkreading"
     ],
     "relatedArticleIds": [
       "c18f8e667a2aaf13c53ddfe53daa0f8beb4376e43977e6a531e55aad668fa3d0",
-      "39622fce393db25699f2725d7acc73bfc0a79e2348fa477bdd7ef2b49d8a1d70"
+      "39622fce393db25699f2725d7acc73bfc0a79e2348fa477bdd7ef2b49d8a1d70",
+      "24be7a4f11a5840894d87ba7295c3a0e10a637efcad3306953c707d0bd81610e"
     ]
   },
   {
@@ -799,17 +796,19 @@
     "label": "Post-quantum cryptography",
     "keywordId": "post-quantum-cryptography",
     "timeframe": "7d",
-    "score": 30,
-    "status": "stable",
-    "articleCount": 1,
+    "score": 48,
+    "status": "rising",
+    "articleCount": 2,
     "previousArticleCount": 1,
-    "growthRate": 0,
-    "distinctSourceCount": 1,
+    "growthRate": 100,
+    "distinctSourceCount": 2,
     "leadingSourceIds": [
-      "google-cloud-blog"
+      "google-cloud-blog",
+      "darkreading"
     ],
     "relatedArticleIds": [
-      "c18f8e667a2aaf13c53ddfe53daa0f8beb4376e43977e6a531e55aad668fa3d0"
+      "c18f8e667a2aaf13c53ddfe53daa0f8beb4376e43977e6a531e55aad668fa3d0",
+      "24be7a4f11a5840894d87ba7295c3a0e10a637efcad3306953c707d0bd81610e"
     ]
   },
   {
@@ -818,10 +817,10 @@
     "keywordId": "ransomware",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 1,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
