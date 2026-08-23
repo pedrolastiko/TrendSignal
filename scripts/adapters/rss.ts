@@ -54,11 +54,7 @@ export async function collectFromRss(
   const feed = await parser.parseString(result.body);
   const candidates: RawArticleCandidate[] = [];
 
-  // RSS/Atom feeds are conventionally ordered newest-first; some publishers serve their
-  // entire archive rather than just recent posts, so this cap keeps each run bounded.
-  const items = (feed.items as RssItem[]).slice(0, source.maxItemsPerRun);
-
-  for (const item of items) {
+  for (const item of feed.items as RssItem[]) {
     const url = item.link;
     if (!url || !isSafeUrl(url)) continue;
     const publishedAt =
@@ -75,8 +71,13 @@ export async function collectFromRss(
     });
   }
 
+  // Some publishers serve their whole archive rather than just recent posts, so each
+  // run is capped. Sorting by publication date first means the cap keeps the newest
+  // items even for the feeds that are not ordered newest-first.
+  candidates.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+
   return {
-    candidates,
+    candidates: candidates.slice(0, source.maxItemsPerRun),
     notModified: false,
     etag: result.etag,
     lastModified: result.lastModified,

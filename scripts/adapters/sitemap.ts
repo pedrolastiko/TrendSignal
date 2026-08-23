@@ -7,6 +7,10 @@ import { extractArticleMetadata } from './html-metadata.ts';
 import type { AdapterResult, RawArticleCandidate } from './types.ts';
 
 const PAGE_FETCH_CONCURRENCY = 4;
+/** Child sitemaps pulled from a <sitemapindex>, newest-first; bounded to keep runs cheap. */
+const MAX_CHILD_SITEMAPS = 3;
+const URL_PROBE_MULTIPLIER = 5;
+const MAX_URLS_PROBED = 150;
 const xmlParser = new XMLParser({ ignoreAttributes: false });
 
 interface SitemapUrlEntry {
@@ -14,9 +18,20 @@ interface SitemapUrlEntry {
   lastmod?: string;
 }
 
+interface ParsedSitemap {
+  urlset?: { url?: SitemapUrlEntry | SitemapUrlEntry[] };
+  sitemapindex?: { sitemap?: SitemapUrlEntry | SitemapUrlEntry[] };
+}
+
 function toArray<T>(value: T | T[] | undefined): T[] {
   if (!value) return [];
   return Array.isArray(value) ? value : [value];
+}
+
+function readUrlEntries(parsed: ParsedSitemap): (SitemapUrlEntry & { loc: string })[] {
+  return toArray(parsed.urlset?.url).filter((entry): entry is SitemapUrlEntry & { loc: string } =>
+    Boolean(entry.loc && isSafeUrl(entry.loc)),
+  );
 }
 
 function matchesPathFilters(
@@ -45,12 +60,35 @@ export async function collectFromSitemap(
     };
   }
 
-  const parsed: unknown = xmlParser.parse(sitemap.body);
-  const root = parsed as { urlset?: { url?: SitemapUrlEntry | SitemapUrlEntry[] } };
-  const entries = toArray(root.urlset?.url).filter(
-    (entry): entry is SitemapUrlEntry & { loc: string } =>
-      Boolean(entry.loc && isSafeUrl(entry.loc)),
-  );
+  const root = xmlParser.parse(sitemap.body) as ParsedSitemap;
+  let entries = readUrlEntries(root);
+
+  // A <sitemapindex> lists child sitemaps rather than pages; follow the most recently
+  // modified ones so an index URL works as a feedUrl just like a plain <urlset> does.
+  if (entries.length === 0 && root.sitemapindex) {
+    const children = toArray(root.sitemapindex.sitemap)
+      .filter((child): child is SitemapUrlEntry & { loc: string } =>
+        Boolean(child.loc && isSafeUrl(child.loc)),
+      )
+      .sort((a, b) => (b.lastmod ?? '').localeCompare(a.lastmod ?? ''))
+      .slice(0, MAX_CHILD_SITEMAPS);
+
+    const childLimit = pLimit(PAGE_FETCH_CONCURRENCY);
+    const childEntries = await Promise.all(
+      children.map((child) =>
+        childLimit(async () => {
+          try {
+            const childSitemap = await fetchWithPolicy(child.loc, undefined, repositoryUrl);
+            if (childSitemap.notModified) return [];
+            return readUrlEntries(xmlParser.parse(childSitemap.body) as ParsedSitemap);
+          } catch {
+            return [];
+          }
+        }),
+      ),
+    );
+    entries = childEntries.flat();
+  }
 
   const filtered = entries.filter((entry) => {
     try {
@@ -61,8 +99,12 @@ export async function collectFromSitemap(
     }
   });
 
+  // Probe more URLs than we intend to keep: sitemaps mix articles with section and
+  // landing pages that carry no publication date and get dropped during extraction,
+  // so capping fetches at maxItemsPerRun would starve the article budget.
   const sorted = filtered.sort((a, b) => (b.lastmod ?? '').localeCompare(a.lastmod ?? ''));
-  const candidatesUrls = sorted.slice(0, source.maxItemsPerRun);
+  const probeBudget = Math.min(source.maxItemsPerRun * URL_PROBE_MULTIPLIER, MAX_URLS_PROBED);
+  const candidatesUrls = sorted.slice(0, probeBudget);
 
   const limit = pLimit(PAGE_FETCH_CONCURRENCY);
   const pages = await Promise.all(
@@ -71,7 +113,9 @@ export async function collectFromSitemap(
         try {
           const page = await fetchWithPolicy(entry.loc, undefined, repositoryUrl);
           if (page.notModified) return null;
-          return extractArticleMetadata(page.body, entry.loc);
+          return extractArticleMetadata(page.body, entry.loc, {
+            dateMetaNames: source.dateMetaNames,
+          });
         } catch {
           return null;
         }
@@ -79,8 +123,15 @@ export async function collectFromSitemap(
     ),
   );
 
+  // `lastmod` reflects CMS republication and often runs far ahead of the real
+  // editorial date, so re-sort on the publication date the pages actually declare.
+  const candidates = pages
+    .filter((c): c is RawArticleCandidate => c !== null)
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, source.maxItemsPerRun);
+
   return {
-    candidates: pages.filter((c): c is RawArticleCandidate => c !== null),
+    candidates,
     notModified: false,
     etag: sitemap.etag,
     lastModified: sitemap.lastModified,

@@ -22,6 +22,7 @@ export function buildFixtureSources(baseUrl: string): SourceConfig[] {
       maxItemsPerRun: 30,
       includePaths: [],
       excludePaths: [],
+      dateMetaNames: [],
     },
     {
       id: 'fixture-sitemap-source',
@@ -37,6 +38,7 @@ export function buildFixtureSources(baseUrl: string): SourceConfig[] {
       maxItemsPerRun: 30,
       includePaths: ['/pages/'],
       excludePaths: [],
+      dateMetaNames: [],
     },
     {
       id: 'fixture-html-source',
@@ -52,6 +54,7 @@ export function buildFixtureSources(baseUrl: string): SourceConfig[] {
       maxItemsPerRun: 30,
       includePaths: ['/pages/article'],
       excludePaths: [],
+      dateMetaNames: [],
     },
   ];
 }
