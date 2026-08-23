@@ -4,18 +4,14 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "24h",
-    "score": 34,
-    "status": "stable",
-    "articleCount": 1,
-    "previousArticleCount": 0,
-    "growthRate": null,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "techcrunch"
-    ],
-    "relatedArticleIds": [
-      "e0cf4087263d4676e0505f98e8da3f156c40b91d5dedcd955dfb80bcbbdf948f"
-    ]
+    "score": 0,
+    "status": "declining",
+    "articleCount": 0,
+    "previousArticleCount": 1,
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "agentic-ai-30d",
@@ -195,23 +191,21 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 59,
+    "score": 55,
     "status": "rising",
-    "articleCount": 6,
-    "previousArticleCount": 19,
-    "growthRate": -68,
-    "distinctSourceCount": 3,
+    "articleCount": 5,
+    "previousArticleCount": 15,
+    "growthRate": -67,
+    "distinctSourceCount": 2,
     "leadingSourceIds": [
       "techcrunch",
-      "infoq",
-      "venturebeat"
+      "infoq"
     ],
     "relatedArticleIds": [
-      "e0cf4087263d4676e0505f98e8da3f156c40b91d5dedcd955dfb80bcbbdf948f",
       "89e7c92b661d65079653fb066b8b4106a727f63dd4a15b299b7e20f6d891c620",
-      "d69d98e58a53054e1467e81fab393f79a5239ed6ad3c62243ce6774ea367dbff",
-      "00850b1911a5f9b22f23cddebea36e8c7fd485ca5899f6e597a632615e53d84b",
       "416c0c38cbc7fc9919c4ae80a01622bbae2d8cf707aca429549110e38dc2b0d3",
+      "3b921118c9bb5bb8c69e2f2cb9a02c7ed79994d77ec0c240f3584b0d86988f26",
+      "17740dc5b55bf046e349300c89b0865de6cfbcd8183a2bfcacb343487f552d88",
       "830711aca517bbb0172a98beedeec5b70a785b9c57afaabf041abb1ae172ff20"
     ]
   },
@@ -222,9 +216,9 @@
     "timeframe": "30d",
     "score": 94,
     "status": "breakout",
-    "articleCount": 253,
+    "articleCount": 255,
     "previousArticleCount": 75,
-    "growthRate": 237,
+    "growthRate": 240,
     "distinctSourceCount": 41,
     "leadingSourceIds": [
       "openai-news",
@@ -251,14 +245,14 @@
     "timeframe": "7d",
     "score": 93,
     "status": "breakout",
-    "articleCount": 133,
+    "articleCount": 135,
     "previousArticleCount": 47,
-    "growthRate": 183,
+    "growthRate": 187,
     "distinctSourceCount": 31,
     "leadingSourceIds": [
       "theregister",
-      "thehackernews",
-      "techcrunch"
+      "techcrunch",
+      "thehackernews"
     ],
     "relatedArticleIds": [
       "983abfeb78ba93e4d74766cafbcaf74bebddeddbd10a068f83e2c0ee31b61f85",
@@ -379,10 +373,10 @@
     "keywordId": "cybersecurity",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 1,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -450,31 +444,37 @@
     "label": "Data protection and privacy engineering",
     "keywordId": "data-protection-privacy",
     "timeframe": "24h",
-    "score": 0,
-    "status": "stable",
-    "articleCount": 0,
-    "previousArticleCount": 0,
-    "growthRate": null,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
-  },
-  {
-    "id": "data-protection-privacy-30d",
-    "label": "Data protection and privacy engineering",
-    "keywordId": "data-protection-privacy",
-    "timeframe": "30d",
-    "score": 30,
+    "score": 35,
     "status": "stable",
     "articleCount": 1,
     "previousArticleCount": 0,
     "growthRate": null,
     "distinctSourceCount": 1,
     "leadingSourceIds": [
-      "paloaltonetworks-blog"
+      "techcrunch"
     ],
     "relatedArticleIds": [
-      "e68b72061e8a31f834429ad8a0644daf178dcc6968c27edc2630daa319f0648d"
+      "684641b81f3a932a95f87ed5ffbc1b5dbebf5af8e65e7ef97367c9d6c8e3b55b"
+    ]
+  },
+  {
+    "id": "data-protection-privacy-30d",
+    "label": "Data protection and privacy engineering",
+    "keywordId": "data-protection-privacy",
+    "timeframe": "30d",
+    "score": 33,
+    "status": "stable",
+    "articleCount": 2,
+    "previousArticleCount": 0,
+    "growthRate": null,
+    "distinctSourceCount": 2,
+    "leadingSourceIds": [
+      "paloaltonetworks-blog",
+      "techcrunch"
+    ],
+    "relatedArticleIds": [
+      "e68b72061e8a31f834429ad8a0644daf178dcc6968c27edc2630daa319f0648d",
+      "684641b81f3a932a95f87ed5ffbc1b5dbebf5af8e65e7ef97367c9d6c8e3b55b"
     ]
   },
   {
@@ -482,14 +482,18 @@
     "label": "Data protection and privacy engineering",
     "keywordId": "data-protection-privacy",
     "timeframe": "7d",
-    "score": 0,
+    "score": 28,
     "status": "stable",
-    "articleCount": 0,
+    "articleCount": 1,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
+    "distinctSourceCount": 1,
+    "leadingSourceIds": [
+      "techcrunch"
+    ],
+    "relatedArticleIds": [
+      "684641b81f3a932a95f87ed5ffbc1b5dbebf5af8e65e7ef97367c9d6c8e3b55b"
+    ]
   },
   {
     "id": "devsecops-24h",

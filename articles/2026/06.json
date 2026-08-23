@@ -31,9 +31,11 @@
     "summary": "Secure-by-design types can turn common bugs into compile-time errors. This post explores how type-level security could help prevent entire classes of AI-generated vulnerabilities.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1630407318/wordpress-sync/blog-feature-snyk-code-green.png",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 38
   },
   {
@@ -82,9 +84,11 @@
     "summary": "AI coding agents are adding a new layer to the software supply chain. Learn what Snyk found in nearly 10,000 developer environments and how to secure the tools, instructions, and permissions behind agentic development.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1782151939/Featured_image_rcbdh0.png",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 23
   },
   {
@@ -225,9 +229,11 @@
     "summary": "NIST’s shift to risk-based enrichment makes one thing clear: modern security teams need more than a single public source. In the AI era, trusted vulnerability intelligence depends on multiple signals, human validation, and clear context.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1671633728/wordpress-sync/feature-5FoCS4.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 38
   },
   {
@@ -382,7 +388,9 @@
     "summary": "Consumerisation, the race to refill pharma pipelines, and the rise of technology-led dealmaking define health industries M&A in the second half of 2026​.",
     "imageUrl": "https://www.pwc.com/gx/en/services/deals/trends/hi-thumb-h1-2025.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 5
   },
   {
@@ -399,7 +407,9 @@
     "summary": "A new npm worm is abusing binding.gyp to trigger node-gyp during install, letting malicious packages run code without lifecycle scripts. It steals credentials, persists in GitHub, and self-propagates across maintainers.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1780493531/feature-insights_announcement_1_jkxpy4.png",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 6
   },
   {
@@ -416,9 +426,11 @@
     "summary": "A note to our customers and partners about Snyk's AI transformation and organizational changes.",
     "imageUrl": "https://snyk.io/images/fallbacks/default-blog.svg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 23
   },
   {
@@ -434,10 +446,12 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "The enterprise adoption of artificial intelligence has reached an inflection point. Organizations are rapidly moving into the era of agentic AI, autonomous systems capable of executing complex reasoning and making operational decisions independently. Yet as executives attempt to transition agents from sandbox…",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "agentic-ai",
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 63
   },
   {
@@ -454,10 +468,12 @@
     "summary": "Open source maintainers are drowning in real vulnerability reports and need help prioritizing, fixing, and shipping remediation faster. Snyk’s Secure Developer Program gives qualifying projects free access to the Snyk AI Security Platform.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1676482568/blog-feature-pypi-spoof.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "ai-security",
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 64
   },
   {
@@ -492,9 +508,11 @@
     "summary": "Reliability is the key thesis in energy, utilities, and resources M&A as AI-fuelled demand, grid constraints, and geopolitical instability converge.",
     "imageUrl": "https://www.pwc.com/gx/en/services/deals/trends/eur-thumb-h1-2025.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 22
   },
   {
@@ -511,7 +529,9 @@
     "summary": "A dormant contributor account was used to republish the entire @mastra npm scope, each injected with a single dependency, easy-day-js, that drops a cross-platform cryptocurrency stealer. Here is how the attack worked, how to check exposure, and how to remediate.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1671633565/wordpress-sync/blog-feature-toolkit.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 6
   },
   {
@@ -527,7 +547,12 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "Amazon EC2 C9g and C9gd instances, powered by AWS Graviton5, are now generally available. They deliver up to 25% better compute performance than Graviton4-based instances, 5x larger cache, fastest memory of any processor instances in the cloud, and local NVMe storage options (C9gd).",
     "language": "en",
+    "tags": [
+      "Amazon EC2",
+      "Graviton"
+    ],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 8
   },
   {
@@ -821,9 +846,18 @@
     "summary": "Learn how SentinelOne empowers modern enterprises to safely adopt Claude with Prompt Security, AI SIEM, and Wayfinder Frontier AI.",
     "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/06/sentinelone_anthropic_integrations.jpg",
     "language": "en",
+    "tags": [
+      "AI SIEM",
+      "anthropic",
+      "claude",
+      "prompt security",
+      "Singularity",
+      "wayfinder frontier ai"
+    ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 38
   },
   {
@@ -858,9 +892,17 @@
     "summary": "SentinelOne’s Purple AI Agentic Investigation, now GA, solves the SOC investigation capacity gap with zero-click, machine-speed alert analysis.",
     "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/06/Purple_Agentic_Demo_Video_Short.mp4",
     "language": "en",
+    "tags": [
+      "agentic investigation",
+      "autonomous SOC",
+      "hyperautomation",
+      "purple ai",
+      "Singularity Platform"
+    ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 38
   },
   {
@@ -876,9 +918,19 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "It has been a busy stretch on the AWS Summit circuit. At the New York City Summit, I delivered a workshop called Building AI architectures with AWS Serverless, and it was a lot of fun watching builders wire up agents and serverless services to solve real problems in a single afternoon. This week I am […]",
     "language": "en",
+    "tags": [
+      "Amazon Connect",
+      "Amazon EC2",
+      "Amazon GuardDuty",
+      "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+      "Amazon OpenSearch Service",
+      "AWS Lambda",
+      "AWS Outposts"
+    ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 25
   },
   {
@@ -895,7 +947,9 @@
     "summary": "Financial services dealmakers pursue scale, cost efficiency, and tech-enabled transformation in a more selective M&A market.​",
     "imageUrl": "https://www.pwc.com/gx/en/services/deals/trends/fs-thumb-h1-2025.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 5
   },
   {
@@ -1013,9 +1067,11 @@
     "summary": "AI agents introduce security risk through the actions they take, not just the code they produce. Learn how agent behavior governance helps teams observe, steer, and block risky actions in real time.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1782152648/Blog_feature_gj8ts8.png",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 38
   },
   {
@@ -1311,9 +1367,11 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "There’s a common theme to the conversations I’ve been having with AI teams lately: change. Constant, head-spinning change. Teams across industries are evaluating and re-evaluating model providers, agent frameworks, and harnesses on a continuous basis. At MongoDB, we believe that your choice of technology…",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 22
   },
   {
@@ -1644,9 +1702,14 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads.",
     "language": "en",
+    "tags": [
+      "Amazon EC2",
+      "Compute"
+    ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 25
   },
   {
@@ -1680,9 +1743,11 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "Retail supply chains are not a back-office logistics function; they are a high-stakes, board-level concern. Imagine learning suddenly that shipment rerouting surcharges have doubled due to new regional escalations; the impact on competitive differentiation and consumer trust is immediate. As a result, a long-standing…",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 27
   },
   {
@@ -1717,7 +1782,17 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance, IAM-based access controls, and domain scoping, reducing operational risk as certificate lifetimes…",
     "language": "en",
+    "tags": [
+      "AWS Certificate Manager",
+      "Security",
+      "Identity",
+      "& Compliance"
+    ],
     "matchedKeywordIds": [
+      "identity-access-management"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity",
       "identity-access-management"
     ],
     "relevanceScore": 25
@@ -1735,7 +1810,9 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "Nearly a decade ago, I joined MongoDB as a Senior Product Manager to help build the company’s new cloud product, MongoDB Atlas. Our customers had been telling us they wanted to bring MongoDB’s familiar developer experience to the cloud, with the reliability and confidence teams needed to run in production. Atlas was…",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 5
   },
   {
@@ -1788,10 +1865,22 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "Last week AWS Summit New York City brought together thousands of customers, partners, and builders for a free, one-day event showcasing the latest in cloud and AI innovation. Dr. Swami Sivasubramanian, VP of Agentic AI at AWS unveiled a stack of AI launches in his keynote, all built around one thesis: agents that…",
     "language": "en",
+    "tags": [
+      "Amazon Bedrock",
+      "Amazon Elastic Container Service",
+      "Amazon GameLift",
+      "Amazon Simple Storage Service (S3)",
+      "AWS Local Zones",
+      "AWS Management Console",
+      "AWS Marketplace",
+      "Price Reduction",
+      "Strands Agents"
+    ],
     "matchedKeywordIds": [
       "agentic-ai",
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 36
   },
   {
@@ -1843,9 +1932,11 @@
     "summary": "Explore a day in the life of an AI Engineer at Snyk's Lisbon office. See what it's like building AI-powered security tools, collaborating globally, and enjoying the vibrant culture of Portugal's capital city.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1630407319/wordpress-sync/blog-feature-hypergrowth-rocket.png",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 38
   },
   {
@@ -1950,7 +2041,9 @@
     "summary": "Defence priorities, roll-ups, and digital transformation drive industrials and services M&A as buyers pursue sustained growth and strategic control.",
     "imageUrl": "https://www.pwc.com/gx/en/services/deals/trends/is-thumb-h1-2025.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 5
   },
   {
@@ -2034,9 +2127,14 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no additional cost.",
     "language": "en",
+    "tags": [
+      "AWS CloudFormation",
+      "Management Tools"
+    ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 25
   },
   {
@@ -2424,7 +2522,14 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation up to 8 hours, no infrastructure to manage.",
     "language": "en",
+    "tags": [
+      "AWS Lambda",
+      "Compute",
+      "Firecracker",
+      "Serverless"
+    ],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 8
   },
   {
@@ -2457,9 +2562,11 @@
     "summary": "Announcing Snyk Agentic Development Security, a new Evo solution that helps organizations securely adopt AI-driven development with visibility, governance, and control.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1782146884/image_ar760z.png",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 23
   },
   {
@@ -2528,9 +2635,11 @@
     "summary": "A government order abruptly took down a powerful AI model, exposing a new kind of supply chain risk for engineering teams. Security leaders need contingency plans before the next model disappears.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1671633728/wordpress-sync/feature-5FoCS3.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 38
   },
   {
@@ -2583,7 +2692,9 @@
     "summary": "Consumer markets M&A in 2026 polarises as portfolio reviews, succession, and private equity backlogs shape the next wave of deal supply.​",
     "imageUrl": "https://www.pwc.com/gx/en/services/deals/trends/cm-thumb-h1-2025.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 5
   },
   {
@@ -2764,9 +2875,11 @@
     "summary": "Companies rethink control, using M&A, partnerships, minority investments, and capacity agreements to secure access across the AI landscape.",
     "imageUrl": "https://www.pwc.com/gx/en/services/deals/trends/tmt-thumb-h1-2025.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 22
   },
   {
@@ -2977,9 +3090,11 @@
     "summary": "On June 12, 2026, a US export-control directive led Anthropic to disable Claude Fable 5 and Mythos 5 worldwide over a reported jailbreak. The reported trigger was a code-analysis capability that defenders use routinely. Here is what happened, how the security community read it, and what security teams can take from it.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1646599410/wordpress-sync/blog-feature-security-alert-purple.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 28
   },
   {
@@ -2996,7 +3111,9 @@
     "summary": "A forgotten credential at vendor Klue let attackers reach customers' Salesforce data. How modern SaaS breaches cascade, and the keys you should audit.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1588865915/Corona-blog-feature.png",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 6
   },
   {
@@ -3013,9 +3130,11 @@
     "summary": "Snyk VulnBench JS 1.0: 300 repeated scans show LLM security findings vary by run, while SAST and models catch different vulnerability gaps.",
     "imageUrl": "https://res.cloudinary.com/snyk/image/upload/v1671633915/wordpress-sync/feature-screenshot-mockup.jpg",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "generative-ai"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 24
   },
   {
@@ -3068,9 +3187,13 @@
     "summary": "Supersizing M&A for the AI era​. Fewer, much larger deals set the trend as AI rips up the old playbook and ushers in a disruptive new age for dealmakers.",
     "imageUrl": "https://www.pwc.com/gx/en/services/deals/trends/deal-trends-2026-thumbnail.jpg",
     "language": "en",
+    "tags": [
+      "global m&a trends"
+    ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 22
   },
   {
