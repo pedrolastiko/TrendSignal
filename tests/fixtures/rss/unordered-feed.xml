@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Deliberately ordered oldest-first: capping a feed on raw item order would keep the
+  stale entries and drop the recent one.
+-->
+<rss version="2.0">
+  <channel>
+    <title>Unordered Fixture Feed</title>
+    <link>https://example-unordered.test/blog</link>
+    <description>Feed whose items are not in newest-first order</description>
+    <item>
+      <title>Oldest ransomware retrospective</title>
+      <link>https://example-unordered.test/blog/oldest</link>
+      <pubDate>Mon, 06 Jan 2025 09:00:00 GMT</pubDate>
+      <description>An old post about ransomware.</description>
+    </item>
+    <item>
+      <title>Middle-aged Zero Trust note</title>
+      <link>https://example-unordered.test/blog/middle</link>
+      <pubDate>Tue, 10 Jun 2025 09:00:00 GMT</pubDate>
+      <description>A somewhat older post about Zero Trust.</description>
+    </item>
+    <item>
+      <title>Newest post on agentic AI</title>
+      <link>https://example-unordered.test/blog/newest</link>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 GMT</pubDate>
+      <description>The most recent post, about agentic AI.</description>
+    </item>
+  </channel>
+</rss>

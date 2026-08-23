@@ -137,14 +137,25 @@ the branch's file layout.
   `docs/adding-a-source.md` for the required validation step before setting `enabled: true`.
 
 `config/sources.yml` currently ships with 49 declared sources, 29 of them live-validated and
-enabled (spanning consulting, technology, cybersecurity, AI, and media) as of 2026-08-22 — see the
+enabled (spanning consulting, technology, cybersecurity, AI, and media) as of 2026-08-23 — see the
 header comment in that file for the validation method. The rest are documented candidates kept
 `enabled: false` with `feedUrl: REPLACE_AFTER_VALIDATION` until someone validates a real endpoint.
+
+After changing a source definition, run `npx tsx scripts/audit-sources.ts` to check what each
+source actually contributes — health alone does not distinguish a working source from one that
+fetches successfully but yields no usable article. See `docs/architecture.md`.
 
 ## Limitations
 
 - MVP-scope generic HTML/sitemap adapters use metadata extraction only (JSON-LD → Open Graph →
-  standard `<meta>` tags); no headless browser and no source-specific scraping beyond that.
+  standard `<meta>` → publisher-specific `<meta>` names declared per source); no headless browser
+  and no source-specific scraping beyond that.
+- Some publishers block the collector outright. Wired answers HTTP 403 to every request regardless
+  of headers while serving the same URL to a browser — anti-bot protection keyed on the client's
+  TLS fingerprint. Circumventing that is out of scope by design (AGENTS.md #9), so the source is
+  kept `enabled: false` with the reason recorded in `config/sources.yml`.
+- Consulting firms publish flagship research a few times a quarter rather than daily, so their
+  articles are naturally sparser in the dashboard's most-recent window than the daily news feeds.
 - Demo/fixture data has fixed calendar dates, so the 24h trend view can be sparse right after
   `generate:demo` depending on real-world timing (see **Demo data** above).
 - Relevance and trend scoring use deterministic, documented heuristics (no paid AI API), tuned for

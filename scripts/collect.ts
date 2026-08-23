@@ -24,6 +24,7 @@ import { collectFromSitemap } from './adapters/sitemap.ts';
 import { collectFromGenericHtml } from './adapters/generic-html.ts';
 import { buildFixtureSources } from './fixture-sources.ts';
 import { startFixtureServer } from './fixture-server.ts';
+import { resolveRepositoryUrl } from './repository-url.ts';
 import {
   articlesFileSchema,
   dataManifestSchema,
@@ -147,11 +148,7 @@ async function collectSource(
 
 export async function collect(options: CollectOptions): Promise<void> {
   const now = options.now ?? new Date();
-  const repositoryUrl =
-    process.env.VITE_REPOSITORY_URL ||
-    (process.env.GITHUB_SERVER_URL && process.env.GITHUB_REPOSITORY
-      ? `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}`
-      : undefined);
+  const repositoryUrl = resolveRepositoryUrl();
 
   let fixtureServer: Awaited<ReturnType<typeof startFixtureServer>> | undefined;
   let sources: SourceConfig[];

@@ -31,6 +31,7 @@ function baseSource(overrides: Partial<SourceConfig>): SourceConfig {
     maxItemsPerRun: 30,
     includePaths: [],
     excludePaths: [],
+    dateMetaNames: [],
     ...overrides,
   };
 }
@@ -57,6 +58,16 @@ describe('collectFromRss (fixture-backed, no live network)', () => {
     const result = await collectFromRss(source, undefined, undefined);
     expect(result.candidates.length).toBe(2);
   });
+
+  it('keeps the newest items when capping a feed that is not ordered newest-first', async () => {
+    const source = baseSource({
+      feedUrl: `${server.baseUrl}/rss/unordered-feed.xml`,
+      maxItemsPerRun: 1,
+    });
+    const result = await collectFromRss(source, undefined, undefined);
+    expect(result.candidates).toHaveLength(1);
+    expect(result.candidates[0]?.title).toBe('Newest post on agentic AI');
+  });
 });
 
 describe('collectFromSitemap (fixture-backed, no live network)', () => {
@@ -74,14 +85,37 @@ describe('collectFromSitemap (fixture-backed, no live network)', () => {
       'Zero Trust adoption accelerates across financial services',
     ]);
   });
+
+  it('resolves a <sitemapindex> by following its child sitemaps', async () => {
+    const source = baseSource({
+      collectionMode: 'sitemap',
+      feedUrl: `${server.baseUrl}/sitemap/sitemap-index.xml`,
+      includePaths: ['/pages/'],
+    });
+    const result = await collectFromSitemap(source, undefined, undefined);
+    const titles = result.candidates.map((c) => c.title).sort();
+    expect(titles).toEqual([
+      'Post-quantum cryptography migration guidance published',
+      'Zero Trust adoption accelerates across financial services',
+    ]);
+  });
+
+  it('returns candidates ordered newest-first by their declared publication date', async () => {
+    const source = baseSource({
+      collectionMode: 'sitemap',
+      feedUrl: `${server.baseUrl}/sitemap/sitemap.xml`,
+      includePaths: ['/pages/'],
+    });
+    const result = await collectFromSitemap(source, undefined, undefined);
+    const dates = result.candidates.map((c) => c.publishedAt);
+    expect(dates).toEqual([...dates].sort().reverse());
+  });
 });
 
 describe('collectFromGenericHtml (fixture-backed, no live network)', () => {
-  it('extracts article metadata for every distinct link on the listing page', async () => {
-    // The adapter itself does not deduplicate — the fixture listing page links to
-    // article-a.html twice (once with an extra ?utm_source= tracking param), so both
-    // resolve and are fetched; deduplicateArticles() is what collapses these later
-    // in the pipeline (see deduplicate.test.ts).
+  it('collapses links to the same article that differ only by tracking parameters', async () => {
+    // The fixture listing links article-a.html twice, the second time with an extra
+    // ?utm_source=. Candidate links are keyed by normalized URL, so it is fetched once.
     const source = baseSource({
       collectionMode: 'html',
       feedUrl: `${server.baseUrl}/html/listing.html`,
@@ -91,7 +125,6 @@ describe('collectFromGenericHtml (fixture-backed, no live network)', () => {
     const titles = result.candidates.map((c) => c.title).sort();
     expect(titles).toEqual([
       'Cloud security spending outlook',
-      'Third-party risk management trends for 2026',
       'Third-party risk management trends for 2026',
     ]);
   });
@@ -106,5 +139,36 @@ describe('collectFromGenericHtml (fixture-backed, no live network)', () => {
     const titles = result.candidates.map((c) => c.title);
     expect(titles).not.toContain('About');
     expect(titles).not.toContain('Careers');
+  });
+
+  it('still finds articles when navigation links fill the page ahead of them', async () => {
+    // Regression test for the Deloitte failure: with no includePaths filter, the nav
+    // menu links (and an asset-shaped URL) come first in DOM order. Capping fetches at
+    // maxItemsPerRun consumed the whole budget on navigation and returned no articles.
+    const source = baseSource({
+      collectionMode: 'html',
+      feedUrl: `${server.baseUrl}/html/nav-heavy-listing.html`,
+      includePaths: [],
+      maxItemsPerRun: 2,
+    });
+    const result = await collectFromGenericHtml(source, undefined, undefined);
+    const titles = result.candidates.map((c) => c.title).sort();
+    expect(titles).toEqual([
+      'Cloud security spending outlook',
+      'Third-party risk management trends for 2026',
+    ]);
+  });
+
+  it('reads a publication date from a source-specific meta name via dateMetaNames', async () => {
+    const source = baseSource({
+      collectionMode: 'html',
+      feedUrl: `${server.baseUrl}/html/nav-heavy-vendor-listing.html`,
+      includePaths: ['/pages/vendor-meta'],
+      dateMetaNames: ['acmeReleaseDate'],
+    });
+    const result = await collectFromGenericHtml(source, undefined, undefined);
+    expect(result.candidates).toHaveLength(1);
+    expect(result.candidates[0]?.title).toBe('Ransomware readiness benchmark');
+    expect(result.candidates[0]?.publishedAt).toBe('2026-08-10T12:00:00.000Z');
   });
 });

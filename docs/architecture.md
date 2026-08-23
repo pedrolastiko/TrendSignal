@@ -39,11 +39,21 @@ into the browser bundle.
    (`scripts/config-loader.ts`).
 2. **Fetch** — one adapter per `collectionMode`:
    - `scripts/adapters/rss.ts` (RSS **and** Atom, via `rss-parser`)
-   - `scripts/adapters/sitemap.ts` (XML sitemap → per-URL metadata fetch)
+   - `scripts/adapters/sitemap.ts` (XML sitemap or sitemap index → per-URL metadata fetch)
    - `scripts/adapters/generic-html.ts` (listing page → per-link metadata fetch)
    - Both sitemap and generic-html delegate metadata extraction to
-     `scripts/adapters/html-metadata.ts` (JSON-LD → Open Graph → standard `<meta>`, in that
-     priority order).
+     `scripts/adapters/html-metadata.ts`, which walks four levels in order: JSON-LD
+     `Article`/`NewsArticle`/`BlogPosting` → Open Graph → standard HTML metadata
+     (`itemprop="datePublished"`, `name="date"`, Dublin Core, `<time datetime>`, …) →
+     the publisher-specific `<meta name="…">` names a source declares in
+     `dateMetaNames`. A page with no title **or** no date is dropped, so the lower
+     levels are what keep publishers like PwC — which ship neither JSON-LD nor
+     `article:published_time` — from yielding nothing at all.
+   - All three adapters cap each run at `maxItemsPerRun` **articles**, not raw links:
+     they probe a larger pool first, then sort by the publication date the items
+     actually declare and keep the newest. Capping the input instead lets navigation
+     links, undated section pages, or a feed that is not ordered newest-first crowd
+     out the real articles.
    - All network access goes through `scripts/http.ts`: 15s timeout, up to two retries with
      exponential backoff on transient errors, ETag/Last-Modified conditional requests, a redirect
      limit, a response-size limit, and an http(s)-only protocol check.
@@ -89,6 +99,27 @@ yet.
 - `src/hooks/useLocalStorage.ts` — versioned, corruption-tolerant local storage for personal
   display preferences only (hidden keywords/sources, filters, sort, locale). Never used for
   anything that needs to be shared or trusted.
+
+## Auditing what sources actually contribute
+
+Per-source health (`healthy`/`warning`/`error`) only records whether a fetch succeeded. A
+source can be perfectly healthy while contributing nothing usable — returning navigation
+pages that carry no date, or articles that match no keyword.
+
+`scripts/audit-sources.ts` closes that gap: it runs the real adapters against every enabled
+source and reports, per source, how many items came back, how many survived metadata
+extraction, how recent they are, and how many matched an enabled keyword.
+
+```bash
+npx tsx scripts/audit-sources.ts                     # all enabled sources
+npx tsx scripts/audit-sources.ts --source-id=<id>     # one source
+```
+
+It hits live publishers, so it is intentionally **not** part of CI. Run it after changing a
+source definition or an adapter. It resolves the collector's User-Agent exactly as
+`collect.ts` does (see `scripts/repository-url.ts`) — some publisher CDNs answer 403 to a
+bot UA with no contact URL, so an audit that sent a different UA would not reflect
+production.
 
 ## Fixture-backed testing
 

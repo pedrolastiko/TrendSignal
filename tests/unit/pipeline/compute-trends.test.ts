@@ -31,6 +31,7 @@ const sources: SourceConfig[] = [
     maxItemsPerRun: 30,
     includePaths: [],
     excludePaths: [],
+    dateMetaNames: [],
   },
   {
     id: 'source-b',
@@ -46,6 +47,7 @@ const sources: SourceConfig[] = [
     maxItemsPerRun: 30,
     includePaths: [],
     excludePaths: [],
+    dateMetaNames: [],
   },
 ];
 

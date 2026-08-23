@@ -56,34 +56,43 @@ sources:
     name: Deloitte Insights
     company: Deloitte
     category: consulting
-    homepageUrl: https://www2.deloitte.com/us/en/insights.html
-    # No public RSS/Atom feed exists for Deloitte Insights (checked directly and via
-    # page <link rel="alternate"> — none present). Article pages do carry JSON-LD
-    # Article metadata (headline/datePublished), so generic-html collection against
-    # the listing page works — validated 2026-08-22 via collectFromGenericHtml,
-    # which returned 7 real, dated articles from https://www2.deloitte.com/us/en/insights.html.
-    collectionMode: html
-    feedUrl: https://www2.deloitte.com/us/en/insights.html
+    homepageUrl: https://www.deloitte.com/global/en.html
+    # No public RSS/Atom feed exists for Deloitte (checked directly and via page
+    # <link rel="alternate"> — none present). The listing page at
+    # www2.deloitte.com/us/en/insights.html links its whole navigation menu before
+    # any article, so it yielded almost nothing; the sitemap declared in
+    # robots.txt is both richer and dated. Article pages carry JSON-LD Article
+    # metadata (headline/datePublished). includePaths targets the thought-leadership
+    # sections and keeps out people profiles, press releases, and service pages.
+    # Validated live 2026-08-22 against sitemap_global_en.xml (3828 URLs, 685 in
+    # these sections).
+    collectionMode: sitemap
+    feedUrl: https://www.deloitte.com/global/sitemaps/secured/sitemap_global_en.xml
     enabled: true
     priority: 6
     language: en
     maxItemsPerRun: 30
-    includePaths: ['/insights/']
-    excludePaths: []
+    includePaths: ['/research/', '/perspectives/', '/blogs/', '/insights/', '/our-thinking/']
+    excludePaths: ['/about/people/', '/press-room/', '/recognition/']
 
   - id: pwc-insights
     name: PwC Insights
     company: PwC
     category: consulting
     homepageUrl: https://www.pwc.com/gx/en/issues.html
-    collectionMode: rss
-    feedUrl: REPLACE_AFTER_VALIDATION
-    enabled: false
+    # No public RSS/Atom feed. PwC article pages carry neither JSON-LD Article
+    # metadata nor article:published_time — the publication date is only in a
+    # proprietary <meta name="pwcReleaseDate">, hence dateMetaNames below.
+    # Validated live 2026-08-22 against the gx (global) sitemap: 2420 dated URLs.
+    collectionMode: sitemap
+    feedUrl: https://www.pwc.com/gx/en/sitemaps/sitemap1.xml
+    enabled: true
     priority: 5
     language: en
     maxItemsPerRun: 30
-    includePaths: []
-    excludePaths: []
+    includePaths: ['/issues/', '/services/', '/industries/']
+    excludePaths: ['/about/', '/careers/', '/alliances/', '/case-studies/']
+    dateMetaNames: ['pwcReleaseDate']
 
   - id: mckinsey-insights
     name: McKinsey & Company Insights
@@ -640,9 +649,14 @@ sources:
     company: Wired
     category: media
     homepageUrl: https://www.wired.com/
+    # Disabled 2026-08-22: the feed returns HTTP 403 to the collector on every
+    # request, with or without headers, while the same URL serves 200 to curl —
+    # i.e. anti-bot protection keyed on the client's TLS fingerprint rather than
+    # on the user agent. AGENTS.md #9 forbids circumventing anti-bot controls, so
+    # this stays disabled rather than being worked around.
     collectionMode: rss
     feedUrl: https://www.wired.com/feed/rss
-    enabled: true
+    enabled: false
     priority: 5
     language: en
     maxItemsPerRun: 40

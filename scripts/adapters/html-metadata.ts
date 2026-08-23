@@ -67,10 +67,54 @@ function meta($: cheerio.CheerioAPI, selector: string): string | undefined {
 }
 
 /**
- * Extracts article metadata following the priority order: JSON-LD > Open Graph
- * > standard HTML metadata. Returns null when no usable title/date is found.
+ * Standard (non-JSON-LD, non-Open-Graph) publication-date metadata, in the order
+ * publishers most commonly use it. This is priority 3 of the documented extraction
+ * chain; without it, any publisher that ships neither JSON-LD nor
+ * `article:published_time` yields no date and is dropped entirely.
  */
-export function extractArticleMetadata(html: string, pageUrl: string): RawArticleCandidate | null {
+const STANDARD_DATE_SELECTORS = [
+  'meta[itemprop="datePublished"]',
+  'meta[name="datePublished"]',
+  'meta[name="publish-date"]',
+  'meta[name="publication_date"]',
+  'meta[name="pubdate"]',
+  'meta[name="date"]',
+  'meta[name="DC.date.issued"]',
+  'meta[name="dc.date.issued"]',
+  'meta[name="parsely-pub-date"]',
+  'meta[name="sailthru.date"]',
+];
+
+function findStandardDate($: cheerio.CheerioAPI): string | undefined {
+  for (const selector of STANDARD_DATE_SELECTORS) {
+    const value = meta($, selector);
+    if (value) return value;
+  }
+  // Semantic <time> element, e.g. <time datetime="..." itemprop="datePublished">
+  const timeAttr = $('time[datetime]').first().attr('datetime');
+  return timeAttr?.trim() || undefined;
+}
+
+export interface MetadataExtractionOptions {
+  /**
+   * Publisher-specific `<meta name="...">` names carrying the publication date,
+   * tried after the standard selectors above (priority 4 of the extraction chain).
+   * Declared per source in config/sources.yml so vendor quirks stay out of this
+   * generic extractor — e.g. PwC exposes only `pwcReleaseDate`.
+   */
+  dateMetaNames?: string[];
+}
+
+/**
+ * Extracts article metadata following the priority order: JSON-LD > Open Graph >
+ * standard HTML metadata > source-specific selectors. Returns null when no usable
+ * title/date is found.
+ */
+export function extractArticleMetadata(
+  html: string,
+  pageUrl: string,
+  options: MetadataExtractionOptions = {},
+): RawArticleCandidate | null {
   const $ = cheerio.load(html);
   const jsonLd = findArticleJsonLd($);
 
@@ -78,11 +122,20 @@ export function extractArticleMetadata(html: string, pageUrl: string): RawArticl
     jsonLd?.headline ??
     jsonLd?.name ??
     meta($, 'meta[property="og:title"]') ??
+    meta($, 'meta[name="title"]') ??
     $('title').first().text().trim() ??
     undefined;
 
+  const sourceSpecificDate = options.dateMetaNames
+    ?.map((name) => meta($, `meta[name="${name}"]`))
+    .find((value): value is string => Boolean(value));
+
   const publishedAt =
-    jsonLd?.datePublished ?? meta($, 'meta[property="article:published_time"]') ?? undefined;
+    jsonLd?.datePublished ??
+    meta($, 'meta[property="article:published_time"]') ??
+    findStandardDate($) ??
+    sourceSpecificDate ??
+    undefined;
 
   if (!title || !publishedAt) return null;
   const publishedDate = new Date(publishedAt);

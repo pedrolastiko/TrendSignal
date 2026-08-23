@@ -56,9 +56,27 @@ the method and date.
   maxItemsPerRun: 30
   includePaths: [] # substrings a URL's path must contain (sitemap/html only)
   excludePaths: [] # substrings that exclude a URL's path (sitemap/html only)
+  dateMetaNames: [] # publisher-specific <meta name="..."> holding the date (see below)
 ```
 
-Run `npm run validate:config` locally to confirm the file still parses and every id stays unique.
+`feedUrl` for `collectionMode: sitemap` may point at either a `<urlset>` or a
+`<sitemapindex>`; an index is resolved by following its most recently modified child
+sitemaps.
+
+Prefer a sitemap over a listing page when a publisher offers one: a listing page links
+its whole navigation menu before any article, whereas a sitemap is dated and article-dense.
+Use `includePaths`/`excludePaths` to keep the selection on thought-leadership sections and
+away from people profiles, press releases, and service pages.
+
+`dateMetaNames` is the escape hatch for publishers whose pages carry no JSON-LD, no
+`article:published_time`, and no standard date meta — PwC, for instance, exposes the
+publication date only as `<meta name="pwcReleaseDate">`. List those names here rather than
+special-casing the publisher in the extractor. Leave it empty unless a source genuinely
+needs it; see the extraction chain in `docs/architecture.md`.
+
+Run `npm run validate:config` locally to confirm the file still parses and every id stays
+unique, then `npx tsx scripts/audit-sources.ts --source-id=<id>` to see what the source
+actually yields — a source can be "healthy" while contributing no usable article.
 
 ## 5. Open a pull request
 

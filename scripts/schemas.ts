@@ -26,6 +26,12 @@ export const sourceConfigSchema = z.object({
   maxItemsPerRun: z.number().int().positive(),
   includePaths: z.array(z.string()).default([]),
   excludePaths: z.array(z.string()).default([]),
+  /**
+   * Publisher-specific `<meta name="...">` names carrying the publication date,
+   * for sitemap/html sources whose pages ship neither JSON-LD nor Open Graph dates.
+   * Tried only after the generic extraction chain (see adapters/html-metadata.ts).
+   */
+  dateMetaNames: z.array(z.string()).default([]),
 });
 
 export type SourceConfig = z.infer<typeof sourceConfigSchema>;
