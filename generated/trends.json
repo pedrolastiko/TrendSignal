@@ -21,8 +21,8 @@
     "score": 63,
     "status": "rising",
     "articleCount": 38,
-    "previousArticleCount": 6,
-    "growthRate": 533,
+    "previousArticleCount": 5,
+    "growthRate": 660,
     "distinctSourceCount": 21,
     "leadingSourceIds": [
       "venturebeat",
@@ -47,11 +47,11 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "7d",
-    "score": 58,
+    "score": 60,
     "status": "rising",
     "articleCount": 18,
-    "previousArticleCount": 11,
-    "growthRate": 64,
+    "previousArticleCount": 10,
+    "growthRate": 80,
     "distinctSourceCount": 9,
     "leadingSourceIds": [
       "venturebeat",
@@ -191,18 +191,22 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 55,
-    "status": "rising",
-    "articleCount": 5,
-    "previousArticleCount": 15,
-    "growthRate": -67,
-    "distinctSourceCount": 2,
+    "score": 69,
+    "status": "emerging",
+    "articleCount": 8,
+    "previousArticleCount": 11,
+    "growthRate": -27,
+    "distinctSourceCount": 4,
     "leadingSourceIds": [
       "techcrunch",
-      "infoq"
+      "infoq",
+      "venturebeat"
     ],
     "relatedArticleIds": [
       "89e7c92b661d65079653fb066b8b4106a727f63dd4a15b299b7e20f6d891c620",
+      "bac38d7a265c72343a7498d76b45d63176b565e6d1fb0badd2c29915ef20b962",
+      "551169224d91f68a65640d8c4172baec394d171fb4b8d03197a5c739516f872f",
+      "53079923e7824e807446eef6af8632d29f17f6406f9525df9240eca13ca5ae13",
       "416c0c38cbc7fc9919c4ae80a01622bbae2d8cf707aca429549110e38dc2b0d3",
       "3b921118c9bb5bb8c69e2f2cb9a02c7ed79994d77ec0c240f3584b0d86988f26",
       "17740dc5b55bf046e349300c89b0865de6cfbcd8183a2bfcacb343487f552d88",
@@ -216,9 +220,9 @@
     "timeframe": "30d",
     "score": 94,
     "status": "breakout",
-    "articleCount": 255,
-    "previousArticleCount": 75,
-    "growthRate": 240,
+    "articleCount": 258,
+    "previousArticleCount": 72,
+    "growthRate": 258,
     "distinctSourceCount": 41,
     "leadingSourceIds": [
       "openai-news",
@@ -243,16 +247,16 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "7d",
-    "score": 93,
+    "score": 92,
     "status": "breakout",
-    "articleCount": 135,
-    "previousArticleCount": 47,
-    "growthRate": 187,
+    "articleCount": 137,
+    "previousArticleCount": 45,
+    "growthRate": 204,
     "distinctSourceCount": 31,
     "leadingSourceIds": [
       "theregister",
       "techcrunch",
-      "thehackernews"
+      "infoq"
     ],
     "relatedArticleIds": [
       "983abfeb78ba93e4d74766cafbcaf74bebddeddbd10a068f83e2c0ee31b61f85",
@@ -444,7 +448,7 @@
     "label": "Data protection and privacy engineering",
     "keywordId": "data-protection-privacy",
     "timeframe": "24h",
-    "score": 35,
+    "score": 32,
     "status": "stable",
     "articleCount": 1,
     "previousArticleCount": 0,
@@ -469,8 +473,8 @@
     "growthRate": null,
     "distinctSourceCount": 2,
     "leadingSourceIds": [
-      "paloaltonetworks-blog",
-      "techcrunch"
+      "techcrunch",
+      "paloaltonetworks-blog"
     ],
     "relatedArticleIds": [
       "e68b72061e8a31f834429ad8a0644daf178dcc6968c27edc2630daa319f0648d",

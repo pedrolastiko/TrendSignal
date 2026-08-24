@@ -1076,7 +1076,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "1380f7766171a5a616fa9c577a9838fc6a9a2eedb637829cee254df1dadbabf0",
@@ -1212,8 +1212,14 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "",
     "language": "en",
+    "tags": [
+      "Agentic SOC"
+    ],
     "matchedKeywordIds": [
       "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "ai-security"
     ],
     "relevanceScore": 33
   },
@@ -1247,7 +1253,11 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "",
     "language": "en",
+    "tags": [
+      "Exposure Management"
+    ],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 9
   },
   {
@@ -1263,9 +1273,13 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "",
     "language": "en",
+    "tags": [
+      "Threat Hunting & Intel"
+    ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 31
   },
   {
@@ -1524,8 +1538,8 @@
       "Memory",
       "Security Vulnerabilities",
       "Security",
-      "Development",
-      "DevOps"
+      "DevOps",
+      "Development"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -1811,7 +1825,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 26
   },
   {
     "id": "237d26e3f1f2ca16693a2a309e97b919046f5cd481e54526a042c3e1d4f6f0f5",
@@ -1925,7 +1939,13 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "",
     "language": "en",
+    "tags": [
+      "Securing AI"
+    ],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "ai-security"
+    ],
     "relevanceScore": 11
   },
   {
@@ -2296,6 +2316,27 @@
     "relevanceScore": 29
   },
   {
+    "id": "2c73efcd6c319ea109a6b097e29dffdadce4cf16b24e8e6ec4e757ab48594e0f",
+    "title": "Ancient ‘Who owns Linux?’ case now has one foot very deep in the grave",
+    "url": "https://www.theregister.com/software/2026/08/24/ancient-who-owns-linux-case-now-has-one-foot-very-deep-in-the-grave/5291513",
+    "canonicalUrl": "https://www.theregister.com/software/2026/08/24/ancient-who-owns-linux-case-now-has-one-foot-very-deep-in-the-grave/5291513",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-23T23:50:19.000Z",
+    "discoveredAt": "2026-08-24T01:59:22.527Z",
+    "summary": "Appeals court upholds decision the case is dead, but Xinuos is trying for a long-shot re-hearing",
+    "imageUrl": "https://image.theregister.com/?imageId=260653&width=800",
+    "language": "en",
+    "tags": [
+      "software"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "2cb513f015aec380e4d1082b1c03a5ab7e9a2fbe75f6392510e8f6b10aaeb62f",
     "title": "Advancing American healthcare: An interview with Seema Verma",
     "url": "https://www.mckinsey.com/industries/public-sector/our-insights/advancing-american-healthcare-an-interview-with-seema-verma",
@@ -2420,7 +2461,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "2fa073787938da8cf3c9b8141b7b0b4e8e032f976205e26c9e5ba6028af51344",
@@ -3155,7 +3196,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "3ed855d808fd8155d593438a1ba79831c893f732af57a0c591b672d4a7f3fc22",
@@ -3302,17 +3343,17 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/ovhcloud-memory-price-rise/en/headerimage/generatedHeaderImage-1787136997592.jpg",
     "language": "en",
     "tags": [
-      "Storage",
-      "Infrastructure",
-      "Capacity Planning",
       "AI Cost Optimisation",
       "Cloud and 'Lock In",
-      "Cloud",
       "Cloud Architecture",
       "Hardware",
-      "Development",
+      "Cloud",
+      "Storage",
+      "Capacity Planning",
+      "Infrastructure",
+      "DevOps",
       "Architecture & Design",
-      "DevOps"
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -3478,17 +3519,17 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/cloudflare-kitesurf-browser/en/headerimage/generatedHeaderImage-1786287857420.jpg",
     "language": "en",
     "tags": [
+      "Agents",
+      "Cloudflare",
       "Generative AI",
+      "Cloud",
       "WebAssembly",
       "Web Browser",
       "Chromium",
-      "Cloudflare",
-      "Cloud",
-      "Agents",
       "Rust",
-      "Development",
       "AI",
-      "ML & Data Engineering"
+      "ML & Data Engineering",
+      "Development"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -4179,6 +4220,42 @@
     "relevanceScore": 37
   },
   {
+    "id": "53079923e7824e807446eef6af8632d29f17f6406f9525df9240eca13ca5ae13",
+    "title": "Cloudflare OS: Cloudflare's Open-Source Corporate AI Platform Built on a Capability-Based Model",
+    "url": "https://www.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-23T22:50:00.000Z",
+    "discoveredAt": "2026-08-24T01:59:22.527Z",
+    "summary": "Cloudflare recently open-sourced Cloudflare OS. It allows enterprise teams to output work artifacts grounded in enterprise knowledge, know-how, and provisioned connectors, automate repetitive workflows with optimized token cost (with AI assistance only where needed), and build personal, shareable, customizable work…",
+    "imageUrl": "https://res.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure/en/headerimage/generatedHeaderImage-1787524536908.jpg",
+    "language": "en",
+    "tags": [
+      "Operating Systems",
+      "AI Security",
+      "AI Development",
+      "Cloudflare",
+      "Generative AI",
+      "Platforms",
+      "AI",
+      "ML & Data Engineering",
+      "Architecture & Design",
+      "Development"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "ai-security",
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 46
+  },
+  {
     "id": "5367cc95a8fd98172eb15540985f3472c41b6f393d6d65c9bf889b4f9238cbc1",
     "title": "What building an AI-native finance function taught me",
     "url": "https://openai.com/index/building-an-ai-native-finance-function",
@@ -4240,6 +4317,30 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48
+  },
+  {
+    "id": "551169224d91f68a65640d8c4172baec394d171fb4b8d03197a5c739516f872f",
+    "title": "Enterprise AI agents are only as reliable as the messiest documents behind them",
+    "url": "https://venturebeat.com/orchestration/enterprise-ai-agents-are-only-as-reliable-as-the-messiest-documents-behind-them",
+    "canonicalUrl": "https://venturebeat.com/orchestration/enterprise-ai-agents-are-only-as-reliable-as-the-messiest-documents-behind-them",
+    "sourceId": "venturebeat",
+    "sourceName": "VentureBeat",
+    "company": "VentureBeat",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-23T23:00:00.000Z",
+    "discoveredAt": "2026-08-24T01:59:22.527Z",
+    "summary": "Enterprise AI has largely been built around context engineering. Teams connect enterprise systems, generate chunks and embeddings, build retrieval pipelines, and assemble the context needed by individual AI applications. While this approach works well for isolated assistants and copilots, it treats enterprise…",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/ohCjTlo9CnM6jgcDPRDHw/ab6378302d6157417aa0ea0e55325eb1/u7277289442_A_sophisticated_AI_robot_is_routing_data_through__30c6a65e-7919-420c-9853-e10113a180e7_0.png?w=300&q=30",
+    "language": "en",
+    "tags": [
+      "Orchestration",
+      "DataDecisionMakers"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 47
   },
   {
     "id": "55256078d050194f83531e6f3a6edf20b6885f87f579f1157a1880e62ae4a802",
@@ -4585,7 +4686,7 @@
   },
   {
     "id": "5b9d520802ee32b33b316941cca9fad13617dce49ab19fac28fde89544e4c410",
-    "title": "Azure DevOps Remote MCP Server Reaches GA, Without Support for Claude, ChatGPT, or Cursor",
+    "title": "Azure DevOps Remote MCP Server Reaches GA, without Support for Claude, ChatGPT, or Cursor",
     "url": "https://www.infoq.com/news/2026/08/azure-devops-remote-mcp-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/08/azure-devops-remote-mcp-ga",
     "sourceId": "infoq",
@@ -4598,17 +4699,17 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/azure-devops-remote-mcp-ga/en/headerimage/generatedHeaderImage-1787140817833.jpg",
     "language": "en",
     "tags": [
-      "API",
-      "Generative AI",
-      "Cloud",
-      "Identity Management",
       "Agents",
       "Developer Experience",
-      "Development",
+      "Identity Management",
+      "Generative AI",
+      "Cloud",
+      "API",
+      "DevOps",
       "AI",
       "ML & Data Engineering",
       "Architecture & Design",
-      "DevOps"
+      "Development"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -4987,7 +5088,13 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "",
     "language": "en",
+    "tags": [
+      "Cloud & Application Security"
+    ],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cloud-security"
+    ],
     "relevanceScore": 11
   },
   {
@@ -5543,17 +5650,17 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/cloudflare-astro-ai-agents/en/headerimage/generatedHeaderImage-1786846443074.jpg",
     "language": "en",
     "tags": [
-      "Automation",
-      "Issue Tracking Tools",
-      "Workflow / BPM",
-      "Cloudflare",
-      "Open Source",
-      "GitHub Actions",
-      "Bug Triaging",
       "Agents",
       "github",
       "AI Architecture",
+      "Open Source",
       "Developer Experience",
+      "Workflow / BPM",
+      "GitHub Actions",
+      "Cloudflare",
+      "Bug Triaging",
+      "Automation",
+      "Issue Tracking Tools",
       "Automated testing"
     ],
     "matchedKeywordIds": [
@@ -5628,7 +5735,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "6e842a145f0b9debaf23c107adfbaa5332601c924d2b61fdc354ae427fadd1e6",
@@ -6071,7 +6178,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "77045d80f7ad69e1de8a596e9c7a7edd18b7d94e5bad1a22b5dfa375268485a9",
@@ -6167,7 +6274,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "7850fb529146db3c12d4cf5a98b147555d2f1ab06cd7f89f81b1ea355605c5ff",
@@ -6671,16 +6778,16 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/google-heir-homomorphic-llm/en/headerimage/google-heir-llm-1787505393014.jpeg",
     "language": "en",
     "tags": [
-      "PyTorch",
-      "Fully homomorphic encryption",
-      "Open Source",
-      "Large language models",
       "Agents",
       "Google",
+      "Open Source",
+      "Large language models",
+      "Fully homomorphic encryption",
+      "PyTorch",
       "Differential Privacy",
-      "Development",
       "AI",
-      "ML & Data Engineering"
+      "ML & Data Engineering",
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -7214,7 +7321,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "8be6d8845e7f2ef27601c2d47a62be2347bf065c4d3b2cc2ff33df992fedc08f",
@@ -7755,7 +7862,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "989827ae2969987750980123603db959b01a046ff10d2860b4f349c9241101a6",
@@ -7896,7 +8003,13 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "",
     "language": "en",
+    "tags": [
+      "Securing AI"
+    ],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "ai-security"
+    ],
     "relevanceScore": 9
   },
   {
@@ -8491,13 +8604,13 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/s3-clone-security/en/headerimage/generatedHeaderImage-1787293246407.jpg",
     "language": "en",
     "tags": [
-      "Storage",
-      "AWS",
-      "Cloud Security",
-      "Cloud",
       "S3",
-      "Architecture & Design",
-      "DevOps"
+      "Cloud",
+      "Storage",
+      "Cloud Security",
+      "AWS",
+      "DevOps",
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -9057,15 +9170,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/aws-bench-agent-evaluation/en/headerimage/generatedHeaderImage-1787307655540.jpg",
     "language": "en",
     "tags": [
-      "AWS",
-      "Open Source",
-      "Cloud",
-      "Benchmark",
-      "Large language models",
       "Agents",
       "AI Development",
-      "Development",
-      "Architecture & Design"
+      "Open Source",
+      "Large language models",
+      "Cloud",
+      "Benchmark",
+      "AWS",
+      "Architecture & Design",
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -9133,7 +9246,7 @@
   },
   {
     "id": "b2d5347dc72c69821ea4e766dcc8dbbea0615132d5b211ca75f2071b6dabf0ea",
-    "title": "VoidZero Releases Vite+ Beta: A Unified Web Toolchain Behind a Single Command",
+    "title": "VoidZero Releases Vite+ Beta: a Unified Web Toolchain behind a Single Command",
     "url": "https://www.infoq.com/news/2026/08/vite-plus-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/08/vite-plus-beta",
     "sourceId": "infoq",
@@ -9147,8 +9260,8 @@
     "language": "en",
     "tags": [
       "JavaScript",
-      "Web Development",
       "TypeScript",
+      "Web Development",
       "Rust",
       "Development"
     ],
@@ -9475,6 +9588,31 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27
+  },
+  {
+    "id": "bac38d7a265c72343a7498d76b45d63176b565e6d1fb0badd2c29915ef20b962",
+    "title": "AI-driven upgrade of communications energy storage empowers a new energy ecosystem for multiple industries",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/24/sponsored-ai-driven-upgrade-of-communications-energy-storage-empowers-a-new-energy-ecosystem-for-multiple-industries/5290186",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/08/24/sponsored-ai-driven-upgrade-of-communications-energy-storage-empowers-a-new-energy-ecosystem-for-multiple-industries/5290186",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "discoveredAt": "2026-08-24T01:59:22.527Z",
+    "summary": "SPONSORED FEATURE: Embedding AI at communication sites to empower energy optimization, power grid stability control and low-carbon development",
+    "imageUrl": "https://image.theregister.com/?imageId=5290211&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 47
   },
   {
     "id": "baf07daff59f271b90795fd50023fb349ec75ddad4cd8dc3dc0716042648ecd3",
@@ -9868,25 +10006,26 @@
     "imageUrl": "https://res.infoq.com/presentations/ebpf-ai-gateway-kubernetes-security/en/mediumimage/dan-finneran-medium-1786539181222.jpeg",
     "language": "en",
     "tags": [
-      "API",
-      "QCon London 2026",
-      "Cloud-Native",
-      "API Gateway",
-      "Linux",
-      "eBPF",
       "Artificial Intelligence",
       "Kubernetes",
+      "Linux",
+      "eBPF",
+      "Cloud-Native",
+      "QCon London 2026",
+      "API",
+      "API Gateway",
+      "Observability",
       "Transcripts",
       "Security",
-      "Observability",
-      "Development"
+      "DevOps"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
     "tagMatchedIds": [
       "artificial-intelligence",
-      "cybersecurity"
+      "cybersecurity",
+      "devsecops"
     ],
     "relevanceScore": 43
   },
@@ -9905,18 +10044,18 @@
     "imageUrl": "https://res.infoq.com/presentations/doordash-llm-ai-moderation-platform/en/mediumimage/bruna-pereira-medium-1786539036040.jpeg",
     "language": "en",
     "tags": [
-      "Cost Optimization",
-      "Large language models",
       "Agents",
       "QCon AI Boston 2026",
       "AI Architecture",
+      "Large language models",
+      "Cost Optimization",
       "Real-Time Data",
+      "Machine Learning",
       "Transcripts",
       "Platform Engineering",
-      "Machine Learning",
-      "Development",
-      "Architecture & Design",
-      "AI"
+      "AI",
+      "ML & Data Engineering",
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence",
@@ -10070,7 +10209,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "c46a225054d84ab945e36a31a572829a8201cf515c78fb8d13e39f80722a7454",
@@ -10122,19 +10261,19 @@
     "sourceCategory": "media",
     "publishedAt": "2026-08-22T09:00:00.000Z",
     "discoveredAt": "2026-08-23T01:46:58.686Z",
-    "summary": "At LinkedIn's scale, relying solely on human reviewers or simply putting an off-the-shelf AI reviewer in front of GitHub is not an effective way to manage PRs. To address this, LinkedIn engineers built a multi-agent AI code review platform that understands the organizationâ€™s coding context, treats code review as…",
+    "summary": "At LinkedIn's scale, relying solely on human reviewers or simply putting an off-the-shelf AI reviewer in front of GitHub is not an effective way to manage PRs. To address this, LinkedIn engineers built a multi-agent AI code review platform that understands the organization's coding context, treats code review as…",
     "imageUrl": "https://res.infoq.com/news/2026/08/linkedin-ai-code-review/en/headerimage/linkedin-code-review-1787387463447.jpeg",
     "language": "en",
     "tags": [
-      "LinkedIn",
-      "Large language models",
       "Agents",
       "Kubernetes",
       "Code Reviews",
-      "Development",
+      "LinkedIn",
+      "Large language models",
       "AI",
       "ML & Data Engineering",
-      "DevOps"
+      "DevOps",
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -10597,7 +10736,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 26
   },
   {
     "id": "cdd07e9fe8ac3fa8e17bcba205b63322b8eeb82f3bc485947ab9a8ac3a78f6f5",
@@ -10648,9 +10787,15 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "",
     "language": "en",
+    "tags": [
+      "Securing AI"
+    ],
     "matchedKeywordIds": [
       "artificial-intelligence",
       "cybersecurity"
+    ],
+    "tagMatchedIds": [
+      "ai-security"
     ],
     "relevanceScore": 46
   },
@@ -10670,7 +10815,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "ceb0d67e2cdce82254d6f5339dcaefd347424a21be077793b508b8df049f5667",
@@ -10718,7 +10863,11 @@
     "discoveredAt": "2026-08-22T22:53:05.335Z",
     "summary": "",
     "language": "en",
+    "tags": [
+      "Next-Gen SIEM & Log Management"
+    ],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 9
   },
   {
@@ -11154,7 +11303,7 @@
     "sourceCategory": "consulting",
     "publishedAt": "2026-08-14T00:00:00.000Z",
     "discoveredAt": "2026-08-23T02:45:18.670Z",
-    "updatedAt": "2026-08-20T00:00:00.000Z",
+    "updatedAt": "2026-08-23T00:00:00.000Z",
     "summary": "FTI Consulting Senior Managing Director, Alma Angotti, discuses how financial institutions can combat rising cyberattacks while safeguarding national security.",
     "imageUrl": "https://www.fticonsulting.com/-/media/images/shared-content/insights/articles/2026/aug/finance-industries-nato-article-three-evolving-converging-threats_900x471_center.jpeg?as=0&dmc=0&iar=0&thn=0&udi=0&rev=76293db702304d3cb5a1c816acb82546&hash=E1083C27985FC30267414EC9BAA1DE04",
     "language": "en",
@@ -12015,7 +12164,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "e4ce3cda15d3336a55fd30412a59098e34ea96c1708b64f354085a156c5f78e8",
@@ -12617,7 +12766,7 @@
   },
   {
     "id": "f04108c7ad554ace890b7c24d3d177c30d7e945db118a81051fb8af5d3e89e47",
-    "title": "Cloudflare Turns Engineering Standards Into an AI-Enforced Control System",
+    "title": "Cloudflare Turns Engineering Standards into an AI-Enforced Control System",
     "url": "https://www.infoq.com/news/2026/08/cloudflare-ai-enforcement/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/08/cloudflare-ai-enforcement",
     "sourceId": "infoq",
@@ -12630,15 +12779,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/cloudflare-ai-enforcement/en/headerimage/generatedHeaderImage-1786356220839.jpg",
     "language": "en",
     "tags": [
-      "Cloudflare",
       "Site Reliability Engineering",
       "Artificial Intelligence",
       "Governance",
       "AI Development",
       "Software Engineering",
+      "Cloudflare",
+      "DevOps",
       "AI",
-      "ML & Data Engineering",
-      "DevOps"
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -13252,18 +13401,18 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Agile",
-      "Architecture ICSAET",
-      "Topology",
-      "Domain Driven Design",
-      "Evolutionary Architecture",
-      "InfoQ Certification Program",
       "Agents",
       "Artificial Intelligence",
+      "Leadership",
       "AI Security",
       "Sociotechnical Architecture",
-      "Leadership",
-      "Development"
+      "Evolutionary Architecture",
+      "InfoQ Certification Program",
+      "Agile",
+      "Domain Driven Design",
+      "Topology",
+      "Architecture ICSAET",
+      "AI"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
