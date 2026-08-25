@@ -1377,7 +1377,23 @@
     "discoveredAt": "2026-08-23T01:46:58.686Z",
     "summary": "Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch:…",
     "language": "en",
+    "tags": [
+      "Adversary-in-the-middle (AiTM)",
+      "ClickFix",
+      "Credential theft",
+      "Cyberespionage",
+      "Malware",
+      "Midnight Blizzard (NOBELIUM)",
+      "Social engineering",
+      "State-sponsored threat actor",
+      "Storm",
+      "Token theft",
+      "Windows"
+    ],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "threat-intelligence"
+    ],
     "relevanceScore": 9
   },
   {
@@ -1712,7 +1728,9 @@
     "discoveredAt": "2026-08-23T01:46:58.686Z",
     "summary": "",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 6
   },
   {
@@ -2629,7 +2647,9 @@
     "discoveredAt": "2026-08-23T01:46:58.686Z",
     "summary": "Introducing Robostral Navigate: 8B model achieving 76.6% on R2R-CE with just a single RGB camera. No depth sensors, LiDAR, or multiple cameras needed.",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 6
   },
   {
@@ -2786,9 +2806,11 @@
     "discoveredAt": "2026-08-23T01:46:58.686Z",
     "summary": "Studio provides a system of record for AI prompts and skills—versioned, owned, and traceable. Iterate fast, ship with control, and ensure consistent AI behavior.",
     "language": "en",
+    "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
+    "tagMatchedIds": [],
     "relevanceScore": 23
   },
   {
