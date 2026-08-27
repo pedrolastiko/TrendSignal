@@ -12,8 +12,8 @@
     "distinctSourceCount": 3,
     "leadingSourceIds": [
       "databricks-blog",
-      "salesforce-news",
-      "darkreading"
+      "darkreading",
+      "salesforce-news"
     ],
     "relatedArticleIds": [
       "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
@@ -200,9 +200,9 @@
     "growthRate": 50,
     "distinctSourceCount": 6,
     "leadingSourceIds": [
+      "cisco-blogs",
       "openai-news",
-      "darkreading",
-      "venturebeat"
+      "darkreading"
     ],
     "relatedArticleIds": [
       "330a32bb34127c41dff189beb77467f6240dcb0519421a21e825a96d95f0295a",
@@ -409,7 +409,7 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "24h",
-    "score": 49,
+    "score": 50,
     "status": "rising",
     "articleCount": 9,
     "previousArticleCount": 9,
@@ -418,7 +418,7 @@
     "leadingSourceIds": [
       "thehackernews",
       "techcrunch",
-      "checkpoint-blog"
+      "theregister"
     ],
     "relatedArticleIds": [
       "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
@@ -883,9 +883,9 @@
     "growthRate": null,
     "distinctSourceCount": 3,
     "leadingSourceIds": [
-      "bleepingcomputer",
       "techcrunch",
-      "theregister"
+      "theregister",
+      "bleepingcomputer"
     ],
     "relatedArticleIds": [
       "3c4e13acd81d47c2fe8e37c87bb2c537936cfc87252f01ad9984f8ac25cdedc4",
@@ -927,16 +927,16 @@
     "label": "Ransomware",
     "keywordId": "ransomware",
     "timeframe": "7d",
-    "score": 45,
-    "status": "rising",
+    "score": 44,
+    "status": "stable",
     "articleCount": 6,
     "previousArticleCount": 6,
     "growthRate": 0,
     "distinctSourceCount": 6,
     "leadingSourceIds": [
-      "bleepingcomputer",
-      "darkreading",
-      "sentinelone-blog"
+      "techcrunch",
+      "theregister",
+      "bleepingcomputer"
     ],
     "relatedArticleIds": [
       "3c4e13acd81d47c2fe8e37c87bb2c537936cfc87252f01ad9984f8ac25cdedc4",
