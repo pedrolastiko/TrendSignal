@@ -16,7 +16,7 @@ Primary users:
 - Technology and cybersecurity leaders
 - Market-intelligence and innovation teams
 
-The initial interface is in **French**. Technical names, code, comments, tests, commits, and documentation are in **English**. Prepare translations through lightweight files such as `src/i18n/fr.ts` and `src/i18n/en.ts`.
+The interface is in **English** (it shipped in French initially; switched on request). Technical names, code, comments, tests, commits, and documentation are in **English**. Translations live in lightweight files — `src/i18n/en.ts` is what the app renders, `src/i18n/fr.ts` is kept complete so the interface can be switched back or offered bilingually. The **data** remains bilingual regardless: keyword and category labels carry both `fr` and `en`, keyword `terms` include French phrases, and French-language sources are collected normally.
 
 Replace any remaining `Veille Pro`, `Insight Track`, or Base44 placeholder branding with `TrendSignal`.
 

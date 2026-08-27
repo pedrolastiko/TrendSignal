@@ -24,8 +24,8 @@ export default defineConfig(({ mode }) => ({
         name: 'TrendSignal',
         short_name: 'TrendSignal',
         description:
-          'Veille de marché pilotée par mots-clés pour les cabinets de conseil, la tech et la cybersécurité.',
-        lang: 'fr',
+          'Keyword-driven market intelligence for consulting, technology and cybersecurity.',
+        lang: 'en',
         start_url: '.',
         scope: '.',
         display: 'standalone',

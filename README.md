@@ -2,8 +2,10 @@
 
 TrendSignal is a keyword-driven market intelligence platform that monitors news sources and the
 blogs of leading technology, consulting, AI, and cybersecurity companies, centralizes relevant
-content, and highlights emerging trends and strategic signals. The interface is in French by
-default; the codebase, comments, tests, and documentation are in English.
+content, and highlights emerging trends and strategic signals. The interface, codebase, comments,
+tests, and documentation are in English. The data stays bilingual: keyword and category labels
+carry both `fr` and `en`, keyword `terms` include French phrases, and French-language publishers
+are collected like any other — so French content is still matched and indexed.
 
 ## Product overview
 

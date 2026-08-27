@@ -16,7 +16,10 @@ interface I18nContextValue {
 const I18nContext = createContext<I18nContextValue | null>(null);
 
 export function I18nProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocale] = useLocalStorage<Locale>('locale', 'fr');
+  // The storage key is deliberately not the old `locale`: useLocalStorage persists on
+  // mount, so every past visitor already has `"fr"` written under that key and would
+  // keep the French interface no matter what this default says.
+  const [locale, setLocale] = useLocalStorage<Locale>('ui-locale', 'en');
 
   useEffect(() => {
     document.documentElement.lang = locale;
