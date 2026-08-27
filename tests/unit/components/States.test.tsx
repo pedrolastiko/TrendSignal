@@ -11,19 +11,19 @@ function withI18n(children: ReactNode) {
 describe('LoadingState', () => {
   it('announces loading via role=status', () => {
     withI18n(<LoadingState />);
-    expect(screen.getByRole('status')).toHaveTextContent('Chargement des données…');
+    expect(screen.getByRole('status')).toHaveTextContent('Loading data…');
   });
 });
 
 describe('EmptyState', () => {
   it('renders the default empty message', () => {
     withI18n(<EmptyState />);
-    expect(screen.getByText('Aucun article ne correspond à ces critères.')).toBeInTheDocument();
+    expect(screen.getByText('No article matches these filters.')).toBeInTheDocument();
   });
 
   it('renders a custom message when provided', () => {
-    withI18n(<EmptyState message="Rien à afficher" />);
-    expect(screen.getByText('Rien à afficher')).toBeInTheDocument();
+    withI18n(<EmptyState message="Nothing to show" />);
+    expect(screen.getByText('Nothing to show')).toBeInTheDocument();
   });
 });
 
@@ -45,6 +45,6 @@ describe('ErrorState', () => {
 describe('StaleBanner', () => {
   it('renders a status region warning about stale data', () => {
     withI18n(<StaleBanner />);
-    expect(screen.getByRole('status')).toHaveTextContent('plus de 24 heures');
+    expect(screen.getByRole('status')).toHaveTextContent('more than 24 hours old');
   });
 });

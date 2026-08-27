@@ -22,11 +22,11 @@ function renderTrend(status: TrendStatus) {
 
 describe('HealthBadge', () => {
   it.each<[SourceHealthStatus, string]>([
-    ['healthy', 'Opérationnelle'],
-    ['warning', 'Avertissement'],
-    ['error', 'En erreur'],
-    ['disabled', 'Désactivée'],
-  ])('renders the correct French label for status "%s"', (status, label) => {
+    ['healthy', 'Healthy'],
+    ['warning', 'Warning'],
+    ['error', 'Error'],
+    ['disabled', 'Disabled'],
+  ])('renders the correct label for status "%s"', (status, label) => {
     renderHealth(status);
     expect(screen.getByText(label)).toBeInTheDocument();
   });
@@ -40,12 +40,12 @@ describe('HealthBadge', () => {
 
 describe('TrendStatusBadge', () => {
   it.each<[TrendStatus, string]>([
-    ['breakout', 'Percée'],
-    ['emerging', 'Émergent'],
-    ['rising', 'En hausse'],
+    ['breakout', 'Breakout'],
+    ['emerging', 'Emerging'],
+    ['rising', 'Rising'],
     ['stable', 'Stable'],
-    ['declining', 'En baisse'],
-  ])('renders the correct French label for status "%s"', (status, label) => {
+    ['declining', 'Declining'],
+  ])('renders the correct label for status "%s"', (status, label) => {
     renderTrend(status);
     expect(screen.getByText(label)).toBeInTheDocument();
   });

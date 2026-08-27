@@ -83,7 +83,7 @@ async function checkForNewArticles(): Promise<void> {
     if (await hasVisibleClient()) return;
 
     await self.registration.showNotification('TrendSignal', {
-      body: 'De nouveaux articles ont été publiés.',
+      body: 'New articles have been published.',
       icon: './icons/icon-192.png',
       badge: './icons/icon-192.png',
       tag: NOTIFICATION_TAG,
