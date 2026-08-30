@@ -336,7 +336,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "03dde35f7e023aa6cd30e8363091ca715e72f5b6901bce30388f8bb516067dc1",
@@ -3318,7 +3318,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "1cf7c940c7814f82626f3378706d6d35673002ebe4a7da060aa6d827862b2e72",
@@ -3668,14 +3668,14 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/google-database-operation-agents/en/headerimage/google-database-operations-agents-1787842474177.jpeg",
     "language": "en",
     "tags": [
-      "Agents",
-      "Artificial Intelligence",
-      "Google Cloud",
-      "Gemini",
       "Cloud",
       "Database",
-      "DevOps",
-      "Development"
+      "Agents",
+      "Gemini",
+      "Artificial Intelligence",
+      "Google Cloud",
+      "Development",
+      "DevOps"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -4048,7 +4048,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "249a5e1ede4df4c078023a6f0eb49ede54fb5bdd187586ea50eee351b3c1007c",
@@ -4974,7 +4974,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 56
+    "relevanceScore": 53
   },
   {
     "id": "2c5d6c053e2557d24fc35495462674ff2aefa2d1c66408d3e3a0a6760f52c0f0",
@@ -5160,7 +5160,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "2da9958060b25bddb6f15524985e9496b93af4dcd6d753291ac1c2fa5996d7f5",
@@ -6657,12 +6657,12 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "JavaScript",
-      "Web Browser",
       "Privacy",
+      "Web Browser",
+      "JavaScript",
       "Security",
-      "DevOps",
-      "Development"
+      "Development",
+      "DevOps"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -7835,7 +7835,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "453d24a50ae633c77696789ec2ca39df410c45dfdcbf91bb2a929b4f7cb585cc",
@@ -8948,8 +8948,8 @@
     "imageUrl": "https://res.infoq.com/presentations/numba/en/mediumimage/chad-schuster-medium-1787217755995.jpeg",
     "language": "en",
     "tags": [
-      "QCon San Francisco 2025",
       "Language Design",
+      "QCon San Francisco 2025",
       "Transcripts",
       "Python",
       "Development",
@@ -8957,7 +8957,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 8
   },
   {
     "id": "4f40266662360712428b3330f4c141935d77c7745fc042c3c42087246ed17919",
@@ -9105,6 +9105,29 @@
     "relevanceScore": 28
   },
   {
+    "id": "508266ce174b6f9e55d4ea09c198380ed65c147c93cdf0a11df9c0bdfc9cf058",
+    "title": "Turns out Brits would quite like their private messages to stay private",
+    "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+    "canonicalUrl": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-30T08:34:00.000Z",
+    "discoveredAt": "2026-08-30T11:57:13.927Z",
+    "summary": "Polling finds two-thirds don't trust this government, or any future one, with access to their encrypted chats",
+    "imageUrl": "https://image.theregister.com/?imageId=255047&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
+  },
+  {
     "id": "50bcfcb6813f9394c79e5c5e77c8a7c9c5cb6949d7123e7f3d8e3f1318f4afbc",
     "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
     "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
@@ -9244,18 +9267,18 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Continuous Integration",
+      "Repository",
       "git",
-      "Infrastructure",
-      "Microservices",
-      "GitOps",
+      "Distributed Systems",
+      "Management",
       "Agents",
       "github",
-      "Continuous Delivery",
       "GitLab",
-      "Developer Experience",
-      "gRPC",
-      "Management"
+      "Continuous Integration",
+      "Continuous Delivery",
+      "Infrastructure",
+      "Microservices",
+      "gRPC"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -10097,7 +10120,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "59cc43fd3a8cb564685dc535706160cde4a2cad3f7a8f3d3db83aaecb7bee5a5",
@@ -10573,7 +10596,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "5c9a87c51da6956d128ba486af9a8a08173668a5ed3fa3a2ec2e6a15303be955",
@@ -12926,7 +12949,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "732d86ce0b8060abcb2e94e84d4efe0def9238a098a760eba1f2e6a8ff316f1e",
@@ -14080,7 +14103,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "7f630db7aede4337625dbb61748bf6f806deafd06954ab2853e3337dccd3ce40",
@@ -14139,13 +14162,13 @@
     "imageUrl": "https://res.infoq.com/articles/pqc-in-spring-boot/en/headerimage/pqc-in-spring-boot-header-1787646727709.jpg",
     "language": "en",
     "tags": [
-      "Spring Security",
-      "Hashicorp",
-      "Quantum Computing",
       "Java",
       "Spring Boot",
-      "Architecture & Design",
+      "Quantum Computing",
+      "Spring Security",
+      "Hashicorp",
       "Development",
+      "Architecture & Design",
       "article"
     ],
     "matchedKeywordIds": [
@@ -14933,7 +14956,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 55
+    "relevanceScore": 52
   },
   {
     "id": "86193e18c8a1b500e4fb228e0acb520e3eeb8ccc40cc850df9eea8ee34227ea1",
@@ -15029,7 +15052,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "872c0e33193628a3b038da625cfedebe3e6ccb1f27863c205f6ce01aad4a3913",
@@ -15378,7 +15401,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "89e7c92b661d65079653fb066b8b4106a727f63dd4a15b299b7e20f6d891c620",
@@ -15578,16 +15601,16 @@
     "imageUrl": "https://res.infoq.com/presentations/netflix-commerce-architecture-evolution/en/mediumimage/kasia-trapszo-medium-1787217920531.jpg",
     "language": "en",
     "tags": [
-      "Leadership",
-      "Netflix",
-      "payment",
       "Design Systems",
       "Technical Debt",
       "Distributed Systems",
       "QCon London 2026",
       "Microservices",
-      "Performance & Scalability",
+      "payment",
+      "Leadership",
+      "Netflix",
       "Transcripts",
+      "Performance & Scalability",
       "Development",
       "Architecture & Design"
     ],
@@ -18961,21 +18984,21 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/workers-inbound-tcp-grpc/en/headerimage/generatedHeaderImage-1787654507205.jpg",
     "language": "en",
     "tags": [
-      "Cloudflare",
-      "Cloud",
-      "Serverless",
       "Protocol",
       "Architecture",
       "Edge Computing",
-      "DevOps",
+      "Cloudflare",
+      "Cloud",
+      "Serverless",
+      "Development",
       "Architecture & Design",
-      "Development"
+      "DevOps"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "a8da68ed394180aa53d1b3d02fadff7735493a38d6daff9c47016a47ae690ad2",
@@ -19354,7 +19377,7 @@
       "digital-sovereignty"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "ac7ffd1ea856e1acb0822e550db158851d3ce51dfdd2d27efa2357741428431e",
@@ -19427,19 +19450,19 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/making-testing-sustainable/en/headerimage/generatedHeaderImage-1787339384932.jpg",
     "language": "en",
     "tags": [
-      "Testing",
+      "Sustainable Computing",
       "Static Analysis",
       "Hardware",
-      "Sustainable Computing",
-      "Green Software",
+      "Testing",
+      "Software Testing",
       "Automated testing",
       "Measurement",
-      "Software Testing",
+      "Green Software",
       "Culture & Methods"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 8
   },
   {
     "id": "ad89fb510e3c78c26282cfd40541dc61653b3d8c142b323e38b2c22c1766bfa5",
@@ -20789,18 +20812,18 @@
     "imageUrl": "https://res.infoq.com/presentations/enterprise-data-architecture-ai-agents/en/mediumimage/fabiane-nardon-medium-1787218382028.jpeg",
     "language": "en",
     "tags": [
-      "Agents",
-      "QCon AI Boston 2026",
-      "AI Architecture",
-      "AI Security",
-      "Model Context Protocol (MCP)",
-      "Agentic AI Architecture",
+      "Data Mesh",
       "AI Cost Optimisation",
       "Semantic Web",
       "Large language models",
-      "Data Mesh",
+      "Agents",
+      "QCon AI Boston 2026",
+      "AI Architecture",
+      "Model Context Protocol (MCP)",
+      "AI Security",
+      "Agentic AI Architecture",
       "Transcripts",
-      "AI"
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -20808,10 +20831,9 @@
     "tagMatchedIds": [
       "agentic-ai",
       "ai-security",
-      "artificial-intelligence",
       "generative-ai"
     ],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "baa27ed0fe16d8c95c168dbfe401ccf268f16299d06a971fea7b2437e819c80e",
@@ -22619,7 +22641,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "c6b483d33c46429fdbdf08cc2f6de0bc410c0521c432fbf5e943b0a9bb560665",
@@ -23327,7 +23349,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "cb6ebadf9795ca8b6cc791057f6ab5228e5290a8612af25c7c3e45d8613a53be",
@@ -23346,7 +23368,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "cb7928ba1a13a260a9b5b33777912b232664293c964c4974a9c6bf8ececed27c",
@@ -23648,14 +23670,14 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Local First",
+      "Frontier Model",
       "Large language models",
       "Model Inference",
-      "Frontier Model",
+      "Local First",
       "Local Inference",
-      "DevOps",
       "AI",
-      "ML & Data Engineering"
+      "ML & Data Engineering",
+      "DevOps"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -24091,6 +24113,39 @@
     "language": "en",
     "matchedKeywordIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "d2693b8b3b25c99f76409ba63f36b2664bf0d76255918d3311cf237f599f7588",
+    "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
+    "url": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-30T08:23:00.000Z",
+    "discoveredAt": "2026-08-30T11:57:13.927Z",
+    "summary": "Amazon recently announced Kiro Crew, an open-source system for running multiple Kiro coding agents across sessions, tools, and tasks. The new workspace lets developers assign asynchronous coding tasks to AI agents, allowing work such as incident investigation, ticket triage, migrations, and PR monitoring to continue…",
+    "imageUrl": "https://res.infoq.com/news/2026/08/kiro-crew-coding-agents/en/headerimage/generatedHeaderImage-1786904775247.jpg",
+    "language": "en",
+    "tags": [
+      "AWS",
+      "AI Coding",
+      "AI Assisted Coding",
+      "Agents",
+      "AI Development",
+      "AI",
+      "ML & Data Engineering",
+      "Development"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 31
   },
   {
     "id": "d302e0c5afe0f2be7bdf37031ccd8bd07cfbb6c62b0a0f8e1aa822f4a4423dd8",
@@ -24571,7 +24626,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "d825b9831bd2f0d0206497ee87ca74fae31ac0a312f8735f2d74b23cb3065a6e",
@@ -26716,6 +26771,25 @@
     "relevanceScore": 54
   },
   {
+    "id": "e7fd30e89bca0fc1e82164ea014a1d32e5de6c4218698a0c3105386e4bd80457",
+    "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+    "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+    "canonicalUrl": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-30T07:36:33.000Z",
+    "discoveredAt": "2026-08-30T11:57:13.927Z",
+    "summary": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell. \"While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpxriybAzLw0daA0mtL3sZd04fy8Sal4s0mrBAz2-ksjwfP2V08YK_KbCJY57hKG28Kt6gn2mKq4HFSpkG2MNvA3Oz6MhNUe77_1Nvpahn2nnCFHPpxIlp5Ix4DvAZw08qXtxt1M-4zCtSENbBkODQyP_WDp9j3PXACc0XKYk1BK1K-2Xabho1cBPqerW9/s1600/cf-clickfix.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "e808dbceac92d9ac48b56c48435e4471bce093b6e6884e61bba7c5fa79f5f828",
     "title": "The Top Exposure Management Questions Security Leaders Ask (Part 1)",
     "url": "https://blog.checkpoint.com/exposure-management/the-top-exposure-management-questions-security-leaders-ask-part-1/",
@@ -26799,8 +26873,8 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/astro-satteri-rust/en/headerimage/generatedHeaderImage-1787817978309.jpg",
     "language": "en",
     "tags": [
-      "JavaScript",
       "Front-end",
+      "JavaScript",
       "Web Development",
       "Rust",
       "Development"
@@ -26974,7 +27048,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "eaaed4290b794f92c4770f754cec460c76e8ee21923860403b17ba7c5fa59a76",
@@ -27092,9 +27166,9 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "AI Architecture",
-      "Hardware",
       "Supercomputer",
+      "Hardware",
+      "AI Architecture",
       "Networking",
       "AI",
       "ML & Data Engineering"
@@ -28949,18 +29023,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/spring-news-roundup-aug17-2026/en/headerimage/spring-news-roundup-image-1787845727439.jpg",
     "language": "en",
     "tags": [
-      "Spring Security",
-      "Spring Integration",
-      "Spring Modulith",
-      "Spring Framework",
-      "Spring Data",
-      "Java",
       "Spring Batch",
+      "Java",
       "Spring Boot",
+      "Spring Data",
+      "Spring Framework",
+      "Spring Security",
+      "Spring Modulith",
+      "Spring Integration",
       "Apache Kafka",
       "AMQP",
-      "Architecture & Design",
-      "Development"
+      "Development",
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
