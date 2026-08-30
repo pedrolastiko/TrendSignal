@@ -5,10 +5,10 @@
     "keywordId": "agentic-ai",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 2,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -32,10 +32,10 @@
     "relatedArticleIds": [
       "6a8f3f0b01b07c48177469de98fdd0c4a5b2310a1fdf2819fe7e96b4bbfbc8ad",
       "f2fd2516f26ac23135c7bbdac65dd21c65bf2382266948cc8666bb8f2d90b016",
-      "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
       "983abfeb78ba93e4d74766cafbcaf74bebddeddbd10a068f83e2c0ee31b61f85",
       "0af10b6ce4c0675e4d7b1299e2c4f96f9829b1ba95f596f1616cf21bd82fcc6a",
       "b2fe88ac5233545e49b6b6c99d00d55d798f0593671783f3523afeebc52c993c",
+      "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
       "4e763440b99bc6e639d3e13c1fbaa187be4bce3a88427377afd1f15dc3b4a922",
       "8a2f26df549a7bd73df6bbf8be18bd6ddb7835c82102d3cd6b8cdad2fc67398e",
       "9428cc2bc3c996d8505a0fdff4b7b0532b635f8bddc4272ecf0fa57da3a9db52",
@@ -134,10 +134,10 @@
     "keywordId": "ai-security",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 1,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -201,21 +201,23 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 57,
-    "status": "rising",
-    "articleCount": 5,
-    "previousArticleCount": 12,
-    "growthRate": -58,
-    "distinctSourceCount": 2,
+    "score": 81,
+    "status": "breakout",
+    "articleCount": 6,
+    "previousArticleCount": 4,
+    "growthRate": 50,
+    "distinctSourceCount": 4,
     "leadingSourceIds": [
       "techcrunch",
-      "infoq"
+      "infoq",
+      "venturebeat"
     ],
     "relatedArticleIds": [
       "94f975fe60b3d2785302f7ad59da295646c96930d8e1f110a553de81fae2cb4f",
-      "6d94f9600690005bb9f31dcdb93f237e47cf2f3d59d1df7f066bcb57846b6450",
+      "cd4efed854ae7336ab119fd0ed739a827379027706f4482ee05f1d8a5e9f1c2b",
+      "ba15b64c9539b2b9a78b8a258ceb58b16ff04717695c88f3b52542c69f00ca71",
+      "7cc0401961464808a8c9a063080d4da87d6448802b8b30d5806597564fb412e1",
       "17edf128f79d9feb048c53c24d6c5b9004a373fb001756108e9407ca0e3bfaf6",
-      "0a6f07cbdcc6e8075a731c300de391c5187f3af41e05e83e3fdcbbad5c65939d",
       "d2693b8b3b25c99f76409ba63f36b2664bf0d76255918d3311cf237f599f7588"
     ]
   },
@@ -226,9 +228,9 @@
     "timeframe": "30d",
     "score": 93,
     "status": "breakout",
-    "articleCount": 445,
+    "articleCount": 448,
     "previousArticleCount": 82,
-    "growthRate": 443,
+    "growthRate": 446,
     "distinctSourceCount": 42,
     "leadingSourceIds": [
       "techcrunch",
@@ -239,12 +241,12 @@
       "e70962ad8d4411afd711eecb8ba67be53fb6df295ba497cfbf13f65aad5c0995",
       "6a8f3f0b01b07c48177469de98fdd0c4a5b2310a1fdf2819fe7e96b4bbfbc8ad",
       "f2fd2516f26ac23135c7bbdac65dd21c65bf2382266948cc8666bb8f2d90b016",
-      "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
       "983abfeb78ba93e4d74766cafbcaf74bebddeddbd10a068f83e2c0ee31b61f85",
       "0af10b6ce4c0675e4d7b1299e2c4f96f9829b1ba95f596f1616cf21bd82fcc6a",
       "4e07def61d3743873ba465ad63f56a67e35649e2ef73b523a5c0e074b5668135",
       "b2fe88ac5233545e49b6b6c99d00d55d798f0593671783f3523afeebc52c993c",
       "3d196224ab27a2df369cbcf0994d8b85125e1e44f774a26b897579f4f210801c",
+      "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
       "4e763440b99bc6e639d3e13c1fbaa187be4bce3a88427377afd1f15dc3b4a922"
     ]
   },
@@ -256,8 +258,8 @@
     "score": 87,
     "status": "breakout",
     "articleCount": 212,
-    "previousArticleCount": 134,
-    "growthRate": 58,
+    "previousArticleCount": 137,
+    "growthRate": 55,
     "distinctSourceCount": 28,
     "leadingSourceIds": [
       "techcrunch",
@@ -265,8 +267,8 @@
       "thehackernews"
     ],
     "relatedArticleIds": [
-      "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
       "4e07def61d3743873ba465ad63f56a67e35649e2ef73b523a5c0e074b5668135",
+      "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
       "882cceb5fed69dbde8a4ce485fa09e6930c1eefb4debd3eb127b9226214bb38f",
       "e3ab646d703531698e8e3a6379eac78ea7b5633004c02b7238975eca4e521d10",
       "ad8df76064cd3d810aadb870a6e6d01d3431ffa203e7d29f3158324d1a813a5a",
@@ -409,9 +411,9 @@
     ],
     "relatedArticleIds": [
       "f2fd2516f26ac23135c7bbdac65dd21c65bf2382266948cc8666bb8f2d90b016",
-      "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
       "983abfeb78ba93e4d74766cafbcaf74bebddeddbd10a068f83e2c0ee31b61f85",
       "0af10b6ce4c0675e4d7b1299e2c4f96f9829b1ba95f596f1616cf21bd82fcc6a",
+      "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
       "08c542988ee1493af641e604dd11ea278fc1d93ed0a9f75fe2af74c26d5a0485",
       "ad8df76064cd3d810aadb870a6e6d01d3431ffa203e7d29f3158324d1a813a5a",
       "5c0b792c21c1cd64d2b229c910b954df12e61ce355b8106ea96c60a733db926f",
@@ -490,19 +492,17 @@
     "label": "Data protection and privacy engineering",
     "keywordId": "data-protection-privacy",
     "timeframe": "7d",
-    "score": 32,
+    "score": 27,
     "status": "stable",
-    "articleCount": 2,
-    "previousArticleCount": 0,
-    "growthRate": null,
-    "distinctSourceCount": 2,
+    "articleCount": 1,
+    "previousArticleCount": 1,
+    "growthRate": 0,
+    "distinctSourceCount": 1,
     "leadingSourceIds": [
-      "theregister",
-      "techcrunch"
+      "theregister"
     ],
     "relatedArticleIds": [
-      "57f01c97b0d8d2614544e95835b9c360be5332a707666ad04adb6d2cff3f7f0d",
-      "684641b81f3a932a95f87ed5ffbc1b5dbebf5af8e65e7ef97367c9d6c8e3b55b"
+      "57f01c97b0d8d2614544e95835b9c360be5332a707666ad04adb6d2cff3f7f0d"
     ]
   },
   {

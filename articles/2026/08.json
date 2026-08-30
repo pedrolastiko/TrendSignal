@@ -1108,7 +1108,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "0aaca2d60be9de4464cfcaeef0b2c940ddc164017fc49caa2381dda868babf36",
@@ -1570,7 +1570,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "0d465eec631531857f0133ab1597525f383d985d7d7918b79ca84b4a5fd49b41",
@@ -3693,14 +3693,14 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/google-database-operation-agents/en/headerimage/google-database-operations-agents-1787842474177.jpeg",
     "language": "en",
     "tags": [
+      "Cloud",
+      "Database",
       "Agents",
       "Gemini",
       "Artificial Intelligence",
       "Google Cloud",
-      "Cloud",
-      "Database",
-      "DevOps",
-      "Development"
+      "Development",
+      "DevOps"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -6682,12 +6682,12 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "JavaScript",
       "Privacy",
       "Web Browser",
+      "JavaScript",
       "Security",
-      "DevOps",
-      "Development"
+      "Development",
+      "DevOps"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -7021,7 +7021,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "3db875d507ead183425238592e7e7e9e06c36d98664004f5c126076d236cff56",
@@ -7841,7 +7841,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 70
+    "relevanceScore": 67
   },
   {
     "id": "45181564bdc6645909fa349b79bccbf532dd14d52b271e4f754715d387a5e5ce",
@@ -9314,18 +9314,18 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Continuous Integration",
+      "Repository",
       "git",
-      "Infrastructure",
-      "Microservices",
-      "GitOps",
+      "Distributed Systems",
+      "Management",
       "Agents",
       "github",
-      "Continuous Delivery",
       "GitLab",
-      "Developer Experience",
-      "gRPC",
-      "Management"
+      "Continuous Integration",
+      "Continuous Delivery",
+      "Infrastructure",
+      "Microservices",
+      "gRPC"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -10340,7 +10340,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 55
+    "relevanceScore": 52
   },
   {
     "id": "5b092ef633bf3c926c30772bfadf96803cbaed9369602ea855d5d57567275a0e",
@@ -12270,7 +12270,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "6c243dfa4077b155e684eaf970d431f49492ff8c640523ce2cdd87cae6bf9e62",
@@ -12509,7 +12509,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "6db22feb1c64af33edb9fb562f5f98e355a51ad05964646e645c6519be634b04",
@@ -13952,6 +13952,32 @@
     "relevanceScore": 12
   },
   {
+    "id": "7cc0401961464808a8c9a063080d4da87d6448802b8b30d5806597564fb412e1",
+    "title": "AI agents that pass authentication can still drift, expose data, or get memory-poisoned",
+    "url": "https://venturebeat.com/security/ai-agents-that-pass-authentication-can-still-drift-expose-data-or-get-memory-poisoned",
+    "canonicalUrl": "https://venturebeat.com/security/ai-agents-that-pass-authentication-can-still-drift-expose-data-or-get-memory-poisoned",
+    "sourceId": "venturebeat",
+    "sourceName": "VentureBeat",
+    "company": "VentureBeat",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-30T20:15:00.000Z",
+    "discoveredAt": "2026-08-30T21:09:21.215Z",
+    "summary": "There is a clear repeating trend in agent deployments: The gateway is the first control teams reach for, but it is the one they are least ready to run. This is because gateways sit on top of identity and attribution layers that are mostly not there. The first layer of risk is not hypothetical. In June, CISA added a…",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/6rkrplCZAm3RWGgQAlLmAb/498dff3f929a0e91f7518f33ed5201a6/u7277289442_A_modern_interpretation_of_cybersecurity._Lock._D_a9df6b39-5c1d-4d77-9190-c4f954f7dfa8_0.png?w=300&q=30",
+    "language": "en",
+    "tags": [
+      "Security",
+      "DataDecisionMakers"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 37
+  },
+  {
     "id": "7d0ce80ea3a970e9ec54b13521b4c06594b15b3cb8d4c05fce677725fa267883",
     "title": "Cisco Security Certification Updates: Your Questions Answered",
     "url": "https://blogs.cisco.com/learning/cisco-security-certification-updates-your-questions-answered",
@@ -14209,13 +14235,13 @@
     "imageUrl": "https://res.infoq.com/articles/pqc-in-spring-boot/en/headerimage/pqc-in-spring-boot-header-1787646727709.jpg",
     "language": "en",
     "tags": [
-      "Spring Security",
-      "Hashicorp",
-      "Quantum Computing",
       "Java",
       "Spring Boot",
-      "Architecture & Design",
+      "Quantum Computing",
+      "Spring Security",
+      "Hashicorp",
       "Development",
+      "Architecture & Design",
       "article"
     ],
     "matchedKeywordIds": [
@@ -15694,16 +15720,16 @@
     "imageUrl": "https://res.infoq.com/presentations/netflix-commerce-architecture-evolution/en/mediumimage/kasia-trapszo-medium-1787217920531.jpg",
     "language": "en",
     "tags": [
-      "Leadership",
-      "Netflix",
-      "payment",
       "Design Systems",
       "Technical Debt",
       "Distributed Systems",
       "QCon London 2026",
       "Microservices",
-      "Transcripts",
+      "payment",
+      "Leadership",
+      "Netflix",
       "Performance & Scalability",
+      "Transcripts",
       "Development",
       "Architecture & Design"
     ],
@@ -16532,7 +16558,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "9382709941ad2fa7c1c57683d2b0b0840b7d85da69fba850722b30c607cbad40",
@@ -16866,6 +16892,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "96a57f951d8ea6de5ea64958a94e8baf2137e6d6c6bcfae745bdfc5122efaed4",
+    "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+    "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-30T16:54:25.000Z",
+    "discoveredAt": "2026-08-30T21:09:21.215Z",
+    "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already triggering lawsuits and health studies everywhere his (and others') turbines have gone in.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "TC"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "96abb5e2a27f9863ef75d60e4942549b8ba4b59bb3e550d719387990e49d867e",
@@ -19104,15 +19153,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/workers-inbound-tcp-grpc/en/headerimage/generatedHeaderImage-1787654507205.jpg",
     "language": "en",
     "tags": [
-      "Cloudflare",
-      "Cloud",
-      "Serverless",
       "Protocol",
       "Architecture",
       "Edge Computing",
-      "DevOps",
+      "Cloudflare",
+      "Cloud",
+      "Serverless",
+      "Development",
       "Architecture & Design",
-      "Development"
+      "DevOps"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -19570,14 +19619,14 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/making-testing-sustainable/en/headerimage/generatedHeaderImage-1787339384932.jpg",
     "language": "en",
     "tags": [
-      "Testing",
+      "Sustainable Computing",
       "Static Analysis",
       "Hardware",
-      "Sustainable Computing",
-      "Green Software",
+      "Testing",
+      "Software Testing",
       "Automated testing",
       "Measurement",
-      "Software Testing",
+      "Green Software",
       "Culture & Methods"
     ],
     "matchedKeywordIds": [],
@@ -20856,6 +20905,31 @@
     "relevanceScore": 13
   },
   {
+    "id": "ba15b64c9539b2b9a78b8a258ceb58b16ff04717695c88f3b52542c69f00ca71",
+    "title": "Debian votes to let contributors code with AI",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/30/debian-votes-to-let-contributors-code-with-ai/5293421",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/08/30/debian-votes-to-let-contributors-code-with-ai/5293421",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-30T21:01:00.000Z",
+    "discoveredAt": "2026-08-30T21:09:21.215Z",
+    "summary": "Disclosure optional, quality mandatory",
+    "imageUrl": "https://image.theregister.com/?imageId=5238005&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 37
+  },
+  {
     "id": "ba233098b5277b19b528b8297c9adb92e0cde6b88edbcbe82a4399d065726289",
     "title": "Adapting Privacy Rights Processes for Emerging AI Regulations",
     "url": "https://www.fticonsulting.com/insights/articles/adapting-privacy-rights-processes-emerging-ai-regulations",
@@ -20915,7 +20989,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "ba98fe529e312c826269015f99df6c4f2bb393122e07d39d0085824bad6beadb",
@@ -20932,18 +21006,18 @@
     "imageUrl": "https://res.infoq.com/presentations/enterprise-data-architecture-ai-agents/en/mediumimage/fabiane-nardon-medium-1787218382028.jpeg",
     "language": "en",
     "tags": [
-      "Agents",
-      "QCon AI Boston 2026",
-      "AI Architecture",
-      "AI Security",
-      "Model Context Protocol (MCP)",
-      "Agentic AI Architecture",
+      "Data Mesh",
       "AI Cost Optimisation",
       "Semantic Web",
       "Large language models",
-      "Data Mesh",
+      "Agents",
+      "QCon AI Boston 2026",
+      "AI Architecture",
+      "Model Context Protocol (MCP)",
+      "AI Security",
+      "Agentic AI Architecture",
       "Transcripts",
-      "AI"
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -20951,7 +21025,6 @@
     "tagMatchedIds": [
       "agentic-ai",
       "ai-security",
-      "artificial-intelligence",
       "generative-ai"
     ],
     "relevanceScore": 43
@@ -21709,6 +21782,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 7
+  },
+  {
+    "id": "c03b5fd352fb6fdca67927ed26efd3764c8a5fc64743b92398c56025674ee1f9",
+    "title": "Liux’s Big microcar bets on sustainability to take on Chinese rivals",
+    "url": "https://techcrunch.com/2026/08/30/liuxs-big-microcar-bets-on-sustainability-to-take-on-chinese-rivals/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/30/liuxs-big-microcar-bets-on-sustainability-to-take-on-chinese-rivals",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-30T18:33:44.000Z",
+    "discoveredAt": "2026-08-30T21:09:21.215Z",
+    "summary": "The Liux Big microcar is made in Spain. The startup thinks it can compete in a crowded market with its tiny electric car built around sustainability.",
+    "language": "en",
+    "tags": [
+      "Startups",
+      "Transportation",
+      "electric mobility",
+      "sustainability"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "c079f13fec47f90b7c10669bcd9792da1532c6fe7638ce5c75e5d2f61750f081",
@@ -22834,7 +22930,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "c729d73132e660523425c006d57d77f41f5a1b10a66206945c507cb6538a333d",
@@ -22990,7 +23086,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "c815807553a0a9fc82116a879bffa0b5f4cd7b95dd39f6fdb0d347b93f282c60",
@@ -23618,6 +23714,41 @@
     "relevanceScore": 25
   },
   {
+    "id": "cd4efed854ae7336ab119fd0ed739a827379027706f4482ee05f1d8a5e9f1c2b",
+    "title": "Cloudflare Extends AI Search to Make it Easier for Agents and Developers to Search Custom Data",
+    "url": "https://www.infoq.com/news/2026/08/cloudflare-ai-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/08/cloudflare-ai-search",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-30T19:00:00.000Z",
+    "discoveredAt": "2026-08-30T21:09:21.215Z",
+    "summary": "Cloudflare AI Search is a built-in search and retrieval service designed to give AI agents and applications a ready-to-use search engine over custom data. It supports agent integration, multimodal search, and seamless integration with other Cloudflare tools. By Sergio De Simone",
+    "imageUrl": "https://res.infoq.com/news/2026/08/cloudflare-ai-search/en/headerimage/cloudflare-ai-search-1788105575745.jpeg",
+    "language": "en",
+    "tags": [
+      "Search Engine",
+      "Cloudflare",
+      "Cloud",
+      "Large language models",
+      "Agents",
+      "Development",
+      "AI",
+      "ML & Data Engineering",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 46
+  },
+  {
     "id": "cd9c9b058a146defb5b44fa811aba5fc8142c03ce6a47c5e3814f074578f0fb5",
     "title": "Unify IT workflows at scale with the new automation orchestrator for Ansible Automation Platform",
     "url": "https://www.redhat.com/en/blog/unify-it-workflows-scale-new-automation-orchestrator-ansible-automation-platform",
@@ -23791,10 +23922,10 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Local First",
+      "Frontier Model",
       "Large language models",
       "Model Inference",
-      "Frontier Model",
+      "Local First",
       "Local Inference",
       "AI",
       "ML & Data Engineering",
@@ -24250,11 +24381,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/kiro-crew-coding-agents/en/headerimage/generatedHeaderImage-1786904775247.jpg",
     "language": "en",
     "tags": [
-      "Agents",
-      "AI Development",
-      "AI Assisted Coding",
       "AWS",
       "AI Coding",
+      "AI Assisted Coding",
+      "Agents",
+      "AI Development",
       "AI",
       "ML & Data Engineering",
       "Development"
@@ -26994,8 +27125,8 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/astro-satteri-rust/en/headerimage/generatedHeaderImage-1787817978309.jpg",
     "language": "en",
     "tags": [
-      "JavaScript",
       "Front-end",
+      "JavaScript",
       "Web Development",
       "Rust",
       "Development"
@@ -27287,9 +27418,9 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "AI Architecture",
-      "Hardware",
       "Supercomputer",
+      "Hardware",
+      "AI Architecture",
       "Networking",
       "AI",
       "ML & Data Engineering"
@@ -29144,18 +29275,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/spring-news-roundup-aug17-2026/en/headerimage/spring-news-roundup-image-1787845727439.jpg",
     "language": "en",
     "tags": [
+      "Spring Batch",
+      "Java",
+      "Spring Boot",
+      "Spring Data",
+      "Spring Framework",
       "Spring Security",
       "Spring Modulith",
       "Spring Integration",
-      "Spring Framework",
-      "Spring Data",
-      "Java",
-      "Spring Batch",
-      "Spring Boot",
       "Apache Kafka",
       "AMQP",
-      "Architecture & Design",
-      "Development"
+      "Development",
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
