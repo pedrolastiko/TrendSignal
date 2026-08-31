@@ -178,7 +178,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "01bdbdbde4f7ca9a190458e7cc215427a2157911dab2c7527f04a1d923dc9eed",
@@ -864,6 +864,31 @@
     "relevanceScore": 13
   },
   {
+    "id": "07f751d502796a085a5b4c5aa4ed0f3aa754ded4209213e8aa319362aa18155b",
+    "title": "Anthropic cracks down on hijacked user accounts mining AI tokens",
+    "url": "https://www.theregister.com/security/2026/08/31/anthropic-cracks-down-on-hijacked-user-accounts-mining-ai-tokens/5293461",
+    "canonicalUrl": "https://www.theregister.com/security/2026/08/31/anthropic-cracks-down-on-hijacked-user-accounts-mining-ai-tokens/5293461",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T16:03:46.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Commodity malware steals authenticated sessions, letting thieves freeload on victims' paid usage",
+    "imageUrl": "https://image.theregister.com/?imageId=5293471&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 37
+  },
+  {
     "id": "081601c279be28d3ef5aa58c1540b9bc9f0ea3d8209b55f9f8aeb4a2083ecf36",
     "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
     "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
@@ -1240,7 +1265,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "0b5e0e6c8159c62d0872262d07ccd77e07524eb57d9b602071fc4401a4fc7741",
@@ -1446,7 +1471,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 28
+    "relevanceScore": 26
   },
   {
     "id": "0c4923a8268d927d546252610841ad4a1fc1c83aca865bccdf7cd8269d11f0bf",
@@ -2043,7 +2068,7 @@
   },
   {
     "id": "11b8606a8d3036b18607729f5778ce49f5133c6b5b8403ee27538f1c95b8e895",
-    "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+    "title": "The US is building barriers around drones and robots, but China has scale to get around them",
     "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
     "canonicalUrl": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale",
     "sourceId": "techcrunch",
@@ -2057,7 +2082,6 @@
     "tags": [
       "AI",
       "Robotics",
-      "China",
       "drones",
       "Federal Communications Commission",
       "geopolitics",
@@ -2067,6 +2091,28 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "11c86572051ce856f5731689c2414d7b0f2a471e05c3a33e24180fb1620157ca",
+    "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
+    "url": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T14:52:03.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS XR router that could not be explained by a running configuration or commit history. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
     ],
     "relevanceScore": 16
   },
@@ -2434,6 +2480,27 @@
     "relevanceScore": 57
   },
   {
+    "id": "156933d900879b89ae0087fa70ef0803336d5e5f86e6a5c1a17b1319c773757e",
+    "title": "AI Model Rules Are Not Security Controls",
+    "url": "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control",
+    "canonicalUrl": "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T17:34:26.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "OpenAI's Hugging Face attack postmortem shows agents don't care about rules — they need strong controls.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt66572731c5d1ef47/6a95bb605f4f75f2e93bdf89/AI_robot-Moor_Studio-getty-1822585391.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 38
+  },
+  {
     "id": "1588736375353a8301b5fcc31195f4e94f131b732ea747ba693d9d81d183b46d",
     "title": "Bumble Tried to Change Dating, but the Dating Market Forced It to Change Instead",
     "url": "https://www.wired.com/story/bumble-women-first-rule-change/",
@@ -2617,6 +2684,29 @@
       "cybersecurity"
     ],
     "relevanceScore": 50
+  },
+  {
+    "id": "16b2463c3572878ebe5ee56a0bf8b4ec3cb34f12ad97ee70cc53600d30dbc263",
+    "title": "FTC accuses Amazon of running a ‘secret ad surcharge scheme’ in new lawsuit",
+    "url": "https://techcrunch.com/2026/08/31/ftc-accuses-amazon-of-running-a-secret-ad-surcharge-scheme-in-new-lawsuit/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/ftc-accuses-amazon-of-running-a-secret-ad-surcharge-scheme-in-new-lawsuit",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T20:20:25.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Amazon is facing a new lawsuit from the FTC and 22 states for allegedly secretly charging businesses more for advertising.",
+    "language": "en",
+    "tags": [
+      "Commerce",
+      "Government & Policy",
+      "Amazon",
+      "Federal Trade Commission"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "16b8ac96c7b988a1f3ebe4d0cb899062c576e557fa72017d1cd1ae745b8fcbb0",
@@ -2962,7 +3052,7 @@
     "sourceCategory": "consulting",
     "publishedAt": "2026-08-28T00:00:00.000Z",
     "discoveredAt": "2026-08-28T22:23:24.446Z",
-    "summary": "Scale is where the value is. Enabling scale depends on how strong your foundations are.",
+    "summary": "There is a new management playbook emerging for how to run companies better in the age of AI.",
     "language": "en",
     "tags": [
       "Digital Insights",
@@ -2977,7 +3067,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 42
   },
   {
     "id": "1890cecb82756be85adb5438822259f7f3425c90fe9061fc52ca871c599a9af8",
@@ -2998,6 +3088,29 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 26
+  },
+  {
+    "id": "18a4a12b20dce98c8d7a7a66621a8c8b8c9adea87ed811d0a7b340a01f6df884",
+    "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
+    "url": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T20:47:54.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]",
+    "language": "en",
+    "tags": [
+      "Security",
+      "CryptoCurrency"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "192c69a79f8dd0983709ed7dc6ad7da573a0d9e07ba8e643dcd8e25bcb4d34fd",
@@ -3154,6 +3267,33 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 40
+  },
+  {
+    "id": "1a67cf9fc56a8187f32c22669bdafdaf8805a8b2839706292e479bac70c61165",
+    "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+    "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+    "canonicalUrl": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai",
+    "sourceId": "mit-technology-review",
+    "sourceName": "MIT Technology Review",
+    "company": "MIT Technology Review",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T18:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying…",
+    "language": "en",
+    "tags": [
+      "Artificial intelligence",
+      "App",
+      "The Algorithm"
+    ],
+    "matchedKeywordIds": [
+      "ai-security",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 44
   },
   {
     "id": "1a7e03f50e9a59d13de3f4ed14c92d980efaf3d14abb5b03e50a40ecb3176531",
@@ -3516,6 +3656,27 @@
     "relevanceScore": 7
   },
   {
+    "id": "1db23a0b47b3858c6c209bd62b5b263555bb6515ee1ba37cbd8b13796799c45f",
+    "title": "Broadcom pledges to lock down open source Python, Java libraries",
+    "url": "https://www.theregister.com/virtualization/2026/08/31/broadcom-pledges-to-lock-down-open-source-python-java-libraries/5293454",
+    "canonicalUrl": "https://www.theregister.com/virtualization/2026/08/31/broadcom-pledges-to-lock-down-open-source-python-java-libraries/5293454",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T16:32:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Promises ‘secure artifacts’ for Spring and RabbitMQ, and other projects that matter to its Tanzu suite",
+    "imageUrl": "https://image.theregister.com/?imageId=5258559&width=800",
+    "language": "en",
+    "tags": [
+      "virtualization"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "1e8c80f19dc3263875fd09fd92806af85ed9d1d56b3c0cd5dd015243c355c559",
     "title": "China marches towards re-usable rockets with successful first-stage landing",
     "url": "https://www.theregister.com/offbeat/2026/08/20/china-marches-towards-re-usable-rockets-with-successful-first-stage-landing/5290095",
@@ -3583,6 +3744,32 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 34
+  },
+  {
+    "id": "1f4b1c3e455a31dd8fb2a21aad40797f158a21de88cbe1a4965298556f5a0284",
+    "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
+    "canonicalUrl": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026",
+    "sourceId": "aws-news-blog",
+    "sourceName": "AWS News Blog",
+    "company": "Amazon Web Services",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-08-31T14:45:25.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON.…",
+    "language": "en",
+    "tags": [
+      "Amazon EC2",
+      "Amazon Elastic Container Service",
+      "Amazon GameLift",
+      "Amazon SageMaker AI",
+      "Analytics",
+      "AWS IoT Core",
+      "AWS Lambda"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
   },
   {
     "id": "1f616d071c66b5ee2eb816039e287026fba181ef2a2e72e06f62c198f56040a7",
@@ -3862,7 +4049,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "2193d3ce550c0abdf699fd974869b6e07e2a623325956071c450e0736594e7de",
@@ -3887,6 +4074,29 @@
       "ai-security"
     ],
     "relevanceScore": 13
+  },
+  {
+    "id": "2195dc8f6dbd00456ac05ef8cd73ee08065d54172ed39769f002803df660e7a8",
+    "title": "Tim Cook’s parting message: Apple is in the hands of a product builder",
+    "url": "https://techcrunch.com/2026/08/31/tim-cooks-parting-message-apple-is-in-the-hands-of-a-product-builder/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/tim-cooks-parting-message-apple-is-in-the-hands-of-a-product-builder",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T17:02:42.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Tim Cook’s farewell memo to Apple employees offers a glimpse at how he wants John Ternus to be seen: as a product builder with deep experience across the iPhone, Mac, AirPods, and other major hardware lines.",
+    "language": "en",
+    "tags": [
+      "Hardware",
+      "Apple",
+      "John Ternus",
+      "Tim Cook"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "222b29f3aab3b7975b512b14de975bcfb75b5b7378a48709c3a3f075650d2b11",
@@ -3971,7 +4181,7 @@
   },
   {
     "id": "233c41a6ac4dce634d069a01f240f9d4489cda12490818cf8437c6c23ac68d05",
-    "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
+    "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
     "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
     "canonicalUrl": "https://blog.cloudflare.com/introducing-adaptive-intelligence",
     "sourceId": "cloudflare-blog",
@@ -4124,7 +4334,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 56
+    "relevanceScore": 53
   },
   {
     "id": "246fedd10063237a3b3876c0cfb7758b57c4763f4ae610fc5a8734bd2be43151",
@@ -4517,6 +4727,27 @@
     "relevanceScore": 27
   },
   {
+    "id": "26dfe2cd4839ad8484b61bb804bd8f05276c4c0872f1b078cc711e08d5bcdb6c",
+    "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+    "canonicalUrl": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available",
+    "sourceId": "aws-news-blog",
+    "sourceName": "AWS News Blog",
+    "company": "Amazon Web Services",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-08-31T19:53:34.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.",
+    "language": "en",
+    "tags": [
+      "Amazon EC2",
+      "Graviton"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
+  },
+  {
     "id": "274019da349a4ce5be24e66159852acf6dcc00b4454d730d2764fa1b2ff13358",
     "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
     "url": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
@@ -4595,7 +4826,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "28c1b92a26db75821c506b7a7f9aa33685a2e113d8dbb919f2baa758779a9389",
@@ -4952,7 +5183,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "2afaf2776719abe42cc59c4ea7c8d3d070db0c6ed7b9ef729184e669210d0f60",
@@ -5048,6 +5279,38 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 8
+  },
+  {
+    "id": "2b7a6859bd6a302dce39c8ead96c04a32094cd2a0598f4b783dc07f7c4326444",
+    "title": "The AI ready home: how Cisco helps broadband providers deliver next generation experience",
+    "url": "https://blogs.cisco.com/sp/the-ai-ready-home-how-cisco-helps-broadband-providers-deliver-next-generation-experience",
+    "canonicalUrl": "https://blogs.cisco.com/sp/the-ai-ready-home-how-cisco-helps-broadband-providers-deliver-next-generation-experience",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-08-31T15:00:02.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Bandwidth scaling is no longer enough to satisfy demand coming from AI applications at the home. Providers need a resilient, intelligent network that delivers the performance that AI applications dictate.",
+    "language": "en",
+    "tags": [
+      "SP360: Service Provider",
+      "AI",
+      "AI Security",
+      "application performance",
+      "Critical Infrastructure",
+      "data center networking",
+      "network assurance",
+      "Network Resiliency"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "ai-security",
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
   },
   {
     "id": "2bff00d8e85e8d427d11f520ebbc295cf0bcd72397753f84bc2229eb265b758a",
@@ -5384,6 +5647,27 @@
     "relevanceScore": 7
   },
   {
+    "id": "2e70e7a5e20f070779c94dacc86328b8ad56efe79b708fd0b490b6b3b2f37e2c",
+    "title": "MapQuest’s app surges to No. 1 in Navigation after refusing to rename Lake Ontario",
+    "url": "https://techcrunch.com/2026/08/31/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T14:51:33.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "MapQuest is getting an unexpected boost from its decision to defy President Trump’s renaming of Lake Ontario.",
+    "language": "en",
+    "tags": [
+      "Apps",
+      "Mapquest"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "2f00013902a29bc1e23dd248bb0d6a75ee356bf38627fa0f8884731fbff27534",
     "title": "Replit expands access to software creation with GPT-5.6 Luna",
     "url": "https://openai.com/index/replit",
@@ -5420,7 +5704,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "2f79d7c54c3ef5537728bce6cc9656fa59c295a38ab354697650b3c68457b7de",
@@ -5520,7 +5804,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "2ff027b0cf239caeb29283e33ffbcc73ce9c2fada3968acd2c93181e067fab90",
@@ -5741,7 +6025,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 10
   },
   {
     "id": "315a7872c69345e6b19d79630077b4cabb91b4d24ff644ef9870230dc1fbc66f",
@@ -5989,7 +6273,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "33eae878317d27dcc0386f35e9a677d698ea074de44e94f879168ed6c243016a",
@@ -6240,18 +6524,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/java-news-roundup-aug24-2026/en/headerimage/java-news-roundup-image-1788175476923.jpg",
     "language": "en",
     "tags": [
-      "Azul Payara",
-      "Open Liberty",
-      "JDK 28",
-      "GraalVM",
       "Glassfish",
-      "Atmosphere",
       "JBoss WildFly",
-      "Eclipse JNoSQL",
-      "Java",
-      "Quarkus",
+      "Open Liberty",
+      "GraalVM",
+      "Azul Payara",
       "JDK 27",
-      "Open JDK"
+      "Open JDK",
+      "Jakarta EE",
+      "Atmosphere",
+      "Quarkus",
+      "Java",
+      "JDK 28"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -6346,7 +6630,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "359e8e10191f153b3fc77a1bf9a26d4929ada28159772321edb2125468ca7ca3",
@@ -6644,7 +6928,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "37b3abbf338bb439fe947f7022162279d3a9984bf85f6ce875ecd034ee7c6a29",
@@ -7132,6 +7416,34 @@
     "relevanceScore": 6
   },
   {
+    "id": "3cfc2fe755cdab5c69f4cbf44ea3aa25a40a5b0da7b7dfcf8af996d313be786b",
+    "title": "Revolutionizing semiconductor fab operations with AI",
+    "url": "https://www.mckinsey.com/industries/semiconductors/our-insights/revolutionizing-semiconductor-fab-operations-with-ai",
+    "canonicalUrl": "https://www.mckinsey.com/industries/semiconductors/our-insights/revolutionizing-semiconductor-fab-operations-with-ai",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-08-31T00:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "AI has the potential to improve build processes and operations within semiconductor fabs. Early adopters could see significant cost improvement and productivity gains.",
+    "language": "en",
+    "tags": [
+      "Insights on Semiconductors",
+      "Semiconductors",
+      "Europe",
+      "North America",
+      "Artificial Intelligence"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
+  },
+  {
     "id": "3d196224ab27a2df369cbcf0994d8b85125e1e44f774a26b897579f4f210801c",
     "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
     "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
@@ -7177,7 +7489,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 35
+    "relevanceScore": 32
   },
   {
     "id": "3d81d861eb213c7e1c5eb48aa0e7bddd5b3e75ebb0437036beebd38b1e7fda74",
@@ -7219,6 +7531,35 @@
     "relevanceScore": 9
   },
   {
+    "id": "3d9b0b4faee90acabe016e70ded3488fb5855ebaf13ac1d54aec6893506e17be",
+    "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+    "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T15:15:25.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Enterprise",
+      "AI chips",
+      "data centers",
+      "MediaTek",
+      "nvidia"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
+  },
+  {
     "id": "3db41b3231711767222f86b556f2a8b925785e7f720018dbf93943debb8cfbfd",
     "title": "FlexGanttFX is Open Source",
     "url": "https://www.infoq.com/news/2026/08/flexgantfx/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -7233,8 +7574,8 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "JavaFX",
       "Java",
+      "JavaFX",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -7306,7 +7647,7 @@
       "agentic-ai",
       "ai-governance"
     ],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "3eb8b8035a3e6c859098c74c483e575d37572fdcf1a38a341f6d8e5d2cfe83bc",
@@ -7669,6 +8010,29 @@
     "relevanceScore": 43
   },
   {
+    "id": "417fe1a1b6b3fe8a3d2881ac0d30c0a717490cd4395ac55f33760faefd29da95",
+    "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T19:13:31.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Making installation easier and putting a new wrapper on the interface while leaving most of the security to users is a recipe for more trouble with the popular agent harness",
+    "imageUrl": "https://image.theregister.com/?imageId=4094099&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 15
+  },
+  {
     "id": "41850b0deaa2721c28cf98877ea6a8396886477f723b14ee0e1afdadcb0ebc52",
     "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
     "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
@@ -7826,7 +8190,7 @@
       "post-quantum-cryptography"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 36
+    "relevanceScore": 33
   },
   {
     "id": "42c3afc04079c9f579ba9befa22640bb84de8c15215e93bbb80aef950e7247c0",
@@ -8083,6 +8447,39 @@
     "relevanceScore": 67
   },
   {
+    "id": "45079ea9335ee2ea2dc395b43d54e977783c10dca6f4e60853518ce77aa1757d",
+    "title": "How AI could make it harder for governments to use hacking tools",
+    "url": "https://techcrunch.com/2026/08/31/how-ai-could-make-it-harder-for-governments-to-use-hacking-tools/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/how-ai-could-make-it-harder-for-governments-to-use-hacking-tools",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T15:19:32.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "AI is proving effective at finding and exploiting vulnerabilities. Some say this will make it harder for governments to use hacking tools and spyware and could reignite calls to backdoor devices.",
+    "language": "en",
+    "tags": [
+      "Security",
+      "AI",
+      "backdoors",
+      "cybersecurity",
+      "encryption",
+      "FBI",
+      "law enforcement",
+      "U.S. government",
+      "Zero-days"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "relevanceScore": 48
+  },
+  {
     "id": "45181564bdc6645909fa349b79bccbf532dd14d52b271e4f754715d387a5e5ce",
     "title": "Democratizing FinOps with Wiz: Driving Cost Attribution with the Wiz Service Catalog",
     "url": "https://www.wiz.io/blog/cost-attribution-with-the-wiz-service-catalog",
@@ -8203,7 +8600,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "46214c108a2358740ac09170ed1206dd0be452897b3c715d92d494dbaa17aee3",
@@ -8297,6 +8694,28 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "46defbbddb217e9ff0017193e38e5dbf81c818620a32aa53f448cde65931cf2a",
+    "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
+    "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+    "canonicalUrl": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T13:50:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "The boring parts caused most of the trouble. A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task was optional. Elsewhere, fake apps,…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEQHUlnyxCIYFLSRsvotvppFdq5zZ2BQQXJ4PI03uluqvzH3d4FhLogVr2pn0zbUGUQlQQXrk53CDaRZ3q4jC3wLxxG9NPQMtAsx0qkU4yatwjEogU-3RF4s2jpxb394Sd2JMEYhBKbv9TJd41QqI3WRZEcd5UWHXvszq1cKblrRBthblIYeefUx3wPbBM/s1600/recap.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 59
   },
   {
     "id": "46f5f5c2ecddd5e5c5f51001bd49eaf484fc230e1fbabe6e790f7d2e0823d7c1",
@@ -8398,7 +8817,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "490d37f0271b0d96a31ee076e133e8a8c5e6a62863b76fe0af62d4ddb48cac82",
@@ -8502,7 +8921,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 53
+    "relevanceScore": 51
   },
   {
     "id": "4a0dc8ade9417ebdc4b0b75445e0a914af0125c87dfa16f7a667fe84a14fdf9f",
@@ -8601,6 +9020,27 @@
     "language": "en",
     "matchedKeywordIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "4aadb66f009bf3b9bae68fe66cdb05313828a92cd89989607ebc14c2b68a4363",
+    "title": "Orbify.eu pitches warped Inception-style 3D maps for navigation",
+    "url": "https://www.theregister.com/software/2026/08/31/orbifyeu-pitches-warped-inception-style-3d-maps-for-navigation/5293496",
+    "canonicalUrl": "https://www.theregister.com/software/2026/08/31/orbifyeu-pitches-warped-inception-style-3d-maps-for-navigation/5293496",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T19:52:56.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "'You mustn't be afraid to dream a little bigger, darling'",
+    "imageUrl": "https://image.theregister.com/?imageId=5293508&width=800",
+    "language": "en",
+    "tags": [
+      "software"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "4adc7e9d4221394a83f600e3e552b25c0bbb6ebf7cd0b0751de0e0a1be00db5d",
@@ -8935,7 +9375,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "4ce2b1710ca987540040103c3729410502751e2155fafcf38240eb63a9c7451f",
@@ -9306,7 +9746,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "4f4d8414bccf29eb770150ef469b1c4523f87d6ea364b3c53e3c2bddd5af9ebd",
@@ -9640,24 +10080,24 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Continuous Integration",
+      "Repository",
       "git",
-      "Infrastructure",
-      "Microservices",
-      "GitOps",
+      "Distributed Systems",
+      "Management",
       "Agents",
       "github",
-      "Continuous Delivery",
       "GitLab",
-      "Developer Experience",
-      "gRPC",
-      "Management"
+      "Continuous Integration",
+      "Continuous Delivery",
+      "Infrastructure",
+      "Microservices",
+      "gRPC"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "agentic-ai"
     ],
-    "relevanceScore": 11
+    "relevanceScore": 8
   },
   {
     "id": "527f1f0a5161f5ca89ce3d9252aa53f7b8618a6e9fe34146d57a1d6266b97a5f",
@@ -9782,7 +10222,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "53a9ade4ffbe934a408984de6febef88842696ce226c6c7d436891f2b88bf452",
@@ -9824,7 +10264,7 @@
   },
   {
     "id": "54157944fd6ce74ba7ffdc67a43e4679273a8116bdf3226c69a1c47ddc910a6a",
-    "title": "Meeting notetaker Circleback adds a free tier to attract more customers",
+    "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
     "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
     "canonicalUrl": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers",
     "sourceId": "techcrunch",
@@ -9833,11 +10273,12 @@
     "sourceCategory": "media",
     "publishedAt": "2026-08-31T12:56:46.000Z",
     "discoveredAt": "2026-08-31T13:56:08.200Z",
-    "summary": "Circleback is also introducing new pricing plans starting from $14 per month",
+    "summary": "Circleback is also introducing new pricing plans starting from $14 per month.",
     "language": "en",
     "tags": [
       "AI",
       "Apps",
+      "Startups",
       "circleback",
       "Meeting notetakers"
     ],
@@ -10563,7 +11004,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "5a904d263204b3532c4dbdf3ab3a7c5ac035ea61b81a21eb8a9fd0aca878ae05",
@@ -11149,7 +11590,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "5ee646fcdb704cbee462f0d7e17727c67edc73ffeeb49360a864b1499976ab10",
@@ -11571,7 +12012,7 @@
   },
   {
     "id": "618fda8d8dd2440c86b6c886bd4b7e5edc411a6639352f31f945be7f3996b549",
-    "title": "Black Hat 2026におけるWiz：AI脅威への備えを推進",
+    "title": "Wiz at Black Hat 2026: Driving AI Threat Readiness",
     "url": "https://www.wiz.io/blog/wiz-at-black-hat-2026",
     "canonicalUrl": "https://www.wiz.io/blog/wiz-at-black-hat-2026",
     "sourceId": "wiz-blog",
@@ -11580,7 +12021,7 @@
     "sourceCategory": "cybersecurity",
     "publishedAt": "2026-08-04T13:06:10.000Z",
     "discoveredAt": "2026-08-23T01:46:58.686Z",
-    "summary": "可視性を拡大し、対応を加速させることで、組織が AI 時代に備え、セキュリティ チームがマシン スピードで防御できるように支援する新機能を発表します。",
+    "summary": "Announcing new capabilities that help organizations prepare for the AI era by expanding visibility and accelerating response, so security teams can defend at machine speed.",
     "imageUrl": "https://www.datocms-assets.com/75231/1785811518-1920x1080-28.png",
     "language": "en",
     "tags": [],
@@ -11588,7 +12029,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 24
+    "relevanceScore": 39
   },
   {
     "id": "61ed7624ab7f5e6e0097ce24dade15da71bcb0133e35ce9205daac51fedbaf4d",
@@ -12030,7 +12471,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "659aa17029f365728f92fbba29b68e23bfdbcf081bc5dcf3f034bcf8f47ede86",
@@ -12519,6 +12960,41 @@
     "relevanceScore": 12
   },
   {
+    "id": "6a817b65fbc3a6da9a4a3885a8066c436a9abd62324ac1ab04c67eed4039dec4",
+    "title": "DoorDash’s Flux Runs 130,000 Engineering Tasks Through Cloud-Based Agents",
+    "url": "https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T14:28:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "DoorDash has moved engineering agent workloads from developer laptops to its Flux cloud platform. The platform automated 130,000 engineering tasks in one month and supports more than 25,000 automated code reviews weekly. Flux uses isolated Firecracker microVMs, an MCP gateway, reusable playbooks, and multiple…",
+    "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+    "language": "en",
+    "tags": [
+      "AI Coding",
+      "VM",
+      "Software Engineering",
+      "Agents",
+      "Code Reviews",
+      "AI Development",
+      "AI Security",
+      "AI Harness",
+      "Continuous Deployment",
+      "Infrastructure",
+      "Cloud",
+      "Continuous Improvement"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "ai-security"
+    ],
+    "relevanceScore": 14
+  },
+  {
     "id": "6a8f3f0b01b07c48177469de98fdd0c4a5b2310a1fdf2819fe7e96b4bbfbc8ad",
     "title": "Scaling agentic AI: How llm-d enables infrastructure sovereignty",
     "url": "https://www.redhat.com/en/blog/scaling-agentic-ai-how-llm-d-enables-infrastructure-sovereignty",
@@ -12560,7 +13036,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 35
+    "relevanceScore": 32
   },
   {
     "id": "6ad3c57e750ed7781513d6050c43647e41fcf99130f5754bade23b2d779414bb",
@@ -12580,6 +13056,31 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 8
+  },
+  {
+    "id": "6ad5b66a6858c8a90f449672705ce81475cbc03cbf16f9f1083807e11e073227",
+    "title": "A group funded by Andreessen, Horowitz, and Brockman plans data center ads to sway midterms",
+    "url": "https://techcrunch.com/2026/08/31/a-group-funded-by-andreessen-horowitz-and-brockman-plan-data-center-ads-to-sway-midterms/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/a-group-funded-by-andreessen-horowitz-and-brockman-plan-data-center-ads-to-sway-midterms",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T22:14:05.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Build American AI plans to lobby voters in select states about the virtues of data centers by spending millions of dollars on ads.",
+    "language": "en",
+    "tags": [
+      "Government & Policy",
+      "Venture",
+      "Andreessen Horowitz",
+      "greg brockman"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
   },
   {
     "id": "6ae5efd1aaa57ef3abf3b24a667c26b87c37d32bd8807d484bd24820bbf0e32e",
@@ -12805,6 +13306,32 @@
     "relevanceScore": 34
   },
   {
+    "id": "6d43a9a74c4a8c4f688e6830879bcb8d06731a97d44c1f29876b3d82e86b6adc",
+    "title": "Hackers claim millions of patient records stolen during data breach at healthcare giant McKesson",
+    "url": "https://techcrunch.com/2026/08/31/hackers-claim-millions-of-patient-records-stolen-during-data-breach-at-healthcare-giant-mckesson/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/hackers-claim-millions-of-patient-records-stolen-during-data-breach-at-healthcare-giant-mckesson",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T18:10:09.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "The company, which distributes medicines and medical devices to hospitals and healthcare practices across the U.S., said it was hacked and expects intermittent service degradation.",
+    "language": "en",
+    "tags": [
+      "Security",
+      "cyberattack",
+      "cybersecurity",
+      "data breach",
+      "healthcare"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "6d4ec902c728a02128d0e9d0f2d97315b31b6e3516e9601be6e9577b06f5790c",
     "title": "Partnering with CodeAI to prepare the first AI generation",
     "url": "https://openai.com/index/partnering-with-codeai",
@@ -12882,7 +13409,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 26
   },
   {
     "id": "6d94f9600690005bb9f31dcdb93f237e47cf2f3d59d1df7f066bcb57846b6450",
@@ -13316,6 +13843,36 @@
     "relevanceScore": 35
   },
   {
+    "id": "72249bd53d8a5849bc6afcd896a680a611effbcc3499efd5893cf5cd2d1f990b",
+    "title": "What’s new in AI infrastructure and orchestration in August",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/",
+    "canonicalUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month",
+    "sourceId": "google-cloud-blog",
+    "sourceName": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-08-31T16:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Welcome back to What’s new in AI infrastructure and orchestration this month, a collection of product updates, how-tos, customer stories, research and other resources about all the AI compute, networks, storage, frameworks, and orchestration software that you can find at Google Cloud. To be honest, we thought August…",
+    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Whats_new_in_AI_infrastructure.max-600x600.jpg",
+    "language": "en",
+    "tags": [
+      "AI & Machine Learning",
+      "Containers & Kubernetes",
+      "Compute",
+      "Networking",
+      "Storage & Data Transfer",
+      "AI infrastructure"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 49
+  },
+  {
     "id": "724a91472a0ab42cca3783771c5dc3057688ac5bb6fda276aff4020c8918ca9b",
     "title": "The Oversight Gap in Major Bank Transformations",
     "url": "https://www.fticonsulting.com/insights/articles/oversight-gap-major-bank-transformations",
@@ -13512,7 +14069,7 @@
       "ransomware"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 31
   },
   {
     "id": "742cf8651e8b5d40b0eb897a17238b9e061ddfed27993d43513eae7a269ba0ff",
@@ -13602,7 +14159,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "7542b82280c692ebfd0a618f19c1d51b2824de0b292e2bae4e3b5f477c20d6c4",
@@ -13731,7 +14288,7 @@
       "agentic-ai",
       "cybersecurity"
     ],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "76813a80d57dc9886ed967388e6e78b56c4ce035003ec4915155ce7b02561ba9",
@@ -13961,18 +14518,18 @@
     "imageUrl": "https://res.infoq.com/presentations/local-ai-browser-inference-privacy/en/mediumimage/james-hall-medium-1787813225372.jpeg",
     "language": "en",
     "tags": [
-      "AI Security",
-      "Cloud Computing",
-      "GPU",
       "QCon London 2026",
       "Privacy",
       "Web Browser",
       "Edge Computing",
+      "GPU",
+      "AI Security",
+      "Cloud Computing",
       "Web Development",
-      "Machine Learning",
-      "Local Inference",
       "Transcripts",
-      "AI"
+      "Local Inference",
+      "Machine Learning",
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -14035,7 +14592,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "77e82f93b3fba54b6ba08d0b96f563d79578c7174444c6d8e93476c68b048775",
@@ -14218,15 +14775,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/foundry-model-router-regions/en/headerimage/generatedHeaderImage-1787836928169.jpg",
     "language": "en",
     "tags": [
-      "AI Architecture",
-      "Governance",
       "Generative AI",
+      "Azure",
       "Cloud",
       "Cost Optimization",
-      "Azure",
+      "Governance",
+      "AI Architecture",
       "Microsoft",
       "Microsoft Azure",
-      "DevOps",
+      "Development",
       "AI",
       "ML & Data Engineering",
       "Architecture & Design"
@@ -14234,7 +14791,6 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "artificial-intelligence",
-      "devsecops",
       "generative-ai"
     ],
     "relevanceScore": 14
@@ -14382,6 +14938,31 @@
     "relevanceScore": 38
   },
   {
+    "id": "7b33fa20e33356579ad01402cf527a7256cb3a0ccd66f096d63596925708033a",
+    "title": "Cloud CISO Perspectives: Tips on securing the water sector in the AI era",
+    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-tips-on-securing-water-sector-ai-era/",
+    "canonicalUrl": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-tips-on-securing-water-sector-ai-era",
+    "sourceId": "google-cloud-blog",
+    "sourceName": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-08-31T16:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Welcome to the second Cloud CISO Perspectives for August 2026. Today, Chris Sistrunk and Stephanie Kiel detail the critical issues facing the water sector, and actionable steps that OT operators can take to secure their infrastructure. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to…",
+    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Cloud_CISO_Perspectives_header_4_Blue.max-600x600.png",
+    "language": "en",
+    "tags": [
+      "Cloud CISO",
+      "Public Sector",
+      "Security & Identity"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 39
+  },
+  {
     "id": "7bbb293c57c5ff6bddbad3e98056a858c95c1e1074144980d70a6096fe6d4303",
     "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
     "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
@@ -14449,7 +15030,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "7d0ce80ea3a970e9ec54b13521b4c06594b15b3cb8d4c05fce677725fa267883",
@@ -14473,7 +15054,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "7d16f6d18397197e4155a015dd4b858738d9eb98f485053e5d87c26d02e09b8d",
@@ -14673,7 +15254,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 35
+    "relevanceScore": 32
   },
   {
     "id": "7ff44c04a7594e10a609115c28389d55c695d8384b551b0ef68e2a2176f6206e",
@@ -15249,7 +15830,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8359e93564ce0a73f75df3f1ee91ba0600976e0903ce12941ecdbef8b4366033",
@@ -15436,7 +16017,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "851b0f9ee3ff53b2a4b31ed3c6316af20aa752a68a0efd8e49cf78ebd363a108",
@@ -15626,7 +16207,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "8714118cf0f73cbac840852c3885e0ea1b8c8f1f0ce69ec11fbfae50e179eb17",
@@ -15756,7 +16337,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 65
+    "relevanceScore": 62
   },
   {
     "id": "886a8b52c23e7a1307774e05db5adfa2e7c24ebcb2db6fb738661aa00234ea40",
@@ -16063,6 +16644,28 @@
     "relevanceScore": 67
   },
   {
+    "id": "8a7cdd78fd48385994a8dbca98a1e32138d055e0841fbba3f4c389fe7e61c2a0",
+    "title": "A milestone in expanding access to AI",
+    "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+    "canonicalUrl": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+    "language": "en",
+    "tags": [
+      "Product"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 50
+  },
+  {
     "id": "8aa52847c5e1c3003ba409174c5c3c3beac51d5cfa943244d85acb8dfd072160",
     "title": "New Report: AI threats are here. Why Q2 2026 signals the end of traditional patch cycles",
     "url": "https://www.rapid7.com/blog/post/tr-new-report-ai-threats-q2-2026-ends-traditional-patch-cycles",
@@ -16142,6 +16745,25 @@
     "relevanceScore": 55
   },
   {
+    "id": "8af7257c694a7c84a35bf7819471ccfa12985a6e8421f2acf7cdc679b4523905",
+    "title": "'TerminalFix' Campaign Weaponizes PowerShell for Enterprise Attacks",
+    "url": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks",
+    "canonicalUrl": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T20:25:36.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "The ClickFix-style campaign features a sophisticated, multistage attack chain that includes reverse tunnels into victim organizations' networks.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt20cb8eccfb020b93/6a95d0de3450f0664b0636bb/PowerShell_icon-Think_About_Life-GettyImages-2153775274.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "8b0cc449b56f019fb65a2f0c30aee00fabf57e72faf48f4575a9806bd9060203",
     "title": "OpenAI glitch locks out vetted cyber researchers – and some can't get back in",
     "url": "https://www.theregister.com/ai-and-ml/2026/08/20/openai-glitch-locks-out-vetted-cyber-researchers-and-some-cant-get-back-in/5290238",
@@ -16194,14 +16816,14 @@
     "imageUrl": "https://res.infoq.com/presentations/netflix-commerce-architecture-evolution/en/mediumimage/kasia-trapszo-medium-1787217920531.jpg",
     "language": "en",
     "tags": [
-      "Leadership",
-      "Netflix",
-      "payment",
       "Design Systems",
       "Technical Debt",
       "Distributed Systems",
       "QCon London 2026",
       "Microservices",
+      "payment",
+      "Leadership",
+      "Netflix",
       "Performance & Scalability",
       "Transcripts",
       "Development",
@@ -16801,6 +17423,27 @@
     "relevanceScore": 43
   },
   {
+    "id": "91178bcc3ff94995aab403d3aa1d0c1b13bd4e7a0ea024b7a85a7723e68f5a20",
+    "title": "Autoscaling Lakebase Postgres",
+    "url": "https://www.databricks.com/blog/autoscaling-lakebase-postgres",
+    "canonicalUrl": "https://www.databricks.com/blog/autoscaling-lakebase-postgres",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-08-31T17:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Choosing a database instance size before you know the workload is an old building pattern...",
+    "language": "en",
+    "tags": [
+      "Engineering",
+      "Data Engineering"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "913a9ecb254eed171b37e387f27f6c0e7d85bfebc1daa5744be63d8581022538",
     "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
     "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
@@ -17176,6 +17819,35 @@
     "relevanceScore": 12
   },
   {
+    "id": "94560be8c6139247c2b82b6a9db7bce5fcb3a8bf1ad93757a419b5743384d60d",
+    "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+    "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T16:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Startups",
+      "ai agent",
+      "Generative AI"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 38
+  },
+  {
     "id": "9456b4b707e257e091725cd5ee575fdfcfd2ff4baa28f09a143f1e784d334ad1",
     "title": "Big Tech market power will cause UK to lose AI race, think tank warns",
     "url": "https://www.theregister.com/ai-and-ml/2026/08/28/big-tech-market-power-will-cause-uk-to-lose-ai-race-think-tank-warns/5292918",
@@ -17328,7 +18000,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "966123ef613d7e9a038f2daf6279a1b145d8a12b7899b1ce2dd6a719c259c50d",
@@ -17512,7 +18184,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 35
+    "relevanceScore": 32
   },
   {
     "id": "97424bbec73831d35823623517d41cebd218a8fa791caac5915760342408cdae",
@@ -17719,6 +18391,28 @@
     "relevanceScore": 41
   },
   {
+    "id": "98b406209eee91a2fa774f9b7b80cdb41d08743c2f5a544faf0d341bcb6576d6",
+    "title": "What is an AI Copilot?",
+    "url": "https://www.databricks.com/blog/ai-copilot",
+    "canonicalUrl": "https://www.databricks.com/blog/ai-copilot",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-08-28T22:22:15.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "An AI copilot is an AI assistant embedded directly in a software application. It...",
+    "language": "en",
+    "tags": [
+      "Data + AI Foundations"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 42
+  },
+  {
     "id": "9942bbb8bb91f0b6f4653baa97ed820b0a4f5e2f1e2b21793e149bc29452daad",
     "title": "Foundation AI in July: New Models, Benchmarks, and Security Research",
     "url": "https://blogs.cisco.com/ai/foundation-ai-in-july-new-models-benchmarks-and-security-research",
@@ -17836,7 +18530,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 26
   },
   {
     "id": "9a55681da0a3cb53124f2f23404d60648d07851629aeb0f619a7a9cfe4d53384",
@@ -18047,7 +18741,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "9b48fae2db36f9a3186e70fec7532936be3a8ef55d985e82af02ab5eb97a1de2",
@@ -18327,13 +19021,13 @@
     "imageUrl": "https://res.infoq.com/articles/gcp-wif-scale/en/headerimage/gcp-wif-scale-header-1787838950646.jpg",
     "language": "en",
     "tags": [
-      "Google Cloud",
-      "Cloud",
       "Cloud Security",
+      "Cloud",
+      "Google Cloud",
       "DevSecOps",
       "Authentication",
-      "DevOps",
       "Architecture & Design",
+      "DevOps",
       "article"
     ],
     "matchedKeywordIds": [],
@@ -18503,7 +19197,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "9dbdaf6a0fbc92e7716096f25cbbecb6f24fe008f49aa6bc691ed7d93c3b9f09",
@@ -18525,6 +19219,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 9
+  },
+  {
+    "id": "9dfc4ae323f9041a0ce598754a9a63afc6fd3520dd101f571f8e6d3991e75e9b",
+    "title": "OpenAI confirms ChatGPT outage as users report errors",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T16:50:50.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "ChatGPT Work is experiencing a partial outage, and users across multiple subscription plans may be unable to start or continue tasks. [...]",
+    "language": "en",
+    "tags": [
+      "Artificial Intelligence",
+      "Technology"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "9e0629dfcffe801512ad20b39417fa8b2eaf96a7765af507a2192bdfcf8c74f1",
@@ -18643,7 +19360,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "9f1168346da930566af2037add6fd76174eeb012363d43e010f75c91af66e35b",
@@ -18825,7 +19542,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "a02076e4395bd96a220efa2041951b6091218c280a60fee66d925d63748a3607",
@@ -19127,6 +19844,29 @@
     "relevanceScore": 16
   },
   {
+    "id": "a2bd666e22c58a6393e6d612b733f38cafe389b708213d3e5fc041212006fc07",
+    "title": "Software engineers' new job isn't writing code — it's designing the boundaries AI agents can't break",
+    "url": "https://venturebeat.com/orchestration/software-engineers-new-job-isnt-writing-code-its-designing-the-boundaries-ai-agents-cant-break",
+    "canonicalUrl": "https://venturebeat.com/orchestration/software-engineers-new-job-isnt-writing-code-its-designing-the-boundaries-ai-agents-cant-break",
+    "sourceId": "venturebeat",
+    "sourceName": "VentureBeat",
+    "company": "VentureBeat",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T18:52:19.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "If you look at the commit histories of modern data platforms, something profound has shifted over the last two years. The friction of writing syntax has collapsed. With Cursor, Claude Code, and agentic workflows now living inside our Docker containers and IDEs, generating the first implementation of a distributed…",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/69QSWgFmlQZFi2Tre1y0IV/cf044c4ab93c4256bc36db6f14eb096c/Gemini_Generated_Image_obnkm7obnkm7obnk__1_.jpeg?w=300&q=30",
+    "language": "en",
+    "tags": [
+      "Orchestration"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 37
+  },
+  {
     "id": "a3084f7b560e91176e2230afe5efd71275d3e3d9b22f82c24d52d4a5167c1e7d",
     "title": "An ultra-rare piece of Microsoft history could be hiding on your shelf",
     "url": "https://www.theregister.com/offbeat/2026/08/23/an-ultra-rare-piece-of-microsoft-history-could-be-hiding-on-your-shelf/5291118",
@@ -19146,6 +19886,73 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "a30b49035f657cbf1333a30726229e2d02a7f8dd2e50c50c1cde0ecf01c6b1f8",
+    "title": "AstraZeneca’s Bob Li on the MARS mission to eliminate cancer",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/astrazenecas-bob-li-on-the-mars-mission-to-eliminate-cancer",
+    "canonicalUrl": "https://www.mckinsey.com/industries/life-sciences/our-insights/astrazenecas-bob-li-on-the-mars-mission-to-eliminate-cancer",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-08-31T00:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Bob Li, AstraZeneca's Global Head of Medical Affairs, Oncology, on why only 7 percent of cancer patients get access to clinical trials, and what decentralized trials, AI, and international collaboration could do to change that within a decade.",
+    "language": "en",
+    "tags": [
+      "Insights on Life Sciences",
+      "Pharmaceuticals"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
+    "id": "a32e16bf7357f7349770d97a162fa5e6112f3772479a0216ecd3a6140e583824",
+    "title": "File servers are here to stay. Here’s how to manage them securely",
+    "url": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T14:00:10.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "File servers remain a critical part of many IT environments, but managing access securely can become complex as permissions accumulate. tenfold Software outlines five best practices for simplifying file server administration and maintaining least-privilege access. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "a33bda7d2d1fa083f9d04439f9103d501b2cd469b8f5dc8ecc6d59c792050c63",
+    "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T18:51:04.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "A new ClickFix variant dubbed TerminalFix uses fake Cloudflare CAPTCHA prompts on compromised websites to trick victims into running malicious PowerShell commands in Windows Terminal. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "a38b81289bbf6e1830309c7979d8e1ec5135534a9be43650cf9c244d75ed7866",
@@ -19467,6 +20274,31 @@
     "relevanceScore": 13
   },
   {
+    "id": "a6eb97663ae10a5c05873433df6a7a070ffa83d7c01cf8c4a7f8cab212626371",
+    "title": "The Power of Co-Innovation for AgenticOps and Autonomous Networks",
+    "url": "https://blogs.cisco.com/sp/the-power-of-co-innovation-for-agenticops-and-autonomous-networks",
+    "canonicalUrl": "https://blogs.cisco.com/sp/the-power-of-co-innovation-for-agenticops-and-autonomous-networks",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-08-31T20:19:54.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Autonomous networks are a team effort. See how Cisco and partners won the TM Forum Moonshot Catalyst award with shared architecture and transparent governance.",
+    "language": "en",
+    "tags": [
+      "SP360: Service Provider",
+      "AgenticOps",
+      "AIOps",
+      "Cisco Service Provider",
+      "network automation",
+      "TM Forum"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "a71c814100b25436ca2eab1dfdbe64a978eb7ec1518e2831758664e46bec62d1",
     "title": "$1T investment giant Apollo breached after social engineering attack",
     "url": "https://www.theregister.com/cyber-crime/2026/08/24/1t-investment-giant-apollo-breached-after-social-engineering-attack/5291609",
@@ -19534,7 +20366,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "a7fdd1552144481d0a19232d406aefc36117aeafb41e4ad17e6916bce212c7f4",
@@ -19554,6 +20386,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 7
+  },
+  {
+    "id": "a8022df9822f237c74c17482a4f0eabf66a0d709d6a9b2b35a66a3890cf15886",
+    "title": "A lot of datacenter networks are run by absolute clowns. Not Amazon's",
+    "url": "https://www.theregister.com/networks/2026/08/29/a-lot-of-datacenter-networks-are-run-by-absolute-clowns-not-amazons/5293379",
+    "canonicalUrl": "https://www.theregister.com/networks/2026/08/29/a-lot-of-datacenter-networks-are-run-by-absolute-clowns-not-amazons/5293379",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-29T13:30:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "AWS keeps customer costs down in part through networking advances",
+    "imageUrl": "https://image.theregister.com/?imageId=5293383&width=800",
+    "language": "en",
+    "tags": [
+      "networks"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 12
   },
   {
     "id": "a850da0f0822a0751f3eadb23f88b945e64472756700852491208f6433450273",
@@ -19677,15 +20530,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/workers-inbound-tcp-grpc/en/headerimage/generatedHeaderImage-1787654507205.jpg",
     "language": "en",
     "tags": [
-      "Cloudflare",
-      "Cloud",
-      "Serverless",
       "Protocol",
       "Architecture",
       "Edge Computing",
-      "DevOps",
+      "Cloudflare",
+      "Cloud",
+      "Serverless",
+      "Development",
       "Architecture & Design",
-      "Development"
+      "DevOps"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -19786,7 +20639,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "a9dbc5f8c54c30e0025a7177de11f878941ff2721a38934bedfb22362a73c725",
@@ -19982,24 +20835,23 @@
     "imageUrl": "https://res.infoq.com/podcasts/evolving-desktop-agentic-ux/en/smallimage/infoq-podcast-500-1787734073812.jpg",
     "language": "en",
     "tags": [
-      "Desktop",
+      "Privacy",
+      "UX",
+      "Large language models",
       "Artificial Intelligence",
       "Local First",
-      "Operating Systems",
-      "UX",
       "The InfoQ Podcast",
-      "Large language models",
+      "Desktop",
       "Design",
-      "Privacy",
-      "DevOps",
+      "Operating Systems",
       "AI",
-      "ML & Data Engineering"
+      "ML & Data Engineering",
+      "Development"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "artificial-intelligence",
       "data-protection-privacy",
-      "devsecops",
       "generative-ai"
     ],
     "relevanceScore": 14
@@ -20241,7 +21093,7 @@
   },
   {
     "id": "adc4a58c92e52b8c926a92678c162f128ae49a9576f27e525bb1b75dcd289d1a",
-    "title": "The Cloudflare Blog – Brought to you by EmDash",
+    "title": "The Cloudflare Blog — brought to you by EmDash",
     "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
     "canonicalUrl": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash",
     "sourceId": "cloudflare-blog",
@@ -20264,7 +21116,7 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "adcae21846f713001b34fd1002cd881f1ec37e401c467102b2a7125a82a08eb8",
@@ -20420,6 +21272,35 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42
+  },
+  {
+    "id": "b021f179e7d08248483e407bb5a9c18d91d57523feb435d403989386c74cfdd1",
+    "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
+    "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T18:35:11.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Government & Policy",
+      "Startups",
+      "Las Olas Venture Capital",
+      "police",
+      "signalfire"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
   },
   {
     "id": "b0c318a16a9cd3a4f37fb97b56ba09b70755c764e5e6ac2611e7065d932a65c9",
@@ -20660,6 +21541,7 @@
     "language": "en",
     "tags": [
       "Security & Identity",
+      "Developers & Practitioners",
       "Networking"
     ],
     "matchedKeywordIds": [],
@@ -20882,6 +21764,25 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27
+  },
+  {
+    "id": "b3f570bd9a8117922b0fb67dc01f30c92e1031da0d68c199bb6a0b9ad909e5f8",
+    "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
+    "canonicalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T21:08:46.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte57f544bc451abd9/6a95e1e44e3e37aa8ed4fed0/claude_Thaspol_Sangsee_shutterstock.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "b416119661e8fd99b5e1c3749a8127f54f947254eddff3efa43c7eac72d93404",
@@ -21490,6 +22391,27 @@
     "relevanceScore": 10
   },
   {
+    "id": "b989fe7660b56228f60a807d3c342af82ccac9b20404e781ec96b9c04a33dd31",
+    "title": "Europe on the move: A conversation with Boerse Stuttgart Group’s CEO",
+    "url": "https://www.mckinsey.com/featured-insights/insights-on-europe/podcasts-and-videos/europe-on-the-move-a-conversation-with-boerse-stuttgart-groups-ceo",
+    "canonicalUrl": "https://www.mckinsey.com/featured-insights/insights-on-europe/podcasts-and-videos/europe-on-the-move-a-conversation-with-boerse-stuttgart-groups-ceo",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-08-31T00:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "With 160 years of experience, Boerse Stuttgart Group is Europe's sixth-largest exchange group, helping position Europe for the future through digital, blockchain innovation, and financial infrastructure.",
+    "language": "en",
+    "tags": [
+      "Podcasts & Videos",
+      "Capital for growth"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "ba15b64c9539b2b9a78b8a258ceb58b16ff04717695c88f3b52542c69f00ca71",
     "title": "Debian votes to let contributors code with AI",
     "url": "https://www.theregister.com/ai-and-ml/2026/08/30/debian-votes-to-let-contributors-code-with-ai/5293421",
@@ -21512,7 +22434,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "ba233098b5277b19b528b8297c9adb92e0cde6b88edbcbe82a4399d065726289",
@@ -21525,7 +22447,7 @@
     "sourceCategory": "consulting",
     "publishedAt": "2026-08-18T00:00:00.000Z",
     "discoveredAt": "2026-08-23T02:45:18.670Z",
-    "updatedAt": "2026-08-18T00:00:00.000Z",
+    "updatedAt": "2026-08-31T00:00:00.000Z",
     "summary": "AI regulations are reshaping privacy rights governance. Learn how CCPA and other emerging AI laws impact your organization’s compliance roadmap.",
     "imageUrl": "https://www.fticonsulting.com/-/media/images/shared-content/insights/articles/2026/aug/adapting-privacy-rights-processes-emerging-ai-regulations_900x471_right.jpeg?as=0&dmc=0&iar=0&thn=0&udi=0&rev=38af053795624e6fa0f3d14ad2df8bb9&hash=176546129E473E5E7D4EDC9AEC0BE324",
     "language": "en",
@@ -21553,7 +22475,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "ba5de3732e5a6df4aa4c88307d0758c3ed0f119dfa9857e3bbb802c9f4ea42aa",
@@ -21591,18 +22513,18 @@
     "imageUrl": "https://res.infoq.com/presentations/enterprise-data-architecture-ai-agents/en/mediumimage/fabiane-nardon-medium-1787218382028.jpeg",
     "language": "en",
     "tags": [
-      "Agents",
-      "QCon AI Boston 2026",
-      "AI Architecture",
-      "AI Security",
-      "Model Context Protocol (MCP)",
-      "Agentic AI Architecture",
+      "Data Mesh",
       "AI Cost Optimisation",
       "Semantic Web",
       "Large language models",
-      "Data Mesh",
+      "Agents",
+      "QCon AI Boston 2026",
+      "AI Architecture",
+      "Model Context Protocol (MCP)",
+      "AI Security",
+      "Agentic AI Architecture",
       "Transcripts",
-      "AI"
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -21610,7 +22532,6 @@
     "tagMatchedIds": [
       "agentic-ai",
       "ai-security",
-      "artificial-intelligence",
       "generative-ai"
     ],
     "relevanceScore": 43
@@ -21794,7 +22715,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 55
+    "relevanceScore": 52
   },
   {
     "id": "bc5fb30d09f40478d6e2a9d997bbbeab25f111bdc416836bf81844c59c1c80fd",
@@ -22094,7 +23015,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "be461c8b17bf08f6da07f62d76bcd6189168266c7bb28a436b6d54142f8d22dd",
@@ -22739,7 +23660,7 @@
   },
   {
     "id": "c1f616cb61f8979508bfa765c38cce2fb1defcf654a02c5f141fffb8ead8deb7",
-    "title": "Say it once: introducing Bot Preference Sync",
+    "title": "Say it once: Introducing Bot Preference Sync",
     "url": "https://blog.cloudflare.com/bot-preference-sync/",
     "canonicalUrl": "https://blog.cloudflare.com/bot-preference-sync",
     "sourceId": "cloudflare-blog",
@@ -23065,7 +23986,32 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
+  },
+  {
+    "id": "c42320d408e127f88a33025234d0c3c6873475a66e8cd1bf34bfddb70edb1162",
+    "title": "Microsoft tests fix for latest hours-long Outlook outage",
+    "url": "https://techcrunch.com/2026/08/31/microsoft-tests-fix-for-latest-hours-long-outlook-outage/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/microsoft-tests-fix-for-latest-hours-long-outlook-outage",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T18:56:41.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Microsoft says it's testing a fix for the widespread Outlook issues that have led to email delays and failures.",
+    "language": "en",
+    "tags": [
+      "Enterprise",
+      "email",
+      "In Brief",
+      "Microsoft",
+      "Outage",
+      "Outlook"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "c4394638c714dfe92ce4287e6c3ad380dde558f87ad4a6ed4c78d56d8d2632c8",
@@ -23511,7 +24457,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "c71c0c85dd6f9ddd84763b71c6baffcf828e6a7442777b3d8b1bd8a8c676a8ef",
@@ -23854,7 +24800,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 35
   },
   {
     "id": "c8f5936ef6e384974ae051132761f17e479eb3160b2e52bb8987c0628a8afd68",
@@ -24212,6 +25158,26 @@
     "relevanceScore": 13
   },
   {
+    "id": "cb90621589fe2293e93241ced1601417d4f9b10d6667e22ad019e127285ab748",
+    "title": "Microsoft Exchange Online outage causes email failures, auth issues",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T16:56:57.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Microsoft is investigating a widespread service issue causing authentication issues, email delays and failures, and various other issues for Exchange Online customers. [...]",
+    "language": "en",
+    "tags": [
+      "Microsoft"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "cb93cc9383f3dd5fb5037960986c97c80ee87db1ea1ce117ee1b52d728c5150e",
     "title": "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
     "url": "https://cloud.google.com/blog/products/application-development/2026-gartner-mq-for-cloud-native-application-platforms/",
@@ -24233,6 +25199,25 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 9
+  },
+  {
+    "id": "cbe1eb1a526e86a5240c409457902f23be9623739a5b33432e685bf118669fe4",
+    "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
+    "url": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
+    "canonicalUrl": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T17:24:28.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent investigations identifying suspected workers employed in sales and marketing and the medical profession. The ongoing…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg79i0RXS7ZzzPurGwbsquOv8l9-GsYQmsw9y1qCzEeDMKYNXjn84VZVfVZU9aiGqnyDyQ6ZdgKosZxn60KtJ6TgTREMyC_ZnhyCxv3kSLtAXBHA2suVHDYFdWYllL4aN0-exJxnCfjXJL5dlo08aVU1YtzJchTD7nORvsBe0oXivCBhctDCcEn85Cmjiab/s1600/1000104722.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "ccd0a6c910b9e7a2acfe30e51dc9ae10e7f99d589155a06066bf93b5a365e796",
@@ -24334,15 +25319,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/cloudflare-ai-search/en/headerimage/cloudflare-ai-search-1788105575745.jpeg",
     "language": "en",
     "tags": [
-      "Agents",
       "Search Engine",
       "Cloudflare",
-      "Large language models",
       "Cloud",
+      "Large language models",
+      "Agents",
+      "Development",
       "AI",
       "ML & Data Engineering",
-      "Architecture & Design",
-      "Development"
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -24352,7 +25337,7 @@
       "artificial-intelligence",
       "generative-ai"
     ],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "cd9c9b058a146defb5b44fa811aba5fc8142c03ce6a47c5e3814f074578f0fb5",
@@ -24528,14 +25513,14 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Local First",
+      "Frontier Model",
       "Large language models",
       "Model Inference",
-      "Frontier Model",
+      "Local First",
       "Local Inference",
-      "DevOps",
       "AI",
-      "ML & Data Engineering"
+      "ML & Data Engineering",
+      "DevOps"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -24544,6 +25529,32 @@
       "generative-ai"
     ],
     "relevanceScore": 11
+  },
+  {
+    "id": "cf3d8ead7771d32922280ec5b7da60fdcab9e65e63cc54baacb9a0c4fc1f85ff",
+    "title": "The Pentagon now has its own version of ChatGPT and Grok",
+    "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T20:13:45.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "ChatGPT",
+      "Grok"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
   },
   {
     "id": "cf84b04d3ba42f60779d2eb1c27cfb79051007113210e722cab96453fa7f7636",
@@ -24987,11 +25998,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/kiro-crew-coding-agents/en/headerimage/generatedHeaderImage-1786904775247.jpg",
     "language": "en",
     "tags": [
-      "Agents",
-      "AI Development",
-      "AI Assisted Coding",
       "AWS",
       "AI Coding",
+      "AI Assisted Coding",
+      "Agents",
+      "AI Development",
       "AI",
       "ML & Data Engineering",
       "Development"
@@ -25114,7 +26125,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "d422d4b35ac4edcd001689cfa9f716dfd362b26c51bba49050b68bb79c9c8f63",
@@ -25417,6 +26428,52 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "d7b1ad67051419268a0fe5fe41a6232881412ed79e9dcff9e24401bd1d4618cf",
+    "title": "Attack hides malware in PNGs and drops custom reverse tunnel on victims' machines",
+    "url": "https://www.theregister.com/security/2026/08/31/attack-hides-malware-in-pngs-and-drops-custom-reverse-tunnel-on-victims-machines/5293480",
+    "canonicalUrl": "https://www.theregister.com/security/2026/08/31/attack-hides-malware-in-pngs-and-drops-custom-reverse-tunnel-on-victims-machines/5293480",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T18:26:03.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Next-level ClickFix wave sets off multi-stage attack chain",
+    "imageUrl": "https://image.theregister.com/?imageId=1684475&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
+  },
+  {
+    "id": "d7ba684bb09c21bf0d7a6e3abf64967a64b5332118b2303ef3317c1acfb967ad",
+    "title": "Apple’s top App Store exec, Phil Schiller, follows wave of exits as CEO Tim Cook steps down",
+    "url": "https://techcrunch.com/2026/08/31/apples-top-app-store-exec-phil-schiller-follows-wave-of-exits-as-ceo-tim-cook-steps-down/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/apples-top-app-store-exec-phil-schiller-follows-wave-of-exits-as-ceo-tim-cook-steps-down",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T19:02:06.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "The longtime executive won't be leaving Apple just yet but staff at the company say it's a step closer to Schiller retiring.",
+    "language": "en",
+    "tags": [
+      "Apps",
+      "app store",
+      "Apple",
+      "phil schiller"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "d7d7171ecfc4fc698b1e95b40326f20a07bf78fcd335f4f04f0c57ffd151898f",
@@ -25885,7 +26942,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "da2b8fa855ee863bd24157b833685092cb5859a71d8ffd93843a02bd4bfdfb43",
@@ -26074,7 +27131,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 10
   },
   {
     "id": "db9fdc9191ca8c561e0a4f3720ab6d340898ff4a019bb93acdce8afa55e5b9e9",
@@ -27437,6 +28494,30 @@
     "relevanceScore": 27
   },
   {
+    "id": "e623d3bcaa8b9166172dfcf7e1db39d77a3d83d129412171e65e520bc8a9b335",
+    "title": "VLC crosses 7 billion downloads",
+    "url": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T16:07:46.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "In our world of expensive streaming platforms, the very free and offline VLC media player has crossed 7 billion downloads.",
+    "language": "en",
+    "tags": [
+      "Apps",
+      "Media & Entertainment",
+      "In Brief",
+      "video players",
+      "VLC"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "e664dd95ce75788cdacb62a44e102f84b3052e075707032753d92f4337454507",
     "title": "World Tax Advisor",
     "url": "https://www.deloitte.com/global/en/services/tax/perspectives/world-tax-advisor.html",
@@ -27823,6 +28904,35 @@
     "relevanceScore": 8
   },
   {
+    "id": "e89f617879e7196700cce3e4bbd56e0ee394b3168a80fad2bca7f7a1a23ae363",
+    "title": "Instagram puts new limits on undisclosed AI profiles",
+    "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T19:16:59.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Apps",
+      "Media & Entertainment",
+      "Social",
+      "Instagram",
+      "Meta"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
+  },
+  {
     "id": "e8e06fd2e2321a320d2603302b7d8a5741dfd98b230d87f9052a320d7eb7c7f1",
     "title": "From the Gridiron to the Server Room: Meet the 49ers’ Cisco Networking Academy Apprentice",
     "url": "https://blogs.cisco.com/learning/from-the-gridiron-to-the-server-room-meet-the-49ers-cisco-networking-academy-apprentice",
@@ -28050,7 +29160,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "eb2a970c0edc66f71d3c2834ffb43b02203e1bc05e7ebc2b45caefbdb22c00f0",
@@ -28290,7 +29400,33 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
+  },
+  {
+    "id": "edd4cf2e9b3e73edc86b048a8b7ad21296471f914ebb70991569cc00eb7d127c",
+    "title": "Identity and permissions aren’t enough to govern AI agent behavior",
+    "url": "https://venturebeat.com/security/identity-and-permissions-arent-enough-to-govern-ai-agent-behavior",
+    "canonicalUrl": "https://venturebeat.com/security/identity-and-permissions-arent-enough-to-govern-ai-agent-behavior",
+    "sourceId": "venturebeat",
+    "sourceName": "VentureBeat",
+    "company": "VentureBeat",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T14:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Presented by Box Identity and permissions are no longer enough to secure enterprise AI agents. They govern what an agent can reach, not how it behaves once it starts working on its own, and an autonomous agent can turn legitimate access of enterprise data into unintended action in seconds. That gap is pushing…",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3an0Y29mAJpfiIPyJJXyqG/265bd4d5971684970c8bab15738689de/AdobeStock_1563218204.jpeg?w=300&q=30",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 73
   },
   {
     "id": "ee1a3760dd26f889c52b6bf09c00c2a9b227829126d92799560a9da282e772dd",
@@ -28620,7 +29756,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 10
   },
   {
     "id": "f19b96573addd38b5c0516901b4b460941331916fc689c0a4ae4c20d28af78ff",
@@ -28699,6 +29835,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 11
+  },
+  {
+    "id": "f1dbfd64fd1fb8614ba48e7799183ee0a2c0a28bf2a0e2dd963958a631acad09",
+    "title": "Ryan Breslow is raising up to $27M in pay-to-play bridge funding to save Bolt",
+    "url": "https://techcrunch.com/2026/08/31/ryan-breslow-is-raising-up-to-27m-in-pay-to-play-bridge-funding-to-save-bolt/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/ryan-breslow-is-raising-up-to-27m-in-pay-to-play-bridge-funding-to-save-bolt",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T17:14:44.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "The controversial founder of the checkout startup once valued at $11 billion is putting in $5 million of his own money.",
+    "language": "en",
+    "tags": [
+      "Fintech",
+      "Startups",
+      "Bolt",
+      "Ryan Breslow"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "f215c49dc8ea2e031fc2905797812c0ac898753ffc8523e311999e4d9c83e604",
@@ -29120,7 +30279,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "f59fccb11158f2cb23f286ecaf1af914c89c1e23edf144f44358c903bd68919f",
@@ -29790,6 +30949,27 @@
     "relevanceScore": 8
   },
   {
+    "id": "fbb8d7fddb58213290728bfdc57b5789efdd703dc48788fcb37b17bb17311348",
+    "title": "From weeks to minutes: The new agentic era of data pipelines",
+    "url": "https://cloud.google.com/blog/products/data-analytics/build-data-pipelines-in-less-time-with-data-agent-kit/",
+    "canonicalUrl": "https://cloud.google.com/blog/products/data-analytics/build-data-pipelines-in-less-time-with-data-agent-kit",
+    "sourceId": "google-cloud-blog",
+    "sourceName": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-08-31T16:00:00.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "Data pipelines are the backbone of the modern enterprise, yet a barrier to entry exists for orchestrating them, making this critical capability unavailable to many data professionals. Following our announcements at Google Cloud NEXT ’26, where we introduced the Orchestration Pipelines framework, we are fundamentally…",
+    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_XMQ1O65.max-1000x1000.jpg",
+    "language": "en",
+    "tags": [
+      "Data Analytics"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
+  },
+  {
     "id": "fbf67621099f4f5de497d4b1484b82268a0cf9a54559c4b5e1e05feabe22f52b",
     "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
     "url": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
@@ -29808,7 +30988,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "fc1a9abd82b35a9c86d54b1fb0f68bd137a90ec86cea086cc68200bb6a148bdd",
@@ -29904,6 +31084,30 @@
       "cybersecurity"
     ],
     "relevanceScore": 34
+  },
+  {
+    "id": "fc87f42b33188d18aee18a3e01fb24f71a23d8a8e9493ae494ed58a4955dddc8",
+    "title": "Kalshi bans George Santos for life over State of the Union bets",
+    "url": "https://techcrunch.com/2026/08/31/kalshi-bans-george-santos-for-life-over-state-of-the-union-bets/",
+    "canonicalUrl": "https://techcrunch.com/2026/08/31/kalshi-bans-george-santos-for-life-over-state-of-the-union-bets",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-08-31T18:53:41.000Z",
+    "discoveredAt": "2026-08-31T22:53:32.380Z",
+    "summary": "The disciplinary action comes two months after the Commodity Futures Trading Commission settled charges against Santos.",
+    "language": "en",
+    "tags": [
+      "Fintech",
+      "George Santos",
+      "In Brief",
+      "insider trading",
+      "Kalshi"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "fcb8347b13c509a270420de73a2a0e60ca1d0a32f9bb3becbcf5c12b2443c3cf",
