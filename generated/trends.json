@@ -4,19 +4,21 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "24h",
-    "score": 34,
+    "score": 40,
     "status": "stable",
-    "articleCount": 2,
+    "articleCount": 3,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 2,
+    "distinctSourceCount": 3,
     "leadingSourceIds": [
       "thehackernews",
-      "venturebeat"
+      "venturebeat",
+      "google-cloud-blog"
     ],
     "relatedArticleIds": [
       "edd4cf2e9b3e73edc86b048a8b7ad21296471f914ebb70991569cc00eb7d127c",
-      "46defbbddb217e9ff0017193e38e5dbf81c818620a32aa53f448cde65931cf2a"
+      "46defbbddb217e9ff0017193e38e5dbf81c818620a32aa53f448cde65931cf2a",
+      "a306ae3a48584322c7d990bd6266c180d356bedc4293bd52d63a0bafbda39dfa"
     ]
   },
   {
@@ -26,9 +28,9 @@
     "timeframe": "30d",
     "score": 62,
     "status": "rising",
-    "articleCount": 50,
+    "articleCount": 51,
     "previousArticleCount": 7,
-    "growthRate": 614,
+    "growthRate": 629,
     "distinctSourceCount": 21,
     "leadingSourceIds": [
       "venturebeat",
@@ -53,12 +55,12 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "7d",
-    "score": 42,
+    "score": 43,
     "status": "stable",
-    "articleCount": 14,
+    "articleCount": 15,
     "previousArticleCount": 19,
-    "growthRate": -26,
-    "distinctSourceCount": 7,
+    "growthRate": -21,
+    "distinctSourceCount": 8,
     "leadingSourceIds": [
       "venturebeat",
       "darkreading",
@@ -184,7 +186,7 @@
     "label": "AI security",
     "keywordId": "ai-security",
     "timeframe": "7d",
-    "score": 61,
+    "score": 60,
     "status": "rising",
     "articleCount": 7,
     "previousArticleCount": 2,
@@ -192,8 +194,8 @@
     "distinctSourceCount": 6,
     "leadingSourceIds": [
       "venturebeat",
-      "cisco-blogs",
-      "openai-news"
+      "mit-technology-review",
+      "cisco-blogs"
     ],
     "relatedArticleIds": [
       "882cceb5fed69dbde8a4ce485fa09e6930c1eefb4debd3eb127b9226214bb38f",
@@ -210,28 +212,28 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 93,
+    "score": 94,
     "status": "breakout",
     "articleCount": 27,
-    "previousArticleCount": 6,
-    "growthRate": 350,
-    "distinctSourceCount": 13,
+    "previousArticleCount": 11,
+    "growthRate": 145,
+    "distinctSourceCount": 12,
     "leadingSourceIds": [
       "techcrunch",
       "theregister",
-      "venturebeat"
+      "google-cloud-blog"
     ],
     "relatedArticleIds": [
       "45779382730661a1a4b8ae8f3ec686b1454747873fa184445755d5bccbcc2ce8",
       "edd4cf2e9b3e73edc86b048a8b7ad21296471f914ebb70991569cc00eb7d127c",
       "46defbbddb217e9ff0017193e38e5dbf81c818620a32aa53f448cde65931cf2a",
-      "8a7cdd78fd48385994a8dbca98a1e32138d055e0841fbba3f4c389fe7e61c2a0",
       "72249bd53d8a5849bc6afcd896a680a611effbcc3499efd5893cf5cd2d1f990b",
       "e89f617879e7196700cce3e4bbd56e0ee394b3168a80fad2bca7f7a1a23ae363",
       "45079ea9335ee2ea2dc395b43d54e977783c10dca6f4e60853518ce77aa1757d",
       "3d9b0b4faee90acabe016e70ded3488fb5855ebaf13ac1d54aec6893506e17be",
       "2b7a6859bd6a302dce39c8ead96c04a32094cd2a0598f4b783dc07f7c4326444",
-      "3cfc2fe755cdab5c69f4cbf44ea3aa25a40a5b0da7b7dfcf8af996d313be786b"
+      "8f28f269f006cebab0bc5654b396ac74359fa9ba67f6e534eb1c125a69bf988a",
+      "3ef63bf365e0c397b1148a59702bb7a9557ffb3344550e86ece4f0323d50058f"
     ]
   },
   {
@@ -241,9 +243,9 @@
     "timeframe": "30d",
     "score": 93,
     "status": "breakout",
-    "articleCount": 476,
-    "previousArticleCount": 81,
-    "growthRate": 488,
+    "articleCount": 481,
+    "previousArticleCount": 79,
+    "growthRate": 509,
     "distinctSourceCount": 42,
     "leadingSourceIds": [
       "techcrunch",
@@ -268,16 +270,16 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "7d",
-    "score": 82,
+    "score": 81,
     "status": "breakout",
-    "articleCount": 202,
-    "previousArticleCount": 163,
-    "growthRate": 24,
-    "distinctSourceCount": 28,
+    "articleCount": 200,
+    "previousArticleCount": 165,
+    "growthRate": 21,
+    "distinctSourceCount": 27,
     "leadingSourceIds": [
       "techcrunch",
       "theregister",
-      "thehackernews"
+      "venturebeat"
     ],
     "relatedArticleIds": [
       "45779382730661a1a4b8ae8f3ec686b1454747873fa184445755d5bccbcc2ce8",
@@ -631,14 +633,18 @@
     "label": "Generative AI",
     "keywordId": "generative-ai",
     "timeframe": "24h",
-    "score": 0,
+    "score": 28,
     "status": "stable",
-    "articleCount": 0,
+    "articleCount": 1,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
+    "distinctSourceCount": 1,
+    "leadingSourceIds": [
+      "theregister"
+    ],
+    "relatedArticleIds": [
+      "3ef63bf365e0c397b1148a59702bb7a9557ffb3344550e86ece4f0323d50058f"
+    ]
   },
   {
     "id": "generative-ai-30d",
@@ -647,10 +653,10 @@
     "timeframe": "30d",
     "score": 59,
     "status": "rising",
-    "articleCount": 14,
+    "articleCount": 15,
     "previousArticleCount": 2,
-    "growthRate": 600,
-    "distinctSourceCount": 7,
+    "growthRate": 650,
+    "distinctSourceCount": 8,
     "leadingSourceIds": [
       "redhat-blog",
       "venturebeat",
@@ -674,12 +680,12 @@
     "label": "Generative AI",
     "keywordId": "generative-ai",
     "timeframe": "7d",
-    "score": 27,
+    "score": 36,
     "status": "stable",
-    "articleCount": 3,
-    "previousArticleCount": 8,
-    "growthRate": -62,
-    "distinctSourceCount": 3,
+    "articleCount": 4,
+    "previousArticleCount": 6,
+    "growthRate": -33,
+    "distinctSourceCount": 4,
     "leadingSourceIds": [
       "google-cloud-blog",
       "venturebeat",
@@ -688,6 +694,7 @@
     "relatedArticleIds": [
       "8af04d92267244730d939e4ae3d3dc58160709e5a2a1c8c504c733c2af98f9fd",
       "9a55681da0a3cb53124f2f23404d60648d07851629aeb0f619a7a9cfe4d53384",
+      "3ef63bf365e0c397b1148a59702bb7a9557ffb3344550e86ece4f0323d50058f",
       "5591308255047f014feb6215bca4e8a87013956e57ba338861061aa04071f336"
     ]
   },
