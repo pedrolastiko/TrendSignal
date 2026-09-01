@@ -2541,7 +2541,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "1588736375353a8301b5fcc31195f4e94f131b732ea747ba693d9d81d183b46d",
@@ -3153,7 +3153,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "192c69a79f8dd0983709ed7dc6ad7da573a0d9e07ba8e643dcd8e25bcb4d34fd",
@@ -3336,7 +3336,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "1a7e03f50e9a59d13de3f4ed14c92d980efaf3d14abb5b03e50a40ecb3176531",
@@ -4769,7 +4769,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 10
   },
   {
     "id": "26c52789df0be9e6ea0ae81b8e74922c7363fcc2e6b4b2704372755bb15b953b",
@@ -4811,7 +4811,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 18
+    "relevanceScore": 15
   },
   {
     "id": "274019da349a4ce5be24e66159852acf6dcc00b4454d730d2764fa1b2ff13358",
@@ -6611,18 +6611,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/java-news-roundup-aug24-2026/en/headerimage/java-news-roundup-image-1788175476923.jpg",
     "language": "en",
     "tags": [
-      "Azul Payara",
-      "Open Liberty",
-      "JDK 28",
-      "GraalVM",
       "Glassfish",
-      "Atmosphere",
       "JBoss WildFly",
-      "Eclipse JNoSQL",
-      "Java",
-      "Quarkus",
+      "Open Liberty",
+      "GraalVM",
+      "Azul Payara",
       "JDK 27",
-      "Open JDK"
+      "Open JDK",
+      "Jakarta EE",
+      "Atmosphere",
+      "Quarkus",
+      "Java",
+      "JDK 28"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -7661,8 +7661,8 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "JavaFX",
       "Java",
+      "JavaFX",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -7936,27 +7936,23 @@
   },
   {
     "id": "4040751eb7bb369ef2675c8a0969dc76413ff12cb3a854bd9c83828c93592919",
-    "title": "The widening divide between cyber threats and cyber defenses",
+    "title": "The patch window is collapsing: Why security needs a new control plane",
     "url": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
     "canonicalUrl": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane",
-    "sourceId": "microsoft-blog",
-    "sourceName": "Microsoft Source",
+    "sourceId": "microsoft-security-blog",
+    "sourceName": "Microsoft Security Blog",
     "company": "Microsoft",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-08-25T23:52:00.000Z",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-08-25T16:00:00.000Z",
     "discoveredAt": "2026-08-25T18:59:24.078Z",
-    "summary": "The post The widening divide between cyber threats and cyber defenses appeared first on Source.",
+    "summary": "Organizations need protection that operates in the gap between discovery and remediation. The post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog.",
     "language": "en",
     "tags": [
-      "AI",
-      "Security"
+      "Azure"
     ],
     "matchedKeywordIds": [],
-    "tagMatchedIds": [
-      "artificial-intelligence",
-      "cybersecurity"
-    ],
-    "relevanceScore": 12
+    "tagMatchedIds": [],
+    "relevanceScore": 9
   },
   {
     "id": "4067feb894601fe0d8542f71cb5016f96e9ed3f23dafd0c3c7e23acd2c9bed5f",
@@ -8147,7 +8143,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "41850b0deaa2721c28cf98877ea6a8396886477f723b14ee0e1afdadcb0ebc52",
@@ -9177,7 +9173,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "4adc7e9d4221394a83f600e3e552b25c0bbb6ebf7cd0b0751de0e0a1be00db5d",
@@ -12568,7 +12564,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "655861f4947a910edfd683fe1e9c99e07eb94390f42a98880ecd96960d07755f",
@@ -13111,18 +13107,18 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "AI Security",
+      "AI Coding",
+      "VM",
+      "Software Engineering",
+      "Agents",
+      "Code Reviews",
       "AI Development",
-      "AIOps",
-      "Continuous Improvement",
+      "AI Security",
+      "AI Harness",
       "Continuous Deployment",
       "Infrastructure",
-      "Agents",
-      "AI Architecture",
-      "Code Reviews",
       "Cloud",
-      "Developer Experience",
-      "VM"
+      "Continuous Improvement"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -13662,7 +13658,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "6e842a145f0b9debaf23c107adfbaa5332601c924d2b61fdc354ae427fadd1e6",
@@ -13727,7 +13723,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "6f25fc03150f33ee64bb009834d06260219cdef5bd719f46a6f159ce8cafc616",
@@ -14693,18 +14689,18 @@
     "imageUrl": "https://res.infoq.com/presentations/local-ai-browser-inference-privacy/en/mediumimage/james-hall-medium-1787813225372.jpeg",
     "language": "en",
     "tags": [
-      "AI Security",
-      "Cloud Computing",
-      "GPU",
-      "Web Browser",
       "QCon London 2026",
       "Privacy",
+      "Web Browser",
       "Edge Computing",
-      "Machine Learning",
+      "GPU",
+      "AI Security",
+      "Cloud Computing",
       "Web Development",
-      "Local Inference",
       "Transcripts",
-      "AI"
+      "Local Inference",
+      "Machine Learning",
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -14950,15 +14946,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/foundry-model-router-regions/en/headerimage/generatedHeaderImage-1787836928169.jpg",
     "language": "en",
     "tags": [
-      "AI Architecture",
-      "Governance",
       "Generative AI",
+      "Azure",
       "Cloud",
       "Cost Optimization",
-      "Azure",
+      "Governance",
+      "AI Architecture",
       "Microsoft",
       "Microsoft Azure",
-      "DevOps",
+      "Development",
       "AI",
       "ML & Data Engineering",
       "Architecture & Design"
@@ -14966,7 +14962,6 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "artificial-intelligence",
-      "devsecops",
       "generative-ai"
     ],
     "relevanceScore": 11
@@ -16960,7 +16955,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8b0cc449b56f019fb65a2f0c30aee00fabf57e72faf48f4575a9806bd9060203",
@@ -17385,7 +17380,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 56
+    "relevanceScore": 53
   },
   {
     "id": "8eafd6836cc4c61298187dda938ee9bc2764e154cd9156a790f54da3ecd69d05",
@@ -17619,7 +17614,7 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 43
+    "relevanceScore": 41
   },
   {
     "id": "91178bcc3ff94995aab403d3aa1d0c1b13bd4e7a0ea024b7a85a7723e68f5a20",
@@ -17640,7 +17635,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "913a9ecb254eed171b37e387f27f6c0e7d85bfebc1daa5744be63d8581022538",
@@ -18429,7 +18424,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "9790e0d15b6051cd5d03f14814ce72b6025261827c84dd5f147c30bfa2275fce",
@@ -18775,7 +18770,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 53
+    "relevanceScore": 51
   },
   {
     "id": "9a769d6af3a35840948f8476d0d3bc8cf030292fd6baecac96e00f8edef7c298",
@@ -19243,13 +19238,13 @@
     "imageUrl": "https://res.infoq.com/articles/gcp-wif-scale/en/headerimage/gcp-wif-scale-header-1787838950646.jpg",
     "language": "en",
     "tags": [
-      "Google Cloud",
-      "Cloud",
       "Cloud Security",
+      "Cloud",
+      "Google Cloud",
       "DevSecOps",
       "Authentication",
-      "DevOps",
       "Architecture & Design",
+      "DevOps",
       "article"
     ],
     "matchedKeywordIds": [],
@@ -19463,7 +19458,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "9e0629dfcffe801512ad20b39417fa8b2eaf96a7765af507a2192bdfcf8c74f1",
@@ -19514,7 +19509,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 8
+    "relevanceScore": 6
   },
   {
     "id": "9eb33e39825bdf21324c9bbf8c554f5b45944fa7723245c12aada7601f43857e",
@@ -20107,7 +20102,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "a306ae3a48584322c7d990bd6266c180d356bedc4293bd52d63a0bafbda39dfa",
@@ -20220,7 +20215,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "a38b81289bbf6e1830309c7979d8e1ec5135534a9be43650cf9c244d75ed7866",
@@ -20564,7 +20559,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "a71c814100b25436ca2eab1dfdbe64a978eb7ec1518e2831758664e46bec62d1",
@@ -20798,15 +20793,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/workers-inbound-tcp-grpc/en/headerimage/generatedHeaderImage-1787654507205.jpg",
     "language": "en",
     "tags": [
-      "Cloudflare",
-      "Cloud",
-      "Serverless",
       "Protocol",
       "Architecture",
       "Edge Computing",
-      "DevOps",
+      "Cloudflare",
+      "Cloud",
+      "Serverless",
+      "Development",
       "Architecture & Design",
-      "Development"
+      "DevOps"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -21103,24 +21098,23 @@
     "imageUrl": "https://res.infoq.com/podcasts/evolving-desktop-agentic-ux/en/smallimage/infoq-podcast-500-1787734073812.jpg",
     "language": "en",
     "tags": [
-      "Desktop",
+      "Privacy",
+      "UX",
+      "Large language models",
       "Artificial Intelligence",
       "Local First",
-      "Operating Systems",
-      "UX",
       "The InfoQ Podcast",
-      "Large language models",
+      "Desktop",
       "Design",
-      "Privacy",
-      "DevOps",
+      "Operating Systems",
       "AI",
-      "ML & Data Engineering"
+      "ML & Data Engineering",
+      "Development"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "artificial-intelligence",
       "data-protection-privacy",
-      "devsecops",
       "generative-ai"
     ],
     "relevanceScore": 11
@@ -22046,7 +22040,7 @@
     "publishedAt": "2026-08-31T21:08:46.000Z",
     "discoveredAt": "2026-08-31T22:53:32.380Z",
     "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
-    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte57f544bc451abd9/6a95e1e44e3e37aa8ed4fed0/claude_Thaspol_Sangsee_shutterstock.jpg?width=720&quality=80&disable=upscale",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9f9e09d2a1c53673/6a97083643fb84d5c0cc2cc1/claude_Thaspol_Sangsee_shutterstock_REVISED_FOR_16_X_9_RATIO.jpg?width=720&quality=80&disable=upscale",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [],
@@ -22674,7 +22668,8 @@
     "language": "en",
     "tags": [
       "Podcasts & Videos",
-      "Capital for growth"
+      "Capital for growth",
+      "Europe on the move"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -22782,18 +22777,18 @@
     "imageUrl": "https://res.infoq.com/presentations/enterprise-data-architecture-ai-agents/en/mediumimage/fabiane-nardon-medium-1787218382028.jpeg",
     "language": "en",
     "tags": [
-      "Agents",
-      "QCon AI Boston 2026",
-      "AI Architecture",
-      "AI Security",
-      "Model Context Protocol (MCP)",
-      "Agentic AI Architecture",
+      "Data Mesh",
       "AI Cost Optimisation",
       "Semantic Web",
       "Large language models",
-      "Data Mesh",
+      "Agents",
+      "QCon AI Boston 2026",
+      "AI Architecture",
+      "Model Context Protocol (MCP)",
+      "AI Security",
+      "Agentic AI Architecture",
       "Transcripts",
-      "AI"
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -22801,7 +22796,6 @@
     "tagMatchedIds": [
       "agentic-ai",
       "ai-security",
-      "artificial-intelligence",
       "generative-ai"
     ],
     "relevanceScore": 40
@@ -23238,7 +23232,7 @@
       "threat-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 35
+    "relevanceScore": 29
   },
   {
     "id": "be1b8ee07edc30c397604d9189f192e5d19679894de49d63f6756e46b506bed4",
@@ -24350,6 +24344,26 @@
     "relevanceScore": 41
   },
   {
+    "id": "c4577add0e7c475211e0b03e8dde70dafae811b50eb6c217b12a90628adeb76e",
+    "title": "House passes historic reforms to rein in secret surveillance",
+    "url": "https://blogs.microsoft.com/on-the-issues/2026/08/31/house-passes-historic-reforms-to-rein-in-secret-surveillance/",
+    "canonicalUrl": "https://blogs.microsoft.com/on-the-issues/2026/08/31/house-passes-historic-reforms-to-rein-in-secret-surveillance",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-08-31T16:41:10.000Z",
+    "discoveredAt": "2026-09-01T21:04:18.574Z",
+    "summary": "The post House passes historic reforms to rein in secret surveillance appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "On the issues"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "c46a225054d84ab945e36a31a572829a8201cf515c78fb8d13e39f80722a7454",
     "title": "Salesforce Named a Leader in IDC MarketScape: Worldwide Software Platforms for  National Civilian Government AI-Enabled Case Management",
     "url": "https://www.salesforce.com/news/stories/idc-marketscape-vendor-assessment-2026-announcement/",
@@ -25446,7 +25460,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "cb93cc9383f3dd5fb5037960986c97c80ee87db1ea1ce117ee1b52d728c5150e",
@@ -25488,7 +25502,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "ccd0a6c910b9e7a2acfe30e51dc9ae10e7f99d589155a06066bf93b5a365e796",
@@ -25590,15 +25604,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/cloudflare-ai-search/en/headerimage/cloudflare-ai-search-1788105575745.jpeg",
     "language": "en",
     "tags": [
-      "Agents",
       "Search Engine",
       "Cloudflare",
-      "Large language models",
       "Cloud",
+      "Large language models",
+      "Agents",
+      "Development",
       "AI",
       "ML & Data Engineering",
-      "Architecture & Design",
-      "Development"
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -26269,11 +26283,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/08/kiro-crew-coding-agents/en/headerimage/generatedHeaderImage-1786904775247.jpg",
     "language": "en",
     "tags": [
-      "Agents",
-      "AI Development",
-      "AI Assisted Coding",
       "AWS",
       "AI Coding",
+      "AI Assisted Coding",
+      "Agents",
+      "AI Development",
       "AI",
       "ML & Data Engineering",
       "Development"
@@ -26721,7 +26735,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "d7ba684bb09c21bf0d7a6e3abf64967a64b5332118b2303ef3317c1acfb967ad",
@@ -28281,7 +28295,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "e2504fe6a21d4a91f14bb2c73f762f3e1c420a194d45ff5021fea0f9a62ec099",
@@ -30072,7 +30086,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 31
+    "relevanceScore": 28
   },
   {
     "id": "f1ae4283a0a763e97d550f0d58a9e07c7c2580cc42489b3420b5a69fc6ba428c",
