@@ -118,7 +118,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "06a9b16186b5ec6c460bb5a968e24db9f2b8f425942081f2eb40a6215c206da0",
@@ -362,7 +362,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "16387c3bb1ca6eea83bf00f41523850daa608eda126f45b318799fbf1a2ae1c2",
@@ -385,6 +385,45 @@
       "cybersecurity"
     ],
     "relevanceScore": 16
+  },
+  {
+    "id": "177ed668e3ff3aad5a347cd40e10c48ef4066526433a952bcd7a63ff6a0c4b46",
+    "title": "Presentation: Beyond Prompting: Context Engineering for Production-Grade AI",
+    "url": "https://www.infoq.com/presentations/context-engineering-redis-llm-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/presentations/context-engineering-redis-llm-architecture",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T11:00:00.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Ricardo Ferreira discusses moving beyond simple prompt engineering to build production-grade AI applications. He shares practical architectural strategies for integrating long-term and short-term memory using Redis, managing LLM token limits via summarization, mitigating context rot with reranking and semantic…",
+    "imageUrl": "https://res.infoq.com/presentations/context-engineering-redis-llm-architecture/en/mediumimage/ricardo-ferreira-medium-1787820318843.jpg",
+    "language": "en",
+    "tags": [
+      "Caching",
+      "Large language models",
+      "Architecture",
+      "Generative AI",
+      "Retrieval-Augmented Generation",
+      "QCon AI Boston 2026",
+      "LangChain4j",
+      "Redis",
+      "Transcripts",
+      "Agents",
+      "AI",
+      "ML & Data Engineering"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 56
   },
   {
     "id": "17bbbbf94d7426c8527b7c919ea67e2c34355845eb8b514946a8fe733baba158",
@@ -430,7 +469,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "194d8e0bd9e68b1588a37a4f7de60b57ffecab1d58217e30ace6e577f038af10",
@@ -631,7 +670,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "1e9fa08c30d31baa49e1fd14f22283f154dbb3ab61f83e54629f6c3f8607eb15",
@@ -652,7 +691,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "20f2f9e2f38a7a695e67c025de8d9b99e39b021d6b62ec039a046c67f5c23f30",
@@ -701,6 +740,27 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38
+  },
+  {
+    "id": "2b643aa21aec3022aa0c7b3d6e707c372d57b64d928a1f6e80767c8ad1adf305",
+    "title": "Arm in the enterprise is at least three years away, says Broadcom software boss",
+    "url": "https://www.theregister.com/virtualization/2026/09/02/arm-in-the-enterprise-is-at-least-three-years-away-says-broadcom-software-boss/5293804",
+    "canonicalUrl": "https://www.theregister.com/virtualization/2026/09/02/arm-in-the-enterprise-is-at-least-three-years-away-says-broadcom-software-boss/5293804",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T06:11:00.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "And RISC-V is absolutely nowhere",
+    "imageUrl": "https://image.theregister.com/?imageId=228743&width=800",
+    "language": "en",
+    "tags": [
+      "virtualization"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "2d2ba1572e7b24962c8708131c22ba4316d7df3079631d421fb4859c4ffc5559",
@@ -904,12 +964,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/infoq-online-cohorts-sept-2026/en/headerimage/InfoQ-news-cohorts-1788263191137.jpg",
     "language": "en",
     "tags": [
-      "Architecture ICSAET",
-      "InfoQ Certification Program",
-      "Engineering Leadership Certification",
+      "AI-Assisted Engineering Certification",
       "AI Engineering Certification",
       "AI Security & Privacy Engineering Certification",
-      "AI-Assisted Engineering Certification",
+      "Engineering Leadership Certification",
+      "Architecture ICSAET",
+      "InfoQ Certification Program",
       "AI",
       "ML & Data Engineering",
       "Culture & Methods"
@@ -919,6 +979,65 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 14
+  },
+  {
+    "id": "3c6bd3d6ef9f1c027eb95d6a375e7dc3e5f7aa01144e3b8ffd94c835223a1e91",
+    "title": "Cloudflare Adds Optional OAuth Scopes, Letting Developers Mark What Users May Decline",
+    "url": "https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T09:07:00.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Cloudflare has added optional OAuth scopes, letting client owners mark which permissions users may deselect at consent. The company names MCP servers as the motivating case, since agents request the union of everything they might do. Partial consent exists elsewhere, but developer control over which scopes are…",
+    "imageUrl": "https://res.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/en/headerimage/generatedHeaderImage-1787915759251.jpg",
+    "language": "en",
+    "tags": [
+      "Cloudflare",
+      "Access Control",
+      "Architecture",
+      "Cloud",
+      "Security",
+      "Standardization",
+      "Agents",
+      "AI",
+      "ML & Data Engineering",
+      "DevOps",
+      "Development",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "cybersecurity",
+      "devsecops"
+    ],
+    "relevanceScore": 14
+  },
+  {
+    "id": "3ce23c1a0169d87ebb54e084eef727091c5ba86413535037552fb98e179602b0",
+    "title": "Sality botnet infrastructure dismantled in joint global takedown",
+    "url": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T08:00:43.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "3fe53f1b53c1f9f50ac0b4dd854cfccd64857946970d75297e5ada5d151794c4",
@@ -951,7 +1070,39 @@
       "artificial-intelligence",
       "cybersecurity"
     ],
-    "relevanceScore": 63
+    "relevanceScore": 60
+  },
+  {
+    "id": "423c64d7787b122555669dc1ee7384332a90f7eb419c3b96f057bc9fd5e3d71f",
+    "title": "Scaling agentic AI for autonomy",
+    "url": "https://www.capgemini.com/insights/expert-perspectives/scaling-agentic-ai-for-autonomy/",
+    "canonicalUrl": "https://www.capgemini.com/insights/expert-perspectives/scaling-agentic-ai-for-autonomy",
+    "sourceId": "capgemini-blog",
+    "sourceName": "Capgemini Blog",
+    "company": "Capgemini",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-09-02T04:57:37.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Enterprises are moving from task automation to autonomous AI agents that deliver measurable business value through secure governance, human oversight, and scalable innovation. The post Scaling agentic AI for autonomy appeared first on Capgemini.",
+    "language": "en",
+    "tags": [
+      "Agentic AI",
+      "AI",
+      "AI Agents",
+      "Artificial intelligence",
+      "automation",
+      "Enterprise",
+      "Process automation"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 74
   },
   {
     "id": "4344cfef181be05e194b0e75a9f16928f034d07a3e6a3afe059bf598c6bda44b",
@@ -975,6 +1126,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 16
+  },
+  {
+    "id": "4497136c72dc19d3314061506b1dc335009cc17c1f77fa5c18cbeea32d72a61f",
+    "title": "UK digital ID may be dead, but its legacy IT problem lives on",
+    "url": "https://www.theregister.com/public-sector/2026/09/02/uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on/5293677",
+    "canonicalUrl": "https://www.theregister.com/public-sector/2026/09/02/uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on/5293677",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T09:03:00.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Spending watchdog says fragmented data and inconsistent standards would constrain any future attempt",
+    "imageUrl": "https://image.theregister.com/?imageId=150224&width=800",
+    "language": "en",
+    "tags": [
+      "public sector"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "44eda28a997ed07706322a142ca300089f14a1c9280065bdd6530f5fe8e109e8",
@@ -1012,7 +1184,7 @@
     "publishedAt": "2026-09-01T16:06:00.000Z",
     "discoveredAt": "2026-09-01T21:04:18.574Z",
     "summary": "Big Red talks up superhuman coders after shedding 21,000 staff",
-    "imageUrl": "https://image.theregister.com/?imageId=255456&width=800",
+    "imageUrl": "https://image.theregister.com/?imageId=2607118&width=800",
     "language": "en",
     "tags": [
       "ai and ml"
@@ -1142,6 +1314,30 @@
     "relevanceScore": 16
   },
   {
+    "id": "5932f06118d51b842aea40fd93feac319b2611b5f6c39997e67ade95397fff31",
+    "title": "Microsoft Defender flags legitimate Google search links as malicious",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T10:29:39.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
+    "language": "en",
+    "tags": [
+      "Security",
+      "Google",
+      "Microsoft"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "59aaada7aeb37f5c4b96111594de2798a6947e4c49c4dd3dd42f97bd5f089e4b",
     "title": "Our sustainable IT journey towards net zero",
     "url": "https://www.capgemini.com/insights/expert-perspectives/our-sustainable-it-journey-towards-net-zero/",
@@ -1157,7 +1353,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "5b862f142a978c2bc9c231db7d1f619233dff725581d1c3773bd83cc6b98aeb0",
@@ -1179,7 +1375,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 58
+    "relevanceScore": 55
   },
   {
     "id": "5c378dfb946f722e518262826ff2b4b4bd0ac18a542d7961a9955ec53c3d9c18",
@@ -1245,6 +1441,28 @@
     "relevanceScore": 16
   },
   {
+    "id": "5e466f54e06ba989e816f8897364a84a789daf19778ccdc6c0fc5c8a186901c2",
+    "title": "US charges Russian for infecting 80,000 freelancers with malware",
+    "url": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T09:06:48.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "61d4657c96c8fdfbafc61d97d8ca58df3775aba4a1165e56e99e41c7817f0f85",
     "title": "HCP Terraform Positions Itself as the Control Plane for AI-Driven Infrastructure",
     "url": "https://www.infoq.com/news/2026/09/hcp-terraform-ai-driven-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1259,10 +1477,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/hcp-terraform-ai-driven-control/en/headerimage/generatedHeaderImage-1787561761498.jpg",
     "language": "en",
     "tags": [
-      "Terraform",
       "Artificial Intelligence",
       "AI Architecture",
       "AI Development",
+      "Terraform",
       "AI",
       "ML & Data Engineering",
       "DevOps"
@@ -1341,7 +1559,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "6603960865f5a3fd34064d24ecbbd04d5d3185e04d4543e3773916e8db3f78a4",
@@ -1385,6 +1603,26 @@
     "relevanceScore": 16
   },
   {
+    "id": "6ac881552503cea56f802a3e6141caa4c176e126f7fd5a678fad4283d7857fbf",
+    "title": "Peer Pressure: Inside the Sality Botnet Disruption Operation",
+    "url": "https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/",
+    "canonicalUrl": "https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation",
+    "sourceId": "crowdstrike-blog",
+    "sourceName": "CrowdStrike Blog",
+    "company": "CrowdStrike",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "",
+    "language": "en",
+    "tags": [
+      "Threat Hunting & Intel"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 14
+  },
+  {
     "id": "6d0b9fa3d7399ffb9fb4d22c215998ec8e833ff72ed48cd7bd4d975ddb58ee2b",
     "title": "Tape still isn’t dead, but shipments slipped by 16 exabytes in 2025",
     "url": "https://www.theregister.com/storage/2026/09/02/tape-still-isnt-dead-but-shipments-slipped-by-16-exabytes-in-2025/5293813",
@@ -1425,6 +1663,25 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 15
+  },
+  {
+    "id": "71a0dd93eefe3ff23edf07e21b689229b7ca1e5f15b4557d5567b3f29f68b806",
+    "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+    "url": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T09:18:02.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals. The project shipped fixes in versions 4.4.12 and 4.2.17 on July 8, 2026, and published the vulnerability…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWjRcj8Bn8kWovv1-oDjSP61hMxx5U8u28qVJSPdP7mRBCNbs5EJjjDrWWk7SFC2FraZe_j3T-oouRqSRtoTr-YMPGGuOphIGNRj4-Fx0eVgMahD3-L62vWUxYLg7TpH7plqVqnAb1e3k0-G8Vertd-WUyt994d-nJKA8bcY9QozeWJ6ad4ozwVOf0fnE/s1600/geone.gif",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "733c36767b10aa780d58b7c473de6b0b6d51d0e7a2d95e382210282bf61dc8a9",
@@ -1488,7 +1745,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "7b091cc63bf86a399f7ba8054544c530277da89a5272945635dcd6837ad54873",
@@ -1627,6 +1884,44 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
+    "relevanceScore": 13
+  },
+  {
+    "id": "8071e541fd79f3e371c05b831ac68f2c723d387e5cf5a1de02ca6dc76856301c",
+    "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T10:53:49.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks. The vulnerabilities, discovered internally by SonicWall's William Perry and Adam Babis, are listed below - CVE-2026-83548 (CVSS score:…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHkRZMEpG9dgsbvSzYfaPZC5u0gmzUw-5NHDTcsQ-MQtxr6pqNrngG2LsyMJ0KKxA364L3Lq4xhGAxCTRQ3C8szlo9aLJeWXw37C6hsAD5YbYCJF8KuQyuWMIPNCNDXX8-1HN76xxYhxffeenDDyWobOpA4AXC76hFcdh1vnqpjI_pLF2YuxiAwu87cHwC/s1600/sonicwall.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
+    "id": "81c96cc8da0f6b72bc0783ed1257950c8a27d688bf5733279a35e7050273c1ee",
+    "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
+    "url": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T06:56:30.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation. The effort was undertaken on August 31, 2026, by authorities from the U.S., Bulgaria, Hungary, and Romania, in collaboration with…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDpXbKu79XC2ObZuqgBEMG9E1VR-SyLdDwhylzbIupomfXEbDe_gUT29NNntDVz9NtiGLhnHJdrq1GyC5RbPHozyzmCVov6JJIg2sCiCb5Jp8SHEInYNR5PRE06TrBh4Oqy8WT7GbTtGOZisMrKuCWaUWn5vaJkbHPmhTEb7O0voiiBDdYHcxc02YhLBb1/s1600/botnet-malware.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 16
   },
   {
@@ -1669,12 +1964,12 @@
     "language": "en",
     "tags": [
       "Claude",
+      "OpenAI",
+      "Large language models",
+      "Artificial Intelligence",
       "ChatGPT",
       "Anthropic",
-      "Large language models",
       "Agents",
-      "Artificial Intelligence",
-      "OpenAI",
       "AI",
       "ML & Data Engineering"
     ],
@@ -1844,6 +2139,25 @@
     "relevanceScore": 16
   },
   {
+    "id": "9b6ec5da131924153511697a8fe2db2da335e3c49358e4df59c3249732c1a279",
+    "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T07:08:50.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution. The vulnerability in question is CVE-2026-9586 (CVSS score: 9.3), a critical unauthenticated SQL injection vulnerability in Sangoma Switchvox SMB…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb9lLZ-CHEFECU3vn2ObupuzweLn7l23dnUcs2Qd1H5hsxut3nQKqe6W3lbh_cSyVF4PDgdfuSauhpeMKmW6wZGYW3kpVdhTfWhfpISTtfRzw25VOSvJNR8dnh_WWKwyZ0VnWe8nndwwfnWN-gPSdqmLBhJW2vkqjCkfMo8Eo-sucoSIr6JMT-7HxHnsCw/s1600/admin.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "9d1d25eb12ecc8ff09e1cffad8d8235cf823abd0a0c0d5a74b785c6b39361afb",
     "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
     "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
@@ -1860,7 +2174,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "9e2bb55a25f845b8f699fb3353b9d14a2f1a7b899f84e0d6ce8d706e98247bcb",
@@ -2071,6 +2385,27 @@
     "relevanceScore": 17
   },
   {
+    "id": "ac14756ca782242327e825b06bd9ee3c43a00846a28375a1fa0666ae9f100e15",
+    "title": "Northern Ireland adds £15M to Fujitsu education deal without competition",
+    "url": "https://www.theregister.com/public-sector/2026/09/02/northern-ireland-adds-15m-to-fujitsu-education-deal-without-competition/5293648",
+    "canonicalUrl": "https://www.theregister.com/public-sector/2026/09/02/northern-ireland-adds-15m-to-fujitsu-education-deal-without-competition/5293648",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T10:17:00.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Japanese supplier remains in place despite scrutiny over its Horizon role",
+    "imageUrl": "https://image.theregister.com/?imageId=227651&width=800",
+    "language": "en",
+    "tags": [
+      "public sector"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "ad90e6779ea3045b3b9ff330e4c9d1c6cd82a44459fb7cba10b171e8ac596ec8",
     "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
     "url": "https://huggingface.co/blog/allenai/benchmirt",
@@ -2134,6 +2469,31 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 50
+  },
+  {
+    "id": "b1ce0be83d0e6c5eb6cf149e6b7ee36dd05b7d9a542bad9ab820474fa16e407f",
+    "title": "UK goes shopping for homegrown AI with £100M procurement scheme",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/02/uk-goes-shopping-for-homegrown-ai-with-100m-procurement-scheme/5293680",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/09/02/uk-goes-shopping-for-homegrown-ai-with-100m-procurement-scheme/5293680",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T10:51:00.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Startups invited to tackle NHS, defense, compute, and agent security challenges while Whitehall's own adoption remains patchy",
+    "imageUrl": "https://image.theregister.com/?imageId=232880&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 37
   },
   {
     "id": "b2115860adde15fcd9c93cfc0a91a6d3829f54e31d29f1052562c34c64582b05",
@@ -2202,7 +2562,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "b5df426afab2071076af1a84f375baa04035f6913e414ab7b920dd8e784169e4",
@@ -2269,7 +2629,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "c0364833b41073ca7c0ea92e6ee2f69465ad17ef62fa3529c77a9a8d4c268e7b",
@@ -2351,7 +2711,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "ca8d88c6b9b553a717f13d3ab24a5a81c2d0f0e5a9e8ba0646f7e657f2885c4b",
@@ -2374,7 +2734,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "ccf0d64704834dd9841ccfdce3ba3eb2f8ab03c1d45e183d889df6707eed1567",
@@ -2564,6 +2924,28 @@
     "relevanceScore": 34
   },
   {
+    "id": "e552203fe1b3b01fa58ccb1ecaa464c803486025be31846393f400003ac78083",
+    "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T06:39:29.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "e58ba16a111f9793232d705b778a69b2b76edb469100fdf2eb33d73d930ea471",
     "title": "If space data centers feel far-fetched, why not interstellar travel?",
     "url": "https://techcrunch.com/2026/09/01/if-space-data-centers-feel-far-fetched-why-not-interstellar-travel/",
@@ -2659,6 +3041,25 @@
     "relevanceScore": 15
   },
   {
+    "id": "eb3bb052eba218a5d3c4065eed73703dfda708e15b3e163dbd71bc5ff2a8cfe6",
+    "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+    "url": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T09:10:23.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2016 and 2017. Searzhudin Tamirlanovich Aktulaev, 40, was arrested in Cyprus in…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjT6gZEQ09i7WPG39V2zwJLuC6M3N7mvjMQC0aVmtON24RfDshYfzqKyGKWXrTMC_bGPyNn43NPLWaufMe0MSlanyUCeZENy6XXmYCC8NzcHpCiK8rv-bpke7sKMpmfkWFVv6GB9WUO46KXMzNRlmCm8x_WYaNZelDk5BBrVCnUswpWJzA_IZMQj86wFI/s1600/russian-hacker.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "ebda4d5e548e54243bf3090c164c2e38c1a76f6e91e0e693bb052490e9d50082",
     "title": "AI is redefining the workforce — and most planning models aren’t ready",
     "url": "https://venturebeat.com/orchestration/ai-is-redefining-the-workforce-and-most-planning-models-arent-ready",
@@ -2679,6 +3080,31 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
+    "relevanceScore": 37
+  },
+  {
+    "id": "ec141b0bb9ee61ea5e56b492b7eb8c5fa67bcc76f247a84e428282f786e85b53",
+    "title": "UK cyber bill targets AI users, not the vendors building it",
+    "url": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738",
+    "canonicalUrl": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T09:44:00.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Ministers reject proposed red lines and emergency shutdown powers, pointing instead to voluntary safeguards",
+    "imageUrl": "https://image.theregister.com/?imageId=248400&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
     "relevanceScore": 37
   },
   {
@@ -2878,6 +3304,25 @@
       "Apps",
       "Media & Entertainment"
     ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
+    "id": "fd47abd976ef000e6b0d6e16c094e2fd55fe312338f74da66fc7394e180fb92f",
+    "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+    "url": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-02T07:47:13.000Z",
+    "discoveredAt": "2026-09-02T11:22:47.546Z",
+    "summary": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcode on live hardware. The exploit targets CVE-2021-31886, a stack-based buffer…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlWf4d2lnMsRXbG_XpDaQ8uxTM9SD8QBArFea3LdD93t2xnpO4Bw2K_iBewRfrscbj2Kfe6DSkFozbxWnHwMeR5p1cx2XksAyZD5_avLwxqx5L6tvTf_Z807niMu_uqzbslMMgMx8M1IVY9y20gbuDwbWAco96weFLycq2JCQMQ2hpcTnd2yanypqsj4k/s1600/claude.jpg",
+    "language": "en",
+    "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 16
