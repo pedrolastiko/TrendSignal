@@ -8,6 +8,14 @@ updates:
     groups:
       dev-dependencies:
         dependency-type: development
+    ignore:
+      # Major bumps (React, Vite, Tailwind, Zod, etc.) routinely carry breaking API/config
+      # changes that this app doesn't auto-migrate for — see the incident this config
+      # change was added after: several got grouped, merged with red CI, and broke
+      # `npm ci` for every workflow (a peer-dependency conflict) plus the Tailwind build.
+      # Minor/patch keep flowing automatically; majors need a human-reviewed, single-package PR.
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
   - package-ecosystem: github-actions
     directory: /
     schedule:
