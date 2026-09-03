@@ -58,18 +58,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/swiggy-pltv-multitask-mlp/en/headerimage/generatedHeaderImage-1787507980584.jpg",
     "language": "en",
     "tags": [
-      "Google",
-      "Customers & Requirements",
-      "Continuous Delivery",
-      "Acquisition",
-      "Neural Networks",
       "Machine Learning",
       "Online Learning",
-      "Software Engineering",
-      "Advertising",
       "Modeling",
-      "AI",
-      "ML & Data Engineering"
+      "Software Engineering",
+      "Customers & Requirements",
+      "Acquisition",
+      "Neural Networks",
+      "Advertising",
+      "Continuous Delivery",
+      "Google",
+      "Architecture & Design",
+      "Development"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -319,6 +319,31 @@
     "relevanceScore": 12
   },
   {
+    "id": "05973499acb2d0964439be093c4221c28535dd3570bda1ddd7001226ddb11661",
+    "title": "Check Point Brings OpenAI Daybreak Models Across Its Security Platform to Help Defenders Find, Validate, and Remediate Risk",
+    "url": "https://blog.checkpoint.com/ai-security/check-point-brings-openai-daybreak-models-across-its-security-platform-to-help-defenders-find-validate-and-remediate-risk/",
+    "canonicalUrl": "https://blog.checkpoint.com/ai-security/check-point-brings-openai-daybreak-models-across-its-security-platform-to-help-defenders-find-validate-and-remediate-risk",
+    "sourceId": "checkpoint-blog",
+    "sourceName": "Check Point Blog",
+    "company": "Check Point",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-09-03T21:00:10.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "Three months ago, Check Point and OpenAI began expanding our work together through Daybreak, OpenAI’s cyber defense initiative. Since then, we have taken the partnership further, bringing OpenAI’s frontier cyber models into Check Point products and security workflows through the Daybreak Defense Network. And last…",
+    "imageUrl": "https://blog.checkpoint.com/wp-content/uploads/2026/09/Blog-banner_Daybreak-Cyber-Partner-Program-Use-Cases-_800x400-1.png",
+    "language": "en",
+    "tags": [
+      "AI Security"
+    ],
+    "matchedKeywordIds": [
+      "cyber-defense"
+    ],
+    "tagMatchedIds": [
+      "ai-security"
+    ],
+    "relevanceScore": 31
+  },
+  {
     "id": "06a9b16186b5ec6c460bb5a968e24db9f2b8f425942081f2eb40a6215c206da0",
     "title": "Anthropic promises zero data retention – but customers must check it worked",
     "url": "https://www.theregister.com/ai-and-ml/2026/09/02/anthropic-promises-zero-data-retention-but-customers-must-check-it-worked/5293789",
@@ -362,7 +387,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "07543889f5bed9ee9cabcd502cb4d9def7b89140dfca49aa2d5f46080026fc91",
@@ -874,18 +899,18 @@
     "imageUrl": "https://res.infoq.com/presentations/context-engineering-redis-llm-architecture/en/mediumimage/ricardo-ferreira-medium-1787820318843.jpg",
     "language": "en",
     "tags": [
-      "Retrieval-Augmented Generation",
-      "Transcripts",
-      "Architecture",
-      "Redis",
-      "Caching",
-      "Generative AI",
+      "Agents",
       "QCon AI Boston 2026",
       "LangChain4j",
       "Large language models",
-      "Agents",
-      "AI",
-      "ML & Data Engineering"
+      "Redis",
+      "Generative AI",
+      "Caching",
+      "Transcripts",
+      "Retrieval-Augmented Generation",
+      "Architecture",
+      "Architecture & Design",
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence",
@@ -893,7 +918,6 @@
     ],
     "tagMatchedIds": [
       "agentic-ai",
-      "artificial-intelligence",
       "generative-ai"
     ],
     "relevanceScore": 53
@@ -1052,7 +1076,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "1af963e5ac78bdbc9a18559aa8419e7f4f9d442974644a27a5ee4e620685d167",
@@ -1156,7 +1180,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "1e03a98a6efbfe0ad892279ffea7ad436130e267ec4a3ee4409e8cf416d87580",
@@ -1177,7 +1201,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "1e1c8c628210fd3837dfcf5fd6df59d919b1c5be06e1a0a23a0ff4b48eaef898",
@@ -1267,6 +1291,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "1fe79cef03fb98b72fb3860e4f6173dacf35e64863ea1816bd52b5719202ed38",
+    "title": "What’s new with Google Data Cloud",
+    "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+    "canonicalUrl": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud",
+    "sourceId": "google-cloud-blog",
+    "sourceName": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-03T16:00:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "August 31 - September 4 Stateful processing is available in BigQuery continuous queries in Preview Stateful operations significantly expand what’s possible with BigQuery continuous queries. This feature allows users to leverage functions like JOINs, aggregations, and windowing functions directly in their streaming…",
+    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/original_images/whats_new_data_cloud_fWg4bKK.png",
+    "language": "en",
+    "tags": [
+      "Databases",
+      "Business Intelligence",
+      "Data Analytics"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
   },
   {
     "id": "20223056ba43276e77724733d622fd177377036860827edcec2b9bf34a779af4",
@@ -1707,9 +1754,9 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "OCR",
       "Machine Learning",
       "Large language models",
+      "OCR",
       "AI",
       "ML & Data Engineering"
     ],
@@ -1719,6 +1766,26 @@
       "generative-ai"
     ],
     "relevanceScore": 14
+  },
+  {
+    "id": "325e9dcd840a97e90ffb7c6d895af29ce36aa93bd90d00c36b3bf0be1def577e",
+    "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+    "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+    "canonicalUrl": "https://openai.com/index/playco-game-prototyping-with-astra",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+    "language": "en",
+    "tags": [
+      "Startup"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
   },
   {
     "id": "32c9b22dcb1156e9078091ea3231f1c0e2af12a63bdc8c08a50dd7f7e75b7f78",
@@ -1974,21 +2041,43 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/infoq-online-cohorts-sept-2026/en/headerimage/InfoQ-news-cohorts-1788263191137.jpg",
     "language": "en",
     "tags": [
+      "AI-Assisted Engineering Certification",
+      "AI Engineering Certification",
+      "AI Security & Privacy Engineering Certification",
+      "Engineering Leadership Certification",
       "InfoQ Certification Program",
       "Architecture ICSAET",
-      "Engineering Leadership Certification",
-      "AI Security & Privacy Engineering Certification",
-      "AI Engineering Certification",
-      "AI-Assisted Engineering Certification",
+      "Culture & Methods",
       "AI",
-      "ML & Data Engineering",
-      "Culture & Methods"
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
     "relevanceScore": 11
+  },
+  {
+    "id": "39210f987919e80e66f6bbb1aa542144273fd98d678c04dcbe26ae133654195a",
+    "title": "Safety overview: GPT-6 Astra",
+    "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+    "canonicalUrl": "https://openai.com/index/safety-overview-gpt-6-astra",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+    "language": "en",
+    "tags": [
+      "Safety"
+    ],
+    "matchedKeywordIds": [
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 35
   },
   {
     "id": "3a90b5a484afadf6acb4a817799ebcc10c48294b5584028d28c4eeba73d5b24e",
@@ -2143,18 +2232,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/en/headerimage/generatedHeaderImage-1787915759251.jpg",
     "language": "en",
     "tags": [
-      "Security",
-      "Architecture",
-      "Access Control",
+      "Standardization",
+      "Agents",
       "Cloud",
       "Cloudflare",
-      "Agents",
-      "Standardization",
-      "AI",
-      "ML & Data Engineering",
+      "Access Control",
+      "Security",
+      "Architecture",
       "Architecture & Design",
       "Development",
-      "DevOps"
+      "DevOps",
+      "AI",
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -2207,6 +2296,28 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "3f3e69d4bd74a63bab19507f3b58a4f073c023a5d56b7ada01ca88f1f3588a5f",
+    "title": "Coder's registry infrastructure compromised to push malicious modules",
+    "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-03T20:04:24.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "3fe53f1b53c1f9f50ac0b4dd854cfccd64857946970d75297e5ada5d151794c4",
@@ -2421,6 +2532,29 @@
     "relevanceScore": 12
   },
   {
+    "id": "45df2e1f3aab23f9fb2a62919e97891efdfa24d9b65e0882736bcf873c5dd2da",
+    "title": "Governance beyond security: knowledge, context & ontology on the lakehouse",
+    "url": "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse",
+    "canonicalUrl": "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-03T20:20:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "Ask most organizations what data governance for AI means, and you’ll hear a security...",
+    "language": "en",
+    "tags": [
+      "Industries",
+      "Healthcare & Life Sciences"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
     "id": "482f8f14d3dbcfcde465b3ac5368c2a56d923266a8a008a6c7ac78bdc028f3fd",
     "title": "Google named a Leader in 2026 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services",
     "url": "https://cloud.google.com/blog/products/compute/google-named-a-leader-in-2026-gartner-magic-quadrant-for-scps/",
@@ -2499,9 +2633,9 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/pnpm-12-rust/en/headerimage/generatedHeaderImage-1788366354148.jpg",
     "language": "en",
     "tags": [
-      "Web Development",
-      "JavaScript",
       "Rust",
+      "JavaScript",
+      "Web Development",
       "Node.js",
       "NPM",
       "Development"
@@ -2584,6 +2718,33 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 16
+  },
+  {
+    "id": "514ca5b6d5f16d7d930d7252d1aba64a2627c160a70b582145bc8de0bdfd6f99",
+    "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak Models",
+    "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+    "canonicalUrl": "https://blog.cloudflare.com/vulnerability-discovery-remediation",
+    "sourceId": "cloudflare-blog",
+    "sourceName": "Cloudflare Blog",
+    "company": "Cloudflare",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-03T21:03:02.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.",
+    "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M1JDYW2RHXMJDDXS13K6VESF.01M1JDYX370D7EV4BHCDQS4C6J.png",
+    "language": "en",
+    "tags": [
+      "Artificial Intelligence",
+      "Developers",
+      "Security",
+      "Workers"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "relevanceScore": 17
   },
   {
     "id": "5224e95332de7abac38fdcc95dd4386fb83f706d42f57032a385373b856c57c6",
@@ -2673,7 +2834,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "5367aa0c2c8cab90fe6ac9f158fbafc160fd3ec188695fe7d35a86875132e0f9",
@@ -2738,12 +2899,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/openai-gpt-live/en/headerimage/OpenAI-gpt-live-system-architecture-header-1788176199388.jpeg",
     "language": "en",
     "tags": [
-      "Streaming",
-      "OpenAI",
-      "ChatGPT",
       "Voice-enabled UI",
-      "RPC",
       "WebRTC",
+      "ChatGPT",
+      "OpenAI",
+      "RPC",
+      "Streaming",
       "Architecture & Design"
     ],
     "matchedKeywordIds": [],
@@ -2927,6 +3088,27 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
+    "relevanceScore": 13
+  },
+  {
+    "id": "5a171debcaa83b9fd5466834f7aab301b7332ae1e5d7c52c8fb2b49eadfb14ed",
+    "title": "Shapers and founders: The traits behind outsized value creation in Asia",
+    "url": "https://www.mckinsey.com/featured-insights/future-of-asia/future-of-asia-podcasts/shapers-and-founders-the-traits-behind-outsized-value-creation-in-asia",
+    "canonicalUrl": "https://www.mckinsey.com/featured-insights/future-of-asia/future-of-asia-podcasts/shapers-and-founders-the-traits-behind-outsized-value-creation-in-asia",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "A set of common traits underlies Asian founders’ success: Passion for their work, ongoing curiosity, boundless energy, and a strong belief in their people.",
+    "language": "en",
+    "tags": [
+      "Future of Asia Podcasts",
+      "Asia-Pacific"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 16
   },
   {
@@ -3106,7 +3288,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "61d4657c96c8fdfbafc61d97d8ca58df3775aba4a1165e56e99e41c7817f0f85",
@@ -3123,13 +3305,13 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/hcp-terraform-ai-driven-control/en/headerimage/generatedHeaderImage-1787561761498.jpg",
     "language": "en",
     "tags": [
-      "AI Architecture",
-      "Artificial Intelligence",
-      "AI Development",
       "Terraform",
+      "AI Development",
+      "Artificial Intelligence",
+      "AI Architecture",
+      "DevOps",
       "AI",
-      "ML & Data Engineering",
-      "DevOps"
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -3211,6 +3393,27 @@
     "relevanceScore": 15
   },
   {
+    "id": "6337a3e3bbbbebda83062c98ff436ae19ffb46dc98db9fe3d3bb4ff2076dc9e0",
+    "title": "The power of purpose, culture, and grit: An interview with JoAnne Bass",
+    "url": "https://www.mckinsey.com/industries/public-sector/our-insights/the-power-of-purpose-culture-and-grit-an-interview-with-joanne-bass",
+    "canonicalUrl": "https://www.mckinsey.com/industries/public-sector/our-insights/the-power-of-purpose-culture-and-grit-an-interview-with-joanne-bass",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "The Air Force’s former top enlisted leader reflects on the value of lifelong learning, writing your own playbook, and preparing the next generation to serve.",
+    "language": "en",
+    "tags": [
+      "Public Sector Insights",
+      "Public Sector"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "64a96eff8e2f07693e4c01915ea8784a7088924daf2d05f87814e6948faf9236",
     "title": "Lachy Groom backs Indian startup aiming to keep aircraft aloft for a year",
     "url": "https://techcrunch.com/2026/08/31/lachy-groom-backs-indian-startup-aiming-to-keep-aircraft-aloft-for-a-year/",
@@ -3274,6 +3477,27 @@
     "relevanceScore": 45
   },
   {
+    "id": "657cfe30a45cbf5e5ed5801b3e89c35d2ace3b84b6af0f80bf4e548526fb52a2",
+    "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
+    "url": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
+    "canonicalUrl": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-03T19:42:39.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the prevalence (or lack thereof) of AI-generated malware.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt04917d22b035a07c/6a99bfc6e564e71c991d4f19/vishing-FranRodriguez-Getty-1387702656.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
     "id": "65f9b5b3de0392c0c8c6fee76c457e4ecba5eea94d4879e40eb4fe51737bec0b",
     "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/",
@@ -3335,7 +3559,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "69bf74fefce5d8676e79a6fe46bf97a38967d29ad94df72ce6ed7d992d329c76",
@@ -3678,7 +3902,7 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "741371e388606569660baf343264379df5eac8e21bd425944f9c7900de80a97d",
@@ -4055,6 +4279,31 @@
     "relevanceScore": 13
   },
   {
+    "id": "820e6c854412602b2fb94550dae2da88cb82ca70c69567c14bfb59e26116fb8c",
+    "title": "The Cybercab is Tesla’s ‘fork in the road’ moment",
+    "url": "https://techcrunch.com/2026/09/03/the-cybercab-is-teslas-fork-in-the-road-moment/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/03/the-cybercab-is-teslas-fork-in-the-road-moment",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-03T19:42:48.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "The company is about to formally launch the gold two-seater, with no steering wheel or pedals -- a move that could change Tesla forever.",
+    "language": "en",
+    "tags": [
+      "Transportation",
+      "autonomous vehicles",
+      "avs",
+      "cybercab",
+      "robotaxis",
+      "Tesla"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "826294d11fc32c2c7dea0a14a39fd2df9bf54f78904b2b12fad0c8dd522476d9",
     "title": "Anthropic confirms Claude is down, multiple models affected",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
@@ -4144,13 +4393,13 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/openclaw-2-release/en/headerimage/generatedHeaderImage-1788278004063.jpg",
     "language": "en",
     "tags": [
-      "OpenAI",
-      "Anthropic",
-      "Artificial Intelligence",
-      "ChatGPT",
-      "Large language models",
       "Agents",
+      "Large language models",
       "Claude",
+      "ChatGPT",
+      "Anthropic",
+      "OpenAI",
+      "Artificial Intelligence",
       "AI",
       "ML & Data Engineering"
     ],
@@ -4347,6 +4596,26 @@
     "relevanceScore": 34
   },
   {
+    "id": "9281d6906e8350b6fb5c6bd18ae05f4165747246556cded5f72137db99dfe912",
+    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+    "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+    "canonicalUrl": "https://openai.com/index/legora-financial-statement-review-with-astra",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+    "language": "en",
+    "tags": [
+      "Startup"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
+  },
+  {
     "id": "939b4e3dff1a8fd03b0c8783aab53d922e44849335d729b0430869221de1b809",
     "title": "OpenAI launches Astra, its powerful (and controversial) new model",
     "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
@@ -4448,9 +4717,9 @@
     "imageUrl": "https://res.infoq.com/presentations/instrumenting-scale/en/mediumimage/brian-martin-medium-1787812453109.jpg",
     "language": "en",
     "tags": [
-      "Transcripts",
       "QCon San Francisco 2025",
       "Performance & Scalability",
+      "Transcripts",
       "Development",
       "presentation"
     ],
@@ -5016,7 +5285,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 49
+    "relevanceScore": 46
   },
   {
     "id": "a51469f3f56e800725d1ff8d26ac170a18722094e7eeb934a387a831234cf0ff",
@@ -5389,6 +5658,32 @@
     "relevanceScore": 47
   },
   {
+    "id": "b0faa544e2eeddfa14b51203e3fc3169798e25357c464118a37d3011066f2708",
+    "title": "Utilities are racing to link up with fusion startups, with Realta Fusion the latest to benefit",
+    "url": "https://techcrunch.com/2026/09/03/utilities-are-racing-to-link-up-with-fusion-startups-with-realta-fusion-the-latest-to-benefit/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/03/utilities-are-racing-to-link-up-with-fusion-startups-with-realta-fusion-the-latest-to-benefit",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-03T19:29:16.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "The grid has been straining under the weight of new AI data centers, and that has utilities courting fusion startups.",
+    "language": "en",
+    "tags": [
+      "Climate",
+      "Startups",
+      "fusion power",
+      "Realta Fusion",
+      "utilities"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
     "id": "b1ce0be83d0e6c5eb6cf149e6b7ee36dd05b7d9a542bad9ab820474fa16e407f",
     "title": "UK goes shopping for homegrown AI with £100M procurement scheme",
     "url": "https://www.theregister.com/ai-and-ml/2026/09/02/uk-goes-shopping-for-homegrown-ai-with-100m-procurement-scheme/5293680",
@@ -5435,6 +5730,25 @@
       "threat-intelligence"
     ],
     "relevanceScore": 15
+  },
+  {
+    "id": "b38f4c9e8193fcd8ae28ba8b6830bf6c07b56a21ca644b4826b60c7ee4aa2a74",
+    "title": "Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams",
+    "canonicalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-03T20:18:14.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt006c86eb4bc5e69b/6a99c21172642e574d2f52ff/NDA-William_Potter-Getty.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "b4a1188cc06fc47f39b5553d99bf037f569fb14a7a415b7a3552e60454682d6f",
@@ -5639,6 +5953,40 @@
     "relevanceScore": 16
   },
   {
+    "id": "b6f25e212b9573f3b3a5a75370b1740b2483ba928e991384b6e6ed7bb035c7fb",
+    "title": "Shopify Introduces Gisting: Compressing LLM System Prompts into Learned Tokens",
+    "url": "https://www.infoq.com/news/2026/09/spotify-gisting-llm-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/spotify-gisting-llm-performance",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-03T20:00:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "Shopify's engineering introduced gisting, a novel technique for compressing long LLM prompts into a smaller set of learned \"gist\" tokens, improving throughput and reducing inference cost. By Sergio De Simone",
+    "imageUrl": "https://res.infoq.com/news/2026/09/spotify-gisting-llm-performance/en/headerimage/spotify-app-size-growth-process-1788462838475.jpeg",
+    "language": "en",
+    "tags": [
+      "Agents",
+      "Large language models",
+      "Performance",
+      "Model Inference",
+      "Architecture & Design",
+      "Development",
+      "AI",
+      "ML & Data Engineering"
+    ],
+    "matchedKeywordIds": [
+      "generative-ai"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 47
+  },
+  {
     "id": "ba5e84216751e23460a16237a1e4a594cfd3a310e76c1425f1c850b68e1ce5b5",
     "title": "From Release Days to Continuous Promotion: Building the Foundation for Agentic Promotions",
     "url": "https://blogs.cisco.com/innovation/from-release-days-to-continuous-promotion-building-the-foundation-for-agentic-promotions",
@@ -5683,7 +6031,7 @@
   },
   {
     "id": "bae82101da504d8daef5132fc60d0c762f222e78ec2138269f70786d75b95cad",
-    "title": "継続的脆弱性評価の導入：AI脅威時代に向けたリアルタイム防御",
+    "title": "Introducing Continuous Vulnerability Assessment: Real-Time Defense for the AI Threat Era",
     "url": "https://www.wiz.io/blog/introducing-cva",
     "canonicalUrl": "https://www.wiz.io/blog/introducing-cva",
     "sourceId": "wiz-blog",
@@ -5692,13 +6040,15 @@
     "sourceCategory": "cybersecurity",
     "publishedAt": "2026-09-01T10:54:43.000Z",
     "discoveredAt": "2026-09-01T11:42:28.866Z",
-    "summary": "Wiz CVA を使用して、新しい脆弱性が公開された瞬間にその露出を検出します",
+    "summary": "Detect exposure to new vulnerabilities the moment they are published with Wiz CVA",
     "imageUrl": "https://www.datocms-assets.com/75231/1788259511-png-2x.png",
     "language": "en",
     "tags": [],
-    "matchedKeywordIds": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 34
   },
   {
     "id": "bd4a0eeaf5a7c63bb4fb13ab2ee60b386fe405458c24e1859ee9b3be988034b6",
@@ -5919,7 +6269,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "c737c38e145ea787015c0717981e4baffdf420b47c1a81e1e3ce311d7445c5de",
@@ -6171,7 +6521,7 @@
     "sourceCategory": "media",
     "publishedAt": "2026-09-03T18:19:56.000Z",
     "discoveredAt": "2026-09-03T18:56:38.179Z",
-    "summary": "Most AI tools allow you to opt out of sharing your usage with the model provider to improve future versions. Meta has taken that idea and put a price tag on it. For its new Muse Spark model, intended for operating coding and other agents, it is offering an explicit discount averaging out to about […]",
+    "summary": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future models by sharing their prompts and model outputs.",
     "language": "en",
     "tags": [
       "AI",
@@ -6183,7 +6533,31 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 38
+  },
+  {
+    "id": "d3f705d2115f3295612f670142dd1d47e3d6f18c3654c3d5bb756f5f3d51a29e",
+    "title": "Your Agent Trusts Things You Never Approved",
+    "url": "https://blogs.cisco.com/ai/your-agent-trusts-things-you-never-approved",
+    "canonicalUrl": "https://blogs.cisco.com/ai/your-agent-trusts-things-you-never-approved",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-03T20:59:04.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "Several notable breach retrospectives of the last decade have the same shape. The attacker didn't break down the front door. They compromised something the target had already decided to trust — a package, a build tool, a base image — and walked in..",
+    "language": "en",
+    "tags": [
+      "Artificial Intelligence - AI",
+      "AI Security",
+      "Artificial Intelligence (AI)"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "ai-security"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "d50e1a539d392e7667d81f77e9e5c505183cc9f1d1b8038016fa641d6fbb9c80",
@@ -6279,6 +6653,29 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 29
+  },
+  {
+    "id": "d5b94399dbd9e8d49504ed0d90daec337319786ffbf7b6c1121e774fc9ba27d1",
+    "title": "Building High-Quality and Trusted Data Products with Databricks",
+    "url": "https://www.databricks.com/blog/building-high-quality-and-trusted-data-products-databricks",
+    "canonicalUrl": "https://www.databricks.com/blog/building-high-quality-and-trusted-data-products-databricks",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-03T19:55:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "IntroductionOrganizations aiming to become AI and data-driven often need to provide...",
+    "language": "en",
+    "tags": [
+      "Data Strategy",
+      "Best Practices"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
   },
   {
     "id": "d5f91281552ef025f3cc013c63c1888eec1a1e034726048971604f6e61a45401",
@@ -6576,6 +6973,33 @@
     "relevanceScore": 15
   },
   {
+    "id": "e337a0b2496955f51b53e922a4a0a91be7d63f563ebe9c94347742705e432518",
+    "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+    "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-03T19:36:29.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Startups",
+      "Accel",
+      "In Brief",
+      "Mira Murati",
+      "Thinking Machines Lab"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "e4adcb9a5614a5557d707c2f5c8aa9496925b8733e035e78f43ba9b7704907be",
     "title": "Rigorous Yet Sustainable Human Reviews in the AI Era",
     "url": "https://www.infoq.com/news/2026/09/human-reviews-AI-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -6590,12 +7014,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/human-reviews-AI-era/en/headerimage/human-reviews-ai-era-header-1788179792608.jpg",
     "language": "en",
     "tags": [
-      "Code Quality",
-      "Artificial Intelligence",
-      "Craft Conference",
-      "Code Generation",
       "Code Reviews",
+      "Code Quality",
+      "Craft Conference",
       "Feedback",
+      "Code Generation",
+      "Artificial Intelligence",
       "Culture & Methods"
     ],
     "matchedKeywordIds": [
@@ -6862,6 +7286,25 @@
     "relevanceScore": 37
   },
   {
+    "id": "eae08603ec40cb975fc89664ee6585afd73684bdb81c2f8fd7581c96b134df42",
+    "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+    "url": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-03T18:02:47.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through this edition. Attackers use real tools, fake login pages, old account links, and software guides that point to unsafe…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUcEnh-e0_L2Oz7JQcSCFBd90F29Z7_wHbJYiWOxWeZTeLLHbRZYK6vt1PrcUOgSFei7fxLMnP2lp0QyEOW2rzfcsnBFhayNHtKLPtHJFsu55w_GxuA3XLkZf-kleynMxXjc8zELZt7FBZFdqCAtesj3Fj148fwlGitAxZxu6t1wZDb7wgZQ1MR-Vmc4FL/s1600/threats-main.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "eb3bb052eba218a5d3c4065eed73703dfda708e15b3e163dbd71bc5ff2a8cfe6",
     "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
     "url": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
@@ -6977,6 +7420,26 @@
     "relevanceScore": 16
   },
   {
+    "id": "f0aeb8690cdac14fd3c52fb89869f9ecb1a2ad9c56c7d4315ff430c5a2c292d0",
+    "title": "What is Data Transformation?",
+    "url": "https://www.databricks.com/blog/what-is-data-transformation",
+    "canonicalUrl": "https://www.databricks.com/blog/what-is-data-transformation",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-03T19:54:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "What is data transformation?Data transformation is the process of taking raw data...",
+    "language": "en",
+    "tags": [
+      "Data + AI Foundations"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "f1b2d59446b81a72a7c5d56db6b18ed44edd50c7489f70c0645a7702bc63366d",
     "title": "33-hour BGP hijack of Softaculous traffic prompts security scramble",
     "url": "https://www.theregister.com/security/2026/09/01/33-hour-bgp-hijack-of-softaculous-traffic-prompts-security-scramble/5293608",
@@ -7059,6 +7522,30 @@
       "GoPro",
       "Mergers and Acquisitions",
       "Nick Woodman"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
+    "id": "f702d05d7739946b7d9f4295dd8ca33bb2342d368355880c5cbde6f778af94d6",
+    "title": "Startup ARR is less secure than ever, new research shows",
+    "url": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-03T20:59:23.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "The AI era has completely broken enterprise buying patterns, and startups haven't yet figured out how to navigate.",
+    "language": "en",
+    "tags": [
+      "Enterprise",
+      "Startups",
+      "TC"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -7238,8 +7725,8 @@
     "imageUrl": "https://res.infoq.com/presentations/telemetry-data/en/mediumimage/yao-yue-medium-1787812332305.jpeg",
     "language": "en",
     "tags": [
-      "Transcripts",
       "QCon San Francisco 2025",
+      "Transcripts",
       "Telemetry",
       "Development",
       "presentation"
@@ -7357,6 +7844,30 @@
       "generative-ai"
     ],
     "relevanceScore": 46
+  },
+  {
+    "id": "fc40ddafdd41e0cc6b8e9f206273b63f31eac9928f23628f7fa12ba2cbcd62f3",
+    "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+    "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+    "canonicalUrl": "https://openai.com/index/daybreak-for-frontline-defenders",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-09-03T13:15:00.000Z",
+    "discoveredAt": "2026-09-03T21:04:52.545Z",
+    "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 35
   },
   {
     "id": "fc94dcd55e5b50d2b02ee42070645a1121cad58872656976ebd71f8af993bc93",
