@@ -197,24 +197,22 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 64,
+    "score": 58,
     "status": "rising",
-    "articleCount": 6,
-    "previousArticleCount": 19,
-    "growthRate": -68,
-    "distinctSourceCount": 4,
+    "articleCount": 4,
+    "previousArticleCount": 18,
+    "growthRate": -78,
+    "distinctSourceCount": 3,
     "leadingSourceIds": [
       "techcrunch",
-      "infoq",
-      "thehackernews"
+      "bleepingcomputer",
+      "infoq"
     ],
     "relatedArticleIds": [
       "c472661fa84bbfe99a4e01cb66e7ad4cf447d54633a4df723418cc14a3189125",
-      "d26d39f64cebf52d4170ac9b85fa2c662156e1075328be38ff395abb1ddcdd5f",
-      "bbb249d6adc40924eda6b0b9ee14897129ff1e2bfce7e19a7b6076484daf2763",
+      "01a432b67b817afdde02fe50792f4c9bd42339d83147d3b57a1709ae570465bb",
       "c358d62d97f8f78d588fbba8068b634beb3b3703e5b31d2fcfb11e0754ff5e56",
-      "0951ad5c8c179ed903ec96c6d69bbfd66e775dc83c88358938fb68137219d613",
-      "1c98993ec175f54aefd3a20cdf8f6d52472fd1df331f4d04d3dba9815c091f76"
+      "0951ad5c8c179ed903ec96c6d69bbfd66e775dc83c88358938fb68137219d613"
     ]
   },
   {
@@ -382,10 +380,10 @@
     "keywordId": "cybersecurity",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 1,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -443,9 +441,9 @@
       "11ef1d22aa18a155580f17097668a476845d47f118162f9183ac86293870be39",
       "9885e3b9c4a2864eae0b8b69b387455d0db56558d7c730c4007961a5c24171b7",
       "09bf1e9a868fb64ec57d8e633cdf795a24ff9eee3900064159566ea93b40a775",
-      "039a4975e102cb538c368495a2e6d022853c448b8779c7d611c9069b00b28b50",
       "9d9736b815d582ed8ce686114c0b3206d9ce0fde65ef624de23d744802199b9b",
-      "bf0dadca2770adb187c38567b371a1b7053a29ff2184cf1a19adf54035e576c1"
+      "039a4975e102cb538c368495a2e6d022853c448b8779c7d611c9069b00b28b50",
+      "39210f987919e80e66f6bbb1aa542144273fd98d678c04dcbe26ae133654195a"
     ]
   },
   {
@@ -632,12 +630,12 @@
       "6a8f3f0b01b07c48177469de98fdd0c4a5b2310a1fdf2819fe7e96b4bbfbc8ad",
       "6d73ec2f5edc8cf06924018bbbd5c6c3505d2e4454c51389fee029fa6715ffd4",
       "03dde35f7e023aa6cd30e8363091ca715e72f5b6901bce30388f8bb516067dc1",
-      "0ceb633d31c9f275ab6943c3d1c35c8ee7b17651a902e5b106758aff6be13d36",
       "f83a4f086c3187a823c3d0f15b8d8e42489ca9dab05bfefc42582f51570e64e6",
       "de75015e2a482038136355d7763e5e58559e6199be106787d0ab9f0cbe67854f",
       "8af04d92267244730d939e4ae3d3dc58160709e5a2a1c8c504c733c2af98f9fd",
       "15cd8372a7ab99078268fe5c7f68451cc9333e685c351fe7e37410b39e2094ef",
       "4dcdb23ada5feaca03cf3710ec1ca04ac2735a33d16ee76319577c77efe174eb",
+      "0ceb633d31c9f275ab6943c3d1c35c8ee7b17651a902e5b106758aff6be13d36",
       "177ed668e3ff3aad5a347cd40e10c48ef4066526433a952bcd7a63ff6a0c4b46"
     ]
   },
@@ -659,9 +657,9 @@
     ],
     "relatedArticleIds": [
       "6d73ec2f5edc8cf06924018bbbd5c6c3505d2e4454c51389fee029fa6715ffd4",
-      "0ceb633d31c9f275ab6943c3d1c35c8ee7b17651a902e5b106758aff6be13d36",
       "f83a4f086c3187a823c3d0f15b8d8e42489ca9dab05bfefc42582f51570e64e6",
       "de75015e2a482038136355d7763e5e58559e6199be106787d0ab9f0cbe67854f",
+      "0ceb633d31c9f275ab6943c3d1c35c8ee7b17651a902e5b106758aff6be13d36",
       "177ed668e3ff3aad5a347cd40e10c48ef4066526433a952bcd7a63ff6a0c4b46",
       "62df18cdb5b511238782076205e94503eef5622c6a5bf402bd83443cd26c2ccd",
       "b6f25e212b9573f3b3a5a75370b1740b2483ba928e991384b6e6ed7bb035c7fb",
@@ -1046,18 +1044,14 @@
     "label": "Zero Trust",
     "keywordId": "zero-trust",
     "timeframe": "24h",
-    "score": 31,
-    "status": "stable",
-    "articleCount": 1,
-    "previousArticleCount": 0,
-    "growthRate": null,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "infoq"
-    ],
-    "relatedArticleIds": [
-      "d26d39f64cebf52d4170ac9b85fa2c662156e1075328be38ff395abb1ddcdd5f"
-    ]
+    "score": 0,
+    "status": "declining",
+    "articleCount": 0,
+    "previousArticleCount": 1,
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "zero-trust-30d",
@@ -1076,8 +1070,8 @@
     ],
     "relatedArticleIds": [
       "db9c2859cc4ee445e6e5d2eaf80bf953c429fdefda6f2548a649626e29299e13",
-      "d26d39f64cebf52d4170ac9b85fa2c662156e1075328be38ff395abb1ddcdd5f",
-      "25144dc3f66fef24903a0c8540fb24cac7d47d863c26712da5a43c0f7b32f09b"
+      "25144dc3f66fef24903a0c8540fb24cac7d47d863c26712da5a43c0f7b32f09b",
+      "d26d39f64cebf52d4170ac9b85fa2c662156e1075328be38ff395abb1ddcdd5f"
     ]
   },
   {

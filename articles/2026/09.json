@@ -143,6 +143,43 @@
     "relevanceScore": 32
   },
   {
+    "id": "01a432b67b817afdde02fe50792f4c9bd42339d83147d3b57a1709ae570465bb",
+    "title": "How Figma Uses AI Agents for Security",
+    "url": "https://www.infoq.com/news/2026/09/figma-security-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/figma-security-agents",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-06T06:59:00.000Z",
+    "discoveredAt": "2026-09-06T11:00:50.804Z",
+    "summary": "The engineering team at software company Figma recently documented how they built AI agents to help their security team investigate alerts, search past incidents, check company systems, and even prepare code fixes. The agents learn from previous investigations, reducing repetitive work and helping engineers resolve…",
+    "imageUrl": "https://res.infoq.com/news/2026/09/figma-security-agents/en/headerimage/generatedHeaderImage-1787900821229.jpg",
+    "language": "en",
+    "tags": [
+      "DevSecOps",
+      "AI Security",
+      "Application Security",
+      "Agents",
+      "Cloud Security",
+      "Security Assessment",
+      "AI",
+      "ML & Data Engineering",
+      "DevOps"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "ai-security",
+      "artificial-intelligence",
+      "cloud-security",
+      "devsecops"
+    ],
+    "relevanceScore": 46
+  },
+  {
     "id": "01a6b9f4a01315bc397dcc6b92dc486edeb6f76a6644ffbde7a9b6f2f0cc1f38",
     "title": "JavaScript installer pnpm recast in Rust because ECMAScript can't keep up",
     "url": "https://www.theregister.com/devops/2026/09/04/javascript-installer-pnpm-recast-in-rust-because-ecmascript-cant-keep-up/5294394",
@@ -307,7 +344,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "0426e4b3b9347f4f2db0233f5e3c625487a06eccb0cbc61abbf930740cdfb7d4",
@@ -375,7 +412,7 @@
     "publishedAt": "2026-09-03T21:00:10.000Z",
     "discoveredAt": "2026-09-03T21:04:52.545Z",
     "summary": "Three months ago, Check Point and OpenAI began expanding our work together through Daybreak, OpenAI’s cyber defense initiative. Since then, we have taken the partnership further, bringing OpenAI’s frontier cyber models into Check Point products and security workflows through the Daybreak Defense Network. And last…",
-    "imageUrl": "https://blog.checkpoint.com/wp-content/uploads/2026/09/Blog-banner_Daybreak-Cyber-Partner-Program-Use-Cases-_800x400-1.png",
+    "imageUrl": "https://blog.checkpoint.com/wp-content/uploads/2026/09/daybreak-cyber-partner-program-use-cases-716x298px.jpg",
     "language": "en",
     "tags": [
       "AI Security"
@@ -386,7 +423,7 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 31
+    "relevanceScore": 28
   },
   {
     "id": "06a9b16186b5ec6c460bb5a968e24db9f2b8f425942081f2eb40a6215c206da0",
@@ -430,7 +467,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "07390a714e456bcdf7a5e5c932229eb6edc666c5c2e703911e106dabdee3f499",
@@ -693,7 +730,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 56
+    "relevanceScore": 53
   },
   {
     "id": "0d46d9a6e1175884299338b1abf3aa45f22c7a7ead8d6126a6f734b3fe9cfbf0",
@@ -898,7 +935,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "10869e1cb2f94267097db0303e292e744802aa16350ebfbffb0af4494701542b",
@@ -1004,7 +1041,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "12dde806508a1da3b635de1ffddfeecfe75ee029506a101978bc016619c21dce",
@@ -1349,6 +1386,25 @@
     "relevanceScore": 16
   },
   {
+    "id": "1a8ef3d227d42f337d6845e073f8a8301fc8f94275479b07c6b9ec602d34765f",
+    "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+    "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-06T08:34:20.000Z",
+    "discoveredAt": "2026-09-06T11:00:50.804Z",
+    "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpRcdfXd6kYnqLLWSFdzGKICUzSr90MsV2f3PXtw8VDVcT-xOP2w4HwnVzrRI4bdJqhboQMFIm9BZ393b89IOqgYx-VVmb_B8-XJCsZ9SAIymdlBpEf5ARizHvn32t8Mr9stzV6nMVcn3utUYI1xSRxhaC29QZjS-C3haNSRPfQI_eBYzXCrwn5rl18Nw/s1600/rev.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "1ac14c578ffaf691552f2310b5380384baaab6fd891c6927e84bc7851e934988",
     "title": "Anthropic’s new Fable release is cheaper, less restrictive",
     "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
@@ -1494,7 +1550,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "1dbe8187f23e13728009fd048ea21a180fe54560017c43bd7340ed69ef681a6b",
@@ -1537,6 +1593,36 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42
+  },
+  {
+    "id": "1e0e9d51de200d2be2a5f3e61015b558b9cd01d09f78adfb840f134d4701471c",
+    "title": "FreeCORE: TrueNAS Fork Maintaining Deeply Integrated Virtualization, Jails, and OpenZFS on FreeBSD",
+    "url": "https://www.infoq.com/news/2026/09/freecore-truenas-fork/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/freecore-truenas-fork",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-06T06:06:00.000Z",
+    "discoveredAt": "2026-09-06T11:00:50.804Z",
+    "summary": "TrueNAS CORE has been the standard for open-source storage using FreeBSD and OpenZFS. The shift to TrueNAS SCALE, based on Debian, left some users needing alternatives. FreeCORE upgrades TrueNAS CORE to FreeBSD 15.0, restoring essential features like FreeBSD Jails. While it satisfies certain administrators' needs,…",
+    "imageUrl": "https://res.infoq.com/news/2026/09/freecore-truenas-fork/en/headerimage/generatedHeaderImage-1788673814182.jpg",
+    "language": "en",
+    "tags": [
+      "Infrastructure",
+      "FreeBSD",
+      "Fork",
+      "Cloud",
+      "Linux",
+      "Storage",
+      "Development",
+      "DevOps"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "devsecops"
+    ],
+    "relevanceScore": 14
   },
   {
     "id": "1e1c8c628210fd3837dfcf5fd6df59d919b1c5be06e1a0a23a0ff4b48eaef898",
@@ -1693,7 +1779,7 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 43
+    "relevanceScore": 40
   },
   {
     "id": "207d83f5060e8d66b644c11313ad27b28c016ef77db5550270d3d7634de70568",
@@ -1779,7 +1865,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "220fdea6c47a42b105665c1cb5d29f222ba47c149ae2efa0b9d7a8261230ab35",
@@ -1978,7 +2064,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "28b73ab0049071506ea9029b461b823e9fb5f1de93c7b1ade20bc678320360d2",
@@ -1999,7 +2085,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "2ab7cfd2b22039bb7cd8a05b78cdcce7cb84fd83b3a3fd1101e88cca0d9333f8",
@@ -2851,18 +2937,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/airbnb-server-driven-login/en/headerimage/generatedHeaderImage-1787593560494.jpg",
     "language": "en",
     "tags": [
-      "User Experience",
-      "Scalability",
-      "Web",
-      "Distributed Systems",
-      "Web Applications",
+      "Architecture",
+      "Identity Management",
+      "Mobile Apps",
       "policy",
-      "Rule Engines",
-      "Mobile Development",
       "GUI",
       "Experiment Driven Development",
-      "Evolutionary Architecture",
-      "Identity Management"
+      "Distributed Systems",
+      "Web",
+      "Web Applications",
+      "Software Engineering",
+      "Mobile Development",
+      "Rule Engines"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -3306,7 +3392,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "49749711ba07df5a4d9ea4b4f1812555860772af23fd3219e591fde608fd2cc8",
@@ -3625,7 +3711,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "536151d492263778816ec177eaad429f5a9d93a8f5724384254408d3069031fb",
@@ -4222,6 +4308,27 @@
     "relevanceScore": 43
   },
   {
+    "id": "622f240f1086c8d3b089fb9bcf166ae86178da5db9c2266c4bcbc7b60c3397d7",
+    "title": "Time lords prepare to kick leap seconds into the next millennium",
+    "url": "https://www.theregister.com/offbeat/2026/09/06/time-lords-prepare-to-kick-leap-seconds-into-the-next-millennium/5294538",
+    "canonicalUrl": "https://www.theregister.com/offbeat/2026/09/06/time-lords-prepare-to-kick-leap-seconds-into-the-next-millennium/5294538",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-06T08:09:00.000Z",
+    "discoveredAt": "2026-09-06T11:00:50.804Z",
+    "summary": "Risk of an unprecedented negative adjustment prompts plan to let UTC drift by as much as an hour",
+    "imageUrl": "https://image.theregister.com/?imageId=5262298&width=800",
+    "language": "en",
+    "tags": [
+      "offbeat"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "62ab89f870022895bccc043e7aca3bd3531f0502b4e9e0ca97476a9e628cd89e",
     "title": "From AI readiness to impact: Why a strong data foundation determines success in healthcare",
     "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/healthcare/2026/09/01/from-ai-readiness-to-impact-why-a-strong-data-foundation-determines-success-in-healthcare/",
@@ -4651,7 +4758,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 8
   },
   {
     "id": "6d0b9fa3d7399ffb9fb4d22c215998ec8e833ff72ed48cd7bd4d975ddb58ee2b",
@@ -4711,18 +4818,18 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
+      "Jupyter Notebooks",
       "GIS",
       "Data Analytics",
-      "Jupyter Notebooks",
-      "Development",
       "AI",
-      "ML & Data Engineering"
+      "ML & Data Engineering",
+      "Development"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "6e6d9e63d43d80908d260f229bcce915659c89086a68fb2f9382708f96f7cd3c",
@@ -4956,11 +5063,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/jquery-20-years/en/headerimage/generatedHeaderImage-1788335247571.jpg",
     "language": "en",
     "tags": [
-      "JavaScript",
-      "jQuery",
+      "Web Browser",
       "Web Development",
       "JavaScript Libraries",
-      "Web Browser",
+      "JavaScript",
+      "jQuery",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -5055,8 +5162,8 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/kubernetes-kyaml-manifests/en/headerimage/generatedHeaderImage-1787909718521.jpg",
     "language": "en",
     "tags": [
-      "Kubernetes",
       "YAML",
+      "Kubernetes",
       "DevOps"
     ],
     "matchedKeywordIds": [],
@@ -5704,14 +5811,14 @@
     "imageUrl": "https://res.infoq.com/podcasts/personality-over-skillset/en/smallimage/engineering-culture-500-1787649877840.jpg",
     "language": "en",
     "tags": [
-      "Engineering Culture Podcast",
-      "Developer Experience",
-      "Teamwork",
       "Psychological Safety",
-      "Careers",
+      "Teamwork",
       "Culture",
-      "Technical Debt",
       "Leadership",
+      "Technical Debt",
+      "Developer Experience",
+      "Careers",
+      "Engineering Culture Podcast",
       "Culture & Methods",
       "podcast"
     ],
@@ -6763,7 +6870,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 28
+    "relevanceScore": 25
   },
   {
     "id": "a2b37d00b215089a3168d20923d2ae131b187360f050f70fcddbd3e531e3bfce",
@@ -7723,7 +7830,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "b6f25e212b9573f3b3a5a75370b1740b2483ba928e991384b6e6ed7bb035c7fb",
@@ -7740,14 +7847,14 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/spotify-gisting-llm-performance/en/headerimage/spotify-app-size-growth-process-1788462838475.jpeg",
     "language": "en",
     "tags": [
-      "Agents",
-      "Large language models",
-      "Performance",
       "Model Inference",
-      "Architecture & Design",
-      "Development",
+      "Large language models",
+      "Agents",
+      "Performance",
       "AI",
-      "ML & Data Engineering"
+      "ML & Data Engineering",
+      "Architecture & Design",
+      "Development"
     ],
     "matchedKeywordIds": [
       "generative-ai"
@@ -7882,18 +7989,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/blume-docs-ai/en/headerimage/generatedHeaderImage-1788535805507.jpg",
     "language": "en",
     "tags": [
-      "JavaScript",
+      "Architecture Documentation",
       "AI Development",
       "Web Development",
+      "JavaScript",
       "Documentation",
-      "Architecture Documentation",
       "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 36
+    "relevanceScore": 33
   },
   {
     "id": "bc73d9a5342ed400dc83ec8aaed782f499196e538fcbe0ba8615f3db7c57ba6c",
@@ -7964,6 +8071,25 @@
     "relevanceScore": 13
   },
   {
+    "id": "bec3d4c719cb03958c036b9d2272ba2b2c5f6d783c02fbc9de6264c5a2938164",
+    "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+    "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-06T09:32:38.000Z",
+    "discoveredAt": "2026-09-06T11:00:50.804Z",
+    "summary": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to CERT Polska's attack warning, published on September 5. Successful attacks date to at least September 2. The…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiSiBDO5j21gorWS-UjrLlDl0RzniibBPjfO4xfPBBLbH1yTQIB88G-hUBRtYNufYwkPpVjWWLu0GXk1TB7pv_x8KbQCbfsL5Ft8JlZLa6iZfvuHU-vKSPNq5Li-e9DtoOvZIOXPYmibx9uc_imnug4ZJUog31KwlA3YKmY8ghOpROVQR8mwPj9qb-1kA/s1600/micro.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "bf0dadca2770adb187c38567b371a1b7053a29ff2184cf1a19adf54035e576c1",
     "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
     "url": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
@@ -7982,7 +8108,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "bfd1060aa18cdf12f520645828f3265508d64e8a48f593703175e9952d46e778",
@@ -8066,7 +8192,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "c108aaae6a5513c1413cccf03be7d37b6015fb7213d5ac1b2b808a5f4e862b7e",
@@ -8199,18 +8325,18 @@
     "imageUrl": "https://res.infoq.com/presentations/vortex-columnar-file-format-gpu-streaming/en/mediumimage/onur-satici-medium-1787813397611.jpeg",
     "language": "en",
     "tags": [
-      "Machine Learning",
-      "Performance",
-      "Transcripts",
+      "Architecture",
       "Columnar Databases",
-      "Rust",
-      "CUDA",
-      "S3",
-      "QCon London 2026",
       "Data Lake",
-      "Streaming",
       "GPU",
-      "Data Pipelines"
+      "Machine Learning",
+      "S3",
+      "Streaming",
+      "Transcripts",
+      "QCon London 2026",
+      "Data Pipelines",
+      "CUDA",
+      "Rust"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -8715,16 +8841,16 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/google-beyond-zero/en/headerimage/generatedHeaderImage-1787655112500.jpg",
     "language": "en",
     "tags": [
-      "Application Security",
       "AI Security",
+      "Enterprise Architecture",
+      "Application Security",
       "Google Cloud",
       "Cloud Security",
-      "Enterprise Architecture",
+      "AI",
+      "ML & Data Engineering",
       "Architecture & Design",
       "Development",
-      "DevOps",
-      "AI",
-      "ML & Data Engineering"
+      "DevOps"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence",
@@ -8736,7 +8862,7 @@
       "cloud-security",
       "devsecops"
     ],
-    "relevanceScore": 41
+    "relevanceScore": 38
   },
   {
     "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
@@ -8777,9 +8903,9 @@
     "tags": [
       "Platform Engineering",
       "AI Architecture",
-      "Architecture & Design",
       "AI",
       "ML & Data Engineering",
+      "Architecture & Design",
       "minibook"
     ],
     "matchedKeywordIds": [
@@ -9301,24 +9427,25 @@
     "imageUrl": "https://res.infoq.com/presentations/ai-predictions-2030/en/mediumimage/meryem-arik-medium-1785845650090.jpg",
     "language": "en",
     "tags": [
-      "Patterns",
-      "Agents",
-      "QCon AI Boston 2026",
-      "Regulation",
-      "Governance",
-      "Technology Trends",
       "Transcripts",
       "Infrastructure",
       "Productivity",
       "AI Architecture",
-      "Architecture & Design",
-      "Development"
+      "Technology Trends",
+      "QCon AI Boston 2026",
+      "Regulation",
+      "Agents",
+      "Governance",
+      "Patterns",
+      "AI",
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
-      "agentic-ai"
+      "agentic-ai",
+      "artificial-intelligence"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "dff23f3c8b114063949c38cdb7f9843799edcc5895fa4139578c049c5d65fa75",
@@ -9770,17 +9897,17 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/copilot-code-review-azure-repos/en/headerimage/generatedHeaderImage-1788266643329.jpg",
     "language": "en",
     "tags": [
-      "Cost Optimization",
+      "Azure",
+      "Continuous Delivery",
+      "Generative AI",
       "Developer Experience",
       "Cloud",
-      "Generative AI",
-      "Continuous Delivery",
-      "Azure",
+      "Cost Optimization",
+      "AI",
+      "ML & Data Engineering",
       "Architecture & Design",
       "Development",
-      "DevOps",
-      "AI",
-      "ML & Data Engineering"
+      "DevOps"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -10436,9 +10563,9 @@
     "language": "en",
     "tags": [
       "iOS",
-      "Emerging Technologies",
-      "Communication",
       "Linux",
+      "Communication",
+      "Emerging Technologies",
       "Bluetooth",
       "Development"
     ],
