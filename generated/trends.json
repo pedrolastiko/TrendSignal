@@ -54,8 +54,8 @@
     "score": 39,
     "status": "stable",
     "articleCount": 9,
-    "previousArticleCount": 15,
-    "growthRate": -40,
+    "previousArticleCount": 14,
+    "growthRate": -36,
     "distinctSourceCount": 8,
     "leadingSourceIds": [
       "infoq",
@@ -167,9 +167,9 @@
       "e2642e92805118546c6faf35ce725beba27cae97bf4963066390fb0780b224e9",
       "8af04d92267244730d939e4ae3d3dc58160709e5a2a1c8c504c733c2af98f9fd",
       "4dcdb23ada5feaca03cf3710ec1ca04ac2735a33d16ee76319577c77efe174eb",
-      "23c040b7e11ea91f16515100579a1bd76b0cd3b8e09a4f8b5fe6dcda173e7d16",
       "aa194f570edc0f6022d79baf4df7928f57c7095aeb5de6ceeaaa641a1eb8e2ec",
-      "9e2bb55a25f845b8f699fb3353b9d14a2f1a7b899f84e0d6ce8d706e98247bcb"
+      "9e2bb55a25f845b8f699fb3353b9d14a2f1a7b899f84e0d6ce8d706e98247bcb",
+      "23c040b7e11ea91f16515100579a1bd76b0cd3b8e09a4f8b5fe6dcda173e7d16"
     ]
   },
   {
@@ -177,22 +177,21 @@
     "label": "AI security",
     "keywordId": "ai-security",
     "timeframe": "7d",
-    "score": 36,
+    "score": 29,
     "status": "stable",
-    "articleCount": 4,
-    "previousArticleCount": 6,
-    "growthRate": -33,
-    "distinctSourceCount": 4,
+    "articleCount": 3,
+    "previousArticleCount": 7,
+    "growthRate": -57,
+    "distinctSourceCount": 3,
     "leadingSourceIds": [
-      "mit-technology-review",
       "microsoft-security-blog",
-      "theregister"
+      "theregister",
+      "crowdstrike-blog"
     ],
     "relatedArticleIds": [
       "032b02abf4ca271bbe1d0fd9f2181ea0e303c969d73e3dff0bb39b8f7843db7c",
-      "23c040b7e11ea91f16515100579a1bd76b0cd3b8e09a4f8b5fe6dcda173e7d16",
       "9e2bb55a25f845b8f699fb3353b9d14a2f1a7b899f84e0d6ce8d706e98247bcb",
-      "1a67cf9fc56a8187f32c22669bdafdaf8805a8b2839706292e479bac70c61165"
+      "23c040b7e11ea91f16515100579a1bd76b0cd3b8e09a4f8b5fe6dcda173e7d16"
     ]
   },
   {
@@ -200,11 +199,11 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 84,
+    "score": 86,
     "status": "breakout",
-    "articleCount": 8,
+    "articleCount": 9,
     "previousArticleCount": 6,
-    "growthRate": 33,
+    "growthRate": 50,
     "distinctSourceCount": 7,
     "leadingSourceIds": [
       "theregister",
@@ -213,13 +212,14 @@
     ],
     "relatedArticleIds": [
       "bd8695205cbf7b3e122b1fed9aad3ff7c536da1bbe1d2e8e383e50a3d34b020e",
+      "e5a8e881dee5e3f8eb25c8b3c49bc8fd9fa724dbca55a1c117ad125922cc6041",
       "56ea1d87e070cf9a4df29a88c3520ed9897d596f5b6f8bf35c549ff6b1adb01a",
       "6b7230af8880e00e82cdfc8bbe8e34f3f3b897e66e780f160c0020b531ae717e",
       "cdd096a5810922c97fb66012f227081f5d74e356ff2078768e9c72c11ac21168",
       "c7d324457b605bcc173923bbb7023a1138b83de723dad96bd2b36cc6ced45fdc",
       "805d531cc305655513975bdc9334ff4742c2af53f7ab1ea3f60eb744c08abcff",
       "073b13b14ae0138b1424f5cc2e744960df78c0d7dd4268101cf3c123a809ae5f",
-      "aab9520e647c9982857ce0c62805482b9fa72236a75dd761096fc2181b159602"
+      "a34e4567fa7a89bde8a5f544330a15ce7c55d7c9bbdd741c31924265d7c857cb"
     ]
   },
   {
@@ -229,9 +229,9 @@
     "timeframe": "30d",
     "score": 93,
     "status": "breakout",
-    "articleCount": 591,
+    "articleCount": 594,
     "previousArticleCount": 115,
-    "growthRate": 414,
+    "growthRate": 417,
     "distinctSourceCount": 41,
     "leadingSourceIds": [
       "techcrunch",
@@ -256,16 +256,16 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "7d",
-    "score": 77,
+    "score": 75,
     "status": "emerging",
-    "articleCount": 178,
-    "previousArticleCount": 205,
-    "growthRate": -13,
-    "distinctSourceCount": 27,
+    "articleCount": 166,
+    "previousArticleCount": 206,
+    "growthRate": -19,
+    "distinctSourceCount": 28,
     "leadingSourceIds": [
       "techcrunch",
       "theregister",
-      "darkreading"
+      "infoq"
     ],
     "relatedArticleIds": [
       "032b02abf4ca271bbe1d0fd9f2181ea0e303c969d73e3dff0bb39b8f7843db7c",
@@ -396,16 +396,19 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "24h",
-    "score": 37,
-    "status": "stable",
-    "articleCount": 2,
+    "score": 48,
+    "status": "rising",
+    "articleCount": 4,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 1,
+    "distinctSourceCount": 2,
     "leadingSourceIds": [
-      "thehackernews"
+      "thehackernews",
+      "cisco-blogs"
     ],
     "relatedArticleIds": [
+      "6c94379fcb16ef16a14e5b6429e4c707bc22b0f07b7ec7383ca52fbd26dd3f91",
+      "d78fec504cac4826d02881af4692cdb971caaad65444493a7778a91fd03fb160",
       "3fabea4df5b3511709367d81da1044b5bb368e8c17a86dfdbd4241752f436e16",
       "459bb4835d2328d2bbd542f28a1d654cd04bc49295cd54a8a517de07f147c78d"
     ]
@@ -417,9 +420,9 @@
     "timeframe": "30d",
     "score": 65,
     "status": "emerging",
-    "articleCount": 91,
+    "articleCount": 93,
     "previousArticleCount": 13,
-    "growthRate": 600,
+    "growthRate": 615,
     "distinctSourceCount": 17,
     "leadingSourceIds": [
       "thehackernews",
@@ -444,16 +447,16 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "7d",
-    "score": 40,
+    "score": 42,
     "status": "stable",
-    "articleCount": 16,
-    "previousArticleCount": 35,
-    "growthRate": -54,
+    "articleCount": 18,
+    "previousArticleCount": 32,
+    "growthRate": -44,
     "distinctSourceCount": 6,
     "leadingSourceIds": [
       "thehackernews",
       "openai-news",
-      "techcrunch"
+      "cisco-blogs"
     ],
     "relatedArticleIds": [
       "3fe53f1b53c1f9f50ac0b4dd854cfccd64857946970d75297e5ada5d151794c4",
@@ -463,9 +466,9 @@
       "11ef1d22aa18a155580f17097668a476845d47f118162f9183ac86293870be39",
       "9885e3b9c4a2864eae0b8b69b387455d0db56558d7c730c4007961a5c24171b7",
       "09bf1e9a868fb64ec57d8e633cdf795a24ff9eee3900064159566ea93b40a775",
-      "3fabea4df5b3511709367d81da1044b5bb368e8c17a86dfdbd4241752f436e16",
-      "459bb4835d2328d2bbd542f28a1d654cd04bc49295cd54a8a517de07f147c78d",
-      "039a4975e102cb538c368495a2e6d022853c448b8779c7d611c9069b00b28b50"
+      "6c94379fcb16ef16a14e5b6429e4c707bc22b0f07b7ec7383ca52fbd26dd3f91",
+      "d78fec504cac4826d02881af4692cdb971caaad65444493a7778a91fd03fb160",
+      "3fabea4df5b3511709367d81da1044b5bb368e8c17a86dfdbd4241752f436e16"
     ]
   },
   {
@@ -623,7 +626,7 @@
     "label": "Generative AI",
     "keywordId": "generative-ai",
     "timeframe": "24h",
-    "score": 31,
+    "score": 30,
     "status": "stable",
     "articleCount": 1,
     "previousArticleCount": 0,
@@ -670,11 +673,11 @@
     "label": "Generative AI",
     "keywordId": "generative-ai",
     "timeframe": "7d",
-    "score": 60,
+    "score": 61,
     "status": "rising",
     "articleCount": 12,
-    "previousArticleCount": 4,
-    "growthRate": 200,
+    "previousArticleCount": 3,
+    "growthRate": 300,
     "distinctSourceCount": 7,
     "leadingSourceIds": [
       "theregister",
@@ -889,11 +892,11 @@
     "label": "Ransomware",
     "keywordId": "ransomware",
     "timeframe": "7d",
-    "score": 31,
+    "score": 33,
     "status": "stable",
     "articleCount": 4,
-    "previousArticleCount": 6,
-    "growthRate": -33,
+    "previousArticleCount": 5,
+    "growthRate": -20,
     "distinctSourceCount": 3,
     "leadingSourceIds": [
       "theregister",
@@ -912,31 +915,36 @@
     "label": "Software supply-chain security",
     "keywordId": "software-supply-chain-security",
     "timeframe": "24h",
-    "score": 0,
+    "score": 32,
     "status": "stable",
-    "articleCount": 0,
+    "articleCount": 1,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
+    "distinctSourceCount": 1,
+    "leadingSourceIds": [
+      "thehackernews"
+    ],
+    "relatedArticleIds": [
+      "24d56919cba73a5c6b6a6f6bf13aa24a0bf3e2f5069d0aca36e253aa95ccc781"
+    ]
   },
   {
     "id": "software-supply-chain-security-30d",
     "label": "Software supply-chain security",
     "keywordId": "software-supply-chain-security",
     "timeframe": "30d",
-    "score": 26,
+    "score": 31,
     "status": "stable",
-    "articleCount": 2,
+    "articleCount": 3,
     "previousArticleCount": 3,
-    "growthRate": -33,
+    "growthRate": 0,
     "distinctSourceCount": 2,
     "leadingSourceIds": [
       "thehackernews",
       "wiz-blog"
     ],
     "relatedArticleIds": [
+      "24d56919cba73a5c6b6a6f6bf13aa24a0bf3e2f5069d0aca36e253aa95ccc781",
       "41850b0deaa2721c28cf98877ea6a8396886477f723b14ee0e1afdadcb0ebc52",
       "699ae7ee79f50e9ee138b069eb612731a7091bda0fedcf2cdef05c21341fecc9"
     ]
@@ -946,14 +954,18 @@
     "label": "Software supply-chain security",
     "keywordId": "software-supply-chain-security",
     "timeframe": "7d",
-    "score": 0,
+    "score": 28,
     "status": "stable",
-    "articleCount": 0,
+    "articleCount": 1,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
+    "distinctSourceCount": 1,
+    "leadingSourceIds": [
+      "thehackernews"
+    ],
+    "relatedArticleIds": [
+      "24d56919cba73a5c6b6a6f6bf13aa24a0bf3e2f5069d0aca36e253aa95ccc781"
+    ]
   },
   {
     "id": "third-party-risk-management-24h",
