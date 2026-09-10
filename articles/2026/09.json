@@ -117,7 +117,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 30
   },
   {
     "id": "014e6686ad272f4a931a65b92f8c169f1bc54d68c091a9c6d719fd2ec01de574",
@@ -578,7 +578,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "07543889f5bed9ee9cabcd502cb4d9def7b89140dfca49aa2d5f46080026fc91",
@@ -621,7 +621,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "08a6dd084273587070f7cad316dae99e8c501b3ac723bd15922bdc85fc7f6a54",
@@ -917,7 +917,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "0ce7343349752a550066c5f7cab0a2dba8bc9cdf4b6a90d9a233829031295966",
@@ -1042,8 +1042,8 @@
     "tags": [
       "Fundraising",
       "Startups",
-      "TC",
-      "Harvey"
+      "Harvey",
+      "In Brief"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -1138,7 +1138,7 @@
       "devsecops"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 57
+    "relevanceScore": 54
   },
   {
     "id": "0f3512695f4277e012f555bb3f7df3b5e04d755ef1e6a471130789bd5dd70379",
@@ -1298,6 +1298,24 @@
     "relevanceScore": 10
   },
   {
+    "id": "110974842b665729362a4032cf644a05400eaba414d3cbae649459440b94056e",
+    "title": "Threat matrix: Mapping threats across cloud web applications",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
+    "canonicalUrl": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications",
+    "sourceId": "microsoft-security-blog",
+    "sourceName": "Microsoft Security Blog",
+    "company": "Microsoft",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-09-09T21:30:00.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms. The post Threat matrix: Mapping threats across cloud web applications appeared first on Microsoft…",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
+  },
+  {
     "id": "11204b08bfba2bc9bce4df8efbf025a82522dae28f738e330d08efb8773b5902",
     "title": "A secret new Elizabeth Holmes documentary stuns Telluride",
     "url": "https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/",
@@ -1353,11 +1371,12 @@
     "sourceCategory": "media",
     "publishedAt": "2026-09-09T16:44:21.000Z",
     "discoveredAt": "2026-09-09T20:57:34.957Z",
-    "summary": "Fox’s $22 billion plan to buy Roku has hit a new hurdle. The Justice Department sent Fox and Roku what’s known as a “second request” on Tuesday, asking the companies to turn over more data and documents as it takes a closer look at the deal. That’s a fairly standard step in a major antitrust […]",
+    "summary": "The investigation also comes as the DOJ has faced criticism over how it handles major mergers, including questions about political influence.",
     "language": "en",
     "tags": [
       "Government & Policy",
       "Media & Entertainment",
+      "Fox",
       "Mergers and Acquisitions",
       "roku"
     ],
@@ -1453,6 +1472,27 @@
     "relevanceScore": 8
   },
   {
+    "id": "1252cdbae3d176aa70bfbd2e418cca86e9e654b57cf78d0582ecc364abc1bd2f",
+    "title": "Apple hawks $2k folding fondleslab",
+    "url": "https://www.theregister.com/personal-tech/2026/09/09/apple-hawks-2k-folding-fondleslab/5295381",
+    "canonicalUrl": "https://www.theregister.com/personal-tech/2026/09/09/apple-hawks-2k-folding-fondleslab/5295381",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T20:38:18.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Another new form factor for devs to adapt to",
+    "imageUrl": "https://image.theregister.com/?imageId=5295384&width=800",
+    "language": "en",
+    "tags": [
+      "personal tech"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "12654741403deda516068dad047fe5cfe22e6d4ecdd5cf0dbda0027401f98070",
     "title": "Patch Tuesday Sets Another Record With 974 CVEs",
     "url": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
@@ -1469,7 +1509,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "12dde806508a1da3b635de1ffddfeecfe75ee029506a101978bc016619c21dce",
@@ -1654,6 +1694,31 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "1532b702ac1d6d0164cbdabc863943cbf952f74bc02017d673e909a7c9761610",
+    "title": "What a battery breakthrough reveals about AI and scientific memory",
+    "url": "https://techcommunity.microsoft.com/blog/microsoft-discovery-blog/reinventing-organic-redox-flow-batteries-with-microsoft-discovery/4552343",
+    "canonicalUrl": "https://techcommunity.microsoft.com/blog/microsoft-discovery-blog/reinventing-organic-redox-flow-batteries-with-microsoft-discovery/4552343",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-09T22:29:40.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "The post What a battery breakthrough reveals about AI and scientific memory appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Technology"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 50
   },
   {
     "id": "15792853147eaef874c85d2deae7ede404c1623728fd6a4501fd38f691a726eb",
@@ -1929,7 +1994,7 @@
   },
   {
     "id": "18d2a01944700462d30f97f9e56f99ce706dad518dedd9e187f47c0b9354cab1",
-    "title": "Apple has a new way prove your iPhone photos aren’t AI slop",
+    "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
     "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
     "canonicalUrl": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop",
     "sourceId": "techcrunch",
@@ -2321,6 +2386,31 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 15
+  },
+  {
+    "id": "1deacfb8a870299859e821e048cf939abd5fa8b205ee7c192e9947a9266e3ba0",
+    "title": "Anthropic reveals fourth likely crime committed by its AI",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T23:20:59.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Claude's Felony Bench rap sheet is now as long as OpenAI's",
+    "imageUrl": "https://image.theregister.com/?imageId=5295418&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 37
   },
   {
     "id": "1e03a98a6efbfe0ad892279ffea7ad436130e267ec4a3ee4409e8cf416d87580",
@@ -3089,6 +3179,31 @@
     "relevanceScore": 30
   },
   {
+    "id": "295efba4ec3711774f80cf6a42ed1b9e30c3da9b1a5c83ae8eb915f9341fb622",
+    "title": "AI models don't kill people – people kill people",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T20:44:06.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "AI fearmongers forget we could just jail tech execs until morale and model safety improve",
+    "imageUrl": "https://image.theregister.com/?imageId=5295388&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 47
+  },
+  {
     "id": "2ab7cfd2b22039bb7cd8a05b78cdcce7cb84fd83b3a3fd1101e88cca0d9333f8",
     "title": "PSA: Amazon’s shopping AI can now tell you if that message is a scam",
     "url": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/",
@@ -3595,6 +3710,25 @@
     "relevanceScore": 12
   },
   {
+    "id": "323b6c23b480cd5cfb7eb7c78a5b71199ccd4f9292e989c9560245880ef3ba60",
+    "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
+    "url": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
+    "canonicalUrl": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T21:19:55.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt439f596f6fab9438/6aa1bda507331dcf89c77c60/firehose_sirloh_shutterstock.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "325e9dcd840a97e90ffb7c6d895af29ce36aa93bd90d00c36b3bf0be1def577e",
     "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
     "url": "https://openai.com/index/playco-game-prototyping-with-astra",
@@ -3691,6 +3825,26 @@
     "relevanceScore": 32
   },
   {
+    "id": "333ccaae81484d3a4e17f3d07427086a4f15c586f13019420a43c3e347dda8d9",
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "canonicalUrl": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-09-09T11:00:00.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+    "language": "en",
+    "tags": [
+      "Product"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
+  },
+  {
     "id": "335721a8136cc299e91a1e581f90399c4f6392fcdb777730335e00903afaef05",
     "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
     "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
@@ -3755,7 +3909,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 18
+    "relevanceScore": 15
   },
   {
     "id": "33eadeffcbeb4daa6f495c7772071ae6a912a9bb4af53f438844487b515681a4",
@@ -4163,7 +4317,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 27
   },
   {
     "id": "3a90b5a484afadf6acb4a817799ebcc10c48294b5584028d28c4eeba73d5b24e",
@@ -4353,7 +4507,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "3c29bb5f7bc7f046c5576bad47a5bcfe6e8b7ef2bea517b567c6ed7d915bb5c6",
@@ -4448,6 +4602,35 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 8
+  },
+  {
+    "id": "3c86237f473dae12e46a514b6beed58b0a9fbb0f7ea69829b397dc8e2d7e3d16",
+    "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+    "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-10T00:00:37.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Venture",
+      "customer research",
+      "M&A",
+      "menlo ventures",
+      "Salesforce"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 38
   },
   {
     "id": "3ce23c1a0169d87ebb54e084eef727091c5ba86413535037552fb98e179602b0",
@@ -4860,14 +5043,15 @@
     "sourceCategory": "technology",
     "publishedAt": "2026-09-08T00:00:00.000Z",
     "discoveredAt": "2026-09-09T16:41:01.117Z",
-    "summary": "77% of organizations now have AI agents running in production.1 The adoption curve is steep. The governance curve is not. Agents operate over-permissioned and often without full security sign-off. Many are operating in what IDC calls a \"governance grey zone.\" Shadow AI incidents cost, on average, $670,000 more than…",
+    "summary": "77% of organizations now have AI agents running in production. The adoption curve is steep. The governance curve is not. Agents operate over-permissioned and often without full security sign-off. \"Organizations must broaden the extent of AI governance in the operational realm.\"1 Shadow AI incidents cost, on average,…",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
+      "ai-governance",
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 55
   },
   {
     "id": "43068f7201e794326a13dba4fcd7a20d5a4b92d0276538f6bd98afcbc9255801",
@@ -5258,7 +5442,7 @@
       "post-quantum-cryptography"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "49ee98cab32daf8a0a540f53cce521086082c4f44c7b80deda63bd8e17d22114",
@@ -5425,7 +5609,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "4b5f6594fe2db45cb60236b7ac5cb42e2d6063dd5a82c816ab8192228c3b6807",
@@ -5735,7 +5919,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "51a4fda315b1b66916d0e723805121968869d0decd9b48acf1bbf3435c8c663d",
@@ -5826,6 +6010,35 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 9
+  },
+  {
+    "id": "5286fa39536e7990146abbf271357cfa7aa9590536f2439c464c5318fa60cfe1",
+    "title": "The AI economy: Interconnected forces, feedback loops, and speeds of change",
+    "url": "https://www.mckinsey.com/mgi/our-research/the-ai-economy-interconnected-forces-feedback-loops-and-speeds-of-change",
+    "canonicalUrl": "https://www.mckinsey.com/mgi/our-research/the-ai-economy-interconnected-forces-feedback-loops-and-speeds-of-change",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "AI is shaped by forces far beyond the technology itself, and its effects reach just as widely. Mapping how the pieces interact helps us see what could influence its course and where hurdles and opportunities may emerge.",
+    "language": "en",
+    "tags": [
+      "Research",
+      "High Tech & Internet",
+      "McKinsey Global Institute",
+      "Generative AI",
+      "Managing in Uncertainty",
+      "MGI Research"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "generative-ai"
+    ],
+    "relevanceScore": 48
   },
   {
     "id": "536151d492263778816ec177eaad429f5a9d93a8f5724384254408d3069031fb",
@@ -6183,7 +6396,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 58
+    "relevanceScore": 55
   },
   {
     "id": "588327545256385caee6f688afdf078c7b2477c82a7b252f8071197de25d1998",
@@ -6332,7 +6545,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "5b862f142a978c2bc9c231db7d1f619233dff725581d1c3773bd83cc6b98aeb0",
@@ -6444,7 +6657,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "5cb1b473354c5c3f37882c744077e6d22e54ebbf3b4a0cc7e145612bb4d4bcd2",
@@ -6627,6 +6840,28 @@
     "relevanceScore": 33
   },
   {
+    "id": "5e8fde655b2b563e6279a9f7e8a54a16a408c9ebc6459a92f84a5ead01d8d480",
+    "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T21:40:44.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FMC) software is being actively exploited in attacks. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "5f552c78f38c740f1ca9f0aa13e7d4e786d3e1c7d7176b90d50d5fa5ed78cab3",
     "title": "Dennis Lutz",
     "url": "https://www.lek.com/authors/dennis-lutz",
@@ -6735,7 +6970,8 @@
     "tags": [
       "AI",
       "Privacy",
-      "Apple"
+      "Apple",
+      "Apple Watch"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -6824,6 +7060,30 @@
       "devsecops"
     ],
     "relevanceScore": 43
+  },
+  {
+    "id": "620c0bf550f9932326f9bb4c4a6d575860063d760a586c07ad0cf91215dae52b",
+    "title": "Beyond the benchmark: How an adaptive AI approach drives scientific discovery",
+    "url": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
+    "canonicalUrl": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-09T22:01:44.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "The post Beyond the benchmark: How an adaptive AI approach drives scientific discovery appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "AI"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 50
   },
   {
     "id": "622f240f1086c8d3b089fb9bcf166ae86178da5db9c2266c4bcbc7b60c3397d7",
@@ -7007,7 +7267,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "635d9a707f92afbc7c5cd3de254293a7e151cc809851a73b234843bafdb99b3c",
@@ -7238,7 +7498,7 @@
       "threat-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 27
   },
   {
     "id": "6603960865f5a3fd34064d24ecbbd04d5d3185e04d4543e3773916e8db3f78a4",
@@ -7692,6 +7952,27 @@
     "relevanceScore": 30
   },
   {
+    "id": "6c9eabae693198ccfb97627177fb1afaf5e4ff28cba97259632da38b7f83b87d",
+    "title": "Chinese researchers find egg-cellent way to keep space debris from scrambling craft",
+    "url": "https://www.theregister.com/offbeat/2026/09/09/chinese-researchers-find-egg-cellent-way-to-keep-space-debris-from-scrambling-craft/5295340",
+    "canonicalUrl": "https://www.theregister.com/offbeat/2026/09/09/chinese-researchers-find-egg-cellent-way-to-keep-space-debris-from-scrambling-craft/5295340",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T16:56:41.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Eggy armor cuts projectile speed in simulations as LEO gets increasingly crowded",
+    "imageUrl": "https://image.theregister.com/?imageId=5295348&width=800",
+    "language": "en",
+    "tags": [
+      "offbeat"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "6d0b9fa3d7399ffb9fb4d22c215998ec8e833ff72ed48cd7bd4d975ddb58ee2b",
     "title": "Tape still isn’t dead, but shipments slipped by 16 exabytes in 2025",
     "url": "https://www.theregister.com/storage/2026/09/02/tape-still-isnt-dead-but-shipments-slipped-by-16-exabytes-in-2025/5293813",
@@ -7846,6 +8127,31 @@
     "relevanceScore": 25
   },
   {
+    "id": "6e8fcd1cc3d8fe632bcc39bcf4e4fdc6a9bc3d6bbda67b06f17c3f3dd964b6c6",
+    "title": "How AI is transforming media and entertainment through orchestrated intelligence",
+    "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/media-and-entertainment/2026/09/08/how-ai-is-transforming-media-and-entertainment-through-orchestrated-intelligence/",
+    "canonicalUrl": "https://www.microsoft.com/en-us/microsoft-cloud/blog/media-and-entertainment/2026/09/08/how-ai-is-transforming-media-and-entertainment-through-orchestrated-intelligence",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-09T22:17:46.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "The post How AI is transforming media and entertainment through orchestrated intelligence appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Work & Life"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 50
+  },
+  {
     "id": "6ebb4ea854642f3307a74cb70fd11c530d16d6317481534fed6aba34262d5a4c",
     "title": "The hinge for Apple’s new foldable phone was built with AI",
     "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
@@ -7862,7 +8168,8 @@
       "AI",
       "Apple",
       "Duo",
-      "phones"
+      "In Brief",
+      "iPhone"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -7993,6 +8300,31 @@
       "Colossal Biosciences",
       "nvidia",
       "TechCrunch Disrupt"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
+  },
+  {
+    "id": "7110db8bb43e62cbc1456def7aacd1d259d9146f09ce2c6333a686bb9429c38a",
+    "title": "OpenAI adds a prominent AI doomer to its board of directors",
+    "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T22:25:22.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "OpenAI"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -8202,7 +8534,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "733c36767b10aa780d58b7c473de6b0b6d51d0e7a2d95e382210282bf61dc8a9",
@@ -8338,7 +8670,6 @@
     "tags": [
       "Apps",
       "Hardware",
-      "TC",
       "Apple",
       "Apple Watch"
     ],
@@ -8463,6 +8794,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "7752722ed52d2dce7239b0d629a361024da6f081319789fc77d201b4bc34f8c8",
+    "title": "Samsung to help fortify OpenAI's semiconductor supply chain",
+    "url": "https://www.theregister.com/systems/2026/09/09/samsung-to-help-fortify-openais-semiconductor-supply-chain/5295374",
+    "canonicalUrl": "https://www.theregister.com/systems/2026/09/09/samsung-to-help-fortify-openais-semiconductor-supply-chain/5295374",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T20:18:35.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Semiconductor supply chains are hard, but Samsung offers OpenAI relief in many forms spanning compute and memory",
+    "imageUrl": "https://image.theregister.com/?imageId=230443&width=800",
+    "language": "en",
+    "tags": [
+      "systems"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "77a2412a7854a80789d9bff3a4809936fdaad0cde9bc6e0f36d163d087883714",
@@ -9130,7 +9482,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8335331bc7576864bb0f86b549333f9b724fd1e56f57ea59d3d0500e3903dd29",
@@ -9319,7 +9671,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "860678a3ab989e20ee5a73aedeb4259e6c2e94bfad0b4165e6096640e7272704",
@@ -10014,7 +10366,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "913b60107f8ba5c8335c86a194f4bdfdbc5e1727e0e4e8639663c55bf94110fa",
@@ -10585,7 +10937,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "9772983faa9346995a5e6386eb7903e04b98433140fdff862256267dd1b69017",
@@ -10826,7 +11178,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "9a31512407c0fa03cf886c89b99c8bf03300bb0ae52bdb2fe55aa860654cd4b1",
@@ -11207,7 +11559,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "9e2bb55a25f845b8f699fb3353b9d14a2f1a7b899f84e0d6ce8d706e98247bcb",
@@ -11388,7 +11740,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "9fe0a5b020907206bd3962c5a7b1f3dab3ec5b11c83be154c68e4a83ccb3156d",
@@ -11539,7 +11891,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "a153ea88dde0043c70eec86f081e728a1d352588922ad6ea21289061e24619cc",
@@ -11785,7 +12137,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "a4a0601f1f87b20e4be18ed751f2cc31ca646819d9626dd5439c2eb5f7e48f83",
@@ -11813,7 +12165,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 43
+    "relevanceScore": 41
   },
   {
     "id": "a51469f3f56e800725d1ff8d26ac170a18722094e7eeb934a387a831234cf0ff",
@@ -11924,7 +12276,7 @@
       "digital-sovereignty"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 58
+    "relevanceScore": 55
   },
   {
     "id": "a6bb5de4dffbc87523da53f95f470934102b69309b86b27741cf52a1783176cd",
@@ -11943,7 +12295,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "a714f833a62771f0b9ccf02d789af4897642681acea5aaa18aef796d3fb637f8",
@@ -12027,7 +12379,29 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 47
+    "relevanceScore": 44
+  },
+  {
+    "id": "a7c183de5112de4747c23486d7487a321f4ddb9d54d97fdfcde71054c47a0d6e",
+    "title": "The AI policy window is open. We need to act.",
+    "url": "https://openai.com/index/ai-policy-window",
+    "canonicalUrl": "https://openai.com/index/ai-policy-window",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-09-09T13:00:00.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+    "language": "en",
+    "tags": [
+      "Global Affairs"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 50
   },
   {
     "id": "a7cb8b62006892d484b7cd567ecfe729590e12bf846610d13a8b6d2ca7339202",
@@ -12274,7 +12648,7 @@
       "artificial-intelligence",
       "cybersecurity"
     ],
-    "relevanceScore": 95
+    "relevanceScore": 92
   },
   {
     "id": "a9e1ba98c5e21caaa49e03d42af24559e144550061215ba0f77208ced54bed21",
@@ -12689,6 +13063,33 @@
     "relevanceScore": 11
   },
   {
+    "id": "b0124931f3e2a5a752184e4813f01f6b8ee29ea3172980eb77dfe8e8eaf7d945",
+    "title": "Massachusetts hits data centers with new clean power rules",
+    "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T21:43:34.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Massachusetts has become the third state in as many months to slap new restrictions on data center development.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Climate",
+      "Government & Policy",
+      "clean energy",
+      "data centers",
+      "massachusetts"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "b042558e6f41900443b2c0ada1d697519a56e1ad30edb7640766a50e67005d45",
     "title": "The Next Generation of Manufacturing Is Measured in Thousands of Decisions",
     "url": "https://blogs.cisco.com/industries/the-next-generation-of-manufacturing-is-measured-in-thousands-of-decisions",
@@ -12820,7 +13221,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "b1ce0be83d0e6c5eb6cf149e6b7ee36dd05b7d9a542bad9ab820474fa16e407f",
@@ -13069,7 +13470,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "b5898210effe4127fb3cc67dab35549e313450239ca992567699fd0d5e575876",
@@ -13438,7 +13839,7 @@
   },
   {
     "id": "bae82101da504d8daef5132fc60d0c762f222e78ec2138269f70786d75b95cad",
-    "title": "継続的脆弱性評価の導入：AI脅威時代に向けたリアルタイム防御",
+    "title": "Introducing Continuous Vulnerability Assessment: Real-Time Defense for the AI Threat Era",
     "url": "https://www.wiz.io/blog/introducing-cva",
     "canonicalUrl": "https://www.wiz.io/blog/introducing-cva",
     "sourceId": "wiz-blog",
@@ -13447,13 +13848,15 @@
     "sourceCategory": "cybersecurity",
     "publishedAt": "2026-09-01T10:54:43.000Z",
     "discoveredAt": "2026-09-01T11:42:28.866Z",
-    "summary": "Wiz CVA を使用して、新しい脆弱性が公開された瞬間にその露出を検出します",
+    "summary": "Detect exposure to new vulnerabilities the moment they are published with Wiz CVA",
     "imageUrl": "https://www.datocms-assets.com/75231/1788259511-png-2x.png",
     "language": "en",
     "tags": [],
-    "matchedKeywordIds": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
     "tagMatchedIds": [],
-    "relevanceScore": 7
+    "relevanceScore": 29
   },
   {
     "id": "bb17e6a067327b94f032e0d73ce074f6d1a041b060f9f43125a7e045aaff8073",
@@ -14381,7 +14784,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "c737c38e145ea787015c0717981e4baffdf420b47c1a81e1e3ce311d7445c5de",
@@ -14948,7 +15351,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "cde4dddb87c69b165cbfee2ba49d9ed8b7f1d59169a5653d6d0404c5a215b51d",
@@ -15197,6 +15600,27 @@
     "relevanceScore": 24
   },
   {
+    "id": "d244d5806739a7a3de164192bbdfe3554ec25aa2bcbf66583144a7a66fbbdc5c",
+    "title": "GitHub availability report: August 2026",
+    "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+    "canonicalUrl": "https://github.blog/news-insights/company-news/github-availability-report-august-2026",
+    "sourceId": "github-blog",
+    "sourceName": "The GitHub Blog",
+    "company": "GitHub",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-10T02:05:17.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog.",
+    "language": "en",
+    "tags": [
+      "News & insights",
+      "GitHub Availability Report"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
+  },
+  {
     "id": "d26d39f64cebf52d4170ac9b85fa2c662156e1075328be38ff395abb1ddcdd5f",
     "title": "Beyond Zero: Google Publishes Successor to BeyondCorp",
     "url": "https://www.infoq.com/news/2026/09/google-beyond-zero/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -15296,7 +15720,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
@@ -15442,7 +15866,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "d50e1a539d392e7667d81f77e9e5c505183cc9f1d1b8038016fa641d6fbb9c80",
@@ -15486,7 +15910,9 @@
     "language": "en",
     "tags": [
       "AI",
-      "Apple"
+      "Apple",
+      "iPhone",
+      "John Ternus"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -15958,7 +16384,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "dade143cbf0ab6c9429be74c46397e1aa304cf5d500d62a7d926191bdb574956",
@@ -16075,6 +16501,30 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 8
+  },
+  {
+    "id": "dd874079a9f6f32569dfff57e65a72f219ee52c51d31ae36eabeb9a7405b5809",
+    "title": "Automattic’s board forces CEO Matt Mullenweg into leave of absence",
+    "url": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T23:14:29.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Mullenweg said in a company Slack message that it was against his will.",
+    "language": "en",
+    "tags": [
+      "Apps",
+      "Commerce",
+      "TC",
+      "Automattic",
+      "WordPress"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "ddc684450f70983e5e30e76ee67df634ac8a55ee79a992195d05451cd1d13740",
@@ -16834,6 +17284,27 @@
     "relevanceScore": 48
   },
   {
+    "id": "e65c66d0e8a96b3bbd346ff50b9013832b7fb7d844c1f0b97bc76ee28b4fe898",
+    "title": "Google takes the nuclear option for €13B Finland expansion",
+    "url": "https://www.theregister.com/on-prem/2026/09/09/google-takes-the-nuclear-option-for-13b-finland-expansion/5295306",
+    "canonicalUrl": "https://www.theregister.com/on-prem/2026/09/09/google-takes-the-nuclear-option-for-13b-finland-expansion/5295306",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T16:00:00.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "22-year power deal covers up to half of Loviisa plant's capacity, with wind and battery projects alongside",
+    "imageUrl": "https://image.theregister.com/?imageId=4093872&width=800",
+    "language": "en",
+    "tags": [
+      "on-prem"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "e664dd95ce75788cdacb62a44e102f84b3052e075707032753d92f4337454507",
     "title": "World Tax Advisor",
     "url": "https://www.deloitte.com/global/en/services/tax/perspectives/world-tax-advisor.html",
@@ -17344,6 +17815,28 @@
     "relevanceScore": 16
   },
   {
+    "id": "ecb7b3b5a72aad6ea25da37dd09aa300662b0f1beaf61c7f0dc11625878e818b",
+    "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+    "url": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T21:02:14.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "ed2c10131fea310475ea12acc880ab9bdeb7f39222927a880955bcf9126ff3ca",
     "title": "Amazon-branded plane in fatal accident at Miami Airport",
     "url": "https://www.theregister.com/on-prem/2026/09/07/amazon-branded-plane-in-fatal-accident-at-miami-airport/5294707",
@@ -17685,6 +18178,29 @@
     "relevanceScore": 16
   },
   {
+    "id": "f5083bd242195c5fed8c0876d3acc232d56880f3ae2ff0860324e9a2ca313a7e",
+    "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T21:30:36.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
+    "language": "en",
+    "tags": [
+      "Security",
+      "Healthcare"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "f56a0cfdb446cd2a4728470e0e741b91add4a2d2f27641cf8fda9a66f4c0f4f6",
     "title": "GoPro to be acquired for $285M, will remain a public company",
     "url": "https://techcrunch.com/2026/09/01/gopro-to-be-acquired-for-285m-will-remain-a-public-company/",
@@ -17785,7 +18301,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "f730ebb3d1765f368440168e04c635aaa5d031e754075b8553f54b4220383507",
@@ -18040,6 +18556,29 @@
     "relevanceScore": 13
   },
   {
+    "id": "fa0b23be3d062d354fe9e8dc9837dfb8250751d04db5da795d42eff46a62a49b",
+    "title": "Serial Microsoft 0-day hunter drops yet another Defender exploit",
+    "url": "https://www.theregister.com/security/2026/09/09/serial-microsoft-0-day-hunter-drops-yet-another-defender-exploit/5295335",
+    "canonicalUrl": "https://www.theregister.com/security/2026/09/09/serial-microsoft-0-day-hunter-drops-yet-another-defender-exploit/5295335",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T17:23:00.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "A bypass of a bypass of a bypass",
+    "imageUrl": "https://image.theregister.com/?imageId=4094178&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
+  },
+  {
     "id": "fa46470730443bec810ec61f30dd50760d8aa80bf6ed717b5e8d7819b7819118",
     "title": "Tether: Apple Continuity Like Experience between iOS and Linux Desktop Machines",
     "url": "https://www.infoq.com/news/2026/09/apple-continuity-linux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -18198,6 +18737,29 @@
     "relevanceScore": 11
   },
   {
+    "id": "faf557c7e4dfa6d509eb5dc78ebd3293329267f721d9c35689e892d87c61aa56",
+    "title": "Apple’s new CEO is reviving a Steve Jobs strategy from 25 years ago",
+    "url": "https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T20:58:09.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "John Ternus made the case in his first keynote as Apple CEO that the iPhone isn't going anywhere.",
+    "language": "en",
+    "tags": [
+      "Hardware",
+      "Apple",
+      "iPhone",
+      "John Ternus"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "faf84ca7f82a479d9eaac7f26390746dba546d34f13724777a0cc37776a7fef8",
     "title": "How to secure hybrid meeting rooms without sacrificing user experience",
     "url": "https://www.theregister.com/security/2026/09/08/sponsored-how-to-secure-hybrid-meeting-rooms-without-sacrificing-user-experience/5294440",
@@ -18219,6 +18781,29 @@
       "cybersecurity"
     ],
     "relevanceScore": 12
+  },
+  {
+    "id": "fb121ba1e0397668ec46f82ae90b368650dd5e60e860d1e0256e4946c96cabe6",
+    "title": "Novel Blue Moon kit targeting Chrome and Windows reflects new reality of AI-driven exploits",
+    "url": "https://www.theregister.com/research/2026/09/09/novel-blue-moon-kit-targeting-chrome-and-windows-reflects-new-reality-of-ai-driven-exploits/5295399",
+    "canonicalUrl": "https://www.theregister.com/research/2026/09/09/novel-blue-moon-kit-targeting-chrome-and-windows-reflects-new-reality-of-ai-driven-exploits/5295399",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-09T22:28:53.000Z",
+    "discoveredAt": "2026-09-10T04:46:45.950Z",
+    "summary": "Mind the patch gap, please and thank you",
+    "imageUrl": "https://image.theregister.com/?imageId=5295408&width=800",
+    "language": "en",
+    "tags": [
+      "research"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 37
   },
   {
     "id": "fb48d4e693b8b28b0363b1e66cb69242ea0456763962ea7e2cc3842dd13003c3",
@@ -18467,6 +19052,7 @@
     "language": "en",
     "tags": [
       "Gadgets",
+      "Apple",
       "Apple Event",
       "iPhone 18"
     ],
@@ -18561,7 +19147,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "ff062da44f82e3bad1cfb00d0a4a03a82f9f05b02e8fcbf8dc0a83ef9e5bf48e",
