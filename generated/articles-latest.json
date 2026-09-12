@@ -44,6 +44,93 @@
     "trendScore": 80
   },
   {
+    "id": "c6032d8b77e31a9fdf96a05312979a6a2dc8d5f8fadb99dea21acd3c9fd3f1d2",
+    "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+    "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-12T14:14:32.000Z",
+    "discoveredAt": "2026-09-12T15:34:11.167Z",
+    "summary": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
+    "language": "en",
+    "tags": [
+      "Security",
+      "Government"
+    ],
+    "matchedKeywordIds": [
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 33,
+    "trendScore": 51
+  },
+  {
+    "id": "e8a2e96aea49ba0ccb9da6280a054eec3ad1918fbd5e89c9ea794a9524049166",
+    "title": "Presentation: From Retrieval to Reasoning: Building Production-Ready Agentic AI Systems with Knowledge Graphs",
+    "url": "https://www.infoq.com/presentations/knowledge-graphs-agentic-systems-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/presentations/knowledge-graphs-agentic-systems-patterns",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-12T11:00:00.000Z",
+    "discoveredAt": "2026-09-12T15:34:11.167Z",
+    "summary": "Cassie Shum discusses why knowledge graphs serve as a critical foundation for agentic systems. Moving beyond basic RAG, she explains 4 practical architectural patterns: context bundling, decision provenance, code as truth, and agent visibility. She demonstrates an engineering harness built on a knowledge graph to…",
+    "imageUrl": "https://res.infoq.com/presentations/knowledge-graphs-agentic-systems-patterns/en/mediumimage/cassie-shum-medium-1788338916792.jpeg",
+    "language": "en",
+    "tags": [
+      "Large language models",
+      "Transcripts",
+      "Agents",
+      "Agentic AI Architecture",
+      "Retrieval-Augmented Generation",
+      "QCon AI Boston 2026",
+      "Architecture & Design",
+      "Development",
+      "AI",
+      "ML & Data Engineering",
+      "presentation"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 52,
+    "trendScore": 80
+  },
+  {
+    "id": "d66479afd965673d3489c296ef999ffbeeaee9e247c41fe7d553a4d56eeb46fa",
+    "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+    "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-12T10:24:44.000Z",
+    "discoveredAt": "2026-09-12T15:34:11.167Z",
+    "summary": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organization using it, from developers running…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx03NP3tJYBFro8_pZ2g6irfvMJFy0HGYqvUu9kkRJZBnMJ-BcA9aWGZZ1vS4a71YOgpB5qLBDkoNnMyOBJXGhfsyQQMK0IgaGunMOUTLnFUSFddG_5NwlnXsUCWJpGh3bGOcWLHpxXTAqv0i4QAYyRZPXcm0Rcp5K9Yfc7o7SEeLZXNtGp3NZVMzlv1M/s1600/in.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 48,
+    "trendScore": 80
+  },
+  {
     "id": "f05890c0a6ffeeaa8052a314a8ec36a82f351ccab9309b2c97f40414913d9ead",
     "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
     "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
@@ -80,10 +167,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/rustls-one-decade/en/headerimage/generatedHeaderImage-1789195676316.jpg",
     "language": "en",
     "tags": [
-      "Rust",
       "Memory Safety",
-      "Memory Leaks",
       "Security",
+      "Rust",
+      "Memory Leaks",
       "Development"
     ],
     "matchedKeywordIds": [
@@ -486,14 +573,14 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/nvidia-pair-ai-task-router/en/headerimage/nvidia-ingest-1789135586036.jpeg",
     "language": "en",
     "tags": [
-      "Open Source",
-      "Large language models",
       "GPU",
-      "Agents",
+      "Large language models",
       "Orchestration",
       "Performance",
-      "Development",
+      "Agents",
+      "Open Source",
       "Architecture & Design",
+      "Development",
       "AI",
       "ML & Data Engineering"
     ],
@@ -505,7 +592,7 @@
       "artificial-intelligence",
       "generative-ai"
     ],
-    "relevanceScore": 46,
+    "relevanceScore": 43,
     "trendScore": 80
   },
   {
@@ -527,7 +614,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33,
+    "relevanceScore": 30,
     "trendScore": 80
   },
   {
@@ -551,7 +638,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37,
+    "relevanceScore": 34,
     "trendScore": 80
   },
   {
@@ -573,7 +660,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33,
+    "relevanceScore": 30,
     "trendScore": 80
   },
   {
@@ -598,7 +685,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 48,
+    "relevanceScore": 45,
     "trendScore": 80
   },
   {
@@ -622,7 +709,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32,
+    "relevanceScore": 29,
     "trendScore": 80
   },
   {
@@ -720,8 +807,8 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/linkedin-ai-multi-teacher/en/headerimage/generatedHeaderImage-1789047107399.jpg",
     "language": "en",
     "tags": [
-      "Agentic AI Architecture",
       "Large language models",
+      "Agentic AI Architecture",
       "Artificial Intelligence",
       "AI",
       "ML & Data Engineering"
@@ -774,11 +861,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/observability-ai-agents/en/headerimage/header-1788722438219.jpeg",
     "language": "en",
     "tags": [
+      "Observability",
+      "Agents",
+      "OpenTelemetry",
       "Monitoring",
       "Artificial Intelligence",
-      "OpenTelemetry",
-      "Agents",
-      "Observability",
       "DevOps",
       "AI",
       "ML & Data Engineering"
@@ -1272,12 +1359,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/openai-gpt6-astra/en/headerimage/generatedHeaderImage-1789052348407.jpg",
     "language": "en",
     "tags": [
-      "Large language models",
-      "Artificial Intelligence",
-      "ChatGPT",
       "OpenAI",
+      "Large language models",
       "Anthropic",
       "Agents",
+      "Artificial Intelligence",
+      "ChatGPT",
       "AI",
       "ML & Data Engineering"
     ],
@@ -1290,7 +1377,7 @@
       "generative-ai"
     ],
     "relevanceScore": 28,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "2d4b75c49a05c7dbc8837ba5931e2843317e02a7e710181cce2868f8c28ec231",
@@ -2119,7 +2206,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "380d2490c1a7722688d9650ead15f190d6669492aa295ec1e344bd5c86ca3937",
@@ -2193,7 +2280,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 56,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "1fc0a5748557c973684b7575b42b5cb198116b83f3a87901b1e5ad795a7d2c91",
@@ -2260,12 +2347,12 @@
     "imageUrl": "https://res.infoq.com/articles/when-spec-driven-development-pays-off/en/smallimage/When-Spec-Driven-Development-Pays-Off-thumb-1788790605567.jpg",
     "language": "en",
     "tags": [
-      "AI Development",
-      "Artificial Intelligence",
-      "Spec Driven Development",
-      "Generative AI",
-      "AI Assisted Coding",
       "AI Coding",
+      "AI Development",
+      "Spec Driven Development",
+      "AI Assisted Coding",
+      "Generative AI",
+      "Artificial Intelligence",
       "AI",
       "ML & Data Engineering",
       "article"
@@ -2894,7 +2981,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "ba7ede22b6790851dcbae97dabfa6984fa9e5c7be0c5b41f6a7126b05de52960",
@@ -3372,7 +3459,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 46,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "e1d73fb27f6490798685446f63f282df602d477cb6e1525b6913e1ab00e04edf",
@@ -3532,7 +3619,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 35,
+    "relevanceScore": 32,
     "trendScore": 80
   },
   {
@@ -3554,7 +3641,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45,
+    "relevanceScore": 42,
     "trendScore": 80
   },
   {
@@ -3702,7 +3789,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47,
+    "relevanceScore": 44,
     "trendScore": 80
   },
   {
@@ -3724,7 +3811,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45,
+    "relevanceScore": 42,
     "trendScore": 80
   },
   {
@@ -3822,7 +3909,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45,
+    "relevanceScore": 42,
     "trendScore": 80
   },
   {
@@ -3981,7 +4068,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "3bfcc9ef73e9cf9d71e957768018beb91355ca8bc64c97be0f2acc2a0df89c0e",
@@ -4570,7 +4657,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "8a20aa410b6035c11169151b3bd8efa1e8f6ddfe8c182392a541d1f4f3b1f618",
@@ -4654,7 +4741,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 33,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "b43c7ae2df8c0568b8c8d31782ba40b4388e8b6f4300e3d3979800c42b4ec52d",
@@ -5099,7 +5186,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "e86ab3178a021af956c03dde5896b1779a2ce18955b68a8755f9cc547b115bbb",
@@ -5435,7 +5522,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "a34e4567fa7a89bde8a5f544330a15ce7c55d7c9bbdd741c31924265d7c857cb",
@@ -5489,7 +5576,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "24d56919cba73a5c6b6a6f6bf13aa24a0bf3e2f5069d0aca36e253aa95ccc781",
@@ -5588,7 +5675,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "bd8695205cbf7b3e122b1fed9aad3ff7c536da1bbe1d2e8e383e50a3d34b020e",
@@ -5670,7 +5757,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "56ea1d87e070cf9a4df29a88c3520ed9897d596f5b6f8bf35c549ff6b1adb01a",
@@ -7286,7 +7373,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "826294d11fc32c2c7dea0a14a39fd2df9bf54f78904b2b12fad0c8dd522476d9",
@@ -7645,7 +7732,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "28b73ab0049071506ea9029b461b823e9fb5f1de93c7b1ade20bc678320360d2",
@@ -7788,7 +7875,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "39210f987919e80e66f6bbb1aa542144273fd98d678c04dcbe26ae133654195a",
@@ -7811,7 +7898,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "6d73ec2f5edc8cf06924018bbbd5c6c3505d2e4454c51389fee029fa6715ffd4",
@@ -8803,7 +8890,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "c8495c6f92a37d5a5b48e96d7a7d0979d2c21b80d1bcc12d40a487c680c777d5",
@@ -9158,7 +9245,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 41,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "11e7c4e73d4260d3e1ca9bbe635e55db9ab64bbc6610dd2de5ffe2fed576f875",
@@ -9350,7 +9437,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "875aa4802675c4e1eaa348fe397869c70cbcc74e91fa3fe6f67d04db4705b1e7",
@@ -9828,7 +9915,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "0180f27638db0a711ddf77009d607f8c75391bd09b6377818d9885cdc128038d",
@@ -9969,7 +10056,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "5395a41fccccd186134c70e702b50e8c1748e9fdd82e36f3eafdaf9c0a954fd0",
@@ -10976,7 +11063,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "e22bc3b64137eeff8bfd2e77755b95b70cde2d729aafbcdb68de23065577b2b7",
@@ -11629,7 +11716,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "98b406209eee91a2fa774f9b7b80cdb41d08743c2f5a544faf0d341bcb6576d6",
@@ -11963,7 +12050,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "9ef134c66a5565349f262358941bc45f48518dc3129233f9b2968490ac4be2df",
@@ -11985,7 +12072,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "c6b9453012ff5ded4851d365663dc45b7a42196fd1d22e6e3d592a7b1485fa9f",
@@ -12055,7 +12142,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "42a9ed8bff67d38a3cbe29dd903b16cc41691a73f14350d8f9b5ac2864d42bb4",
@@ -12198,7 +12285,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "0c24a3ca3dcbcabd911430eaadb35b84e906d02f0409ed9e863e10499e9e22b7",
@@ -12455,7 +12542,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "563bea755a9e7d51a0877c0e287eb9676fc16f569acc5b25b8b728b06d589b53",
@@ -12581,7 +12668,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 39,
-    "trendScore": 50
+    "trendScore": 51
   },
   {
     "id": "48ec8498310e0c09eece66f6cb2e25559416624faceb62058193eb25de2e5612",
@@ -12762,89 +12849,6 @@
       "cybersecurity"
     ],
     "relevanceScore": 46,
-    "trendScore": 50
-  },
-  {
-    "id": "5c0b792c21c1cd64d2b229c910b954df12e61ce355b8106ea96c60a733db926f",
-    "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-    "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-    "canonicalUrl": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai",
-    "sourceId": "techcrunch",
-    "sourceName": "TechCrunch",
-    "company": "TechCrunch",
-    "sourceCategory": "media",
-    "publishedAt": "2026-08-27T17:43:24.000Z",
-    "discoveredAt": "2026-08-27T22:17:41.733Z",
-    "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
-    "language": "en",
-    "tags": [
-      "AI",
-      "Anthropic",
-      "cybersecurity",
-      "Google",
-      "Microsoft",
-      "OpenAI"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence",
-      "cybersecurity"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence",
-      "cybersecurity"
-    ],
-    "relevanceScore": 58,
-    "trendScore": 80
-  },
-  {
-    "id": "d7df7f126e85f1e9ff2a23d1c35a7b503aeefa42cb605d3f08842b90dc85a57f",
-    "title": "Microsoft and DepEd partner to bring AI tools to 1 million teachers across the Philippines",
-    "url": "https://news.microsoft.com/source/asia/2026/08/27/deped-and-microsoft-partner-to-advance-philippine-education-in-the-ai-era-equip-1m-teachers-with-microsoft-copilot/",
-    "canonicalUrl": "https://news.microsoft.com/source/asia/2026/08/27/deped-and-microsoft-partner-to-advance-philippine-education-in-the-ai-era-equip-1m-teachers-with-microsoft-copilot",
-    "sourceId": "microsoft-blog",
-    "sourceName": "Microsoft Source",
-    "company": "Microsoft",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-08-27T17:33:41.000Z",
-    "discoveredAt": "2026-08-27T22:17:41.733Z",
-    "summary": "The post Microsoft and DepEd partner to bring AI tools to 1 million teachers across the Philippines appeared first on Source.",
-    "language": "en",
-    "tags": [
-      "AI",
-      "Customers",
-      "Education"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 44,
-    "trendScore": 80
-  },
-  {
-    "id": "44f0ab86e9cd174f4667c3035f874c53e689cebdc2fb35a5aa667c9854125e43",
-    "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
-    "url": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
-    "canonicalUrl": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
-    "sourceId": "darkreading",
-    "sourceName": "Dark Reading",
-    "company": "Dark Reading",
-    "sourceCategory": "media",
-    "publishedAt": "2026-08-27T17:25:09.000Z",
-    "discoveredAt": "2026-08-27T22:17:41.733Z",
-    "summary": "This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and security research.",
-    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltce924127fd8e0803/6a8f2fc0c3a51d86ffd17b48/Digital_Cat-Getty.jpg?width=720&quality=80&disable=upscale",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "agentic-ai",
-      "artificial-intelligence",
-      "cybersecurity"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 65,
-    "trendScore": 80
+    "trendScore": 51
   }
 ]
