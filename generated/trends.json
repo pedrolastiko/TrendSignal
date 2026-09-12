@@ -208,28 +208,28 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 72,
+    "score": 71,
     "status": "emerging",
-    "articleCount": 32,
-    "previousArticleCount": 57,
-    "growthRate": -44,
-    "distinctSourceCount": 14,
+    "articleCount": 27,
+    "previousArticleCount": 53,
+    "growthRate": -49,
+    "distinctSourceCount": 11,
     "leadingSourceIds": [
-      "theregister",
       "techcrunch",
+      "theregister",
       "darkreading"
     ],
     "relatedArticleIds": [
       "87afd4053f40cc62d40ce2f3d3b7cd6ed9d0e67ce8aa10822cde71dc11ccd635",
       "f232a487313bc0e73fb1c1f9d03b3aad553e127de1efaf57c33a01439040920c",
-      "01135df4bbfb058a29bd37d7a231ac8bcf0c37b3a3760c34d800ef046de8a53b",
       "223c811be8738dde267a90f4b4e92f2f9afa90016d6aca56dcfe99598e57f230",
       "172bd91cec085ff3927d1bcc282e836d563c762c269798ff05f2e4843ff7eeb5",
       "ea6f643c4a852008ec44e96aac0793ca9121fcca6bd72f6abad20a97241cba33",
       "ec242e7e40e92d80c3814ee71aa6edaf0eea9910e0e1185a5cd9e05ae3368729",
       "3c8d9734ba4d6685c4cf24b09d3e845493640942eb1b888a16e544cf4a4d4230",
       "fa4f4d6db04213aa3234d930a39ec9d961811d4ed0d5f3c04ce27952f8ab8cce",
-      "e0ff843d8073bbe1ef3460c8e0cf84b651d95fdceed80950d6c07f3d466fb93d"
+      "0475ff4a03ec30313a0347e45a1609701ab0d6fba53678bf73998c7964e446e7",
+      "07ab03e7abc51c99cd38483f4e5eb46ff44485ff95959d1eac469eb252bd1515"
     ]
   },
   {
@@ -239,9 +239,9 @@
     "timeframe": "30d",
     "score": 93,
     "status": "breakout",
-    "articleCount": 747,
-    "previousArticleCount": 141,
-    "growthRate": 430,
+    "articleCount": 750,
+    "previousArticleCount": 140,
+    "growthRate": 436,
     "distinctSourceCount": 42,
     "leadingSourceIds": [
       "techcrunch",
@@ -268,8 +268,8 @@
     "timeframe": "7d",
     "score": 79,
     "status": "emerging",
-    "articleCount": 206,
-    "previousArticleCount": 186,
+    "articleCount": 207,
+    "previousArticleCount": 187,
     "growthRate": 11,
     "distinctSourceCount": 30,
     "leadingSourceIds": [
@@ -411,18 +411,14 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "24h",
-    "score": 18,
+    "score": 0,
     "status": "declining",
-    "articleCount": 1,
+    "articleCount": 0,
     "previousArticleCount": 4,
-    "growthRate": -75,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "mckinsey-insights"
-    ],
-    "relatedArticleIds": [
-      "01135df4bbfb058a29bd37d7a231ac8bcf0c37b3a3760c34d800ef046de8a53b"
-    ]
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "cybersecurity-30d",
@@ -458,11 +454,11 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "7d",
-    "score": 49,
+    "score": 50,
     "status": "rising",
     "articleCount": 18,
-    "previousArticleCount": 16,
-    "growthRate": 13,
+    "previousArticleCount": 15,
+    "growthRate": 20,
     "distinctSourceCount": 7,
     "leadingSourceIds": [
       "thehackernews",
@@ -872,20 +868,19 @@
     "label": "Ransomware",
     "keywordId": "ransomware",
     "timeframe": "24h",
-    "score": 43,
+    "score": 30,
     "status": "stable",
-    "articleCount": 3,
-    "previousArticleCount": 2,
-    "growthRate": 50,
+    "articleCount": 2,
+    "previousArticleCount": 3,
+    "growthRate": -33,
     "distinctSourceCount": 2,
     "leadingSourceIds": [
-      "bleepingcomputer",
-      "thehackernews"
+      "thehackernews",
+      "bleepingcomputer"
     ],
     "relatedArticleIds": [
       "f9a4e0a952b39591000a8eafd43b6ad9d421867fac75d36f40c7a1803055bde5",
-      "788925358fae7cd274992bc2e2d7f9c9ce83ac009ea033be9aebb636002f44e3",
-      "27a25cc2599b060ca5c121f4594989b9dd257644a6fb51ec3270cfa6b40463a5"
+      "788925358fae7cd274992bc2e2d7f9c9ce83ac009ea033be9aebb636002f44e3"
     ]
   },
   {
@@ -1086,11 +1081,11 @@
     "label": "Threat intelligence",
     "keywordId": "threat-intelligence",
     "timeframe": "7d",
-    "score": 24,
-    "status": "declining",
+    "score": 26,
+    "status": "stable",
     "articleCount": 2,
-    "previousArticleCount": 5,
-    "growthRate": -60,
+    "previousArticleCount": 4,
+    "growthRate": -50,
     "distinctSourceCount": 2,
     "leadingSourceIds": [
       "google-cloud-blog",
@@ -1109,8 +1104,8 @@
     "score": 29,
     "status": "stable",
     "articleCount": 1,
-    "previousArticleCount": 1,
-    "growthRate": 0,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 1,
     "leadingSourceIds": [
       "cisco-blogs"
