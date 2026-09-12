@@ -117,7 +117,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "01135df4bbfb058a29bd37d7a231ac8bcf0c37b3a3760c34d800ef046de8a53b",
@@ -318,7 +318,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "024775518112851ac05edff6dfc1d89d0b6a2b38a683a2ac6313c43a77ca7a58",
@@ -541,9 +541,9 @@
       "Orchestration",
       "Performance",
       "Development",
+      "Architecture & Design",
       "AI",
-      "ML & Data Engineering",
-      "Architecture & Design"
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -898,7 +898,7 @@
       "artificial-intelligence",
       "generative-ai"
     ],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "07d47a2f7f2e37713fd5fcb4fea08efb3e6fa232cc8c8da31e37b26f3e7b9a75",
@@ -917,7 +917,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "08a6dd084273587070f7cad316dae99e8c501b3ac723bd15922bdc85fc7f6a54",
@@ -1961,7 +1961,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "11e7c4e73d4260d3e1ca9bbe635e55db9ab64bbc6610dd2de5ffe2fed576f875",
@@ -4561,6 +4561,38 @@
     "relevanceScore": 8
   },
   {
+    "id": "2f1ff45718abe758c8d5aec6c981841a6a9e867efa1117cf6df7f58b76d4e870",
+    "title": "Lambda SnapStart Comes to Container Images, Ending a Packaging Tradeoff",
+    "url": "https://www.infoq.com/news/2026/09/lambda-snapstart-container-image/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/lambda-snapstart-container-image",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-12T10:09:00.000Z",
+    "discoveredAt": "2026-09-12T10:50:48.264Z",
+    "summary": "AWS has extended Lambda SnapStart to container image functions, which hold up to 10 GB against 250 MB for zip archives. Teams previously chose between dependency headroom and sub-second startup. A Reddit thread from a month earlier shows what that cost: stripping whitespace and docstrings from installed packages to…",
+    "imageUrl": "https://res.infoq.com/news/2026/09/lambda-snapstart-container-image/en/headerimage/generatedHeaderImage-1789052932475.jpg",
+    "language": "en",
+    "tags": [
+      "AWS Lambda",
+      "Cloud",
+      "Containers",
+      "Serverless",
+      "Architecture",
+      "AWS",
+      "Performance",
+      "DevOps",
+      "Development",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "devsecops"
+    ],
+    "relevanceScore": 14
+  },
+  {
     "id": "2f431554cf8941b6d5e23fb463406b9128a44f80895ad07be63031fa275a0dbc",
     "title": "Mistral raises €3B as sovereign AI becomes big business",
     "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
@@ -4723,7 +4755,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "3122198cd606613fe27d941690f2c3fca486ae17a66e2a2b1f4c641a0b188b0a",
@@ -5139,7 +5171,7 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "34656d8826695a308c28f6e481d154b516d6ec2d0960c16a097428680bb60c44",
@@ -5364,7 +5396,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "36db5741f74182ae3ba644fc705c2324f330a6b76809c5543ed52e9cd093e3d2",
@@ -5427,7 +5459,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "3784d7aba9718af9aa1923cc7e21d6332b37aba7cf0db2607f02e2b6f30a7e79",
@@ -6492,7 +6524,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "41cfd5817ebb0c2fede8e77b98209f6bd3f78d2c697ee10807550ccfc4f5ad6a",
@@ -6891,7 +6923,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "46660cb2ea4362f69cbd737e0a8565a577f057222260acb4673428a053564622",
@@ -6950,7 +6982,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 18
+    "relevanceScore": 15
   },
   {
     "id": "477525db06fcd5b2926cbbf3efff4560c7a409ba033b5eb566bfa66b39b4de65",
@@ -7519,7 +7551,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "4f77c4aa5a31317f68e1cb0aa1bf3b40f16396389b5874b6795d2a0d4019101b",
@@ -8878,7 +8910,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "5f646a7dedd2b515c53e36896c5f3241b810bdb951cc95bafc53d29c640b510c",
@@ -9628,7 +9660,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "672e5f1a27ac6bddcf4c7809322dffc4a77b083fa0e81e6096af8a88b43762cd",
@@ -10291,7 +10323,7 @@
       "cloud-security"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "6e20652eaa96350c2a97ce9d693ddbed27fc8e4de77a9084eeab4bad4b8ee86a",
@@ -10517,7 +10549,7 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "6f15749b6d6962e8c0766b9a576ebc2e98364b0d5affd3d3a5684b43913b4a54",
@@ -11315,7 +11347,7 @@
       "ransomware"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 49
+    "relevanceScore": 46
   },
   {
     "id": "78bf602e34fda248a081ddd7fbad294590682cd0ce96c789f9461af37ed75d27",
@@ -12121,7 +12153,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8283e6484751557f3100a6b5c098a1fe4fb20b426b7e37a632a89c6a1c8e96eb",
@@ -12586,7 +12618,7 @@
       "artificial-intelligence",
       "devsecops"
     ],
-    "relevanceScore": 72
+    "relevanceScore": 69
   },
   {
     "id": "87cd80e6ad845c4dabcaaa104037699a1e8eeccf439bf8ece32890ff331bae23",
@@ -12649,7 +12681,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "88c164c5127fd77cd529b8b0a73cd7f87352742e3bcefb4018d590c2244894ae",
@@ -12738,7 +12770,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 55
+    "relevanceScore": 52
   },
   {
     "id": "8a0e2780f6893da63c138424a50d19f85e0a89f26073a19638a58c5685b1f3d6",
@@ -13415,7 +13447,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "91693f4f82131d10749076da9f7d485e3b26b2f7f7c5836bfae4cb033cbb163f",
@@ -13951,7 +13983,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "96ebb97ee7caee58a08f7ee5111ace7acfc507f8e9ddd8e0189f35ec7371672b",
@@ -16704,7 +16736,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "af94993ec0dda8143287364e3d0124f7a93cf2320fe816e7048129a49810dba3",
@@ -16899,7 +16931,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "b1a7f32fa724a6f38ed982329c6b36eac4aeab7e8c515bed099295d5e2ff6637",
@@ -17001,7 +17033,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "b2115860adde15fcd9c93cfc0a91a6d3829f54e31d29f1052562c34c64582b05",
@@ -18428,6 +18460,27 @@
     "relevanceScore": 42
   },
   {
+    "id": "c0afd23e10e9400f683a823e933768ee2f760aed22ebd51c1e6e5fa90f4bc5ff",
+    "title": "The aircraft might not be flying, but the certificate has gone on vacation",
+    "url": "https://www.theregister.com/offbeat/2026/09/12/the-aircraft-might-not-be-flying-but-the-certificate-has-gone-on-vacation/5295622",
+    "canonicalUrl": "https://www.theregister.com/offbeat/2026/09/12/the-aircraft-might-not-be-flying-but-the-certificate-has-gone-on-vacation/5295622",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-12T09:00:00.000Z",
+    "discoveredAt": "2026-09-12T10:50:48.264Z",
+    "summary": "Information is not forthcoming from this screen",
+    "imageUrl": "https://image.theregister.com/?imageId=5295625&width=800",
+    "language": "en",
+    "tags": [
+      "offbeat"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "c0e2adb9b15dd5d68fb3cac634ba6eefe9669c1f5e4d7e30587742df794a1585",
     "title": "Zone Redundancy Comes to API Management Standard v2",
     "url": "https://www.infoq.com/news/2026/09/apim-standard-v2-zone-redundancy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -18578,6 +18631,35 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "c2194e4a436669700188a5e3f98e0343432d6b7534eb7d63bc5f4ffcad92853a",
+    "title": "One Decade of Rustls: Evolution, Benchmarks, and Future Roadmap",
+    "url": "https://www.infoq.com/news/2026/09/rustls-one-decade/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/rustls-one-decade",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-12T07:07:00.000Z",
+    "discoveredAt": "2026-09-12T10:50:48.264Z",
+    "summary": "Rustls, a Rust TLS library, marks its decade-long progression from a grassroots project to a funded open-source initiative. Key contributions from organisations boosted development, resulting in features like post-quantum cryptography and robust performance. The upcoming 0.24 release aims to enhance architecture and…",
+    "imageUrl": "https://res.infoq.com/news/2026/09/rustls-one-decade/en/headerimage/generatedHeaderImage-1789195676316.jpg",
+    "language": "en",
+    "tags": [
+      "Rust",
+      "Memory Safety",
+      "Memory Leaks",
+      "Security",
+      "Development"
+    ],
+    "matchedKeywordIds": [
+      "post-quantum-cryptography"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 32
   },
   {
     "id": "c22f22acb6c19b6521b6554a57de202ad70b662d1754af30d051f1bf67d46214",
@@ -18835,7 +18917,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "c414e2b2f270da761d741e0bacd586ba9b21c6304dd62319cddc0f76a46b8812",
@@ -20592,7 +20674,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "d50e1a539d392e7667d81f77e9e5c505183cc9f1d1b8038016fa641d6fbb9c80",
@@ -23275,6 +23357,27 @@
     "relevanceScore": 45
   },
   {
+    "id": "f05890c0a6ffeeaa8052a314a8ec36a82f351ccab9309b2c97f40414913d9ead",
+    "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+    "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-12T09:07:56.000Z",
+    "discoveredAt": "2026-09-12T10:50:48.264Z",
+    "summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx. On May 12, Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, disclosed…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSyR4P1ZPtVeXKeb60Ut1xdO4OhRvHWFmoYNgM7SI3NEwfwcTi3Ut60xwcqIfP56OzGFtixKW4Aeo14cVZNE6TPmpC-x8qFgofgMToETQ82bp1aMIMBuaOER2Rq6PkhONMhZPGLFSKFfxVjY4_zDNJOXYHPbQaorfgr74o2PimTPeCf1hgZQ0spe-nJoiU/s1600/rubygems-openai.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "software-supply-chain-security"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 34
+  },
+  {
     "id": "f07ec78ffff29721782376e5a1a43e48302a3224619e1324cabb4ea9d602726d",
     "title": "About Deloitte Insights",
     "url": "https://www.deloitte.com/global/en/insights/about/about-deloitte-insights.html",
@@ -23490,7 +23593,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "f361abcb6e4b06ae79574693cbba8a345ca2a576cba7afd632868e06717f9970",
@@ -24041,7 +24144,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 49
+    "relevanceScore": 46
   },
   {
     "id": "f9a86150e0337469d96774ca107524ebec820e93d043ad9c263b173473821ec1",
