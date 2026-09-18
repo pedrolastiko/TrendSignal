@@ -413,7 +413,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "024775518112851ac05edff6dfc1d89d0b6a2b38a683a2ac6313c43a77ca7a58",
@@ -3890,6 +3890,27 @@
     "relevanceScore": 13
   },
   {
+    "id": "1963d1923e71383cfdc7ff37dd1f76ca0a56f0d28f67f1caa48dbd847001cd69",
+    "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+    "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T09:18:03.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. \"The developer likely wrote the malware using a large language model (LLM), an assessment made with high confidence based on…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyW8DcUYeyW1LOG-Gc3uqyV8_5rO4iwyEIM6FbRFwuvilvbfC7RSTjueJ4lEELpGvXX-22zzWuNCusN2qdODymiKNOQSz_8f1Q4u59bH7HCEZFT5PVsyBjj2NhWtlYiwvhXzXbwG_n3P_DCloZvMdajsc93hvqbJo6HCJy5wjNevUyN46ODFo7AlYsj499/s1600/npm-cicd.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "generative-ai"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 49
+  },
+  {
     "id": "199b2c2a5427c84d1c2f535010b0102a8bfd175a20da09664448b05c08852e58",
     "title": "Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear",
     "url": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
@@ -4388,9 +4409,9 @@
     "imageUrl": "https://res.infoq.com/articles/next-dsl-author-language-model/en/smallimage/Your-Next-DSL-Author-Is-a-Language-Model-thumb-1789048983233.jpg",
     "language": "en",
     "tags": [
-      "DSLs",
-      "Domain Specific Languages",
       "Large language models",
+      "Domain Specific Languages",
+      "DSLs",
       "AI",
       "ML & Data Engineering",
       "Development",
@@ -4700,17 +4721,17 @@
     "language": "en",
     "tags": [
       "Web Development",
-      "Data Visualization",
+      "React",
       "Angular",
+      "Data Visualization",
       "TypeScript",
       "Vue.js",
-      "React",
       "React Native",
       "Development"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "1fb5b12dadb768a712e1a0b8e409f607b012cc69afb7f0755ff4f53f5a9833cb",
@@ -4823,7 +4844,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "2066273bb2345c0e6a4d7bd5cc484096933c8fccc280d80d30732adf7c8ed194",
@@ -5869,7 +5890,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "27afdbdfcf69780c5afb5914a3674bd638ae6f9d12d48dd6fa1077e2761d07e5",
@@ -6733,6 +6754,31 @@
     "relevanceScore": 46
   },
   {
+    "id": "2de6b35977bee97987606327d77c130f716780d17b9047d64bc1d3d819d1d84a",
+    "title": "USA’s Venezuela takeover comes with bonus exposure to Chinese AI surveillance tech",
+    "url": "https://www.theregister.com/security/2026/09/18/usas-venezuela-takeover-comes-with-bonus-exposure-to-chinese-ai-surveillance-tech/5297357",
+    "canonicalUrl": "https://www.theregister.com/security/2026/09/18/usas-venezuela-takeover-comes-with-bonus-exposure-to-chinese-ai-surveillance-tech/5297357",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T02:28:30.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "Think tank points out that companies banned by Washington will help run the regime that Uncle Sam now controls",
+    "imageUrl": "https://image.theregister.com/?imageId=5297362&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 37
+  },
+  {
     "id": "2e092cef709b16c47b183d65cd709410aef2a76dc05f247973985077de96d4dd",
     "title": "The Download: selling battlefield drone data and AI reshaping language",
     "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
@@ -6817,6 +6863,56 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 28
+  },
+  {
+    "id": "2e4f3b099dbe20ca81613bce0a88340013c7017b35de7e9103958e8194303376",
+    "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
+    "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
+    "canonicalUrl": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech",
+    "sourceId": "mit-technology-review",
+    "sourceName": "MIT Technology Review",
+    "company": "MIT Technology Review",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T09:00:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "In recent weeks, leaders of some of the biggest AI companies have warned that the very tech they are developing is dangerous. Last weekend, Anthropic CEO Dario Amodei argued that AI carries serious risk and that progress should be slowed. OpenAI CEO Sam Altman responded on X: “I agree with Dario that we need to pace…",
+    "language": "en",
+    "tags": [
+      "Biotechnology and health",
+      "App",
+      "Summary",
+      "The Checkup"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 48
+  },
+  {
+    "id": "2eb0f481865a5b1e48b25b723d1f54859e4541e716607323920b191b7095e5e4",
+    "title": "AI risks make some insurers wary of corporate liability",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/18/ai-risks-make-some-insurers-wary-of-corporate-liability/5297347",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/09/18/ai-risks-make-some-insurers-wary-of-corporate-liability/5297347",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T05:33:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "RAND wants better data to price machine-made mishaps, apocalypse not included",
+    "imageUrl": "https://image.theregister.com/?imageId=5297353&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 37
   },
   {
     "id": "2eb7c21d28cb53c8ee337df2f6c16a9631e86478310f3a7d0723b82d760a821f",
@@ -7109,6 +7205,27 @@
     "relevanceScore": 36
   },
   {
+    "id": "3099a78a1ce9ba0bad892231f5496def7ec747f87e4cd8c74c20b7fe144347ae",
+    "title": "British Army spends £16M on 1,000 pocket-sized eyes in the sky",
+    "url": "https://www.theregister.com/offbeat/2026/09/18/british-army-spends-16m-on-1000-pocket-sized-eyes-in-the-sky/5297248",
+    "canonicalUrl": "https://www.theregister.com/offbeat/2026/09/18/british-army-spends-16m-on-1000-pocket-sized-eyes-in-the-sky/5297248",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T09:29:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "Surveillance and training drone systems will come through three UK suppliers, though some are built overseas",
+    "imageUrl": "https://image.theregister.com/?imageId=5297253&width=800",
+    "language": "en",
+    "tags": [
+      "offbeat"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "30a36306f538ac1af96f572883174082173478c732479a6c198f0eda11dd4fde",
     "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
     "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
@@ -7133,6 +7250,28 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 11
+  },
+  {
+    "id": "30d68e4eb1613f0853c0dacd20af31fd3611bc7212a0bc82eabf5417a9a0ea16",
+    "title": "New Check Point flaw lets hackers execute code with root privileges",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T09:34:33.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "30f30b218efd32802c027946f4d3f0fdad9a689b8bbfcddd7c1b4cc3ca188271",
@@ -7342,7 +7481,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "322d0b843047f02e11cb629a88133360f050def30a5d610e6284fe1e538a9ee8",
@@ -7642,6 +7781,39 @@
     "relevanceScore": 10
   },
   {
+    "id": "338c4a4d215b19f8002a9f0a50879efa1503720d1bb8e2084a3bcb7dba948917",
+    "title": "Article: Architecting Secure and Scalable Facial Verification Systems",
+    "url": "https://www.infoq.com/articles/secure-scalable-facial-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/articles/secure-scalable-facial-verification",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T09:00:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "When three thousand employees verify at once, synchronous API calls collapse. This article presents a four-layer architecture for high-volume face verification: client-side filtering that cut cloud costs 30%, decoupled detection and verification enabling 10x scaling, risk-based dynamic thresholds, and zero-trust…",
+    "imageUrl": "https://res.infoq.com/articles/secure-scalable-facial-verification/en/headerimage/secure-scalable-facial-verification-header-1789468796366.jpg",
+    "language": "en",
+    "tags": [
+      "Cloud",
+      "Security",
+      "Architecture",
+      "AI",
+      "ML & Data Engineering",
+      "DevOps",
+      "Development",
+      "Architecture & Design",
+      "article"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "cybersecurity",
+      "devsecops"
+    ],
+    "relevanceScore": 14
+  },
+  {
     "id": "33a259f02588966e0da6c07c082a31a36a2d35139ac2b583f8a93f3757021398",
     "title": "Mistral bags €3B to build Europe's sovereign AI champion",
     "url": "https://www.theregister.com/ai-and-ml/2026/09/08/mistral-bags-3b-to-build-europes-sovereign-ai-champion/5294941",
@@ -7937,6 +8109,26 @@
       "Mergers and Acquisitions",
       "Unacademy",
       "UpGrad"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
+    "id": "35f50263d0e778da37010cfc5ffaf1c2cfc2a27701855d79734a859d2444c87c",
+    "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T07:35:31.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+    "language": "en",
+    "tags": [
+      "Microsoft"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -9033,7 +9225,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "3ce23c1a0169d87ebb54e084eef727091c5ba86413535037552fb98e179602b0",
@@ -10270,7 +10462,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 10
   },
   {
     "id": "4719192a20f88dbd30969906efd02ef33609d0af5edd85929778fcd380765a07",
@@ -10467,6 +10659,40 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 43
+  },
+  {
+    "id": "493b3585018de33a5a4a83e6823a108fc243c0272a2845dcf5cd57a447c7ebff",
+    "title": "Presentation: Complexity and Creativity in Software Engineering",
+    "url": "https://www.infoq.com/presentations/ai-software-engineering-complexity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/presentations/ai-software-engineering-complexity",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T11:00:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "Phillip Mortimer discusses the shift toward write-only software driven by AI code generation. He explains why traditional pull requests are broken and shares how engineering leaders can manage complexity by decoupling intent from implementation, automating code reviews, and building self-healing architecture to…",
+    "imageUrl": "https://res.infoq.com/presentations/ai-software-engineering-complexity/en/mediumimage/philip-mortimer-medium-1789021228203.jpeg",
+    "language": "en",
+    "tags": [
+      "Testing",
+      "QCon London 2026",
+      "AI Assisted Coding",
+      "Management",
+      "Transcripts",
+      "Code Quality",
+      "Productivity",
+      "Leadership",
+      "Architecture",
+      "Culture & Methods",
+      "Development",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 31
   },
   {
     "id": "49749711ba07df5a4d9ea4b4f1812555860772af23fd3219e591fde608fd2cc8",
@@ -10731,7 +10957,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "4aeb82da9975e2f5f564fba46674441b8ef455135ac302c60f8f7eb501572ba0",
@@ -11672,6 +11898,27 @@
     "relevanceScore": 48
   },
   {
+    "id": "52f11600ffc440ddd9e955970b4bedaf15d422509066bb5217fed8173f214175",
+    "title": "Royal Society slams UK.gov science shake-up",
+    "url": "https://www.theregister.com/public-sector/2026/09/18/royal-society-slams-ukgov-science-shake-up/5296913",
+    "canonicalUrl": "https://www.theregister.com/public-sector/2026/09/18/royal-society-slams-ukgov-science-shake-up/5296913",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T08:30:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "Whitehall changes a 'big mistake' as anything going in with Business department gets squeezed",
+    "imageUrl": "https://image.theregister.com/?imageId=254057&width=800",
+    "language": "en",
+    "tags": [
+      "public sector"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "536151d492263778816ec177eaad429f5a9d93a8f5724384254408d3069031fb",
     "title": "Expanding Genie Agents: Deep analysis, file reasoning, and more",
     "url": "https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more",
@@ -12159,7 +12406,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "568c13fd56cd9c2da1d37943db5b9ddfecf607fb745b4465daba4659f07209e1",
@@ -12792,7 +13039,7 @@
     "sourceCategory": "consulting",
     "publishedAt": "2026-09-14T08:18:04.000Z",
     "discoveredAt": "2026-09-17T11:45:30.977Z",
-    "summary": "From FMCG to consulting: Dominika Steinke on embracing a new challenge cbergmann Mon, 09/14/2026 - 08:18 After five years in FMCG, Dominika Steinke was ready for a new challenge. Today, as a Senior Consultant in our Life Sciences division in Warsaw, she combines her commercial experience with strategic thinking and…",
+    "summary": "From FMCG to consulting: Dominika Steinke on embracing a new challenge cbergmann Mon, 09/14/2026 - 08:18 After five years in FMCG, Dominika Steinke was ready for a new challenge. Today, as a Senior Consultant in our Life Sciences division in Warsaw, she combines her consumer experience with strategic thinking and…",
     "imageUrl": "https://www.simon-kucher.com/sites/default/files/inline-images/office_entrance_0_0.jpg",
     "language": "en",
     "tags": [],
@@ -14455,7 +14702,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "689ffb8dd99a9fcf19b4340d56ae61602dceef019ad9c89f18f75ba7c5920db1",
@@ -14474,7 +14721,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "68b76c3eabe4dd38065a33b7da3ccecc54c267e85b47d6c1cba1533214628140",
@@ -14729,7 +14976,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
@@ -15036,11 +15283,11 @@
     "language": "en",
     "tags": [
       "Developer Experience",
-      "Platform Engineering",
       "Agents",
-      "Distributed Tracing",
+      "Platform Engineering",
       "Metrics",
       "Artificial Intelligence",
+      "Distributed Tracing",
       "Logging",
       "Culture & Methods"
     ],
@@ -15052,7 +15299,7 @@
       "artificial-intelligence",
       "devsecops"
     ],
-    "relevanceScore": 36
+    "relevanceScore": 33
   },
   {
     "id": "6c19931019f210fb2fdfcbdeeec81a11c938f7ec306f5420fafe7d16891080d7",
@@ -15158,7 +15405,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "6cc1410dcbb76c40de3d43b0627a75bf1652d648fdb7ebb54f5056d41dbb3d43",
@@ -15937,7 +16184,7 @@
       "threat-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 40
+    "relevanceScore": 37
   },
   {
     "id": "71ca52f40c8e50d8b84b023998cf6a69cdd5419a0e4c15280e1e6cc200ed7b20",
@@ -16218,6 +16465,27 @@
     "relevanceScore": 10
   },
   {
+    "id": "733d5ff3a82efd7c02f40a7abf1fbf17a7c6568a4c6cb7ca06468fc5bfc63922",
+    "title": "Techie fixed Wi-Fi dead zone with a drill",
+    "url": "https://www.theregister.com/networks/2026/09/18/techie-fixed-wi-fi-dead-zone-with-a-drill/5297036",
+    "canonicalUrl": "https://www.theregister.com/networks/2026/09/18/techie-fixed-wi-fi-dead-zone-with-a-drill/5297036",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T06:30:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "When wires and wireless mix, the combination can be electric",
+    "imageUrl": "https://image.theregister.com/?imageId=260447&width=800",
+    "language": "en",
+    "tags": [
+      "networks"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "738cc386911c6f7a657164882832323a7f392eed9530875bb16e6f88489170de",
     "title": "Twenty Years of jQuery: How a Little Library Rewired Web Development",
     "url": "https://www.infoq.com/news/2026/09/jquery-20-years/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -16409,6 +16677,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 16
+  },
+  {
+    "id": "74d97caa31ffc4167c34a05c401062278d3d3ad34f0aee465f865d6a8acab4ea",
+    "title": "Big, deep, narrow: Choosing the agentic opportunities that can scale",
+    "url": "https://www.capgemini.com/insights/expert-perspectives/big-deep-narrow-choosing-the-agentic-opportunities-that-can-scale/",
+    "canonicalUrl": "https://www.capgemini.com/insights/expert-perspectives/big-deep-narrow-choosing-the-agentic-opportunities-that-can-scale",
+    "sourceId": "capgemini-blog",
+    "sourceName": "Capgemini Blog",
+    "company": "Capgemini",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-09-18T06:03:32.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "Agentic AI examples across industries reveal a common pattern that success starts with the right opportunity, not the agent itself. The strongest initiatives focus on problems that are Big enough to matter, Deep enough to create differentiated value, and Narrow enough to scale safely in production. The post Big,…",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 44
   },
   {
     "id": "7538ee0af42ce0d9980dc1902e5dd1b928a82d2eea1afc85a2edcf6069e8d436",
@@ -16935,7 +17224,7 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "78bf602e34fda248a081ddd7fbad294590682cd0ce96c789f9461af37ed75d27",
@@ -17318,7 +17607,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "7c159e882bb2f173d27a2b1bbba83b156ee007ba4592e287092b4f0d0aa09772",
@@ -17772,7 +18061,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "7f20a8c3da60e9a0e71c7daf42939b123d8e40ef7697b4e6d78a296356205f88",
@@ -18663,16 +18952,16 @@
     "language": "en",
     "tags": [
       "Asynchronous Architecture",
-      "Tika",
       "Apache",
-      "plugins",
       "Large language models",
-      "Platform Engineering",
-      "Model Context Protocol (MCP)",
-      "Distributed Systems",
       "Enterprise Content Management",
-      "Architecture",
+      "Tika",
+      "plugins",
       "Data Pipelines",
+      "Platform Engineering",
+      "Distributed Systems",
+      "Architecture",
+      "Model Context Protocol (MCP)",
       "AI"
     ],
     "matchedKeywordIds": [
@@ -19112,7 +19401,7 @@
   },
   {
     "id": "873eb48edfed1c5982eaf8bb208f40048dd55483c72ead1ecf84ae72fd40a39d",
-    "title": "GPT-6 Astra Is the First Model OpenAI Classifies as Critical for Cybersecurity",
+    "title": "GPT-6 Astra is the First Model OpenAI Classifies as Critical for Cybersecurity",
     "url": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber",
     "sourceId": "infoq",
@@ -19125,16 +19414,16 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/en/headerimage/generatedHeaderImage-1789311714190.jpg",
     "language": "en",
     "tags": [
-      "Generative AI",
       "Cloud",
       "Agents",
+      "Generative AI",
       "Governance",
+      "Machine Learning",
       "Architecture",
       "Azure",
-      "Machine Learning",
-      "DevOps",
       "AI",
       "ML & Data Engineering",
+      "DevOps",
       "Development",
       "Architecture & Design"
     ],
@@ -19147,7 +19436,7 @@
       "devsecops",
       "generative-ai"
     ],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "875aa4802675c4e1eaa348fe397869c70cbcc74e91fa3fe6f67d04db4705b1e7",
@@ -19450,7 +19739,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "88c18f4ef388f1a85415c2e25a70476801fcb4dc0b892c9b2bcc4302440c5653",
@@ -19853,8 +20142,8 @@
     "imageUrl": "https://res.infoq.com/presentations/stream-incidents/en/mediumimage/vanessa-huerta-medium-1789021024982.jpeg",
     "language": "en",
     "tags": [
-      "QCon San Francisco 2026",
       "Incident Response",
+      "QCon San Francisco 2026",
       "Transcripts",
       "DevOps",
       "presentation"
@@ -19863,7 +20152,7 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "8ba4fd3920d2337cea19d0b70cbd34fab1f9769358fef81c7b64a5643cc54d41",
@@ -20933,7 +21222,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "942b54556b13e0d8d9631c0db48c43c80efd48b1e5b228346ddb54648a8ac4c5",
@@ -21342,7 +21631,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 28
+    "relevanceScore": 26
   },
   {
     "id": "96ebb97ee7caee58a08f7ee5111ace7acfc507f8e9ddd8e0189f35ec7371672b",
@@ -21662,6 +21951,27 @@
     "relevanceScore": 29
   },
   {
+    "id": "987fdbb14989de685462b433ba7cbc14ffc65a10b8e1cf46b8b9be5364b66e66",
+    "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+    "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T10:40:06.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the Democratic People's…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZypkEn_5V1qllBxmH8UMxTPyA9qoXxQtKpBpJlFq2rtHgMM1wnknkyq4Vmmy0NiCHn2IjS0nyvtmiZpJ-vYOd6VxMFBexh_p6GXuq3Cjda-YfjDOUE5u5V5HfBBAQzEm5DLX3jg_ZrIfEBFlpcBod65T3Q0pXVR7vERfitlS6cBHYVG2K7ek5ivweYTRq/s1600/npm-chrome.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
     "id": "9885e3b9c4a2864eae0b8b69b387455d0db56558d7c730c4007961a5c24171b7",
     "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
     "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
@@ -21793,7 +22103,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "99049b72e68b71b114c3e2dd3ffb4d55472f7d71b6a9a01fef0b1104d3b5cadd",
@@ -22261,7 +22571,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "9b2e5a5ca85f09dd47003a9ae2cb85b5e90e6437cf73adb6c4f12389a9b58915",
@@ -22677,11 +22987,11 @@
     "tags": [
       "Orchestration",
       "Open Source",
+      "Agents",
       "Microsoft",
       "Kubernetes",
-      "Agents",
-      "Azure",
       "Artificial Intelligence",
+      "Azure",
       "DevOps",
       "Development"
     ],
@@ -24485,7 +24795,34 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
+  },
+  {
+    "id": "a8ca7b64fea989e79c03268565fd8d2b8c2efa9a8e02634b9829885f2b43c902",
+    "title": "OpenAI Introduces Triage Framework and Case Studies to Report Model Misalignment",
+    "url": "https://www.infoq.com/news/2026/09/openai-misalignment-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/openai-misalignment-framework",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T05:05:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "OpenAI has released a disclosure framework for model misalignment during its lifecycle. Employees can flag potential issues, prompting technical staff to label incidents. The initial case studies outline unexpected model behaviours, providing insights into deviations from expected parameters. Community reactions show…",
+    "imageUrl": "https://res.infoq.com/news/2026/09/openai-misalignment-framework/en/headerimage/generatedHeaderImage-1789701944081.jpg",
+    "language": "en",
+    "tags": [
+      "AI Misalignment",
+      "Frontier Model",
+      "OpenAI",
+      "AI",
+      "ML & Data Engineering"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 14
   },
   {
     "id": "a8cb3dee54e5c94a3653cdf669b7ba11f41bc39d5e8d972236912d0df3d67314",
@@ -25504,6 +25841,28 @@
     "relevanceScore": 16
   },
   {
+    "id": "af1e6c2ba625a8ce5fe8874b56823438a9c33999915eede96e32a452e69c39ae",
+    "title": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
+    "canonicalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T07:00:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd2c0cfe5f9c4744c/6aac3ea5108059d6dac02186/Digital_trap-Moor_Studio-Getty.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 64
+  },
+  {
     "id": "af2251bee1875a92dcb966e26b778ff9f0b772543b326d50d7ead955a19b3f5a",
     "title": "Government Digital Service move 'grinds gears' in UK's e-government",
     "url": "https://www.theregister.com/public-sector/2026/09/17/government-digital-service-move-grinds-gears-in-uks-e-government/5296784",
@@ -25522,7 +25881,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "af2ac78f99b60c1284816908f77e32306133125a15e7e288482a1514a12e486a",
@@ -25607,7 +25966,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "afd16385c6975234903527086326f2c9e5938a257753a90cac4cdcc7e65f7f71",
@@ -26143,7 +26502,7 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "b2dff3cf0d8690cc58be1f76165e56eebce727e146b2202a632bd742dd53559f",
@@ -27911,7 +28270,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "bf292c264ce3da0c0c25703ea2d4459bdb67e0bc3ae3d15903e1a53468dbe5a9",
@@ -29214,7 +29573,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "c6c4974acdbe451f293f721a45dd387c216a22dbb7adf2e6fe03c39e4273c02b",
@@ -29635,7 +29994,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "c92cfc387902134c422f05301188ee934b0fb170ee6ce30c61e137038b822b10",
@@ -30394,7 +30753,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "cd83b8e8705ed1273af9c3a1941b735cd3a6920b6337dee4045a9b22b0b57256",
@@ -30416,7 +30775,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 35
   },
   {
     "id": "cdbb9de85fb06b6d9f9d25a215609fd668dde285e6c6f123bef5d0ebf0fcdb30",
@@ -30603,7 +30962,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "ce99935af9315633a01afd1c294591640c5bd33ea30d1f4ad83235a96e7e95f6",
@@ -30923,6 +31282,35 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "d1a80716b899ca47ce6e5d8c029402e85c77fc71e3705370a44bda05c3f0295a",
+    "title": "Podcast: Signals and Levers: Building Thriving Engineering Organizations",
+    "url": "https://www.infoq.com/podcasts/building-thriving-engineering-organizations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/podcasts/building-thriving-engineering-organizations",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T09:05:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "In this podcast Shane Hastie, Lead Editor for Culture & Methods spoke to Elisabeth Hendrickson and Joel Tosi about systems thinking as a lens for software delivery, the cultural \"levers\" leaders and teams can pull to shape organizations, and building thriving, sustainable teams amid AI-driven change. By Elisabeth…",
+    "imageUrl": "https://res.infoq.com/podcasts/building-thriving-engineering-organizations/en/smallimage/engineering-culture-500-1788872636488.jpg",
+    "language": "en",
+    "tags": [
+      "Technical Debt",
+      "Engineering Culture Podcast",
+      "Psychological Safety",
+      "Teamwork",
+      "Leadership",
+      "Culture & Methods",
+      "podcast"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 31
   },
   {
     "id": "d1a90a74045117446db6b1f15d401ae908275dee768e1b0fb6625d23e90bdc8d",
@@ -31453,6 +31841,28 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38
+  },
+  {
+    "id": "d520678c4afb9aa5d54fa93c9be6ac4af465778271027f86fa7fcd0d35c1d8ef",
+    "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+    "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T06:17:25.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. \"Distributed primarily via targeted smishing (SMS/text phishing) and…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5Psm8tS3JWb6ev7nZoz7YQDPIgoHj9gwbNjgjxbokxICdzRIUb5YJI-XfDx0NQgm8afhayc-Zd51hjuxqi7Sk_XxCNXoTNt7nIZWpxCBcDMLjSm3uW38HRciOu3WNtaUT0a-2NSsOX91GbXpCScryNirImMMC4lkuVysHku58maTbm9XvAwJ0-X6O_wDE/s1600/1000109602.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 43
   },
   {
     "id": "d53a5986adb2402c13291d6aae614fb2eadf08b0fca2beb0f53ad7b79923698c",
@@ -32951,7 +33361,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "e109cdc493d20607e519e9c0a6425f2d8aa7074665977b9780d1d96521d7bdd6",
@@ -33560,6 +33970,29 @@
     "relevanceScore": 45
   },
   {
+    "id": "e587587ab50e5af46bb0a94cc8e40e42d468f8a16fc29bf4b6210677fa9c19f8",
+    "title": "KPMG tech cuts come with a severance sum some staff call insulting",
+    "url": "https://www.theregister.com/channel/2026/09/18/kpmg-tech-cuts-come-with-a-severance-sum-some-staff-call-insulting/5296942",
+    "canonicalUrl": "https://www.theregister.com/channel/2026/09/18/kpmg-tech-cuts-come-with-a-severance-sum-some-staff-call-insulting/5296942",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T10:32:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "AI, Cyber, SAP and Testing teams caught in latest reshaping of Big Four consultancy's Advisory arm",
+    "imageUrl": "https://image.theregister.com/?imageId=259352&width=800",
+    "language": "en",
+    "tags": [
+      "channel"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 32
+  },
+  {
     "id": "e58ba16a111f9793232d705b778a69b2b76edb469100fdf2eb33d73d930ea471",
     "title": "If space data centers feel far-fetched, why not interstellar travel?",
     "url": "https://techcrunch.com/2026/09/01/if-space-data-centers-feel-far-fetched-why-not-interstellar-travel/",
@@ -33984,10 +34417,10 @@
     "language": "en",
     "tags": [
       "Virtualization",
-      "AI Security",
-      "VM",
       "Security Breach",
+      "VM",
       "Security",
+      "AI Security",
       "DevOps",
       "Development"
     ],
@@ -33997,7 +34430,7 @@
       "cybersecurity",
       "devsecops"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "e74c4bc78631a2537c1666a1f85bb666592c6c9619df8b8ac895f947854f7b99",
@@ -34211,7 +34644,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 64
+    "relevanceScore": 61
   },
   {
     "id": "e963a8449e10668640b84c21a21ddf7c3ebf4265768bdd3de0b7606833122fd9",
@@ -35224,6 +35657,33 @@
     "relevanceScore": 16
   },
   {
+    "id": "efab7abcd01ee771f6c2d80a0744f3380fa55c0fec73ecf42ea2f89cfd294f5d",
+    "title": "htmx 4.0: a Fetch-Based Rewrite, Built-In Morphing Swaps, and Explicit Attribute Inheritance",
+    "url": "https://www.infoq.com/news/2026/09/htmx-4-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/htmx-4-released",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T09:32:00.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "htmx 4 has been released, featuring a transition from XMLHttpRequest to the fetch() API, enhancing streaming capabilities. Key updates include built-in morphing swaps for DOM state preservation and an hx-partial tag for cleaner updates. Attribute inheritance is now explicit, with event names standardized. The library…",
+    "imageUrl": "https://res.infoq.com/news/2026/09/htmx-4-released/en/headerimage/generatedHeaderImage-1789720463705.jpg",
+    "language": "en",
+    "tags": [
+      "Web Development",
+      "HTML5",
+      "JavaScript",
+      "Server-side rendering",
+      "Node.js",
+      "HTML",
+      "Development"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 14
+  },
+  {
     "id": "f028715f922fe5501ec3a45fad0d3c807f5850cfe0cd2b0ec8763265d2b5cc36",
     "title": "McKinsey Technology Trends Outlook 2026",
     "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-top-trends-in-tech",
@@ -35690,6 +36150,29 @@
     "relevanceScore": 37
   },
   {
+    "id": "f333835d904457c5c9859ea194e2bb76e032d02d758a70f9f1b1cf779cba8968",
+    "title": "AWS confesses its console causes cloudy confusion for new users",
+    "url": "https://www.theregister.com/off-prem/2026/09/18/aws-confesses-its-console-causes-cloudy-confusion-for-new-users/5297365",
+    "canonicalUrl": "https://www.theregister.com/off-prem/2026/09/18/aws-confesses-its-console-causes-cloudy-confusion-for-new-users/5297365",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-18T04:52:40.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "Improved signup experience for ‘AI builders’ hides complexity and includes spending cap",
+    "imageUrl": "https://image.theregister.com/?imageId=5297370&width=800",
+    "language": "en",
+    "tags": [
+      "off-prem"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 32
+  },
+  {
     "id": "f355c5f46acfcc3ba3b66a78fb66cb83c057989b00bb6973c89fac2afbf20158",
     "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
     "url": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
@@ -35706,7 +36189,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "f361abcb6e4b06ae79574693cbba8a345ca2a576cba7afd632868e06717f9970",
@@ -36002,7 +36485,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "f56a0cfdb446cd2a4728470e0e741b91add4a2d2f27641cf8fda9a66f4c0f4f6",
@@ -36100,6 +36583,24 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "f6ec2caf26bc4af38106cec85a189271a2f6007d455a897c29aca1c899de8a8b",
+    "title": "The insurance marketing transformation playbook: Building an intelligent growth engine for life insurers",
+    "url": "https://www.capgemini.com/insights/expert-perspectives/the-insurance-marketing-transformation-playbook-building-an-intelligent-growth-engine-for-life-insurers/",
+    "canonicalUrl": "https://www.capgemini.com/insights/expert-perspectives/the-insurance-marketing-transformation-playbook-building-an-intelligent-growth-engine-for-life-insurers",
+    "sourceId": "capgemini-blog",
+    "sourceName": "Capgemini Blog",
+    "company": "Capgemini",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-09-18T10:42:50.000Z",
+    "discoveredAt": "2026-09-18T11:19:45.211Z",
+    "summary": "The insurance marketing transformation playbook: Building an intelligent growth engine for life insurers The post The insurance marketing transformation playbook: Building an intelligent growth engine for life insurers appeared first on Capgemini.",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "f702d05d7739946b7d9f4295dd8ca33bb2342d368355880c5cbde6f778af94d6",
@@ -36273,7 +36774,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "f83a4f086c3187a823c3d0f15b8d8e42489ca9dab05bfefc42582f51570e64e6",
@@ -37558,7 +38059,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "ff062da44f82e3bad1cfb00d0a4a03a82f9f05b02e8fcbf8dc0a83ef9e5bf48e",
