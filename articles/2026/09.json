@@ -3643,9 +3643,9 @@
     "language": "en",
     "tags": [
       "Apple",
-      "iOS",
-      "SwiftUI",
       "Mobile",
+      "SwiftUI",
+      "iOS",
       "Swift",
       "Development"
     ],
@@ -3817,7 +3817,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "10caca39dcfb8117cd72cefcc3f7a07aaebd709d08bdcd5aa3532816692fad1c",
@@ -6292,7 +6292,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "1c58c50319dd219bebcc9335168ce379aad373049ee8aaa19838dc3586be6b5d",
@@ -6702,7 +6702,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "1e03a98a6efbfe0ad892279ffea7ad436130e267ec4a3ee4409e8cf416d87580",
@@ -8433,7 +8433,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "252334a8adc2d0d14ff87ef36d73ba481d18924f3de3039a6a5fd75e7150d6bb",
@@ -8848,6 +8848,28 @@
     "relevanceScore": 10
   },
   {
+    "id": "276ff97ad08b0e13e11747a8bc585d661cc46608b03075e005fabee9021079d8",
+    "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-26T19:03:34.000Z",
+    "discoveredAt": "2026-09-26T21:13:00.202Z",
+    "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation of a flaw on vulnerable servers. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "2776184929ae0d7d367390a5e8e8a9345c00a5eeca9a3ca13a977597439a0e06",
     "title": "What We Missed: Google Gemini Joins the AI Escape Party",
     "url": "https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party",
@@ -8866,7 +8888,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "27a25cc2599b060ca5c121f4594989b9dd257644a6fb51ec3270cfa6b40463a5",
@@ -9300,7 +9322,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "28c3185ee3888160486a163860ab5647606fea943b4072c0e13d95ec0ca568e4",
@@ -9464,6 +9486,29 @@
     "relevanceScore": 13
   },
   {
+    "id": "29e32c0a7c5bd281c112be1d29dd799666ca10c91556d4aebcdc45d2c3793830",
+    "title": "TikTok agrees to pay at least $100M in Alabama settlement",
+    "url": "https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-26T20:24:45.000Z",
+    "discoveredAt": "2026-09-26T21:13:00.202Z",
+    "summary": "TikTok will pay Alabama at least $100 million in a settlement tied to allegations that the short-form video platform misled users about safety and was designed to addict children.",
+    "language": "en",
+    "tags": [
+      "Apps",
+      "Government & Policy",
+      "Social",
+      "TikTok"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "2a0d4b252e023caaa41d6810ac6875e52b2f7cb52c2afc59100c9832e1b91e60",
     "title": "Cloudflare Measures Origin TLS Preferences, Cutting Handshake Retries from 52% to 3.7%",
     "url": "https://www.infoq.com/news/2026/09/cloudflare-automatic-key-exchang/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -9611,11 +9656,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/qcon-ai-newyork-2026-sessions/en/headerimage/qcon-ai-new-york-2026-1790249334674.jpg",
     "language": "en",
     "tags": [
-      "QCon AI New York 2026",
-      "QCon Software Development Conference",
       "Artificial Intelligence",
-      "AI Architecture",
+      "QCon Software Development Conference",
       "Architecture",
+      "QCon AI New York 2026",
+      "AI Architecture",
       "AI",
       "ML & Data Engineering",
       "Architecture & Design"
@@ -10439,7 +10484,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "2f06872568e3deacd25b1623636d6332c0dc4369fdca7855a03c320ae64043e9",
@@ -10891,7 +10936,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "30cda53c42799f91caabc016c5fb24e83402440a1df8f8fc62afbc98dd5c8be4",
@@ -15221,7 +15266,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "456273433b445fde6769cf25c61f3570e1640dddd96d4e6addf55195dbf53e45",
@@ -15976,12 +16021,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/meta-muse-zeroday/en/headerimage/generatedHeaderImage-1790224330638.jpg",
     "language": "en",
     "tags": [
-      "AI Security",
       "Large language models",
       "Zero Day Vulnerability",
-      "DevOps",
+      "AI Security",
       "AI",
-      "ML & Data Engineering"
+      "ML & Data Engineering",
+      "DevOps"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -16741,6 +16786,28 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 74
+  },
+  {
+    "id": "4c7a510bcb08af55abceef72857f550fb9277b49f93e496769e86010c6870c94",
+    "title": "Levoit’s new air purifier is for the pet odors that have taken over your apartment",
+    "url": "https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-26T17:00:00.000Z",
+    "discoveredAt": "2026-09-26T21:13:00.202Z",
+    "summary": "This $189.99 air purifier is specifically designed to tackle pet odors, removing up to 70% in one hour.",
+    "language": "en",
+    "tags": [
+      "Hardware",
+      "Gadgets",
+      "pet tech"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "4c8d1d0a5d1076eb59e84068799620e364e9d00af96d0520b4b1c3ec1402038f",
@@ -18238,8 +18305,8 @@
     "language": "en",
     "tags": [
       "Automated testing",
-      "Grafana",
       "Observability",
+      "Grafana",
       "DevOps"
     ],
     "matchedKeywordIds": [],
@@ -18924,14 +18991,14 @@
     "imageUrl": "https://res.infoq.com/presentations/spritely-decentralized-architecture/en/mediumimage/cd-medium-1789633126216.jpg",
     "language": "en",
     "tags": [
+      "CRDT",
       "WebAssembly",
       "P2P",
-      "CRDT",
       "QCon London 2026",
-      "Local First",
-      "Actor Model",
       "Security",
       "Transcripts",
+      "Local First",
+      "Actor Model",
       "DevOps",
       "Architecture & Design",
       "Development",
@@ -19882,6 +19949,33 @@
     "relevanceScore": 7
   },
   {
+    "id": "5affa318f16f2bf333d9f1adaa146fe240f8f9cc944c7e0657d85574c970c6d1",
+    "title": "Meta and YouTube say they will run ads for ‘Musk’ documentary after all",
+    "url": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-26T17:44:00.000Z",
+    "discoveredAt": "2026-09-26T21:13:00.202Z",
+    "summary": "Two companies now say they will accept advertising for director Alex Gibney’s upcoming documentary about Elon Musk, following earlier reporting that a number of social media platforms had rejected the ads.",
+    "language": "en",
+    "tags": [
+      "Government & Policy",
+      "Media & Entertainment",
+      "Social",
+      "Alex Gibney",
+      "Elon Musk",
+      "Meta",
+      "tiktok us",
+      "YouTube"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "5b3e6060de6c1a1baf4f1f5f966ec45bfbe4bbcd38cfd9890a4e17f377b92f9c",
     "title": "Microsoft Issues Emergency Fixes After Massive Patch Tuesday",
     "url": "https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday",
@@ -20128,7 +20222,7 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "5c7a9b67e3e9bcd2247f32cf8c86194598e186c73727ad3a8bdf16b198961764",
@@ -21891,7 +21985,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "66ce65e776bf5a4931f6fccb2d59834efb9a6d691b5993910779a459be2dc9cf",
@@ -22963,7 +23057,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "6b8a14a96b3ca53c9a894e6ac20ae81e5cc660e5b9f4804200366f8573a55bc1",
@@ -25212,18 +25306,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/aws-stateless-mcp/en/headerimage/generatedHeaderImage-1788807776891.jpg",
     "language": "en",
     "tags": [
+      "Deployment",
       "Scaling",
       "Load Balancing",
-      "Deployment",
       "OpenTelemetry",
+      "Distributed Systems",
+      "AWS Lambda",
+      "AWS",
+      "Serverless",
       "Microservices",
       "Observability",
-      "Model Context Protocol (MCP)",
-      "AI Architecture",
       "W3C",
-      "Frameworks",
-      "Serverless",
-      "AWS Lambda"
+      "Frameworks"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -26311,7 +26405,7 @@
       "artificial-intelligence",
       "cybersecurity"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "7bc060ed52bb5cc454c766927d1b9905eac0ba04e7a172881718de52737567e1",
@@ -26493,7 +26587,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "7c67470e16db7760a4d0a3f8a7dc72dfd496b8e687e35b8f73247b5bdb8fd1b7",
@@ -27025,6 +27119,42 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "7ec38b6fe0b06c86da0f6f86b1a67ead69e4653bb844537f714c36978c4b091b",
+    "title": "Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction Across Laptop and Cloud",
+    "url": "https://www.infoq.com/news/2026/09/docker-cloud-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/docker-cloud-sandboxes",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-26T17:00:00.000Z",
+    "discoveredAt": "2026-09-26T21:13:00.202Z",
+    "summary": "Docker Cloud Sandboxes provide secure, hosted execution environments for running AI coding agents on Docker-managed infrastructure. Built on hardware-enforced microVM isolation, the platform provides a consistent execution environment and unified CLI workflows for seamlessly moving workloads from local machines to…",
+    "imageUrl": "https://res.infoq.com/news/2026/09/docker-cloud-sandboxes/en/headerimage/dreamer-4-mincraft-agent-1790438799314.jpeg",
+    "language": "en",
+    "tags": [
+      "Containers",
+      "Cloud",
+      "Agents",
+      "AI Security",
+      "Docker",
+      "AI",
+      "ML & Data Engineering",
+      "DevOps",
+      "Development"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "ai-security",
+      "artificial-intelligence",
+      "devsecops"
+    ],
+    "relevanceScore": 31
   },
   {
     "id": "7ed3b8ecfcfb9b4533fd5c17cebf88149d2cbfe5fb3a3ada2f40b776b12ec506",
@@ -29216,7 +29346,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "886f901d62fea0dbf801e95adbe6de69cfb745c1a3f5144bfe2787ad89a29696",
@@ -29471,7 +29601,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8a20aa410b6035c11169151b3bd8efa1e8f6ddfe8c182392a541d1f4f3b1f618",
@@ -30174,7 +30304,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8d960a1b97a6878bde4092cc97b56f6f8392791189302bbe5069fc261dd560d4",
@@ -32001,10 +32131,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/cloudflare-emdash-migration/en/headerimage/generatedHeaderImage-1788551109664.jpg",
     "language": "en",
     "tags": [
+      "Cloudflare",
       "WordPress",
       "Caching",
       "migration",
-      "Cloudflare",
       "Portal/CMS",
       "DevOps",
       "Architecture & Design"
@@ -33815,12 +33945,12 @@
     "imageUrl": "https://res.infoq.com/podcasts/enterprise-adoption-open-source-sovereignty/en/smallimage/infoq-podcast-500-1787827393574.jpg",
     "language": "en",
     "tags": [
-      "Open Source",
-      "The InfoQ Podcast",
-      "Generative AI",
       "Large language models",
+      "Open Source",
       "Responsibility",
+      "Generative AI",
       "Artificial Intelligence",
+      "The InfoQ Podcast",
       "AI",
       "ML & Data Engineering",
       "podcast"
@@ -33905,7 +34035,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 18
+    "relevanceScore": 15
   },
   {
     "id": "9df2c4fcfa3b18d134e70549859ac9d63066174382f638369f2914f69245a873",
@@ -34165,6 +34295,25 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "9f09894f2cc84b8d206e83ce38e0c09c9ebbd1ec8da381ad6de0cc2905fe9c32",
+    "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+    "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+    "canonicalUrl": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-26T18:22:52.000Z",
+    "discoveredAt": "2026-09-26T21:13:00.202Z",
+    "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlKEfNLMvV7mEVtxmw1nS48l0bWRxvhvRH5MHdn20FjDTm6B0_5okfLjQ49AamYo9DPVC1aV1O2bl11Vd8776ziWsV96tcxQviDK0RjOnGK_Dyx_Zs2e2VBjgChf91_H2cHH0u_UoyAGlGlJkKnozWFqf-sxmXNW0QlnfY3Ilgdkg3p4qG7p3Z0SmdnJMq/s1600/stealer-malware.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "9f18a97b3fdce7c6212a105833679afe9e547a13002182cd80e19785347b0b44",
@@ -34573,7 +34722,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "a0e33986561907aba0e68cb79bcce35963565eec65dfeba9078bbdd4c33c423e",
@@ -35588,12 +35737,12 @@
     "imageUrl": "https://res.infoq.com/presentations/adaptive-recommendation-systems-architecture/en/mediumimage/mallika-medium-1789632229433.jpeg",
     "language": "en",
     "tags": [
-      "Scaling",
       "Data",
+      "Scaling",
       "Performance",
-      "QCon AI Boston 2026",
-      "Observability",
       "Transcripts",
+      "Observability",
+      "QCon AI Boston 2026",
       "Machine Learning",
       "AI",
       "ML & Data Engineering",
@@ -37695,7 +37844,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "ae9de6fba1fc8e2a750f6b5175d0586c5544ab6fa1ac14b99b559c266227d5f7",
@@ -40131,7 +40280,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "b8db772e97146abb7adfb30aef7127d59a2f6c48260cb27b8b701f596a2d3830",
@@ -40152,7 +40301,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "b94fa2be3b1faac8b8c68dd3ece48fb7edf3fc4880e9abb3297e4c7f1e218c0d",
@@ -40715,6 +40864,33 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 16
+  },
+  {
+    "id": "bb61eb14b50af1ee9bfcc5fbb800d71e05c85b7c32a5aa456236b8971c0dfa72",
+    "title": "Insurers claim AI is already increasing healthcare costs",
+    "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-26T21:02:06.000Z",
+    "discoveredAt": "2026-09-26T21:13:00.202Z",
+    "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Biotech & Health",
+      "Blue Cross Blue Shield",
+      "Abridge"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
   },
   {
     "id": "bb6fe52bc464e9917d0a3d507c8af2c6dcefcdd4b363a89ce24b1519cb47f231",
@@ -41371,14 +41547,14 @@
     "language": "en",
     "tags": [
       "Stories & Case Studies",
-      "Cloud",
       "Platforms",
-      "Agile Conferences",
+      "Cloud",
       "Banking",
       "Culture",
       "Collaboration",
-      "Platform Engineering",
+      "Agile Conferences",
       "Culture Change",
+      "Platform Engineering",
       "Kubernetes",
       "Mindset",
       "Culture & Methods"
@@ -45256,7 +45432,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "ce17c92e051b53e4411d30461a7ff759bccd3c6bf2f3f0c181a2bead8e5ec1eb",
@@ -45676,7 +45852,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "d025f413a69a16ac0e9035636965dc735acb9addfa4178b8948e4a4dbc3de4f9",
@@ -45766,7 +45942,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "d056bd15e949eb06193e61cea1f8caabae664270453770b18deb9840f3fd4e3d",
@@ -46059,7 +46235,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "d1d1302f2515e0b3e19a2229d9972ebc50a562b418d5c9e39d0e8aff596ccb35",
@@ -46146,6 +46322,26 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 43
+  },
+  {
+    "id": "d1e3b04ded81d37f0f386f4576018c17ef8ff0df07832bc653746d1c56dbcb2e",
+    "title": "Texas at an Inflection Point",
+    "url": "https://www.fticonsulting.com/insights/articles/texas-energy-growth-opportunity-producers-suppliers",
+    "canonicalUrl": "https://www.fticonsulting.com/insights/articles/texas-energy-growth-opportunity-producers-suppliers",
+    "sourceId": "fti-consulting-insights",
+    "sourceName": "FTI Consulting Insights",
+    "company": "FTI Consulting",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-09-25T00:00:00.000Z",
+    "discoveredAt": "2026-09-26T21:13:00.202Z",
+    "updatedAt": "2026-09-25T00:00:00.000Z",
+    "summary": "Texas is entering a new era of energy investment as demand growth, market structure and infrastructure converge to create durable opportunity.",
+    "imageUrl": "https://www.fticonsulting.com/-/media/images/shared-content/insights/articles/2026/sep/texas-energy-growth-opportunity-producers-suppliers_900x471_center.jpeg?as=0&dmc=0&iar=0&thn=0&udi=0&rev=a33c883d320f46e8a573b9d46acf1e39&hash=723E1001DF4D15280FD5A5D1BA6C6A35",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 12
   },
   {
     "id": "d1e3ec21956720a9ee1f45d31272f848bdec4cc93506e6226bb120d1e660ff99",
@@ -48445,11 +48641,11 @@
     "language": "en",
     "tags": [
       "AI-Assisted Engineering Certification",
-      "InfoQ Certification Program",
       "Culture",
       "Engineering Leadership Certification",
-      "Team Collaboration",
+      "InfoQ Certification Program",
       "High Performing Teams Certification",
+      "Team Collaboration",
       "AI",
       "ML & Data Engineering",
       "Culture & Methods"
@@ -49405,6 +49601,31 @@
     "relevanceScore": 12
   },
   {
+    "id": "e1bc96bcb012659d05348c8788c529ed3623a37b820b9431186611309b044c3d",
+    "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-26T16:26:58.000Z",
+    "discoveredAt": "2026-09-26T21:13:00.202Z",
+    "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
+    "language": "en",
+    "tags": [
+      "Artificial Intelligence",
+      "Technology"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
+  },
+  {
     "id": "e1c2a2730b72cb55141951e9b3245a2ac265b45277462a1b9f2d5a338d9f65a9",
     "title": "Introducing Unit 42 Continuous Frontier AI Defense",
     "url": "https://www.paloaltonetworks.com/blog/2026/09/introducing-unit-42-continuous-frontier-ai-defense/",
@@ -49564,6 +49785,26 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 11
+  },
+  {
+    "id": "e27f9564b4c97383b31af565343fed9d84a18aaa233b82a30eeb9f25a76cd210",
+    "title": "Rx for Compliance: Turning Data into Your Program’s Greatest Asset",
+    "url": "https://www.fticonsulting.com/insights/articles/turning-data-your-compliance-programs-greatest-asset",
+    "canonicalUrl": "https://www.fticonsulting.com/insights/articles/turning-data-your-compliance-programs-greatest-asset",
+    "sourceId": "fti-consulting-insights",
+    "sourceName": "FTI Consulting Insights",
+    "company": "FTI Consulting",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-09-25T00:00:00.000Z",
+    "discoveredAt": "2026-09-26T21:13:00.202Z",
+    "updatedAt": "2026-09-25T00:00:00.000Z",
+    "summary": "Life Sciences organizations moving up the analytics maturity curve use data analytics to spot risks earlier, respond faster, and drive business value.",
+    "imageUrl": "https://www.fticonsulting.com/-/media/images/shared-content/insights/articles/2026/aug/turning-data-your-compliance-programs-greatest-asset_900x471_center.jpeg?as=0&dmc=0&iar=0&thn=0&udi=0&rev=183902d51e134205952a29f2f0a2d2b8&hash=063C765C5FE29DE80C7DADDB1465409D",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 12
   },
   {
     "id": "e2a8e5565c7da4c6c5af61b39c20f7fc2c853f8740d55270bc9f17d7116ce6c6",
@@ -54962,7 +55203,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "fad93ce8560d76d81ca394269c75b4dcedf66ff95cd04e7fe41ae139cc0d3419",
@@ -55092,7 +55333,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "faff917c57697b06fbe4828b8b38eeb9914fd352f1a8f075abd69b2529788b29",
