@@ -1621,7 +1621,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "0778c3fb96ab28de64e5f265ee6e36c8a56fce96b4497c6c0c4630e3a2be0f26",
@@ -3676,7 +3676,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 8
   },
   {
     "id": "10251c3ec1ce997ee06919e22b5f6504d930560a80f96a543ece42f0640f34f8",
@@ -6903,7 +6903,7 @@
     "sourceCategory": "media",
     "publishedAt": "2026-09-27T07:47:57.000Z",
     "discoveredAt": "2026-09-27T12:06:58.690Z",
-    "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken…",
+    "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the…",
     "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrnnWi_EE_zogEngdPWZDYXQTXqcArqvXtXYDj7_yLDzfVamEw9Nx7taRyM1SQf8-78qtxnt3nhNzcn36WnzYwZvFDQNvglCilw0Ltb4NjVkjjC8GH2nOUTnxIBPvRn8JVPcXJaidmbU0A6z-1RiX_OKgcpkzvL6xV7aM_YpQj6XdYIfalQH3h6o3b7pQ/s1600/citrix-zero-day.jpg",
     "language": "en",
     "tags": [],
@@ -8976,7 +8976,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "2776184929ae0d7d367390a5e8e8a9345c00a5eeca9a3ca13a977597439a0e06",
@@ -9615,7 +9615,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "2a0d4b252e023caaa41d6810ac6875e52b2f7cb52c2afc59100c9832e1b91e60",
@@ -9895,7 +9895,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "2bcb50f0cb09721982623055a8c876238cdd1831ec0d8d8ad561f61129818e62",
@@ -11798,6 +11798,27 @@
     "relevanceScore": 11
   },
   {
+    "id": "3396a5a7c11d2851cb00e24774bed54395bb9560a208a5e27f7c04d77478a041",
+    "title": "How the CISO CFO Relationship is a Key to Cybersecurity Success",
+    "url": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success",
+    "canonicalUrl": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-25T20:28:10.000Z",
+    "discoveredAt": "2026-09-27T21:22:57.465Z",
+    "summary": "Building a financial bridge: Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk and enable business growth are better prepared to face today's threat landscape.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1682014f9a4fac6c/6762e3fbfe28e22e7d279cce/CFO_(1800)_Dzmitry_Skazau_Alamy.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 45
+  },
+  {
     "id": "33a259f02588966e0da6c07c082a31a36a2d35139ac2b583f8a93f3757021398",
     "title": "Mistral bags €3B to build Europe's sovereign AI champion",
     "url": "https://www.theregister.com/ai-and-ml/2026/09/08/mistral-bags-3b-to-build-europes-sovereign-ai-champion/5294941",
@@ -12614,7 +12635,7 @@
   },
   {
     "id": "37307b66ca009ae41c1bd144b0c99723da3c39fee14e47175fccfd9bac50d5bc",
-    "title": "Citrix admins warned to shut down NetScalers over 2 exploited zero-days",
+    "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
     "canonicalUrl": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days",
     "sourceId": "bleepingcomputer",
@@ -12623,18 +12644,16 @@
     "sourceCategory": "media",
     "publishedAt": "2026-09-27T16:02:37.000Z",
     "discoveredAt": "2026-09-27T17:00:26.925Z",
-    "summary": "Two unpatched Citrix NetScaler zero-day vulnerabilities are reportedly being exploited in attacks, with cybersecurity agencies, security researchers, and IT providers privately warning organizations about the flaws ahead of patches expected next week. [...]",
+    "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
     "language": "en",
     "tags": [
       "Security"
     ],
-    "matchedKeywordIds": [
-      "cybersecurity"
-    ],
+    "matchedKeywordIds": [],
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 16
   },
   {
     "id": "3746faa54a5a507f5d77b37ceed9383db0cb83cd6c6a9ee6820e31c7f60d2498",
@@ -12790,7 +12809,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "3802aa15c4b6ae22021ae0ee38d1b326bfae76ce787892fb81ed73e6ffa883e6",
@@ -13145,7 +13164,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "39842fa0b34b37cbe3f74a631eb53c7b3f91d6f6e5ad7b93c66d1420605c9599",
@@ -13487,6 +13506,32 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "3bb8d18f44686569065c10a81218307bc7a1b9834592cf316b6105692b3851ad",
+    "title": "Can Muse overcome Meta’s trust issues?",
+    "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-27T19:57:30.000Z",
+    "discoveredAt": "2026-09-27T21:22:57.465Z",
+    "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Equity podcast",
+      "Meta"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
   },
   {
     "id": "3bc5a4e973b035eb582fc6281b086ebf272c5a5cb7b440cf63c43cb324988cc9",
@@ -17177,7 +17222,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "4d3a8c60c3b9c23546038836dcab17d589128145620bacc925ff5858cf16692e",
@@ -17334,7 +17379,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "4e3078c1260ed8a19a716bc74e9e4da7f4e9e746a3ae25ee736ce8de625dff28",
@@ -19879,7 +19924,7 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 59
+    "relevanceScore": 56
   },
   {
     "id": "5a171debcaa83b9fd5466834f7aab301b7332ae1e5d7c52c8fb2b49eadfb14ed",
@@ -20135,7 +20180,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "5b3e6060de6c1a1baf4f1f5f966ec45bfbe4bbcd38cfd9890a4e17f377b92f9c",
@@ -21177,7 +21222,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "60397224e19ebd7d2f798d645916a3ba0b037c19be90c4831d80a13e088843ac",
@@ -23920,7 +23965,7 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 28
+    "relevanceScore": 25
   },
   {
     "id": "6e8fcd1cc3d8fe632bcc39bcf4e4fdc6a9bc3d6bbda67b06f17c3f3dd964b6c6",
@@ -26333,7 +26378,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "7aa7a69d878311641f053ce8264990a222a24f15d65b3d08d9d62c33854f84f2",
@@ -28753,7 +28798,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "852ff302b4ad29e14138d39ba46052549c9ec4e0cf18e855a15e032c406bf426",
@@ -31993,8 +32038,8 @@
     "sourceCategory": "cybersecurity",
     "publishedAt": "2026-09-27T09:35:21.000Z",
     "discoveredAt": "2026-09-27T12:06:58.690Z",
-    "summary": "There are reportedly two unpatched zero-day Citrix NetScaler vulnerabilities capable of enabling remote code execution that have been actively exploited in the wild, with no patches available at this time. Key takeaways Reports indicate that there are two critical zero-day vulnerabilities in Citrix NetScaler. The…",
-    "imageUrl": "https://www.tenable.com/sites/default/files/images/articles/citrix-netscaler-zero-days-reportedly-exploited-in-the-wild-september-2026.png",
+    "summary": "CVE-2026-88771 and CVE-2026-88772, two zero-day vulnerabilities in Citrix NetScaler, have been confirmed as exploited in the wild. Citrix released patches on September 27, 2026. Change log Update September 27: Citrix published security bulletin CTX697096, confirming CVE-2026-88771 and CVE-2026-88772 as the two…",
+    "imageUrl": "https://www.tenable.com/sites/default/files/inline/images/tenable-attack-surface-management-asm-netscaler-query.png",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [],
@@ -34476,7 +34521,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 41
+    "relevanceScore": 38
   },
   {
     "id": "9eac9247e40019d4182864be017cd3d34685d15fd58df4dbb0bc152143d0de10",
@@ -34570,7 +34615,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "9f18a97b3fdce7c6212a105833679afe9e547a13002182cd80e19785347b0b44",
@@ -35427,7 +35472,7 @@
       "artificial-intelligence",
       "cybersecurity"
     ],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "a2307bc073cf862e670599bbfb0e6e5da3c047e3af3e5b85a67407640049f86d",
@@ -36505,11 +36550,11 @@
     "summary": "\"AI is the devil and I its maker.\"",
     "language": "en",
     "tags": [
-      "Media & Entertainment",
       "AI",
-      "Saturday night live",
+      "Media & Entertainment",
       "Anthropic",
-      "dario amodei"
+      "dario amodei",
+      "Saturday night live"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -41203,7 +41248,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "bb6fe52bc464e9917d0a3d507c8af2c6dcefcdd4b363a89ce24b1519cb47f231",
@@ -42591,6 +42636,32 @@
     "relevanceScore": 13
   },
   {
+    "id": "c14ca803e3fc11697070897678f8be8aa64553ae0c43dde8e1a966f7c7ab31bb",
+    "title": "Anthropic’s CEO is about to have dinner with President Trump",
+    "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-27T20:34:28.000Z",
+    "discoveredAt": "2026-09-27T21:22:57.465Z",
+    "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Government & Policy",
+      "Anthropic",
+      "dario amodei",
+      "Donald Trump"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "c15100d77b0a74544474a7bea5aa8171bdfe547d1541c49c9dafa307b7fc59a5",
     "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
     "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
@@ -43822,7 +43893,7 @@
       "cybersecurity",
       "devsecops"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "c65ba0a6c6e3046285d6955a43bbcb5070429db3b059872f9949555cfd4b1524",
@@ -49354,6 +49425,36 @@
     "relevanceScore": 56
   },
   {
+    "id": "dee29e2f8c415b8b3330a66626097490efb2e7df67d4c9fc848d77f75f039608",
+    "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+    "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+    "canonicalUrl": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter",
+    "sourceId": "cloudflare-blog",
+    "sourceName": "Cloudflare Blog",
+    "company": "Cloudflare",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-09-27T17:00:00.000Z",
+    "discoveredAt": "2026-09-27T21:22:57.465Z",
+    "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
+    "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M3G3F5ZSHVH0CSDBN2M4A43T.01M3G3F6KFD00H82BMWC8VN4TP.png",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Birthday Week",
+      "Developer Platform",
+      "Founders' Letter",
+      "Internet Trends"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "devsecops"
+    ],
+    "relevanceScore": 34
+  },
+  {
     "id": "dee5aa01bd9d41e1acaffd864645be6237a89214174414f63ddbbccab7967d55",
     "title": "Windows 11 KB5124008 update breaks domain trust for some users",
     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
@@ -50676,7 +50777,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "e57ec0b7dca4ba89e278e56dcb700d16c103996962c6d859556d5e7aba31c7a3",
@@ -54033,7 +54134,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "f3c6cee66ad80b68b671910dbcfdb1b337ef424635852c6708845722de55f420",
@@ -55128,7 +55229,7 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 69
+    "relevanceScore": 66
   },
   {
     "id": "f985ed54baf53e85d64f66091c97b7c3cd1742ed455824a07c8bc78668660eb1",
