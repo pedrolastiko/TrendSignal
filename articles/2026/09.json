@@ -25,7 +25,7 @@
     "tagMatchedIds": [
       "generative-ai"
     ],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "00472318ce4b76f78aa1ab0a5115c7a33cb556a8ebb0fc2291b0654692d949ee",
@@ -943,7 +943,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "0414da3a0c4f2d01cf7320f8d6f6a69fc52b01725435142c80c31a0c0a6fe41b",
@@ -2631,7 +2631,7 @@
     "tagMatchedIds": [
       "generative-ai"
     ],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "0bb946f0c421538942e425649beb92ebcc573674a0f10cbfe699bb79671506eb",
@@ -3863,7 +3863,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "110974842b665729362a4032cf644a05400eaba414d3cbae649459440b94056e",
@@ -5642,6 +5642,38 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 55
+  },
+  {
+    "id": "18b7fe91fb7d9c0579b22b173b6e7fe67c6895f217b563da033c41a4181b4733",
+    "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
+    "url": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-28T04:54:00.000Z",
+    "discoveredAt": "2026-09-28T05:28:09.191Z",
+    "summary": "AWS recently announced that Aurora DSQL now supports foreign key constraints, allowing applications to enforce referential integrity directly in the database, including CASCADE, SET NULL, and other referential actions. The addition addresses a long-standing gap that users had explicitly called out as an adoption…",
+    "imageUrl": "https://res.infoq.com/news/2026/09/aurora-dsql-foreign-keys/en/headerimage/generatedHeaderImage-1788260510964.jpg",
+    "language": "en",
+    "tags": [
+      "Relational Databases",
+      "Distributed Data",
+      "Postgres",
+      "Database",
+      "Cloud",
+      "AWS",
+      "AI",
+      "ML & Data Engineering",
+      "Development",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 14
   },
   {
     "id": "18d2a01944700462d30f97f9e56f99ce706dad518dedd9e187f47c0b9354cab1",
@@ -9765,10 +9797,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/qcon-ai-newyork-2026-sessions/en/headerimage/qcon-ai-new-york-2026-1790249334674.jpg",
     "language": "en",
     "tags": [
-      "Artificial Intelligence",
+      "QCon AI New York 2026",
       "QCon Software Development Conference",
       "Architecture",
-      "QCon AI New York 2026",
+      "Artificial Intelligence",
       "AI Architecture",
       "AI",
       "ML & Data Engineering",
@@ -14304,10 +14336,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/c-rust-rewrite/en/headerimage/generatedHeaderImage-1790493245314.jpg",
     "language": "en",
     "tags": [
+      "AI Harness",
       "Large language models",
       "Rust",
       "Memory Safety",
-      "AI Harness",
       "Development"
     ],
     "matchedKeywordIds": [
@@ -18498,7 +18530,7 @@
   },
   {
     "id": "5432e803696302fcd5c0439f735ad161a94032df127b5c11e2602a180b8ab7fa",
-    "title": "Grafana Turns Cypress Test Results Into Persistent Observability Data",
+    "title": "Grafana Turns Cypress Test Results into Persistent Observability Data",
     "url": "https://www.infoq.com/news/2026/09/grafana-cypress-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/09/grafana-cypress-observability",
     "sourceId": "infoq",
@@ -18512,8 +18544,8 @@
     "language": "en",
     "tags": [
       "Automated testing",
-      "Observability",
       "Grafana",
+      "Observability",
       "DevOps"
     ],
     "matchedKeywordIds": [],
@@ -19010,6 +19042,27 @@
     "relevanceScore": 12
   },
   {
+    "id": "5636ba8b6b01fce60edf853162d79e6f718e46039ae7898c7ad0059923d8cc54",
+    "title": "Truecaller takes its scam intelligence to the open web as it looks beyond caller ID",
+    "url": "https://techcrunch.com/2026/09/27/truecaller-takes-its-scam-intelligence-to-the-open-web-as-it-looks-beyond-caller-id/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/27/truecaller-takes-its-scam-intelligence-to-the-open-web-as-it-looks-beyond-caller-id",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-28T04:30:00.000Z",
+    "discoveredAt": "2026-09-28T05:28:09.191Z",
+    "summary": "Truecaller finds a new way to reach users as pressure grows on its traditional caller ID business in India, its biggest market.",
+    "language": "en",
+    "tags": [
+      "Apps",
+      "Truecaller"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "564b9804828f6950980dde22bf69b8d15bb2f9601125f47b57d57f762ecc77b4",
     "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
     "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
@@ -19198,14 +19251,14 @@
     "imageUrl": "https://res.infoq.com/presentations/spritely-decentralized-architecture/en/mediumimage/cd-medium-1789633126216.jpg",
     "language": "en",
     "tags": [
-      "CRDT",
       "WebAssembly",
       "P2P",
+      "CRDT",
+      "Local First",
       "QCon London 2026",
+      "Actor Model",
       "Security",
       "Transcripts",
-      "Local First",
-      "Actor Model",
       "DevOps",
       "Architecture & Design",
       "Development",
@@ -19362,7 +19415,7 @@
     "tagMatchedIds": [
       "generative-ai"
     ],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "5778eb9fbb8bf965a189ee378680d3e9c80d1427dc4299acba9ee05f6a3cb78a",
@@ -21197,7 +21250,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "602f978f5bff6bb9dc2e1d48f5db0c782dd9da0fa5c61c5166053065846dfd11",
@@ -22762,7 +22815,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "69430c4b5fd5fb96bdcaf9718ae8ba0b165c063b6112e632f412e3958e94051c",
@@ -23360,7 +23413,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 26
   },
   {
     "id": "6bd15b622a4a487dcabbfb4abe60848d2112d6c7192072e7ccf133f134331fe0",
@@ -24125,7 +24178,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "6f876aba8272221bddf7f4fc5e8df5e77fb2f77db95b724792da069d0718236f",
@@ -25561,18 +25614,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/aws-stateless-mcp/en/headerimage/generatedHeaderImage-1788807776891.jpg",
     "language": "en",
     "tags": [
-      "Deployment",
       "Scaling",
       "Load Balancing",
+      "Deployment",
       "OpenTelemetry",
-      "Distributed Systems",
-      "AWS Lambda",
-      "AWS",
-      "Serverless",
       "Microservices",
       "Observability",
+      "Model Context Protocol (MCP)",
+      "AI Architecture",
       "W3C",
-      "Frameworks"
+      "Frameworks",
+      "Serverless",
+      "AWS Lambda"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -27377,7 +27430,7 @@
   },
   {
     "id": "7ec38b6fe0b06c86da0f6f86b1a67ead69e4653bb844537f714c36978c4b091b",
-    "title": "Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction Across Laptop and Cloud",
+    "title": "Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction across Laptop and Cloud",
     "url": "https://www.infoq.com/news/2026/09/docker-cloud-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/09/docker-cloud-sandboxes",
     "sourceId": "infoq",
@@ -27390,14 +27443,14 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/docker-cloud-sandboxes/en/headerimage/dreamer-4-mincraft-agent-1790438799314.jpeg",
     "language": "en",
     "tags": [
-      "Containers",
       "Cloud",
-      "Agents",
       "AI Security",
+      "Containers",
+      "Agents",
       "Docker",
+      "DevOps",
       "AI",
       "ML & Data Engineering",
-      "DevOps",
       "Development"
     ],
     "matchedKeywordIds": [
@@ -28415,6 +28468,27 @@
       "cybersecurity"
     ],
     "relevanceScore": 16
+  },
+  {
+    "id": "83540025df88193ee907ad0622630e45b26ba470b7470c0dccb32068deae3c24",
+    "title": "Amazon evaluating drone deliveries in Australia, Asia",
+    "url": "https://www.theregister.com/personal-tech/2026/09/28/amazon-evaluating-drone-deliveries-in-australia-asia/5299343",
+    "canonicalUrl": "https://www.theregister.com/personal-tech/2026/09/28/amazon-evaluating-drone-deliveries-in-australia-asia/5299343",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-28T01:12:27.000Z",
+    "discoveredAt": "2026-09-28T05:28:09.191Z",
+    "summary": "PLUS: Singapore helps Meta find new form of scam; Nothing bets it can create Indian consumer tech giant; Bangkok floods, tech holds on",
+    "imageUrl": "https://image.theregister.com/?imageId=137402&width=800",
+    "language": "en",
+    "tags": [
+      "personal tech"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "83738de6ecbedca99809eb6ef38c0edbe97fc3eca8751d41dacc75882852ffab",
@@ -29474,9 +29548,9 @@
     "language": "en",
     "tags": [
       "Programming Languages",
-      "Apple",
-      "WebAssembly",
       "Open Source",
+      "WebAssembly",
+      "Apple",
       "Mobile",
       "C++20",
       "Swift",
@@ -30135,6 +30209,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "8afc0a31128ec603f27d9cdfc371105700bf7a5d4afcc80a0ac24d704a3e34e3",
+    "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-27T23:40:39.000Z",
+    "discoveredAt": "2026-09-28T05:28:09.191Z",
+    "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
+    "language": "en",
+    "tags": [
+      "Artificial Intelligence",
+      "Technology"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
     ],
     "relevanceScore": 16
   },
@@ -32433,10 +32530,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/cloudflare-emdash-migration/en/headerimage/generatedHeaderImage-1788551109664.jpg",
     "language": "en",
     "tags": [
-      "Cloudflare",
       "WordPress",
       "Caching",
       "migration",
+      "Cloudflare",
       "Portal/CMS",
       "DevOps",
       "Architecture & Design"
@@ -33788,7 +33885,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "9b4115510ad30607b864a9347ad2a8edea8a104c4ef9e1d8dd25d614030a96ae",
@@ -34006,7 +34103,7 @@
   },
   {
     "id": "9cd6ce32b31e05f0e07d8ef11700ad6575d0d6c7582ca0adcc97339dc4fe8597",
-    "title": "Article: The Agent Harness: What It Is and Two Ways to Build One",
+    "title": "Article: The Agent Harness: What it is and Two Ways to Build One",
     "url": "https://www.infoq.com/articles/agent-harness-build-one/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/articles/agent-harness-build-one",
     "sourceId": "infoq",
@@ -34234,7 +34331,7 @@
   },
   {
     "id": "9da9b98c1f7ed966c4ab1f3c7a6d685e5dd7ecdbfaf25492f35bd069952a40c3",
-    "title": "Podcast: The Future of AI: From Enterprise Adoption to Open Source Sovereignty",
+    "title": "Podcast: The Future of AI: from Enterprise Adoption to Open Source Sovereignty",
     "url": "https://www.infoq.com/podcasts/enterprise-adoption-open-source-sovereignty/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/podcasts/enterprise-adoption-open-source-sovereignty",
     "sourceId": "infoq",
@@ -34243,16 +34340,16 @@
     "sourceCategory": "media",
     "publishedAt": "2026-09-25T11:00:00.000Z",
     "discoveredAt": "2026-09-25T11:54:31.167Z",
-    "summary": "In this episode, Meryem Arik, Clara Higuera Cabañes, and Jeff Smith, demystify the current state of AI in the enterprise. The discussion navigates the \"industrial revolution\" moment in AI adoption, exploring why companies are rushing toward these technologies to maintain competitive advantages while grappling with…",
+    "summary": "In this episode, Meryem Arik, Clara Higuera Cabañes, and Jeff Smith demystify the current state of AI in the enterprise. The discussion navigates the \"industrial revolution\" moment in AI adoption, exploring why companies are rushing toward these technologies to maintain competitive advantages while grappling with…",
     "imageUrl": "https://res.infoq.com/podcasts/enterprise-adoption-open-source-sovereignty/en/smallimage/infoq-podcast-500-1787827393574.jpg",
     "language": "en",
     "tags": [
-      "Large language models",
       "Open Source",
-      "Responsibility",
-      "Generative AI",
-      "Artificial Intelligence",
       "The InfoQ Podcast",
+      "Generative AI",
+      "Large language models",
+      "Responsibility",
+      "Artificial Intelligence",
       "AI",
       "ML & Data Engineering",
       "podcast"
@@ -35913,7 +36010,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "a474474446dc1197fdcbc8cbb2ab7275411657a1453cacdd21057fa2526e4d48",
@@ -36067,12 +36164,12 @@
     "imageUrl": "https://res.infoq.com/presentations/adaptive-recommendation-systems-architecture/en/mediumimage/mallika-medium-1789632229433.jpeg",
     "language": "en",
     "tags": [
-      "Data",
       "Scaling",
+      "Data",
       "Performance",
-      "Transcripts",
-      "Observability",
       "QCon AI Boston 2026",
+      "Observability",
+      "Transcripts",
       "Machine Learning",
       "AI",
       "ML & Data Engineering",
@@ -40281,7 +40378,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "b6403f3512c91d0d80c3bffe890ac5305d4426230d0938c503cd2bf654e6a994",
@@ -43573,7 +43670,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 29
+    "relevanceScore": 26
   },
   {
     "id": "c5138d9ca614d59c3fa8a827f71cac924b94ff349cb51224cc4171c10785b556",
@@ -44923,7 +45020,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "cadccff6d41f54702cc7da0c869995262fd84cfee9be2f9d35c06fa43145e71f",
@@ -46524,7 +46621,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "d1a80716b899ca47ce6e5d8c029402e85c77fc71e3705370a44bda05c3f0295a",
@@ -46748,7 +46845,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "d1e3ec21956720a9ee1f45d31272f848bdec4cc93506e6226bb120d1e660ff99",
@@ -46960,7 +47057,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 10
   },
   {
     "id": "d28e8e652867aad74d52fc851ae292eba94bb8ae5f5f49ea9164040de717c608",
@@ -46983,7 +47080,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "d291af2f634c583f6b4662280733f4508a5c7705e9359c9d30ed5dd5da6873d0",
@@ -49489,16 +49586,16 @@
     "imageUrl": "https://res.infoq.com/news/2026/09/gke-pod-snapshots-benchmarks/en/headerimage/generatedHeaderImage-1790233005037.jpg",
     "language": "en",
     "tags": [
-      "Containers",
       "Cloud",
+      "Containers",
       "Performance",
       "Kubernetes",
+      "Architecture",
       "Google Cloud",
       "Machine Learning",
-      "Architecture",
+      "DevOps",
       "AI",
       "ML & Data Engineering",
-      "DevOps",
       "Development",
       "Architecture & Design"
     ],
@@ -50297,7 +50394,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "e2a8e5565c7da4c6c5af61b39c20f7fc2c853f8740d55270bc9f17d7116ce6c6",
@@ -50620,6 +50717,38 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "e4e5d3f8bb99a8e598de04a385e0eba767862a747c04682f6a3876ea2493fea8",
+    "title": "Java News Roundup: TornadoVM 7.0, Groovy 6.0, GraalVM, Hibernate, Quarkus, Gradle, Maven",
+    "url": "https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-28T02:30:00.000Z",
+    "discoveredAt": "2026-09-28T05:28:09.191Z",
+    "summary": "This week's Java roundup for September 21st, 2026, features news highlighting: GA releases of TornadoVM 7.0 and Groovy 6.0; point releases of GraalVM and Gradle; maintenance releases of Quarkus and GDK for Micronaut; the seventh release candidate of Maven 4.0; milestone releases of Micrometer Metrics and Tracing; and…",
+    "imageUrl": "https://res.infoq.com/news/2026/09/java-news-roundup-sep21-2026/en/headerimage/java-news-roundup-image-1790515735386.jpg",
+    "language": "en",
+    "tags": [
+      "Open JDK",
+      "TornadoVM",
+      "Java",
+      "Quarkus-Test",
+      "JDK 28",
+      "Groovy",
+      "Gradle",
+      "Open Liberty",
+      "GraalVM",
+      "Hibernate ORM",
+      "Micrometer",
+      "Jakarta EE"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 14
   },
   {
     "id": "e4f959aeff03617d316b8c3701806fde5cda209c4542281b8c87353971955310",
@@ -56569,7 +56698,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "fe9b4c19366e9eeb7b252b94cb0e523ddf0dc8be027515b064d424c72e1b5394",
@@ -56919,7 +57048,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "ffd510ca3bf12f3207a2b899b4963aeaa49aa93e6fad5a8371774212e1ea7180",
