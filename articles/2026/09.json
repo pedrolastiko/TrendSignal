@@ -1603,7 +1603,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "075fed980e67c694db46cedaac3bb03714e2e805b3a4b8d5ecbdb92fb4704bd4",
@@ -1845,7 +1845,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "07ca6a0614706c08ebd5028677e8b141a19c0806ee0f1929083b54d2c52a9b8b",
@@ -3396,6 +3396,29 @@
     "relevanceScore": 70
   },
   {
+    "id": "0e6df95f576891d6201285e9f094d628ef411cfb290ec2e35122b7c97b8fa834",
+    "title": "OpenAI GPT-6 Astra really good at supply chain attacks, UK gov warns",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/28/openai-gpt-6-astra-really-good-at-supply-chain-attacks-uk-gov-warns/5299588",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/09/28/openai-gpt-6-astra-really-good-at-supply-chain-attacks-uk-gov-warns/5299588",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-28T19:44:34.000Z",
+    "discoveredAt": "2026-09-29T05:47:14.457Z",
+    "summary": "During testing, the model showed it can violate security rules more often than its predecessors",
+    "imageUrl": "https://image.theregister.com/?imageId=5299596&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 15
+  },
+  {
     "id": "0e8db38d2abd4588ada9d0b91b526aeb0551d8ee6e82c49ca188d52c89ecfea2",
     "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
     "url": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
@@ -3714,7 +3737,7 @@
     "tagMatchedIds": [
       "generative-ai"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "0fe83eed86825cb0a496bbecd1272224064b9c7765c753276a6e3fb8c4d7076b",
@@ -5909,7 +5932,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "18d2a01944700462d30f97f9e56f99ce706dad518dedd9e187f47c0b9354cab1",
@@ -6934,7 +6957,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "1dbe8187f23e13728009fd048ea21a180fe54560017c43bd7340ed69ef681a6b",
@@ -8057,7 +8080,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 26
+    "relevanceScore": 24
   },
   {
     "id": "220fdea6c47a42b105665c1cb5d29f222ba47c149ae2efa0b9d7a8261230ab35",
@@ -8099,7 +8122,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "222169295ccea6bd6d7a63c2ce505e71c3ec52f2a563e20a510d06c1b02153be",
@@ -8566,10 +8589,13 @@
     "sourceCategory": "media",
     "publishedAt": "2026-09-28T18:31:23.000Z",
     "discoveredAt": "2026-09-28T23:18:51.344Z",
-    "summary": "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI…",
+    "summary": "Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to break out.",
     "language": "en",
     "tags": [
-      "AI"
+      "AI",
+      "Jensen Huang",
+      "nvidia",
+      "OpenAI"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -10544,7 +10570,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "2cc7290108c1119eca3e7455050fbfdb2b168d14ca209f3e8f90c0a029ea0acc",
@@ -12054,6 +12080,31 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "3273f5aaeb25469e661eac7855d78294e95ad1cb25c3dbe222eaec6089856022",
+    "title": "JadePuffer crims hijacked Azure identities and used them to blow up cloud resources",
+    "url": "https://www.theregister.com/security/2026/09/28/jadepuffer-crims-hijacked-azure-identities-and-used-them-to-blow-up-cloud-resources/5299591",
+    "canonicalUrl": "https://www.theregister.com/security/2026/09/28/jadepuffer-crims-hijacked-azure-identities-and-used-them-to-blow-up-cloud-resources/5299591",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-28T20:30:00.000Z",
+    "discoveredAt": "2026-09-29T05:47:14.457Z",
+    "summary": "Smells like more agentic ransomware, Redmond warns",
+    "imageUrl": "https://image.theregister.com/?imageId=5299599&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [
+      "ransomware"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 33
   },
   {
     "id": "329e9c78bc633316bbadb09a54e17b974736105cf598558a5df0ef8f8e040935",
@@ -16204,7 +16255,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "455ef52f381b6006d0cfd8910640c8790d31ba48d628dca7565879e32eacd3ff",
@@ -17604,7 +17655,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "4b5f6594fe2db45cb60236b7ac5cb42e2d6063dd5a82c816ab8192228c3b6807",
@@ -18645,6 +18696,24 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 9
+  },
+  {
+    "id": "50d71cd52400f551c336b9ad5bff210544c56459b813f45adc29b8abfb63cfa4",
+    "title": "How we will do better for Australia",
+    "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+    "canonicalUrl": "https://openai.com/index/how-we-will-do-better-for-australia",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-09-28T19:00:00.000Z",
+    "discoveredAt": "2026-09-29T05:47:14.457Z",
+    "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
   },
   {
     "id": "50ed35324ca95f93be0ebd7b6249c23d86a3d9cec512559e2205c2539cfb1d63",
@@ -20811,7 +20880,7 @@
   },
   {
     "id": "597f966552341f3f7c56b9759bbab44b5e68f4130e0770e4194c59853670abe2",
-    "title": "How Databricks rolls out frontier models to 14,000 employees on Day 1",
+    "title": "How Databricks rolls out frontier models to 12,000 employees on Day 1",
     "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
     "canonicalUrl": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
     "sourceId": "databricks-blog",
@@ -22352,6 +22421,34 @@
     "relevanceScore": 27
   },
   {
+    "id": "6089156caa72e40a3fb938c6cd279b72c7f8728101f374976adc1ff29037792b",
+    "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+    "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-29T00:30:00.000Z",
+    "discoveredAt": "2026-09-29T05:47:14.457Z",
+    "summary": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Biotech & Health",
+      "Media & Entertainment",
+      "Startups",
+      "Venture",
+      "Peak XV",
+      "Peak XV Partners"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "6097fa595159d1f1e48d4635c1b83a6a417557887d183d1c0dc9068e2298662e",
     "title": "PostgreSQL 19 connects the dots with standardized graph queries",
     "url": "https://www.theregister.com/databases/2026/09/04/postgresql-19-connects-the-dots-with-standardized-graph-queries/5294500",
@@ -22420,7 +22517,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 27
   },
   {
     "id": "612621f065a2221334b57ef555d2aae3dc99121106b03eae873d1fd7efb99491",
@@ -23866,7 +23963,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "689ffb8dd99a9fcf19b4340d56ae61602dceef019ad9c89f18f75ba7c5920db1",
@@ -24493,7 +24590,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "6b5b7c851b251cd838cd39c096cfa45c0086d59cd35c3e91939c76748f7a8dc2",
@@ -27509,7 +27606,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "78da0664e572526f2d06b21f22b2b4dafda591fa135ac8faa64d9dd41606b02d",
@@ -27609,6 +27706,29 @@
     "relevanceScore": 52
   },
   {
+    "id": "7948ef5f032c35d573b7f9a328972a0d8bd643dafd2eeccfb35c207caf0e5fe4",
+    "title": "OpenAI’s dirty deeds Down Under included security bypass attempts, using exposed keys, source code siphon",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/29/openais-dirty-deeds-down-under-included-security-bypass-attempts-using-exposed-keys-source-code-siphon/5299666",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/09/29/openais-dirty-deeds-down-under-included-security-bypass-attempts-using-exposed-keys-source-code-siphon/5299666",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-29T02:13:51.000Z",
+    "discoveredAt": "2026-09-29T05:47:14.457Z",
+    "summary": "Admits its agents side-swiped four Australian government sites",
+    "imageUrl": "https://image.theregister.com/?imageId=5299671&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 15
+  },
+  {
     "id": "795405e02117c6bee2ac628de215d373509a73668c8fc25dff15c75789338290",
     "title": "Claude Code revamps projects so you can work and pay in parallel",
     "url": "https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532",
@@ -27676,7 +27796,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "79f32efd864cd4c560e6a32687cbfea2f7f2b4f6d85bff5e3582079aee89222e",
@@ -29597,7 +29717,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "820e6c854412602b2fb94550dae2da88cb82ca70c69567c14bfb59e26116fb8c",
@@ -29893,7 +30013,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 18
+    "relevanceScore": 15
   },
   {
     "id": "83411b786a57dced151fc24c1058d7e60fdaaf3975e2a36670b3a5ddee3f61fa",
@@ -29941,7 +30061,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "83738de6ecbedca99809eb6ef38c0edbe97fc3eca8751d41dacc75882852ffab",
@@ -31725,7 +31845,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8b097d2b2aaf7382a67c67da861ab239552b27e6b343c2886c29c1f204af5397",
@@ -34523,6 +34643,32 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 34
+  },
+  {
+    "id": "97a055038b0de18e8e86e495b37445d7bd4b33f7ba4db9aba1e2df2bd9d7aca2",
+    "title": "OpenAI reportedly ditches model over safety concerns",
+    "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-28T23:39:20.000Z",
+    "discoveredAt": "2026-09-29T05:47:14.457Z",
+    "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Astra",
+      "OpenAI"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
   },
   {
     "id": "97aee69547b64e1ed7a1cc2cf2865d1147021e50dfa295cc72b3f31624e67225",
@@ -40970,9 +41116,9 @@
     "language": "en",
     "tags": [
       "AI",
-      "Sonnet",
       "Anthropic",
-      "Claude"
+      "Claude",
+      "Sonnet"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -46023,16 +46169,19 @@
     "sourceCategory": "media",
     "publishedAt": "2026-09-28T19:21:59.000Z",
     "discoveredAt": "2026-09-28T23:18:51.344Z",
-    "summary": "Just like the rest of the U.S, data centers and AI are dividing climate tech founders and investors.",
+    "summary": "Just like the rest of the U.S., data centers and AI are dividing climate tech founders and investors.",
     "language": "en",
     "tags": [
+      "AI",
       "Climate",
       "climate week nyc"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
-    "tagMatchedIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
     "relevanceScore": 48
   },
   {
@@ -46384,6 +46533,29 @@
       "cybersecurity"
     ],
     "relevanceScore": 13
+  },
+  {
+    "id": "c72bb8c14e4b957f836329e7c3c93e99d0d294466ecd85b31ee1acce05efced6",
+    "title": "AWS needs to embrace its place as the Home Depot of AI infrastructure",
+    "url": "https://www.theregister.com/paas-and-iaas/2026/09/28/aws-needs-to-embrace-its-place-as-the-home-depot-of-ai-infrastructure/5299602",
+    "canonicalUrl": "https://www.theregister.com/paas-and-iaas/2026/09/28/aws-needs-to-embrace-its-place-as-the-home-depot-of-ai-infrastructure/5299602",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-28T21:05:00.000Z",
+    "discoveredAt": "2026-09-29T05:47:14.457Z",
+    "summary": "What's wrong with being a great wholesaler?",
+    "imageUrl": "https://image.theregister.com/?imageId=5299606&width=800",
+    "language": "en",
+    "tags": [
+      "paas and iaas"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 37
   },
   {
     "id": "c737c38e145ea787015c0717981e4baffdf420b47c1a81e1e3ce311d7445c5de",
@@ -47337,6 +47509,41 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 8
+  },
+  {
+    "id": "cb2f6f384416bcc5c364e99fb2a324646c1447242b9d4b27f1c1705cf1bb1c3c",
+    "title": "Workforce in motion: Skills and pathways to future jobs in the United States",
+    "url": "https://www.mckinsey.com/mgi/our-research/workforce-in-motion-skills-and-pathways-to-future-jobs-in-the-united-states",
+    "canonicalUrl": "https://www.mckinsey.com/mgi/our-research/workforce-in-motion-skills-and-pathways-to-future-jobs-in-the-united-states",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-09-29T00:00:00.000Z",
+    "discoveredAt": "2026-09-29T05:47:14.457Z",
+    "summary": "AI, automation, and broader structural trends are accelerating the reallocation of work across the US economy. Capturing its benefits requires developing new professional pathways and skills, and reducing barriers between declining and growing occupations.",
+    "language": "en",
+    "tags": [
+      "Research",
+      "High Tech & Internet",
+      "McKinsey Global Institute",
+      "United States",
+      "Artificial Intelligence",
+      "Labor markets",
+      "Managing in Uncertainty",
+      "Human resources",
+      "Management processes",
+      "Productivity",
+      "Disruptive Technology",
+      "MGI Research"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
   },
   {
     "id": "cb3f01a6cab34096ad5c193e1119eb804831e9b3e8ce166b1b8cc418d91e9a0f",
@@ -48391,7 +48598,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "ce99935af9315633a01afd1c294591640c5bd33ea30d1f4ad83235a96e7e95f6",
@@ -48610,7 +48817,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 27
+    "relevanceScore": 25
   },
   {
     "id": "cfd00dbf5fd36d4623eea61b0d9a3eeae72c6d1336e2c7b1e745f1ddc3e0cdf2",
@@ -51239,7 +51446,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "daab726d312ba91bc64deccdd3d9d3865fd7737d41da146695451b5849ef4d4f",
@@ -51622,7 +51829,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "dc813c06316ca1036f3a09701de4a025322061d318edbe5b25c12882fc9cdc16",
@@ -52584,6 +52791,31 @@
     "relevanceScore": 7
   },
   {
+    "id": "e0c84e30c2d43533d1208b5d90aa61e28e12a6ebeb5a7ef8749dafed96d1f5cb",
+    "title": "AMD bets $8.2B that worlds matter more than words in AI",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/28/amd-bets-82b-that-worlds-matter-more-than-words-in-ai/5299609",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/09/28/amd-bets-82b-that-worlds-matter-more-than-words-in-ai/5299609",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-28T22:01:33.000Z",
+    "discoveredAt": "2026-09-29T05:47:14.457Z",
+    "summary": "AI pioneer Fei-Fei Li just co-founded spatial AI research company World Labs in 2024. Now it's joining AMD",
+    "imageUrl": "https://image.theregister.com/?imageId=5299618&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 47
+  },
+  {
     "id": "e0f434e11bdcc95243690a03737fa8c19283c9993f6ba637ed84564c0fe5e740",
     "title": "London neocloud Nscale takes its $1B loss to Wall Street",
     "url": "https://www.theregister.com/on-prem/2026/09/21/london-neocloud-nscale-takes-its-1b-loss-to-wall-street/5297824",
@@ -52728,7 +52960,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "e1315188157ccf34e53722e64bf261e4a51a65b3cdd033d493fd48e059ef9f66",
@@ -52956,7 +53188,7 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 39
+    "relevanceScore": 36
   },
   {
     "id": "e21cc4fc7261364b464a2fe71886f919e5983e504f850354d3f047176651fe11",
@@ -53458,7 +53690,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "e4f959aeff03617d316b8c3701806fde5cda209c4542281b8c87353971955310",
@@ -54786,7 +55018,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "ea04573b50ea9c9fd71f4db47d6a99a0dc8c1b0f411894e3509d8a7bac9c9d92",
@@ -55215,7 +55447,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 18
+    "relevanceScore": 15
   },
   {
     "id": "eb767204849e5cd8640d00203c66e651cf958b73e690bd0c72f66d631239deb8",
@@ -55544,7 +55776,7 @@
     "sourceCategory": "media",
     "publishedAt": "2026-09-28T17:29:50.000Z",
     "discoveredAt": "2026-09-28T23:18:51.344Z",
-    "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",
+    "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature that built task-specific agents.",
     "language": "en",
     "tags": [
       "AI",
@@ -55778,6 +56010,31 @@
       "generative-ai"
     ],
     "relevanceScore": 25
+  },
+  {
+    "id": "ed80416146aa63da538ed8a11c3dc0f9d0bd21d7b9d51703ab7c5c5df37a6730",
+    "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+    "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+    "canonicalUrl": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-09-29T05:13:43.000Z",
+    "discoveredAt": "2026-09-29T05:47:14.457Z",
+    "summary": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Anthropic"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
   },
   {
     "id": "ed93cf017106c7e0efaf45c822b67831c5b3a00e4f0a161b34326a0e50508b14",
@@ -57325,7 +57582,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "f442604fce6583fd42b0aa01a66d74f3ed18544b114446c05e23a83927e78429",
