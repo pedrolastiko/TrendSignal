@@ -7,7 +7,7 @@
     "score": 0,
     "status": "declining",
     "articleCount": 0,
-    "previousArticleCount": 3,
+    "previousArticleCount": 2,
     "growthRate": -100,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
@@ -132,30 +132,34 @@
     "label": "AI security",
     "keywordId": "ai-security",
     "timeframe": "24h",
-    "score": 0,
+    "score": 32,
     "status": "stable",
-    "articleCount": 0,
+    "articleCount": 1,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
+    "distinctSourceCount": 1,
+    "leadingSourceIds": [
+      "infoq"
+    ],
+    "relatedArticleIds": [
+      "c2949a33aa64687edae6a5790f886256729027181924bef5fdac073f11ff5148"
+    ]
   },
   {
     "id": "ai-security-30d",
     "label": "AI security",
     "keywordId": "ai-security",
     "timeframe": "30d",
-    "score": 41,
+    "score": 42,
     "status": "stable",
-    "articleCount": 14,
+    "articleCount": 15,
     "previousArticleCount": 16,
-    "growthRate": -12,
+    "growthRate": -6,
     "distinctSourceCount": 12,
     "leadingSourceIds": [
       "checkpoint-blog",
-      "sentinelone-blog",
-      "theregister"
+      "infoq",
+      "sentinelone-blog"
     ],
     "relatedArticleIds": [
       "b4c2f06bca4278c043f19e7415479aa1c81dd727f1b46049ab0b1b32ae40d1fd",
@@ -175,22 +179,23 @@
     "label": "AI security",
     "keywordId": "ai-security",
     "timeframe": "7d",
-    "score": 39,
+    "score": 43,
     "status": "stable",
-    "articleCount": 4,
+    "articleCount": 5,
     "previousArticleCount": 4,
-    "growthRate": 0,
+    "growthRate": 25,
     "distinctSourceCount": 4,
     "leadingSourceIds": [
+      "infoq",
       "sentinelone-blog",
-      "wiz-blog",
-      "infoq"
+      "wiz-blog"
     ],
     "relatedArticleIds": [
       "b4c2f06bca4278c043f19e7415479aa1c81dd727f1b46049ab0b1b32ae40d1fd",
       "a501a7cd250f3c76a32dabf047f5935aaf312a2d31817b0c4a36af1115ed72ce",
       "206093868e86a0567b30acc668fec85a5cfce8eecf02a63da33400f0c7bfb3fe",
-      "6528a7b32223526622652818827ef4ba881f05c9253c754a38a66814e2e76450"
+      "6528a7b32223526622652818827ef4ba881f05c9253c754a38a66814e2e76450",
+      "c2949a33aa64687edae6a5790f886256729027181924bef5fdac073f11ff5148"
     ]
   },
   {
@@ -201,8 +206,8 @@
     "score": 62,
     "status": "rising",
     "articleCount": 5,
-    "previousArticleCount": 34,
-    "growthRate": -85,
+    "previousArticleCount": 28,
+    "growthRate": -82,
     "distinctSourceCount": 4,
     "leadingSourceIds": [
       "techcrunch",
@@ -222,11 +227,11 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "30d",
-    "score": 88,
+    "score": 87,
     "status": "breakout",
-    "articleCount": 972,
-    "previousArticleCount": 582,
-    "growthRate": 67,
+    "articleCount": 965,
+    "previousArticleCount": 588,
+    "growthRate": 64,
     "distinctSourceCount": 39,
     "leadingSourceIds": [
       "techcrunch",
@@ -253,9 +258,9 @@
     "timeframe": "7d",
     "score": 80,
     "status": "breakout",
-    "articleCount": 249,
-    "previousArticleCount": 236,
-    "growthRate": 6,
+    "articleCount": 248,
+    "previousArticleCount": 237,
+    "growthRate": 5,
     "distinctSourceCount": 33,
     "leadingSourceIds": [
       "techcrunch",
@@ -383,11 +388,11 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "24h",
-    "score": 25,
+    "score": 35,
     "status": "stable",
     "articleCount": 1,
-    "previousArticleCount": 3,
-    "growthRate": -67,
+    "previousArticleCount": 1,
+    "growthRate": 0,
     "distinctSourceCount": 1,
     "leadingSourceIds": [
       "thehackernews"
@@ -473,15 +478,15 @@
     "label": "Data protection and privacy engineering",
     "keywordId": "data-protection-privacy",
     "timeframe": "30d",
-    "score": 51,
-    "status": "rising",
-    "articleCount": 6,
-    "previousArticleCount": 3,
-    "growthRate": 100,
+    "score": 39,
+    "status": "stable",
+    "articleCount": 5,
+    "previousArticleCount": 4,
+    "growthRate": 25,
     "distinctSourceCount": 3,
     "leadingSourceIds": [
-      "bleepingcomputer",
       "theregister",
+      "bleepingcomputer",
       "thehackernews"
     ],
     "relatedArticleIds": [
@@ -489,8 +494,7 @@
       "c4afb829eed9a013c05d7cbd6a74f1aa56edc09101d84e0e2ac50bc1ab2afb53",
       "2b157122a13a28bf7e4e2e6868465dabdf352a54e26d176e994b99cff2f2a887",
       "d1a929f886de84bb1316c36c2fe4e03be61c403f9327e0c96af75f3eece4a0db",
-      "c7ddcbf006edb04f8b6f5b0feccf47992194ba373247f12f8fe25d7abcd3e9f2",
-      "ac14418d802d4ea7401c8f9af5f68002db06036d1db29c0b6649f0a00fd52572"
+      "c7ddcbf006edb04f8b6f5b0feccf47992194ba373247f12f8fe25d7abcd3e9f2"
     ]
   },
   {
@@ -642,11 +646,11 @@
     "label": "Generative AI",
     "keywordId": "generative-ai",
     "timeframe": "30d",
-    "score": 51,
+    "score": 49,
     "status": "rising",
-    "articleCount": 33,
-    "previousArticleCount": 23,
-    "growthRate": 43,
+    "articleCount": 32,
+    "previousArticleCount": 24,
+    "growthRate": 33,
     "distinctSourceCount": 13,
     "leadingSourceIds": [
       "infoq",
@@ -660,10 +664,10 @@
       "c3bcb92126698d29a6c86d48d09601150d31fbd7cf2f9b41563146db5a5c6778",
       "254aa6b1117112a319c14c6035f45d33086c65e16a99c7c775066357c6fb7ec6",
       "0cba79629be7fecd589d0c001fb76eeef830eb180b806c70fdcec6f76d2c210b",
-      "de75015e2a482038136355d7763e5e58559e6199be106787d0ab9f0cbe67854f",
       "a2c5344b3ce81e5b2ac537a13be992a1003a88849d0553c6c21e8cde1b03b1c5",
       "e2ea1d2fd87a3f2150df4530a91426c0e616dac1e0512bdddbde08822281e863",
-      "ea310f48d338b9de73e854da9fca2266369dc0e44e36e5619f019d10e02fe678"
+      "ea310f48d338b9de73e854da9fca2266369dc0e44e36e5619f019d10e02fe678",
+      "2bf4314b6896486af30f0433fa3b46166ac9015e63c50c56b4e60065473f5370"
     ]
   },
   {
@@ -857,11 +861,11 @@
     "label": "Ransomware",
     "keywordId": "ransomware",
     "timeframe": "24h",
-    "score": 25,
+    "score": 28,
     "status": "stable",
     "articleCount": 1,
-    "previousArticleCount": 3,
-    "growthRate": -67,
+    "previousArticleCount": 2,
+    "growthRate": -50,
     "distinctSourceCount": 1,
     "leadingSourceIds": [
       "thehackernews"
