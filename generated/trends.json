@@ -11,8 +11,8 @@
     "growthRate": 600,
     "distinctSourceCount": 5,
     "leadingSourceIds": [
-      "infoq",
       "techcrunch",
+      "infoq",
       "mit-technology-review"
     ],
     "relatedArticleIds": [
@@ -88,18 +88,16 @@
     "label": "AI governance",
     "keywordId": "ai-governance",
     "timeframe": "24h",
-    "score": 34,
-    "status": "stable",
-    "articleCount": 2,
-    "previousArticleCount": 0,
-    "growthRate": null,
-    "distinctSourceCount": 2,
+    "score": 21,
+    "status": "declining",
+    "articleCount": 1,
+    "previousArticleCount": 2,
+    "growthRate": -50,
+    "distinctSourceCount": 1,
     "leadingSourceIds": [
-      "deloitte-insights",
       "techcrunch"
     ],
     "relatedArticleIds": [
-      "5b15a7eff83d92ae215c1945e58ef0fd96e9c54b4100d1bba8adff8429a1eb23",
       "62770fe3e19fe1d0e42a6d1d292e89183434b6e7afdc4ce77fef37ef90c67879"
     ]
   },
@@ -108,12 +106,12 @@
     "label": "AI governance",
     "keywordId": "ai-governance",
     "timeframe": "30d",
-    "score": 54,
+    "score": 58,
     "status": "rising",
-    "articleCount": 7,
+    "articleCount": 8,
     "previousArticleCount": 4,
-    "growthRate": 75,
-    "distinctSourceCount": 7,
+    "growthRate": 100,
+    "distinctSourceCount": 8,
     "leadingSourceIds": [
       "redhat-blog",
       "fti-consulting-insights",
@@ -126,7 +124,8 @@
       "7562e380232780bec0186cacd7fefbc0bc7f1f51d34bd8736e991a276dd9ecb2",
       "42e5502f78087d101e5e687b370c8c470382d5e5253cabeced7345587917afb6",
       "c5d8c34dc834546bcf13d99246e4c521877546e4513b09913fb9c315f8c8872e",
-      "62770fe3e19fe1d0e42a6d1d292e89183434b6e7afdc4ce77fef37ef90c67879"
+      "62770fe3e19fe1d0e42a6d1d292e89183434b6e7afdc4ce77fef37ef90c67879",
+      "839145eae8f362201653bf0bcdf9d40ea5cfc18b9c4fd2eac069a17ee6b3ff04"
     ]
   },
   {
@@ -134,19 +133,21 @@
     "label": "AI governance",
     "keywordId": "ai-governance",
     "timeframe": "7d",
-    "score": 47,
+    "score": 51,
     "status": "rising",
-    "articleCount": 2,
+    "articleCount": 3,
     "previousArticleCount": 1,
-    "growthRate": 100,
-    "distinctSourceCount": 2,
+    "growthRate": 200,
+    "distinctSourceCount": 3,
     "leadingSourceIds": [
       "deloitte-insights",
-      "techcrunch"
+      "techcrunch",
+      "pwc-insights"
     ],
     "relatedArticleIds": [
       "5b15a7eff83d92ae215c1945e58ef0fd96e9c54b4100d1bba8adff8429a1eb23",
-      "62770fe3e19fe1d0e42a6d1d292e89183434b6e7afdc4ce77fef37ef90c67879"
+      "62770fe3e19fe1d0e42a6d1d292e89183434b6e7afdc4ce77fef37ef90c67879",
+      "839145eae8f362201653bf0bcdf9d40ea5cfc18b9c4fd2eac069a17ee6b3ff04"
     ]
   },
   {
@@ -219,9 +220,9 @@
     "score": 93,
     "status": "breakout",
     "articleCount": 46,
-    "previousArticleCount": 13,
-    "growthRate": 254,
-    "distinctSourceCount": 18,
+    "previousArticleCount": 17,
+    "growthRate": 171,
+    "distinctSourceCount": 17,
     "leadingSourceIds": [
       "techcrunch",
       "theregister",
@@ -235,9 +236,9 @@
       "ccac94ef11510983c598332fe5d4815721ddf01de59a2a513740e0dc8f454476",
       "6bb5ce07efdd0f63a97c1a14d9ec6476327334e75d64ca2fd6fe968f7d28bc6b",
       "07119011ae8b6383885e667a73bfc1e44176228f9c7080c296918dc57d036d10",
-      "5b15a7eff83d92ae215c1945e58ef0fd96e9c54b4100d1bba8adff8429a1eb23",
       "c194adef85c8fa56bf5b564d82f90f0ef88a6be69446f7eb779d00b09a535b9c",
-      "13a36d318b9d9c72695f5474610cc977c2aeef3160fc8ca08e77a004b802262c"
+      "13a36d318b9d9c72695f5474610cc977c2aeef3160fc8ca08e77a004b802262c",
+      "634898ddff2f483c1ea54560c8413ee93a40b03703be7b8fc1df1ce3dce9c6dc"
     ]
   },
   {
@@ -247,7 +248,7 @@
     "timeframe": "30d",
     "score": 88,
     "status": "breakout",
-    "articleCount": 1001,
+    "articleCount": 1005,
     "previousArticleCount": 590,
     "growthRate": 70,
     "distinctSourceCount": 39,
@@ -276,10 +277,10 @@
     "timeframe": "7d",
     "score": 77,
     "status": "emerging",
-    "articleCount": 228,
-    "previousArticleCount": 265,
-    "growthRate": -14,
-    "distinctSourceCount": 32,
+    "articleCount": 230,
+    "previousArticleCount": 264,
+    "growthRate": -13,
+    "distinctSourceCount": 33,
     "leadingSourceIds": [
       "techcrunch",
       "theregister",
@@ -303,18 +304,14 @@
     "label": "Cloud security",
     "keywordId": "cloud-security",
     "timeframe": "24h",
-    "score": 30,
-    "status": "stable",
-    "articleCount": 1,
-    "previousArticleCount": 0,
-    "growthRate": null,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "crowdstrike-blog"
-    ],
-    "relatedArticleIds": [
-      "658884e1d1a2b15b2e7a1c814071d8be92f4694bfb970d627f8fe6a7f2ef66af"
-    ]
+    "score": 0,
+    "status": "declining",
+    "articleCount": 0,
+    "previousArticleCount": 1,
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "cloud-security-30d",
@@ -466,8 +463,8 @@
     "score": 42,
     "status": "stable",
     "articleCount": 18,
-    "previousArticleCount": 29,
-    "growthRate": -38,
+    "previousArticleCount": 28,
+    "growthRate": -36,
     "distinctSourceCount": 9,
     "leadingSourceIds": [
       "thehackernews",
