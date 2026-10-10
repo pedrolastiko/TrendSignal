@@ -130,7 +130,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "006506319ac8956a66e7ccdcc50f34f7e85815c1be1554bbd553830ef4523e85",
@@ -2705,7 +2705,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 26
   },
   {
     "id": "227ec0f2de5079af7d552bcf13776648f3cc211ab7ddb73ac2aede03babdb9fe",
@@ -2950,7 +2950,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "254aa6b1117112a319c14c6035f45d33086c65e16a99c7c775066357c6fb7ec6",
@@ -3323,10 +3323,10 @@
     "tags": [
       "Kubernetes Operator",
       "Cloud",
-      "Continuous Delivery",
+      "Orchestration",
       "Continuous Integration",
       "Kubernetes",
-      "Orchestration",
+      "Continuous Delivery",
       "DevOps"
     ],
     "matchedKeywordIds": [],
@@ -4946,7 +4946,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "3d6673e2afda75c847ff5772290ce03f9a18c09902c4134f3267b5279dbfade5",
@@ -4993,7 +4993,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 35
+    "relevanceScore": 32
   },
   {
     "id": "3dbcf45dbde66b80d2e3a00a7266e486066b5b15eb081642050b6d1d51921ecf",
@@ -5034,7 +5034,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "3dea12da4732b16ea375f2df61ffc36a7c77fe434861047e90b645a930d6239e",
@@ -5639,7 +5639,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 36
+    "relevanceScore": 33
   },
   {
     "id": "49d27c81f297db3cbd9bb0f00085dc38d29a03ce4e5d4a2cec685bf522203ddb",
@@ -5942,6 +5942,30 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45
+  },
+  {
+    "id": "4c4dce735e8ae75f7447e8a7406d63de169b98dfa2e9956c27b8c9c97d1b9f5e",
+    "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+    "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-10T00:18:32.000Z",
+    "discoveredAt": "2026-10-10T05:56:27.069Z",
+    "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+    "language": "en",
+    "tags": [
+      "AI"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 38
   },
   {
     "id": "4cb1042f6209eed7795075f9fcea8f94be1cf2d4226fd4f4350decc7cd1d0637",
@@ -6855,7 +6879,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "58b79e3214211230b8cd3eecf77cbd285429c2270a709c5e1da1a6bf6a8ad657",
@@ -6872,9 +6896,9 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Valkey",
-      "Redis",
       "Distributed Cache",
+      "Redis",
+      "Valkey",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -8314,11 +8338,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/survey-complex-codebases-agents/en/headerimage/agent-friendly-android-cli-1791394744043.jpeg",
     "language": "en",
     "tags": [
-      "C++",
       "Code Reviews",
-      "AI Assisted Coding",
       "AI coding agents",
+      "C++",
       "Agents",
+      "AI Assisted Coding",
       "AI",
       "ML & Data Engineering",
       "Development"
@@ -8426,11 +8450,11 @@
     "language": "en",
     "tags": [
       "Cloudflare",
-      "Serverless",
       "Cloud",
-      "Event Driven Architecture",
+      "Serverless",
       "Architecture",
       "Storage",
+      "Event Driven Architecture",
       "Streaming",
       "DevOps",
       "Development",
@@ -8440,7 +8464,7 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "6a1c2def782f149a875de43b4a35a08528bb7dcb2c70bce5f5457867c7edacb5",
@@ -9483,18 +9507,18 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "CLI",
-      "Performance",
       "Node.js",
+      "SDK",
+      "Performance",
       "Automated testing",
+      "copilot",
+      "Rewrite",
+      "github",
+      "CLI",
+      "AI coding agents",
       "Rust",
       "migration",
-      "github",
-      "AI Assisted Coding",
-      "AI coding agents",
-      "Rewrite",
-      "SDK",
-      "copilot"
+      "TypeScript"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -10333,7 +10357,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "83fd479413834064a7642d7c8d6862b47e25d7ed0303ffc720dba6315af7ddfc",
@@ -10774,11 +10798,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/clef-decision-models/en/headerimage/generatedHeaderImage-1791183801035.jpg",
     "language": "en",
     "tags": [
-      "Agentic AI Architecture",
       "Cloudflare",
       "Large language models",
-      "Model Inference",
       "Edge Computing",
+      "Model Inference",
+      "Agentic AI Architecture",
       "AI",
       "ML & Data Engineering",
       "Architecture & Design"
@@ -11443,8 +11467,8 @@
     "language": "en",
     "tags": [
       "Terraform",
-      "Hashicorp",
       "Google Cloud",
+      "Hashicorp",
       "DevOps"
     ],
     "matchedKeywordIds": [],
@@ -11622,18 +11646,18 @@
     "imageUrl": "https://res.infoq.com/presentations/netflix-observability-aiops-ontology-scale/en/mediumimage/medium-1790845339712.jpg",
     "language": "en",
     "tags": [
-      "AIOps",
       "Scaling",
-      "Telemetry",
-      "Ontology",
-      "Architecture",
-      "QCon London 2026",
       "Site Reliability Engineering",
+      "QCon London 2026",
       "Transcripts",
+      "Architecture",
+      "Ontology",
       "Observability",
+      "Telemetry",
+      "AIOps",
+      "DevOps",
       "AI",
-      "ML & Data Engineering",
-      "DevOps"
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -12160,7 +12184,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "9b97436f52b45a7c8b1f43e7bb86dc7cc069552a80e3fcf10c09b9617d348c6f",
@@ -12590,7 +12614,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "a1394fc7dc7e52229c89d25b6cba21979b9bb3285e55e1276e3b4fbdc93ea404",
@@ -13048,7 +13072,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "a72052ecd02c91726fc3a80779b74565a3c80ff674d7d4be0bc258d344e3de78",
@@ -13199,7 +13223,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "a8e0c2ef92632ecb987a046ac1e5c702deead8b8ab5e91f08f0b5ff7ca92c3ca",
@@ -13466,14 +13490,14 @@
     "imageUrl": "https://res.infoq.com/podcasts/building-trust-feedback-alignment/en/smallimage/engineering-culture-500-1790863262988.jpg",
     "language": "en",
     "tags": [
-      "Engineering Culture Podcast",
-      "Culture",
-      "Leadership",
-      "Trust",
-      "Management",
-      "Teamwork",
       "Psychological Safety",
+      "Engineering Culture Podcast",
+      "Trust",
       "Careers",
+      "Culture",
+      "Teamwork",
+      "Management",
+      "Leadership",
       "Culture & Methods",
       "podcast"
     ],
@@ -14210,18 +14234,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/grab-counter-aerospike-migration/en/headerimage/generatedHeaderImage-1790465865171.jpg",
     "language": "en",
     "tags": [
-      "Wide Column Database",
-      "Validation",
       "Cassandra",
-      "Architecture",
-      "NoSQL",
-      "Rust",
-      "Domain Modeling",
-      "migration",
-      "Database",
+      "Data",
+      "Validation",
+      "Distributed Systems",
+      "Low Latency",
+      "Storage",
       "Columnar Databases",
-      "Maps",
-      "Distributed Systems"
+      "Database",
+      "Rust",
+      "migration",
+      "Domain Modeling",
+      "Architecture"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -15933,6 +15957,33 @@
     "relevanceScore": 12
   },
   {
+    "id": "ce326de05c4091b08dec2fb3ca1d6eb5fbeb6834e1415a418f8acbef204eb626",
+    "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
+    "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-10T03:10:06.000Z",
+    "discoveredAt": "2026-10-10T05:56:27.069Z",
+    "summary": "Elon Musk has accused Indian billionaire Mukesh Ambani of blocking competition.",
+    "language": "en",
+    "tags": [
+      "Government & Policy",
+      "Space",
+      "Elon Musk",
+      "Mukesh Ambani",
+      "reliance industries",
+      "reliance jio",
+      "SpaceX",
+      "Starlink"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "ce50b256a6fcc14ee4fb662921dbc8d9d1d7afddf4158c280424ef8f5c0f521d",
     "title": "Danu Robotics’ fight to build a better recycling robot",
     "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
@@ -15998,12 +16049,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/android-bench-2/en/headerimage/cloudflare-computer-agents-1791561634896.jpeg",
     "language": "en",
     "tags": [
-      "Large language models",
-      "Android",
       "AI coding agents",
+      "Large language models",
+      "Mobile",
+      "Android",
       "Benchmark",
       "Google",
-      "Mobile",
       "AI",
       "ML & Data Engineering",
       "Development",
@@ -16721,7 +16772,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "d73cfec66c48d9f10e9e77f82fecbdcbc3aa8df6bf9e3ab2918d3ad3b024988f",
@@ -16983,7 +17034,7 @@
   },
   {
     "id": "d970705b05e214a72ed4b74ca556142754502d80fb3894799be4594e98f3316e",
-    "title": "The Async Multiprocessing Has Sound Foundations in Linux, But Further Testing Is Needed",
+    "title": "The Async Multiprocessing Has Sound Foundations in Linux, But Further Testing is Needed",
     "url": "https://www.infoq.com/news/2026/10/linux-amp-analysis/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/10/linux-amp-analysis",
     "sourceId": "infoq",
@@ -16996,9 +17047,9 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
+      "Async Multiprocessing",
       "Linux",
       "Open Source Summit EU",
-      "Async Multiprocessing",
       "Asynchronous Architecture",
       "Development"
     ],
@@ -17110,7 +17161,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "da984ff8e8ff4eb9f87df5c7c27fbcdab4763da84d2025005ad245efe02c19f3",
@@ -17402,7 +17453,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "dcf40201303bc447e40143d6379b42fffb1e6f49ad31e56799291e8dab892e77",
@@ -17673,7 +17724,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "e05551817b225bef5e8ca8d6225aa3fed9bb03ffd013a0306b4527b10407beb2",
@@ -17861,9 +17912,9 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
+      "Governance",
       "EU Digital Sovereignty",
       "Sovereignty",
-      "Governance",
       "Development",
       "Architecture & Design"
     ],
@@ -18080,7 +18131,9 @@
     "summary": "Keychron made a name for itself after launching on Kickstarter in 2017. Today, it offers the value K2 model as well as a variety of other versions, including one with an all-wood body.",
     "language": "en",
     "tags": [
-      "Hardware"
+      "Hardware",
+      "Keychron",
+      "mechanical keyboards"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -18220,10 +18273,10 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Optimization",
-      "Web Components",
-      "Web Development",
       "React",
+      "Optimization",
+      "Web Development",
+      "Web Components",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -18290,7 +18343,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "e694d6b889abff28c8b4332823213b3bb3e13b61a22ee46836ff62cf3c59e5d3",
@@ -18580,7 +18633,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "eb101bdce4068241a6e8374a1b97a0665fd84fb98f19cac1cdc21d18d130cdd0",
@@ -19019,7 +19072,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 74
+    "relevanceScore": 71
   },
   {
     "id": "ef0546b0c3a7df36936b1fc4027bebbbfa9a1f9318ceac8d8aa9ec764a296f01",
@@ -19681,6 +19734,27 @@
     "relevanceScore": 13
   },
   {
+    "id": "f6cf5afb3c969fc05e820de5e86045aeee5a82a9be0c50079c3a3f82ed39e26d",
+    "title": "Microsoft 365 subscribers set to lose up to 4 TB of OneDrive storage",
+    "url": "https://www.theregister.com/personal-tech/2026/10/09/microsoft-365-subscribers-set-to-lose-up-to-4-tb-of-onedrive-storage/5302380",
+    "canonicalUrl": "https://www.theregister.com/personal-tech/2026/10/09/microsoft-365-subscribers-set-to-lose-up-to-4-tb-of-onedrive-storage/5302380",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-09T16:14:17.000Z",
+    "discoveredAt": "2026-10-10T05:56:27.069Z",
+    "summary": "What Microsoft giveth, Microsoft taketh away, again and again",
+    "imageUrl": "https://image.theregister.com/?imageId=5230003&width=800",
+    "language": "en",
+    "tags": [
+      "personal tech"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "f6fe76334fedeb3eae186c82d544b4ba60110bc58d2b0fc55469146c9fa73a75",
     "title": "Global PC shipments crater 20% as rising prices hammer demand",
     "url": "https://www.theregister.com/personal-tech/2026/10/09/global-pc-shipments-crater-20-as-rising-prices-hammer-demand/5302264",
@@ -20065,14 +20139,14 @@
     "imageUrl": "https://res.infoq.com/presentations/spotify-multi-agent-ai-architecture/en/mediumimage/pratik-rasam-medium-1790847111671.jpeg",
     "language": "en",
     "tags": [
-      "Performance Evaluation",
       "Patterns",
-      "QCon AI Boston 2026",
-      "Generative AI",
-      "AI Architecture",
-      "Agents",
+      "Performance Evaluation",
       "Prompt Engineering",
+      "Agents",
+      "Generative AI",
       "Transcripts",
+      "AI Architecture",
+      "QCon AI Boston 2026",
       "AI",
       "ML & Data Engineering",
       "Development",
@@ -20180,7 +20254,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "fbc3b890e0ac1fdaa6d6166e4bf6c01c07c7a0e4c6ca7a7dae4d08660a5c0f0b",
