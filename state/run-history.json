@@ -1,15 +1,5 @@
 [
   {
-    "runAt": "2026-08-22T22:53:05.335Z",
-    "trigger": "workflow_dispatch",
-    "sourceCount": 28,
-    "successCount": 28,
-    "failureCount": 0,
-    "newArticleCount": 6851,
-    "dedupedCount": 6,
-    "durationMs": 4849
-  },
-  {
     "runAt": "2026-08-22T23:19:14.550Z",
     "trigger": "push",
     "sourceCount": 0,
@@ -1998,5 +1988,15 @@
     "newArticleCount": 607,
     "dedupedCount": 0,
     "durationMs": 16988
+  },
+  {
+    "runAt": "2026-10-16T11:28:52.243Z",
+    "trigger": "schedule",
+    "sourceCount": 45,
+    "successCount": 44,
+    "failureCount": 1,
+    "newArticleCount": 630,
+    "dedupedCount": 1,
+    "durationMs": 17340
   }
 ]

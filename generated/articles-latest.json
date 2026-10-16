@@ -19,7 +19,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "a5c502fdcf06e38109de03e2ec4c0c7439c7be3cc79f0dbbbf20bcebdb1d0866",
@@ -41,6 +41,232 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
+    "trendScore": 78
+  },
+  {
+    "id": "c9e238a44befacd2317680beb5ed26055e9cc360dab4286ac8f37c0687146491",
+    "title": "Presentation: Exploding GPUs",
+    "url": "https://www.infoq.com/presentations/ai-security-kubernetes-gpu-threats/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/presentations/ai-security-kubernetes-gpu-threats",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-16T11:00:00.000Z",
+    "discoveredAt": "2026-10-16T11:28:52.243Z",
+    "summary": "Andrew Martin discusses why AI security is fundamentally tied to Kubernetes security. He shares insights into the evolving AI threat landscape, covering non-deterministic agent behavior, GPU supply chain vulnerabilities, shared compute risks, and practical defense strategies - from prompt firewalling to agentic…",
+    "imageUrl": "https://res.infoq.com/presentations/ai-security-kubernetes-gpu-threats/en/mediumimage/andrew-martin-medium-1790846331295.jpeg",
+    "language": "en",
+    "tags": [
+      "Agents",
+      "AI Security",
+      "Kubernetes",
+      "Containers",
+      "Cloud-Native",
+      "QCon London 2026",
+      "Transcripts",
+      "GPU",
+      "Infrastructure",
+      "DevOps",
+      "AI",
+      "ML & Data Engineering"
+    ],
+    "matchedKeywordIds": [
+      "ai-security",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "ai-security",
+      "artificial-intelligence",
+      "devsecops"
+    ],
+    "relevanceScore": 42,
+    "trendScore": 78
+  },
+  {
+    "id": "141bf467afc85d3930f761feaf5d18ddeb00a4eebf8dd720eb094ac0711f9a87",
+    "title": "AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development",
+    "url": "https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/aws-strands-agents",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-16T10:47:00.000Z",
+    "discoveredAt": "2026-10-16T11:28:52.243Z",
+    "summary": "AWS has introduced two open-source projects for AI agent development: Strands Decider 2B, a small model designed to make decisions within agent workflows, and Strands Box, a sandbox for controlling agent execution. Both projects address different aspects of building agents that use tools, execute code, and interact…",
+    "imageUrl": "https://res.infoq.com/news/2026/10/aws-strands-agents/en/headerimage/generatedHeaderImage-1792079603910.jpg",
+    "language": "en",
+    "tags": [
+      "Agents",
+      "Typesafe",
+      "Large language models",
+      "AWS",
+      "Artificial Intelligence",
+      "AI",
+      "ML & Data Engineering"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 72,
+    "trendScore": 78
+  },
+  {
+    "id": "d15289994153c497d7913981c2cc0941b37f1aab2bc22ec58bb00a5ef4feb3d4",
+    "title": "Thief snatches school snapper's SD cards in smash & grab",
+    "url": "https://www.theregister.com/security/2026/10/16/thief-snatches-school-snappers-sd-cards-in-smash-grab/5303379",
+    "canonicalUrl": "https://www.theregister.com/security/2026/10/16/thief-snatches-school-snappers-sd-cards-in-smash-grab/5303379",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-16T09:15:00.000Z",
+    "discoveredAt": "2026-10-16T11:28:52.243Z",
+    "summary": "UK school admits data protection bungle as children's data at risk",
+    "imageUrl": "https://image.theregister.com/?imageId=5303385&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [
+      "data-protection-privacy"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 32,
+    "trendScore": 51
+  },
+  {
+    "id": "772d67d9031356f7da68d581f4ecc9a17d5c67fbe561ff38206d1ddc941f20ba",
+    "title": "Chainguard Launches Secure Workspaces and Checks for AI Coding Agents",
+    "url": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-16T09:00:00.000Z",
+    "discoveredAt": "2026-10-16T11:28:52.243Z",
+    "summary": "Software supply chain security company Chainguard has announced two beta products for running and testing code written by developers and AI agents. Chainguard Workspaces provides remote development environments based on hardened microVMs, while Chainguard Checks moves continuous integration into the development loop.…",
+    "imageUrl": "https://res.infoq.com/news/2026/10/chainguard-workspaces-checks/en/headerimage/generatedHeaderImage-1792079610138.jpg",
+    "language": "en",
+    "tags": [
+      "AI Security",
+      "Containers",
+      "DevOps"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "software-supply-chain-security"
+    ],
+    "tagMatchedIds": [
+      "ai-security",
+      "devsecops"
+    ],
+    "relevanceScore": 57,
+    "trendScore": 78
+  },
+  {
+    "id": "d2bb862448ac66759ee5270059062ac65a9d5e5ed4f1fac8a75dd30ec6e2945b",
+    "title": "User refused to change her password because everyone already knew it",
+    "url": "https://www.theregister.com/security/2026/10/16/user-refused-to-change-her-password-because-everyone-already-knew-it/5301864",
+    "canonicalUrl": "https://www.theregister.com/security/2026/10/16/user-refused-to-change-her-password-because-everyone-already-knew-it/5301864",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-16T07:28:00.000Z",
+    "discoveredAt": "2026-10-16T11:28:52.243Z",
+    "summary": "School staff seemed to be trying to get ransomware – for a second time",
+    "imageUrl": "https://image.theregister.com/?imageId=5228156&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [
+      "ransomware"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 33,
+    "trendScore": 27
+  },
+  {
+    "id": "9e713cfb0ab36a8f6aca9173f63ba14dfb71158c1b7dde3970b9c0b0d5c08ccc",
+    "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+    "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-16T06:53:09.000Z",
+    "discoveredAt": "2026-10-16T11:28:52.243Z",
+    "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15. The agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyMnLMgZNuoh6c41MPT17IsrvbfocknmRb8sxaolFmTpU9h0b-jyJAe9Ods3iCWligbpcd1a1IThvmpUts5llDkKkScffnItGGrGcneDJ8oUJjuc76syHF8g31ZeTWMunD7LDJjviCRFMf8Zugkg8Z4kgXyhDW4bfrCHtV8Xkt-wJlnUd78z-ab28LrfV5/s1600/certin.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 48,
+    "trendScore": 78
+  },
+  {
+    "id": "c926d16bda3c4f26a6fb413785071d76596678b3b8da204fbb9f37fa65e51338",
+    "title": "Even Benchmark thinks AI is eroding the venture pact against backing rivals",
+    "url": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-16T05:16:46.000Z",
+    "discoveredAt": "2026-10-16T11:28:52.243Z",
+    "summary": "Benchmark says the Valley’s rule against backing rivals is getting harder to keep.",
+    "language": "en",
+    "tags": [
+      "TC",
+      "Venture"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 38,
+    "trendScore": 78
+  },
+  {
+    "id": "522e6a7b1a7e27a8ef659fe2be7ba47bf93f751b0aa745cea079066f6d3549a8",
+    "title": "Why executive judgment decides who wins with AI",
+    "url": "https://www.thoughtworks.com/insights/blog/technology-strategy/why-executive-judgment-decides-who-wins-with-ai",
+    "canonicalUrl": "https://www.thoughtworks.com/insights/blog/technology-strategy/why-executive-judgment-decides-who-wins-with-ai",
+    "sourceId": "thoughtworks-insights",
+    "sourceName": "Thoughtworks Insights",
+    "company": "Thoughtworks",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "discoveredAt": "2026-10-16T11:28:52.243Z",
+    "summary": "Why executive judgment decides who wins with AI",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_054.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 47,
     "trendScore": 78
   },
   {
@@ -92,7 +318,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "fc1bc0ec23e20ff8ec6374bf25ce8e1f0cf9d3bcd8b7414e7487869c57a33524",
@@ -123,7 +349,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 44,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "967cf749e4381f3332cd8d59950076007aff5271805dce1606e7cb4ba8783dc4",
@@ -593,12 +819,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/instagram-compose-migration/en/headerimage/aws-reliability-dns-1792077775251.jpg",
     "language": "en",
     "tags": [
-      "Jetpack Compose",
       "Mobile",
-      "Performance",
-      "Facebook",
       "AI coding agents",
+      "Performance",
+      "Jetpack Compose",
       "Android",
+      "Facebook",
       "Development"
     ],
     "matchedKeywordIds": [
@@ -742,7 +968,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 37,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "15a24e45c0100361df55d98fab0ebe0810f2a6a5997b2e00925c57c8885da1d8",
@@ -940,15 +1166,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/optimize-software-workflow/en/headerimage/header-1791282094936.jpg",
     "language": "en",
     "tags": [
-      "Capacity Planning",
-      "Measurement",
       "Metrics",
+      "Measurement",
+      "Delivering Value",
       "Software Engineering",
+      "Capacity Planning",
+      "Planning",
       "Agile Conferences",
       "Applied Research",
-      "Planning",
       "Artificial Intelligence",
-      "Delivering Value",
       "Culture & Methods"
     ],
     "matchedKeywordIds": [
@@ -979,7 +1205,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48,
+    "relevanceScore": 45,
     "trendScore": 78
   },
   {
@@ -997,18 +1223,18 @@
     "imageUrl": "https://res.infoq.com/presentations/agentic-ai-developer-trust-adoption/en/mediumimage/brendan-oleary-medium-1791452159106.jpeg",
     "language": "en",
     "tags": [
-      "Agentic AI Architecture",
       "Code Reviews",
       "Agents",
+      "QCon AI Boston 2026",
+      "Context Engineering",
       "AI Coding",
       "Adoption",
-      "Context Engineering",
       "Transcripts",
-      "QCon AI Boston 2026",
+      "Agentic AI Architecture",
       "AI",
       "ML & Data Engineering",
-      "Architecture & Design",
-      "Development"
+      "Development",
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -1017,7 +1243,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 46,
+    "relevanceScore": 43,
     "trendScore": 78
   },
   {
@@ -1044,7 +1270,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 52,
+    "relevanceScore": 49,
     "trendScore": 78
   },
   {
@@ -1068,7 +1294,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32,
+    "relevanceScore": 29,
     "trendScore": 78
   },
   {
@@ -1090,7 +1316,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33,
+    "relevanceScore": 30,
     "trendScore": 78
   },
   {
@@ -1138,8 +1364,8 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 38,
-    "trendScore": 40
+    "relevanceScore": 35,
+    "trendScore": 47
   },
   {
     "id": "1ae224ee9c6b77242f7800bb5da80bb4a1404e0cd487280abd8e1eb5750d76e1",
@@ -1243,6 +1469,27 @@
     "trendScore": 78
   },
   {
+    "id": "94eadcab22c41e356a1d9bf1e35dbdb6491d04804b7eea5ceec3829024496784",
+    "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+    "url": "https://openai.com/index/sullivan-cromwell",
+    "canonicalUrl": "https://openai.com/index/sullivan-cromwell",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "discoveredAt": "2026-10-16T04:35:58.761Z",
+    "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 32,
+    "trendScore": 78
+  },
+  {
     "id": "b39a18d2039aa1580f2cf4dad509524859f8a29a2a589f483b09492c0759b3f4",
     "title": "The shift to the AI-first enterprise: Insights from technology leaders forum",
     "url": "https://www.thoughtworks.com/insights/blog/technology-strategy/the-shift-to-the-ai-first-enterprise-technology-forum-2026-insights",
@@ -1254,7 +1501,7 @@
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "discoveredAt": "2026-10-15T17:04:29.974Z",
     "summary": "The shift to the AI-first enterprise: Insights from technology leaders forum",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_049.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_001.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -1291,27 +1538,6 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 78
-  },
-  {
-    "id": "94eadcab22c41e356a1d9bf1e35dbdb6491d04804b7eea5ceec3829024496784",
-    "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-    "url": "https://openai.com/index/sullivan-cromwell",
-    "canonicalUrl": "https://openai.com/index/sullivan-cromwell",
-    "sourceId": "openai-news",
-    "sourceName": "OpenAI News",
-    "company": "OpenAI",
-    "sourceCategory": "artificial-intelligence",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "discoveredAt": "2026-10-16T04:35:58.761Z",
-    "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 32,
     "trendScore": 78
   },
   {
@@ -1535,7 +1761,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48,
+    "relevanceScore": 45,
     "trendScore": 78
   },
   {
@@ -1994,15 +2220,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/meta-private-process-ai-glasses/en/headerimage/generatedHeaderImage-1790823797609.jpg",
     "language": "en",
     "tags": [
-      "Agentic AI Architecture",
+      "Data Privacy",
+      "AI Security",
+      "VM",
+      "Trust",
       "Storage",
       "Privacy",
-      "Data Privacy",
       "Wearable Tech",
-      "VM",
       "Facebook",
-      "Trust",
-      "AI Security",
+      "Agentic AI Architecture",
       "AI",
       "ML & Data Engineering",
       "Architecture & Design"
@@ -2088,7 +2314,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "e89b56d2e8b25be6637d4f71bce6b0a99a80b74753d8a15aa2460d27cdd9d61d",
@@ -2134,7 +2360,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "57c3309db5bedcdec4e0532a65e896970f7cad30f5011350fb2a735b14cb8cdd",
@@ -2226,7 +2452,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "309d2343ca38757e0da8606a2b72be23d99d9ca735367b35d087378e2ee7e4aa",
@@ -2568,7 +2794,7 @@
       "threat-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "58e09ff61a3137a21a299e7d6ed90d7abbbf85545be8739b708e42235e088ad6",
@@ -2590,7 +2816,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 36,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "173b1e318f913a2fd61caf885e89a1172939694e13e62ff8d4d02a14d164ed3d",
@@ -2649,7 +2875,7 @@
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "discoveredAt": "2026-10-14T11:57:29.504Z",
     "summary": "The real AI project at your airport isn't an AI project",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_001.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_057.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -2678,7 +2904,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 27
+    "trendScore": 45
   },
   {
     "id": "56fd56da86c8100545fbad65e1d68a2d596c04f9a9d6703c4a5186f6ca677afa",
@@ -2737,7 +2963,7 @@
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "discoveredAt": "2026-10-14T11:57:29.504Z",
     "summary": "AI Agent Harness",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_057.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_046.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -2834,6 +3060,27 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 30,
+    "trendScore": 78
+  },
+  {
+    "id": "b5a72187146d3cb240e01b358dc724bf956701b6836e63a068f18cd957515ea5",
+    "title": "Getting real about AI: How AI agents are changing the economics of software engineering",
+    "url": "https://www.mckinsey.com/uk/our-insights/getting-real-about-ai-how-ai-agents-are-changing-the-economics-of-software-engineering",
+    "canonicalUrl": "https://www.mckinsey.com/uk/our-insights/getting-real-about-ai-how-ai-agents-are-changing-the-economics-of-software-engineering",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "discoveredAt": "2026-10-16T11:28:52.243Z",
+    "summary": "Cognition co-founder and President Russell Kaplan explains why the next frontier of AI in software engineering is about more than writing code faster and what it takes to turn autonomous agents into measurable business value.",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 45,
     "trendScore": 78
   },
   {
@@ -3314,7 +3561,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "deac2aeb2d609c1cd892e53aaa78d56606a074070dc454048145827a8cf7020f",
@@ -3562,7 +3809,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 47
+    "trendScore": 51
   },
   {
     "id": "8fae8b6d48bc3bd1dc5f4a69cd7594bf229768882b051243d6f63085e4a04523",
@@ -3966,7 +4213,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 46,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "8cac0ce02ae150d4c2b7c1ee260c2919854cb7a189814aa6c21dd1d3f7e2820d",
@@ -4039,7 +4286,7 @@
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "discoveredAt": "2026-10-13T14:16:10.618Z",
     "summary": "Using Grafana AI to accelerate incident investigation",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_046.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_043.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -4151,7 +4398,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 47
+    "trendScore": 51
   },
   {
     "id": "3b1d1ae6f1dadbfdde9487838683740a7c44dde4eb61c4cacc978c90eaec1bb9",
@@ -4174,7 +4421,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 43,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "238435ff1579625f14a9a62348ae06cdd13debfcbe328da3bfefd3f2dc8df65b",
@@ -4683,7 +4930,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "1580df2773da09ac47728dd1e2fc4e2574ccde549197cc414f4a00fc5f6fc97b",
@@ -4704,7 +4951,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "5aace688b8f8adeb6162e551165e87b9470f5fbb7961403c661ca078319b94b4",
@@ -5310,7 +5557,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "e3e71b588b88d685ed7c3ffd694a7cccd1984fa7829338705e4fba59189b3cf5",
@@ -5391,7 +5638,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "d85c5a2756a6a99b143cf154e1a85d34b7d3dd85a68d8df8f23b017c05cd1763",
@@ -5691,7 +5938,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "a63a56c96777a3e1a5c9769cd39b3742b9177a0cae586983c4d95daa07ba41ce",
@@ -5988,7 +6235,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 46,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "06f397263094b3b8ee3eaa3468bf683a2cddf6b22a2d954ed29ac258fd41d048",
@@ -6212,7 +6459,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "ec445018e75f175b050c903b89232942a654b91b4a0763f8b4e6d04f7e949ca2",
@@ -6343,7 +6590,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 41,
+    "relevanceScore": 39,
     "trendScore": 78
   },
   {
@@ -6387,7 +6634,7 @@
     "publishedAt": "2026-10-09T00:00:00.000Z",
     "discoveredAt": "2026-10-09T13:23:15.840Z",
     "summary": "Leadership in the age of AI agents",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_020.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_051.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -6643,7 +6890,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 46,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "f3da56c9d020d07bacc30ebb2496aa2f68e64c29c57fcb3618ba546c160e5513",
@@ -6693,7 +6940,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "b80f4c18cfa43dcf3d4e599ee0a6aa15c688093c37c86634a1ff25d30e99ce25",
@@ -6832,7 +7079,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 43,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "e7d0525d771c218ecf2410765d4fd861626c2f7775b1ded6691a6c2ad7d94a02",
@@ -6908,7 +7155,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 26,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "cf71e8207baeed7b46d0bd47ca5d3c599b9b603159abefbe4115b6efd10e3dc9",
@@ -7088,7 +7335,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "59899f29cc8878a7bd8e8be5018c400764d339a5aef49c1ddab27b2a4dd9f3e2",
@@ -7588,7 +7835,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "fac4ebfdf3ea90737b2959c294a7742ffe8c2990be22cbeb7842527a9fc97c39",
@@ -7649,7 +7896,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "5ba4992be8c5e8e1a0cbbecbb341c7843313962fb06007825e26285282ed7454",
@@ -7752,7 +7999,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 35,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "79e7c0cab9c3e4ebb6c5a74d192fe240684885c0dfba9fc931fe5b079148e52c",
@@ -7801,7 +8048,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 28,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "8a05ee50f5b63d6bf6a12d01ac9500508ead56d87d993df2fa72cc2078fa72e1",
@@ -7857,7 +8104,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 28,
-    "trendScore": 27
+    "trendScore": 45
   },
   {
     "id": "dba095443e70e92b946054672393ea4cdd1d8ce3d601cf77c69f227154d7f45e",
@@ -7908,7 +8155,7 @@
       "threat-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "bb236511789065e5635eace65b8aadc461c9cf8c1079d6cbf33a60a97c0918b1",
@@ -8029,7 +8276,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 46,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "41b2f92e5bf3e85d9def3450a3e402d409909d8bd8b48e397828a7bc0aafb4ba",
@@ -8357,7 +8604,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "7b25d445dde7d9d6a181ed89ed46fd3c8ce34b973a302f817ff4461a55e30581",
@@ -8782,7 +9029,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 49,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "73ad5cdc394ec039e88797e1520236a7c8c3d8758f9b9289804e3793f2ad3fc6",
@@ -8955,7 +9202,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "9eeac9d813032b0b1a8263926cd3b5d6c02aefc3e2843facbd788466e3a649e9",
@@ -9005,7 +9252,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 46,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "2a622462fc336a8ef1179dd63808b32471c363b2454c96731c1880d1a7afaaa3",
@@ -10196,7 +10443,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 31,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "f910fbb367d67fbac60c5fe3c93b68b0657b35d64f7834c44fcf47ecac466e86",
@@ -10384,7 +10631,7 @@
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "discoveredAt": "2026-10-06T06:25:18.647Z",
     "summary": "AI-ready data: The anthology - Part 2 of 2",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_027.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_069.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -10771,7 +11018,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 47
+    "trendScore": 51
   },
   {
     "id": "7d8dd2e5a40cdea5b49dcbb0e83357d4112733a6df543cb9f0706aac37f28cb4",
@@ -11503,7 +11750,7 @@
       "generative-ai"
     ],
     "relevanceScore": 49,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "6bb5ce07efdd0f63a97c1a14d9ec6476327334e75d64ca2fd6fe968f7d28bc6b",
@@ -12167,7 +12414,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 29,
-    "trendScore": 40
+    "trendScore": 47
   },
   {
     "id": "801ec396652be12bf447c053ea77d0b86bc6f998264b2d348d34bc7d060e7d12",
@@ -12217,7 +12464,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "27d0afb0623f9b71d88d9ca83cdf8a3aefcf1f1c1707f2d888234b04d9bc6be9",
@@ -12471,7 +12718,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 46,
-    "trendScore": 26
+    "trendScore": 27
   },
   {
     "id": "b3857f26daabd24cdab2fb5c2a1922c21317b21cadd6670890a7dd7ef0a0eda5",
@@ -12668,7 +12915,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 52
+    "trendScore": 53
   },
   {
     "id": "f491b5342bb87590197740a2dbb02e83683cac51dcf537d2b6f30a1d859f90be",
@@ -12873,263 +13120,6 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 41,
-    "trendScore": 78
-  },
-  {
-    "id": "186fe4ebc2f953a0a86941c805d2f1c5c0fe5f2202645b578d2877f37ef1da1e",
-    "title": "OpenAI's wandering AI agents earn it a California subpoena",
-    "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
-    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-02T14:34:00.000Z",
-    "discoveredAt": "2026-10-02T22:16:50.419Z",
-    "summary": "Plus: Attorneys-general say investigators should have direct access to AI companies' records when things go wrong",
-    "imageUrl": "https://image.theregister.com/?imageId=2918046&width=800",
-    "language": "en",
-    "tags": [
-      "ai and ml"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 41,
-    "trendScore": 78
-  },
-  {
-    "id": "8f001342715c44a1d0c334880b03785042cd3f07e532db8c861591820731e265",
-    "title": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
-    "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
-    "canonicalUrl": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer",
-    "sourceId": "techcrunch",
-    "sourceName": "TechCrunch",
-    "company": "TechCrunch",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-02T14:30:00.000Z",
-    "discoveredAt": "2026-10-02T22:16:50.419Z",
-    "summary": "Clay Co-founder and CEO Kareem Amin joins the AI Stage to discuss the rise of GTM engineer at TechCrunch Disrupt 2026. Register for your ticket and get a second pass at 50% off.",
-    "language": "en",
-    "tags": [
-      "AI",
-      "Startups",
-      "clay",
-      "TechCrunch Disrupt"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 30,
-    "trendScore": 78
-  },
-  {
-    "id": "0b47701ebaacbee344f1448049164f366b71eb72bdb53a64120aaf9e265062b3",
-    "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
-    "url": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
-    "canonicalUrl": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-02T13:50:39.000Z",
-    "discoveredAt": "2026-10-02T22:16:50.419Z",
-    "summary": "Grid connection awaits regulatory approval, putting planned 2027 customer delivery at risk",
-    "imageUrl": "https://image.theregister.com/?imageId=5275246&width=800",
-    "language": "en",
-    "tags": [
-      "on-prem"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 31,
-    "trendScore": 78
-  },
-  {
-    "id": "88129a7df0c27a75b6394a6aa7217983c71cf42f8276a57a41a620c71a97ac0e",
-    "title": "Introducing Web Search API via AI Gateway",
-    "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-    "canonicalUrl": "https://blog.cloudflare.com/introducing-web-search-api",
-    "sourceId": "cloudflare-blog",
-    "sourceName": "Cloudflare Blog",
-    "company": "Cloudflare",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-10-02T13:28:10.000Z",
-    "discoveredAt": "2026-10-02T22:16:50.419Z",
-    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
-    "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XMA3KN5CDQCSF0YHZ0WFBH.01M3XMA452ZT41JBXKRPY1HH3F.png",
-    "language": "en",
-    "tags": [
-      "AI",
-      "AI Gateway",
-      "Birthday Week",
-      "Developer Platform"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence",
-      "devsecops"
-    ],
-    "relevanceScore": 41,
-    "trendScore": 78
-  },
-  {
-    "id": "010abefa0fafcbd406f20f91e7ca4ac072cc5cb80f7f86f6f4a972a8a572bb65",
-    "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-    "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-    "canonicalUrl": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-    "sourceId": "nvidia-blog",
-    "sourceName": "NVIDIA Blog",
-    "company": "NVIDIA",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-10-02T13:00:39.000Z",
-    "discoveredAt": "2026-10-02T22:16:50.419Z",
-    "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top…",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nv-blog-1280x680-1.jpg",
-    "language": "en",
-    "tags": [
-      "AI",
-      "Agentic AI",
-      "Artificial Intelligence",
-      "DGX Spark",
-      "Local AI",
-      "NVIDIA RTX",
-      "Open Source",
-      "RTX AI Garage",
-      "RTX Spark"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "agentic-ai",
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 41,
-    "trendScore": 78
-  },
-  {
-    "id": "62d731628cf1707bce178af8ad5bd133f82bf452b70353883d87f08a2ab3c210",
-    "title": "Follow the thread: a new dashboard to investigate account abuse",
-    "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
-    "canonicalUrl": "https://blog.cloudflare.com/account-abuse-protection-dashboard",
-    "sourceId": "cloudflare-blog",
-    "sourceName": "Cloudflare Blog",
-    "company": "Cloudflare",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "discoveredAt": "2026-10-02T22:16:50.419Z",
-    "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
-    "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M3Y5S9YWA3J6HWBGZPXJB4KY.01M3Y5SAP93PZ8TV3HFDNVRWHS.png",
-    "language": "en",
-    "tags": [
-      "Application Security",
-      "Birthday Week",
-      "Bot Management",
-      "Security"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "cybersecurity"
-    ],
-    "relevanceScore": 26,
-    "trendScore": 78
-  },
-  {
-    "id": "2da18acae0cce46fc109eec8f28bc9bf9a307d4a4f51728ff7e6679b5a0395b3",
-    "title": "Teen suspected of running KillSec ransomware group as cops seize servers, arrest three",
-    "url": "https://www.theregister.com/cyber-crime/2026/10/02/teen-suspected-of-running-killsec-ransomware-group-as-cops-seize-servers-arrest-three/5300784",
-    "canonicalUrl": "https://www.theregister.com/cyber-crime/2026/10/02/teen-suspected-of-running-killsec-ransomware-group-as-cops-seize-servers-arrest-three/5300784",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-02T11:43:35.000Z",
-    "discoveredAt": "2026-10-02T12:40:40.903Z",
-    "summary": "Operation KillSwitch takes over leak site holding at least 110 TB of stolen data",
-    "imageUrl": "https://image.theregister.com/?imageId=5300787&width=800",
-    "language": "en",
-    "tags": [
-      "cyber-crime"
-    ],
-    "matchedKeywordIds": [
-      "ransomware"
-    ],
-    "tagMatchedIds": [
-      "threat-intelligence"
-    ],
-    "relevanceScore": 32,
-    "trendScore": 26
-  },
-  {
-    "id": "5490b730cc491f3f82459e861353bc85cdc3f10a61aadae6a525b7618760dd8e",
-    "title": "Real-Time Retail Intelligence: Building E-Commerce Recommendations with Lakebase and AI Search on Databricks",
-    "url": "https://www.databricks.com/blog/real-time-retail-intelligence-building-e-commerce-recommendations-lakebase-and-ai-search",
-    "canonicalUrl": "https://www.databricks.com/blog/real-time-retail-intelligence-building-e-commerce-recommendations-lakebase-and-ai-search",
-    "sourceId": "databricks-blog",
-    "sourceName": "Databricks Blog",
-    "company": "Databricks",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-10-02T11:00:00.000Z",
-    "discoveredAt": "2026-10-02T12:40:40.903Z",
-    "summary": "The opportunity: Personalization as a revenue engineEvery second a shopper spends...",
-    "language": "en",
-    "tags": [
-      "Industries",
-      "Retail & Consumer Goods"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 32,
-    "trendScore": 78
-  },
-  {
-    "id": "2685316e8cbea0d2fedd404369df03d2b290dd93f8d528973619fc5c511255ea",
-    "title": "Engineering Production Systems for an Agentic Era: QCon San Francisco 2026",
-    "url": "https://www.infoq.com/news/2026/10/qconsf-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "canonicalUrl": "https://www.infoq.com/news/2026/10/qconsf-2026-sessions",
-    "sourceId": "infoq",
-    "sourceName": "InfoQ",
-    "company": "InfoQ",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-02T10:00:00.000Z",
-    "discoveredAt": "2026-10-02T12:40:40.903Z",
-    "summary": "QCon San Francisco 2026 will bring together practitioners from Airbnb, OpenAI, Netflix, Honeycomb, and other engineering organizations to share how they are building, operating, and evolving production systems as AI agents take on a larger role. By Artenisa Chatziou",
-    "imageUrl": "https://res.infoq.com/news/2026/10/qconsf-2026-sessions/en/headerimage/qcon-sf-2026-session-focus-1790849488514.jpg",
-    "language": "en",
-    "tags": [
-      "OpenAI",
-      "Agents",
-      "QCon San Francisco 2026",
-      "Artificial Intelligence",
-      "QCon Software Development Conference",
-      "Development",
-      "Architecture & Design",
-      "AI",
-      "ML & Data Engineering"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "agentic-ai",
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 28,
     "trendScore": 78
   }
 ]
