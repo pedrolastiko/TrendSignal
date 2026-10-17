@@ -196,7 +196,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "00625aba3ed63eb75c923a7714ddb1e8f06614542d1b51d04307481a793f17f6",
@@ -520,7 +520,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "0316b911c93b55b4458ec70fa3eb548028deac92f67e72765cd33bf49f03b2da",
@@ -664,7 +664,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "042cfe440da42686d02af0c494783a104df9529acfba4cee24dd28872eb6c62a",
@@ -1099,7 +1099,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "05f10008fbd631f995928b966cfe6c67b44ac9f70960df74d29472aa9707baaa",
@@ -1492,7 +1492,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "08cfd38e9d135daec84e9c8807931ef6ee66f5018e0b160d09cd9cb74a9a3d3e",
@@ -1553,11 +1553,11 @@
       "Cloud",
       "Performance",
       "Architecture",
+      "DevOps",
       "AI",
       "ML & Data Engineering",
-      "Architecture & Design",
       "Development",
-      "DevOps"
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -1629,18 +1629,18 @@
     "imageUrl": "https://res.infoq.com/articles/enterprise-mobile-id-mdl-blueprint/en/headerimage/enterprise-mobile-id-mdl-blueprint-header-1791967143918.jpg",
     "language": "en",
     "tags": [
-      "Regulation",
-      "Mobile",
       "Standardization",
-      "Authentication",
-      "Provisioning",
+      "Mobile",
+      "Government",
+      "Regulation",
       "Enterprise",
       "Mobile Privacy",
+      "Provisioning",
+      "Digital Identity",
       "Interop",
       "Identity Management",
-      "Digital Identity",
       "Access Control",
-      "Government"
+      "Authentication"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -1849,7 +1849,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "0b47701ebaacbee344f1448049164f366b71eb72bdb53a64120aaf9e265062b3",
@@ -2936,7 +2936,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "13d969ca40e804a2110dcc3c9f67a396b2bd6d5fd627f43d67f4208000c4d643",
@@ -2972,9 +2972,9 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/aws-strands-agents/en/headerimage/generatedHeaderImage-1792079603910.jpg",
     "language": "en",
     "tags": [
-      "Large language models",
       "Agents",
       "Typesafe",
+      "Large language models",
       "AWS",
       "Artificial Intelligence",
       "AI",
@@ -3577,7 +3577,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "1844d74a850704ce10d434fb0c36e1007be2eb37200cf4c6913cb751625159e9",
@@ -3861,17 +3861,17 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/amazon-acquires-ducklabs/en/headerimage/generatedHeaderImage-1792158812926.jpg",
     "language": "en",
     "tags": [
-      "Data Analytics",
-      "Cloud",
-      "S3",
-      "Apache Parquet",
-      "duckdb",
-      "Data Lake",
       "Amazon RDS",
-      "Open Source",
+      "Cloud",
+      "Data Analytics",
+      "S3",
+      "Data Lake",
+      "duckdb",
+      "Apache Parquet",
       "Amazon",
-      "Amazon Web Services",
+      "Open Source",
       "AWS",
+      "Amazon Web Services",
       "Acquisitions"
     ],
     "matchedKeywordIds": [],
@@ -4740,6 +4740,28 @@
     "relevanceScore": 13
   },
   {
+    "id": "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6",
+    "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+    "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-17T11:11:56.000Z",
+    "discoveredAt": "2026-10-17T15:38:28.740Z",
+    "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8fNb_yEvP6C_CENfQMUx3EDGofY1ejEHusnumTjCLnX3s8pevEbl_cgrtFHhzeEUhyphenhyphenyKe_X41OzQOGL5zlXeLLBnj_ZrLqH1IUag1QWm4QS9V2hgc5ucEzEZKjhstvtde8CFs8anPSZv9w3op67F8Q_MHVC_demESnH8lpAYLLpIRizCyvF5gsi5PDKzm/s1600/npm-dll.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "cybersecurity",
+      "software-supply-chain-security"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 44
+  },
+  {
     "id": "21b3021a2bfd60f308a13f293c33e7c475bf9cdbd10fe29418283f775360b468",
     "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
     "url": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
@@ -5301,22 +5323,22 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/uber-automated-dependency/en/headerimage/generatedHeaderImage-1791060253143.jpg",
     "language": "en",
     "tags": [
-      "RPC",
       "Middleware",
-      "Observability",
-      "Dependency Management",
-      "Microservices",
-      "Service Mesh",
-      "Reliability",
-      "Middleware management",
-      "OpenTelemetry",
-      "Distributed Tracing",
       "Failure",
+      "Dependency Management",
+      "OpenTelemetry",
+      "Middleware management",
+      "Microservices",
+      "Reliability",
+      "Observability",
+      "Distributed Tracing",
+      "Service Mesh",
+      "RPC",
       "Service Reliability"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "24c1770321189cb9f9cd7d670f1978b646d76c89773e2e0dcce37a38bd4188df",
@@ -6317,7 +6339,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "2c4c198ba9d917d89e1bb4504d74e6ab0cf5c289375e9f43a4661dbaf1956029",
@@ -6807,7 +6829,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "2f4ebff472d58347b5f4820386c92e2f654aff5966771c2acb787546316a49ac",
@@ -6996,7 +7018,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "30a0f1da0cfb696abe8edbb0c524748639fadb8f79e0de8aeb02971bc2cde0e1",
@@ -8522,6 +8544,28 @@
     "relevanceScore": 10
   },
   {
+    "id": "39b6d838e3143428ec008fb0852b45fba8817a044eeda983683b4b1a352487bb",
+    "title": "Ember’s new temperature-controlled mug makes my nightly tea ritual even better",
+    "url": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-17T15:30:00.000Z",
+    "discoveredAt": "2026-10-17T15:38:28.740Z",
+    "summary": "The biggest change about Ember's new mug is that you no longer have to open the app to adjust your drink’s temperature.",
+    "language": "en",
+    "tags": [
+      "Hardware",
+      "Gadgets",
+      "Ember"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "39f490a9561dabbd8fe35b167ed728435fb6509d6e3ca9294bf0f7d05c76da58",
     "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
     "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
@@ -9307,9 +9351,9 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/envharness-self-evolving-agents/en/headerimage/cloudflare-writeguard-1792176346559.jpeg",
     "language": "en",
     "tags": [
+      "Agents",
       "Open Source",
       "Large language models",
-      "Agents",
       "Google",
       "AI",
       "ML & Data Engineering",
@@ -9411,7 +9455,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "3f121de0b66a91473bbe02a0573d2028af229f96db8194fd4d11fe6a6af48073",
@@ -11857,12 +11901,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/instagram-compose-migration/en/headerimage/aws-reliability-dns-1792077775251.jpg",
     "language": "en",
     "tags": [
-      "Jetpack Compose",
       "Mobile",
-      "Performance",
-      "Facebook",
       "AI coding agents",
+      "Performance",
+      "Jetpack Compose",
       "Android",
+      "Facebook",
       "Development"
     ],
     "matchedKeywordIds": [
@@ -12603,7 +12647,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "57fefa5a3eb487e8349482626e7e4b8065bc6064e777e098dba54cb7e0acf4a4",
@@ -12740,6 +12784,28 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33
+  },
+  {
+    "id": "58f47558d22e32b235c6f909a5b482a49e12ef9118f9b40647bf210b5b6ee566",
+    "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+    "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-17T14:32:48.000Z",
+    "discoveredAt": "2026-10-17T15:38:28.740Z",
+    "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "591195a5ba6f2a3143b4d037c6fadee07f4c37165adf9c3842b72a1cbd80c4f5",
@@ -13254,12 +13320,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/reverse-engineer-anything/en/headerimage/generatedHeaderImage-1791736473714.jpg",
     "language": "en",
     "tags": [
-      "Open Source",
-      "Reverse Engineering",
-      "Static Analysis",
       "Agents",
-      "Licensing",
+      "Open Source",
+      "Static Analysis",
+      "Reverse Engineering",
       "Claude",
+      "Licensing",
       "AI",
       "ML & Data Engineering",
       "Development"
@@ -14428,7 +14494,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "658884e1d1a2b15b2e7a1c814071d8be92f4694bfb970d627f8fe6a7f2ef66af",
@@ -14562,7 +14628,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "668ca68c0b5e583b1fe60641c85ba970230666f72b25970a66a07681a6e92ea5",
@@ -16343,7 +16409,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "72eb71bb17a5199335d48fcf6abe21add7e6a6b6ebd788aaa5a05c3b98adb309",
@@ -16644,7 +16710,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "74aa63b1e992625b39d9f4d090ce78eb11ceb3c85a1f1b1dda2fa96be97cbd08",
@@ -16946,8 +17012,8 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/chainguard-workspaces-checks/en/headerimage/generatedHeaderImage-1792079610138.jpg",
     "language": "en",
     "tags": [
-      "Containers",
       "AI Security",
+      "Containers",
       "DevOps"
     ],
     "matchedKeywordIds": [
@@ -17346,7 +17412,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 61
+    "relevanceScore": 58
   },
   {
     "id": "7baabcbd57b90c05a39abd915264bc0024ad4157af0468d631fc47ccc17e632f",
@@ -17626,7 +17692,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "7e4ca9da052231497996de39f1fdabe7d2c2d1df4c1b6cf47d04e771ffbf9177",
@@ -18129,7 +18195,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "838fefcc819aa45232a543163b09a9f84d44b8e4148c0e3e6132954c2d80d62c",
@@ -19412,14 +19478,14 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/grafana-slo-ai-agent/en/headerimage/generatedHeaderImage-1791475262295.jpg",
     "language": "en",
     "tags": [
+      "AI Development",
+      "Grafana",
+      "Observability",
       "AIOps",
       "Agentic AI Architecture",
-      "Observability",
-      "Grafana",
-      "AI Development",
+      "DevOps",
       "AI",
-      "ML & Data Engineering",
-      "DevOps"
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [
       "agentic-ai",
@@ -19429,7 +19495,7 @@
       "artificial-intelligence",
       "devsecops"
     ],
-    "relevanceScore": 72
+    "relevanceScore": 69
   },
   {
     "id": "8b9896f1d469636c0a171f918df990209ba443264850c92cfc2a693fdeba00f5",
@@ -20887,7 +20953,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "952c1975fabe325b2a0c9fde83d99a48463630e9c1313277487fafc253c64e98",
@@ -22344,7 +22410,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "9fc15fecc9ebb197f2935848c336aa8522c766e75f864407155e0a46a815293f",
@@ -22439,7 +22505,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "a0646754e8cc4003cd616942c9455e83d1227f93918f45cc33cf7d598edbddb7",
@@ -23643,7 +23709,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "a95f825e3eebacb117d8f9bfb5bcb3da8e2cec043b1339c984031c530c390af5",
@@ -24550,16 +24616,16 @@
     "imageUrl": "https://res.infoq.com/minibooks/evolutionary-architecture/en/smallimage/thumb-1791282847807.jpg",
     "language": "en",
     "tags": [
-      "Evolutionary Architecture",
-      "Agentic AI Architecture",
-      "Domain Driven Design",
-      "InfoQ Certification Program",
-      "Distributed Systems",
-      "Platform Engineering",
-      "Architecture ICSAET",
       "Leadership",
-      "Artificial Intelligence",
+      "InfoQ Certification Program",
+      "Evolutionary Architecture",
+      "Architecture ICSAET",
+      "Domain Driven Design",
+      "Platform Engineering",
       "Sociotechnical Architecture",
+      "Agentic AI Architecture",
+      "Artificial Intelligence",
+      "Distributed Systems",
       "AI",
       "ML & Data Engineering"
     ],
@@ -24568,7 +24634,7 @@
       "artificial-intelligence",
       "devsecops"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "b0f43e878421d470bc8cc62be17278074b2f403ec7da0716544ea4cc43116cc2",
@@ -24609,14 +24675,14 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/ai-systems-production/en/headerimage/generatedHeaderImage-1792118181680.jpg",
     "language": "en",
     "tags": [
-      "Large language models",
-      "Continuous Integration",
       "Data Privacy",
+      "Continuous Integration",
+      "Large language models",
       "Data Pipelines",
       "AI",
       "ML & Data Engineering",
-      "Development",
-      "DevOps"
+      "DevOps",
+      "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -24626,7 +24692,7 @@
       "devsecops",
       "generative-ai"
     ],
-    "relevanceScore": 36
+    "relevanceScore": 33
   },
   {
     "id": "b144badd2c910f28db96c1cd866e09e22076b57342067bf74038ba390c9965fa",
@@ -24874,7 +24940,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "b3468b5f887d32346c5854fc88a35ea98db1e2492bb1540cf4ae9be145fadd4a",
@@ -25272,7 +25338,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "b6158a7625215fb58bfbe865469643149f06ab6580d1cbd02ee76847ac662abe",
@@ -25431,7 +25497,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "b76d9ebb51a6087e80eca51e78741c66a064267b9d2fa0f18779099c990eb006",
@@ -25693,7 +25759,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "b898bf00014d48c5dcea3fb9e3986d975c1cbd0c76f3738fb327c3304ca3b6eb",
@@ -27737,18 +27803,18 @@
     "imageUrl": "https://res.infoq.com/presentations/ai-security-kubernetes-gpu-threats/en/mediumimage/andrew-martin-medium-1790846331295.jpeg",
     "language": "en",
     "tags": [
-      "Containers",
       "Agents",
-      "Cloud-Native",
-      "Kubernetes",
-      "Transcripts",
-      "Infrastructure",
-      "QCon London 2026",
       "AI Security",
+      "Kubernetes",
+      "Containers",
+      "Cloud-Native",
+      "QCon London 2026",
+      "Transcripts",
       "GPU",
+      "Infrastructure",
+      "DevOps",
       "AI",
-      "ML & Data Engineering",
-      "Architecture & Design"
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [
       "ai-security",
@@ -27757,9 +27823,10 @@
     "tagMatchedIds": [
       "agentic-ai",
       "ai-security",
-      "artificial-intelligence"
+      "artificial-intelligence",
+      "devsecops"
     ],
-    "relevanceScore": 42
+    "relevanceScore": 39
   },
   {
     "id": "c9f8263218d16e7752e2b6e1e02bd6fd1777825f9718a20befcfc7a7104cc4c4",
@@ -28344,6 +28411,28 @@
     "relevanceScore": 13
   },
   {
+    "id": "cdb2e3ee5c435a5ed4fed0e08de0686b5099e7f75a155955dda607d4b7be6a4d",
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-17T15:18:51.000Z",
+    "discoveredAt": "2026-10-17T15:38:28.740Z",
+    "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "cdbbaea14508232a7551b9fe078ea512abdeaa602633d44a5847559e492095fb",
     "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
     "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
@@ -28538,7 +28627,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "cef192187984b2163e295f42389083617a9ceaeb521e4bc63626a28f64850b5b",
@@ -29879,18 +29968,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/helidon-27-released/en/headerimage/java-istock-image-01-1792149493797.jpg",
     "language": "en",
     "tags": [
-      "JDK 27",
-      "Open JDK",
-      "Java",
       "Helidon Nima",
       "Helidon",
+      "Java",
       "Java Verified Portfolio",
-      "Architecture & Design",
-      "Development"
+      "Open JDK",
+      "JDK 27",
+      "Development",
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "d77a262e8af9e73dd54d3bf0107e5b0d4d5e64bc15abec6515ba2428c534a33e",
@@ -31314,7 +31403,7 @@
       "ransomware"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 49
+    "relevanceScore": 46
   },
   {
     "id": "dfd16f84248c54f50a02db60e679340215c70ffb916fb7a842c76320da416601",
@@ -31635,7 +31724,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "e19e7fc87ea72cfd1088a484c8d383b7cdb7bca0e4107d7653b33c74af0234df",
@@ -32484,7 +32573,7 @@
     "sourceName": "Deloitte Insights",
     "company": "Deloitte",
     "sourceCategory": "consulting",
-    "publishedAt": "2026-10-09T00:00:00.000Z",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
     "discoveredAt": "2026-08-23T00:06:42.583Z",
     "summary": "World Tax Advisor presents tax news, commentary & insights from around the world focusing on analyses of cross-border tax developments reflecting the dynamic business environment faced by multinationals. Beginning 7 Sept 2018, the weekly schedule links readers directly to top stories on Deloitte tax@hand.",
     "imageUrl": "https://media.deloitte.com/is/image/deloitte/gx-tax-world-tax-advisor:660-x-660?$Responsive$&fmt=webp&fit=stretch,1&dpr=off",
@@ -32492,7 +32581,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 8
+    "relevanceScore": 13
   },
   {
     "id": "e66a3feeb091cf73bf8b3ff5edc6027f3aa7784b1211737f4c0545617e620d43",
@@ -33093,6 +33182,29 @@
     "relevanceScore": 9
   },
   {
+    "id": "eb9ab4b8e22ff77be174c70baea44624d507927dbba2d239348df055311f6db4",
+    "title": "Cybercrims go beyond stealing data to attack physical building systems",
+    "url": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
+    "canonicalUrl": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-17T11:30:00.000Z",
+    "discoveredAt": "2026-10-17T15:38:28.740Z",
+    "summary": "'Hold my beer, have fun getting into your offices'",
+    "imageUrl": "https://image.theregister.com/?imageId=5303687&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
+  },
+  {
     "id": "ebaf37949a88c936e530e83bfd13a0855d99a808c925f902d5ff17e1242b28eb",
     "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
     "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
@@ -33211,16 +33323,16 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/zod-schema-compliation/en/headerimage/generatedHeaderImage-1792163115814.jpg",
     "language": "en",
     "tags": [
-      "Web Development",
       "JavaScript",
       "Validation",
       "TypeScript",
+      "Web Development",
       "Memory",
       "Development"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "ec5fba5271609fcc18159be59084f0fc3400f22cc19f8cb41c5f997d6c54c43d",
@@ -33981,7 +34093,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "f0e76087208b11a03894cbd04dce465e39c448131822ccf9e85bc4861ac82529",
@@ -35331,7 +35443,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "fb5ac323f0dc6bb825c035c94c16e8f22114491a312e831b6387600b4a6bb686",
