@@ -4,14 +4,18 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "24h",
-    "score": 0,
-    "status": "declining",
-    "articleCount": 0,
-    "previousArticleCount": 2,
-    "growthRate": -100,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
+    "score": 37,
+    "status": "stable",
+    "articleCount": 1,
+    "previousArticleCount": 1,
+    "growthRate": 0,
+    "distinctSourceCount": 1,
+    "leadingSourceIds": [
+      "infoq"
+    ],
+    "relatedArticleIds": [
+      "8559260fd3026ea5f50f49e0399af6739801ad2d0bfe1fbadc5909c4b646e116"
+    ]
   },
   {
     "id": "agentic-ai-30d",
@@ -47,11 +51,11 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "7d",
-    "score": 44,
-    "status": "stable",
-    "articleCount": 16,
+    "score": 45,
+    "status": "rising",
+    "articleCount": 17,
     "previousArticleCount": 18,
-    "growthRate": -11,
+    "growthRate": -6,
     "distinctSourceCount": 12,
     "leadingSourceIds": [
       "infoq",
@@ -196,17 +200,19 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 54,
+    "score": 58,
     "status": "rising",
-    "articleCount": 2,
-    "previousArticleCount": 30,
-    "growthRate": -93,
-    "distinctSourceCount": 2,
+    "articleCount": 3,
+    "previousArticleCount": 18,
+    "growthRate": -83,
+    "distinctSourceCount": 3,
     "leadingSourceIds": [
       "techcrunch",
-      "nvidia-blog"
+      "nvidia-blog",
+      "infoq"
     ],
     "relatedArticleIds": [
+      "8559260fd3026ea5f50f49e0399af6739801ad2d0bfe1fbadc5909c4b646e116",
       "5eb559e50fd7886d16ab05385266393c7126d95ff81c90f2c2f7713f6112db3d",
       "b4411b0822cf9012a1090d971c9b07e7c34b9b89f5ce6327f6fb3096cf482acf"
     ]
@@ -216,11 +222,11 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "30d",
-    "score": 79,
+    "score": 78,
     "status": "emerging",
-    "articleCount": 983,
-    "previousArticleCount": 905,
-    "growthRate": 9,
+    "articleCount": 972,
+    "previousArticleCount": 913,
+    "growthRate": 6,
     "distinctSourceCount": 39,
     "leadingSourceIds": [
       "techcrunch",
@@ -247,9 +253,9 @@
     "timeframe": "7d",
     "score": 77,
     "status": "emerging",
-    "articleCount": 220,
+    "articleCount": 219,
     "previousArticleCount": 227,
-    "growthRate": -3,
+    "growthRate": -4,
     "distinctSourceCount": 31,
     "leadingSourceIds": [
       "techcrunch",
@@ -374,29 +380,25 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "24h",
-    "score": 35,
-    "status": "stable",
-    "articleCount": 1,
-    "previousArticleCount": 3,
-    "growthRate": -67,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "thehackernews"
-    ],
-    "relatedArticleIds": [
-      "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6"
-    ]
+    "score": 0,
+    "status": "declining",
+    "articleCount": 0,
+    "previousArticleCount": 4,
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "cybersecurity-30d",
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "30d",
-    "score": 45,
+    "score": 46,
     "status": "rising",
     "articleCount": 96,
-    "previousArticleCount": 112,
-    "growthRate": -14,
+    "previousArticleCount": 109,
+    "growthRate": -12,
     "distinctSourceCount": 19,
     "leadingSourceIds": [
       "thehackernews",
@@ -437,10 +439,10 @@
       "81188b4d3712ee11e3b6bfe7c189200d37ea36671679ba560ed18f842b7907ef",
       "8fae8b6d48bc3bd1dc5f4a69cd7594bf229768882b051243d6f63085e4a04523",
       "5f5a7855296c49cef6b7faf8cd4591789c0d473d321a34b2fc640affaf5b69c1",
-      "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6",
       "fc1bc0ec23e20ff8ec6374bf25ce8e1f0cf9d3bcd8b7414e7487869c57a33524",
       "afb95dce43829a5660259988740c542d6fe9f8f65ebe7ad5ceff9315af46bc19",
       "3b1d1ae6f1dadbfdde9487838683740a7c44dde4eb61c4cacc978c90eaec1bb9",
+      "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6",
       "a8b8c31de898145e14c82e5a132c6ade438a779372caca6da84483874bea0325",
       "7e4ca9da052231497996de39f1fdabe7d2c2d1df4c1b6cf47d04e771ffbf9177"
     ]
@@ -565,7 +567,7 @@
     "label": "Digital sovereignty",
     "keywordId": "digital-sovereignty",
     "timeframe": "24h",
-    "score": 43,
+    "score": 37,
     "status": "stable",
     "articleCount": 1,
     "previousArticleCount": 0,
@@ -615,8 +617,8 @@
     "growthRate": 100,
     "distinctSourceCount": 2,
     "leadingSourceIds": [
-      "theregister",
-      "infoq"
+      "infoq",
+      "theregister"
     ],
     "relatedArticleIds": [
       "6d58c619def1603145aa897b1aafba98dc7456b1d368dc57f7376bb577e0b56a",
@@ -631,7 +633,7 @@
     "score": 0,
     "status": "declining",
     "articleCount": 0,
-    "previousArticleCount": 4,
+    "previousArticleCount": 3,
     "growthRate": -100,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
@@ -642,16 +644,16 @@
     "label": "Generative AI",
     "keywordId": "generative-ai",
     "timeframe": "30d",
-    "score": 51,
+    "score": 50,
     "status": "rising",
-    "articleCount": 45,
-    "previousArticleCount": 31,
-    "growthRate": 45,
+    "articleCount": 44,
+    "previousArticleCount": 32,
+    "growthRate": 38,
     "distinctSourceCount": 15,
     "leadingSourceIds": [
       "theregister",
-      "infoq",
-      "google-cloud-blog"
+      "google-cloud-blog",
+      "infoq"
     ],
     "relatedArticleIds": [
       "cb3bcf27006a5f073dbe338f9bfc621ca3a57b70e511341e6cc32ed807aed3a1",
@@ -860,10 +862,10 @@
     "keywordId": "ransomware",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 1,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -925,18 +927,14 @@
     "label": "Software supply-chain security",
     "keywordId": "software-supply-chain-security",
     "timeframe": "24h",
-    "score": 45,
-    "status": "rising",
-    "articleCount": 1,
-    "previousArticleCount": 0,
-    "growthRate": null,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "thehackernews"
-    ],
-    "relatedArticleIds": [
-      "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6"
-    ]
+    "score": 0,
+    "status": "declining",
+    "articleCount": 0,
+    "previousArticleCount": 1,
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "software-supply-chain-security-30d",
