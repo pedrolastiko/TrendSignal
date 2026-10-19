@@ -4,16 +4,21 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "24h",
-    "score": 37,
+    "score": 43,
     "status": "stable",
-    "articleCount": 1,
+    "articleCount": 4,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 1,
+    "distinctSourceCount": 3,
     "leadingSourceIds": [
-      "infoq"
+      "infoq",
+      "tenable-blog",
+      "thehackernews"
     ],
     "relatedArticleIds": [
+      "eb4003abe76172767577fb8808b94ca2e2170efdd52029432a6131f44cbeb64b",
+      "62badca6addc0ac9c83b2642b4361e5f1f19734989a09d5df8cacfc24a91e8e6",
+      "4907324c764c9f8aa2592e297607e4c4dbd1af588fa76d3e286143ac59eebb02",
       "8559260fd3026ea5f50f49e0399af6739801ad2d0bfe1fbadc5909c4b646e116"
     ]
   },
@@ -22,19 +27,20 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "30d",
-    "score": 48,
+    "score": 49,
     "status": "rising",
-    "articleCount": 77,
-    "previousArticleCount": 66,
-    "growthRate": 17,
-    "distinctSourceCount": 21,
+    "articleCount": 79,
+    "previousArticleCount": 65,
+    "growthRate": 22,
+    "distinctSourceCount": 22,
     "leadingSourceIds": [
       "techcrunch",
       "infoq",
-      "theregister"
+      "thehackernews"
     ],
     "relatedArticleIds": [
       "b173b38088556797deb38b6abc15e2ff8ff20f7df89eef1ed73c95bc31bbe156",
+      "eb4003abe76172767577fb8808b94ca2e2170efdd52029432a6131f44cbeb64b",
       "16755fadce6aa8d0277fd2a5d08a3e540fac825c053f85e074757739c5d003ac",
       "fe0411f88661ca91c6da175e756e154dd51692ecf32b4686215197915b4b4a7f",
       "cb3bcf27006a5f073dbe338f9bfc621ca3a57b70e511341e6cc32ed807aed3a1",
@@ -42,7 +48,6 @@
       "9675c5f284892814ef764f838fcd9c4e86dc592e2923b01116daff9895e00cc2",
       "bfcc7778e43c5827372bd858c13f46e4665b3df48b2f8b32de13c12338f595a3",
       "e5a293b67c49af506de7d5d5c6e7d486fb60ce9a3e0774e0304f46493a6dda38",
-      "aec8f5ccd2e6e9a55ca5c92d2c03fbe43cf0259835fbef8bb756c648bfa9bcac",
       "79e7c0cab9c3e4ebb6c5a74d192fe240684885c0dfba9fc931fe5b079148e52c"
     ]
   },
@@ -51,11 +56,11 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "7d",
-    "score": 44,
-    "status": "stable",
-    "articleCount": 16,
-    "previousArticleCount": 18,
-    "growthRate": -11,
+    "score": 47,
+    "status": "rising",
+    "articleCount": 17,
+    "previousArticleCount": 16,
+    "growthRate": 6,
     "distinctSourceCount": 11,
     "leadingSourceIds": [
       "infoq",
@@ -63,16 +68,16 @@
       "thehackernews"
     ],
     "relatedArticleIds": [
+      "eb4003abe76172767577fb8808b94ca2e2170efdd52029432a6131f44cbeb64b",
       "bfcc7778e43c5827372bd858c13f46e4665b3df48b2f8b32de13c12338f595a3",
       "e5a293b67c49af506de7d5d5c6e7d486fb60ce9a3e0774e0304f46493a6dda38",
-      "aec8f5ccd2e6e9a55ca5c92d2c03fbe43cf0259835fbef8bb756c648bfa9bcac",
       "8b6b332cbf29be1201af3c6e80535ee06864e327acabe4800778e2e52d36a212",
       "141bf467afc85d3930f761feaf5d18ddeb00a4eebf8dd720eb094ac0711f9a87",
+      "aec8f5ccd2e6e9a55ca5c92d2c03fbe43cf0259835fbef8bb756c648bfa9bcac",
+      "62badca6addc0ac9c83b2642b4361e5f1f19734989a09d5df8cacfc24a91e8e6",
       "fe20a4e0a1e456d21bf15ed7d7585ce8432357d67beddcebb6c8dd41fa31ea1b",
       "7b712b7943a44d07d41980f3920e89b40fe670eedac187ed51dc196aa996e845",
-      "200a5d3dd39c6bfb7a20192865ba844eee2602b52233f3070983235051951aad",
-      "5360c1df7080bedf830d87ec478f1f7eca90a4cf4b5a7aebe16368ce38208e64",
-      "43f5d9299a926e4d769e96d9ade269ccb10ae68f6224c7f4cc0dee8f18723719"
+      "200a5d3dd39c6bfb7a20192865ba844eee2602b52233f3070983235051951aad"
     ]
   },
   {
@@ -121,7 +126,7 @@
     "score": 0,
     "status": "declining",
     "articleCount": 0,
-    "previousArticleCount": 3,
+    "previousArticleCount": 2,
     "growthRate": -100,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
@@ -200,20 +205,28 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 62,
-    "status": "rising",
-    "articleCount": 3,
-    "previousArticleCount": 4,
-    "growthRate": -25,
-    "distinctSourceCount": 2,
+    "score": 92,
+    "status": "breakout",
+    "articleCount": 18,
+    "previousArticleCount": 2,
+    "growthRate": 800,
+    "distinctSourceCount": 9,
     "leadingSourceIds": [
+      "theregister",
       "techcrunch",
       "infoq"
     ],
     "relatedArticleIds": [
+      "eb4003abe76172767577fb8808b94ca2e2170efdd52029432a6131f44cbeb64b",
+      "62badca6addc0ac9c83b2642b4361e5f1f19734989a09d5df8cacfc24a91e8e6",
+      "3d42f5bc85a72e6c5f67c5348477fbb4fa09ed69ac5ae635fbae0f5b4a133969",
       "71e1590c6c971a3378790a97e744561119d8ab324ea2afe8e716813cb9ba37ee",
-      "8559260fd3026ea5f50f49e0399af6739801ad2d0bfe1fbadc5909c4b646e116",
-      "f7927d5e5c8ab52e2aec912633a15fddb12076f74d86b483496c734ab54a4ab1"
+      "d27102b3c97afbe2652ac47b840b748f404e3edb9df6204c2896128e3c097a03",
+      "8d83bef58987d7f993f6fa86d15fa9b91cb8f744d8d01e3426214025e4f7086a",
+      "9ebe95a648c0a80426c473533814d934b20541d08af9b098d7e9d1c260d61474",
+      "e5047e2ab0f0da2e79f49991db824e65b2e0bef0699a955e3b852ddecc57416d",
+      "d64c274f720519a829dedfc91876b75487b45886f519a8ef9e7b1ff62f10f0de",
+      "4907324c764c9f8aa2592e297607e4c4dbd1af588fa76d3e286143ac59eebb02"
     ]
   },
   {
@@ -223,9 +236,9 @@
     "timeframe": "30d",
     "score": 78,
     "status": "emerging",
-    "articleCount": 955,
-    "previousArticleCount": 919,
-    "growthRate": 4,
+    "articleCount": 965,
+    "previousArticleCount": 915,
+    "growthRate": 5,
     "distinctSourceCount": 39,
     "leadingSourceIds": [
       "techcrunch",
@@ -234,6 +247,7 @@
     ],
     "relatedArticleIds": [
       "b173b38088556797deb38b6abc15e2ff8ff20f7df89eef1ed73c95bc31bbe156",
+      "eb4003abe76172767577fb8808b94ca2e2170efdd52029432a6131f44cbeb64b",
       "16755fadce6aa8d0277fd2a5d08a3e540fac825c053f85e074757739c5d003ac",
       "fe0411f88661ca91c6da175e756e154dd51692ecf32b4686215197915b4b4a7f",
       "cb3bcf27006a5f073dbe338f9bfc621ca3a57b70e511341e6cc32ed807aed3a1",
@@ -241,8 +255,7 @@
       "9675c5f284892814ef764f838fcd9c4e86dc592e2923b01116daff9895e00cc2",
       "bfcc7778e43c5827372bd858c13f46e4665b3df48b2f8b32de13c12338f595a3",
       "e5a293b67c49af506de7d5d5c6e7d486fb60ce9a3e0774e0304f46493a6dda38",
-      "113a074d2fee1953b962902717cd0c1b79f3eb32ec3d34c5b4d7d131519af609",
-      "aec8f5ccd2e6e9a55ca5c92d2c03fbe43cf0259835fbef8bb756c648bfa9bcac"
+      "113a074d2fee1953b962902717cd0c1b79f3eb32ec3d34c5b4d7d131519af609"
     ]
   },
   {
@@ -252,26 +265,26 @@
     "timeframe": "7d",
     "score": 77,
     "status": "emerging",
-    "articleCount": 217,
-    "previousArticleCount": 221,
-    "growthRate": -2,
-    "distinctSourceCount": 31,
+    "articleCount": 218,
+    "previousArticleCount": 219,
+    "growthRate": 0,
+    "distinctSourceCount": 30,
     "leadingSourceIds": [
       "techcrunch",
       "theregister",
       "infoq"
     ],
     "relatedArticleIds": [
+      "eb4003abe76172767577fb8808b94ca2e2170efdd52029432a6131f44cbeb64b",
       "bfcc7778e43c5827372bd858c13f46e4665b3df48b2f8b32de13c12338f595a3",
       "e5a293b67c49af506de7d5d5c6e7d486fb60ce9a3e0774e0304f46493a6dda38",
       "113a074d2fee1953b962902717cd0c1b79f3eb32ec3d34c5b4d7d131519af609",
-      "aec8f5ccd2e6e9a55ca5c92d2c03fbe43cf0259835fbef8bb756c648bfa9bcac",
       "8b6b332cbf29be1201af3c6e80535ee06864e327acabe4800778e2e52d36a212",
       "141bf467afc85d3930f761feaf5d18ddeb00a4eebf8dd720eb094ac0711f9a87",
       "2921d496df7e8c9c4107da0a3dc96c0bb37674e9bb0c2316dfdf88ed568958bf",
-      "9732b2763df5a67ab9455b8255aee23064fe436ed165bb52468ec0f54969accf",
-      "fe20a4e0a1e456d21bf15ed7d7585ce8432357d67beddcebb6c8dd41fa31ea1b",
-      "7b712b7943a44d07d41980f3920e89b40fe670eedac187ed51dc196aa996e845"
+      "aec8f5ccd2e6e9a55ca5c92d2c03fbe43cf0259835fbef8bb756c648bfa9bcac",
+      "62badca6addc0ac9c83b2642b4361e5f1f19734989a09d5df8cacfc24a91e8e6",
+      "9732b2763df5a67ab9455b8255aee23064fe436ed165bb52468ec0f54969accf"
     ]
   },
   {
@@ -316,8 +329,8 @@
     "score": 25,
     "status": "stable",
     "articleCount": 1,
-    "previousArticleCount": 1,
-    "growthRate": 0,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 1,
     "leadingSourceIds": [
       "checkpoint-blog"
@@ -380,10 +393,10 @@
     "keywordId": "cybersecurity",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 2,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -395,8 +408,8 @@
     "timeframe": "30d",
     "score": 46,
     "status": "rising",
-    "articleCount": 96,
-    "previousArticleCount": 108,
+    "articleCount": 94,
+    "previousArticleCount": 106,
     "growthRate": -11,
     "distinctSourceCount": 19,
     "leadingSourceIds": [
@@ -422,11 +435,11 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "7d",
-    "score": 47,
+    "score": 45,
     "status": "rising",
-    "articleCount": 21,
-    "previousArticleCount": 21,
-    "growthRate": 0,
+    "articleCount": 19,
+    "previousArticleCount": 22,
+    "growthRate": -14,
     "distinctSourceCount": 11,
     "leadingSourceIds": [
       "thehackernews",
@@ -443,7 +456,7 @@
       "3b1d1ae6f1dadbfdde9487838683740a7c44dde4eb61c4cacc978c90eaec1bb9",
       "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6",
       "a8b8c31de898145e14c82e5a132c6ade438a779372caca6da84483874bea0325",
-      "7e4ca9da052231497996de39f1fdabe7d2c2d1df4c1b6cf47d04e771ffbf9177"
+      "9aa58e8616238f9f65b724a97b3f817cd25531b4ceb35cd06a46e5721bf84875"
     ]
   },
   {
@@ -513,33 +526,38 @@
     "label": "DevSecOps",
     "keywordId": "devsecops",
     "timeframe": "24h",
-    "score": 0,
+    "score": 28,
     "status": "stable",
-    "articleCount": 0,
+    "articleCount": 1,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
+    "distinctSourceCount": 1,
+    "leadingSourceIds": [
+      "redhat-blog"
+    ],
+    "relatedArticleIds": [
+      "cedb7a5a94a0753cafefcc2ff26d962c81a21dae90f4b8581490703bccc0b01b"
+    ]
   },
   {
     "id": "devsecops-30d",
     "label": "DevSecOps",
     "keywordId": "devsecops",
     "timeframe": "30d",
-    "score": 30,
+    "score": 35,
     "status": "stable",
-    "articleCount": 3,
+    "articleCount": 4,
     "previousArticleCount": 3,
-    "growthRate": 0,
+    "growthRate": 33,
     "distinctSourceCount": 2,
     "leadingSourceIds": [
-      "infoq",
-      "redhat-blog"
+      "redhat-blog",
+      "infoq"
     ],
     "relatedArticleIds": [
       "6bb5ce07efdd0f63a97c1a14d9ec6476327334e75d64ca2fd6fe968f7d28bc6b",
       "22cfbab47b6ed53d135fd194e501c6206b112f8680b1c548c1536822fc2de0ab",
+      "cedb7a5a94a0753cafefcc2ff26d962c81a21dae90f4b8581490703bccc0b01b",
       "6916308947aafb8c19069e0004dc5fccbf5ac0bbf743c200cb2e6e061d7fdc99"
     ]
   },
@@ -548,17 +566,17 @@
     "label": "DevSecOps",
     "keywordId": "devsecops",
     "timeframe": "7d",
-    "score": 25,
+    "score": 27,
     "status": "stable",
     "articleCount": 1,
     "previousArticleCount": 1,
     "growthRate": 0,
     "distinctSourceCount": 1,
     "leadingSourceIds": [
-      "infoq"
+      "redhat-blog"
     ],
     "relatedArticleIds": [
-      "22cfbab47b6ed53d135fd194e501c6206b112f8680b1c548c1536822fc2de0ab"
+      "cedb7a5a94a0753cafefcc2ff26d962c81a21dae90f4b8581490703bccc0b01b"
     ]
   },
   {
@@ -566,18 +584,14 @@
     "label": "Digital sovereignty",
     "keywordId": "digital-sovereignty",
     "timeframe": "24h",
-    "score": 37,
-    "status": "stable",
-    "articleCount": 1,
-    "previousArticleCount": 0,
-    "growthRate": null,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "infoq"
-    ],
-    "relatedArticleIds": [
-      "6d58c619def1603145aa897b1aafba98dc7456b1d368dc57f7376bb577e0b56a"
-    ]
+    "score": 0,
+    "status": "declining",
+    "articleCount": 0,
+    "previousArticleCount": 1,
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "digital-sovereignty-30d",
@@ -629,14 +643,18 @@
     "label": "Generative AI",
     "keywordId": "generative-ai",
     "timeframe": "24h",
-    "score": 0,
+    "score": 27,
     "status": "stable",
-    "articleCount": 0,
+    "articleCount": 1,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
+    "distinctSourceCount": 1,
+    "leadingSourceIds": [
+      "infoq"
+    ],
+    "relatedArticleIds": [
+      "d64c274f720519a829dedfc91876b75487b45886f519a8ef9e7b1ff62f10f0de"
+    ]
   },
   {
     "id": "generative-ai-30d",
@@ -645,9 +663,9 @@
     "timeframe": "30d",
     "score": 47,
     "status": "rising",
-    "articleCount": 41,
+    "articleCount": 42,
     "previousArticleCount": 35,
-    "growthRate": 17,
+    "growthRate": 20,
     "distinctSourceCount": 15,
     "leadingSourceIds": [
       "theregister",
@@ -672,16 +690,16 @@
     "label": "Generative AI",
     "keywordId": "generative-ai",
     "timeframe": "7d",
-    "score": 41,
-    "status": "stable",
-    "articleCount": 10,
-    "previousArticleCount": 16,
-    "growthRate": -37,
+    "score": 47,
+    "status": "rising",
+    "articleCount": 11,
+    "previousArticleCount": 10,
+    "growthRate": 10,
     "distinctSourceCount": 7,
     "leadingSourceIds": [
       "google-cloud-blog",
-      "databricks-blog",
-      "cisco-blogs"
+      "infoq",
+      "databricks-blog"
     ],
     "relatedArticleIds": [
       "113a074d2fee1953b962902717cd0c1b79f3eb32ec3d34c5b4d7d131519af609",
@@ -691,9 +709,9 @@
       "e9e1470690b03f8063d31dd757c13efb23bc987d2c154a7040322ebe12e77f25",
       "b42ba3df504baaee945350d867d18393888c387cd424d88d10de413af8a47b09",
       "78ce7f97e92fefc21d54bf4cf7bdff778a259d79b74096b6306f6b3bce3eaaa4",
+      "d64c274f720519a829dedfc91876b75487b45886f519a8ef9e7b1ff62f10f0de",
       "12199d7cff086394ca4d6dc7f026aa0a74703c6f458c57cbeb3cf61bd3b070f3",
-      "70ce28ae90120955d7bcb51de275a77f853912e26f2f767c164c070abb6b5e44",
-      "d8127b3f3b4f094228b3a5efab64881d1e325a8012491d20e11db7010fe80d53"
+      "70ce28ae90120955d7bcb51de275a77f853912e26f2f767c164c070abb6b5e44"
     ]
   },
   {
@@ -798,30 +816,34 @@
     "label": "Post-quantum cryptography",
     "keywordId": "post-quantum-cryptography",
     "timeframe": "24h",
-    "score": 0,
+    "score": 27,
     "status": "stable",
-    "articleCount": 0,
+    "articleCount": 1,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
+    "distinctSourceCount": 1,
+    "leadingSourceIds": [
+      "infoq"
+    ],
+    "relatedArticleIds": [
+      "9e25af5d6a8fc5b82e7a5c789620590c9a21eebf47e91feac4f0dd04b12d60bd"
+    ]
   },
   {
     "id": "post-quantum-cryptography-30d",
     "label": "Post-quantum cryptography",
     "keywordId": "post-quantum-cryptography",
     "timeframe": "30d",
-    "score": 42,
+    "score": 43,
     "status": "stable",
-    "articleCount": 9,
+    "articleCount": 10,
     "previousArticleCount": 10,
-    "growthRate": -10,
+    "growthRate": 0,
     "distinctSourceCount": 7,
     "leadingSourceIds": [
       "cisco-blogs",
       "darkreading",
-      "redhat-blog"
+      "infoq"
     ],
     "relatedArticleIds": [
       "61b14d44176bc180e70ccd3d5aa82b52364928090bffaed0f8244e7c4cc71fba",
@@ -829,6 +851,7 @@
       "ab65f442fa5751e5912e1e86a740896771f8fd3be70b6b0d3b620fcc581f1a1a",
       "54a92822ceddd97cba62d997971c9dd2eeff7f05136d710a983ecff977a15420",
       "e594190aedb97017b109ad06c169983ac94cc00c8b276da73d4df6e947919f2c",
+      "9e25af5d6a8fc5b82e7a5c789620590c9a21eebf47e91feac4f0dd04b12d60bd",
       "f8463585bc0a024bc05dbfe5aa9cac12ae68cd355583e81821a11194a4e417af",
       "dd8b11940d5cab1b8d26b10abecf9d9557345a30fa46cb681368378d98c5d63a",
       "ab8e5d0e49162c6d986ca9239d80a3f6e1cdd1391778c336c37a9a79ec71f7c3",
@@ -840,19 +863,21 @@
     "label": "Post-quantum cryptography",
     "keywordId": "post-quantum-cryptography",
     "timeframe": "7d",
-    "score": 28,
+    "score": 43,
     "status": "stable",
-    "articleCount": 2,
-    "previousArticleCount": 3,
-    "growthRate": -33,
-    "distinctSourceCount": 2,
+    "articleCount": 3,
+    "previousArticleCount": 2,
+    "growthRate": 50,
+    "distinctSourceCount": 3,
     "leadingSourceIds": [
       "google-cloud-blog",
-      "cisco-blogs"
+      "cisco-blogs",
+      "infoq"
     ],
     "relatedArticleIds": [
       "fc1bc0ec23e20ff8ec6374bf25ce8e1f0cf9d3bcd8b7414e7487869c57a33524",
-      "ab65f442fa5751e5912e1e86a740896771f8fd3be70b6b0d3b620fcc581f1a1a"
+      "ab65f442fa5751e5912e1e86a740896771f8fd3be70b6b0d3b620fcc581f1a1a",
+      "9e25af5d6a8fc5b82e7a5c789620590c9a21eebf47e91feac4f0dd04b12d60bd"
     ]
   },
   {
@@ -860,26 +885,30 @@
     "label": "Ransomware",
     "keywordId": "ransomware",
     "timeframe": "24h",
-    "score": 0,
+    "score": 30,
     "status": "stable",
-    "articleCount": 0,
+    "articleCount": 1,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 0,
-    "leadingSourceIds": [],
-    "relatedArticleIds": []
+    "distinctSourceCount": 1,
+    "leadingSourceIds": [
+      "sentinelone-blog"
+    ],
+    "relatedArticleIds": [
+      "41ea74f8a791a7999eb69f7c0fc48ced09797df7646720db5bb2a0f402c0b4ef"
+    ]
   },
   {
     "id": "ransomware-30d",
     "label": "Ransomware",
     "keywordId": "ransomware",
     "timeframe": "30d",
-    "score": 49,
+    "score": 50,
     "status": "rising",
-    "articleCount": 34,
+    "articleCount": 35,
     "previousArticleCount": 26,
-    "growthRate": 31,
-    "distinctSourceCount": 5,
+    "growthRate": 35,
+    "distinctSourceCount": 6,
     "leadingSourceIds": [
       "bleepingcomputer",
       "darkreading",
@@ -903,20 +932,22 @@
     "label": "Ransomware",
     "keywordId": "ransomware",
     "timeframe": "7d",
-    "score": 23,
-    "status": "declining",
-    "articleCount": 5,
+    "score": 29,
+    "status": "stable",
+    "articleCount": 6,
     "previousArticleCount": 12,
-    "growthRate": -58,
-    "distinctSourceCount": 2,
+    "growthRate": -50,
+    "distinctSourceCount": 3,
     "leadingSourceIds": [
       "darkreading",
-      "theregister"
+      "theregister",
+      "sentinelone-blog"
     ],
     "relatedArticleIds": [
       "dfbbec48529114e770ef4f665c2c9626e973b569f5547bcb7e49c53e002232d2",
       "0544900c02899ebc56fac008cd00fddac5138a3dfd77270f13dadc2e0dd13bbb",
       "3b1d1ae6f1dadbfdde9487838683740a7c44dde4eb61c4cacc978c90eaec1bb9",
+      "41ea74f8a791a7999eb69f7c0fc48ced09797df7646720db5bb2a0f402c0b4ef",
       "58e09ff61a3137a21a299e7d6ed90d7abbbf85545be8739b708e42235e088ad6",
       "d2bb862448ac66759ee5270059062ac65a9d5e5ed4f1fac8a75dd30ec6e2945b"
     ]
@@ -927,10 +958,10 @@
     "keywordId": "software-supply-chain-security",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 1,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -940,11 +971,11 @@
     "label": "Software supply-chain security",
     "keywordId": "software-supply-chain-security",
     "timeframe": "30d",
-    "score": 56,
+    "score": 48,
     "status": "rising",
-    "articleCount": 7,
-    "previousArticleCount": 4,
-    "growthRate": 75,
+    "articleCount": 6,
+    "previousArticleCount": 5,
+    "growthRate": 20,
     "distinctSourceCount": 5,
     "leadingSourceIds": [
       "thehackernews",
@@ -956,7 +987,6 @@
       "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6",
       "ff6ba9fbf51e7285734b41e1c72faecce6a3dd8fe13f6764df5c0ca39a4e61ba",
       "a947937fc68c594b4b756c91a1ca4632da0015a2176e3001dc373b479d918fdd",
-      "47bdb82a4099c8a13414e0e4332d7173637768086f2d58c187dad0daefa0ec0b",
       "49579dd3a1df29a2f6a45578100fc779d866765f9616bbc16395aff252b9339b",
       "5778eb9fbb8bf965a189ee378680d3e9c80d1427dc4299acba9ee05f6a3cb78a"
     ]
