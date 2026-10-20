@@ -11,9 +11,9 @@
     "growthRate": 400,
     "distinctSourceCount": 5,
     "leadingSourceIds": [
+      "rapid7-blog",
       "infoq",
-      "thehackernews",
-      "tenable-blog"
+      "thehackernews"
     ],
     "relatedArticleIds": [
       "eb4003abe76172767577fb8808b94ca2e2170efdd52029432a6131f44cbeb64b",
@@ -207,10 +207,10 @@
     "timeframe": "24h",
     "score": 93,
     "status": "breakout",
-    "articleCount": 40,
-    "previousArticleCount": 3,
-    "growthRate": 1233,
-    "distinctSourceCount": 18,
+    "articleCount": 42,
+    "previousArticleCount": 5,
+    "growthRate": 740,
+    "distinctSourceCount": 17,
     "leadingSourceIds": [
       "techcrunch",
       "theregister",
@@ -224,9 +224,9 @@
       "3b6e68adb37347a794a436cefb688e853a0b9468d62d728fab4304433f27611b",
       "4e6e796fa0c5bfc07584d40ae9a0eec1daccc81038f121441f65b448fb48feec",
       "3c471b8abda39883376e55a6dfc36aba2ab6adcbec60efdaf50539a914cc900e",
-      "fa2bb646c4b88b13d0bbc5a9ddf560c19afccd63feb28bd4a2ac5f6a0c100f9c",
-      "9407c875655d4f8ac4621f7778aca0163aea0fc2065aedd6bc573dcbb64df7f2",
-      "ed940cd024f6727677f8c9ae399848de63a3eb07f3c962a71fa625f87419c085"
+      "64a3076b94d5dad5f5bc934c7a78977c67e9709a1947a039944c0d2e621680e9",
+      "bca7a0324ad68e4fe6e8b232ee0cd7ea780205445710b32663cba1cf99201913",
+      "11399fbe3d99cc26df84747224bc8a51753a1f333b6efbb13773272c3680d4c7"
     ]
   },
   {
@@ -236,9 +236,9 @@
     "timeframe": "30d",
     "score": 79,
     "status": "emerging",
-    "articleCount": 983,
-    "previousArticleCount": 903,
-    "growthRate": 9,
+    "articleCount": 988,
+    "previousArticleCount": 896,
+    "growthRate": 10,
     "distinctSourceCount": 39,
     "leadingSourceIds": [
       "techcrunch",
@@ -265,7 +265,7 @@
     "timeframe": "7d",
     "score": 80,
     "status": "breakout",
-    "articleCount": 227,
+    "articleCount": 228,
     "previousArticleCount": 207,
     "growthRate": 10,
     "distinctSourceCount": 30,
@@ -398,19 +398,21 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "24h",
-    "score": 32,
+    "score": 38,
     "status": "stable",
-    "articleCount": 2,
+    "articleCount": 3,
     "previousArticleCount": 0,
     "growthRate": null,
-    "distinctSourceCount": 2,
+    "distinctSourceCount": 3,
     "leadingSourceIds": [
       "checkpoint-blog",
-      "darkreading"
+      "darkreading",
+      "thehackernews"
     ],
     "relatedArticleIds": [
       "16a27ee184c72081378ba96d55ea12e9045a36ce0fdd6fd58800676d1376b80c",
-      "a48af4bd39cb615f2d929337c24a6f594b62714373c0df642d2b9837149c4479"
+      "a48af4bd39cb615f2d929337c24a6f594b62714373c0df642d2b9837149c4479",
+      "41ada449c348308462af326376ed7aeb364d09e9e0e0568610e4e3417f81d794"
     ]
   },
   {
@@ -420,9 +422,9 @@
     "timeframe": "30d",
     "score": 47,
     "status": "rising",
-    "articleCount": 96,
+    "articleCount": 97,
     "previousArticleCount": 102,
-    "growthRate": -6,
+    "growthRate": -5,
     "distinctSourceCount": 20,
     "leadingSourceIds": [
       "thehackernews",
@@ -449,9 +451,9 @@
     "timeframe": "7d",
     "score": 43,
     "status": "stable",
-    "articleCount": 18,
+    "articleCount": 19,
     "previousArticleCount": 25,
-    "growthRate": -28,
+    "growthRate": -24,
     "distinctSourceCount": 12,
     "leadingSourceIds": [
       "thehackernews",
@@ -468,7 +470,7 @@
       "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6",
       "a8b8c31de898145e14c82e5a132c6ade438a779372caca6da84483874bea0325",
       "fc1bc0ec23e20ff8ec6374bf25ce8e1f0cf9d3bcd8b7414e7487869c57a33524",
-      "9aa58e8616238f9f65b724a97b3f817cd25531b4ceb35cd06a46e5721bf84875"
+      "41ada449c348308462af326376ed7aeb364d09e9e0e0568610e4e3417f81d794"
     ]
   },
   {
@@ -536,18 +538,14 @@
     "label": "DevSecOps",
     "keywordId": "devsecops",
     "timeframe": "24h",
-    "score": 27,
-    "status": "stable",
-    "articleCount": 1,
-    "previousArticleCount": 0,
-    "growthRate": null,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "redhat-blog"
-    ],
-    "relatedArticleIds": [
-      "cedb7a5a94a0753cafefcc2ff26d962c81a21dae90f4b8581490703bccc0b01b"
-    ]
+    "score": 0,
+    "status": "declining",
+    "articleCount": 0,
+    "previousArticleCount": 1,
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "devsecops-30d",
@@ -567,8 +565,8 @@
     "relatedArticleIds": [
       "6bb5ce07efdd0f63a97c1a14d9ec6476327334e75d64ca2fd6fe968f7d28bc6b",
       "22cfbab47b6ed53d135fd194e501c6206b112f8680b1c548c1536822fc2de0ab",
-      "cedb7a5a94a0753cafefcc2ff26d962c81a21dae90f4b8581490703bccc0b01b",
-      "6916308947aafb8c19069e0004dc5fccbf5ac0bbf743c200cb2e6e061d7fdc99"
+      "6916308947aafb8c19069e0004dc5fccbf5ac0bbf743c200cb2e6e061d7fdc99",
+      "cedb7a5a94a0753cafefcc2ff26d962c81a21dae90f4b8581490703bccc0b01b"
     ]
   },
   {
@@ -666,8 +664,8 @@
     "growthRate": null,
     "distinctSourceCount": 2,
     "leadingSourceIds": [
-      "infoq",
-      "google-cloud-blog"
+      "google-cloud-blog",
+      "infoq"
     ],
     "relatedArticleIds": [
       "4e6e796fa0c5bfc07584d40ae9a0eec1daccc81038f121441f65b448fb48feec",
