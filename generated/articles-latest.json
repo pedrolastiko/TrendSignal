@@ -19,7 +19,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "a5c502fdcf06e38109de03e2ec4c0c7439c7be3cc79f0dbbbf20bcebdb1d0866",
@@ -44,6 +44,246 @@
     "trendScore": 80
   },
   {
+    "id": "dc65e8821342889ac6275d9b31a6e5c464ef41348fb4a44f61b409307919413c",
+    "title": "Announcing llm-d 1.0: Open distributed inference for agents on Google Cloud TPUs and GPUs",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference/",
+    "canonicalUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference",
+    "sourceId": "google-cloud-blog",
+    "sourceName": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-20T11:30:00.000Z",
+    "discoveredAt": "2026-10-20T11:42:52.680Z",
+    "summary": "Today at the PyTorch Conference, we released llm-d 1.0, an open-source, Kubernetes-native stack for distributed LLM inference. Co-founded by Google with Red Hat, IBM and others, we worked with a community of more than 500 contributors over 25 organizations on this Cloud Native Computing Foundation (CNCF) Sandbox…",
+    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_Figure_1_-_llm-d_1.0_distributed_infer.max-1000x1000.png",
+    "language": "en",
+    "tags": [
+      "Containers & Kubernetes",
+      "GKE",
+      "Open Source",
+      "AI infrastructure"
+    ],
+    "matchedKeywordIds": [
+      "generative-ai"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 50,
+    "trendScore": 52
+  },
+  {
+    "id": "0a36e1ee65f5d2aa8625d16226321035f27ecb0e766464cefa5c9437ae3cf0a3",
+    "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+    "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T11:00:00.000Z",
+    "discoveredAt": "2026-10-20T11:42:52.680Z",
+    "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+    "language": "en",
+    "tags": [
+      "TC",
+      "AI",
+      "Apps"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33,
+    "trendScore": 80
+  },
+  {
+    "id": "650a048e79be7f145a93f259a276e777a64458a02de6787597a4f68d44089b7d",
+    "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+    "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T11:00:00.000Z",
+    "discoveredAt": "2026-10-20T11:42:52.680Z",
+    "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst’s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth,…",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Fundraising",
+      "General Catalyst",
+      "otter",
+      "otter.ai"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48,
+    "trendScore": 80
+  },
+  {
+    "id": "c467833b475c3ff9e2913b062ff963514461e45eb030fb8374c5fd4bec5e944e",
+    "title": "Presentation: Beyond the Prototype: Scaling Framework Agnostic AI Agent Infrastructure with Ray",
+    "url": "https://www.infoq.com/presentations/scale-llm-agents-production-ray/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/presentations/scale-llm-agents-production-ray",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T11:00:00.000Z",
+    "discoveredAt": "2026-10-20T11:42:52.680Z",
+    "summary": "The speakers discuss transitioning AI agents from local FastAPI prototypes to resilient production systems on Kubernetes using Ray. They share operational insights on RayCluster topology, stateful memory handling, auto-scaling on dynamic traffic, and robust control plane designs, while highlighting critical…",
+    "imageUrl": "https://res.infoq.com/presentations/scale-llm-agents-production-ray/en/mediumimage/medium-1792065446239.jpg",
+    "language": "en",
+    "tags": [
+      "Scalability",
+      "Large language models",
+      "Machine Learning",
+      "Agents",
+      "Transcripts",
+      "QCon AI Boston 2026",
+      "AI",
+      "ML & Data Engineering",
+      "Architecture & Design",
+      "Development",
+      "presentation"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 62,
+    "trendScore": 80
+  },
+  {
+    "id": "2f762f20ec35fa407d607dd98c5daa95cbc9ac9612e60203cce040cbefba66b1",
+    "title": "Enabling the next era of sovereign AI: The latest Google Distributed Cloud innovations",
+    "url": "https://cloud.google.com/blog/topics/hybrid-cloud/new-innovations-in-google-distributed-cloud/",
+    "canonicalUrl": "https://cloud.google.com/blog/topics/hybrid-cloud/new-innovations-in-google-distributed-cloud",
+    "sourceId": "google-cloud-blog",
+    "sourceName": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-20T10:00:00.000Z",
+    "discoveredAt": "2026-10-20T11:42:52.680Z",
+    "summary": "Agentic systems are quickly moving from pilots to production in the enterprise. But if your organization operates under stringent data sovereignty, defense, intelligence, or critical infrastructure mandates, sending sensitive data to a public cloud often isn’t an option — and building your own AI stack inside a…",
+    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_2n8CczN.max-1000x1000.png",
+    "language": "en",
+    "tags": [
+      "Hybrid & Multicloud"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "digital-sovereignty"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 60,
+    "trendScore": 80
+  },
+  {
+    "id": "a2d65710e20f63dc4355057f947b055945aa6728acd4b8af31e32cb541b01e67",
+    "title": "A visit to Samsung’s massive new semiconductor hub",
+    "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+    "canonicalUrl": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub",
+    "sourceId": "mit-technology-review",
+    "sourceName": "MIT Technology Review",
+    "company": "MIT Technology Review",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T09:00:00.000Z",
+    "discoveredAt": "2026-10-20T11:42:52.680Z",
+    "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock,…",
+    "language": "en",
+    "tags": [
+      "Artificial intelligence",
+      "App"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 43,
+    "trendScore": 80
+  },
+  {
+    "id": "8ccd1afa7d703bd91336bc56edacf7afc6fed4e7a01561770f12e084539e007f",
+    "title": "Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet",
+    "url": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T07:01:00.000Z",
+    "discoveredAt": "2026-10-20T11:42:52.680Z",
+    "summary": "Blackwall has raised $100M at a $2.2B valuation to continue building security and filtering tools that help websites grapple with growing bot and AI traffic.",
+    "language": "en",
+    "tags": [
+      "Enterprise",
+      "Security",
+      "Fundraising",
+      "Blackwall"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 33,
+    "trendScore": 80
+  },
+  {
+    "id": "9854cc575096db6c57016525910e1353ef35a2aca0caefda5ff93c6b92ff4044",
+    "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+    "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+    "canonicalUrl": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "company": "NVIDIA",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-20T05:00:00.000Z",
+    "discoveredAt": "2026-10-20T11:42:52.680Z",
+    "summary": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program…",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/spain-startups-bsc-1920x1080-1.jpg",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Supercomputing",
+      "Agentic AI",
+      "AI Factory",
+      "AI for Good",
+      "Artificial Intelligence",
+      "Climate",
+      "Customer Stories",
+      "Events",
+      "Healthcare and Life Sciences",
+      "High-Performance Computing",
+      "Inception"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 34,
+    "trendScore": 80
+  },
+  {
     "id": "41ada449c348308462af326376ed7aeb364d09e9e0e0568610e4e3417f81d794",
     "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
     "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
@@ -63,7 +303,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "64a3076b94d5dad5f5bc934c7a78977c67e9709a1947a039944c0d2e621680e9",
@@ -608,7 +848,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 30
+    "trendScore": 36
   },
   {
     "id": "3b6e68adb37347a794a436cefb688e853a0b9468d62d728fab4304433f27611b",
@@ -806,7 +1046,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "eb4003abe76172767577fb8808b94ca2e2170efdd52029432a6131f44cbeb64b",
@@ -1024,7 +1264,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47,
+    "relevanceScore": 44,
     "trendScore": 80
   },
   {
@@ -1060,7 +1300,7 @@
       "artificial-intelligence",
       "generative-ai"
     ],
-    "relevanceScore": 42,
+    "relevanceScore": 39,
     "trendScore": 80
   },
   {
@@ -1115,7 +1355,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 46,
+    "relevanceScore": 43,
     "trendScore": 80
   },
   {
@@ -1138,7 +1378,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 64,
+    "relevanceScore": 61,
     "trendScore": 80
   },
   {
@@ -1165,7 +1405,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48,
+    "relevanceScore": 45,
     "trendScore": 80
   },
   {
@@ -1217,7 +1457,7 @@
       "post-quantum-cryptography"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32,
+    "relevanceScore": 29,
     "trendScore": 43
   },
   {
@@ -1270,7 +1510,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 65,
+    "relevanceScore": 62,
     "trendScore": 80
   },
   {
@@ -1292,7 +1532,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33,
+    "relevanceScore": 30,
     "trendScore": 80
   },
   {
@@ -1444,12 +1684,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/aws-well-architected-agent/en/headerimage/generatedHeaderImage-1791124477134.jpg",
     "language": "en",
     "tags": [
-      "Cloud",
       "Best Practices",
+      "Cloud",
       "Cost Optimization",
       "Agents",
-      "AWS",
       "Infrastructure Optimisation",
+      "AWS",
       "Architecture & Design",
       "DevOps"
     ],
@@ -1481,8 +1721,8 @@
     "tags": [
       "Cloud",
       "Security",
-      "Sovereignty",
       "AWS",
+      "Sovereignty",
       "Cloud Architecture",
       "Architecture & Design",
       "Development",
@@ -1496,7 +1736,7 @@
       "devsecops"
     ],
     "relevanceScore": 44,
-    "trendScore": 30
+    "trendScore": 36
   },
   {
     "id": "5eb559e50fd7886d16ab05385266393c7126d95ff81c90f2c2f7713f6112db3d",
@@ -1577,7 +1817,7 @@
       "software-supply-chain-security"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 41,
+    "relevanceScore": 38,
     "trendScore": 50
   },
   {
@@ -1619,8 +1859,8 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/reverse-engineer-anything/en/headerimage/generatedHeaderImage-1791736473714.jpg",
     "language": "en",
     "tags": [
-      "Reverse Engineering",
       "Open Source",
+      "Reverse Engineering",
       "Static Analysis",
       "Agents",
       "Licensing",
@@ -1636,7 +1876,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 33,
+    "relevanceScore": 30,
     "trendScore": 80
   },
   {
@@ -1658,8 +1898,8 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30,
-    "trendScore": 43
+    "relevanceScore": 27,
+    "trendScore": 42
   },
   {
     "id": "ccf0ebaea93fd66c2a366f22fb9cc5837da632359636ffa46d9f88928f957ef7",
@@ -1913,7 +2153,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 32,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "3b81d2aed546134e50c63430affed0e0a3f645d20446ba41aba1aced86a06981",
@@ -1969,7 +2209,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
-    "trendScore": 45
+    "trendScore": 52
   },
   {
     "id": "23e4826e2b125739a8b095fb52756c3fda2fc1f6eaf919f78459099bef8e2583",
@@ -1991,7 +2231,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "4835b3e02eaace2457295a5cea21af9f8674b1fba91a1493a1e4f143d8f30895",
@@ -2177,7 +2417,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 33,
-    "trendScore": 45
+    "trendScore": 52
   },
   {
     "id": "08ae3f1b7d83d7996372b532a7118fab56ae90751c7c40f1d1392f071b635de9",
@@ -2922,7 +3162,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "fc1bc0ec23e20ff8ec6374bf25ce8e1f0cf9d3bcd8b7414e7487869c57a33524",
@@ -3595,7 +3835,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "15a24e45c0100361df55d98fab0ebe0810f2a6a5997b2e00925c57c8885da1d8",
@@ -4094,6 +4334,28 @@
     "trendScore": 80
   },
   {
+    "id": "1cdee9e9da7eb536d91e4c7248e74d348c72ee5623002d5708339de1d6bad9c9",
+    "title": "Renting the Frontier, Owning the Core IP: How We Cut AI Forecast Costs from $40M to $11M",
+    "url": "https://www.thoughtworks.com/insights/blog/generative-ai/renting-the-frontier--owning-the-core-ip--how-we-cut-ai-forecast",
+    "canonicalUrl": "https://www.thoughtworks.com/insights/blog/generative-ai/renting-the-frontier--owning-the-core-ip--how-we-cut-ai-forecast",
+    "sourceId": "thoughtworks-insights",
+    "sourceName": "Thoughtworks Insights",
+    "company": "Thoughtworks",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "discoveredAt": "2026-10-20T04:55:09.901Z",
+    "summary": "Renting the Frontier, Owning the Core IP: How We Cut AI Forecast Costs from $40M to $11M",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_057.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 41,
+    "trendScore": 80
+  },
+  {
     "id": "83e3573d527514b68cd518d3db39ddc760ed1aee9dedaba7a6447936da205359",
     "title": "The judgment bottleneck: Balancing AI and human speeds in strategy",
     "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-judgment-bottleneck-balancing-ai-and-human-speeds-in-strategy",
@@ -4191,28 +4453,6 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
-  },
-  {
-    "id": "1cdee9e9da7eb536d91e4c7248e74d348c72ee5623002d5708339de1d6bad9c9",
-    "title": "Renting the Frontier, Owning the Core IP: How We Cut AI Forecast Costs from $40M to $11M",
-    "url": "https://www.thoughtworks.com/insights/blog/generative-ai/renting-the-frontier--owning-the-core-ip--how-we-cut-ai-forecast",
-    "canonicalUrl": "https://www.thoughtworks.com/insights/blog/generative-ai/renting-the-frontier--owning-the-core-ip--how-we-cut-ai-forecast",
-    "sourceId": "thoughtworks-insights",
-    "sourceName": "Thoughtworks Insights",
-    "company": "Thoughtworks",
-    "sourceCategory": "consulting",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "discoveredAt": "2026-10-20T04:55:09.901Z",
-    "summary": "Renting the Frontier, Owning the Core IP: How We Cut AI Forecast Costs from $40M to $11M",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_057.jpg",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 41,
     "trendScore": 80
   },
   {
@@ -4989,7 +5229,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "e89b56d2e8b25be6637d4f71bce6b0a99a80b74753d8a15aa2460d27cdd9d61d",
@@ -5013,7 +5253,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 30
+    "trendScore": 36
   },
   {
     "id": "13d15f9231c43ced0025597415b2102b047308219e866af8614cd231cd0a7479",
@@ -5035,7 +5275,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "57c3309db5bedcdec4e0532a65e896970f7cad30f5011350fb2a735b14cb8cdd",
@@ -5127,7 +5367,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "309d2343ca38757e0da8606a2b72be23d99d9ca735367b35d087378e2ee7e4aa",
@@ -6215,7 +6455,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "deac2aeb2d609c1cd892e53aaa78d56606a074070dc454048145827a8cf7020f",
@@ -6867,7 +7107,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 43,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "8cac0ce02ae150d4c2b7c1ee260c2919854cb7a189814aa6c21dd1d3f7e2820d",
@@ -6925,7 +7165,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 28,
+    "relevanceScore": 26,
     "trendScore": 80
   },
   {
@@ -7075,7 +7315,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "238435ff1579625f14a9a62348ae06cdd13debfcbe328da3bfefd3f2dc8df65b",
@@ -7584,7 +7824,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "1580df2773da09ac47728dd1e2fc4e2574ccde549197cc414f4a00fc5f6fc97b",
@@ -7605,7 +7845,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 25,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "5aace688b8f8adeb6162e551165e87b9470f5fbb7961403c661ca078319b94b4",
@@ -8211,7 +8451,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "43361e4c621317cca43b33322b6a6514153abe5afe594166ac519307521652dc",
@@ -8315,7 +8555,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "d85c5a2756a6a99b143cf154e1a85d34b7d3dd85a68d8df8f23b017c05cd1763",
@@ -8615,7 +8855,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "a63a56c96777a3e1a5c9769cd39b3742b9177a0cae586983c4d95daa07ba41ce",
@@ -9136,7 +9376,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "ec445018e75f175b050c903b89232942a654b91b4a0763f8b4e6d04f7e949ca2",
@@ -9311,7 +9551,7 @@
     "publishedAt": "2026-10-09T00:00:00.000Z",
     "discoveredAt": "2026-10-09T13:23:15.840Z",
     "summary": "Leadership in the age of AI agents",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_069.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_027.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -9617,7 +9857,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "b80f4c18cfa43dcf3d4e599ee0a6aa15c688093c37c86634a1ff25d30e99ce25",
@@ -9832,7 +10072,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 26,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "cf71e8207baeed7b46d0bd47ca5d3c599b9b603159abefbe4115b6efd10e3dc9",
@@ -10012,7 +10252,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "59899f29cc8878a7bd8e8be5018c400764d339a5aef49c1ddab27b2a4dd9f3e2",
@@ -10125,7 +10365,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 32,
-    "trendScore": 45
+    "trendScore": 52
   },
   {
     "id": "50bd0eed89791785b860b12122c7d987b89014d2d16b8b44a0a1e7025805b9e4",
@@ -10252,7 +10492,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 29,
-    "trendScore": 45
+    "trendScore": 52
   },
   {
     "id": "6e7a5edbe139dbbd4e6606ec317c6cd96ff820b07cf574b76a2e623ab5973696",
@@ -10512,7 +10752,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "fac4ebfdf3ea90737b2959c294a7742ffe8c2990be22cbeb7842527a9fc97c39",
@@ -10573,7 +10813,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "5ba4992be8c5e8e1a0cbbecbb341c7843313962fb06007825e26285282ed7454",
@@ -11281,7 +11521,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 42
   },
   {
     "id": "7b25d445dde7d9d6a181ed89ed46fd3c8ce34b973a302f817ff4461a55e30581",
@@ -11465,7 +11705,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 28,
-    "trendScore": 45
+    "trendScore": 52
   },
   {
     "id": "99a195ea89001c923b5a6f38ecf8fd569fe5c258253a20566a29c386db3b5fb6",
@@ -12491,7 +12731,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 34,
-    "trendScore": 45
+    "trendScore": 52
   },
   {
     "id": "efd1337b764ca4d94ca5aacdf08bce9d14cec18a13716708cb2916de0bb0527c",
@@ -12515,7 +12755,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
-    "trendScore": 45
+    "trendScore": 52
   },
   {
     "id": "80e3403877f21dae02b060ac6a128bb8c5353f9c17b8104d713e7a70b8bf27b9",
@@ -12880,197 +13120,6 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 80
-  },
-  {
-    "id": "00427e47df5ef3064509e152a77372922244883355c7072ea1ab24de41848a25",
-    "title": "Sharing AI progress in mathematics",
-    "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-    "canonicalUrl": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-    "sourceId": "openai-news",
-    "sourceName": "OpenAI News",
-    "company": "OpenAI",
-    "sourceCategory": "artificial-intelligence",
-    "publishedAt": "2026-10-06T12:00:00.000Z",
-    "discoveredAt": "2026-10-07T06:04:24.126Z",
-    "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-    "language": "en",
-    "tags": [
-      "Research"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 32,
-    "trendScore": 80
-  },
-  {
-    "id": "ebb413cc5359756bf9234b81256f87104efa96c0b88df88826702769f053f0a0",
-    "title": "How Jump Trading is scaling quant research with ChatGPT",
-    "url": "https://openai.com/index/jump-trading",
-    "canonicalUrl": "https://openai.com/index/jump-trading",
-    "sourceId": "openai-news",
-    "sourceName": "OpenAI News",
-    "company": "OpenAI",
-    "sourceCategory": "artificial-intelligence",
-    "publishedAt": "2026-10-06T12:00:00.000Z",
-    "discoveredAt": "2026-10-07T06:04:24.126Z",
-    "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 27,
-    "trendScore": 80
-  },
-  {
-    "id": "fadfc7555c0487186e5cdc794d7a9be270aded91a1c63ae782c7be60c8953d17",
-    "title": "Networking for AI inference model serving - GKE only and for all other backends",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/networking-for-ai-inference-model-serving-gke-only-and-for-all-other-backends/",
-    "canonicalUrl": "https://cloud.google.com/blog/topics/developers-practitioners/networking-for-ai-inference-model-serving-gke-only-and-for-all-other-backends",
-    "sourceId": "google-cloud-blog",
-    "sourceName": "Google Cloud Blog",
-    "company": "Google Cloud",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-10-06T12:00:00.000Z",
-    "discoveredAt": "2026-10-06T18:24:56.017Z",
-    "summary": "Enterprises and individual developers frequently run multiple AI inference models. The right architecture can simplify how the models are called while also providing centralized governance. In this post, we'll look at two reference architectures focused on networking AI inference model serving: one for Google…",
-    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/networking-ai-inference-model-serving-hero.max-600x600.png",
-    "language": "en",
-    "tags": [
-      "Networking",
-      "Developers & Practitioners"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 41,
-    "trendScore": 80
-  },
-  {
-    "id": "7cefa7d6817f0998ed17c2c1c250e09e52abdb4bf4ab55fd927d7ac0bb12ae85",
-    "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
-    "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
-    "canonicalUrl": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
-    "sourceId": "thehackernews",
-    "sourceName": "The Hacker News",
-    "company": "The Hacker News",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-06T11:02:30.000Z",
-    "discoveredAt": "2026-10-06T18:24:56.017Z",
-    "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows. The ecosystem around it fell short. Earlier this year, our…",
-    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd9ijWk9zlAlr4Ogzkb3OyeREM6GDYe0AZx5DQ-TmdUPN5ogFXFM0Z9Lh-qdG1CAIVdBX7cV7NSfgEk_yBtaTFCPdIjAo23ixCfHqa4j1m8FY2cRfmdcrd4GZNn-5QQScWonyO6GDRx6RA1ZRcuW9tAmCOFG9u7KQbWx3fftJ921w8rUqHx4ya_5CFuJM/s1600/ox.png.jpg",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 27,
-    "trendScore": 80
-  },
-  {
-    "id": "2e87e8db52f1c96d4a621d44c1843e7312dbc08eaf747a07d3f235857e83f5aa",
-    "title": "To reach sustainable AI, businesses must speak a common language",
-    "url": "https://www.capgemini.com/insights/expert-perspectives/to-reach-sustainable-ai-businesses-must-speak-a-common-language/",
-    "canonicalUrl": "https://www.capgemini.com/insights/expert-perspectives/to-reach-sustainable-ai-businesses-must-speak-a-common-language",
-    "sourceId": "capgemini-blog",
-    "sourceName": "Capgemini Blog",
-    "company": "Capgemini",
-    "sourceCategory": "consulting",
-    "publishedAt": "2026-10-06T10:48:58.000Z",
-    "discoveredAt": "2026-10-06T18:24:56.017Z",
-    "summary": "As AI models become more complex, their environmental, resource, and economic impacts are growing. Organizations are aiming to meet the moment with standardized frameworks and coalition-building. The post To reach sustainable AI, businesses must speak a common language appeared first on Capgemini.",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 40,
-    "trendScore": 80
-  },
-  {
-    "id": "03c1e97be22059b57c7065567d9d1aebe78316fc5e77c270844e11c8c2f62ec0",
-    "title": "QCon London 2027 Announces 15 Tracks on Production AI, Architecture, and Engineering at Scale",
-    "url": "https://www.infoq.com/news/2026/10/qconlondon-2027-track/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "canonicalUrl": "https://www.infoq.com/news/2026/10/qconlondon-2027-track",
-    "sourceId": "infoq",
-    "sourceName": "InfoQ",
-    "company": "InfoQ",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-06T10:00:00.000Z",
-    "discoveredAt": "2026-10-06T18:24:56.017Z",
-    "summary": "A preview of the 15-track QCon London 2027 program, covering agent evaluation and guardrails, AI-era architecture, distributed-system debugging, modern data platforms, high-performance engineering, and Staff+ leadership. By Artenisa Chatziou",
-    "imageUrl": "https://res.infoq.com/news/2026/10/qconlondon-2027-track/en/headerimage/qcon-london-2027-track-focus-1790854597434.jpg",
-    "language": "en",
-    "tags": [
-      "QCon London 2027",
-      "QCon Software Development Conference",
-      "Artificial Intelligence",
-      "Architecture",
-      "Software Engineering",
-      "AI Architecture",
-      "AI",
-      "ML & Data Engineering",
-      "Development",
-      "Architecture & Design"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 43,
-    "trendScore": 80
-  },
-  {
-    "id": "f57eff9c23a4454b476bbb268bd95c2d23fd7e230b5d7db7db7e5bb00c25353b",
-    "title": "Advancing computer use with Ironclad",
-    "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-    "canonicalUrl": "https://openai.com/index/advancing-computer-use-with-ironclad",
-    "sourceId": "openai-news",
-    "sourceName": "OpenAI News",
-    "company": "OpenAI",
-    "sourceCategory": "artificial-intelligence",
-    "publishedAt": "2026-10-06T10:00:00.000Z",
-    "discoveredAt": "2026-10-06T18:24:56.017Z",
-    "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-    "language": "en",
-    "tags": [
-      "Publication"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 27,
-    "trendScore": 80
-  },
-  {
-    "id": "5f745a372f73301d5d46def42dde7ec5545b0fd8a81b8a7a63cfd724ea743c1b",
-    "title": "Scale AI with trusted data",
-    "url": "https://www.capgemini.com/insights/expert-perspectives/scale-ai-with-trusted-data/",
-    "canonicalUrl": "https://www.capgemini.com/insights/expert-perspectives/scale-ai-with-trusted-data",
-    "sourceId": "capgemini-blog",
-    "sourceName": "Capgemini Blog",
-    "company": "Capgemini",
-    "sourceCategory": "consulting",
-    "publishedAt": "2026-10-06T09:05:26.000Z",
-    "discoveredAt": "2026-10-06T18:24:56.017Z",
-    "summary": "Scaling AI requires more than powerful models. Discover how trusted data, real-time access, and shared business context help organizations move from AI pilots to secure, enterprise-wide impact. The post Scale AI with trusted data appeared first on Capgemini.",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 40,
     "trendScore": 80
   }
 ]
