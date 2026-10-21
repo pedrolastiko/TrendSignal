@@ -888,7 +888,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "04753404475af487c2324e6ae3cb4d6f8521bd322b4fa58d59081cbbb49bf61e",
@@ -912,6 +912,25 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34
+  },
+  {
+    "id": "048475beaede031f194b66441da0d8057315893e13b4ac0b5df20665846b62f9",
+    "title": "Oracle October 2026 Critical Patch Update Addresses 1209 CVEs",
+    "url": "https://www.tenable.com/blog/oracle-october-2026-critical-patch-update-addresses-1209-cves",
+    "canonicalUrl": "https://www.tenable.com/blog/oracle-october-2026-critical-patch-update-addresses-1209-cves",
+    "sourceId": "tenable-blog",
+    "sourceName": "Tenable Blog",
+    "company": "Tenable",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-20T21:58:58.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "Oracle addresses 1209 CVEs in its final quarterly update of 2026 with 1295 patches, including 112 critical updates. Key Takeaways The October 2026 Critical Patch Update (CPU) contains fixes for 1209 unique CVEs in 1295 security updates 112 issues (8.6% of all patches) were assigned a critical severity rating Oracle…",
+    "imageUrl": "https://www.tenable.com/sites/default/files/images/blog/064cdcca-7637-4035-9acc-ab34877be6fa.png",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "0492f29d5525f89dceecf1945d0c0c5f7e659cba726af9e587518f47252e4588",
@@ -1330,12 +1349,11 @@
     "sourceCategory": "media",
     "publishedAt": "2026-10-20T13:07:24.000Z",
     "discoveredAt": "2026-10-20T17:12:03.396Z",
-    "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+    "summary": "The U.S. has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
     "language": "en",
     "tags": [
       "AI",
       "Government & Policy",
-      "artificial intelligance",
       "deepseek"
     ],
     "matchedKeywordIds": [
@@ -1589,7 +1607,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "07ac7e56c4dbe5bbeea48de616f7e65bc6cfe4ed920c4019d26a4fe1ccf5085e",
@@ -2048,6 +2066,28 @@
       "cybersecurity"
     ],
     "relevanceScore": 60
+  },
+  {
+    "id": "0a8a1e3f4f528a68f5caad3c18420576995f84677e641c5a8d8c7263a5d77393",
+    "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+    "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T00:46:42.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "0a8b33ea7d98f87cf84873c088f058cddbfde47799f35940039b1287f8891753",
@@ -3175,21 +3215,20 @@
     "sourceCategory": "media",
     "publishedAt": "2026-10-20T17:55:12.000Z",
     "discoveredAt": "2026-10-20T21:39:37.527Z",
-    "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
+    "summary": "Eric Schmidt’s fortune is about to get even bigger.",
     "language": "en",
     "tags": [
       "AI",
       "Startups",
       "Anthropic",
-      "Eric Schmidt"
+      "Eric Schmidt",
+      "In Brief"
     ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
+    "matchedKeywordIds": [],
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 16
   },
   {
     "id": "11e9534618ba5d5cdd3821379d1aa2217bb922db9eb325859f7583997d9b7f81",
@@ -3355,6 +3394,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "12766fdeb7319f82901a14293af2cef2aa1d2bf47dcce1683d307406f38ebfe0",
+    "title": "Tens of thousands of Nvidia GPUs sit idle in Meta's Prometheus supercluster, just waiting for a failure",
+    "url": "https://www.theregister.com/systems/2026/10/20/tens-of-thousands-of-nvidia-gpus-sit-idle-in-metas-prometheus-supercluster-just-waiting-for-a-failure/5304269",
+    "canonicalUrl": "https://www.theregister.com/systems/2026/10/20/tens-of-thousands-of-nvidia-gpus-sit-idle-in-metas-prometheus-supercluster-just-waiting-for-a-failure/5304269",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T20:39:42.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "And other fun facts about how Zuckercorp aims to keep a million GPUs running long enough to train a model",
+    "imageUrl": "https://image.theregister.com/?imageId=5304288&width=800",
+    "language": "en",
+    "tags": [
+      "systems"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "12783ac0b2f24325d9c7d62f7ab2e72d5569e5a5b36a0a122f6e20243a68967e",
@@ -3618,7 +3678,7 @@
   },
   {
     "id": "14423eb5946bd5d1ae5f92674c9bdbb8286842ae21185c85b650054841649a95",
-    "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in it’s LEGO era’",
+    "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
     "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
     "canonicalUrl": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era",
     "sourceId": "techcrunch",
@@ -3630,8 +3690,8 @@
     "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
     "language": "en",
     "tags": [
-      "Robotics",
       "AI",
+      "Robotics",
       "equitypod"
     ],
     "matchedKeywordIds": [
@@ -3725,7 +3785,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "151c400aee80d5c63f58e3f7cd40eb871a55e6b43afa711667434767b81ce041",
@@ -4503,6 +4563,26 @@
     "relevanceScore": 12
   },
   {
+    "id": "1937f49645544c608655e7b2cd9e374e8d75b2f5f6f8ecaf06ab5d1c70b255ea",
+    "title": "The Evolution of Corporate Social Responsibility",
+    "url": "https://www.fticonsulting.com/insights/articles/the-evolution-of-corporate-social-responsibility",
+    "canonicalUrl": "https://www.fticonsulting.com/insights/articles/the-evolution-of-corporate-social-responsibility",
+    "sourceId": "fti-consulting-insights",
+    "sourceName": "FTI Consulting Insights",
+    "company": "FTI Consulting",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "updatedAt": "2026-10-20T00:00:00.000Z",
+    "summary": "Corporate social responsibility is evolving rapidly, and decisions made in the next few years will shape how companies and governments are judged.",
+    "imageUrl": "https://www.fticonsulting.com/-/media/images/shared-content/insights/articles/2026/oct/the-evolution-of-corporate-social-responsibility_900x471_center.jpeg?as=0&dmc=0&iar=0&thn=0&udi=0&rev=3eb62316682143388bdae2676171650e&hash=B7296502C3C765009C164661F7F6B7D1",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 12
+  },
+  {
     "id": "194ccb8050b46cf9bdced2e28838c0f5951b7ee0bd3f114a6bf8822cb0f1bd19",
     "title": "Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation",
     "url": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
@@ -5120,7 +5200,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 35
+    "relevanceScore": 32
   },
   {
     "id": "1d0e2da84176777789828586ba67a396aa72f77722b20a7f96bdaa4886fee17e",
@@ -5605,7 +5685,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 55
+    "relevanceScore": 53
   },
   {
     "id": "201d4b196b3218cd72bed7a3283a9c1ff4950945a765a1b94a874e69beeb45e5",
@@ -7633,6 +7713,31 @@
     "relevanceScore": 16
   },
   {
+    "id": "2c98ce490bd84cfad64a29d59a2e9b8d2416cadde195906bac598f5b5b5beacd",
+    "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+    "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+    "canonicalUrl": "https://blog.cloudflare.com/emudhra-certificate-compromise",
+    "sourceId": "cloudflare-blog",
+    "sourceName": "Cloudflare Blog",
+    "company": "Cloudflare",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-20T22:20:16.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
+    "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M5DK5FY53PEFH46MT990YMSR.png",
+    "language": "en",
+    "tags": [
+      "Cryptography",
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity",
+      "post-quantum-cryptography"
+    ],
+    "relevanceScore": 17
+  },
+  {
     "id": "2ca769c8037782041c07719f47fb1d531386a3fd1074392ed437310b13c6a61b",
     "title": "Bluesky wants to make it easier to buy, sell, and fundraise on the network",
     "url": "https://techcrunch.com/2026/10/15/bluesky-wants-to-make-it-easier-to-buy-sell-and-fundraise-on-the-network/",
@@ -8590,7 +8695,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "31c033189fca41eb355f4364b2e9229010b369b9b760c8ca6c37ef0e5295e1f7",
@@ -10149,7 +10254,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "39f490a9561dabbd8fe35b167ed728435fb6509d6e3ca9294bf0f7d05c76da58",
@@ -10710,7 +10815,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "3c471b8abda39883376e55a6dfc36aba2ab6adcbec60efdaf50539a914cc900e",
@@ -11601,7 +11706,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "41b2f92e5bf3e85d9def3450a3e402d409909d8bd8b48e397828a7bc0aafb4ba",
@@ -11664,7 +11769,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "4297fa2ca66d0574a689ff0963b796974be747ac50778176bdf124e3f22e6e0e",
@@ -11867,7 +11972,7 @@
   },
   {
     "id": "439bd07bfcd5f5366006b1b18ce5c766cff08c814bd29cffa48804d6685181ca",
-    "title": "GM to close Detroit battery assembly plant, but not for reasons you might think",
+    "title": "GM to close Detroit battery-assembly plant, but not for reasons you might think",
     "url": "https://techcrunch.com/2026/10/20/gm-to-close-detroit-battery-assembly-plant-but-not-for-reasons-you-might-think/",
     "canonicalUrl": "https://techcrunch.com/2026/10/20/gm-to-close-detroit-battery-assembly-plant-but-not-for-reasons-you-might-think",
     "sourceId": "techcrunch",
@@ -11883,7 +11988,8 @@
       "Transportation",
       "battery manufacturing",
       "electric vehicles",
-      "GM"
+      "GM",
+      "In Brief"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -13296,6 +13402,7 @@
       "Artificial Intelligence",
       "Customer Stories",
       "Events",
+      "GTC 2026",
       "Media and Entertainment",
       "NVIDIA in Europe",
       "Open Source",
@@ -14696,7 +14803,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "56d30406a7702bda30bd4a524561be3c269704df5d031c266c219eab996f0e66",
@@ -14779,7 +14886,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "570fe3204556675e8dd927e7dbd15e7142796fd7ecb68cb1f56d47b91d75ac01",
@@ -16604,7 +16711,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 57
+    "relevanceScore": 54
   },
   {
     "id": "62badca6addc0ac9c83b2642b4361e5f1f19734989a09d5df8cacfc24a91e8e6",
@@ -16701,6 +16808,33 @@
       "cybersecurity"
     ],
     "relevanceScore": 12
+  },
+  {
+    "id": "6320f1219c3c163071ba4e5dd8303aff42d24cdb462c45f0761cb89a65370866",
+    "title": "Hardened by Design: Applying the NSA’s OT Guidance with Cisco Security & Splunk",
+    "url": "https://blogs.cisco.com/industries/hardened-by-design-applying-the-nsas-ot-guidance-with-cisco-security-splunk",
+    "canonicalUrl": "https://blogs.cisco.com/industries/hardened-by-design-applying-the-nsas-ot-guidance-with-cisco-security-splunk",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-21T02:39:42.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "Apply the NSA’s new Zero Trust guidance to your OT environments. Learn how Cisco Cyber Vision and Splunk provide the visibility and telemetry needed to secure critical infrastructure without disrupting operations.",
+    "language": "en",
+    "tags": [
+      "Industries",
+      "Cisco Cyber Vision",
+      "Cisco Security",
+      "Security"
+    ],
+    "matchedKeywordIds": [
+      "zero-trust"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 34
   },
   {
     "id": "632655dcedb656af527d0fdedd80f07bee11cce8aeef6b5312049e49c011997f",
@@ -17789,7 +17923,7 @@
     "sourceCategory": "media",
     "publishedAt": "2026-10-20T20:40:41.000Z",
     "discoveredAt": "2026-10-20T21:39:37.527Z",
-    "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+    "summary": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
     "language": "en",
     "tags": [
       "AI",
@@ -18960,8 +19094,8 @@
     "language": "en",
     "tags": [
       "AI",
-      "TC",
       "biotech",
+      "In Brief",
       "OpenAI"
     ],
     "matchedKeywordIds": [
@@ -19378,7 +19512,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "72b689a43b33aab8cdac206a2d03f33631f1b146e6234b9712180cdb82dc0c9b",
@@ -20329,6 +20463,31 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 70
+  },
+  {
+    "id": "79ed5d102336112432b1a0b843ffb0efedebfb401bb45e06b85a6b29119f628a",
+    "title": "Auto tech startup claims it traced hack attempt back to rival's IP address",
+    "url": "https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281",
+    "canonicalUrl": "https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T22:00:46.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "IQ.Lvbs implies that rival Comma.ai isn't playing fair",
+    "imageUrl": "https://image.theregister.com/?imageId=5304292&width=800",
+    "language": "en",
+    "tags": [
+      "cyber-crime"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "threat-intelligence"
+    ],
+    "relevanceScore": 32
   },
   {
     "id": "7a0e00dbc0dee32da088a4c3e7cc9dc04dcb4bcfdea6e3d51eb1bfb67d9fbc46",
@@ -21718,6 +21877,35 @@
     "relevanceScore": 48
   },
   {
+    "id": "84d5e70408465cd957b23fdd3a6f0f7abff25e7fa730e5dae476a458e13090ed",
+    "title": "TornadoVM 7 Enables GPU-Native Workloads From Java Applications",
+    "url": "https://www.infoq.com/news/2026/10/tornadovm-7-gpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/tornadovm-7-gpu",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T03:00:00.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "TornadoVM, an open-source heterogeneous programming framework for Java has reached version 7.0. It automatically accelerates Java programs on multi-core CPUs and GPUs and provides a rich GPU programming ecosystem in Java that can be used with any mainstream JDK distribution e.g. Temurin, Red Hat OpenJDK, Coretto,…",
+    "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+    "language": "en",
+    "tags": [
+      "Java",
+      "Llama3",
+      "GPU",
+      "AI",
+      "ML & Data Engineering",
+      "Architecture & Design",
+      "Development"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 14
+  },
+  {
     "id": "84d9e2e2e5973eecf31514d0e04ae0a640b695a9abc39d0b472d9a80b92acbdc",
     "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
     "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
@@ -22362,7 +22550,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "88b364f9ce9f8dc5aefe6ffe252147a2bc1d5753f5fecd20f6a04507bb1fc52e",
@@ -25089,9 +25277,9 @@
       "Climate",
       "Customer Stories",
       "Events",
+      "GTC 2026",
       "Healthcare and Life Sciences",
-      "High-Performance Computing",
-      "Inception"
+      "High-Performance Computing"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -25670,7 +25858,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "9b496bf115dbd36291742f9020dd2c3d06c130b80278a9e5fc4c516d569a6297",
@@ -26244,7 +26432,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "9ebe95a648c0a80426c473533814d934b20541d08af9b098d7e9d1c260d61474",
@@ -27483,6 +27671,33 @@
     "relevanceScore": 9
   },
   {
+    "id": "a59cc9499bb94a9a0ae0c62abbc2eeaa1a297f5e08da6364d6739add6fe96633",
+    "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+    "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T22:24:02.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Clem Delangue",
+      "Hugging Face",
+      "Netflix"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
+  },
+  {
     "id": "a5f0ab718ce80f03b73137ccbc44871e0cb5ac1dadb8bd7c9bdbc57ff24005a3",
     "title": "CVE-2026-21589: Critical unauthenticated arbitrary file access in Atlassian products",
     "url": "https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products",
@@ -28166,6 +28381,26 @@
     "relevanceScore": 9
   },
   {
+    "id": "aa8847d44cbae3328f3c5cbb65bcffcd3b77355e99faf584c20aa718f2bc61fa",
+    "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+    "url": "https://openai.com/index/terminal-x",
+    "canonicalUrl": "https://openai.com/index/terminal-x",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-10-20T07:00:00.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+    "language": "en",
+    "tags": [
+      "Startup"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
+  },
+  {
     "id": "aac5cc1a7d26e13fa0a5f7d7365a0ed8fd8515b8b7334c47b468a810f22db7f6",
     "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
     "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
@@ -28461,7 +28696,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "ac42f33546055848f33c6d6e21512ceb7b97cd1fa758289d77754148d86778f9",
@@ -29495,6 +29730,25 @@
     "relevanceScore": 34
   },
   {
+    "id": "b3264bf1c384baa5e721883e6a90bb0b34da44188f94c4ce8eb4c983b866331d",
+    "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+    "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+    "canonicalUrl": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T21:45:47.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9204db2f2ffca6fe/6ad7d457e5c2f8b0773c4a30/ca_Inkoly_shutterstock.jpf.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "b337cc196c5b4695718d62391eb0459bf10efa9a0e66d54108c81b64d34f7e66",
     "title": "Burger King Japan data breach exposes 11 million customer records",
     "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
@@ -30517,7 +30771,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "b9aabe18ab5142092d88d0e8d833b2ec35cd473761984afcff0360b1d01ce57a",
@@ -30825,7 +31079,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "bcc4c935229239f6e0b468626dd2f9aa4bc408560e524b03edc8a10e0ae77e5a",
@@ -31855,7 +32109,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "c31f2e9f713facd95207509d9c37382bf544addbf8f8b0553f3f2e65e1021d39",
@@ -33469,6 +33723,28 @@
     "relevanceScore": 12
   },
   {
+    "id": "cca7cc882101073b1925112b97b10d455a26bbbb9a9710fcc6c6fa5fa81e63f6",
+    "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+    "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T01:01:50.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "ccac94ef11510983c598332fe5d4815721ddf01de59a2a513740e0dc8f454476",
     "title": "Back to 2029: Meet your customer's AI agent",
     "url": "https://www.cgi.com/en/blog/banking-capital-markets/back-to-2029-meet-your-customers-ai-agent",
@@ -34235,7 +34511,7 @@
     "tagMatchedIds": [
       "generative-ai"
     ],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "d0d8b4185d918dc5f83ca6c58a40a1d2fa2cfcea36070457b6d7f826dcbaf2e0",
@@ -34508,7 +34784,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "d233a0fb1de8c0a2e5250bd083b55fc8a618821a1ada375cd18210ddebd17f8a",
@@ -34989,7 +35265,7 @@
   },
   {
     "id": "d3f9173dc1964ad08513ada7745220c2da3ac07379d09153da25ddc0ebfe0ff0",
-    "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+    "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
     "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
     "canonicalUrl": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps",
     "sourceId": "techcrunch",
@@ -34998,12 +35274,11 @@
     "sourceCategory": "media",
     "publishedAt": "2026-10-20T17:12:48.000Z",
     "discoveredAt": "2026-10-20T21:39:37.527Z",
-    "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",
+    "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals.",
     "language": "en",
     "tags": [
       "AI",
       "Apps",
-      "ai apps",
       "Meta",
       "muse"
     ],
@@ -36217,7 +36492,7 @@
     "sourceCategory": "media",
     "publishedAt": "2026-10-20T13:00:00.000Z",
     "discoveredAt": "2026-10-20T17:12:03.396Z",
-    "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
+    "summary": "Eka Robotics may be the first robotic arm that is actually good at picking up a wide range of objects, and it is so smooth and human-like, it is wowing the industry.",
     "language": "en",
     "tags": [
       "AI",
@@ -36780,6 +37055,25 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 12
+  },
+  {
+    "id": "dd3748ba727dc64db3c930814c98ce0789448e7001aa23dbdbef6b647a1040d5",
+    "title": "Wiz Sensor on GKE. 1-Click Runtime Protection, Now Native.",
+    "url": "https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native",
+    "canonicalUrl": "https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native",
+    "sourceId": "wiz-blog",
+    "sourceName": "Wiz Blog",
+    "company": "Wiz",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-20T22:02:42.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "Enable native runtime protection for GKE in just one click. The Wiz Runtime Sensor add-on now automates deployment and credential management while delivering predictable, kernel-level eBPF threat detection for your GKE Kubernetes fleets.",
+    "imageUrl": "https://www.datocms-assets.com/75231/1792533747-wiz-1-click-gke-google-banner-1x.png",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "dd414bad314031b067f75260ec29a8075d0a75405745c45581616fadd97cc9b1",
@@ -38702,6 +38996,33 @@
     "relevanceScore": 13
   },
   {
+    "id": "e7b8ac319d53b4c93efe6f67fce76e9d9db335bed868844d55950cf76cc5fba7",
+    "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+    "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T23:01:23.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "TC",
+      "Anthropic",
+      "policy"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
+  },
+  {
     "id": "e7d0525d771c218ecf2410765d4fd861626c2f7775b1ded6691a6c2ad7d94a02",
     "title": "TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal",
     "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
@@ -39133,7 +39454,8 @@
     "tags": [
       "AI",
       "Anthropic",
-      "cloud compute"
+      "cloud compute",
+      "In Brief"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -39156,9 +39478,9 @@
     "language": "en",
     "tags": [
       "Transportation",
-      "Google",
+      "Android Auto",
       "gemini",
-      "Android Auto"
+      "Google"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -39912,7 +40234,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "ee91ced8c64bc46e3e130e9d59c9e306d5db85b9c627b237c7d380034156fab0",
@@ -40472,6 +40794,29 @@
     "relevanceScore": 33
   },
   {
+    "id": "f109f7a4e9a00f3280e1d0930c040cef8d84017a646b0bfa8d64844641cc541d",
+    "title": "Indian certification authority eMudhra’s private keys compromised – one of them was the number ‘4’",
+    "url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+    "canonicalUrl": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T22:57:44.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "Massive clean-up job under way because this mess makes it possible to impersonate any website or service",
+    "imageUrl": "https://image.theregister.com/?imageId=5304329&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
+  },
+  {
     "id": "f128d7374bd21babbc94be665e367e265b09b13d0378e6498b88e8317db0e2c4",
     "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
     "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
@@ -40719,7 +41064,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 27
+    "relevanceScore": 25
   },
   {
     "id": "f32ec83ece71d3f7fc37a5712ff25a30d09163ecaadddf3534b24fc9d4963f98",
@@ -40836,7 +41181,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "f3fa349e085812ed20b978f9e8700ef460ce1950445b322e5d9983eecba3c48a",
@@ -41019,7 +41364,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "f57b4be0b51a470e49c854e28c3b47b423c03f4ae85e5ddffa6e8b6091db56c5",
@@ -41579,7 +41924,6 @@
     "tags": [
       "AI",
       "Hardware",
-      "TC",
       "Google"
     ],
     "matchedKeywordIds": [
@@ -42136,6 +42480,29 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 14
+  },
+  {
+    "id": "fc04e02507fb76d81bbcf75c051948ad89811daa0c15715e9f9cc30c7d735275",
+    "title": "SpaceX and Tesla boards form special committees to review merger",
+    "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-20T22:57:57.000Z",
+    "discoveredAt": "2026-10-21T04:53:34.306Z",
+    "summary": "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors.",
+    "language": "en",
+    "tags": [
+      "Space",
+      "Transportation",
+      "SpaceX",
+      "Tesla"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "fc1962a709beb938b046661a6f9538214ec34d76e89f9260a459af4beea4b319",
@@ -42880,7 +43247,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "ff60d93ba513c0a863b7ce2317968a181204abaae51c9736f5a67f0819416cd8",
