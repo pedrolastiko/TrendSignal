@@ -390,7 +390,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "013a8d54443b45154108e343a4e680a4ea2392830e2aee17ea12b46ed95446a7",
@@ -1356,6 +1356,34 @@
     "relevanceScore": 16
   },
   {
+    "id": "059b1d438c8ef964dcd12294501518cc34329494b5e08c9447442062744d71c2",
+    "title": "eMudhra Intermediate CA Compromise",
+    "url": "https://www.infoq.com/news/2026/10/emudhra-ca-compromise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/emudhra-ca-compromise",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T17:30:00.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Private keys for eight eMudhra intermediate CA certificates have been compromised, allowing attackers to forge certificates for any site. The keys were revealed due to low entropy, not through a known breach. Browsers blocked them using revocation lists, but other software had to remove the emSign ECC G3 root.…",
+    "imageUrl": "https://res.infoq.com/news/2026/10/emudhra-ca-compromise/en/headerimage/weak-link-1792602361259.jpeg",
+    "language": "en",
+    "tags": [
+      "Security Incident",
+      "Security",
+      "Web",
+      "DevOps",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity",
+      "devsecops"
+    ],
+    "relevanceScore": 14
+  },
+  {
     "id": "05a5fb0a0a3c500c28f28157397faa23fcfae42bbbcc291cf8a62c0d03b344f1",
     "title": "Anthropic says its IPO could herald the end of the world as we know it",
     "url": "https://www.theregister.com/ai-and-ml/2026/10/05/anthropic-says-its-ipo-could-herald-the-end-of-the-world-as-we-know-it/5300908",
@@ -1420,7 +1448,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "05d981a16f272692a24f34eaa5bc01e7ab5c4753e1f4ea37669a38626c1e11cb",
@@ -2603,17 +2631,17 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/pinterest-event-time-partition/en/headerimage/generatedHeaderImage-1791063877867.jpg",
     "language": "en",
     "tags": [
-      "Partitioning",
+      "Change Data Capture",
       "Apache Kafka",
-      "Event Driven Architecture",
+      "Data Partitioning",
+      "Partitioning",
+      "Data Lake",
       "Streaming",
       "Apache Spark",
-      "Distributed Systems",
+      "Event Driven Architecture",
       "Apache Flink",
-      "Change Data Capture",
-      "Data Lake",
-      "Data Partitioning",
       "Apache Iceberg",
+      "Distributed Systems",
       "Architecture & Design"
     ],
     "matchedKeywordIds": [],
@@ -3325,7 +3353,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "11c7e6dde0dc11c16510e63b299645bd2aa756f1e832cbc8a5a7c0b3625e56ad",
@@ -3537,7 +3565,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "12783ac0b2f24325d9c7d62f7ab2e72d5569e5a5b36a0a122f6e20243a68967e",
@@ -3741,6 +3769,31 @@
     "relevanceScore": 8
   },
   {
+    "id": "13f72bf8c14aa9230704d5a001812d89e88f82fc0c55c8c1a83e9bf2436e965e",
+    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "canonicalUrl": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise",
+    "sourceId": "microsoft-security-blog",
+    "sourceName": "Microsoft Security Blog",
+    "company": "Microsoft",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-21T18:23:55.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog.",
+    "language": "en",
+    "tags": [
+      "Supply chain attack"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "software-supply-chain-security"
+    ],
+    "relevanceScore": 60
+  },
+  {
     "id": "141bf467afc85d3930f761feaf5d18ddeb00a4eebf8dd720eb094ac0711f9a87",
     "title": "AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development",
     "url": "https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -3842,6 +3895,31 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 9
+  },
+  {
+    "id": "145aad8079be1c17be98f1d0185d42207d80ff629efd8baa0416edc72115e5cd",
+    "title": "AI will eat a fifth of tech budgets in 2027, but don't expect it to pay for itself",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/21/ai-will-eat-a-fifth-of-tech-budgets-in-2027-but-dont-expect-it-to-pay-for-itself/5304466",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/21/ai-will-eat-a-fifth-of-tech-budgets-in-2027-but-dont-expect-it-to-pay-for-itself/5304466",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T17:30:00.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Forrester says only isolated wins are likely, while 'good enough' open-weight models soak up the tokens",
+    "imageUrl": "https://image.theregister.com/?imageId=5240076&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 37
   },
   {
     "id": "1476f7c400c21ee7d2f8920229be6e7811f9eaa4fb52a69a11aea572bd72248c",
@@ -5918,7 +5996,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "20c2685a8d27f56473c1114c6294607ea5a6fcb78e2ffea1d1d9992effb1def6",
@@ -6851,6 +6929,31 @@
     "relevanceScore": 12
   },
   {
+    "id": "2502911d35a41e4516938482b5a6595b282199f0a5870fe433cc143e4352044f",
+    "title": "A Blank Slate in Buffalo: How the Bills Built the NFL’s First Complete Wi-Fi 7 Stadium",
+    "url": "https://blogs.cisco.com/industries/a-blank-slate-in-buffalo-how-the-bills-built-the-nfls-first-complete-wi-fi-7-stadium",
+    "canonicalUrl": "https://blogs.cisco.com/industries/a-blank-slate-in-buffalo-how-the-bills-built-the-nfls-first-complete-wi-fi-7-stadium",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-21T19:03:13.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Shaun Handley, Director of Stadium Technology for the Buffalo Bills, on building Highmark Stadium’s network and security from a blank slate.",
+    "language": "en",
+    "tags": [
+      "Industries",
+      "Cisco Data Center",
+      "Cisco Secure Firewall",
+      "Cisco Secure Networking",
+      "Cisco Service Provider",
+      "Wi-Fi 7"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "2535d6e5f6e54b7cbf41123de573c9e7b404c1de4143877b8291d107caf7c685",
     "title": "The six strategy roles a CEO must not delegate",
     "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-six-strategy-roles-a-ceo-must-not-delegate",
@@ -6898,6 +7001,32 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
+    "relevanceScore": 58
+  },
+  {
+    "id": "2576afbde9f42cf694cb6ce0c91c48276040bee6d1ea68151698c8ee7987a7d4",
+    "title": "The internet is having a very bad cybersecurity day",
+    "url": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T19:03:28.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week.",
+    "language": "en",
+    "tags": [
+      "Security",
+      "cybersecurity"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
     "relevanceScore": 58
   },
   {
@@ -7101,12 +7230,12 @@
     "imageUrl": "https://res.infoq.com/articles/agentic-ai-architecture-article-series/en/headerimage/agentic-ai-architecture-article-series-header-image-1792490151960.jpg",
     "language": "en",
     "tags": [
-      "Article Series",
-      "Agentic AI Architecture",
       "Agents",
-      "Microservices",
       "Agentic AI Architecture Series",
+      "Microservices",
+      "Article Series",
       "Frameworks",
+      "Agentic AI Architecture",
       "AI Architecture",
       "AI",
       "ML & Data Engineering",
@@ -7243,7 +7372,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "278db98f10a2798db57d9ae9d38b8b0d24c605292d8583263da27add69e03722",
@@ -7607,6 +7736,37 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "298ab808d89166c7be15ec004b30922b92ce45f44465e5b21603dc1ba62a8227",
+    "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+    "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T19:30:00.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Commerce",
+      "Amazon",
+      "Walmart",
+      "e-commcerce",
+      "AI agents",
+      "agentic shopping"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
   },
   {
     "id": "299c2df768752f3472e1325652e947d67a27cc1f9f727620f8d1c02c327c6cc7",
@@ -8095,6 +8255,27 @@
     "relevanceScore": 17
   },
   {
+    "id": "2ca1fc8bd2dbd634403f013fe0c8b9b82e75f0876122e3ff4eff3d6a45341e1a",
+    "title": "Celebrating the educators shaping the future of learning",
+    "url": "https://www.microsoft.com/en-us/education/blog/2026/10/meet-the-educators-shaping-the-future-of-learning/",
+    "canonicalUrl": "https://www.microsoft.com/en-us/education/blog/2026/10/meet-the-educators-shaping-the-future-of-learning",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-21T18:17:33.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "The post Celebrating the educators shaping the future of learning appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "Community partnerships",
+      "Education"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
+  },
+  {
     "id": "2ca769c8037782041c07719f47fb1d531386a3fd1074392ed437310b13c6a61b",
     "title": "Bluesky wants to make it easier to buy, sell, and fundraise on the network",
     "url": "https://techcrunch.com/2026/10/15/bluesky-wants-to-make-it-easier-to-buy-sell-and-fundraise-on-the-network/",
@@ -8374,6 +8555,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 16
+  },
+  {
+    "id": "2e4e0aadaada89826940959e885bbd19fe5dbd06be8f29470bfc7740747808a8",
+    "title": "Signal bug could keep your mic - and camera - on after hangup",
+    "url": "https://www.theregister.com/security/2026/10/21/signal-bug-could-keep-your-mic-and-camera-on-after-hangup/5304528",
+    "canonicalUrl": "https://www.theregister.com/security/2026/10/21/signal-bug-could-keep-your-mic-and-camera-on-after-hangup/5304528",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T17:00:58.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Careful what you say after goodbye, or better yet, update your messaging app",
+    "imageUrl": "https://image.theregister.com/?imageId=5304543&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
   },
   {
     "id": "2e62828caccf84a69f7daa4c7719360160e7f5ddd5999fc6686119f75cac9761",
@@ -10004,6 +10208,37 @@
     "relevanceScore": 17
   },
   {
+    "id": "367be8246006663a59cefae477e70a3603fc8d3ca2d99ef266cc5291e180c6fb",
+    "title": "Meta says Muse has over 10M users, with shopping a top activity",
+    "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T21:14:19.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Apps",
+      "Social",
+      "agentic commerce",
+      "ai apps",
+      "eCommerce",
+      "Meta",
+      "muse"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
+  },
+  {
     "id": "369f65bd0511e1b4da8810c83fb63da643cf0e2b76b52d1d8fce0d2cf8aa6d4a",
     "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
     "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
@@ -10027,6 +10262,33 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 11
+  },
+  {
+    "id": "36b6bec743e2bdf352207c8d54925b4d1921a52d0be78fc3fbc1505ea4599f02",
+    "title": "Legal AI startup Legora raises $550M Series E at $8.8B valuation",
+    "url": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T18:51:56.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Legal AI startup Legora announced Wednesday that it raised a $550 million Series E round, valuing it at $8.8 billion.",
+    "language": "en",
+    "tags": [
+      "Startups",
+      "Venture",
+      "AI",
+      "law"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
   },
   {
     "id": "37053ab1634d1671ed465952562b16465f8e54da841a80cf0e6c5365398df150",
@@ -10700,6 +10962,24 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "39cad894cdd240fbe2dba606200e547216d43a1655f56c86db3d6329a851a826",
+    "title": "How AT&T is rethinking in-house legal work with OpenAI",
+    "url": "https://openai.com/index/att-legal",
+    "canonicalUrl": "https://openai.com/index/att-legal",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-10-21T17:00:00.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
   },
   {
     "id": "39d6f9233aa3b6ee2d7cef2ef8efbe76880fd5e72c8e3ed27b3ca5e2fc59b0f5",
@@ -12181,6 +12461,24 @@
     "relevanceScore": 43
   },
   {
+    "id": "40a01666d562060bfdf96e1bee46311ea36b1fbc4128b476c54664266fe1cab8",
+    "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+    "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+    "canonicalUrl": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+    "sourceId": "huggingface-blog",
+    "sourceName": "Hugging Face Blog",
+    "company": "Hugging Face",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-10-21T17:35:36.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
+  },
+  {
     "id": "40cd3d12f4f0e742880b7fc39fc9fa1d0bfa1b879da89b119d3e89c009ed2a9e",
     "title": "The 2026 Startup Battlefield Top 20: From organs to orbit and everything in between",
     "url": "https://techcrunch.com/2026/10/13/the-2026-startup-battlefield-top-20-from-organs-to-orbit-and-everything-in-between/",
@@ -12706,6 +13004,30 @@
     "relevanceScore": 34
   },
   {
+    "id": "44a0be61ca3594a74fa5a6710333f58cb443be2b514d3a997a0269c47783ae5f",
+    "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+    "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T20:31:48.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [
+      "post-quantum-cryptography"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 39
+  },
+  {
     "id": "44c5eccfbf8a33191562121c9218fbaa92f6dfcb717268598858942c7295fd9b",
     "title": "Hardware-backed security at global scale: Confidential G4 with NVIDIA Blackwell is GA",
     "url": "https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga/",
@@ -12800,7 +13122,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "4549046bab93334cb22d5cadfc94c32e7f3a9ad2e8b09f38c90c043401795a9e",
@@ -13050,6 +13372,25 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 9
+  },
+  {
+    "id": "46f087441d98fcca6c37de130d03b6934c9b67350f31ba538da0554299e17c2b",
+    "title": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
+    "url": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
+    "canonicalUrl": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T19:19:17.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Security teams are scrambling to remediate two critical PHP vulnerabilities following leaked details and reports of exploitation attempts.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt67e9fa778860769f/6ad8fdb74b1e4143168658d7/warning_sign_with_siren-DSGpro-GettyImages-184878150.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "46fe076f83fbe02cf44d477a75a2ecaf5764c5067fb7b1223255090f6cf6ce81",
@@ -13430,11 +13771,11 @@
     "imageUrl": "https://res.infoq.com/articles/distributed-systems-microservices-agentic-ai/en/headerimage/header-1792138504151.jpg",
     "language": "en",
     "tags": [
-      "Agentic AI Architecture",
+      "Agentic AI Architecture Series",
       "Large language models",
       "Microservices",
+      "Agentic AI Architecture",
       "Distributed Systems",
-      "Agentic AI Architecture Series",
       "AI",
       "ML & Data Engineering",
       "Architecture & Design",
@@ -14843,11 +15184,11 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      ".NET 11",
       ".NET",
       ".NET 9",
       ".NET 10",
       ".NET Core",
+      ".NET 11",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -16269,6 +16610,30 @@
     "relevanceScore": 33
   },
   {
+    "id": "5a196014b076e4d3360fd4645f447b9422aeacc2551d1e70e581d12d227c3efe",
+    "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T18:34:42.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 33
+  },
+  {
     "id": "5a36c306ad32f4e5dfabd9cacdbfa565a76fabc40941ef34ffbf9e2cfa6e9632",
     "title": "Open Source Security Signals | Q3 2026",
     "url": "https://www.redhat.com/en/blog/open-source-security-signals-q3-2026",
@@ -16899,6 +17264,32 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "5edd9bc8ba0d9e54acd0789367923ae3196add3f93787426dd89eaa0220f0674",
+    "title": "GM is giving OnStar an AI makeover",
+    "url": "https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T18:00:00.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "It's one of the biggest overhauls ever to the 30-year-old connected car product.",
+    "language": "en",
+    "tags": [
+      "Transportation",
+      "AI",
+      "GM"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 38
   },
   {
     "id": "5ef20bc51467188265c7518d9944e2d8e0f120302b7d2451ea66da373fe27a7c",
@@ -18262,6 +18653,31 @@
     "relevanceScore": 46
   },
   {
+    "id": "65d1f116dfc06401518006d219285303f0dd83a05586478879cae7814e864371",
+    "title": "PHP armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+    "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T17:59:12.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+    "language": "en",
+    "tags": [
+      "Security",
+      "OpenAI"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 33
+  },
+  {
     "id": "65e6681dca63920a90325d6754d4f9770f794d7886ef7e1c0a138a6ea39afa8c",
     "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
     "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
@@ -18706,6 +19122,25 @@
     "relevanceScore": 12
   },
   {
+    "id": "6815f2a0b4a0d8cf043fde44d9443d90822dee334dd86f143e7cce8ec37d7ae5",
+    "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+    "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T18:57:34.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update covered only…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4Pkd5r0GeWGSaCoHaEsZVVoh5Y6xBkFvMTGYKvD5oONYnczQGAUqpjD6eCiA6sxiiel6Zs0kPiBEWOZJ21URkE59iJm-LDUFPYwPEf8o8d8lnyiMOR53H7IeXGKn3tTG9pusA-HKwYo0n04WQ1m8kg8dxIWEtxFGMDiBzrV-zzqAH2R2OVT2E1ViX_U/s1600/git-rce.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "6822fece1c79cc899786a2c23cf3fd1bfdd1f76680ad53b15841cb666e2d409f",
     "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
     "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
@@ -18945,24 +19380,25 @@
     "imageUrl": "https://res.infoq.com/presentations/dora-ai-adoption-engineering-performance/en/mediumimage/medium-1791447741420.jpg",
     "language": "en",
     "tags": [
-      "Performance",
-      "Adoption",
-      "Continuous Improvement",
-      "Transcripts",
-      "Management",
-      "QCon London 2026",
-      "Continuous Delivery",
       "Code Quality",
+      "Performance",
+      "Management",
+      "Continuous Improvement",
+      "QCon London 2026",
+      "Adoption",
+      "Transcripts",
+      "Continuous Delivery",
       "Artificial Intelligence",
       "Productivity",
-      "Culture & Methods",
+      "DevOps",
       "Development"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
     "tagMatchedIds": [
-      "artificial-intelligence"
+      "artificial-intelligence",
+      "devsecops"
     ],
     "relevanceScore": 46
   },
@@ -19659,7 +20095,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "6da5de5cb91784ad47c0a0f026de2da8d586dd2d3850085f51c3943419be487a",
@@ -20509,7 +20945,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "7151f545a036420fd7b055d304cd72f64b00e4171e5c47f70a370c0b9b9ea715",
@@ -21511,6 +21947,31 @@
     "relevanceScore": 9
   },
   {
+    "id": "77ec6ad66af3dcc4f6130bd10cc8b477981963b0cce375dbf884e580bd56672c",
+    "title": "With new ideas and human-directed AI, researchers solve a 31-year-old math mystery",
+    "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+    "canonicalUrl": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-21T18:39:50.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "The post With new ideas and human-directed AI, researchers solve a 31-year-old math mystery appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Technology"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 50
+  },
+  {
     "id": "7882d35c8c318e7bb50beda6edbdbed8df22b3900603bf32f07703b43c9b8f57",
     "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
     "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
@@ -21553,7 +22014,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "78ce7f97e92fefc21d54bf4cf7bdff778a259d79b74096b6306f6b3bce3eaaa4",
@@ -23253,13 +23714,13 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Java",
       "Llama3",
+      "Java",
       "GPU",
       "AI",
       "ML & Data Engineering",
-      "Architecture & Design",
-      "Development"
+      "Development",
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -23497,6 +23958,29 @@
     "relevanceScore": 11
   },
   {
+    "id": "861eb216b252c197099ea8983496d294cfdc039e5f49e37261e159dea6fd2053",
+    "title": "Nvidia woos wary Europeans with more open weights models",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/21/nvidia-woos-wary-europeans-with-more-open-weights-models/5304552",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/21/nvidia-woos-wary-europeans-with-more-open-weights-models/5304552",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T19:00:00.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "New embedding, parsing, and reranking models promise smarter agentic RAG workflows",
+    "imageUrl": "https://image.theregister.com/?imageId=5234572&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 15
+  },
+  {
     "id": "865566c8a589dedcca0f801a7cc60c4c92a8e0cff313f5d84698f2f6805d93e0",
     "title": "A Spark That Ignited Cisco FIRE",
     "url": "https://blogs.cisco.com/wearecisco/a-spark-that-ignited-cisco-fire",
@@ -23606,7 +24090,7 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "86dc8857aeafe1486d1268ad2077bfc696e17e0293ab198d9fb9c39713bf6392",
@@ -24304,6 +24788,27 @@
     "relevanceScore": 40
   },
   {
+    "id": "8a096cda3c56aa5154db4bcd436876e8fa38c0c15f9ebf11cff9027c9a35bf6f",
+    "title": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
+    "url": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
+    "canonicalUrl": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T21:15:39.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the data comes home to roost.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9561c8122fa8def8/6ad9188c009b36a4ff009e9b/Fulcrum-MicroStockHub-Getty.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "cloud-security"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 38
+  },
+  {
     "id": "8a2ea7e2a8f42131d7a30f1741cb84f5401a4357921dee23c4cd1f84ab677f98",
     "title": "AI tokenomics: Balancing open-weight and frontier models for optimal ROI",
     "url": "https://www.redhat.com/en/blog/ai-tokenomics-balancing-open-weight-and-frontier-models-optimal-roi",
@@ -24647,7 +25152,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8c1806b25c1e31a8d84311302aade56cd4da2b07a9cafe7ba0ca2806eed896fe",
@@ -25271,17 +25776,17 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/java-news-roundup-oct12-2026/en/headerimage/java-news-roundup-image-1792439632913.jpg",
     "language": "en",
     "tags": [
-      "Open JDK",
-      "Java",
-      "Google ADK for Java",
-      "Yupiik",
-      "Apache Camel",
-      "JDK 28",
-      "Gatherers4j",
-      "Google ADK for Kotlin",
       "Azul Payara",
-      "Architecture & Design",
-      "Development"
+      "Google ADK for Kotlin",
+      "JDK 28",
+      "Java",
+      "Apache Camel",
+      "Google ADK for Java",
+      "Open JDK",
+      "Yupiik",
+      "Gatherers4j",
+      "Development",
+      "Architecture & Design"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -25884,15 +26389,15 @@
       "Amazon",
       "Netflix",
       "MapReduce",
-      "Authentication",
-      "Service Identification",
-      "Security",
-      "Distributed Systems",
       "AWS",
+      "Service Identification",
       "Identity Management",
+      "Security",
+      "Authentication",
+      "Distributed Systems",
+      "DevOps",
       "Architecture & Design",
-      "Development",
-      "DevOps"
+      "Development"
     ],
     "matchedKeywordIds": [
       "identity-access-management"
@@ -26360,7 +26865,7 @@
     "sourceCategory": "media",
     "publishedAt": "2026-10-21T13:00:00.000Z",
     "discoveredAt": "2026-10-21T17:15:37.288Z",
-    "summary": "The attack uses malicious Google search results related to Amazon and leverages the 'finger' utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
+    "summary": "The attack uses malicious Google search results related to Amazon and leverages the \"finger\" utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
     "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfaf93bd096fd735c/6a45559d327edd13ed6ac140/clickfix-tumsasedgars-Getty-2234293893.jpg?width=720&quality=80&disable=upscale",
     "language": "en",
     "tags": [],
@@ -26596,6 +27101,24 @@
     "relevanceScore": 9
   },
   {
+    "id": "94a5f6526eada9bc0f52700eb51d921a09fcfe01b2b364c8982be81ac1418089",
+    "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+    "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+    "canonicalUrl": "https://huggingface.co/blog/nvidia/kumo-relational",
+    "sourceId": "huggingface-blog",
+    "sourceName": "Hugging Face Blog",
+    "company": "Hugging Face",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-10-21T18:26:30.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
+  },
+  {
     "id": "94eadcab22c41e356a1d9bf1e35dbdb6491d04804b7eea5ceec3829024496784",
     "title": "Sullivan & Cromwell brings legal expertise into agreement review",
     "url": "https://openai.com/index/sullivan-cromwell",
@@ -26707,6 +27230,29 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38
+  },
+  {
+    "id": "95bdbfff8769387739b8d2cf8ba3ca71d755abbdee6ff18ab7d74e786f5e28a6",
+    "title": "Tesla starts Optimus robot production in California as profit falls 43%",
+    "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T20:33:09.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving.",
+    "language": "en",
+    "tags": [
+      "Transportation",
+      "Tesla"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
   },
   {
     "id": "95dedf578de78f3ec264f66e37a7c309d1f2cf3d8987fe8b4de9182187d1ff7b",
@@ -26936,6 +27482,26 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 15
+  },
+  {
+    "id": "97a6fb83e740e9d199b66e36b316cec625bd94d3c31ab1a75eec1cd579e7b979",
+    "title": "CrowdStrike Protects Customers from Threats Delivered via PHP2Shell",
+    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/",
+    "canonicalUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days",
+    "sourceId": "crowdstrike-blog",
+    "sourceName": "CrowdStrike Blog",
+    "company": "CrowdStrike",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-21T05:00:00.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "",
+    "language": "en",
+    "tags": [
+      "From The Front Lines"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
   },
   {
     "id": "97a83d372e9d4353f7bb5a04901dc7971c9894ff849ab8ae93e9e408c50c116c",
@@ -28517,11 +29083,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/jep-543-jdk-28/en/headerimage/generatedHeaderImage-1792296304479.jpg",
     "language": "en",
     "tags": [
-      "Java",
-      "Project Loom",
       "JDK 28",
-      "JEP",
+      "Java",
       "Structured Concurrency",
+      "Project Loom",
+      "JEP",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -28821,9 +29387,9 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/github-runner-controller-0-15/en/headerimage/generatedHeaderImage-1791971221854.jpg",
     "language": "en",
     "tags": [
+      "github",
       "Scalability",
       "GitHub Actions",
-      "github",
       "DevOps"
     ],
     "matchedKeywordIds": [],
@@ -28853,6 +29419,29 @@
       "cybersecurity"
     ],
     "relevanceScore": 13
+  },
+  {
+    "id": "a160d010350b14fcbea557da201a6196203f603f959b9353bdaeceb0b4d12a67",
+    "title": "Automattic begins layoffs following board upheaval and executive departures",
+    "url": "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T20:15:00.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Automattic has begun laying off employees across multiple teams, including WordPress.com and its enterprise business, following a board shakeup and a series of executive departures. Sources say more cuts could follow as the company looks to improve its finances.",
+    "language": "en",
+    "tags": [
+      "Media & Entertainment",
+      "Automattic",
+      "Layoffs",
+      "WordPress"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "a163858fac4dd8592ca6170a676ec0f9767fa9ea18758f12bbbf4680a373a05a",
@@ -29423,6 +30012,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 7
+  },
+  {
+    "id": "a40452fff352ab8baee8eed343d1c687e612c0e7b56c8b0c03cf0b74abf08023",
+    "title": "Cloud Security Alliance Survey Finds Data Loss Prevention Often Detects Data Loss Only After It Happens",
+    "url": "https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss",
+    "canonicalUrl": "https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T20:03:14.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Research finds that, among respondents experiencing data loss, only 16% said DLP blocked their most significant incidents before data left the organization.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "cloud-security"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 38
   },
   {
     "id": "a40d8d3fa6bf6730fc03946c160642950cedf79f35d9dcf2b9d88904e1ca5cce",
@@ -30113,6 +30723,32 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
+    "id": "a92f3bcbc27860275b65fad705286749a6ef99c3a6792883707299475a76be3c",
+    "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+    "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T17:18:27.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
+    "language": "en",
+    "tags": [
+      "Startups",
+      "Venture",
+      "AI"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
     "relevanceScore": 33
   },
   {
@@ -31195,13 +31831,13 @@
     "imageUrl": "https://res.infoq.com/articles/spring-batch-without-broker/en/headerimage/Distributed-Spring-Batch-Without-a-Message-Broker-header-1792419294298.jpg",
     "language": "en",
     "tags": [
-      "Java",
-      "Spring Batch",
-      "Distributed Systems",
       "Data Partitioning",
+      "Spring Batch",
+      "Java",
       "Messaging",
-      "Architecture & Design",
+      "Distributed Systems",
       "Development",
+      "Architecture & Design",
       "article"
     ],
     "matchedKeywordIds": [],
@@ -32807,6 +33443,31 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32
+  },
+  {
+    "id": "b896c0e0003f5acfffa0b1cbc5f43dcb4bed5c2a4eb117b7a4a856cf093f9892",
+    "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+    "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T21:16:20.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Startups",
+      "Venture",
+      "TechCrunch Founder Summit"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "b898bf00014d48c5dcea3fb9e3986d975c1cbd0c76f3738fb327c3304ca3b6eb",
@@ -34533,16 +35194,16 @@
     "imageUrl": "https://res.infoq.com/presentations/scale-llm-agents-production-ray/en/mediumimage/medium-1792065446239.jpg",
     "language": "en",
     "tags": [
-      "Scalability",
-      "Large language models",
-      "Machine Learning",
       "Agents",
-      "Transcripts",
       "QCon AI Boston 2026",
+      "Machine Learning",
+      "Large language models",
+      "Scalability",
+      "Transcripts",
       "AI",
       "ML & Data Engineering",
-      "Architecture & Design",
       "Development",
+      "Architecture & Design",
       "presentation"
     ],
     "matchedKeywordIds": [
@@ -34759,7 +35420,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "c5b05c57ce229dc75fd52ef1615c0f1b4756e48c474e2b8b65fe06f9c26ae87f",
@@ -35071,6 +35732,29 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30
+  },
+  {
+    "id": "c8277939750b1461f724bc7d56141b11f44b0da728c9cd6738e939a16f22ccd2",
+    "title": "OpenClaw creator says he spent $10 million in tokens last month",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/21/openclaw-creator-says-he-spent-10-million-in-tokens-last-month/5304573",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/21/openclaw-creator-says-he-spent-10-million-in-tokens-last-month/5304573",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T20:40:00.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Good thing it's somebody else's money",
+    "imageUrl": "https://image.theregister.com/?imageId=5304587&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 15
   },
   {
     "id": "c82eac134cb7c0f5d597b5df8cd175a88cb42d4510df6734ae0afc2fca447905",
@@ -37387,8 +38071,8 @@
     "sourceCategory": "cybersecurity",
     "publishedAt": "2026-10-21T09:01:24.000Z",
     "discoveredAt": "2026-10-21T11:54:30.810Z",
-    "summary": "Two critical PHP remote code execution vulnerabilities will be patched in an emergency release on October 21. Fixes are only expected for supported PHP 8.x branches. Key takeaways CVE-2026-109618 and CVE-2026-109619 are critical vulnerabilities in PHP, both rated CVSSv4.0 9.2 by the PHP security team. Public…",
-    "imageUrl": "https://www.tenable.com/sites/default/files/images/articles/php2shell-frequently-asked-questions-cve-2026-109618-cve-2026-109619.png",
+    "summary": "PHP has released patches for two critical remote code execution vulnerabilities. Fixes are available for PHP 8.2 through 8.5, with source backports for end-of-life PHP 7.4 through 8.1. Change log Update October 21: PHP released patches and published its advisories. This post now includes vulnerability details, fixed…",
+    "imageUrl": "https://www.tenable.com/sites/default/files/inline/images/tenable-one-vulnerability-management-software-tab.png",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [],
@@ -38507,6 +39191,27 @@
     "relevanceScore": 9
   },
   {
+    "id": "d9304dd4f7f5ae5de2a3fda8e8a29fb19a4029fa769d0a779f3751101f28c01d",
+    "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+    "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T18:01:57.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-f1TsJE93kcT5Cp1wvKlnR-bCWFP9ZUZofd0PXryxRBt0B1q0-t0BaHnEJcNhy3IhRZq2fBU9fmILshSvlY-qk28TOO-f1JoBcGSRtwiC3MIV4gDxdXYzTS_ZMirtPka7UaG9Shie7kgWKzauZOwKgPvk8hHXUTFly2YXpzBuxUD20MdxBfKeXrRsIG-W/s1600/litellm-hack.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "software-supply-chain-security"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 49
+  },
+  {
     "id": "d963916bff91d04b77715d7f667cf95629ed081abc5df2481583d5ace1cab7ae",
     "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology",
     "url": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -38787,6 +39492,28 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38
+  },
+  {
+    "id": "da801ae6378fd88fd436c6c68d8b7ca26f4186c65b4c77ba677ecdec9b856b3d",
+    "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+    "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T21:43:27.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "da984ff8e8ff4eb9f87df5c7c27fbcdab4763da84d2025005ad245efe02c19f3",
@@ -39711,6 +40438,29 @@
     "relevanceScore": 48
   },
   {
+    "id": "de8a9f75572425c0e591f4611c2ad03dffb92c5823e574aef66402aebf2e26c3",
+    "title": "Meta ordered to pay $25 billion in case related to Cambridge Analytica scandal",
+    "url": "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T19:42:32.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "The payout is related to a recent trial involving the social media giant that revolved around its data privacy practices.",
+    "language": "en",
+    "tags": [
+      "Social",
+      "Cambridge Analytica",
+      "Facebook",
+      "Meta"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "de8d2a29eaa77d0a25872bf45dd3b04f983f654433880a83c00b6d71a636c6bc",
     "title": "Microsoft leans on open weight model from Chinese AI lab to challenge Jev",
     "url": "https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473",
@@ -40509,6 +41259,29 @@
     "relevanceScore": 12
   },
   {
+    "id": "e270f5ba4688033de075906df89466646eb9f009fa8bcee5c8b60ee62cebab43",
+    "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+    "url": "https://openai.com/index/empowering-cyber-defenders",
+    "canonicalUrl": "https://openai.com/index/empowering-cyber-defenders",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+    "language": "en",
+    "tags": [
+      "Global Affairs"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 60
+  },
+  {
     "id": "e288ab5fdffb4ce483d4be3180fb879637f48d8e705cedbd9f2b2aa9cc5f857b",
     "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
     "url": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
@@ -40787,6 +41560,58 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 9
+  },
+  {
+    "id": "e408e3ad30f6034db6e45c0f59ce18839f033ef465204d43078ed63bd79cffd2",
+    "title": "GM is betting compute and AI will help it compete with Chinese automakers",
+    "url": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T19:52:20.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ.",
+    "language": "en",
+    "tags": [
+      "Climate",
+      "Transportation",
+      "electric vehicles",
+      "General Motors",
+      "GM",
+      "software-defined vehicle"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 38
+  },
+  {
+    "id": "e41b3f6dea35da7cc95df93eb644732dbea8cd2a14fa06c31a186c608953be4f",
+    "title": "Reach new heights of laziness by burning tokens to let an AI tap your smartphone screen for you",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/21/reach-new-heights-of-laziness-by-burning-tokens-to-let-an-ai-tap-your-smartphone-screen-for-you/5304567",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/21/reach-new-heights-of-laziness-by-burning-tokens-to-let-an-ai-tap-your-smartphone-screen-for-you/5304567",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T20:13:33.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Nothing will ruin your faith in humanity like an AI that operates your smartphone slowly, struggles with basic tasks, and can charge you for it",
+    "imageUrl": "https://image.theregister.com/?imageId=5293471&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 47
   },
   {
     "id": "e43b52d09fd51c7e3385ef95198dc77f79ef210988a1c0502a2a12936e696b51",
@@ -41779,7 +42604,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "e95e5d957aba7cc61b5eaa50d9199eea8ba54929af119a951b69bb2cd5e2a5ca",
@@ -41877,6 +42702,31 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 52
+  },
+  {
+    "id": "e9fc027fe2ea965dad45cda83e77644aa4cd57f5feca3dbbfede850c0dc5bf99",
+    "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+    "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T20:27:41.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "TC"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
   },
   {
     "id": "ea27b5cc9be9a7810f86f7c6b53f26cc86da50680ed68c085cd4ad2ac1699893",
@@ -42476,6 +43326,25 @@
     "relevanceScore": 37
   },
   {
+    "id": "ecd4d111a25c2e2cb8448778d083310a44292faa03557347827c735514207070",
+    "title": "Marvell, Microsoft &amp; Oracle Work to Standardize Data Center Hardware Security",
+    "url": "https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security",
+    "canonicalUrl": "https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T20:14:42.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "The effort is aimed at standardizing a NIST FIPS 140-3 Level 3 integrated HSM for cloud and hyperscale data center infrastructure.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "ece622ce97da79c404bcec22f7e67c51d6c4ae339c1653f7d11d8ea841b7a41c",
     "title": "Seafood’s Next Phase of Growth: Winning on Formats, Occasions and Pricing",
     "url": "https://www.lek.com/insights/consumer-products/seafoods-next-phase-growth-winning-formats-occasions-and-pricing",
@@ -42612,6 +43481,30 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "edaef270a0b7f63084ef04e7c374461372705b82388c61fbdc48b26c47104e47",
+    "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
+    "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T20:57:40.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Just 9 months after raising an $180 million seed round, Flapping Airplanes has landed $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\"",
+    "language": "en",
+    "tags": [
+      "Fundraising",
+      "Startups",
+      "TC"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 48
   },
   {
     "id": "edda5c68b018758e5c95e84249f5414de3ea28581642da81c7b933c8a0326dca",
@@ -43341,10 +44234,10 @@
     "language": "en",
     "tags": [
       "Microsoft",
-      "Google",
       "OpenAI",
       "Facebook",
       "Metadata",
+      "Google",
       "AI",
       "ML & Data Engineering",
       "Development"
@@ -44146,7 +45039,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "f5a56e9e4901980c10dc4f7b58a69e073cdc6f6552c96876064aa71239903d91",
@@ -44689,6 +45582,26 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38
+  },
+  {
+    "id": "f952aeaf800c9de66fae2ffcb67aed5dfe047731abe69ab50a8433dfa61037eb",
+    "title": "New PowerToys utilities make everyday Windows tasks easier",
+    "url": "https://devblogs.microsoft.com/commandline/powertoys-0-102-is-here-new-mouse-utilities-command-palette-improvements-and-much-more/",
+    "canonicalUrl": "https://devblogs.microsoft.com/commandline/powertoys-0-102-is-here-new-mouse-utilities-command-palette-improvements-and-much-more",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-21T17:20:44.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "The post New PowerToys utilities make everyday Windows tasks easier appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "Technology"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
   },
   {
     "id": "f966b5be299d0f7eafc2bc33235b945ca83e9935aa712f9ca2409a83d98ff257",
@@ -45234,6 +46147,30 @@
     "relevanceScore": 10
   },
   {
+    "id": "fbcff0b57bbbc8619c6f48d45d749a0a0b3ab4f4eabf0bf61b418544a7806277",
+    "title": "Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique",
+    "url": "https://www.sentinelone.com/blog/stopping-php2shell-how-sentinelone-protects-customers-from-this-attack-technique/",
+    "canonicalUrl": "https://www.sentinelone.com/blog/stopping-php2shell-how-sentinelone-protects-customers-from-this-attack-technique",
+    "sourceId": "sentinelone-blog",
+    "sourceName": "SentinelOne Blog",
+    "company": "SentinelOne",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-21T19:21:11.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Stop PHP2Shell with SentinelOne. Learn how Singularity Agent stops web worker post-exploitation, kills process trees, and hunts threats.",
+    "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/blt64fd9825f4d7eed3/6a836cb42f00b28518f06d6c/threat_intel_banner.jpg",
+    "language": "en",
+    "tags": [
+      "php2shell",
+      "cve-2026-109618",
+      "cve-2026-109619",
+      "php"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "fbe33babcbabc6a0c3e7d55eb9e04074b2407a56aae3371c06f5eb77975f779d",
     "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
     "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
@@ -45251,6 +46188,31 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "fbf98cf12bcfc7814f1604b2cb0ff6040e8dd77122b512b5d33d15fa3c392fd0",
+    "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
+    "url": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+    "canonicalUrl": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-21T18:22:20.000Z",
+    "discoveredAt": "2026-10-21T21:45:10.886Z",
+    "summary": "Plus a RAT for good measure - get threat hunting now",
+    "imageUrl": "https://image.theregister.com/?imageId=244835&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [
+      "software-supply-chain-security"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 38
   },
   {
     "id": "fbfb44fc7414bc524d8b4e92864577e8d11f8cc76b15f163c4177670536c92bc",
@@ -45613,7 +46575,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 31
+    "relevanceScore": 29
   },
   {
     "id": "fdf3a0301a578069658d6b8ca6c26fc58f8d4ad7dfa7125bf1d962cbe2eadf24",
