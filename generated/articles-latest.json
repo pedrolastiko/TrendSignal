@@ -44,6 +44,464 @@
     "trendScore": 79
   },
   {
+    "id": "e32d685b24b4b035d7842fa11a09068ab771f66eff62ce9c0a834dbf926cd5e1",
+    "title": "Presentation: Actors for Agents: Patterns for Production AI",
+    "url": "https://www.infoq.com/presentations/actors-for-production-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/presentations/actors-for-production-ai-agents",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T11:00:00.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, write-through state, and supervision boundaries to manage failures, continuations, and mutable execution graphs,…",
+    "imageUrl": "https://res.infoq.com/presentations/actors-for-production-ai-agents/en/mediumimage/medium-1792065780503.jpeg",
+    "language": "en",
+    "tags": [
+      "Agents",
+      "QCon AI Boston 2026",
+      "Fault Tolerance",
+      "Transcripts",
+      "Actor Model",
+      "Architecture",
+      "Distributed Systems",
+      "AI",
+      "ML & Data Engineering",
+      "Development",
+      "Architecture & Design",
+      "presentation"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 46,
+    "trendScore": 79
+  },
+  {
+    "id": "3c95c0f04e66e1214444d1c5eb7bda778e5061991c7b6f9f99cc8a52904bc7ea",
+    "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+    "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T10:44:05.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access. Anomaly, the…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUmn80CiQx35trhXNaAwJka_Z3T-PKQrz__dlAW1GDDVwfrk2WHit1W6GZBaaAT-a9SrmqqauUhw0raYLEOS3Vv-LNxdu0a2bmJebJWVj5mBadfgxN1N1yVREXflCcV7cPmShswRE8PC0qspFY82MDEKe8MJImYVqJCBYLwTLpCHM1IzjDX7KsOAYs7tc/s1600/opencode-mcp.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33,
+    "trendScore": 79
+  },
+  {
+    "id": "147faa697ca744457def1e10bc787a013346ed9f72c01cbfa63b500bc1751b88",
+    "title": "Making the case for context-aware AI",
+    "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+    "canonicalUrl": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+    "sourceId": "mit-technology-review",
+    "sourceName": "MIT Technology Review",
+    "company": "MIT Technology Review",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T10:00:00.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI…",
+    "language": "en",
+    "tags": [
+      "Artificial intelligence",
+      "sponsored"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48,
+    "trendScore": 79
+  },
+  {
+    "id": "c286dddf8ae805708ebee20caea9249a7df63432b6295b3caf4a6cffbf2bf8a5",
+    "title": "Article: AI Changes the Data Interface, Not the Query Engine",
+    "url": "https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/articles/ai-changes-data-interface",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T09:00:00.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the results. It explains the determinism split, replayable analysis, and four signals for deciding when an embedded engine is…",
+    "imageUrl": "https://res.infoq.com/articles/ai-changes-data-interface/en/headerimage/header-1792487239242.jpg",
+    "language": "en",
+    "tags": [
+      "duckdb",
+      "Data Lake",
+      "Disaster Recovery",
+      "Agentic AI Architecture",
+      "AI",
+      "ML & Data Engineering",
+      "Architecture & Design",
+      "article"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 57,
+    "trendScore": 79
+  },
+  {
+    "id": "9449ded1b3d21baa82e6e376dcc0671e71060d47dcd15cf58165ef85a4aaeaba",
+    "title": "Harbor Adds Docker Sandboxes to Run Reproducible AI Agent Evals in Isolated MicroVMs",
+    "url": "https://www.infoq.com/news/2026/10/ai-agents-harbor-docker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/ai-agents-harbor-docker",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T09:00:00.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "Docker announced that Harbor, the open-source agent evaluation framework, now works with Docker Sandboxes. This change allows each evaluation task to run in its own microVM. So, instead of sharing a container, tasks are isolated for better performance By Claudio Masolo",
+    "imageUrl": "https://res.infoq.com/news/2026/10/ai-agents-harbor-docker/en/headerimage/generatedHeaderImage-1792589629439.jpg",
+    "language": "en",
+    "tags": [
+      "Docker",
+      "Agentic AI Architecture",
+      "DevOps"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "devsecops"
+    ],
+    "relevanceScore": 52,
+    "trendScore": 79
+  },
+  {
+    "id": "bbe8759f3c898013e6958b55f3024fddd8ccd1f40a95037aaad2c828060c51aa",
+    "title": "AI’s hidden storage bill: What inference leaves behind",
+    "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+    "canonicalUrl": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+    "sourceId": "mit-technology-review",
+    "sourceName": "MIT Technology Review",
+    "company": "MIT Technology Review",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T08:41:18.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily…",
+    "language": "en",
+    "tags": [
+      "Artificial intelligence",
+      "sponsored"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48,
+    "trendScore": 79
+  },
+  {
+    "id": "fee55af35108395051e6f85220e99b33137def14344c017660ff1170bc2c71cc",
+    "title": "Vendors asking forward deployed engineers to make good on trillion-dollar AI bet",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/22/vendors-asking-forward-deployed-engineers-to-make-good-on-trillion-dollar-ai-bet/5304366",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/22/vendors-asking-forward-deployed-engineers-to-make-good-on-trillion-dollar-ai-bet/5304366",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T08:30:00.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "They might earn more than $200k but who do they work for? Tech buyers need to put some checks in place on FDEs",
+    "imageUrl": "https://image.theregister.com/?imageId=5304386&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 37,
+    "trendScore": 79
+  },
+  {
+    "id": "89c43e5d413adbb4e67f8d9a6f2228eef89b5a35ee1e3a41958a55f49034ea53",
+    "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T08:28:48.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiEKKMESHBCMBHXA8Yf_clmAeFQXSdaKTEz0t_6RDzj1zXcwiPxA4gy2MPmftM6vyCkoG7OsCZJ2a8t7xJe1qbn3tEWRZfVgStzQVJy0ZfwEkjhg6-A34iT3XnQG7nYku04cWbIaHwkQmuDVghCeJBx5xJcbtozsyD3Genw4wyxFtgWIVD-rRGRLMBKoq2/s1600/litellm-breach.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 38,
+    "trendScore": 79
+  },
+  {
+    "id": "3c69dc4ed34903abf1374e597a914557bf4c712def148d6754e29a505d76f514",
+    "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+    "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T08:27:11.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+    "language": "en",
+    "tags": [
+      "Security",
+      "Legal"
+    ],
+    "matchedKeywordIds": [
+      "ransomware"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 34,
+    "trendScore": 50
+  },
+  {
+    "id": "73b405b12e0dbde68dcc54de265516ddd414781c63a66f6204cac800f20dc476",
+    "title": "Why the immediate future of liquid cooling is hybrid",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/22/partner-content-why-the-immediate-future-of-liquid-cooling-is-hybrid/5303795",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/22/partner-content-why-the-immediate-future-of-liquid-cooling-is-hybrid/5303795",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T08:00:00.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "PARTNER CONTENT: AI is driving liquid cooling adoption, but hybrid architectures will help operators balance density, flexibility, and operational realities",
+    "imageUrl": "https://image.theregister.com/?imageId=5303797&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 32,
+    "trendScore": 79
+  },
+  {
+    "id": "951b3f510b767f2bb799798dae4a007aeac795b8bac7be85a8b54fbcd8bafab0",
+    "title": "Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready",
+    "url": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T07:41:00.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker News the project was not anywhere close to ready. Its own roadmap puts it at 45% ready for real work and 2,300 to 4,100…",
+    "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+    "language": "en",
+    "tags": [
+      "Open Source",
+      "AI Development",
+      "DevOps",
+      "AI",
+      "ML & Data Engineering",
+      "Development",
+      "Culture & Methods",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "devsecops"
+    ],
+    "relevanceScore": 36,
+    "trendScore": 79
+  },
+  {
+    "id": "5dc62af2c3e97dbba9c36436287f4d45f27d00f9fe43bec4fdcfc903fb9f4a1b",
+    "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+    "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T06:34:10.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZXm1gLzaKPP-QW888zIx_tXRCirkgZBsOOn0icTEOrFBf7w28955jH1zY8jxw2Cf-g2Qp9mPHgrBe7E5dux_L2XUzdaVZfvRgj_utCT-nTiU7haAkAr_F6eEeW5YJmtwbtJoIuumhnv5F9tFG_2BcLwnaqwkFGWEvFnWsUDHHuobMhZ_letCSD6I56Lw_/s1600/php-hacks.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "threat-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 34,
+    "trendScore": 51
+  },
+  {
+    "id": "36ee8fe7cab29f5dfbb84b946618433a326d204373cb09e0d1847192d43345cc",
+    "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+    "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+    "canonicalUrl": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "company": "NVIDIA",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-22T05:00:27.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA…",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/CDF-visual-Oct20.mp4",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Cosmos",
+      "GTC 2026",
+      "Physical AI"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 34,
+    "trendScore": 79
+  },
+  {
+    "id": "7d13ce0e971c17c77553a630ca8e56a9e59c621bb650ab0a1c67b50a738d277f",
+    "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+    "url": "https://blogs.nvidia.com/blog/dsx-power/",
+    "canonicalUrl": "https://blogs.nvidia.com/blog/dsx-power",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "company": "NVIDIA",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-22T05:00:25.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion…",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/dsx-ai-factory-platform.jpg",
+    "language": "en",
+    "tags": [
+      "AI Infrastructure",
+      "AI Factory",
+      "GTC 2026",
+      "NVIDIA DSX",
+      "NVIDIA Vera Rubin",
+      "Omniverse"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 34,
+    "trendScore": 79
+  },
+  {
+    "id": "bc7ac91bf56a650abc6e1d8b94f7e6ed99d5c166cee7eab82c01bf4db077d702",
+    "title": "UAE Transitions 50% of Gov't Services to Agentic AI",
+    "url": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
+    "canonicalUrl": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T05:00:00.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "The United Arab Emirates says it's creating a foundation of security and safety as it transforms its public service footprint.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc928e4fa76e21bf1/6ad7e1eca34f770597a25359/uae-on-map-with-pin-Zarko_Prusac-shutterstock.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 54,
+    "trendScore": 79
+  },
+  {
+    "id": "6f676746f765de6e990188fa5053c37f1ab9ae1b510645fb827f6dfa57919a06",
+    "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+    "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-22T04:21:26.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBGpr0x4Dn4VV8YVCO_s3CzzGvwmVUceHbt0llcvrzvBmWFaJcu9E9v3WntJGdez3PZ-53GAVSRiYc5FdSOgmyeCSXvpL2t5nCjhzJC50kTLhQygW8cCeFHqtZtDYHsG7Vx2uf1vVdobBbKJ5fcCKSNZDKpV00GRQKVlD444srM9L4rcPnTe28nABZ3pon/s1600/chinese-ai.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "software-supply-chain-security"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 74,
+    "trendScore": 79
+  },
+  {
+    "id": "849ae7e1ed33fdcf1980afe134a8a163394f07f160d7b02fe6cd9693e9784013",
+    "title": "Don’t ask AI to write the user story yet",
+    "url": "https://www.thoughtworks.com/insights/blog/generative-ai/dont-ask-ai-to-write-the-user-story-yet",
+    "canonicalUrl": "https://www.thoughtworks.com/insights/blog/generative-ai/dont-ask-ai-to-write-the-user-story-yet",
+    "sourceId": "thoughtworks-insights",
+    "sourceName": "Thoughtworks Insights",
+    "company": "Thoughtworks",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "Don’t ask AI to write the user story yet",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_054.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 47,
+    "trendScore": 79
+  },
+  {
     "id": "32f9877af281566a5f6e853ce302aa97a68307f1f9ba7e88c22d37d71a342060",
     "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
     "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
@@ -136,15 +594,14 @@
     "sourceCategory": "media",
     "publishedAt": "2026-10-21T21:14:19.000Z",
     "discoveredAt": "2026-10-21T21:45:10.886Z",
-    "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
+    "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users.",
     "language": "en",
     "tags": [
       "AI",
       "Apps",
       "Social",
       "agentic commerce",
-      "ai apps",
-      "eCommerce",
+      "e-commerce",
       "Meta",
       "muse"
     ],
@@ -668,7 +1125,7 @@
     "sourceCategory": "media",
     "publishedAt": "2026-10-21T16:33:47.000Z",
     "discoveredAt": "2026-10-21T17:15:37.288Z",
-    "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively,…",
+    "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as…",
     "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLjuo6QB0kLx2z3u5thyphenhyphenjrULwTFigmtHb1U1y6141FNvIITM2nytdxcKmShZMElSSZdMFbnGfiwjTIpqOYtNzK3gAeSGkEVr8XnsPB9RF1GOh-6qqkXPmX8SY2COyV0eyA6khfN3QYzF-Ydbsz8Mw8jBmFDouame4hTt0ulaNxq0pPTR4FKFuVyQ2Ln6WC/s1600/openai-bot.jpg",
     "language": "en",
     "tags": [],
@@ -1238,7 +1695,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 73,
+    "relevanceScore": 70,
     "trendScore": 79
   },
   {
@@ -1293,7 +1750,7 @@
       "ai-security",
       "artificial-intelligence"
     ],
-    "relevanceScore": 62,
+    "relevanceScore": 59,
     "trendScore": 79
   },
   {
@@ -1354,7 +1811,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 72,
+    "relevanceScore": 69,
     "trendScore": 79
   },
   {
@@ -1378,7 +1835,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37,
+    "relevanceScore": 34,
     "trendScore": 79
   },
   {
@@ -1404,7 +1861,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 37,
+    "relevanceScore": 34,
     "trendScore": 79
   },
   {
@@ -1454,7 +1911,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45,
+    "relevanceScore": 42,
     "trendScore": 79
   },
   {
@@ -1569,7 +2026,7 @@
       "artificial-intelligence",
       "devsecops"
     ],
-    "relevanceScore": 46,
+    "relevanceScore": 43,
     "trendScore": 79
   },
   {
@@ -1626,7 +2083,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 34,
+    "relevanceScore": 31,
     "trendScore": 79
   },
   {
@@ -1649,7 +2106,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44,
+    "relevanceScore": 41,
     "trendScore": 79
   },
   {
@@ -1683,7 +2140,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 49,
+    "relevanceScore": 46,
     "trendScore": 79
   },
   {
@@ -1705,7 +2162,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47,
+    "relevanceScore": 44,
     "trendScore": 79
   },
   {
@@ -1743,7 +2200,7 @@
       "artificial-intelligence",
       "post-quantum-cryptography"
     ],
-    "relevanceScore": 35,
+    "relevanceScore": 32,
     "trendScore": 55
   },
   {
@@ -1776,7 +2233,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 46,
+    "relevanceScore": 43,
     "trendScore": 79
   },
   {
@@ -1800,7 +2257,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47,
+    "relevanceScore": 44,
     "trendScore": 79
   },
   {
@@ -1822,8 +2279,8 @@
       "threat-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 34,
-    "trendScore": 37
+    "relevanceScore": 31,
+    "trendScore": 51
   },
   {
     "id": "22d0c61a1535ae0793c779f80d1162cf5c1ce826f2722837a64ca5b632cbc159",
@@ -1848,8 +2305,8 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 59,
-    "trendScore": 45
+    "relevanceScore": 56,
+    "trendScore": 50
   },
   {
     "id": "37c3e5fa7177b2714e52b34fb0b2ab682ee63a433ec7448a6df8b8bb7457635d",
@@ -1870,7 +2327,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33,
+    "relevanceScore": 30,
     "trendScore": 45
   },
   {
@@ -1893,7 +2350,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 36,
+    "relevanceScore": 33,
     "trendScore": 63
   },
   {
@@ -1915,7 +2372,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33,
+    "relevanceScore": 30,
     "trendScore": 45
   },
   {
@@ -1939,7 +2396,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 55,
+    "relevanceScore": 52,
     "trendScore": 79
   },
   {
@@ -2167,6 +2624,28 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
+    "trendScore": 79
+  },
+  {
+    "id": "6a01f95d13446169dded39c53f9d9372e47a1641ef051efb7692ffd9cf044b60",
+    "title": "Finance work is changing faster than finance teams can be rebuilt",
+    "url": "https://www.deloitte.com/global/en/services/tax/perspectives/finance-workforce-solutions-for-cfos.html",
+    "canonicalUrl": "https://www.deloitte.com/global/en/services/tax/perspectives/finance-workforce-solutions-for-cfos.html",
+    "sourceId": "deloitte-insights",
+    "sourceName": "Deloitte Insights",
+    "company": "Deloitte",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "discoveredAt": "2026-10-22T11:57:46.486Z",
+    "summary": "Deloitte workforce solutions help CFOs combine specialist expertise, scalable delivery and AI to build a more resilient finance operating model.",
+    "imageUrl": "https://media.deloitte.com/is/image/deloitte/gx-tax-final-work:660-x-660?$Responsive$&fmt=webp&fit=stretch,1&dpr=off",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 30,
     "trendScore": 79
   },
   {
@@ -2550,7 +3029,7 @@
     "sourceCategory": "consulting",
     "publishedAt": "2026-10-20T18:30:00.000Z",
     "discoveredAt": "2026-10-21T11:54:30.810Z",
-    "updatedAt": "2026-10-21T04:53:15.000Z",
+    "updatedAt": "2026-10-22T05:15:57.000Z",
     "summary": "According to Deloitte’s latest CFO Signals Survey, most organizations would need several business days or longer to pause AI use if costs exceeded approved limits",
     "imageUrl": "https://www.deloitte.com/content/dam/insights/articles/2026/us189529_cfo-signals-q3/primary-images/US189529_Banner-1920x880.png",
     "language": "en",
@@ -2559,7 +3038,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48,
+    "relevanceScore": 45,
     "trendScore": 79
   },
   {
@@ -2609,7 +3088,7 @@
       "threat-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 43
+    "trendScore": 50
   },
   {
     "id": "d3f9173dc1964ad08513ada7745220c2da3ac07379d09153da25ddc0ebfe0ff0",
@@ -2807,7 +3286,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 46,
-    "trendScore": 43
+    "trendScore": 50
   },
   {
     "id": "c2aed37a22dfa4474a0158ecb8727752cb9ff88c80d5f139dd9b0b5851741384",
@@ -3028,7 +3507,7 @@
       "threat-intelligence"
     ],
     "relevanceScore": 30,
-    "trendScore": 43
+    "trendScore": 50
   },
   {
     "id": "05dce4322e459d220d19db1bf79a93bb95bec5bd8ca8e55f6b6063c1b518dccc",
@@ -4586,7 +5065,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 43
+    "trendScore": 50
   },
   {
     "id": "7ca128d5b850fa0c41daa38dd31cdac9e4670e620f0c54a0fbe2d70a2dec1f56",
@@ -4707,7 +5186,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44,
+    "relevanceScore": 41,
     "trendScore": 79
   },
   {
@@ -4953,7 +5432,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 62,
+    "relevanceScore": 59,
     "trendScore": 79
   },
   {
@@ -6019,7 +6498,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 43,
-    "trendScore": 43
+    "trendScore": 50
   },
   {
     "id": "f0d31725ce6b131c61dc3898de919cef44fc5009837e3f8bc8e6c666f225c06c",
@@ -6391,7 +6870,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 27,
-    "trendScore": 43
+    "trendScore": 50
   },
   {
     "id": "9e713cfb0ab36a8f6aca9173f63ba14dfb71158c1b7dde3970b9c0b0d5c08ccc",
@@ -6498,7 +6977,7 @@
     "publishedAt": "2026-10-16T00:00:00.000Z",
     "discoveredAt": "2026-10-16T11:28:52.243Z",
     "summary": "Why executive judgment decides who wins with AI",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_054.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_038.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -6658,7 +7137,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 28,
-    "trendScore": 37
+    "trendScore": 51
   },
   {
     "id": "6958fe65bca139b3f7506dad9eada6afbb48f42aefdef2e5e0a23d439c905dc1",
@@ -7542,7 +8021,7 @@
       "threat-intelligence"
     ],
     "relevanceScore": 29,
-    "trendScore": 37
+    "trendScore": 51
   },
   {
     "id": "e1fadc6377623354c09f4cb6851ca648ba6b0203abbbf39c1d36efc5c826650e",
@@ -7701,7 +8180,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 43
+    "trendScore": 36
   },
   {
     "id": "1ae224ee9c6b77242f7800bb5da80bb4a1404e0cd487280abd8e1eb5750d76e1",
@@ -7788,14 +8267,14 @@
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "discoveredAt": "2026-10-20T04:55:09.901Z",
     "summary": "Renting the Frontier, Owning the Core IP: How We Cut AI Forecast Costs from $40M to $11M",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_057.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_046.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 41,
+    "relevanceScore": 39,
     "trendScore": 79
   },
   {
@@ -7859,14 +8338,14 @@
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "discoveredAt": "2026-10-15T17:04:29.974Z",
     "summary": "The shift to the AI-first enterprise: Insights from technology leaders forum",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_001.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_057.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 41,
+    "relevanceScore": 39,
     "trendScore": 79
   },
   {
@@ -8119,7 +8598,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 42,
+    "relevanceScore": 40,
     "trendScore": 79
   },
   {
@@ -9152,7 +9631,7 @@
       "threat-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 43
+    "trendScore": 50
   },
   {
     "id": "58e09ff61a3137a21a299e7d6ed90d7abbbf85545be8739b708e42235e088ad6",
@@ -9174,7 +9653,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 43
+    "trendScore": 50
   },
   {
     "id": "173b1e318f913a2fd61caf885e89a1172939694e13e62ff8d4d02a14d164ed3d",
@@ -9233,7 +9712,7 @@
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "discoveredAt": "2026-10-14T11:57:29.504Z",
     "summary": "The real AI project at your airport isn't an AI project",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_046.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_043.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -9321,7 +9800,7 @@
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "discoveredAt": "2026-10-14T11:57:29.504Z",
     "summary": "AI Agent Harness",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_043.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_016.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -10623,7 +11102,7 @@
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "discoveredAt": "2026-10-13T14:16:10.618Z",
     "summary": "Using Grafana AI to accelerate incident investigation",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_016.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_032.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -10758,7 +11237,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 45
+    "trendScore": 50
   },
   {
     "id": "238435ff1579625f14a9a62348ae06cdd13debfcbe328da3bfefd3f2dc8df65b",
@@ -12569,460 +13048,6 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 79
-  },
-  {
-    "id": "dda72c84a1ac87a08eae0eaa14f2276e6ee2625fc19f09a8663895e97815df7f",
-    "title": "Germany arrests alleged core Qilin ransomware member after extradition",
-    "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
-    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition",
-    "sourceId": "bleepingcomputer",
-    "sourceName": "BleepingComputer",
-    "company": "BleepingComputer",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T15:38:56.000Z",
-    "discoveredAt": "2026-10-09T22:41:16.148Z",
-    "summary": "Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]",
-    "language": "en",
-    "tags": [
-      "Security",
-      "Legal"
-    ],
-    "matchedKeywordIds": [
-      "ransomware"
-    ],
-    "tagMatchedIds": [
-      "cybersecurity"
-    ],
-    "relevanceScore": 46,
-    "trendScore": 43
-  },
-  {
-    "id": "06f397263094b3b8ee3eaa3468bf683a2cddf6b22a2d954ed29ac258fd41d048",
-    "title": "Growing pains: how distributed AI training changes the network between datacenters",
-    "url": "https://www.theregister.com/networks/2026/10/09/sponsored-growing-pains-how-distributed-ai-training-changes-the-network-between-datacenters/5301554",
-    "canonicalUrl": "https://www.theregister.com/networks/2026/10/09/sponsored-growing-pains-how-distributed-ai-training-changes-the-network-between-datacenters/5301554",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T15:00:00.000Z",
-    "discoveredAt": "2026-10-09T22:41:16.148Z",
-    "summary": "SPONSORED FEATURE: While linking the GPUs in a datacenter is a challenge, coordinating thousands of them to work efficiently over hundreds of kilometers presents a new set of difficulties.",
-    "imageUrl": "https://image.theregister.com/?imageId=5301556&width=800",
-    "language": "en",
-    "tags": [
-      "networks"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 31,
-    "trendScore": 79
-  },
-  {
-    "id": "8cdf9bac590f9eca9d8a6f1222f34d307a543aa42438e5c25a1c125992a5f2bd",
-    "title": "Oracle lets AI agents do the work, provided you stay in Big Red's world",
-    "url": "https://www.theregister.com/ai-and-ml/2026/10/09/oracle-lets-ai-agents-do-the-work-provided-you-stay-in-big-reds-world/5302270",
-    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/09/oracle-lets-ai-agents-do-the-work-provided-you-stay-in-big-reds-world/5302270",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T14:44:00.000Z",
-    "discoveredAt": "2026-10-09T22:41:16.148Z",
-    "summary": "Analysts welcome Fusion Claw's tighter controls but warn of early adoption and cloud lock-in",
-    "imageUrl": "https://image.theregister.com/?imageId=5302375&width=800",
-    "language": "en",
-    "tags": [
-      "ai and ml"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 31,
-    "trendScore": 79
-  },
-  {
-    "id": "75dbeb4b450d0560516f19e2eb3c3176400500638e844ffb794a2cab0133aa81",
-    "title": "Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite",
-    "url": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "canonicalUrl": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration",
-    "sourceId": "infoq",
-    "sourceName": "InfoQ",
-    "company": "InfoQ",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T14:29:00.000Z",
-    "discoveredAt": "2026-10-09T22:41:16.148Z",
-    "summary": "GitHub migrated more than 800,000 lines of Copilot runtime code from TypeScript and Node.js to Rust in about 14.5 weeks using AI-assisted development. The incremental migration used N-API interoperability, automated testing, human review, and 128 pull requests while continuing to ship releases. By Leela Kumili",
-    "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
-    "language": "en",
-    "tags": [
-      "Node.js",
-      "Automated testing",
-      "Performance",
-      "SDK",
-      "copilot",
-      "Rewrite",
-      "github",
-      "CLI",
-      "AI coding agents",
-      "Rust",
-      "migration",
-      "TypeScript"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 40,
-    "trendScore": 79
-  },
-  {
-    "id": "8fdae48b6e18987622df20c4da4f7133a1c08ad31ed5ba3039520f7817ed4bb1",
-    "title": "How to keep AI agents within their permissions",
-    "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
-    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions",
-    "sourceId": "bleepingcomputer",
-    "sourceName": "BleepingComputer",
-    "company": "BleepingComputer",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T14:01:11.000Z",
-    "discoveredAt": "2026-10-09T22:41:16.148Z",
-    "summary": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy. [...]",
-    "language": "en",
-    "tags": [
-      "Security"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "cybersecurity"
-    ],
-    "relevanceScore": 42,
-    "trendScore": 79
-  },
-  {
-    "id": "f6fe76334fedeb3eae186c82d544b4ba60110bc58d2b0fc55469146c9fa73a75",
-    "title": "Global PC shipments crater 20% as rising prices hammer demand",
-    "url": "https://www.theregister.com/personal-tech/2026/10/09/global-pc-shipments-crater-20-as-rising-prices-hammer-demand/5302264",
-    "canonicalUrl": "https://www.theregister.com/personal-tech/2026/10/09/global-pc-shipments-crater-20-as-rising-prices-hammer-demand/5302264",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T13:44:00.000Z",
-    "discoveredAt": "2026-10-09T22:41:16.148Z",
-    "summary": "Buyers rushed to beat hikes earlier this year, but demand has since dried up as AI-fueled component shortages send costs soaring",
-    "imageUrl": "https://image.theregister.com/?imageId=1682845&width=800",
-    "language": "en",
-    "tags": [
-      "personal tech"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 26,
-    "trendScore": 79
-  },
-  {
-    "id": "a85203d1697fe4fca04837d2e4418108f635c4688512487a511b0381db20be49",
-    "title": "Social Engineering AI Agents: The New BEC for 2026",
-    "url": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026",
-    "canonicalUrl": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026",
-    "sourceId": "darkreading",
-    "sourceName": "Dark Reading",
-    "company": "Dark Reading",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T13:00:00.000Z",
-    "discoveredAt": "2026-10-09T13:23:15.840Z",
-    "summary": "As AI agents gain authority over business systems, attackers can manipulate them like business email compromise (BEC) victims.",
-    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt509529652bae6ba5/6ac7de6c3ada349d7f093787/Digital_face-imaginima-GettyImages-2228383398.jpg?width=720&quality=80&disable=upscale",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 40,
-    "trendScore": 79
-  },
-  {
-    "id": "6df49761e69e4df829e7a2a170a85ff037fae5eb237d8351f6acebf8e004448f",
-    "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-    "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
-    "canonicalUrl": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
-    "sourceId": "thehackernews",
-    "sourceName": "The Hacker News",
-    "company": "The Hacker News",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T12:47:28.000Z",
-    "discoveredAt": "2026-10-09T22:41:16.148Z",
-    "summary": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic said. \"Projects that join will receive…",
-    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiio2imi6QlJLQlD8KAZaktPeycFFCAWdkRp7q1TNwNHKUibXYACipc5GG2rDcZtmUR8TftkRHNTrdEXLXsGxcGoTDrTY5Eye77n1OFyeFbHP-VGUTwlhIoaHNoMGVIsUWBk07kSc-Gi3y_U0OuS-6gWBjYJEj8pxJVQ9lkEJfI_we3rVvZtAMXp0i8qs7t/s1600/oss-scanner.jpg",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 42,
-    "trendScore": 79
-  },
-  {
-    "id": "2a0fd9236718121633f7ba2a29f6ce19b18bdef918d178bd930a4c5a53478e46",
-    "title": "US Navy bets another $150M on fighter drone that skips the runway",
-    "url": "https://www.theregister.com/offbeat/2026/10/09/us-navy-bets-another-150m-on-fighter-drone-that-skips-the-runway/5302237",
-    "canonicalUrl": "https://www.theregister.com/offbeat/2026/10/09/us-navy-bets-another-150m-on-fighter-drone-that-skips-the-runway/5302237",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T12:44:00.000Z",
-    "discoveredAt": "2026-10-09T13:23:15.840Z",
-    "summary": "Shield AI matches the funding as autonomous X-BAT heads toward flight testing later this year",
-    "imageUrl": "https://image.theregister.com/?imageId=144930&width=800",
-    "language": "en",
-    "tags": [
-      "offbeat"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 26,
-    "trendScore": 79
-  },
-  {
-    "id": "d96e6fa992364d217b8d1acf524131bc8f3587c99146bdf5db2b8ec2e9352a70",
-    "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
-    "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
-    "canonicalUrl": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
-    "sourceId": "thehackernews",
-    "sourceName": "The Hacker News",
-    "company": "The Hacker News",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T12:21:51.000Z",
-    "discoveredAt": "2026-10-09T13:23:15.840Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon. The vulnerabilities in question are listed below - CVE-2015-3306 (CVSS score: 10.0) -…",
-    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7eHv-Bv5ZZISuomW-aV50jkJ7Aqg-S56iEuV2y8Kl9w7SB4cp-zTDj8WicvMzPcw5tXuq-o5rIG0KPPmKxPZPcR5V47hVwbGvi7aLNE_1wgq_iDkNERTzz5kc9ivagiHEKM9BcsYjJRRB0_HWk_gsi9jzHudV_-4Ax4dUFaV5vpDlUnW2PywmEZHzN8mm/s1600/kevs.jpg",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "cybersecurity"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 27,
-    "trendScore": 45
-  },
-  {
-    "id": "ec445018e75f175b050c903b89232942a654b91b4a0763f8b4e6d04f7e949ca2",
-    "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
-    "url": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
-    "canonicalUrl": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects",
-    "sourceId": "mit-technology-review",
-    "sourceName": "MIT Technology Review",
-    "company": "MIT Technology Review",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T12:10:00.000Z",
-    "discoveredAt": "2026-10-09T13:23:15.840Z",
-    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how to poison…",
-    "language": "en",
-    "tags": [
-      "The Download"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 42,
-    "trendScore": 79
-  },
-  {
-    "id": "6a1c2def782f149a875de43b4a35a08528bb7dcb2c70bce5f5457867c7edacb5",
-    "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
-    "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-    "canonicalUrl": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-    "sourceId": "thehackernews",
-    "sourceName": "The Hacker News",
-    "company": "The Hacker News",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T11:30:00.000Z",
-    "discoveredAt": "2026-10-09T13:23:15.840Z",
-    "summary": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business…",
-    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibn_fvM8uZUZWhBhgCeggTmULC4rEZ68qb-99aKdn9RNOXIg8egC2vTwn9_-cLcs3vTam1i_g61RbAjXfoVTA1HiGYGKZeeG5nnNu03GcOE6X5aqOB3O60MppHQvTvWFdaEWZl1HhIIGl5zc8_8_lhlqtrmRa5-DAqldfJ6EjmM8mq8rCAp_MHdUrPAt4/s1600/sailpoint.jpg",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 42,
-    "trendScore": 79
-  },
-  {
-    "id": "935f98a529c1a75d38cd7f39fc1adad661fe69288734d45555facd6525fa4c6b",
-    "title": "Presentation: Ontology‐Driven Observability: Building the E2E Knowledge Graph at Netflix Scale",
-    "url": "https://www.infoq.com/presentations/netflix-observability-aiops-ontology-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "canonicalUrl": "https://www.infoq.com/presentations/netflix-observability-aiops-ontology-scale",
-    "sourceId": "infoq",
-    "sourceName": "InfoQ",
-    "company": "InfoQ",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T11:00:00.000Z",
-    "discoveredAt": "2026-10-09T13:23:15.840Z",
-    "summary": "Prasanna Vijayanathan and Renzo Sanchez-Silva share how Netflix tackles observability across 38M events/sec. They discuss replacing reactive monitoring with an AI-driven operational ontology and agentic workflows using Claude and graph databases. They explain how unifying MELT telemetry into queryable knowledge…",
-    "imageUrl": "https://res.infoq.com/presentations/netflix-observability-aiops-ontology-scale/en/mediumimage/medium-1790845339712.jpg",
-    "language": "en",
-    "tags": [
-      "Scaling",
-      "Site Reliability Engineering",
-      "QCon London 2026",
-      "Transcripts",
-      "Architecture",
-      "Ontology",
-      "Observability",
-      "Telemetry",
-      "AIOps",
-      "DevOps",
-      "AI",
-      "ML & Data Engineering"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence",
-      "devsecops"
-    ],
-    "relevanceScore": 28,
-    "trendScore": 79
-  },
-  {
-    "id": "83fd479413834064a7642d7c8d6862b47e25d7ed0303ffc720dba6315af7ddfc",
-    "title": "We’re putting too much faith in AI’s ability to say no",
-    "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
-    "canonicalUrl": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no",
-    "sourceId": "mit-technology-review",
-    "sourceName": "MIT Technology Review",
-    "company": "MIT Technology Review",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T09:00:00.000Z",
-    "discoveredAt": "2026-10-09T13:23:15.840Z",
-    "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary. But recently, the idea that AI…",
-    "language": "en",
-    "tags": [
-      "Artificial intelligence",
-      "App",
-      "Features and Investigations"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 42,
-    "trendScore": 79
-  },
-  {
-    "id": "3e810a298f76d1b5622c99e776c29be257a1a0ecbf979a98cb7ed51738f17021",
-    "title": "The AI Value Gap: What Our Analysis of the S&P 500 Reveals About AI Leaders in Every Sector",
-    "url": "https://www.lek.com/insights/artificial-intelligence/ai-value-gap-what-our-analysis-sp-500-reveals-about-ai-leaders",
-    "canonicalUrl": "https://www.lek.com/insights/artificial-intelligence/ai-value-gap-what-our-analysis-sp-500-reveals-about-ai-leaders",
-    "sourceId": "lek-insights",
-    "sourceName": "L.E.K. Insights",
-    "company": "L.E.K. Consulting",
-    "sourceCategory": "consulting",
-    "publishedAt": "2026-10-09T07:06:18.000Z",
-    "discoveredAt": "2026-10-09T13:23:15.840Z",
-    "summary": "Executive Insights The AI Value Gap: What Our Analysis of the S&P 500 Reveals About AI Leaders in Every Sector October 9, 2026 Download PDF Share this content Key takeaways Based on L.E.K. Consulting research across S&P 500 companies, we found many companies remain focused on AI’s early efficiency gains, while the…",
-    "imageUrl": "https://www.lek.com/sites/default/files/styles/thumbnail/public/profile-images/chuck-reynolds-profile.jpg.webp?itok=8vZHhYQY",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 39,
-    "trendScore": 79
-  },
-  {
-    "id": "4b1ee3039cb69fe00e2590fda0223946af9d8db9a41523cc32d6f6e70101b630",
-    "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-    "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-    "canonicalUrl": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
-    "sourceId": "mit-technology-review",
-    "sourceName": "MIT Technology Review",
-    "company": "MIT Technology Review",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-09T00:08:24.000Z",
-    "discoveredAt": "2026-10-09T06:13:25.607Z",
-    "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI…",
-    "language": "en",
-    "tags": [
-      "Artificial intelligence",
-      "AI",
-      "Roundtables",
-      "Subscriber-Only Stories"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence",
-      "generative-ai"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 52,
-    "trendScore": 79
-  },
-  {
-    "id": "2936f37eac0f15fc66a28a9d4fe9fb89b0e03e3acb74519e9911bafbd02a507d",
-    "title": "Leadership in the age of AI agents",
-    "url": "https://www.thoughtworks.com/insights/blog/leadership/leadership-in-the-age-of-agents",
-    "canonicalUrl": "https://www.thoughtworks.com/insights/blog/leadership/leadership-in-the-age-of-agents",
-    "sourceId": "thoughtworks-insights",
-    "sourceName": "Thoughtworks Insights",
-    "company": "Thoughtworks",
-    "sourceCategory": "consulting",
-    "publishedAt": "2026-10-09T00:00:00.000Z",
-    "discoveredAt": "2026-10-09T13:23:15.840Z",
-    "summary": "Leadership in the age of AI agents",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_027.jpg",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 39,
-    "trendScore": 79
-  },
-  {
-    "id": "e009cf5521821f0d63c5f6abe01b791d37f97fcbd549b60e13eee35ce2ab3531",
-    "title": "Friday Five — October 9, 2026 | Red Hat",
-    "url": "https://www.redhat.com/en/blog/friday-five-october-9-2026-red-hat",
-    "canonicalUrl": "https://www.redhat.com/en/blog/friday-five-october-9-2026-red-hat",
-    "sourceId": "redhat-blog",
-    "sourceName": "Red Hat Blog",
-    "company": "Red Hat",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-10-09T00:00:00.000Z",
-    "discoveredAt": "2026-10-09T06:13:25.607Z",
-    "summary": "IBM and Red Hat Remediate More Than 400 Previously Unknown Open Source VulnerabilitiesLightwell has identified and remediated more than 400 previously unknown vulnerabilities in widely used Java libraries, addressing a growing business risk as autonomous AI agents become capable of combining several lower-risk…",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 26,
     "trendScore": 79
   }
 ]
