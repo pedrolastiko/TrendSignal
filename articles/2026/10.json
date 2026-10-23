@@ -411,7 +411,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "013a8d54443b45154108e343a4e680a4ea2392830e2aee17ea12b46ed95446a7",
@@ -1129,6 +1129,31 @@
     "relevanceScore": 40
   },
   {
+    "id": "04c9a79171509841680f4a606cca56bb6991b176555c0ca16446096bfe1d7abc",
+    "title": "AI models think humans are a bunch of amoral sheep",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/23/ai-models-think-humans-are-a-bunch-of-amoral-sheep/5305123",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/23/ai-models-think-humans-are-a-bunch-of-amoral-sheep/5305123",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T16:26:13.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Ask LLMs for their most controversial take on humanity, and it turns out they have little nice to say about us, as one AI experiment found",
+    "imageUrl": "https://image.theregister.com/?imageId=5305178&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 47
+  },
+  {
     "id": "04d85f279333a88178c9feb6d30f0b102a6601882079cf34696dbf5b623af113",
     "title": "Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy",
     "url": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1534,7 +1559,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "05d981a16f272692a24f34eaa5bc01e7ab5c4753e1f4ea37669a38626c1e11cb",
@@ -2374,6 +2399,28 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27
+  },
+  {
+    "id": "0ae7a1508c3f482bfa2840b370d5c5eb5330221285429e5c3eaaa46ba96fa98d",
+    "title": "Abandoned Popcorn Time app exposed millions of device to RCE attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T20:55:05.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "0b1ef97234c2663100eb99f0c7c4db7b76b2bd23adf8f1ed167da8ad2d22cc1f",
@@ -4157,6 +4204,25 @@
     "relevanceScore": 45
   },
   {
+    "id": "14b4c9cf953f428c07e635f73d4c9d140b94631d324ef43318893d31a39aadf2",
+    "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+    "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T17:54:08.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it,…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA5n8ST_yuElQgTwbfq1oFnVAoiTvZCW_Ct1b8lT_OQ9dnyeXfocrqzTUJJ1t920YaEa-7Sonxl9KlthV4x7lXI3dmJxc9_S11NjWRJ6dcgfsX4UGhv0KFWZsZrzXKpjh92JPyDdHPlCPQh1AHd0YKM44sVcc9d-57r8_BdrIb3V06MWfk8bRAy4kDU6I/s1600/ruby-rce.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "14d87dc236bc392a4fa878c24e2bdae60524122fc9ced54acb70b545411f98f2",
     "title": "The Download: computing’s next leap and permafrost’s climate threat",
     "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
@@ -4766,7 +4832,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "17e0ada6714d7443ad12c49dcbc50bb7a60188428e47a3786ea3d4a3ad847488",
@@ -6132,7 +6198,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "1e26274c4cd9491712143e4ae714dfefb589c69eb42ff55f03efa741c51fcb58",
@@ -6230,6 +6296,29 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "1ef66d48b49773e151766ea179f4acae2b82ebe583ba764f2c38ee62c7300067",
+    "title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
+    "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T19:25:13.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "A new program wants to encourage more startups to allow workers to cash out early by making it easier to transact tender offers.",
+    "language": "en",
+    "tags": [
+      "Startups",
+      "Venture",
+      "Carta",
+      "NewView Capital"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 16
   },
   {
@@ -6465,7 +6554,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "20f2d7ebf3d7ec2fc25bf492ead1915717b6d1d23622ee6781280854d5c3827e",
@@ -6986,7 +7075,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 50
+    "relevanceScore": 47
   },
   {
     "id": "22ec8d79f463ab73256cb4522b97842bca9e1ab7cc1b92fcf748fa63a6b16837",
@@ -7059,6 +7148,27 @@
     "relevanceScore": 44
   },
   {
+    "id": "22f8035eb4da5faac0a1d6e628d7894547dc85e058388674660ab321c9af5752",
+    "title": "Real-time energy trading and analytics on Databricks",
+    "url": "https://www.databricks.com/blog/real-time-energy-trading-and-analytics-databricks",
+    "canonicalUrl": "https://www.databricks.com/blog/real-time-energy-trading-and-analytics-databricks",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-23T19:00:00.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Why does real-time energy trading need more than faster data?Energy trading desks...",
+    "language": "en",
+    "tags": [
+      "Industries",
+      "Energy"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "230574babe4817155f288cc377e2a21030e7ac5703b97ff011dc9b278e52b7fc",
     "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
     "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
@@ -7076,6 +7186,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "2355d4d8f657b47fa06127f2d4156b4e8cc8e448bef3e992f6f7901a4310b919",
+    "title": "AI Tools Are Generating Massive Attacks for Little Cost",
+    "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+    "canonicalUrl": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T17:26:59.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte7023e63db2b06bb/6adb780c560f54c5dbf647e8/economics-cybersecurity-Ton_Wanniwat-shutterstock.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 38
   },
   {
     "id": "238435ff1579625f14a9a62348ae06cdd13debfcbe328da3bfefd3f2dc8df65b",
@@ -7170,7 +7301,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "23e4826e2b125739a8b095fb52756c3fda2fc1f6eaf919f78459099bef8e2583",
@@ -7708,7 +7839,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "26c197a56b2d9d009917e76019b1ee3bec5cb754b55ba7d2ab334d419551f82e",
@@ -9094,7 +9225,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "2e3f3b9c24a4c01306e24bf8a2017b65e88e883c1c19e2d010a399c192f2195a",
@@ -9666,7 +9797,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 28
+    "relevanceScore": 26
   },
   {
     "id": "309d2343ca38757e0da8606a2b72be23d99d9ca735367b35d087378e2ee7e4aa",
@@ -9951,7 +10082,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "3189510d04d0afe0a1eb3318d92e89a9357a5c4fb58628a328e1636e9202106e",
@@ -10098,7 +10229,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 27
+    "relevanceScore": 25
   },
   {
     "id": "32527eb88a0f77fd3806d7e65e640acb9f9703d53a96501815984fda5d373cce",
@@ -11000,7 +11131,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "36b6bec743e2bdf352207c8d54925b4d1921a52d0be78fc3fbc1505ea4599f02",
@@ -11026,6 +11157,28 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48
+  },
+  {
+    "id": "36db94f5ea6e3c19550daa40ea06d678add859b7f350d5dd620634cde2917eef",
+    "title": "How Cisco IQ Powers Continuous Compliance for PCI DSS 4.0 and Quantum Readiness",
+    "url": "https://blogs.cisco.com/cisco-devnet/how-cisco-iq-powers-continuous-compliance-for-pci-dss-4-0-and-quantum-readiness",
+    "canonicalUrl": "https://blogs.cisco.com/cisco-devnet/how-cisco-iq-powers-continuous-compliance-for-pci-dss-4-0-and-quantum-readiness",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-23T17:28:32.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "How can financial institutions harvest the capabilities of Cisco IQ to navigate compliance with regulatory frameworks and ensuring quantum readiness by 2030? Cisco IQ, with professional grade analysis and AI powered insights, simplifies this.",
+    "language": "en",
+    "tags": [
+      "DevNet"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
   },
   {
     "id": "36ee8fe7cab29f5dfbb84b946618433a326d204373cb09e0d1847192d43345cc",
@@ -11127,7 +11280,7 @@
     "sourceCategory": "media",
     "publishedAt": "2026-10-23T11:38:28.000Z",
     "discoveredAt": "2026-10-23T17:11:47.577Z",
-    "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply — not contain — the risk.",
+    "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk.",
     "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt521637665481bcc9/65dfe9cfea879b040a14fbb9/policerobot-Agencja_Fotograficzna_Caro-alamy.jpg?width=720&quality=80&disable=upscale",
     "language": "en",
     "tags": [],
@@ -13626,6 +13779,26 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44
+  },
+  {
+    "id": "41bc8a64be16a90f41e8bff46c6203d930085caaac21f05462be0cc6bbb89b19",
+    "title": "Super to see Volkswagen Group putting Copilot to work across the company!",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519434747178049536/",
+    "canonicalUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519434747178049536",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-23T17:58:00.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "The post Super to see Volkswagen Group putting Copilot to work across the company! appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "LinkedIn Post"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
   },
   {
     "id": "41ea74f8a791a7999eb69f7c0fc48ced09797df7646720db5bb2a0f402c0b4ef",
@@ -16206,7 +16379,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "5086a26c24b9017fd585e28f4acf764e2c26b7be89cf4188b28811e9c87871cb",
@@ -18144,6 +18317,38 @@
     "relevanceScore": 30
   },
   {
+    "id": "59d362808f5ba999d4ce51dd9b807b8a9a744ade57da5f838a6f00018b8ca8ac",
+    "title": "Author Talks: AI is advancing. Is our judgment keeping up?",
+    "url": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-ai-is-advancing-is-our-judgment-keeping-up",
+    "canonicalUrl": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-ai-is-advancing-is-our-judgment-keeping-up",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Can we unlock AI’s promise without surrendering human judgment? Technology leader Tiffany Xingyu Wang says the answer lies in learning not whether to trust AI, but when—and how much.",
+    "language": "en",
+    "tags": [
+      "McKinsey on Books",
+      "High Tech & Internet",
+      "United States",
+      "China",
+      "Finland",
+      "Europe",
+      "Middle East",
+      "Canada",
+      "Artificial Intelligence"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
+  },
+  {
     "id": "5a09c5ac00e985737ff0c46641f3af6768373a009bdfeac6cfa757e09a46ce45",
     "title": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
     "url": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail",
@@ -18215,6 +18420,27 @@
     "relevanceScore": 30
   },
   {
+    "id": "5a2f77fbed759e176fbfa58965bcfaf7d3207f893f8dd2e07417f1280fdc6eea",
+    "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now",
+    "url": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T20:03:14.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "TechCrunch Founder Summit 2026 is coming to SoWa Power Station in Boston on November 4, bringing founders, investors, and operators together for a full day of candid conversations, practical sessions, live pitching, networking, and smaller roundtables built for deeper discussion.",
+    "language": "en",
+    "tags": [
+      "Startups",
+      "TechCrunch Founder Summit"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "5a34460990741de0ec2f306d71086450fe8cea9333bee9066437eb487e523af2",
     "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
     "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
@@ -18231,7 +18457,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "5a36c306ad32f4e5dfabd9cacdbfa565a76fabc40941ef34ffbf9e2cfa6e9632",
@@ -19459,7 +19685,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "614eb364146c341c337919f1813cb668f6526229396ad4613cfe2a2f88155e03",
@@ -19875,6 +20101,31 @@
     "relevanceScore": 12
   },
   {
+    "id": "62f3dad2c0ca74beaa87691dba380971a0c59155e05024b7569276fa5ad88404",
+    "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T18:54:41.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
+    "language": "en",
+    "tags": [
+      "Microsoft",
+      "Security"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 48
+  },
+  {
     "id": "6320f1219c3c163071ba4e5dd8303aff42d24cdb462c45f0761cb89a65370866",
     "title": "Hardened by Design: Applying the NSA’s OT Guidance with Cisco Security & Splunk",
     "url": "https://blogs.cisco.com/industries/hardened-by-design-applying-the-nsas-ot-guidance-with-cisco-security-splunk",
@@ -20051,7 +20302,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 74
+    "relevanceScore": 71
   },
   {
     "id": "63db4c1bb2e73d0cc50d1a122179d596c9e87afbb74bbde2b1865f47040467e2",
@@ -20551,7 +20802,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "658884e1d1a2b15b2e7a1c814071d8be92f4694bfb970d627f8fe6a7f2ef66af",
@@ -20723,7 +20974,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "6670b2a8bcc815fff22492a8651a23bbb1ba40d91003d100aa2796a961fe849e",
@@ -21305,6 +21556,25 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "68f2c8a7a2b64fb92945ca756d6bbda3d540d334d327f72cc6598fc8fba846db",
+    "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+    "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T18:50:13.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0cTK7D5hQFR-3qGTicTlfi6_CbnMIgCJWIojDeXmZr91hrIPqhhxZ72mAsnB6kBOcCdscZOL_VN8RhAdYIxq3d128rkaDweIApSaV5w3IzB1YGN3XNnlarG0IKN5VuDJy_RnPBxXZoKQ1Yh950YFNz-b_pbvEY_QlQa5Tr-BP4366UgkGIg968J-QEN1M/s1600/uefi.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "691c52c7547cb8e5972847540cf606cb31c007b4412eadac983184cc2bd327f9",
@@ -22094,7 +22364,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "6da5de5cb91784ad47c0a0f026de2da8d586dd2d3850085f51c3943419be487a",
@@ -22534,6 +22804,29 @@
     "relevanceScore": 48
   },
   {
+    "id": "6fb95eceef2a89d96948d566dbb004281ae2f9011c0a0c096d8652b0bd52402b",
+    "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+    "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T17:50:47.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6gkXKzxUypnUKbTuo7Xq-8TSUpDD8TNF5XEG-bV6zcA7V3z_cO2pJeTiX1KIFi-rFNX5SOlMY93oGQpfQUuWOl0RJ35nM1XeIqu2ZV4aAIZXEd9RXQVQk0rMmeI67ysGsTJ1OXLIQg2LvGjMLHCQQ8dgqalHaBE9yCZKwIOVjHCD_lOTlsP1HdBziZ3Sb/s1600/ai-hacker-kimi.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "cybersecurity",
+      "ransomware"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 78
+  },
+  {
     "id": "6fd0adbc72f262be1adddebf3d707b8e274df96641fba5116bba868af6f39b51",
     "title": "Cleaning up PFAS",
     "url": "https://www.technologyreview.com/2026/10/21/1146128/cleaning-up-pfas-impossible-issue/",
@@ -22967,7 +23260,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "714df2670eae237d1835a81f9d2fe152d0cf87c29608211eab4a1874c004f3b3",
@@ -22986,7 +23279,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "7151f545a036420fd7b055d304cd72f64b00e4171e5c47f70a370c0b9b9ea715",
@@ -23131,7 +23424,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "724748a98b445fb6c2a3ea18c0c8330cb043d168ccf8ae31043b1cee498eb926",
@@ -23661,7 +23954,7 @@
     "tagMatchedIds": [
       "agentic-ai"
     ],
-    "relevanceScore": 59
+    "relevanceScore": 56
   },
   {
     "id": "748016673a0a00e4492f5b72fe5cf9edbc2f765d087ceb62d98fefca0b474ae7",
@@ -23964,7 +24257,7 @@
   },
   {
     "id": "76da60089176983713f45816e41f527b55fd384f7508dfc491f47b7b2284b45e",
-    "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
     "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
     "canonicalUrl": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
     "sourceId": "thehackernews",
@@ -24329,7 +24622,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "79428cf43613e4131c16b2f45c833d7e87f5fb9b7bf3c33fddcb7e212b8af303",
@@ -25164,7 +25457,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "7e4ca9da052231497996de39f1fdabe7d2c2d1df4c1b6cf47d04e771ffbf9177",
@@ -25584,7 +25877,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "81c80d24cc1d63ec73cfe8b35864d6b603fd27f658c26aeaf2e667586ea714ee",
@@ -26690,7 +26983,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "86dc8857aeafe1486d1268ad2077bfc696e17e0293ab198d9fb9c39713bf6392",
@@ -27213,7 +27506,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 18
+    "relevanceScore": 15
   },
   {
     "id": "892ab4c73fa2c6dd2b73e89b5b66b22f32b2d124ca4c4c753943f28278eb57eb",
@@ -29650,7 +29943,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "92d2f6fd52a33d71607b7401a350008370441f1111dba759e1b2c6b587670484",
@@ -30416,7 +30709,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 59
+    "relevanceScore": 57
   },
   {
     "id": "9740ebdec98281c6939b675d3ed61be8de2beb13eaa9990f8f6292b4ae1fe23b",
@@ -30462,7 +30755,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "97a6fb83e740e9d199b66e36b316cec625bd94d3c31ab1a75eec1cd579e7b979",
@@ -31164,7 +31457,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 32
+    "relevanceScore": 30
   },
   {
     "id": "9ab6ec5576dd634cd88c35a0ab128e3818f8e5107cc5ef29171e0c7bd71abfba",
@@ -32720,7 +33013,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 27
+    "relevanceScore": 25
   },
   {
     "id": "a2edc021467beebcacbd86556de6d66a9ba46042391fe401a5d2b64a4d2fba85",
@@ -32817,7 +33110,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "a3503290384da9cdec7cfa6822063870564c992d7342d4fce19f4dd0b700796e",
@@ -34127,6 +34420,36 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "aa0e139f9bffe868d42b30ac3b3230d3b8f9aec24e575938145ad5cf62fb8eb1",
+    "title": "Bringing post-quantum cryptography to geographically fenced key management",
+    "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+    "canonicalUrl": "https://blog.cloudflare.com/post-quantum-geo-key-manager",
+    "sourceId": "cloudflare-blog",
+    "sourceName": "Cloudflare Blog",
+    "company": "Cloudflare",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-23T18:06:56.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+    "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M5MYF3Y4CXM47ZAN16JYM04W.png",
+    "language": "en",
+    "tags": [
+      "Cloudflare One",
+      "Data Localization Suite",
+      "Geo Key Manager",
+      "Post-Quantum",
+      "Zero Trust"
+    ],
+    "matchedKeywordIds": [
+      "digital-sovereignty",
+      "post-quantum-cryptography"
+    ],
+    "tagMatchedIds": [
+      "zero-trust"
+    ],
+    "relevanceScore": 50
   },
   {
     "id": "aa4f5ee7e21160d5e7a5e80fef49c0ef8a0e980972500a74acf4e0f7a1218b5f",
@@ -37209,6 +37532,27 @@
     "relevanceScore": 64
   },
   {
+    "id": "ba4956958d93842be1766c6c72629b9e03bb51c608a5a04687460e06ac3509fe",
+    "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+    "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+    "canonicalUrl": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T20:57:56.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt34579512de050396/6a5a6336b09056633bee9fe7/trust_dial-NicoElNino-getty-2079838824.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
     "id": "bb236511789065e5635eace65b8aadc461c9cf8c1079d6cbf33a60a97c0918b1",
     "title": "Singapore’s central bank wants all FinTech AI use cases subject to independent review",
     "url": "https://www.theregister.com/ai-and-ml/2026/10/08/singapores-central-bank-wants-all-fintech-ai-use-cases-subject-to-independent-review/5301798",
@@ -39366,7 +39710,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 30
   },
   {
     "id": "c6d0742b9522c5ce7a27f1195a22fd56c3997ab9b65f5072c4f5400bdf30d14a",
@@ -39695,7 +40039,7 @@
       "software-supply-chain-security"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 49
+    "relevanceScore": 46
   },
   {
     "id": "c8de77098a385fa1cc417cea30e34e4a822e4a297b2a76f35863aa84464b8485",
@@ -40571,6 +40915,38 @@
     "relevanceScore": 9
   },
   {
+    "id": "cce4b58656a79643b2393f1b68ee10e527ca85c89f1d480a02ff908bd6279508",
+    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 43 (2026)",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-43-8",
+    "canonicalUrl": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-43-8",
+    "sourceId": "sentinelone-blog",
+    "sourceName": "SentinelOne Blog",
+    "company": "SentinelOne",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-23T17:18:43.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "U.S. courts sentence tax fraudster, Chinese-linked actors use agentic AI in cloud supply chain attack, and PHP issues warning of two critical-level RCE flaws.",
+    "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltf4fce6d9de118b43/6adafdcd1a8b5a2ffb770176/GBU_week43_2026.jpg",
+    "language": "en",
+    "tags": [
+      "The Good",
+      "the Bad and the Ugly",
+      "cyber",
+      "cyber news",
+      "weekly"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "cybersecurity",
+      "software-supply-chain-security"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 64
+  },
+  {
     "id": "ccecf642b9b30e7ecea903e337dd3ab5e78425f031b8eaa867047c41a872b778",
     "title": "Kiteworks patches max severity code injection vulnerability",
     "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
@@ -40626,7 +41002,7 @@
     "sourceCategory": "media",
     "publishedAt": "2026-10-22T14:21:22.000Z",
     "discoveredAt": "2026-10-23T17:11:47.577Z",
-    "summary": "Insurers are split on AI risk: some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
+    "summary": "Some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
     "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltdb007aa0874801a0/66d0c3e50b3ca622a148bb6f/Mungkhood_Studio-cyber-insurance-shutterstock.jpg?width=720&quality=80&disable=upscale",
     "language": "en",
     "tags": [],
@@ -40795,6 +41171,31 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48
+  },
+  {
+    "id": "cdd32c2ef551ecccf1d77eee56cb04093bf9be3b5cb2d51211043d68f8ddae36",
+    "title": "Michigan prof creates Python-like Jac language for AI agents",
+    "url": "https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110",
+    "canonicalUrl": "https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T15:46:19.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Stop burning $165K on AI rewrites; Jac is meant to \"gobble up\" your polyglot stack",
+    "imageUrl": "https://image.theregister.com/?imageId=5305120&width=800",
+    "language": "en",
+    "tags": [
+      "devops"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "devsecops"
+    ],
+    "relevanceScore": 47
   },
   {
     "id": "cdf3fb3959dcca310dda3e980e8fbb6cbf6e33d3528c444ee2b007dbfef61191",
@@ -41287,7 +41688,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "cfd4695ba002286eb8bc3382e30b582e76db6752c1f9b86918d50aa6655634ef",
@@ -41352,6 +41753,30 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "d047c8ad2c521d09322a483a22e080cf3f16c97a3f16d9337359a4a0b9752dc6",
+    "title": "Why Organizations Secure AI Agents with Falcon Guardian",
+    "url": "https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/",
+    "canonicalUrl": "https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian",
+    "sourceId": "crowdstrike-blog",
+    "sourceName": "CrowdStrike Blog",
+    "company": "CrowdStrike",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-23T05:00:00.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "",
+    "language": "en",
+    "tags": [
+      "Securing AI"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "ai-security"
+    ],
+    "relevanceScore": 39
   },
   {
     "id": "d075585cd31be74f377dd18d90bafa09eae5c0bcf47b6a118446c7e33197b389",
@@ -41537,6 +41962,28 @@
       "devsecops"
     ],
     "relevanceScore": 11
+  },
+  {
+    "id": "d162a1c81ec2500ed1a8daffc9efdefb74ba63730ace0b9c0e955fded639e455",
+    "title": "VCs, Superhuman Mail founder share red flags about product market fit",
+    "url": "https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T20:57:13.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Top investors from Iconiq and Sapphire Ventures, along with Rahul Vohra, the founder of Superhuman Mail share the do's and don'ts for building hit products.",
+    "language": "en",
+    "tags": [
+      "Startups",
+      "Venture",
+      "Disrupt"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "d187b4f8468a50516cfdd3e7ab556527d14799c26c9f77b52a6bbdb53298ada2",
@@ -42089,12 +42536,12 @@
     "sourceCategory": "cybersecurity",
     "publishedAt": "2026-10-21T09:01:24.000Z",
     "discoveredAt": "2026-10-21T11:54:30.810Z",
-    "summary": "Two critical PHP vulnerabilities could lead to unauthenticated remote code execution. Patches are available for supported PHP 8.x branches, and exploitation attempts began before public disclosure. Change log Update October 23: Updated the example Tenable Hexa AI prompt. Click here to review the change log history…",
+    "summary": "Two critical PHP vulnerabilities could lead to unauthenticated remote code execution. Patches are available for supported PHP 8.x branches, and exploitation attempts began before public disclosure. Change log Update October 23: Added guidance on authenticated scanning and a dedicated view in Tenable Cloud Security.…",
     "imageUrl": "https://www.tenable.com/sites/default/files/inline/images/tenable-one-vulnerability-management-software-tab.png",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
-      "artificial-intelligence"
+      "cloud-security"
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30
@@ -42408,6 +42855,24 @@
     "relevanceScore": 43
   },
   {
+    "id": "d51debcf4da48816e13059e5ead0c088300f60ef07244532a848c2b4ffa63854",
+    "title": "Okta and Auth0 are removing trust in the eMudhra emSign ECC Root CA – G3",
+    "url": "https://sec.okta.com/articles/2026/10/okta-and-auth0-removing-trust-in-emudhra-emsign-ecc-root-ca–g3/",
+    "canonicalUrl": "https://sec.okta.com/articles/2026/10/okta-and-auth0-removing-trust-in-emudhra-emsign-ecc-root-ca%E2%80%93g3",
+    "sourceId": "okta-blog",
+    "sourceName": "Okta Blog",
+    "company": "Okta",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "On October 17, 2026, a researcher reported that the private keys of eight intermediate eMudhra certificate authorities were generated with insufficient entropy and could be derived from their public certificates. Read on for Okta's response.",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 14
+  },
+  {
     "id": "d54e3c495aff9b0ee279a69adfc8ce453e76aac433922fa0adf32540f9d63da4",
     "title": "TechCrunch Disrupt 2026: Gamma’s Grant Lee, Engine’s Elia Wallen, and GV’s Crystal Huang on landing your first 1,000 customers",
     "url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-gammas-grant-lee-engines-elia-wallen-and-gvs-crystal-huang-on-landing-your-first-1000-customers/",
@@ -42662,7 +43127,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 50
+    "relevanceScore": 47
   },
   {
     "id": "d61bf60420d80533434aa8fd31a023df3b32e9e7455ac2a669040f17918e4fc0",
@@ -42764,6 +43229,30 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 43
+  },
+  {
+    "id": "d65845e1cdd8e011967198f9c68a4e043cfbcd46e244dd8b0299a41c36342457",
+    "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+    "canonicalUrl": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks",
+    "sourceId": "microsoft-security-blog",
+    "sourceName": "Microsoft Security Blog",
+    "company": "Microsoft",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-23T18:12:19.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations. The post Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks appeared first on Microsoft Security Blog.",
+    "language": "en",
+    "tags": [
+      "Supply chain attack"
+    ],
+    "matchedKeywordIds": [
+      "threat-intelligence"
+    ],
+    "tagMatchedIds": [
+      "software-supply-chain-security"
+    ],
+    "relevanceScore": 35
   },
   {
     "id": "d659e79ef79ff676d8ce53df9fbd3cbd39e15360809a977ccd91bf54647d1225",
@@ -43586,7 +44075,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "d99f7125dc5e1fcd292c1573629db8fe64918b36574507e66a4b918376078e18",
@@ -43991,6 +44480,31 @@
       "ai-security"
     ],
     "relevanceScore": 31
+  },
+  {
+    "id": "dba368836248684835974ec2c70acb5221e0b638ab12426cb1fce37aa9d67d70",
+    "title": "Built for Agents: The Case for Spark Declarative Pipelines",
+    "url": "https://www.databricks.com/blog/built-agents-case-spark-declarative-pipelines",
+    "canonicalUrl": "https://www.databricks.com/blog/built-agents-case-spark-declarative-pipelines",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-23T19:00:00.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "AI agents now write a growing share of production data pipelines (over 70% of SDP...",
+    "language": "en",
+    "tags": [
+      "Engineering",
+      "Data Engineering",
+      "AI Research",
+      "Open Source"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
   },
   {
     "id": "dbb4ac50000ed94ab766970f433a2c6da885f40daa3793108731e074b0e494d5",
@@ -46240,7 +46754,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "e4a55cbd6248607b20b77531deb7dce963dd4d899da5496737473b0980363e70",
@@ -46456,6 +46970,33 @@
     "relevanceScore": 7
   },
   {
+    "id": "e52b975157f80c7289814a740eccba35d0ad4fbbdd0e904b3d8b1963a5247892",
+    "title": "Introducing Agentic Evaluation in FAITH",
+    "url": "https://blogs.cisco.com/ai/introducing-agentic-evaluation-in-faith",
+    "canonicalUrl": "https://blogs.cisco.com/ai/introducing-agentic-evaluation-in-faith",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-23T20:47:50.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "As AI agents become more capable and their use expands across cybersecurity and other domains, the need for effective evaluation grows. An agent investigating a codebase makes a sequence of decisions: where to look, which tools to use, how to......",
+    "language": "en",
+    "tags": [
+      "Artificial Intelligence - AI",
+      "AI Security",
+      "Artificial Intelligence (AI)"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [
+      "ai-security"
+    ],
+    "relevanceScore": 43
+  },
+  {
     "id": "e544f1014d5e6d7693874936543faa961c88fd795f53e42576bc0b6e0807eb1c",
     "title": "Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed",
     "url": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
@@ -46622,7 +47163,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "e5f18d3f21dc470e14531a994f8140ef57f35591ae89b38c9c43683ff045a246",
@@ -47141,6 +47682,30 @@
     "relevanceScore": 48
   },
   {
+    "id": "e7fa8884a094c2e44658c0a9442853c1512ad01b9b9d9bf8f42e9e2d70d93a8d",
+    "title": "Origin Range Requests: Serving large files without range-request tuning",
+    "url": "https://blog.cloudflare.com/origin-range-requests/",
+    "canonicalUrl": "https://blog.cloudflare.com/origin-range-requests",
+    "sourceId": "cloudflare-blog",
+    "sourceName": "Cloudflare Blog",
+    "company": "Cloudflare",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-23T18:22:59.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+    "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M5MZP89Y10XGACD5T6G2F398.png",
+    "language": "en",
+    "tags": [
+      "Cache",
+      "Performance",
+      "Pingora",
+      "Storage"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
+  },
+  {
     "id": "e81b1dea7ce0fb42c97855621c52f6a49d0893d2f06b0ac1c6c329bdc3da8830",
     "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
     "url": "https://huggingface.co/blog/allenai/astabrief",
@@ -47281,6 +47846,33 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 17
+  },
+  {
+    "id": "e8fbd857a8b6b0ff954ad3e75e49798e7f2c1786eab173af672f7bbe77673372",
+    "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+    "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T19:06:23.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+    "language": "en",
+    "tags": [
+      "Startups",
+      "AI",
+      "Fundraising",
+      "TechCrunch Founder Summit"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
   },
   {
     "id": "e8fc3bf6b8bd024b0f3f60aabfa5892dd135079c0396efdf29e6bc989a1b3e5c",
@@ -48551,7 +49143,6 @@
     "language": "en",
     "tags": [
       "Health Care",
-      "Healthcare",
       "McKinsey Health Institute",
       "Switzerland",
       "Growth",
@@ -49528,6 +50119,25 @@
     "relevanceScore": 11
   },
   {
+    "id": "f32271df15f1fe62cb6ec62e733e8270151de7d4624adc424f785883734f29c6",
+    "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
+    "url": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+    "canonicalUrl": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-23T19:41:23.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "Fixing the critical PHP flaws is not as simple as clicking \"Update.\" Here's how to assess your risk, and what you can do to protect yourself.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte307a3bd1a7bcb35/6adb9c8d2d5b887cc408cb52/Globe_bandages-zennie-Getty.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "f32ec83ece71d3f7fc37a5712ff25a30d09163ecaadddf3534b24fc9d4963f98",
     "title": "Honeyjar offers AI tools to improve PR and comms at every company",
     "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
@@ -49982,7 +50592,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "f5a56e9e4901980c10dc4f7b58a69e073cdc6f6552c96876064aa71239903d91",
@@ -50073,7 +50683,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "f674cb3a2ea47ac1133543c97e875fdab779fc8e7d9f50ef08cc7f42dd1d7458",
@@ -50412,6 +51022,28 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 35
+  },
+  {
+    "id": "f8c156dba7886826388b35c0408d87e493aa3c6ad59ba61bfe6146ea7a6b00f6",
+    "title": "Securing our frontier model training environment",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "canonicalUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-10-23T10:00:00.000Z",
+    "discoveredAt": "2026-10-23T21:26:58.683Z",
+    "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 18
   },
   {
     "id": "f8d60c74713415d55864857a17898620a321ba76fa90c683d8663374cd5dbfa7",
