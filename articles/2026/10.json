@@ -538,6 +538,27 @@
     "relevanceScore": 10
   },
   {
+    "id": "01c663ba9353d101432971a4384c70b6b98a3f9f39e9f0fb4c8d82ec5148f4ac",
+    "title": "‘Cyberselfish’ author takes aim at Silicon Valley libertarians as her book returns from the dead",
+    "url": "https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-25T20:20:08.000Z",
+    "discoveredAt": "2026-10-25T20:54:24.186Z",
+    "summary": "\"That's a 12-year-old view of the world.\"",
+    "language": "en",
+    "tags": [
+      "Government & Policy",
+      "Media & Entertainment"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "023babf6939fbf170a80e0d439ca6186cc833e63470d8f0b74e2d4697add226e",
     "title": "GKE CPU startup boost: Accelerate app starts without over-provisioning",
     "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-cpu-startup-boost-faster-pod-starts-lower-costs/",
@@ -3318,6 +3339,41 @@
     "relevanceScore": 48
   },
   {
+    "id": "1038f10920774be58967294dfc5cebae60466102712701def1d2f291415e61ca",
+    "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
+    "url": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/google-ml-drift",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-25T17:00:00.000Z",
+    "discoveredAt": "2026-10-25T20:54:24.186Z",
+    "summary": "Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardware and low-level APIs, supporting OpenGL ES, OpenCL, Metal, and WebGPU. By Sergio De Simone",
+    "imageUrl": "https://res.infoq.com/news/2026/10/google-ml-drift/en/headerimage/gemini-agentic-vision-1792946554031.jpg",
+    "language": "en",
+    "tags": [
+      "Open Source",
+      "Local Inference",
+      "Large language models",
+      "Mobile",
+      "Edge",
+      "Google",
+      "TensorFlow",
+      "AI",
+      "ML & Data Engineering",
+      "Development"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 46
+  },
+  {
     "id": "10921d448731c7a48fffe273773d8d62392af0c3fdef862b77557d0fe281890e",
     "title": "Mirror Particle is building a ‘world model’ of human behavior",
     "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
@@ -4853,7 +4909,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "17e0ada6714d7443ad12c49dcbc50bb7a60188428e47a3786ea3d4a3ad847488",
@@ -7369,7 +7425,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "23e4826e2b125739a8b095fb52756c3fda2fc1f6eaf919f78459099bef8e2583",
@@ -10799,6 +10855,25 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 41
+  },
+  {
+    "id": "33f7736e74631c3e92659afbe1965f21d4a96e0439d99808ed2b43bebc9bc19e",
+    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+    "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-25T17:44:09.000Z",
+    "discoveredAt": "2026-10-25T20:54:24.186Z",
+    "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s1600/tailscale.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "340ad731dd1a173c0b07c1bb174aed32084bf717703032f515a9b701745ce2ad",
@@ -14344,7 +14419,7 @@
     "publishedAt": "2026-10-25T14:46:53.000Z",
     "discoveredAt": "2026-10-25T16:26:26.325Z",
     "summary": "Detect and mitigate CVE-2026-111497, a critical Brotli decoder vulnerability enables remote code execution.",
-    "imageUrl": "https://www.datocms-assets.com/75231/1792939491-screenshot-2026-10-25-at-16-44-38.png",
+    "imageUrl": "https://www.datocms-assets.com/75231/1792955772-screenshot-2026-10-25-at-21-12-05.png",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [],
@@ -16247,6 +16322,25 @@
     "relevanceScore": 13
   },
   {
+    "id": "4e1ee964c07eeb8496e725c3fe77c9433133dde2a658f1469398d51b92e4334a",
+    "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
+    "url": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
+    "canonicalUrl": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
+    "sourceId": "wiz-blog",
+    "sourceName": "Wiz Blog",
+    "company": "Wiz",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-25T17:55:33.000Z",
+    "discoveredAt": "2026-10-25T20:54:24.186Z",
+    "summary": "An automated campaign is planting secret-dumping workflows in every repository that stolen GitHub tokens can reach. It uses no C2 server, is actively evolving, and has been significantly disrupted by recent GitHub security improvements.",
+    "imageUrl": "https://www.datocms-assets.com/75231/1792949423-threat-update-mini-worm_custom-1.jpeg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "4e324623ab7ca6fee0e142410ae1fff634372bb9b83078fd1d25f73483da7134",
     "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
     "url": "https://openai.com/index/radisson",
@@ -16607,7 +16701,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "5086a26c24b9017fd585e28f4acf764e2c26b7be89cf4188b28811e9c87871cb",
@@ -18730,7 +18824,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "5a36c306ad32f4e5dfabd9cacdbfa565a76fabc40941ef34ffbf9e2cfa6e9632",
@@ -20575,7 +20669,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 71
+    "relevanceScore": 68
   },
   {
     "id": "63db4c1bb2e73d0cc50d1a122179d596c9e87afbb74bbde2b1865f47040467e2",
@@ -21075,7 +21169,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "658884e1d1a2b15b2e7a1c814071d8be92f4694bfb970d627f8fe6a7f2ef66af",
@@ -23605,7 +23699,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "7151f545a036420fd7b055d304cd72f64b00e4171e5c47f70a370c0b9b9ea715",
@@ -25204,6 +25298,31 @@
     "relevanceScore": 29
   },
   {
+    "id": "79ffda0a470cc0fd1c29b2addf5c65e9e86b4d66e85a9e13fb9d6008e948e470",
+    "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+    "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-25T16:57:32.000Z",
+    "discoveredAt": "2026-10-25T20:54:24.186Z",
+    "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Apollo Global Management"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
+  },
+  {
     "id": "7a0e00dbc0dee32da088a4c3e7cc9dc04dcb4bcfdea6e3d51eb1bfb67d9fbc46",
     "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
     "url": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
@@ -25509,7 +25628,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "7c54bca2debc2d8b96fea13846cd2915110f20b38e6ae1e945b6c00f893a39c5",
@@ -27964,7 +28083,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "892ab4c73fa2c6dd2b73e89b5b66b22f32b2d124ca4c4c753943f28278eb57eb",
@@ -28106,7 +28225,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "89a4e6d4e0e5bb84c8c4a86440e37f61766b72364e2eaad434aa332df0b4507f",
@@ -29296,7 +29415,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8ddc8cb864b604ce2bd82a7bb1369c72717509892e6dfd9e36f1d9887847ffa8",
@@ -29533,7 +29652,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8f987dbd57607f0ff687c421eec30830bbce5198fe71bf0dae3a26149d2c2b1f",
@@ -30065,6 +30184,35 @@
       "agentic-ai"
     ],
     "relevanceScore": 44
+  },
+  {
+    "id": "9192ee78f4b5d546ef1d011df61fc875f9c44b8d8742e921648e6bddd6ae9cd1",
+    "title": "PHP Patches Two Critical RCE Flaws That Were Already Under Attack",
+    "url": "https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/php-critical-rce-patches",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-25T18:07:00.000Z",
+    "discoveredAt": "2026-10-25T20:54:24.186Z",
+    "summary": "PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attempt four days before the patches shipped, and operators spent the day working out whether they ran PHP, where to get the package, and how to tell it…",
+    "imageUrl": "https://res.infoq.com/news/2026/10/php-critical-rce-patches/en/headerimage/generatedHeaderImage-1792866020447.jpg",
+    "language": "en",
+    "tags": [
+      "PHP8",
+      "Web Development",
+      "Security",
+      "PHP",
+      "Culture & Methods",
+      "Development",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 14
   },
   {
     "id": "91ce528bf9b9b1163991c81bd87b08864e8954d75b7122371db34a58a723666f",
@@ -31595,7 +31743,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "9893329c14bdcc650ced40b508b161c3b6f3775dac0797af2604598e75b141e7",
@@ -33716,7 +33864,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "a3503290384da9cdec7cfa6822063870564c992d7342d4fce19f4dd0b700796e",
@@ -40743,7 +40891,7 @@
       "software-supply-chain-security"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "c8de77098a385fa1cc417cea30e34e4a822e4a297b2a76f35863aa84464b8485",
@@ -42392,7 +42540,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "cfd4695ba002286eb8bc3382e30b582e76db6752c1f9b86918d50aa6655634ef",
@@ -42859,6 +43007,24 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 8
+  },
+  {
+    "id": "d23297c8aba1a5168086b053b3a676e86a8e04ed1595f89234a26885bffafd2e",
+    "title": "Node2Shell: Node.js Brotli flaw (CVE-2026-111497)",
+    "url": "https://sec.okta.com/articles/2026/10/node2shell-node.js-brotli-flaw-cve-2026-111497/",
+    "canonicalUrl": "https://sec.okta.com/articles/2026/10/node2shell-node.js-brotli-flaw-cve-2026-111497",
+    "sourceId": "okta-blog",
+    "sourceName": "Okta Blog",
+    "company": "Okta",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "discoveredAt": "2026-10-25T20:54:24.186Z",
+    "summary": "On October 21, 2026, the Node.js project released fixes for a Brotli decompression flaw (CVE-2026-111497, \"Node2Shell\"). Read on for Okta's response.",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 11
   },
   {
     "id": "d233a0fb1de8c0a2e5250bd083b55fc8a618821a1ada375cd18210ddebd17f8a",
@@ -44810,7 +44976,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "d99f7125dc5e1fcd292c1573629db8fe64918b36574507e66a4b918376078e18",
@@ -44884,6 +45050,40 @@
     "relevanceScore": 42
   },
   {
+    "id": "d9e960eea4aa207a38bc46c815d682eb5e325ebdfeffb9699ac92f19ad8bb11f",
+    "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
+    "url": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/google-meta-torchtpu",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-25T18:00:00.000Z",
+    "discoveredAt": "2026-10-25T20:54:24.186Z",
+    "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS released TorchNeuron for Trainium the same week, while developers questioned TPU availability and where vendor lock-in…",
+    "imageUrl": "https://res.infoq.com/news/2026/10/google-meta-torchtpu/en/headerimage/torchtpu-header-1792934272172.jpg",
+    "language": "en",
+    "tags": [
+      "Cloud",
+      "Large language models",
+      "Machine Learning",
+      "Agents",
+      "AI",
+      "ML & Data Engineering",
+      "DevOps"
+    ],
+    "matchedKeywordIds": [
+      "generative-ai"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "devsecops",
+      "generative-ai"
+    ],
+    "relevanceScore": 32
+  },
+  {
     "id": "da030edca1aa242091b4fbb798d7e90d5017ea3a2da6fefd973b3cb39f3ae4ae",
     "title": "Solving the Continuous Authorization Conundrum",
     "url": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
@@ -44902,6 +45102,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 9
+  },
+  {
+    "id": "da19872bd8ebd641fd6397768aac402f3e921a7c58cec2a2b755c0ffbf10b243",
+    "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+    "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-25T17:19:46.000Z",
+    "discoveredAt": "2026-10-25T20:54:24.186Z",
+    "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s1600/php2shell-exploit.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 48
   },
   {
     "id": "da1c8391c167579bc4826a7e19f3f265f930973847cef4fca4866266ebb34bd5",
@@ -47489,7 +47710,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "e4a55cbd6248607b20b77531deb7dce963dd4d899da5496737473b0980363e70",
@@ -47898,7 +48119,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "e5f18d3f21dc470e14531a994f8140ef57f35591ae89b38c9c43683ff045a246",
@@ -48207,7 +48428,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "e71e548a1967ab8ea9c52517bb1c47b73ae3a16dcb938e8b46555042d3fb04fb",
@@ -51493,7 +51714,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "f674cb3a2ea47ac1133543c97e875fdab779fc8e7d9f50ef08cc7f42dd1d7458",
