@@ -7,7 +7,7 @@
     "score": 0,
     "status": "declining",
     "articleCount": 0,
-    "previousArticleCount": 3,
+    "previousArticleCount": 2,
     "growthRate": -100,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
@@ -199,21 +199,21 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 55,
+    "score": 56,
     "status": "rising",
     "articleCount": 5,
-    "previousArticleCount": 25,
-    "growthRate": -80,
+    "previousArticleCount": 20,
+    "growthRate": -75,
     "distinctSourceCount": 2,
     "leadingSourceIds": [
       "techcrunch",
       "thehackernews"
     ],
     "relatedArticleIds": [
+      "2b44ac8d0a52ce9fe00c2800adcc48c1a378b3d1b6f776b22aaf7ccad9610208",
       "988202d2feb5743dae62da6676c5e85c2d531e20a98b1301b50cff6c1bd975cc",
       "833d5d33c61d3b3b5d1624a3f6c0cb620fe20049fdbc42851002d27c2c833f5a",
       "f75803cafe6ee4fcd06d7b79b71d8b7edd92241656a4ece7c27e7b1f651b60f0",
-      "ed6cb319ad856dfd2ce738ab807d2266ea138e6be6befd7aedd84613d0cce1cf",
       "8988f05b23400e8d3fbd3583c409d290f10670c7719b1aa8d6c8d203f062eca3"
     ]
   },
@@ -222,11 +222,11 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "30d",
-    "score": 78,
+    "score": 77,
     "status": "emerging",
-    "articleCount": 991,
-    "previousArticleCount": 985,
-    "growthRate": 1,
+    "articleCount": 984,
+    "previousArticleCount": 981,
+    "growthRate": 0,
     "distinctSourceCount": 39,
     "leadingSourceIds": [
       "techcrunch",
@@ -253,9 +253,9 @@
     "timeframe": "7d",
     "score": 81,
     "status": "breakout",
-    "articleCount": 256,
-    "previousArticleCount": 224,
-    "growthRate": 14,
+    "articleCount": 257,
+    "previousArticleCount": 221,
+    "growthRate": 16,
     "distinctSourceCount": 34,
     "leadingSourceIds": [
       "techcrunch",
@@ -387,18 +387,14 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "24h",
-    "score": 22,
+    "score": 0,
     "status": "declining",
-    "articleCount": 1,
-    "previousArticleCount": 7,
-    "growthRate": -86,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "thehackernews"
-    ],
-    "relatedArticleIds": [
-      "ad7396463092f2b221e8ab244af2e43aab958163a26c2149f54d22f5a28be300"
-    ]
+    "articleCount": 0,
+    "previousArticleCount": 8,
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "cybersecurity-30d",
@@ -407,9 +403,9 @@
     "timeframe": "30d",
     "score": 46,
     "status": "rising",
-    "articleCount": 96,
-    "previousArticleCount": 104,
-    "growthRate": -8,
+    "articleCount": 94,
+    "previousArticleCount": 103,
+    "growthRate": -9,
     "distinctSourceCount": 18,
     "leadingSourceIds": [
       "thehackernews",
@@ -477,11 +473,11 @@
     "label": "Data protection and privacy engineering",
     "keywordId": "data-protection-privacy",
     "timeframe": "30d",
-    "score": 31,
+    "score": 33,
     "status": "stable",
     "articleCount": 5,
-    "previousArticleCount": 7,
-    "growthRate": -29,
+    "previousArticleCount": 6,
+    "growthRate": -17,
     "distinctSourceCount": 3,
     "leadingSourceIds": [
       "bleepingcomputer",
@@ -586,11 +582,11 @@
     "label": "Digital sovereignty",
     "keywordId": "digital-sovereignty",
     "timeframe": "30d",
-    "score": 45,
+    "score": 47,
     "status": "rising",
     "articleCount": 10,
-    "previousArticleCount": 10,
-    "growthRate": 0,
+    "previousArticleCount": 9,
+    "growthRate": 11,
     "distinctSourceCount": 7,
     "leadingSourceIds": [
       "theregister",
@@ -615,23 +611,22 @@
     "label": "Digital sovereignty",
     "keywordId": "digital-sovereignty",
     "timeframe": "7d",
-    "score": 60,
+    "score": 58,
     "status": "rising",
-    "articleCount": 6,
-    "previousArticleCount": 1,
-    "growthRate": 500,
-    "distinctSourceCount": 5,
+    "articleCount": 5,
+    "previousArticleCount": 2,
+    "growthRate": 150,
+    "distinctSourceCount": 4,
     "leadingSourceIds": [
       "microsoft-blog",
       "google-cloud-blog",
-      "infoq"
+      "cloudflare-blog"
     ],
     "relatedArticleIds": [
       "2f762f20ec35fa407d607dd98c5daa95cbc9ac9612e60203cce040cbefba66b1",
       "aa0e139f9bffe868d42b30ac3b3230d3b8f9aec24e575938145ad5cf62fb8eb1",
       "130b99afb50dd1d71a0d59ab18a5ca8ac01a8d62dd1f7ce62323e51090f17a6e",
       "320808c3a61b2908c37ba43b0fc456d745cb80378c26a2f2077c2a130350a0a9",
-      "6d58c619def1603145aa897b1aafba98dc7456b1d368dc57f7376bb577e0b56a",
       "b9aabe18ab5142092d88d0e8d833b2ec35cd473761984afcff0360b1d01ce57a"
     ]
   },
@@ -712,18 +707,14 @@
     "label": "Identity and access management",
     "keywordId": "identity-access-management",
     "timeframe": "24h",
-    "score": 32,
-    "status": "stable",
-    "articleCount": 1,
-    "previousArticleCount": 0,
-    "growthRate": null,
-    "distinctSourceCount": 1,
-    "leadingSourceIds": [
-      "infoq"
-    ],
-    "relatedArticleIds": [
-      "d26f3b9150349619663dadbc0d64f70654fec9ac9f3613c9c2a82ad8b1e0007e"
-    ]
+    "score": 0,
+    "status": "declining",
+    "articleCount": 0,
+    "previousArticleCount": 1,
+    "growthRate": -100,
+    "distinctSourceCount": 0,
+    "leadingSourceIds": [],
+    "relatedArticleIds": []
   },
   {
     "id": "identity-access-management-30d",
@@ -1100,10 +1091,10 @@
       "d65845e1cdd8e011967198f9c68a4e043cfbcd46e244dd8b0299a41c36342457",
       "c11dff5acfb62515b839ee7c7665b246eb9a270c618150609d174a728c4d1eba",
       "d6276a425b1c8d3eb691ee78e31eb6946e056af8917372a92e331f4d220ba0f1",
-      "5dc62af2c3e97dbba9c36436287f4d45f27d00f9fe43bec4fdcfc903fb9f4a1b",
       "5e48870a7939d03b65f4ca707c50d3ff26fdca574da49fc7522ad7e56d3159b7",
       "be2ffa357fb67316d14b3345f148d2e4f2b6d1a60ed27be0fcd9f0db22410f59",
       "5c00545fe1f3f0beba174dae9cb1b23c92fb1412bffc5a18df54425f3cedf769",
+      "5dc62af2c3e97dbba9c36436287f4d45f27d00f9fe43bec4fdcfc903fb9f4a1b",
       "7595f834fb9c59d61123782134dcf96934ce2fa29b61865e7a51e6895e9909cd"
     ]
   },
