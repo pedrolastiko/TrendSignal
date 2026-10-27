@@ -19,7 +19,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "a5c502fdcf06e38109de03e2ec4c0c7439c7be3cc79f0dbbbf20bcebdb1d0866",
@@ -41,7 +41,263 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
+  },
+  {
+    "id": "3b33740b6662f556ad94da76554513938a9202e8b8229c9cbc1fbcc64c24cf36",
+    "title": "How Anthropic Redesigned Source Control for AI-Driven Development",
+    "url": "https://www.infoq.com/news/2026/10/anthropic-source-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/anthropic-source-control",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T11:25:00.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Anthropic recently detailed how it migrated its monorepo from Git to Scion. Scion is a source control system that moves repository operations to the server side and uses content-addressed storage and tiered caches for agent and CI workloads. The design sacrifices offline independence for less local data and shared…",
+    "imageUrl": "https://res.infoq.com/news/2026/10/anthropic-source-control/en/headerimage/scion-architecture-header-1792669549048.jpeg",
+    "language": "en",
+    "tags": [
+      "Distributed Systems",
+      "Anthropic",
+      "Git",
+      "Source Control",
+      "Version Control",
+      "AI Development",
+      "Architecture & Design",
+      "Development"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 36,
+    "trendScore": 78
+  },
+  {
+    "id": "93d8b38790e5bd877c16471f4ff3ed4abc6034cf3abd25c6e8c0d5cce652a66a",
+    "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+    "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+    "canonicalUrl": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T11:00:00.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+    "language": "en",
+    "tags": [
+      "Startups",
+      "AI",
+      "Accel",
+      "nvidia"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 38,
+    "trendScore": 78
+  },
+  {
+    "id": "198cdfd9eb6504d30679b9ca6e8c0f075ba88bb5a4e6eb58291563c4d0651cfd",
+    "title": "UK ministers had plenty of time for AI datacenter bosses, but none for environmental groups",
+    "url": "https://www.theregister.com/on-prem/2026/10/27/uk-ministers-had-plenty-of-time-for-ai-datacenter-bosses-but-none-for-environmental-groups/5305654",
+    "canonicalUrl": "https://www.theregister.com/on-prem/2026/10/27/uk-ministers-had-plenty-of-time-for-ai-datacenter-bosses-but-none-for-environmental-groups/5305654",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T11:00:00.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Investigation finds businesses dominated govt meetings while communities were left out of decisions about AI Growth Zones",
+    "imageUrl": "https://image.theregister.com/?imageId=5305665&width=800",
+    "language": "en",
+    "tags": [
+      "on-prem"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 47,
+    "trendScore": 78
+  },
+  {
+    "id": "8045a1d5393eb535d4b31b9c5f4f76d614e86b6a79c438cf91c1c399d94744f9",
+    "title": "Presentation: Serving LLMs at Scale: The Hidden KV Cache Advantage",
+    "url": "https://www.infoq.com/presentations/llm-inference-kv-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/presentations/llm-inference-kv-cache",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T11:00:00.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Khawaja Shams shares a distributed systems perspective on scaling LLM inference stacks efficiently. He discusses practical strategies for optimizing GPU utilization, managing KV cache memory cliffs, leveraging tiered storage, reducing tail latency, and implementing disaggregated prefill and decode architectures to…",
+    "imageUrl": "https://res.infoq.com/presentations/llm-inference-kv-cache/en/mediumimage/medium-1792066105733.jpeg",
+    "language": "en",
+    "tags": [
+      "Large language models",
+      "Optimization",
+      "Distributed Systems",
+      "Transcripts",
+      "Valkey",
+      "Redis",
+      "Caching",
+      "GPU",
+      "QCon AI Boston 2026",
+      "AI",
+      "ML & Data Engineering",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [
+      "generative-ai"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 32,
+    "trendScore": 46
+  },
+  {
+    "id": "e53bf814c7a883d61d3692d2dde1b415afec1b0c1da93889658bffb15ff91987",
+    "title": "FreeBSD founder ports Omarchy to FreeBSD in ten days, ten releases",
+    "url": "https://www.theregister.com/os-platforms/2026/10/27/freebsd-founder-ports-omarchy-to-freebsd-in-ten-days-ten-releases/5305446",
+    "canonicalUrl": "https://www.theregister.com/os-platforms/2026/10/27/freebsd-founder-ports-omarchy-to-freebsd-in-ten-days-ten-releases/5305446",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T10:15:00.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Daemonarchy is unaffiliated with the Linux original, built with AI help, and could complicate FreeBSD's debate over AI contributions",
+    "imageUrl": "https://image.theregister.com/?imageId=5305452&width=800",
+    "language": "en",
+    "tags": [
+      "os platforms"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 32,
+    "trendScore": 78
+  },
+  {
+    "id": "65ea4fec5b48d42b0580a419204bfbec794c431854a659a57a6f71aa65d3f440",
+    "title": "How solid-state transformers could help power the AI boom",
+    "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+    "canonicalUrl": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers",
+    "sourceId": "mit-technology-review",
+    "sourceName": "MIT Technology Review",
+    "company": "MIT Technology Review",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T09:00:00.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade. As the world races to meet rising…",
+    "language": "en",
+    "tags": [
+      "Climate change and energy",
+      "App",
+      "Summary"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 38,
+    "trendScore": 78
+  },
+  {
+    "id": "cd80830b05ae8c85729279be3b5e86f77f1ddd16a1d302db81d610a6ca396354",
+    "title": "AWS Shows Use of AI Agents to Triage Linux Kernel CVEs",
+    "url": "https://www.infoq.com/news/2026/10/aws-ai-agents-linux-kernel-cves/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/aws-ai-agents-linux-kernel-cves",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T09:00:00.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Engineers from Amazon Web Services (AWS) have described how the team that maintains the Linux kernel for EC2 infrastructure handles kernel CVEs. The process combines an automated filter, an AI agent and human review. The team also argues that it needs to move to newer long-term-support (LTS) kernels, as older…",
+    "imageUrl": "https://res.infoq.com/news/2026/10/aws-ai-agents-linux-kernel-cves/en/headerimage/generatedHeaderImage-1793031817205.jpg",
+    "language": "en",
+    "tags": [
+      "Common Vulnerabilities and Exposures",
+      "CVE",
+      "Agentic AI Architecture",
+      "Linux",
+      "DevOps"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "devsecops"
+    ],
+    "relevanceScore": 57,
+    "trendScore": 78
+  },
+  {
+    "id": "860bd2d07e63e77253acd261f3f7bb47b692d309454cf1d749de577be203c6f1",
+    "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T08:20:54.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 33,
+    "trendScore": 56
+  },
+  {
+    "id": "401b79cdbfdac1c2f97b5174754dadc32e37df82fb619dbbb715869290a700c0",
+    "title": "Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust Port of TypeScript",
+    "url": "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T07:34:00.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Cloudflare, VoidZero and Max Schwenk announced tsrs, an experimental Rust port of the TypeScript compiler, built with the TypeScript team's involvement. Cloudflare claims up to 8x faster checking and 70% less memory than TypeScript 7.0, though one test against 7.1 beta showed 2.7x. It lacks watch mode and a language…",
+    "imageUrl": "https://res.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/en/headerimage/generatedHeaderImage-1793039825386.jpg",
+    "language": "en",
+    "tags": [
+      "Web Development",
+      "Rust",
+      "JavaScript",
+      "Cloudflare",
+      "AI Coding",
+      "TypeScript",
+      "Development"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 36,
+    "trendScore": 78
   },
   {
     "id": "c6946dcfbedf652a0f80df733642f61085d6911b0b6a7fd679b8974a715f27d6",
@@ -67,8 +323,8 @@
       "AI",
       "ML & Data Engineering",
       "Culture & Methods",
-      "Development",
       "Architecture & Design",
+      "Development",
       "DevOps"
     ],
     "matchedKeywordIds": [
@@ -80,7 +336,53 @@
       "devsecops"
     ],
     "relevanceScore": 46,
-    "trendScore": 80
+    "trendScore": 78
+  },
+  {
+    "id": "dc98d41511a17d2ea06d022347aa16472bf0f499c81cdacdb357e1c9a7d08220",
+    "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+    "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+    "canonicalUrl": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T04:37:59.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-vxKiggBxnuXu0fenkg0gfce0iuuA3OxeVzvWAdc0zaDPDayQgY8y_miqnvHJrpYvw61AhvGHEOW4EIKIYZ4QkRGjGEhqiU-3R0o6m0fgHJYDtszsoXyqse7WDGMh4rvEuTf1T-17KOVkyJKgEcaw5yBXFi6ElwIFyU9TjudvJrHz4fz6VNro8bjUZcnD/s1600/cisa-php.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33,
+    "trendScore": 56
+  },
+  {
+    "id": "fa2a93391279685ec9aa900a81190982bcde9db4c69a99446aa53365b218b862",
+    "title": "IBM admits mainframes need to be modernized and will use AI to do the job",
+    "url": "https://www.theregister.com/systems/2026/10/27/ibm-admits-mainframes-need-to-be-modernized-and-will-use-ai-to-do-the-job/5305618",
+    "canonicalUrl": "https://www.theregister.com/systems/2026/10/27/ibm-admits-mainframes-need-to-be-modernized-and-will-use-ai-to-do-the-job/5305618",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-10-27T04:07:15.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Promises to build ‘IBM Z Atlas’ tool that will tidy up messy big iron and enable AIOps",
+    "imageUrl": "https://image.theregister.com/?imageId=142108&width=800",
+    "language": "en",
+    "tags": [
+      "systems"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 37,
+    "trendScore": 78
   },
   {
     "id": "c6bba90d60fe38836854362d3448676a2c72df029d40a39ba4824e63ae4a1ce3",
@@ -107,7 +409,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6e162aff655bfd4ceae9f790be329e8c202f2ebc0b4bc3fc797d676a900f17e8",
@@ -133,7 +435,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "12bf2922831c2253549db264b9125d73e31938e07c8ebf4e9ea3adde7490abbe",
@@ -156,7 +458,28 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 74,
-    "trendScore": 80
+    "trendScore": 78
+  },
+  {
+    "id": "498fcebc03a034dc2203d430b2adbdbb4acc980237393cc935a063e0d5a8e305",
+    "title": "Securing the enterprise software supply chain in the AI era",
+    "url": "https://www.redhat.com/en/blog/securing-enterprise-software-supply-chain-ai-era",
+    "canonicalUrl": "https://www.redhat.com/en/blog/securing-enterprise-software-supply-chain-ai-era",
+    "sourceId": "redhat-blog",
+    "sourceName": "Red Hat Blog",
+    "company": "Red Hat",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Across Europe, the Middle East, and Africa (EMEA), enterprise IT is undergoing a fundamental shift. Artificial intelligence (AI) is no longer restricted to isolated sandboxes or pilot projects. Autonomous AI agents, embedded software-as-a-service (SaaS) features, and automated workflows are actively running in…",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 47,
+    "trendScore": 78
   },
   {
     "id": "53ab7add3a7669586f63a3ad448948b22e65b765440a7b55ac9d533e6e881124",
@@ -182,7 +505,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 37,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "5b4689e98b7c5301525ae8e6f8827486f25be5f07eb68b9af69c4c5b15953191",
@@ -207,7 +530,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "85867e059028e92c21af22e93bc608f4b8906962fa0b3b71ce8c85ab88da3dc7",
@@ -230,7 +553,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "89893d5f73c7751563c810d00d2e6db7b97bb2811c1511935d7aabf7a49af3b5",
@@ -257,7 +580,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 49,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "cad011465541435a983359f04cc730de31ffd49f78aa133ce488b89da869e8b7",
@@ -280,7 +603,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "c522c32c8006003a9e75b2277f18b4cf6fd8189e9fa3d743f4c72615ef8aa577",
@@ -297,8 +620,8 @@
     "imageUrl": "https://res.infoq.com/news/2026/10/agntcon-mcpcon-2026/en/headerimage/agntcon-header-1792936265463.jpg",
     "language": "en",
     "tags": [
-      "Large language models",
       "Model Context Protocol (MCP)",
+      "Large language models",
       "Agents",
       "Security",
       "AI",
@@ -317,7 +640,7 @@
       "generative-ai"
     ],
     "relevanceScore": 72,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "711b61639b30a123e5f693b169e89ef4ad6e051906952025547a62591354b6d1",
@@ -339,7 +662,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "11462a26eb8c5758350a332075f6320386d057df9252381066b2cc5e45175bdb",
@@ -360,7 +683,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 47,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ab33b20e9d57c03ec012820329a2df951d7c97b1e61e00ba82edb74c80839adb",
@@ -386,7 +709,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 37,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bada175e9bd70ae4dca483e30d61e106359da9ea5d3836a68cc58f89037dd337",
@@ -413,7 +736,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "631b0902569c74ab3b6343eb2ce423e0d411cbe10da721871851c9a94fc96c7d",
@@ -437,7 +760,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 64,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3b776e5e67edc5c1b8184c6d57d410d83186ab38dbd7402e7fb7c48cdf2c808d",
@@ -463,7 +786,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3bd252fd294afc4310ce740241a3cdc7b8f965ae4c87361742267ca35b47dc64",
@@ -512,7 +835,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bc9adf841242a3cff179813036bb889c5b4fff2a609df0c9a01b9363e37baf37",
@@ -539,7 +862,7 @@
       "ai-security"
     ],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6c1fa6507bf760a6bcbaba283e2878f9eb70d85ff61dd354a296c4dfdea4d0cd",
@@ -567,7 +890,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 74,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d91a626de91cf56e21eaf6abe56006c1b057f6f11f9aa165b66b4de291a016b0",
@@ -591,7 +914,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "516482b2dc6c8cb58df611dbb23a9f69c29c00612f32760f5f6343cafcd1d5d9",
@@ -618,7 +941,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 50,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7d1f7d6f5df821ad1470b2500e2dc058988113df634f16a643b6f018faa51a90",
@@ -645,7 +968,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 50,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b7ae762d615efa392336258cc2e4ce68161baa16f939977dae0193d963cbc8c6",
@@ -668,7 +991,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9954d1a67aa0fdd06efceed65d67d6db20bd9ecda446e65a9f6aacdd738a2db3",
@@ -725,7 +1048,7 @@
       "generative-ai"
     ],
     "relevanceScore": 46,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7153c33e17fa50d959a5685ce0f5c1b97ad2fa5e3bd3ac418a1a9931fd2d6071",
@@ -751,7 +1074,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 50,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ff107500928ad2ca234e468d9de408e135c669fc15bc6b168e887d28964b1694",
@@ -768,7 +1091,8 @@
     "language": "en",
     "tags": [
       "Artificial intelligence",
-      "App"
+      "App",
+      "The Algorithm"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -777,7 +1101,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "78a7917d7571d5dea2ec5752950221369fb195a4ff19680b9abf91ea195fe06c",
@@ -801,7 +1125,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 37,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3f7382b7697aab5a75bf1077aa56001e6de9b127e2fdd2fe8a9f542483257ec1",
@@ -828,7 +1152,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "358a2766e61652eead81eb679d8269829224beafddfcf8ea03ae790d9386bbc3",
@@ -854,7 +1178,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 39,
-    "trendScore": 32
+    "trendScore": 37
   },
   {
     "id": "a0863496ac27ca99ff4115677c29cbf2b33edde3da06e0ee0c9983bd0beacd7f",
@@ -880,7 +1204,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "4b8826d6a66e074543d42962242b43c47c115efa1a641d10702956c2bb749253",
@@ -903,7 +1227,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 49,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "63ceafdca9b6ae0481ab60d517730f70bb614e0008108bfc2bd403839519e7b7",
@@ -929,7 +1253,31 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 47,
-    "trendScore": 80
+    "trendScore": 78
+  },
+  {
+    "id": "81403a9509cd41fc7ff715546280fba153b435441fee88ad26553e83b6acf217",
+    "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Privileged Access Management",
+    "url": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-privileged-access-management/",
+    "canonicalUrl": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-privileged-access-management",
+    "sourceId": "paloaltonetworks-blog",
+    "sourceName": "Palo Alto Networks Blog",
+    "company": "Palo Alto Networks",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-26T15:07:43.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "For the eighth consecutive time, Palo Alto Networks is recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Privileged Access Management. Once again, it is positioned furthest along in Completeness … The post Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Privileged Access…",
+    "imageUrl": "https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/10/F_MQ_PaloAltoNetworks_Privileged_Access_Management.png",
+    "language": "en",
+    "tags": [
+      "Products and Services"
+    ],
+    "matchedKeywordIds": [
+      "identity-access-management"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 49,
+    "trendScore": 37
   },
   {
     "id": "d00cc4039a1692280a1a8f721cdaed9840fa332a723f2b13f7a0b88aa09afbf6",
@@ -964,7 +1312,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "aafe168ae5f4506fea1c6e0f226b46117008bc912fc3cc13e4f346a4f905fa4b",
@@ -990,7 +1338,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38,
-    "trendScore": 53
+    "trendScore": 31
   },
   {
     "id": "ec828961060201754c66afbe6c9459826e8fe8345539e5ef6cf15b39505d7b10",
@@ -1010,8 +1358,8 @@
       "Machine Learning",
       "InfoQ Certification Program",
       "AI Architecture",
-      "AI Engineering Certification",
       "Artificial Intelligence",
+      "AI Engineering Certification",
       "AI Certification",
       "AI",
       "ML & Data Engineering",
@@ -1025,7 +1373,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 46,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fcee7fe2ae9bec9bd7c9392d182e7de470382ba1d3e33c135bb1a16c6fc312b9",
@@ -1054,7 +1402,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bfe58c7e84aff8ecf98c79899247ea6d64556ca15e39cf4d6418fa1f17918657",
@@ -1080,7 +1428,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e0df996ac6f273db772adcd0c6a29aced11263ca5501f7bfb8c120e25427a665",
@@ -1102,7 +1450,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "c0b9b0d6478ca56300f0f3dc5a30d2f23476ff5751ac0435a064272a8c56f081",
@@ -1128,7 +1476,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 54,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9d30cfebb9127e1a8e28c990e76f93dd75f0997c0ccf050568183bf171b28a9e",
@@ -1150,7 +1498,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "0fe51abb134cbd51d2b71b542c900b326fef3bc7c273694f85d6739217ccaff0",
@@ -1176,7 +1524,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 37,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e6165d538575bf121331906957e897e2c54fe1d72983645928404d116c15136c",
@@ -1202,7 +1550,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 32,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "2b0e03b05b3c7cf52d2e10a3bf220f5e777589d381109d6f64b089d9c4c419b9",
@@ -1228,7 +1576,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "42f4ad5abb3ca4288f53995a9508e7cfa4798cafde22f075994930e3d0ab1dc9",
@@ -1254,7 +1602,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "86d0619a80290feea7c7d80991bff221861d265955a36c3015fd4897685cbd02",
@@ -1277,7 +1625,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "27e0ddd319a8ec8b9c06c4cc7201d49a608808650fa574b1976d930047a4251a",
@@ -1302,8 +1650,8 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 37,
-    "trendScore": 80
+    "relevanceScore": 34,
+    "trendScore": 78
   },
   {
     "id": "3e94e4004e49616ffeefd0d8182108992ddb3af4c29342cc9158c7312b962fd1",
@@ -1321,8 +1669,8 @@
     "language": "en",
     "tags": [
       "Agentic AI Architecture",
-      "Large language models",
       "Model Context Protocol (MCP)",
+      "Large language models",
       "Retrieval-Augmented Generation",
       "LangChain",
       "AI",
@@ -1337,8 +1685,8 @@
       "artificial-intelligence",
       "generative-ai"
     ],
-    "relevanceScore": 32,
-    "trendScore": 50
+    "relevanceScore": 29,
+    "trendScore": 46
   },
   {
     "id": "cf202375dac80c7eb4350db3fd17743a60a2dd911fe18e208f6d04ac84e00727",
@@ -1370,8 +1718,8 @@
       "artificial-intelligence",
       "devsecops"
     ],
-    "relevanceScore": 31,
-    "trendScore": 80
+    "relevanceScore": 28,
+    "trendScore": 78
   },
   {
     "id": "c3546d07a659c1b23a430585394f1d91f1e91a0ace1eb4427149aa95698340e7",
@@ -1396,8 +1744,8 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 38,
-    "trendScore": 50
+    "relevanceScore": 35,
+    "trendScore": 46
   },
   {
     "id": "007c8953914a9cefba68d5cb3156258b01be3b4c13ff294b8089cdc3a14ab59a",
@@ -1423,8 +1771,8 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48,
-    "trendScore": 80
+    "relevanceScore": 45,
+    "trendScore": 78
   },
   {
     "id": "399172439712b08d5e85ae1e75783c6c3387be4fdb196acb84a4e22c103b9a1f",
@@ -1445,8 +1793,8 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33,
-    "trendScore": 53
+    "relevanceScore": 30,
+    "trendScore": 56
   },
   {
     "id": "63f16ca1b1ad1c49473e2336244b2c07ddb41de448a0b79dab4adae216d50d65",
@@ -1467,8 +1815,8 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48,
-    "trendScore": 80
+    "relevanceScore": 45,
+    "trendScore": 78
   },
   {
     "id": "43a8098492919a9dab21119aec971d71cbbd1ef5960c8b81cc39b3337a6db1a1",
@@ -1494,7 +1842,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "0ae012233e01c06a557ffd09589173cc5cf74ce8b9bf1fd361a43fa18e473afa",
@@ -1528,7 +1876,7 @@
       "generative-ai"
     ],
     "relevanceScore": 61,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "5350e096263b98cfc8e458abe539e54b61a90d40be332d0a98d8d9875dbc6429",
@@ -1549,7 +1897,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "601d2c911e310c30bea835bae8a1419e22e4f00c608f63e7143b18c3528d846d",
@@ -1570,7 +1918,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 29,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6b9c2f744d4357de2998ed0d394e3c7376e9d2d8933a42744857d90a088ab538",
@@ -1599,7 +1947,7 @@
       "generative-ai"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8e213ed2f4019826f73d19decada8d2777ab41b41b259832788449c6ef836ddb",
@@ -1621,7 +1969,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 47,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e9f18ded805de7c973fef3071c743087aaa5cc142f0e5b4d4fc3986f59264ea7",
@@ -1642,7 +1990,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fc6d45bdeb38f4e4833adff3760fe534cb70df1927019d3aed4f074ec56a0f71",
@@ -1672,7 +2020,7 @@
       "generative-ai"
     ],
     "relevanceScore": 71,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "912d0050e8fe565d6512b3679ce1e61a885fe3e66ba9af20345a0a97eab362a1",
@@ -1702,7 +2050,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d9e960eea4aa207a38bc46c815d682eb5e325ebdfeffb9699ac92f19ad8bb11f",
@@ -1737,7 +2085,7 @@
       "generative-ai"
     ],
     "relevanceScore": 29,
-    "trendScore": 50
+    "trendScore": 46
   },
   {
     "id": "1038f10920774be58967294dfc5cebae60466102712701def1d2f291415e61ca",
@@ -1773,7 +2121,7 @@
       "generative-ai"
     ],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "79ffda0a470cc0fd1c29b2addf5c65e9e86b4d66e85a9e13fb9d6008e948e470",
@@ -1800,7 +2148,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "791da6f1eca9d44fa9da65b081970082c35b596df0d64c3e787eeff05b149644",
@@ -1826,7 +2174,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "264cc0e36820b485d1c10cb3584fabe716e3249f83763a11186159184e736991",
@@ -1853,7 +2201,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "f0c80d5858e06e7593e650f951fc7d84fa419a68e1f4f466f773281c6c1416a1",
@@ -1883,7 +2231,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "2b44ac8d0a52ce9fe00c2800adcc48c1a378b3d1b6f776b22aaf7ccad9610208",
@@ -1905,7 +2253,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8988f05b23400e8d3fbd3583c409d290f10670c7719b1aa8d6c8d203f062eca3",
@@ -1934,7 +2282,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "988202d2feb5743dae62da6676c5e85c2d531e20a98b1301b50cff6c1bd975cc",
@@ -1963,7 +2311,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "833d5d33c61d3b3b5d1624a3f6c0cb620fe20049fdbc42851002d27c2c833f5a",
@@ -1996,7 +2344,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "f75803cafe6ee4fcd06d7b79b71d8b7edd92241656a4ece7c27e7b1f651b60f0",
@@ -2024,7 +2372,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ed6cb319ad856dfd2ce738ab807d2266ea138e6be6befd7aedd84613d0cce1cf",
@@ -2045,8 +2393,8 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45,
-    "trendScore": 80
+    "relevanceScore": 42,
+    "trendScore": 78
   },
   {
     "id": "d26f3b9150349619663dadbc0d64f70654fec9ac9f3613c9c2a82ad8b1e0007e",
@@ -2080,7 +2428,7 @@
       "devsecops"
     ],
     "relevanceScore": 43,
-    "trendScore": 32
+    "trendScore": 37
   },
   {
     "id": "ad7396463092f2b221e8ab244af2e43aab958163a26c2149f54d22f5a28be300",
@@ -2101,8 +2449,8 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30,
-    "trendScore": 53
+    "relevanceScore": 27,
+    "trendScore": 56
   },
   {
     "id": "585ea363f084ac16178f201c1fb0bb8e6d4022bb3caad3f5d94111fc63508b0c",
@@ -2127,7 +2475,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ba4956958d93842be1766c6c72629b9e03bb51c608a5a04687460e06ac3509fe",
@@ -2149,7 +2497,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e52b975157f80c7289814a740eccba35d0ad4fbbdd0e904b3d8b1963a5247892",
@@ -2177,7 +2525,7 @@
       "ai-security"
     ],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e8fbd857a8b6b0ff954ad3e75e49798e7f2c1786eab173af672f7bbe77673372",
@@ -2205,7 +2553,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "dba368836248684835974ec2c70acb5221e0b638ab12426cb1fce37aa9d67d70",
@@ -2231,7 +2579,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "62f3dad2c0ca74beaa87691dba380971a0c59155e05024b7569276fa5ad88404",
@@ -2257,7 +2605,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d65845e1cdd8e011967198f9c68a4e043cfbcd46e244dd8b0299a41c36342457",
@@ -2313,7 +2661,7 @@
       "zero-trust"
     ],
     "relevanceScore": 44,
-    "trendScore": 53
+    "trendScore": 41
   },
   {
     "id": "6fb95eceef2a89d96948d566dbb004281ae2f9011c0a0c096d8652b0bd52402b",
@@ -2337,7 +2685,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 72,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "36db94f5ea6e3c19550daa40ea06d678add859b7f350d5dd620634cde2917eef",
@@ -2360,7 +2708,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "2355d4d8f657b47fa06127f2d4156b4e8cc8e448bef3e992f6f7901a4310b919",
@@ -2382,7 +2730,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "cce4b58656a79643b2393f1b68ee10e527ca85c89f1d480a02ff908bd6279508",
@@ -2415,7 +2763,34 @@
       "cybersecurity"
     ],
     "relevanceScore": 58,
-    "trendScore": 80
+    "trendScore": 78
+  },
+  {
+    "id": "766783a84c4b55e05d8a6022435c562bcd566429660e4815f7f7ceca9de83924",
+    "title": "Palo Alto Networks Brings Continuous AI Defense and Prisma AIRS to the OpenAI Marketplace",
+    "url": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-brings-continuous-ai-defense-and-prisma-airs-to-the-openai-marketplace/",
+    "canonicalUrl": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-brings-continuous-ai-defense-and-prisma-airs-to-the-openai-marketplace",
+    "sourceId": "paloaltonetworks-blog",
+    "sourceName": "Palo Alto Networks Blog",
+    "company": "Palo Alto Networks",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-10-23T16:32:14.000Z",
+    "discoveredAt": "2026-10-27T12:16:58.958Z",
+    "summary": "Palo Alto Networks announces that Unit 42® Continuous Frontier AI Defense and Prisma AIRS™ are now on the newly launched OpenAI Marketplace, making them directly available to OpenAI’s enterprise customers. Threat actors are … The post Palo Alto Networks Brings Continuous AI Defense and Prisma AIRS to the OpenAI…",
+    "imageUrl": "https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/10/prismaAIRs_openAI_unit42FAID-scaled.jpeg",
+    "language": "en",
+    "tags": [
+      "Cybersecurity",
+      "Products and Services"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 43,
+    "trendScore": 78
   },
   {
     "id": "04c9a79171509841680f4a606cca56bb6991b176555c0ca16446096bfe1d7abc",
@@ -2441,7 +2816,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 47,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "686dc6c8628cea8582bf7d919eaeb2ccae5d468c592ddf4dd82252452aac11e7",
@@ -2467,7 +2842,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b03ac20209c1fa007cb3bf7a2c6f7df34c1bfdd6b7f997a2444fc456013c5037",
@@ -2498,7 +2873,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b6d7d4e92f35af71c9e72744cf1a6e6feee266446aa8804197384f838d828eda",
@@ -2524,7 +2899,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "cdd32c2ef551ecccf1d77eee56cb04093bf9be3b5cb2d51211043d68f8ddae36",
@@ -2550,7 +2925,7 @@
       "devsecops"
     ],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "cd372df9000bd84bfe647e2b020c287fe98a1ec2f96b696adadf16cb6e3f203c",
@@ -2575,7 +2950,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 28,
-    "trendScore": 50
+    "trendScore": 46
   },
   {
     "id": "ba3749ef980b3b5303bef6f1bde3dd8355f473f96cb6d404da27e8d682d6dc0c",
@@ -2601,7 +2976,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 61,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "64b0ac9d140d11671a4acbe942ade27af436c73b5627240eb087f5c95f9a86d0",
@@ -2623,7 +2998,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "55d5c18d6220943cad99a1fc9dacf098179dccdc6fa751eeda76ff6568c68ab9",
@@ -2646,7 +3021,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 37,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7898cd2e7e2b2a029007454eb7ecac614c25f8ec07419c32c3a58b76c1720fc0",
@@ -2677,7 +3052,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 25,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "dd50b332640ee11c27801fe09380c85d58001d56685201287980714af23113a8",
@@ -2706,7 +3081,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "58565d0c36ce8dfce46f2f8679cd16264cb5a39d1c961dc9fd5bf43c1d4183f1",
@@ -2733,7 +3108,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "3729c69a11df1153fcb43f1bd84a6d7fa530122d006ab3cb6c130fb9f05af678",
@@ -2755,7 +3130,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "0f512a94bfdcbecd072d481fdd198c4aa8c5865e2861ce576d7f8239ae852200",
@@ -2779,7 +3154,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "82d6126d8a31acc03c122c39e5b6d83201fd65a6c84d66cdc471d470c84efd69",
@@ -2810,7 +3185,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "43513002b0c380e9582f3a3c90908e230226b0b42421828d2ef45ec24bac83df",
@@ -2832,7 +3207,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "529bf30579247550f5a53b49976c9ef964c516a0042358a66485f9ee44982d62",
@@ -2854,7 +3229,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3069acb526ea6595a7f84605b52d4054cfca8d52c47bd2e09548faeb1e532616",
@@ -2881,7 +3256,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 57,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d047c8ad2c521d09322a483a22e080cf3f16c97a3f16d9337359a4a0b9752dc6",
@@ -2906,7 +3281,7 @@
       "ai-security"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ad858d5150de79be8c33cefaec156e3e708836a60254460d2836d00fdb675d8d",
@@ -2936,7 +3311,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "90e35913e5ba3eb8b4a92f72a9102af196230e962dff7b01553c19cb66fcc9b7",
@@ -2966,7 +3341,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a6d2b02a9412fc6611cae6aa98b7c5d75a8d85142090a80b16482c087bf69af9",
@@ -2993,7 +3368,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "1a543055a02f9816518cc03996b6a0ed89e5e65a847f479103d96112c902ed21",
@@ -3016,7 +3391,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "31f78cf69e17adf1ec1b5b5925688e78e86ccf8af4495f868a05cfad4e3693c8",
@@ -3039,7 +3414,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "4acabd7c4cf5949c5a50a41c2db021f0915ecff47b952a0f8a510744b7fd9c03",
@@ -3060,7 +3435,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "59d362808f5ba999d4ce51dd9b807b8a9a744ade57da5f838a6f00018b8ca8ac",
@@ -3093,7 +3468,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8b6a8a14bd9443e0334f756ae0f35a445b32e97377d09eaf1806652bf01b1618",
@@ -3115,7 +3490,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d6172869a6c9d34ff449060a1b7c64eed308f91d2c3f1c796acd6cd1e662c437",
@@ -3140,7 +3515,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "723049a74bfe3dcacc73e32a3306d55dd0083a7ce972f8bb4348e4c332e3db07",
@@ -3166,7 +3541,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "22ea855070920cd97ffd7882749b10329e2775cc7e06c7966ad7915fef445e0e",
@@ -3193,7 +3568,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7937df720c2cd039dc034db93fb69c7a1b5c13e6eaf0afab138ec991e7f93675",
@@ -3217,7 +3592,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "2de76ca2a94d7b0f9e7c6a972f3a070b33a07cb279cf9f0a2cbcc8d7195a1e76",
@@ -3245,7 +3620,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "c8b85a504961daad28984083a6a5faf6f8278ebd75afae1ccfb7e246825ba71e",
@@ -3268,7 +3643,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "77282c79df25665fe4f3c9dd560970f7c1c13fb9012ef3895dce7fc81e50a430",
@@ -3296,7 +3671,7 @@
       "identity-access-management"
     ],
     "relevanceScore": 29,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "f6217b05d3d150d1cc6bb4beb755691d54a6b746d49d38690dd9a2f2abd52ff3",
@@ -3320,7 +3695,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "65754e6105cbe81dcfb2c7591323fb725c4025399e194c57ab47f5da3f0df06e",
@@ -3346,7 +3721,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 27,
-    "trendScore": 50
+    "trendScore": 46
   },
   {
     "id": "9779462e79c736423510207807111a35985e2240107d1733bc0adeaac4aeadb6",
@@ -3369,7 +3744,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "662e68277c6361dd4b95b761b04d890163e1d96b80fe48dd86b0a59e4d498261",
@@ -3400,7 +3775,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "63d6bc3687b50b5c1b6fba6b0e629d8a38f0ae7f68650d5e0a29456373f1fba0",
@@ -3423,7 +3798,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 68,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "746971a2de27e8f46c5fd1645a56087759faf999db3057dcf8cff90f0222cb7a",
@@ -3454,7 +3829,7 @@
       "agentic-ai"
     ],
     "relevanceScore": 53,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "610efe4e9ad2d36f8abe00f020a56f9f4a7acc0682ccd513c7c72f6e97cf4252",
@@ -3480,7 +3855,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "dedf2896ecdb4ab528c7c01cd73cc3868fc30294c642b7ac4eb28f7666d53e7d",
@@ -3508,7 +3883,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7e20e83fa95e1e9872cde46625024d8bdffd7c3e85dd15ade52b95b581baef48",
@@ -3536,7 +3911,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "814f799aa1bfb34ec2e82f2b210f68e816fb9931ef84714fd1cd8c2c12c638d4",
@@ -3559,7 +3934,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "49ef68b1dcfe2b72844254cb011c20aa21f7c24e62759bd8d5b49f329f4b07fc",
@@ -3588,7 +3963,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d99ba89c8964f8cde6f533ec1b99a8d8c9747d92184cb870c77945106ab5b4b2",
@@ -3611,7 +3986,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8566195c9f888e1fef6dfd98cf186649208cf774c7e2c58fadde57cb69ec3324",
@@ -3639,7 +4014,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 28,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "d6886caf53962cb242055f894cb144e555b946cf5cdb7b076dc1c37482e4a2f8",
@@ -3671,7 +4046,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "2f32a876015ee666ac58babfe59e8a42856fd016371e4b174216862012f7528f",
@@ -3701,7 +4076,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b924120205c1262cee3cbc46bb65142394ba973d552488891f7a81b16ac80592",
@@ -3750,7 +4125,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d187b4f8468a50516cfdd3e7ab556527d14799c26c9f77b52a6bbdb53298ada2",
@@ -3776,7 +4151,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "cd140a83e7b004cbb2ce3ac66dab79312683a0aa31c52148a5e472a822220602",
@@ -3799,7 +4174,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 53,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "dcd4266a8f995cbfb1097db8c802fe1111577996cf1169043d30a4e05344a606",
@@ -3824,7 +4199,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "f01ca1ed8c7f24b97cfa209839ebab43c9e48584d118c3cf3de7764749922515",
@@ -3860,7 +4235,7 @@
       "generative-ai"
     ],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d7540318ae57b2cda5db356e6ba60c8d52919b6efdc2492c5c9c488d46447606",
@@ -3887,7 +4262,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 47,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "af6992a3f135680d7da391dfad682a32be6e836d294fc28686a4005607011037",
@@ -3917,7 +4292,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d6276a425b1c8d3eb691ee78e31eb6946e056af8917372a92e331f4d220ba0f1",
@@ -3965,7 +4340,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 37,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "cff9f24870c2b039f5937e8b67ca21d74c863042c85dcffde653543e379a5057",
@@ -3991,7 +4366,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b9e640e00c608cae6993ab280fa0408b6cfe578a7e384e614274128217710a6c",
@@ -4019,7 +4394,7 @@
       "ai-security"
     ],
     "relevanceScore": 55,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fd5513dd5d436289be309ec3e2b8e9f4cad55f04a2cdbea38297e17b7225c817",
@@ -4042,7 +4417,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 52,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9142aad40c3dc2932be198194d1d2104a129232e34b31fd604f5ee81e17b4c92",
@@ -4068,7 +4443,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e32d685b24b4b035d7842fa11a09068ab771f66eff62ce9c0a834dbf926cd5e1",
@@ -4106,7 +4481,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3c95c0f04e66e1214444d1c5eb7bda778e5061991c7b6f9f99cc8a52904bc7ea",
@@ -4128,7 +4503,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "147faa697ca744457def1e10bc787a013346ed9f72c01cbfa63b500bc1751b88",
@@ -4154,7 +4529,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9449ded1b3d21baa82e6e376dcc0671e71060d47dcd15cf58165ef85a4aaeaba",
@@ -4183,7 +4558,7 @@
       "devsecops"
     ],
     "relevanceScore": 49,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "c286dddf8ae805708ebee20caea9249a7df63432b6295b3caf4a6cffbf2bf8a5",
@@ -4217,7 +4592,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 51,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bbe8759f3c898013e6958b55f3024fddd8ccd1f40a95037aaad2c828060c51aa",
@@ -4243,7 +4618,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fee55af35108395051e6f85220e99b33137def14344c017660ff1170bc2c71cc",
@@ -4269,7 +4644,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "89c43e5d413adbb4e67f8d9a6f2228eef89b5a35ee1e3a41958a55f49034ea53",
@@ -4291,7 +4666,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3c69dc4ed34903abf1374e597a914557bf4c712def148d6754e29a505d76f514",
@@ -4343,7 +4718,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "951b3f510b767f2bb799798dae4a007aeac795b8bac7be85a8b54fbcd8bafab0",
@@ -4377,7 +4752,7 @@
       "devsecops"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "5dc62af2c3e97dbba9c36436287f4d45f27d00f9fe43bec4fdcfc903fb9f4a1b",
@@ -4428,7 +4803,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7d13ce0e971c17c77553a630ca8e56a9e59c621bb650ab0a1c67b50a738d277f",
@@ -4457,7 +4832,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bc7ac91bf56a650abc6e1d8b94f7e6ed99d5c166cee7eab82c01bf4db077d702",
@@ -4480,7 +4855,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6f676746f765de6e990188fa5053c37f1ab9ae1b510645fb827f6dfa57919a06",
@@ -4504,7 +4879,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 68,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "618e56b075c1a253f0cbc53161008534cb6c55725ab2ea57affeeebd51e66a58",
@@ -4535,7 +4910,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "692faef8389b6c526630a112a7f3b98264989bdb42ab2c5bbe3c57daae4360a9",
@@ -4566,7 +4941,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "849ae7e1ed33fdcf1980afe134a8a163394f07f160d7b02fe6cd9693e9784013",
@@ -4588,7 +4963,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d5f4c58d5a5aea2a4195d4e056d2df7ae9f7545e6e737ef34d6abbe637ed80da",
@@ -4631,7 +5006,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e23592307494b4b2f0960213444e8661fb5ce6c3c1d13dd1eabfd8aed259b8ae",
@@ -4654,7 +5029,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e323572e755bb24ff392b27ba96de9a34fb7fefb226361c36fea53597bc77cef",
@@ -4675,7 +5050,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "32f9877af281566a5f6e853ce302aa97a68307f1f9ba7e88c22d37d71a342060",
@@ -4707,7 +5082,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e1e794379eb1a1ae8bc72ca6d7dceee5fe02eda528f405d79e07f38beeeec212",
@@ -4737,7 +5112,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8a096cda3c56aa5154db4bcd436876e8fa38c0c15f9ebf11cff9027c9a35bf6f",
@@ -4790,7 +5165,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "edaef270a0b7f63084ef04e7c374461372705b82388c61fbdc48b26c47104e47",
@@ -4815,7 +5190,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "95bdbfff8769387739b8d2cf8ba3ca71d755abbdee6ff18ab7d74e786f5e28a6",
@@ -4842,7 +5217,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "44a0be61ca3594a74fa5a6710333f58cb443be2b514d3a997a0269c47783ae5f",
@@ -4893,7 +5268,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e41b3f6dea35da7cc95df93eb644732dbea8cd2a14fa06c31a186c608953be4f",
@@ -4919,7 +5294,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a40452fff352ab8baee8eed343d1c687e612c0e7b56c8b0c03cf0b74abf08023",
@@ -4969,7 +5344,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "298ab808d89166c7be15ec004b30922b92ce45f44465e5b21603dc1ba62a8227",
@@ -5000,7 +5375,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "2576afbde9f42cf694cb6ce0c91c48276040bee6d1ea68151698c8ee7987a7d4",
@@ -5027,7 +5402,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 58,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "36b6bec743e2bdf352207c8d54925b4d1921a52d0be78fc3fbc1505ea4599f02",
@@ -5053,7 +5428,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "77ec6ad66af3dcc4f6130bd10cc8b477981963b0cce375dbf884e580bd56672c",
@@ -5079,7 +5454,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 47,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "5a196014b076e4d3360fd4645f447b9422aeacc2551d1e70e581d12d227c3efe",
@@ -5104,7 +5479,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "13f72bf8c14aa9230704d5a001812d89e88f82fc0c55c8c1a83e9bf2436e965e",
@@ -5130,7 +5505,7 @@
       "software-supply-chain-security"
     ],
     "relevanceScore": 54,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fbf98cf12bcfc7814f1604b2cb0ff6040e8dd77122b512b5d33d15fa3c392fd0",
@@ -5203,7 +5578,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "65d1f116dfc06401518006d219285303f0dd83a05586478879cae7814e864371",
@@ -5233,7 +5608,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "145aad8079be1c17be98f1d0185d42207d80ff629efd8baa0416edc72115e5cd",
@@ -5259,7 +5634,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a92f3bcbc27860275b65fad705286749a6ef99c3a6792883707299475a76be3c",
@@ -5290,7 +5665,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "59a7ce99a8f3de460e7be4696946538f975127bd0b91e7c315ae264289821b46",
@@ -5312,7 +5687,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "69d00a9d0f1bde123c49eec1f8901bcde93dd5065c5eb168ca56e94831b2ca8e",
@@ -5339,7 +5714,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 47,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "63db4c1bb2e73d0cc50d1a122179d596c9e87afbb74bbde2b1865f47040467e2",
@@ -5364,7 +5739,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fc6037607ea89115de0ed3e621986eace25e5be85adc1951423e98cf33531595",
@@ -5393,7 +5768,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "56f9da4ed044d3374ff421dec4eb631a0961a09ba63926204c0f123e52d64877",
@@ -5415,7 +5790,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "921857135ea16f753ca581ff154df7c1869e0136240fdfbb8bf8a83b83c4ea0f",
@@ -5437,7 +5812,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "ab9eb1f1035d432385b72bb863d394c21690f25cfab0bad1374057d1da528edd",
@@ -5463,7 +5838,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7a28e3e30f88148fd1a152a3255fcca99830d9980261c693f91802b58eed0604",
@@ -5494,7 +5869,7 @@
       "ai-security"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8c2f7f751d6e9901eefcbd413561cf8a731f4eafffda77e45f145120baa90538",
@@ -5519,7 +5894,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "44f6ff9d4a47c985250cfde5cba12419ef738951281b2ff7f688da1251575e20",
@@ -5546,7 +5921,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7067eadac3a0d563c982b5debd0a1c61f758bb6e113e3ffac4483cbd50cc495c",
@@ -5568,7 +5943,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "91d860b64340521c9ffe6468dcc013d73a0133808dc2f5f1eb1588d913fd0fb2",
@@ -5606,7 +5981,7 @@
       "devsecops"
     ],
     "relevanceScore": 43,
-    "trendScore": 32
+    "trendScore": 37
   },
   {
     "id": "859a2ca12c0c52e968814d9cbf280ba35e8df5b726232bc596b7a24f0694952f",
@@ -5628,7 +6003,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3b6c0440221180dc4cb5c9897479861bf3eb3a84a68b8816877f7e7090eb9ef7",
@@ -5652,7 +6027,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "5d73563616a56cf442b2423b4785de12e0108a71b727530d8c354e6f371f3942",
@@ -5677,7 +6052,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "0145794ec134c4491eec453012c851509e36323a7a333cc55ac6f294e575e8a2",
@@ -5700,7 +6075,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6ce711ef5d9be5fed82b3a1bb4434462d68e2e33bd13bb53d3a95da320f889a7",
@@ -5730,7 +6105,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "91f01888d86d2fc0281be0d31298fe3047c88b484caf95779fe328f64ce72c14",
@@ -5756,7 +6131,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "729ec851083006e3daea9599a331ad68684c544fb9da2aec1d8ee1a0c6b5abe5",
@@ -5782,7 +6157,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "5ff1dd07c5c834bcee5aa5259a351adb637a5b181b972bcfde822a4f08f18cf4",
@@ -5804,7 +6179,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "856c26ca4c2d04bcedc9cb9fdb44809b32952d1d2e61bb97c33ffc0e2dda8f57",
@@ -5825,7 +6200,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b868aa60a7ef60de689fdb4636c60e78107f595e501d5de1123179c392b67500",
@@ -5851,7 +6226,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "2b1381b5788ddde481e0a2014bfe0b4b5e5d96422adceec0fab81d3c9d9484ce",
@@ -5874,7 +6249,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 67,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "89fe6cfc4a1825ca14770059f03375377f7b11025bbd3db85daa455e6b6ca3fe",
@@ -5900,7 +6275,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "90ab632cdfa08237e34e3d9c792530c8fbb49407129b34c5182967afc11d5ab3",
@@ -5929,7 +6304,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 56,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6a9049e6c5c36ac60ed83d321fbeddb91a1a52b00a1914fd5ee2a0e003bb2ce8",
@@ -5952,7 +6327,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "59165721a694c21eafdf02f6969fc3934788ce18d00614b1d94ae73f9c63672f",
@@ -5981,8 +6356,8 @@
     "tagMatchedIds": [
       "ai-security"
     ],
-    "relevanceScore": 92,
-    "trendScore": 80
+    "relevanceScore": 89,
+    "trendScore": 78
   },
   {
     "id": "26c197a56b2d9d009917e76019b1ee3bec5cb754b55ba7d2ab334d419551f82e",
@@ -6020,7 +6395,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 69,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "885c3b095a6bf098031cd802d528bb5f5fe8162177ace581ef252e08a2ee8afa",
@@ -6044,7 +6419,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a1e9335d7aa9404ab5cfedb84f942fbb3ea2e2d40f2fc6a1d326a8fd03944b14",
@@ -6070,7 +6445,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "db154772ed8e4cd194cc19bb9960cc0f3d90cc1082ae3a04fa55e981e08df943",
@@ -6093,7 +6468,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e1697c00df92fe0f8830d2448637ccbc40a1f9e71318a298f318d4dbb5333ad0",
@@ -6120,7 +6495,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "2afb970511106aeeccb5d74f4192c6a33ebe8f95bd11732f0f1d94271d919832",
@@ -6147,7 +6522,7 @@
       "ai-security"
     ],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6afb72d6c331acd6398def6c880317efc7f73707262f74ce0e2d22a00ee386d1",
@@ -6174,7 +6549,7 @@
       "ai-security"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e65783a054240febde2bb8a425d79f9b517846dfc6a691a757b00f3e7c4e0a55",
@@ -6197,7 +6572,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "693e4b35400c07efd08365707012a42ef9715bfdf773068857602b0e4c58b6e5",
@@ -6235,7 +6610,7 @@
       "devsecops"
     ],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "32694d7b05454b04f0254d9a3e06122991e4e3c32d3c13961b5d9aa7e763e3bb",
@@ -6256,7 +6631,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6822fece1c79cc899786a2c23cf3fd1bfdd1f76680ad53b15841cb666e2d409f",
@@ -6292,7 +6667,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9d349a6e395496ea5b4b054c250d1a2b13fbec3bf44c1e153be029dde1f4c7c1",
@@ -6315,7 +6690,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "cb2d9eae775325ba2d47ad9d78f60aaece88be1f4a0ec44c55ad0f8bdf4aedeb",
@@ -6349,7 +6724,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bdd080b85a505ceac5ec38925e9d7ce53a712650d63d9c999a9041a85c39e7f0",
@@ -6371,7 +6746,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fe2b50db8dabc11e230271d542a5653081414c4e15567dca46202ba3da24ae4b",
@@ -6442,7 +6817,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ef2dbed529b94616908df200955327e596467e594615bfaa30cddb59708e4277",
@@ -6466,7 +6841,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "22d0c61a1535ae0793c779f80d1162cf5c1ce826f2722837a64ca5b632cbc159",
@@ -6492,7 +6867,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 56,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "37c3e5fa7177b2714e52b34fb0b2ab682ee63a433ec7448a6df8b8bb7457635d",
@@ -6514,7 +6889,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "ea92da5c121ecb4527027c2b13ff73af702f93ebcad0444b648bb527336561d3",
@@ -6537,7 +6912,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 50
+    "trendScore": 46
   },
   {
     "id": "8dbb0ccea4784e45668c15c0643294e8b1a6d2280350040e91f9ad73252011ce",
@@ -6559,7 +6934,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "6dfadb6253fd1417d489e9ecaed6c6d7690ffd8037ed439be5cbfeb133d993e7",
@@ -6583,7 +6958,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 49,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "64ddfb139fec8a1cb4597ec213ad7265ff7b827324c2efbb180615bde9f68d90",
@@ -6606,7 +6981,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "48bef8124e9bff1ed6e2e1f92d461a861209b81ef3f20a1b4b9b8e84a8a1d5d9",
@@ -6629,7 +7004,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fa128ec9ef550ac9f9876c20b3a054f9baf205768dfed03e7001fc0bd0a7f5fa",
@@ -6651,7 +7026,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6320f1219c3c163071ba4e5dd8303aff42d24cdb462c45f0761cb89a65370866",
@@ -6701,7 +7076,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8d022e6149ef8de28a4ed5fd96b262a4172a3c8c248b6484692cb464292e9f3f",
@@ -6722,7 +7097,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "91fdd3dc83ae2f41fe668d7ee01e186d6f9108e762419c17af0ab5f53175772f",
@@ -6743,7 +7118,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ddbac8840344d08ba45cf016a072c3d56da1695abc9aaafb6d9ebed00e882d18",
@@ -6764,7 +7139,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e113e7d3165f48322958ea351a1ad68e666239eba2ff7027ac1fbd7c77061254",
@@ -6787,7 +7162,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 58,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e270f5ba4688033de075906df89466646eb9f009fa8bcee5c8b60ee62cebab43",
@@ -6811,7 +7186,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 54,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "f8d60c74713415d55864857a17898620a321ba76fa90c683d8663374cd5dbfa7",
@@ -6832,7 +7207,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e7b8ac319d53b4c93efe6f67fce76e9d9db335bed868844d55950cf76cc5fba7",
@@ -6858,7 +7233,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a59cc9499bb94a9a0ae0c62abbc2eeaa1a297f5e08da6364d6739add6fe96633",
@@ -6886,7 +7261,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "79ed5d102336112432b1a0b843ffb0efedebfb401bb45e06b85a6b29119f628a",
@@ -6912,7 +7287,7 @@
       "threat-intelligence"
     ],
     "relevanceScore": 29,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "806cbc442e276faa926bbe2cd135d5dfb1c2533f66fc045d449e540430391246",
@@ -6935,7 +7310,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "86cf577a5729c6d430f0ccd2183d6336a6cfa38a54cefe2de848dee5d2cb2711",
@@ -6962,7 +7337,7 @@
       "ai-security"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "695641ce96a702ee2898343e4f847286ca9e296b2c5768d803cf59de29ec23fd",
@@ -6991,7 +7366,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "946d9dab53ebb82c84c89d5f1febb66039c7df61effacefff5cbe7532ed5138a",
@@ -7019,7 +7394,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 74,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "70cbed806b5b38bf6725a3018ead55f8023c090c9e3c6131242813fc9b96ec78",
@@ -7047,7 +7422,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "011eb73686ffbc98984987689dc7e8aaf0ba627e9c8e770c8f195272081cfd8b",
@@ -7070,7 +7445,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ead234cf37ab93166a4460e01cc0a8fae3e2a2ebdd17f7943bcb141a2ebdd3a2",
@@ -7096,7 +7471,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e94b31c7268fb7f3c8a1a2ca2534bf4153e8b5043d287db6330ca0f46e5d8d7e",
@@ -7121,7 +7496,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "8d421de1e6916ea4f8cf68332a9b7e111f3b837ee5c888514919be3c16c3b22a",
@@ -7147,7 +7522,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "2199a009588a613be6f71a1f396702eaf19ab377b887d673e812dc9803718337",
@@ -7175,7 +7550,7 @@
       "devsecops"
     ],
     "relevanceScore": 74,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "f934cb40a0468190f3659ee07dffb355c175977d8e72575ab4f350fdd3189e1a",
@@ -7202,7 +7577,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "4b29e90624e552092b0464df4f463ffff00d541df07ea4129cc689f88d3eced1",
@@ -7225,7 +7600,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6d89e1e665db083f033744fa5d6608b57046b2ce4b78d1794c1588500a516d36",
@@ -7248,7 +7623,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "11c39201647a0364d85d6c2fcc43e1b02eead53d3b4533b4d577240150b0fd07",
@@ -7302,7 +7677,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "34fdd362e42bdd58ad81762e1a844cf20901b73e7f6e74d6cff4407a5c938d03",
@@ -7329,7 +7704,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 47,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "14423eb5946bd5d1ae5f92674c9bdbb8286842ae21185c85b650054841649a95",
@@ -7356,7 +7731,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ef73bf2ace8ac67192910f29383fdaeabcc1f1c3f55e1ee321602bf2faa4d9c1",
@@ -7377,7 +7752,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 37,
-    "trendScore": 50
+    "trendScore": 46
   },
   {
     "id": "bccd85bd7921db35887b8c388c5bd4145db6d2391bb8c77d24cf5472d0c71ca3",
@@ -7406,7 +7781,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "584d35c71235748c5853ae0ee8facd11c2557a1afe12b5bae233b2cc206ecade",
@@ -7428,7 +7803,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "72a27704b2a4449419d763b30eb71c6fcb683c2a2fa9b82a513a4ca76080cc12",
@@ -7450,7 +7825,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ea6b3d531b32228e5717b1cf0fb7f63d1844737321b4195e984e5f87c45974ef",
@@ -7496,7 +7871,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 29,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a3aa0a660b5b0ac51c590c2d8b9f7984ad981cd7241b0b3596824bf3187a7963",
@@ -7522,7 +7897,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "67395bc5a8144f49b2084c488bc211764e99a5d84eb4fcfcd63376bb1da2c426",
@@ -7576,7 +7951,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "0adec8d1b586954999f255608d1937da2305d76440854ac4fe591f9fc30cfc04",
@@ -7599,7 +7974,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "f9bcb21e36ba69d529ddd09a48b237d664d5f8f84f5ba561fd64de59c2c22bb1",
@@ -7621,7 +7996,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7e5477cd18438e7acd9c01022d77b49a4bee93a8d72665e5068d3b862d3c646e",
@@ -7643,7 +8018,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "002722a6317bec36f955709727c028ad1191ecf2fbe1a04a3e83adc71a94c392",
@@ -7667,7 +8042,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "632655dcedb656af527d0fdedd80f07bee11cce8aeef6b5312049e49c011997f",
@@ -7720,7 +8095,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7e0c66ece376d2ee4cd74f5b0dea75859aec1098bc4a47452db8b42b5dddb659",
@@ -7747,7 +8122,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "da387e24567a952837226a6bc833145fae8b50e075b47df6dfa608452fef6baf",
@@ -7773,7 +8148,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "130b99afb50dd1d71a0d59ab18a5ca8ac01a8d62dd1f7ce62323e51090f17a6e",
@@ -7800,7 +8175,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 48,
-    "trendScore": 53
+    "trendScore": 31
   },
   {
     "id": "d2a2776b8cfaa901bcb963a436330109f92a9263f899924821f8f2be987ec2e3",
@@ -7823,7 +8198,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9182926b59efb627e61d12e3022536766b505e565127c7458fce6719e7668c9f",
@@ -7852,7 +8227,7 @@
       "agentic-ai"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "71337cf68638cffa3aa2cb006c6cff33374c73035a241b67b48822599108aa27",
@@ -7879,7 +8254,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 58,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d9947260fbd8cbded47846b3b1a02d8dff6ef488975e8b7397a4d6a7d9755d96",
@@ -7900,7 +8275,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 29,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a7c836b591fb5c91aca8a83be3e38e01f1a56f4e454e98bf4752ce238dd71d48",
@@ -7923,7 +8298,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9dbc1788a3b16b3ed96304910b67c6fff8aead1b8afcd1ee212d707fc8fe2749",
@@ -7945,7 +8320,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "dc65e8821342889ac6275d9b31a6e5c464ef41348fb4a44f61b409307919413c",
@@ -7971,8 +8346,8 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44,
-    "trendScore": 50
+    "relevanceScore": 42,
+    "trendScore": 46
   },
   {
     "id": "0a36e1ee65f5d2aa8625d16226321035f27ecb0e766464cefa5c9437ae3cf0a3",
@@ -7999,7 +8374,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "650a048e79be7f145a93f259a276e777a64458a02de6787597a4f68d44089b7d",
@@ -8028,7 +8403,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "c467833b475c3ff9e2913b062ff963514461e45eb030fb8374c5fd4bec5e944e",
@@ -8067,7 +8442,7 @@
       "generative-ai"
     ],
     "relevanceScore": 59,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "320808c3a61b2908c37ba43b0fc456d745cb80378c26a2f2077c2a130350a0a9",
@@ -8090,7 +8465,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 53
+    "trendScore": 31
   },
   {
     "id": "2f762f20ec35fa407d607dd98c5daa95cbc9ac9612e60203cce040cbefba66b1",
@@ -8114,8 +8489,8 @@
       "digital-sovereignty"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 54,
-    "trendScore": 80
+    "relevanceScore": 52,
+    "trendScore": 78
   },
   {
     "id": "b068ad9c2ee5523db794354b3a5dc02cd3db4fc94c718df6249c824c9c5dd094",
@@ -8141,7 +8516,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a2d65710e20f63dc4355057f947b055945aa6728acd4b8af31e32cb541b01e67",
@@ -8168,7 +8543,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8ccd1afa7d703bd91336bc56edacf7afc6fed4e7a01561770f12e084539e007f",
@@ -8196,7 +8571,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9854cc575096db6c57016525910e1353ef35a2aca0caefda5ff93c6b92ff4044",
@@ -8234,7 +8609,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "41ada449c348308462af326376ed7aeb364d09e9e0e0568610e4e3417f81d794",
@@ -8256,7 +8631,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "64a3076b94d5dad5f5bc934c7a78977c67e9709a1947a039944c0d2e621680e9",
@@ -8285,7 +8660,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "150e2eb905f3dbf4143f582aef932f9d7937e3782511719ca29f359415ad59d3",
@@ -8311,7 +8686,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 29,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bca7a0324ad68e4fe6e8b232ee0cd7ea780205445710b32663cba1cf99201913",
@@ -8335,7 +8710,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "1cfb6291fa158d05a5bad0e638547e0ff07dabd8e5700299a43b136146616242",
@@ -8356,7 +8731,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "62b258a3a04f8c72bb101d9e0ad10da975a902e4a95a74c02b22af28b4fa0d34",
@@ -8378,7 +8753,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 51,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "88a351ec4264a086fab5f597e0a90a66416159ed75db0e3ce2590fafe978d391",
@@ -8399,7 +8774,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9ead06592da08e3029d72ccce7891a0db64a3eef50ecc8adae1415ce99ccb771",
@@ -8427,7 +8802,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ac39ccda399df278787ac427ad8fa1d4179dd2bcef7e8494369b6735cda152a7",
@@ -8448,7 +8823,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b92433bd46f3a0c811c651b84e717edd01d0c43ab25f1280186b60a09bc6ecd7",
@@ -8469,7 +8844,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "f5779f2e8289f6004693df94cf4d6be9325a050a1300512a2bfeb64944625982",
@@ -8490,7 +8865,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "11399fbe3d99cc26df84747224bc8a51753a1f333b6efbb13773272c3680d4c7",
@@ -8518,7 +8893,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fa2bb646c4b88b13d0bbc5a9ddf560c19afccd63feb28bd4a2ac5f6a0c100f9c",
@@ -8545,7 +8920,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "4adb94a84a67ec0181f89591815e4a223ed79d117a313be806736a13b97085a2",
@@ -8576,7 +8951,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9407c875655d4f8ac4621f7778aca0163aea0fc2065aedd6bc573dcbb64df7f2",
@@ -8599,7 +8974,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "68dd21d81bf3ed0b7ca9902c3b1801e59e708e144c94cbae4c749ce0ead5cc8c",
@@ -8622,7 +8997,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ed940cd024f6727677f8c9ae399848de63a3eb07f3c962a71fa625f87419c085",
@@ -8649,7 +9024,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3c471b8abda39883376e55a6dfc36aba2ab6adcbec60efdaf50539a914cc900e",
@@ -8681,7 +9056,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 46,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "c6300898f978f64e66ae5cd9a1ee2b32a0b1536be06dce3ff698e4c8dfa228e5",
@@ -8710,7 +9085,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e51e099393e443d09e1e43714d9079d94566354c6e2786a5beb40db72cfe571d",
@@ -8739,7 +9114,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9acff241d46682295ae2444108c3e0a8ddc6d4c99571efd9000ee34bfba9cb05",
@@ -8772,7 +9147,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "958a6b96d1783a5bd35baf184ab3f021833621e0c52b5ef409aee294bc96e6a7",
@@ -8801,7 +9176,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "c358f549e1ac03bf6dc74f27b3c8e572a82f360c25a3338ddc167553061e5ec1",
@@ -8825,7 +9200,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ad159791a7e240b880a5404e126dc2a1c9efa8102a62572e7ef0bc0cacff83d6",
@@ -8852,7 +9227,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "33d7e6f33ed412b6a46fe65d4404d2b089f880672bda69b511f2138a39b7bebb",
@@ -8879,7 +9254,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "39de9490ca71f5b32d24f708fa913e6fe899dcf8198ce15d1a7a822b27172a63",
@@ -8905,7 +9280,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9a57b89ca868a05ddf09bc1df2578c1132d92cf92b5325b305dc9616ff2a2acb",
@@ -8932,7 +9307,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b9aabe18ab5142092d88d0e8d833b2ec35cd473761984afcff0360b1d01ce57a",
@@ -8956,7 +9331,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 35,
-    "trendScore": 53
+    "trendScore": 31
   },
   {
     "id": "3b6e68adb37347a794a436cefb688e853a0b9468d62d728fab4304433f27611b",
@@ -8981,7 +9356,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 51,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6aa5f67846a0e9a10337c91f18d475c26c24dcf64b4750de3669b335f1e1e44f",
@@ -9010,7 +9385,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bfc22d6af405633557254b6ffd265c9ef7abab9600f88313ba305d7d448e5327",
@@ -9034,7 +9409,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 29,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "4e6e796fa0c5bfc07584d40ae9a0eec1daccc81038f121441f65b448fb48feec",
@@ -9061,7 +9436,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 56,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bfa70917f3b198d146019918c5763d9338f931a1a30d65ba069b6e65e6f8e230",
@@ -9087,7 +9462,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e6f76086848f718ff70f9bf84b6692c24974371aba24bfb2ef743b5309f12d42",
@@ -9109,7 +9484,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "ff67b5f9889fff5938b22081c2ad0bcc0afd613db600cfa640a6959b927376c9",
@@ -9132,7 +9507,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a48af4bd39cb615f2d929337c24a6f594b62714373c0df642d2b9837149c4479",
@@ -9154,7 +9529,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 40,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "eb4003abe76172767577fb8808b94ca2e2170efdd52029432a6131f44cbeb64b",
@@ -9177,7 +9552,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 66,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bdcf728a9e2a0cc66314adb0c36bd9399663ac73aa3057c3d1a4a521cb6c9bbf",
@@ -9229,7 +9604,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 65,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "41ea74f8a791a7999eb69f7c0fc48ced09797df7646720db5bb2a0f402c0b4ef",
@@ -9277,8 +9652,8 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 28,
-    "trendScore": 80
+    "relevanceScore": 26,
+    "trendScore": 78
   },
   {
     "id": "c4a66c11838f322d68c2a546ae1ba382a9139be5f22680347158b43a80563ce7",
@@ -9307,8 +9682,8 @@
       "ai-security",
       "cybersecurity"
     ],
-    "relevanceScore": 28,
-    "trendScore": 80
+    "relevanceScore": 26,
+    "trendScore": 78
   },
   {
     "id": "7ca128d5b850fa0c41daa38dd31cdac9e4670e620f0c54a0fbe2d70a2dec1f56",
@@ -9333,7 +9708,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3a1ae75bed52e1044c5c8b7ffee99f792c23912dd6ce4b95e738cf605647f081",
@@ -9361,7 +9736,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 25,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d27102b3c97afbe2652ac47b840b748f404e3edb9df6204c2896128e3c097a03",
@@ -9385,7 +9760,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "4901a770d277a5f25e6d2ed47054b91a0471b3fe84f7ed65c274774846221825",
@@ -9408,7 +9783,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8d83bef58987d7f993f6fa86d15fa9b91cb8f744d8d01e3426214025e4f7086a",
@@ -9430,7 +9805,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "4907324c764c9f8aa2592e297607e4c4dbd1af588fa76d3e286143ac59eebb02",
@@ -9466,7 +9841,7 @@
       "generative-ai"
     ],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9ebe95a648c0a80426c473533814d934b20541d08af9b098d7e9d1c260d61474",
@@ -9487,7 +9862,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d64c274f720519a829dedfc91876b75487b45886f519a8ef9e7b1ff62f10f0de",
@@ -9521,7 +9896,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "62badca6addc0ac9c83b2642b4361e5f1f19734989a09d5df8cacfc24a91e8e6",
@@ -9544,7 +9919,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 61,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3d42f5bc85a72e6c5f67c5348477fbb4fa09ed69ac5ae635fbae0f5b4a133969",
@@ -9571,7 +9946,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "93aa1a4a7e5ab21ab29411882915576962fbc9cca619c74ac25920eef01a6bf2",
@@ -9595,7 +9970,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9e25af5d6a8fc5b82e7a5c789620590c9a21eebf47e91feac4f0dd04b12d60bd",
@@ -9649,7 +10024,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d659e79ef79ff676d8ce53df9fbd3cbd39e15360809a977ccd91bf54647d1225",
@@ -9676,7 +10051,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 59,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6dda7c5d535ad3e23867f6c55ad15b5d360442a6ba6cb8256e74f6c28d6cba31",
@@ -9698,7 +10073,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "76e460cef547e4388cca5635a016d43eb1879e8bc75d04b99ceb896497083c83",
@@ -9722,7 +10097,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 29,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "60ea6ead197ece3497f67ab43faf2537a143643d15774aa8c6c134c0d53d148c",
@@ -9754,7 +10129,7 @@
       "generative-ai"
     ],
     "relevanceScore": 25,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "cedb7a5a94a0753cafefcc2ff26d962c81a21dae90f4b8581490703bccc0b01b",
@@ -9805,7 +10180,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "f7927d5e5c8ab52e2aec912633a15fddb12076f74d86b483496c734ab54a4ab1",
@@ -9832,7 +10207,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8559260fd3026ea5f50f49e0399af6739801ad2d0bfe1fbadc5909c4b646e116",
@@ -9867,7 +10242,7 @@
       "devsecops"
     ],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6d58c619def1603145aa897b1aafba98dc7456b1d368dc57f7376bb577e0b56a",
@@ -9901,7 +10276,7 @@
       "devsecops"
     ],
     "relevanceScore": 44,
-    "trendScore": 53
+    "trendScore": 31
   },
   {
     "id": "5eb559e50fd7886d16ab05385266393c7126d95ff81c90f2c2f7713f6112db3d",
@@ -9928,7 +10303,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b4411b0822cf9012a1090d971c9b07e7c34b9b89f5ce6327f6fb3096cf482acf",
@@ -9960,7 +10335,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6",
@@ -9983,7 +10358,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "cf48908b6dd5c5b37302d0037c126280141adb55af721251b8cf517b4b8ab0ca",
@@ -10007,7 +10382,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "5da2c294ce421444126a90dfb48b23b698b934cb1cba8ed1413cd4194c37c7af",
@@ -10042,7 +10417,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "614eb364146c341c337919f1813cb668f6526229396ad4613cfe2a2f88155e03",
@@ -10064,7 +10439,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "ccf0ebaea93fd66c2a366f22fb9cc5837da632359636ffa46d9f88928f957ef7",
@@ -10088,7 +10463,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3235ff50c52f8b1cce88b49daf09bef31fde358ca7f8faa39e2b4afc717c35aa",
@@ -10110,7 +10485,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 25,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "269403f1ccccab088057067463a1d4a7ccd3a7cd72696861868c6d7280ea4d0b",
@@ -10132,7 +10507,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bc4c146f4431429b1b9b87ceb92f64e2c35f9e139063fa3c2d6f70eeff01ae1d",
@@ -10160,7 +10535,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9732b2763df5a67ab9455b8255aee23064fe436ed165bb52468ec0f54969accf",
@@ -10182,7 +10557,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 57,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "c679d74c8a4823d805329f4a65c7cfedc6a7ae86acfe77afdfafa1cc24af5b3e",
@@ -10204,7 +10579,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a2eba4eb6946a7a55e82cf094f59f416debabb04442270a793c11a725d4946bd",
@@ -10232,7 +10607,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 25,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e9e1470690b03f8063d31dd757c13efb23bc987d2c154a7040322ebe12e77f25",
@@ -10261,7 +10636,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 52,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "43f5d9299a926e4d769e96d9ade269ccb10ae68f6224c7f4cc0dee8f18723719",
@@ -10288,7 +10663,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 51,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9aa58e8616238f9f65b724a97b3f817cd25531b4ceb35cd06a46e5721bf84875",
@@ -10318,7 +10693,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "76858b444b5f65d514e844ad9555c2ea23979c252e5ae0ce114702035dbfc624",
@@ -10341,7 +10716,7 @@
       "post-quantum-cryptography"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44,
+    "relevanceScore": 42,
     "trendScore": 41
   },
   {
@@ -10370,7 +10745,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "70ce28ae90120955d7bcb51de275a77f853912e26f2f767c164c070abb6b5e44",
@@ -10398,7 +10773,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34,
-    "trendScore": 50
+    "trendScore": 46
   },
   {
     "id": "23e4826e2b125739a8b095fb52756c3fda2fc1f6eaf919f78459099bef8e2583",
@@ -10420,7 +10795,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "4835b3e02eaace2457295a5cea21af9f8674b1fba91a1493a1e4f143d8f30895",
@@ -10446,7 +10821,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "75fa23d8834b88f0cdaa30454453988393838c1137d8da3468fd54241e526508",
@@ -10474,7 +10849,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "307df5d3b5507f2c8b66f927bc5fffa83b80deb1484abd7f77d3edf1bbc0024e",
@@ -10495,7 +10870,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a6beeef5ca01b5353b22fd972263c877e4678c8f336fd882425e0493e6f511d8",
@@ -10525,7 +10900,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "dfd16f84248c54f50a02db60e679340215c70ffb916fb7a842c76320da416601",
@@ -10552,7 +10927,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e28e3599d0a7edb9ebc406b70238c6189248ac30a966639af65f1ecf5ce3295f",
@@ -10578,7 +10953,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d8127b3f3b4f094228b3a5efab64881d1e325a8012491d20e11db7010fe80d53",
@@ -10606,7 +10981,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 33,
-    "trendScore": 50
+    "trendScore": 46
   },
   {
     "id": "08ae3f1b7d83d7996372b532a7118fab56ae90751c7c40f1d1392f071b635de9",
@@ -10632,7 +11007,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8374afe876f3fabc320467398f25c65d12e5c13534323e49c8fb372220b7ee44",
@@ -10658,7 +11033,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "7dc0e5c6956b6261873fecdd10bde7055c135756ee93a7f73e363a232ca4db1a",
@@ -10686,7 +11061,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b127343d894e01e983f70e5e5f7397cfb5e46925ce99398b1b0b6a4ac7f7f95e",
@@ -10721,7 +11096,7 @@
       "generative-ai"
     ],
     "relevanceScore": 33,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "6670b2a8bcc815fff22492a8651a23bbb1ba40d91003d100aa2796a961fe849e",
@@ -10743,7 +11118,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "dfbbec48529114e770ef4f665c2c9626e973b569f5547bcb7e49c53e002232d2",
@@ -10790,7 +11165,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d99f7125dc5e1fcd292c1573629db8fe64918b36574507e66a4b918376078e18",
@@ -10819,7 +11194,7 @@
       "ai-security"
     ],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b8855632888711e7aed2ca79de7cf0a293a8f21bf4bcd497f66c788395b708d9",
@@ -10841,7 +11216,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "02f60fa99bd6fa5dfa5e280115af952666834372b7054d0f772a2e3e312bb07d",
@@ -10873,7 +11248,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "9fb413ec1bf908960b5317198c908379715b68aedae0d23d0ce89905a79e08d3",
@@ -10899,7 +11274,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8b6b332cbf29be1201af3c6e80535ee06864e327acabe4800778e2e52d36a212",
@@ -10934,7 +11309,7 @@
       "devsecops"
     ],
     "relevanceScore": 69,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "3f11a9ccfb4f1a93f7c7a87a7450dc27107411d9b2b2b37a6164cc993a79a347",
@@ -10956,7 +11331,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "c9e238a44befacd2317680beb5ed26055e9cc360dab4286ac8f37c0687146491",
@@ -10996,7 +11371,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "141bf467afc85d3930f761feaf5d18ddeb00a4eebf8dd720eb094ac0711f9a87",
@@ -11031,7 +11406,7 @@
       "generative-ai"
     ],
     "relevanceScore": 69,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "711ff4437e8bd1782b490c45373c736bdda62389ef7f54875a69574e7d57e76c",
@@ -11055,7 +11430,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d15289994153c497d7913981c2cc0941b37f1aab2bc22ec58bb00a5ef4feb3d4",
@@ -11081,7 +11456,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 26,
-    "trendScore": 21
+    "trendScore": 0
   },
   {
     "id": "772d67d9031356f7da68d581f4ecc9a17d5c67fbe561ff38206d1ddc941f20ba",
@@ -11111,7 +11486,7 @@
       "devsecops"
     ],
     "relevanceScore": 54,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d2bb862448ac66759ee5270059062ac65a9d5e5ed4f1fac8a75dd30ec6e2945b",
@@ -11159,7 +11534,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "c926d16bda3c4f26a6fb413785071d76596678b3b8da204fbb9f37fa65e51338",
@@ -11185,7 +11560,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "11350c2906ef9757271bfaed8fcc1d5c5f791da9bf1132c60a780be358ff7d82",
@@ -11207,7 +11582,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 37,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "11b04c4ab05222743ace32ee1aa89b4ed20096da8e2a1e13d739d6512d1647a1",
@@ -11230,7 +11605,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "522e6a7b1a7e27a8ef659fe2be7ba47bf93f751b0aa745cea079066f6d3549a8",
@@ -11252,7 +11627,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b5a72187146d3cb240e01b358dc724bf956701b6836e63a068f18cd957515ea5",
@@ -11273,7 +11648,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bc189f7b007e8d195639ea52fc5886f859c0cdecf867feeb36456722b4b5793d",
@@ -11300,7 +11675,7 @@
       "generative-ai"
     ],
     "relevanceScore": 25,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bdb5caa1dae4ab509e1be7f68d4fdd45b502cdca3f0d79bea546d5195700b3eb",
@@ -11329,7 +11704,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "0b81da600f2034fe043afc8c97275b085d356d2835e2f6705821c0da056f7cfe",
@@ -11351,7 +11726,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "fc1bc0ec23e20ff8ec6374bf25ce8e1f0cf9d3bcd8b7414e7487869c57a33524",
@@ -11382,7 +11757,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 38,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "967cf749e4381f3332cd8d59950076007aff5271805dce1606e7cb4ba8783dc4",
@@ -11428,7 +11803,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "0ba69fac91064272b2903dcbdc7d3905af5b85ca983ae351a7a85a6537778402",
@@ -11450,7 +11825,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "8243c9a70d3f19e15eb8c3747fe4d12714491a340cfa3eafd37a0866cf92c4a7",
@@ -11478,7 +11853,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "84fd8fc8f158ad421e8ac45f469e173c05fbfda25bd8dc8cee2cef2229462eee",
@@ -11505,7 +11880,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "f159e33b88a953e59ea9ebeb254fccbcc54f6cfe49844470011b43389aeb3ccd",
@@ -11535,7 +11910,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "470fcf5377611ea1e436b183d4db5361ef448215d9f75863907feae8545ad322",
@@ -11565,7 +11940,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "feaefaa2e2292ba8ee0af1f5ba945d86bde107dd0fa3c05afc85a94711e186b8",
@@ -11590,7 +11965,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bca736b8e46393cc3d4eec9186efb6fd8e7259997df9568896eb8d34a5256e38",
@@ -11617,7 +11992,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 30,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d0efebcc7c6f1b1c3d0fe2321c129bab838767176eeafd7187b02f8a2b7a9b25",
@@ -11647,7 +12022,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "848e69a85e1c0976ce41dc72cec4bc86f54b5c7a80907baf1afe3aaef4944067",
@@ -11673,7 +12048,7 @@
       "devsecops"
     ],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "21eeb08e9c6466d92b6849b9352f11f90d977a9d494a8386ed72b65f1721d75e",
@@ -11696,7 +12071,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "468b3077a208433fef72cd219c6e669c681b8848befa482983bb31454be80466",
@@ -11726,7 +12101,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "0dcf69b6ce3e9f90a138c21464e5bdde8d42ee59625fc3738e7427546c635911",
@@ -11753,7 +12128,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 44,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "5de4d86b7526a7122a1e37cc5f3f9fb7f18b05c938f3aae700a631c2c0ddcd0b",
@@ -11777,7 +12152,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 26,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "e2ba23dfc60a248bc0e379a620cccad2f56235f14eb339ce8415e1e05b0ebbc2",
@@ -11801,7 +12176,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 31,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "12199d7cff086394ca4d6dc7f026aa0a74703c6f458c57cbeb3cf61bd3b070f3",
@@ -11830,7 +12205,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "2394918cc016ff68179b5e66a1cd0259b2c99e303e8bd93fd8ba7cf7d00a15d9",
@@ -11858,7 +12233,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "5360c1df7080bedf830d87ec478f1f7eca90a4cf4b5a7aebe16368ce38208e64",
@@ -11889,7 +12264,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 54,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b1f4ab8b79d3a1084b04d36df8e1da11109620c024820761cbb43ed348d23a3e",
@@ -11913,7 +12288,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bfcc7778e43c5827372bd858c13f46e4665b3df48b2f8b32de13c12338f595a3",
@@ -11940,7 +12315,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 70,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fa3be6b020a0d422ad5cd4bf301f81cda31e118ffd6a30bda1198d8c24afa553",
@@ -11975,7 +12350,7 @@
       "generative-ai"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "92d2f6fd52a33d71607b7401a350008370441f1111dba759e1b2c6b587670484",
@@ -12003,7 +12378,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "35e8d773b0516ce3565745567cc56535a69de1c4e29953cd5e13eb61d61a3399",
@@ -12024,7 +12399,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 29,
-    "trendScore": 53
+    "trendScore": 56
   },
   {
     "id": "15a24e45c0100361df55d98fab0ebe0810f2a6a5997b2e00925c57c8885da1d8",
@@ -12050,7 +12425,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a4733a1be89d46fd9ce1b09469f604f5e286476b782cd9ac5938cbbd59001908",
@@ -12075,7 +12450,7 @@
       "cybersecurity"
     ],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "10f08c7ebe2e818c655b310a0aa3e0654fff0c64cedc30dfeadc44ac278fb001",
@@ -12104,7 +12479,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 41,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a60f4a701f887ae8f46b94e06646a5fb82b2851c561d6cf99f41823c6f66011d",
@@ -12125,7 +12500,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "724748a98b445fb6c2a3ea18c0c8330cb043d168ccf8ae31043b1cee498eb926",
@@ -12152,7 +12527,7 @@
       "ai-security"
     ],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "a0dd901df9cb7cea9e7f58cda1b791d75a52041dc51fdce04a73d196f9554f7d",
@@ -12183,7 +12558,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "db1c119cd4bd5726aad0617a1bdf9c73830b024cbcf077e0e997e975f734c07e",
@@ -12205,7 +12580,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "d963916bff91d04b77715d7f667cf95629ed081abc5df2481583d5ace1cab7ae",
@@ -12240,7 +12615,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 28,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "895d3814a2bf8c053d1189513e474f8ff34bf18640300ac81a7310bd6d29f1ad",
@@ -12262,7 +12637,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "be2ffa357fb67316d14b3345f148d2e4f2b6d1a60ed27be0fcd9f0db22410f59",
@@ -12326,7 +12701,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 43,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "5f5a7855296c49cef6b7faf8cd4591789c0d473d321a34b2fc640affaf5b69c1",
@@ -12353,7 +12728,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 49,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "49812b5f8be4880bc54645c6a4cd193dee9eb979708394b0a56d0ac8d53b868c",
@@ -12377,7 +12752,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 29,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "43828a09caae063058822a829e05f05b68235a4e895d3142f449a42ae76fdd33",
@@ -12399,7 +12774,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "bfd2d99e7725170c5532852c94bbe8b57ca5b6b170bc93e0b396420e1e1ece64",
@@ -12421,7 +12796,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 35,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fd963a084770dd0aec9c6633766091f4cb33ea26d2c248213037ddc723e8683f",
@@ -12469,7 +12844,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "2ba12529c0eb6ed7d72ee7d98c4843a7af9bfe7b94a75d0c275584c0dc25dbfd",
@@ -12491,7 +12866,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "330343a7bdb3fdd17aaaa56114d9da098df08632655829bcdb0bd3a4d27e90e0",
@@ -12520,7 +12895,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 45,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "1cdee9e9da7eb536d91e4c7248e74d348c72ee5623002d5708339de1d6bad9c9",
@@ -12542,7 +12917,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "83e3573d527514b68cd518d3db39ddc760ed1aee9dedaba7a6447936da205359",
@@ -12570,7 +12945,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 40,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "94eadcab22c41e356a1d9bf1e35dbdb6491d04804b7eea5ceec3829024496784",
@@ -12591,7 +12966,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "b39a18d2039aa1580f2cf4dad509524859f8a29a2a589f483b09492c0759b3f4",
@@ -12613,7 +12988,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 39,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "cdbbaea14508232a7551b9fe078ea512abdeaa602633d44a5847559e492095fb",
@@ -12642,7 +13017,7 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "436944031f0e184daa8b1cb568adcffd109fb21893f9949d0a3ba41305516052",
@@ -12666,7 +13041,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "cf404f445ea8bf02233b1b757aa30687be15341c0fd1a314da4c07fca8d4e3e2",
@@ -12689,7 +13064,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 32,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "fe20a4e0a1e456d21bf15ed7d7585ce8432357d67beddcebb6c8dd41fa31ea1b",
@@ -12717,7 +13092,7 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 59,
-    "trendScore": 80
+    "trendScore": 78
   },
   {
     "id": "805f9f77879f37f8094f644517a8535b19e26c418cef76cb8547232b09a3fe11",
@@ -12745,388 +13120,6 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 48,
-    "trendScore": 80
-  },
-  {
-    "id": "c9bf18a8b7e4575cdcef505d7bbed9bd2c8ab0d56cfdb7cb495c376cb9a5f291",
-    "title": "Chaos ensues when AI interviewer meets AI interviewee",
-    "url": "https://www.theregister.com/offbeat/2026/10/14/chaos-ensues-when-ai-interviewer-meets-ai-interviewee/5303144",
-    "canonicalUrl": "https://www.theregister.com/offbeat/2026/10/14/chaos-ensues-when-ai-interviewer-meets-ai-interviewee/5303144",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-14T20:53:37.000Z",
-    "discoveredAt": "2026-10-15T04:44:44.437Z",
-    "summary": "Things got weird, but there's a lesson to be learned: Don't trust a bot to negotiate for you",
-    "imageUrl": "https://image.theregister.com/?imageId=5303153&width=800",
-    "language": "en",
-    "tags": [
-      "offbeat"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 34,
-    "trendScore": 80
-  },
-  {
-    "id": "e00be9a464299d974ed6de433c7532c5ddf764978658481bd9f5b07377dd7464",
-    "title": "Linux kernel devs drop obligatory confession of AI tool usage",
-    "url": "https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140",
-    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-14T20:16:31.000Z",
-    "discoveredAt": "2026-10-14T21:43:31.282Z",
-    "summary": "Torvalds says contributors must understand their code, whatever tools they use",
-    "imageUrl": "https://image.theregister.com/?imageId=2918386&width=800",
-    "language": "en",
-    "tags": [
-      "ai and ml"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 34,
-    "trendScore": 80
-  },
-  {
-    "id": "fdacebbfc5be88d5ff8b22745b395293ff51b197735d64dcdbca1759d406f779",
-    "title": "ASPM in the AI Era Part 1: Unified Visibility Across Your Stack",
-    "url": "https://www.wiz.io/blog/aspm-ai-era-pt-1-centralize-appsec-scanners",
-    "canonicalUrl": "https://www.wiz.io/blog/aspm-ai-era-pt-1-centralize-appsec-scanners",
-    "sourceId": "wiz-blog",
-    "sourceName": "Wiz Blog",
-    "company": "Wiz",
-    "sourceCategory": "cybersecurity",
-    "publishedAt": "2026-10-14T20:13:53.000Z",
-    "discoveredAt": "2026-10-14T21:43:31.282Z",
-    "summary": "Integrate your existing code scanners into Wiz for a unified view of application risk across your environment.",
-    "imageUrl": "https://www.datocms-assets.com/75231/1792077235-aspm2-2x.png",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 29,
-    "trendScore": 80
-  },
-  {
-    "id": "278db98f10a2798db57d9ae9d38b8b0d24c605292d8583263da27add69e03722",
-    "title": "Security researchers spent 6 days doing their Chromework, built 1B user exploit",
-    "url": "https://www.theregister.com/security/2026/10/14/security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit/5303134",
-    "canonicalUrl": "https://www.theregister.com/security/2026/10/14/security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit/5303134",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-14T19:12:33.000Z",
-    "discoveredAt": "2026-10-14T21:43:31.282Z",
-    "summary": "Xbow earned a $250K bug bounty and all the AI model got was a lousy t-shirt",
-    "imageUrl": "https://image.theregister.com/?imageId=5299685&width=800",
-    "language": "en",
-    "tags": [
-      "security"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "cybersecurity"
-    ],
-    "relevanceScore": 29,
-    "trendScore": 80
-  },
-  {
-    "id": "2391a42cd9d3fa4fefa74663e3848b87a9206b39e66b208224c9369ea7e56f78",
-    "title": "4 lessons from behavioral economics that could help improve human-AI interaction",
-    "url": "https://www.deloitte.com/global/en/insights/topics/talent/improve-human-ai-interaction.html",
-    "canonicalUrl": "https://www.deloitte.com/global/en/insights/topics/talent/improve-human-ai-interaction.html",
-    "sourceId": "deloitte-insights",
-    "sourceName": "Deloitte Insights",
-    "company": "Deloitte",
-    "sourceCategory": "consulting",
-    "publishedAt": "2026-10-14T18:30:00.000Z",
-    "discoveredAt": "2026-10-15T11:34:18.705Z",
-    "updatedAt": "2026-10-15T08:50:29.000Z",
-    "summary": "Four behavioral economics approaches to help organizations manage AI’s cognitive costs, preserve critical thinking, and improve human-AI interaction",
-    "imageUrl": "https://www.deloitte.com/content/dam/insights/articles/2026/us189530_cir_lessons-from-behavioral-economics/primary-images/US189530_Banner-1920x880.png",
-    "language": "en",
-    "tags": [],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 40,
-    "trendScore": 80
-  },
-  {
-    "id": "71c698c9f186d9bdf1652115c836318e0220b9112dc12359d95f65df81ede6e2",
-    "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-    "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-    "canonicalUrl": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms",
-    "sourceId": "techcrunch",
-    "sourceName": "TechCrunch",
-    "company": "TechCrunch",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-14T18:23:46.000Z",
-    "discoveredAt": "2026-10-14T21:43:31.282Z",
-    "summary": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
-    "language": "en",
-    "tags": [
-      "AI",
-      "Apps",
-      "Media & Entertainment",
-      "YouTube",
-      "YouTube Music"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 48,
-    "trendScore": 80
-  },
-  {
-    "id": "2dcf16d6f1c0e22fcddf8b0f9dcf35be16ff731fad197918b587be137a7f041a",
-    "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-    "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
-    "canonicalUrl": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence",
-    "sourceId": "techcrunch",
-    "sourceName": "TechCrunch",
-    "company": "TechCrunch",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-14T18:00:00.000Z",
-    "discoveredAt": "2026-10-14T21:43:31.282Z",
-    "summary": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
-    "language": "en",
-    "tags": [
-      "Startups",
-      "Security",
-      "AI",
-      "TechCrunch Disrupt",
-      "cybersecurity",
-      "Startup Battlefield 200",
-      "AI agents",
-      "Scam detection",
-      "AI scams"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "agentic-ai",
-      "artificial-intelligence",
-      "cybersecurity"
-    ],
-    "relevanceScore": 48,
-    "trendScore": 80
-  },
-  {
-    "id": "1c8d7dd5e8ff778a55e5b90fab1261c004758a62b59ffa7f91d33e4ecb1e85b1",
-    "title": "Mosqitter is turning its mosquito traps into an AI-powered surveillance network",
-    "url": "https://techcrunch.com/2026/10/14/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillance-network/",
-    "canonicalUrl": "https://techcrunch.com/2026/10/14/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillance-network",
-    "sourceId": "techcrunch",
-    "sourceName": "TechCrunch",
-    "company": "TechCrunch",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-14T17:00:00.000Z",
-    "discoveredAt": "2026-10-14T17:14:41.921Z",
-    "summary": "Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network designed to identify species, monitor populations, and provide earlier warnings of mosquito-borne disease risks.",
-    "language": "en",
-    "tags": [
-      "Biotech & Health",
-      "Startups",
-      "Battlefield 200",
-      "Mosqitter",
-      "mosquitos",
-      "TechCrunch Disrupt"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 48,
-    "trendScore": 80
-  },
-  {
-    "id": "e5a293b67c49af506de7d5d5c6e7d486fb60ce9a3e0774e0304f46493a6dda38",
-    "title": "Agents at the Edge: Extending AI Security Governance to Physical AI with DefenseClaw",
-    "url": "https://blogs.cisco.com/ai/agents-at-the-edge-extending-ai-security-governance-to-physical-ai-with-defenseclaw",
-    "canonicalUrl": "https://blogs.cisco.com/ai/agents-at-the-edge-extending-ai-security-governance-to-physical-ai-with-defenseclaw",
-    "sourceId": "cisco-blogs",
-    "sourceName": "Cisco Blogs",
-    "company": "Cisco",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-10-14T16:37:06.000Z",
-    "discoveredAt": "2026-10-14T17:14:41.921Z",
-    "summary": "AI agents are moving beyond screens and servers into the physical world -- controlling robots, drones, factory equipment, and building systems. DefenseClaw now includes an Edge Connector that brings AI agent security to these constrained devices....",
-    "language": "en",
-    "tags": [
-      "Artificial Intelligence - AI",
-      "AI Security",
-      "Artificial Intelligence (AI)"
-    ],
-    "matchedKeywordIds": [
-      "agentic-ai",
-      "ai-security",
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "ai-security"
-    ],
-    "relevanceScore": 68,
-    "trendScore": 80
-  },
-  {
-    "id": "e6ddd7af10810503ff107032c59c1e26fde062259592c60d3d3110102e4b53fd",
-    "title": "Researchers cig-nal their faith in AI by taking up smoking",
-    "url": "https://www.theregister.com/ai-and-ml/2026/10/14/researchers-cig-nal-their-faith-in-ai-by-taking-up-smoking/5303118",
-    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/10/14/researchers-cig-nal-their-faith-in-ai-by-taking-up-smoking/5303118",
-    "sourceId": "theregister",
-    "sourceName": "The Register",
-    "company": "The Register",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-14T16:18:59.000Z",
-    "discoveredAt": "2026-10-14T17:14:41.921Z",
-    "summary": "What are they puffing? Tobacco, apparently. Cancer researcher tells El Reg it's a bad bet",
-    "imageUrl": "https://image.theregister.com/?imageId=253923&width=800",
-    "language": "en",
-    "tags": [
-      "ai and ml"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 34,
-    "trendScore": 80
-  },
-  {
-    "id": "113a074d2fee1953b962902717cd0c1b79f3eb32ec3d34c5b4d7d131519af609",
-    "title": "The AI Security Paradox – How Shadow AI Became the Enterprise’s Biggest Blind Spot",
-    "url": "https://blogs.cisco.com/ai/the-ai-security-paradox-how-shadow-ai-became-the-enterprises-biggest-blind-spot",
-    "canonicalUrl": "https://blogs.cisco.com/ai/the-ai-security-paradox-how-shadow-ai-became-the-enterprises-biggest-blind-spot",
-    "sourceId": "cisco-blogs",
-    "sourceName": "Cisco Blogs",
-    "company": "Cisco",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-10-14T16:18:31.000Z",
-    "discoveredAt": "2026-10-14T17:14:41.921Z",
-    "summary": "AI adoption inside the enterprise is no longer waiting for governance to catch up. Employees are already using generative AI to write code, summarize documents, analyze data, draft communications, and automate routine work, often through tools and..",
-    "language": "en",
-    "tags": [
-      "Artificial Intelligence - AI",
-      "AI Security",
-      "Artificial Intelligence (AI)"
-    ],
-    "matchedKeywordIds": [
-      "ai-security",
-      "artificial-intelligence",
-      "generative-ai"
-    ],
-    "tagMatchedIds": [
-      "ai-security"
-    ],
-    "relevanceScore": 68,
-    "trendScore": 80
-  },
-  {
-    "id": "2921d496df7e8c9c4107da0a3dc96c0bb37674e9bb0c2316dfdf88ed568958bf",
-    "title": "Predictable AI spend in BigQuery: Introducing cost management for generative AI functions",
-    "url": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/",
-    "canonicalUrl": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features",
-    "sourceId": "google-cloud-blog",
-    "sourceName": "Google Cloud Blog",
-    "company": "Google Cloud",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-10-14T16:00:00.000Z",
-    "discoveredAt": "2026-10-14T17:14:41.921Z",
-    "summary": "The generative AI functions in BigQuery (AI.GENERATE, AI.IF, AI.CLASSIFY, AI.SCORE, and more) bring large language models (LLMs) directly into your SQL, so a single query can classify millions of support tickets or score each product review for sentiment. However, because these functions are billed by the token,…",
-    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_dxxy8WS.max-1000x1000.png",
-    "language": "en",
-    "tags": [
-      "AI & Machine Learning",
-      "BigQuery",
-      "Data Analytics"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence",
-      "generative-ai"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 68,
-    "trendScore": 80
-  },
-  {
-    "id": "ab65f442fa5751e5912e1e86a740896771f8fd3be70b6b0d3b620fcc581f1a1a",
-    "title": "Cloud CISO Perspectives: New Gemini Notebook can help CISOs and policymakers prepare for PQC",
-    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-new-gemini-notebook-can-help-cisos-policymakers-prepare-for-pqc/",
-    "canonicalUrl": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-new-gemini-notebook-can-help-cisos-policymakers-prepare-for-pqc",
-    "sourceId": "google-cloud-blog",
-    "sourceName": "Google Cloud Blog",
-    "company": "Google Cloud",
-    "sourceCategory": "technology",
-    "publishedAt": "2026-10-14T16:00:00.000Z",
-    "discoveredAt": "2026-10-14T17:14:41.921Z",
-    "summary": "Welcome to the first Cloud CISO Perspectives for October 2026. Today, Stephanie Kiel explains the latest on our approach to post-quantum cryptography, and shares a new tool to help CISOs and executives prepare their organizations for PQC. As with all Cloud CISO Perspectives, the contents of this newsletter are posted…",
-    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Cloud_CISO_Perspectives_header_4_Blue.max-600x600.png",
-    "language": "en",
-    "tags": [
-      "Cloud CISO",
-      "Public Sector",
-      "Security & Identity"
-    ],
-    "matchedKeywordIds": [
-      "post-quantum-cryptography"
-    ],
-    "tagMatchedIds": [],
-    "relevanceScore": 44,
-    "trendScore": 41
-  },
-  {
-    "id": "ab12d93437757467fe01f7c740db232fb7db599a7cbb4fe7efd64b631f6ab01a",
-    "title": "Deezer will soon let you filter out AI-generated music",
-    "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
-    "canonicalUrl": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music",
-    "sourceId": "techcrunch",
-    "sourceName": "TechCrunch",
-    "company": "TechCrunch",
-    "sourceCategory": "media",
-    "publishedAt": "2026-10-14T15:16:04.000Z",
-    "discoveredAt": "2026-10-14T17:14:41.921Z",
-    "summary": "Deezer said that the new toggle will be rolled out by the end of the year.",
-    "language": "en",
-    "tags": [
-      "AI",
-      "Apps",
-      "Media & Entertainment",
-      "ai music",
-      "Deezer",
-      "streaming music"
-    ],
-    "matchedKeywordIds": [
-      "artificial-intelligence"
-    ],
-    "tagMatchedIds": [
-      "artificial-intelligence"
-    ],
-    "relevanceScore": 38,
-    "trendScore": 80
+    "trendScore": 78
   }
 ]
