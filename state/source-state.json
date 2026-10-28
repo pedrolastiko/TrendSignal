@@ -3,19 +3,21 @@
     "sourceId": "aws-news-blog",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "bearingpoint-insights",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "bleepingcomputer",
     "knownUrls": [
+      "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat",
+      "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests",
       "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries",
       "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data",
       "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates",
@@ -28,13 +30,11 @@
       "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people",
       "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records",
       "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing",
-      "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident",
-      "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches",
-      "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw"
+      "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "capgemini-blog",
@@ -51,8 +51,8 @@
       "https://www.capgemini.com/insights/expert-perspectives/scale-ai-with-trusted-data"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "cgi-blog",
@@ -79,50 +79,29 @@
       "https://www.cgi.com/en/blog/defense-intelligence/next-phase-of-defense-transformation"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "checkpoint-blog",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "cisco-blogs",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "cloudflare-blog",
-    "knownUrls": [
-      "https://blog.cloudflare.com/php-ctf",
-      "https://blog.cloudflare.com/q3-2026-internet-disruption-summary",
-      "https://blog.cloudflare.com/kv-cache-exposure-remediation",
-      "https://blog.cloudflare.com/origin-range-requests",
-      "https://blog.cloudflare.com/post-quantum-geo-key-manager",
-      "https://blog.cloudflare.com/k-isms",
-      "https://blog.cloudflare.com/full-transaction-waf",
-      "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
-      "https://blog.cloudflare.com/webmcp-commerce",
-      "https://blog.cloudflare.com/emudhra-certificate-compromise",
-      "https://blog.cloudflare.com/typescript-rust-port",
-      "https://blog.cloudflare.com/obsessive-inference-optimization",
-      "https://blog.cloudflare.com/clairic-extraction-model",
-      "https://blog.cloudflare.com/protect-your-netscaler-gateway",
-      "https://blog.cloudflare.com/verified-bots-accountability",
-      "https://blog.cloudflare.com/programmable-gateway-dlp",
-      "https://blog.cloudflare.com/deploy-with-void",
-      "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web",
-      "https://blog.cloudflare.com/yandex-outage",
-      "https://blog.cloudflare.com/hyperdrive-mysql"
-    ],
+    "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "crowdstrike-blog",
@@ -139,8 +118,8 @@
       "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "darkreading",
@@ -187,8 +166,8 @@
       "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "databricks-blog",
@@ -201,31 +180,37 @@
       "https://www.databricks.com/blog/how-teach-databricks-free-edition",
       "https://www.databricks.com/blog/building-live-intelligence-databricks-ai-search-supports-streaming-tables-materialized-views",
       "https://www.databricks.com/blog/media-industry-becoming-prediction-economy",
-      "https://www.databricks.com/blog/real-time-energy-trading-and-analytics-databricks",
-      "https://www.databricks.com/blog/built-agents-case-spark-declarative-pipelines"
+      "https://www.databricks.com/blog/built-agents-case-spark-declarative-pipelines",
+      "https://www.databricks.com/blog/real-time-energy-trading-and-analytics-databricks"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "deloitte-insights",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "fortinet-blog",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "fti-consulting-insights",
     "knownUrls": [
+      "https://www.fticonsulting.com/insights/articles/banking-as-a-service-cross-border-fintechs",
+      "https://www.fticonsulting.com/insights/articles/climate-governance-future-directorship",
+      "https://www.fticonsulting.com/insights/articles/payment-hub-bank-accelerator-execution",
+      "https://www.fticonsulting.com/insights/articles/multi-rail-mandate-payments-optionality",
       "https://www.fticonsulting.com/insights/articles/decision-deficit-rethinking-business-reviews",
+      "https://www.fticonsulting.com/insights/articles/global-m-and-a-q3-2026-market-update",
+      "https://www.fticonsulting.com/insights/articles/how-cio-can-govern-rise-citizen-built-applications",
       "https://www.fticonsulting.com/insights/articles/how-value-propositions-help-b2b-companies-accelerate-growth",
       "https://www.fticonsulting.com/insights/articles/climate-week-nyc-2026",
       "https://www.fticonsulting.com/insights/articles/law-firm-merger-paradox",
@@ -248,35 +233,18 @@
       "https://www.fticonsulting.com/insights/articles/when-oil-analysts-cannot-model-endgame",
       "https://www.fticonsulting.com/es-es/spain/insights/articles/drones-opportunity-could-make-european-telcos-look-sky",
       "https://www.fticonsulting.com/insights/articles/transformation-for-performance",
-      "https://www.fticonsulting.com/insights/articles/higher-education-under-scrutiny-crisis-readiness-2026",
-      "https://www.fticonsulting.com/insights/articles/chinese-investment-eu-new-era-scrutiny",
-      "https://www.fticonsulting.com/insights/articles/whats-next-digital-forensics-conversation-eric-zimmerman",
-      "https://www.fticonsulting.com/insights/articles/expert-witness-evidence-construction-disputes",
-      "https://www.fticonsulting.com/insights/articles/reputation-missing-layer-digital-resilience-brazil",
-      "https://www.fticonsulting.com/insights/articles/changing-anatomy-blockbuster-pharma",
-      "https://www.fticonsulting.com/insights/articles/closing-execution-gap-unlock-value-creation"
+      "https://www.fticonsulting.com/insights/articles/higher-education-under-scrutiny-crisis-readiness-2026"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "github-blog",
-    "knownUrls": [
-      "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
-      "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure",
-      "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
-      "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
-      "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence",
-      "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org",
-      "https://github.blog/news-insights/company-news/github-availability-report-september-2026",
-      "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers",
-      "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
-      "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase"
-    ],
+    "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "google-cloud-blog",
@@ -303,8 +271,8 @@
       "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "huggingface-blog",
@@ -341,8 +309,8 @@
       "https://huggingface.co/blog/tokenizers-v1"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "infoq",
@@ -364,8 +332,8 @@
       "https://www.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "lek-insights",
@@ -382,8 +350,8 @@
       "https://www.lek.com/insights/technology/humanoid-robotics-assessing-where-value-may-accrue-physical-ai"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "mckinsey-insights",
@@ -411,56 +379,56 @@
       "https://www.mckinsey.com/uk/our-insights/getting-real-about-ai-how-ai-agents-are-changing-the-economics-of-software-engineering",
       "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-a-forward-deployed-engineer",
       "https://www.mckinsey.com/institute-for-economic-mobility/our-insights/place-purpose-and-the-path-to-economic-mobility",
-      "https://www.mckinsey.com/industries/semiconductors/our-insights/strengthening-supply-chains-behind-us-semiconductors",
       "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-judgment-bottleneck-balancing-ai-and-human-speeds-in-strategy",
+      "https://www.mckinsey.com/industries/semiconductors/our-insights/strengthening-supply-chains-behind-us-semiconductors",
       "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-ai-value-curve-the-economics-of-applying-ai-to-existing-work",
-      "https://www.mckinsey.com/capabilities/operations/our-insights/rewiring-capital-projects-to-boost-construction-productivity",
       "https://www.mckinsey.com/capabilities/operations/our-insights/voices-on-planning-the-ai-powered-future-of-supply-chain",
+      "https://www.mckinsey.com/capabilities/operations/our-insights/rewiring-capital-projects-to-boost-construction-productivity",
       "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-does-ai-really-cost",
       "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-ai-operating-system-a-new-way-for-ceos-to-run-the-enterprise"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "microsoft-blog",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "microsoft-security-blog",
-    "knownUrls": [],
+    "knownUrls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks",
+      "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise",
+      "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed",
+      "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments",
+      "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime",
+      "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now",
+      "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research",
+      "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai",
+      "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk",
+      "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report"
+    ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "mistral-ai-news",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "mit-technology-review",
-    "knownUrls": [
-      "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills",
-      "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing",
-      "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers",
-      "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up",
-      "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight",
-      "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms",
-      "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots",
-      "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes",
-      "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last",
-      "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai"
-    ],
+    "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "mongodb-blog",
@@ -497,52 +465,34 @@
       "https://www.mongodb.com/company/blog/from-niche-nosql-enterprise-powerhouse-story-mongodbs-evolution"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "nvidia-blog",
-    "knownUrls": [
-      "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia",
-      "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem",
-      "https://blogs.nvidia.com/blog/minerva-platform-infrastructure",
-      "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4",
-      "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence",
-      "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
-      "https://blogs.nvidia.com/blog/dsx-power",
-      "https://blogs.nvidia.com/blog/european-retail-open-models-robotics",
-      "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction",
-      "https://blogs.nvidia.com/blog/european-public-sector-open-models",
-      "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync",
-      "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure",
-      "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents",
-      "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing",
-      "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation",
-      "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure",
-      "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit",
-      "https://blogs.nvidia.com/blog/open-models-europe-industry"
-    ],
+    "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "okta-blog",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "oliver-wyman-insights",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "openai-news",
     "knownUrls": [
+      "https://openai.com/index/retell-ai",
       "https://openai.com/index/oracle-apps-in-chatgpt",
       "https://openai.com/index/check-point-daybreak",
       "https://openai.com/index/greptile-code-review-codex-astra",
@@ -571,19 +521,18 @@
       "https://openai.com/index/ted-taylor-restaurant",
       "https://openai.com/index/terminal-x",
       "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "https://openai.com/index/low-resource-programming-languages",
-      "https://openai.com/index/itau-generative-ai"
+      "https://openai.com/index/low-resource-programming-languages"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "paloaltonetworks-blog",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "proofpoint-blog",
@@ -600,8 +549,8 @@
       "https://www.proofpoint.com/us/newsroom/news/proofpoint-why-ai-security-must-focus-intent"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "pwc-insights",
@@ -629,17 +578,17 @@
       "https://www.pwc.com/gx/en/services/sustainability/sustainability-in-deals.html",
       "https://www.pwc.com/gx/en/issues/c-suite-insights/the-leadership-agenda/incumbent-startup-partnerships.html",
       "https://www.pwc.com/gx/en/issues/technology/pwc-and-ted/events.html",
-      "https://www.pwc.com/gx/en/issues/c-suite-insights/the-leadership-agenda/cross-sector-reinvention.html",
       "https://www.pwc.com/gx/en/services/deals/trends/2026/consumer-markets.html",
       "https://www.pwc.com/gx/en/services/deals/trends/2026/health-industries.html",
       "https://www.pwc.com/gx/en/services/deals/trends/2026/financial-services.html",
       "https://www.pwc.com/gx/en/services/deals/trends/2026/energy-utilities-resources.html",
       "https://www.pwc.com/gx/en/services/deals/trends/2026.html",
-      "https://www.pwc.com/gx/en/services/deals/trends/2026/real-estate.html"
+      "https://www.pwc.com/gx/en/services/deals/trends/2026/real-estate.html",
+      "https://www.pwc.com/gx/en/services/deals/trends/2026/industrials-services.html"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "rapid7-blog",
@@ -666,8 +615,8 @@
       "https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "redhat-blog",
@@ -684,15 +633,15 @@
       "https://www.redhat.com/en/blog/simplifying-tls-certificate-management-red-hat-openshift-nec"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "salesforce-news",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "sentinelone-blog",
@@ -709,8 +658,8 @@
       "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-40-8"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "simon-kucher-insights",
@@ -727,8 +676,8 @@
       "https://www.simon-kucher.com/en/insights/why-ai-increases-value-personal-advice"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "snyk-blog",
@@ -765,12 +714,17 @@
       "https://snyk.io/blog/openai-hugging-face-incident"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "techcrunch",
     "knownUrls": [
+      "https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo",
+      "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more",
+      "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication",
+      "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid",
+      "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash",
       "https://techcrunch.com/2026/10/27/from-8vc-to-benchmark-heres-whats-hiding-in-october-sec-filings",
       "https://techcrunch.com/2026/10/27/gm-is-embracing-hybrids-now",
       "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
@@ -785,16 +739,11 @@
       "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs",
       "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip",
       "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes",
-      "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data",
-      "https://techcrunch.com/2026/10/27/billionaire-palmer-luckey-isnt-leaving-california-over-the-wealth-tax",
-      "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop",
-      "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative",
-      "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser",
-      "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus"
+      "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "tenable-blog",
@@ -811,8 +760,8 @@
       "https://www.tenable.com/blog/microsofts-october-2026-patch-tuesday-addresses-1407-cves-cve-2026-96951"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "thehackernews",
@@ -859,12 +808,14 @@
       "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "theregister",
     "knownUrls": [
+      "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
+      "https://www.theregister.com/channel/2026/10/28/ai-slows-growth-for-infosys-and-keeps-it-afloat-at-the-same-time/5305879",
       "https://www.theregister.com/ai-and-ml/2026/10/27/big-red-gets-cozy-with-google-to-offer-tpus-to-ai-customers/5305846",
       "https://www.theregister.com/ai-and-ml/2026/10/27/anthropic-now-lets-claude-users-jump-out-of-plane-without-parachute/5305807",
       "https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811",
@@ -902,20 +853,18 @@
       "https://www.theregister.com/ai-and-ml/2026/10/26/private-equity-giant-ai-payoff-strictly-limited-to-big-tech/5305358",
       "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
       "https://www.theregister.com/security/2026/10/26/uk-biobank-back-online-soon-months-after-someone-tried-to-sell-500k-peoples-data-on-alibaba/5305363",
-      "https://www.theregister.com/systems/2026/10/26/former-intel-ceo-pat-gelsinger-bets-on-nagare-labs-to-vault-the-memory-wall/5305181",
-      "https://www.theregister.com/personal-tech/2026/10/26/ifixit-dismantles-apples-duo-youd-better-baby-that-screen/5305296",
-      "https://www.theregister.com/security/2026/10/26/britain-bets-big-on-ai-to-defend-against-the-threats-ai-is-helping-create/5305319"
+      "https://www.theregister.com/systems/2026/10/26/former-intel-ceo-pat-gelsinger-bets-on-nagare-labs-to-vault-the-memory-wall/5305181"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "thoughtworks-insights",
     "knownUrls": [],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   },
   {
     "sourceId": "venturebeat",
@@ -928,8 +877,8 @@
       "https://venturebeat.com/security/googles-gemini-3-8-flash-is-built-for-agents-while-its-cyber-twin-hunts-vulnerabilities",
       "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises"
     ],
-    "consecutiveFailures": 197,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
+    "consecutiveFailures": 198,
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
     "lastSuccessAt": "2026-09-03T18:56:38.179Z",
     "lastError": "HTTP 429 for https://venturebeat.com/feed/"
   },
@@ -968,7 +917,7 @@
       "https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise"
     ],
     "consecutiveFailures": 0,
-    "lastAttemptAt": "2026-10-27T22:17:25.588Z",
-    "lastSuccessAt": "2026-10-27T22:17:25.588Z"
+    "lastAttemptAt": "2026-10-28T05:46:46.835Z",
+    "lastSuccessAt": "2026-10-28T05:46:46.835Z"
   }
 ]
