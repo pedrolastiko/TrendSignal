@@ -1,15 +1,5 @@
 [
   {
-    "runAt": "2026-09-05T10:38:41.878Z",
-    "trigger": "schedule",
-    "sourceCount": 45,
-    "successCount": 43,
-    "failureCount": 2,
-    "newArticleCount": 480,
-    "dedupedCount": 2,
-    "durationMs": 15102
-  },
-  {
     "runAt": "2026-09-05T15:17:09.163Z",
     "trigger": "schedule",
     "sourceCount": 45,
@@ -1998,5 +1988,15 @@
     "newArticleCount": 677,
     "dedupedCount": 2,
     "durationMs": 26852
+  },
+  {
+    "runAt": "2026-10-31T05:48:59.534Z",
+    "trigger": "schedule",
+    "sourceCount": 45,
+    "successCount": 44,
+    "failureCount": 1,
+    "newArticleCount": 617,
+    "dedupedCount": 1,
+    "durationMs": 17611
   }
 ]
