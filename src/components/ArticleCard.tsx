@@ -65,9 +65,7 @@ export function ArticleCard({
           // A logo is not a 16:9 photograph: cropping it to fill would cut the wordmark,
           // so it is contained and padded on the muted surface instead.
           className={
-            variant === 'article'
-              ? 'h-full w-full object-cover'
-              : 'h-full w-full object-contain p-8'
+            variant === 'logo' ? 'h-full w-full object-contain p-8' : 'h-full w-full object-cover'
           }
         />
       </div>

@@ -159,4 +159,12 @@ describe('ArticleCard publisher logo fallback', () => {
     renderCard(baseArticle({ imageUrl: undefined }));
     expect(screen.getByRole('img').getAttribute('src')).toContain('article-placeholder.svg');
   });
+
+  it('leaves the placeholder filling the frame, as it did before logos existed', () => {
+    renderCard(baseArticle({ imageUrl: undefined }));
+    const img = screen.getByRole('img');
+    // Only a logo is contained-and-padded; the placeholder artwork is drawn to fill 16:9.
+    expect(img.className).toContain('object-cover');
+    expect(img.className).not.toContain('object-contain');
+  });
 });

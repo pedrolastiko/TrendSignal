@@ -11,11 +11,6 @@ on:
         description: 'Limit discovery to a single enabled source id'
         type: string
         default: ''
-  # TEMPORARY: workflow_dispatch only becomes available once the file is on the default
-  # branch, and the results are needed before this can merge. Removed in the commit that
-  # adds the discovered logos.
-  push:
-    branches: [claude/source-update-frequency-bxretj]
 
 permissions:
   contents: read

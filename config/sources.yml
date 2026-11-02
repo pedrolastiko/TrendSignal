@@ -1,5 +1,13 @@
 # Source definitions for TrendSignal.
 #
+# `logoUrl` is the publisher's mark, shown on an article card when the article itself
+# carries no image — which is the case for roughly half of them. Each one was found and
+# fetched by `scripts/discover-source-logos.ts` on 2026-11-02 and kept only after the
+# response came back as a real image under 400 KB; none was typed by hand. Three sources
+# have none and fall back to the generic placeholder: OpenAI (403) and SentinelOne (429)
+# refuse the collector on their homepage, McKinsey times out. Re-run the `Discover source
+# logos` workflow if a publisher rebrands.
+#
 # Validation policy (see AGENTS.md #9): a source is only set to `enabled: true`
 # once its feedUrl has been fetched live and confirmed to return a parseable
 # RSS/Atom feed or sitemap, AND `npx tsx scripts/audit-sources.ts --source-id=<id>`
@@ -45,6 +53,7 @@ sources:
     company: Capgemini
     category: consulting
     homepageUrl: https://www.capgemini.com/
+    logoUrl: https://www.capgemini.com/wp-content/uploads/2026/04/Capgemini_Primary-logo_Capgemini-Blue_RGB-696.png
     collectionMode: rss
     feedUrl: https://www.capgemini.com/feed/
     enabled: true
@@ -58,6 +67,7 @@ sources:
     company: CGI
     category: consulting
     homepageUrl: https://www.cgi.com/en/blogs
+    logoUrl: https://www.cgi.com/sites/default/files/logo.png
     # The blog landing page is /en/blogs but the feed is at /en/blog/feed (singular);
     # /en/blogs/rss and /en/rss.xml do not serve one. Audited 2026-08-23: 330 items in
     # the feed, newest 4 days old.
@@ -74,6 +84,7 @@ sources:
     company: Thoughtworks
     category: consulting
     homepageUrl: https://www.thoughtworks.com/
+    logoUrl: https://www.thoughtworks.com/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/thoughtworks-logo.svg
     collectionMode: rss
     feedUrl: https://www.thoughtworks.com/rss/insights.xml
     enabled: true
@@ -87,6 +98,7 @@ sources:
     company: Deloitte
     category: consulting
     homepageUrl: https://www.deloitte.com/global/en.html
+    logoUrl: https://www.deloitte.com/content/dam/assets-shared/icons/global/apple-icon-144x144.png
     # No public RSS/Atom feed exists for Deloitte (checked directly and via page
     # <link rel="alternate"> — none present). The listing page at
     # www2.deloitte.com/us/en/insights.html links its whole navigation menu before
@@ -109,6 +121,7 @@ sources:
     company: PwC
     category: consulting
     homepageUrl: https://www.pwc.com/gx/en/issues.html
+    logoUrl: https://www.pwc.com/content/pwc/script/network/apple-touch-icon.png
     # No public RSS/Atom feed. PwC article pages carry neither JSON-LD Article
     # metadata nor article:published_time — the publication date is only in a
     # proprietary <meta name="pwcReleaseDate">, hence dateMetaNames below.
@@ -143,6 +156,7 @@ sources:
     company: L.E.K. Consulting
     category: consulting
     homepageUrl: https://www.lek.com/
+    logoUrl: https://www.lek.com/themes/custom/lekdaisy/logo.png
     # No <link rel="alternate"> in <head>, but /rss.xml serves a real RSS 2.0
     # channel. Audited 2026-08-23: 10 articles, newest 2 days old.
     collectionMode: rss
@@ -158,6 +172,7 @@ sources:
     company: Simon-Kucher
     category: consulting
     homepageUrl: https://www.simon-kucher.com/
+    logoUrl: https://www.simon-kucher.com/sites/default/files/favicon_01_0.ico
     # /rss.xml and /en/rss.xml both serve the same channel; the unprefixed one is
     # used so the feed is not pinned to a locale path. Audited 2026-08-23: 10
     # articles, newest 1 day old.
@@ -174,6 +189,7 @@ sources:
     company: Oliver Wyman
     category: consulting
     homepageUrl: https://www.oliverwyman.com/
+    logoUrl: https://www.oliverwyman.com/content/dam/oliver-wyman/global/en/images/designs/logo.png
     # No feed at any conventional path (all 404). sitemap.xml is a <sitemapindex>
     # of 21 children whose newest entries are article-dense, with JSON-LD Article
     # metadata on every sampled page. includePaths keeps the selection on thought
@@ -192,6 +208,7 @@ sources:
     company: BearingPoint
     category: consulting
     homepageUrl: https://www.bearingpoint.com/
+    logoUrl: https://www.bearingpoint.com/project/frontend/build/structured-data-bearingpoint-logo.d2483299.png
     # No feed (all 404). sitemap.xml is a <sitemapindex> of 30 children; its
     # freshest entries mix insights with the privacy statement and campaign
     # landing pages, so includePaths pins the selection to the insights-and-events
@@ -209,6 +226,7 @@ sources:
     company: FTI Consulting
     category: consulting
     homepageUrl: https://www.fticonsulting.com/
+    logoUrl: https://www.fticonsulting.com/-/media/project/global/demo/logo/logo-fti-dark.svg
     # /rss.xml, /atom.xml and /index.xml answer 403, but sitemap.xml is a plain
     # <urlset> of 5423 URLs that serves fine. Only /insights/articles/ pages carry
     # an extractable date — country insight listings and videos-and-podcasts
@@ -227,6 +245,7 @@ sources:
     company: Amazon Web Services
     category: technology
     homepageUrl: https://aws.amazon.com/blogs/aws/
+    logoUrl: https://a0.awsstatic.com/main/images/site/touch-icon-ipad-144-smile.png
     collectionMode: rss
     feedUrl: https://aws.amazon.com/blogs/aws/feed/
     enabled: true
@@ -240,6 +259,7 @@ sources:
     company: GitHub
     category: technology
     homepageUrl: https://github.blog/
+    logoUrl: https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180
     collectionMode: rss
     feedUrl: https://github.blog/feed/
     enabled: true
@@ -253,6 +273,7 @@ sources:
     company: Cloudflare
     category: technology
     homepageUrl: https://blog.cloudflare.com/
+    logoUrl: https://blog.cloudflare.com/favicon.ico
     collectionMode: rss
     feedUrl: https://blog.cloudflare.com/rss/
     enabled: true
@@ -266,6 +287,7 @@ sources:
     company: MongoDB
     category: technology
     homepageUrl: https://www.mongodb.com/blog
+    logoUrl: https://webassets.mongodb.com/_com_assets/cms/MongoDB-Logo-5c3a7405a85675366beb3a5ec4c032348c390b3f142f5e6dddf1d78e2df5cb5c.png
     collectionMode: rss
     feedUrl: https://www.mongodb.com/blog/rss
     enabled: true
@@ -279,6 +301,7 @@ sources:
     company: Databricks
     category: technology
     homepageUrl: https://www.databricks.com/blog
+    logoUrl: https://www.databricks.com/en-blog-assets/icons/icon-512x512.png?v=c9b9916c3b27dc51866c46b79a6e9b88
     collectionMode: rss
     feedUrl: https://www.databricks.com/feed
     enabled: true
@@ -292,6 +315,7 @@ sources:
     company: Salesforce
     category: technology
     homepageUrl: https://www.salesforce.com/news/
+    logoUrl: https://www.salesforce.com/news/wp-content/uploads/sites/3/2020/08/default.jpg
     collectionMode: rss
     feedUrl: https://www.salesforce.com/news/feed/
     enabled: true
@@ -305,6 +329,7 @@ sources:
     company: Cisco
     category: technology
     homepageUrl: https://blogs.cisco.com/
+    logoUrl: https://blogs.cisco.com/gcs/ciscoblogs/1/2020/10/Cisco_Logo_no_TM_Sky_Blue-RGB.png
     collectionMode: rss
     feedUrl: https://blogs.cisco.com/feed
     enabled: true
@@ -318,6 +343,7 @@ sources:
     company: NVIDIA
     category: technology
     homepageUrl: https://blogs.nvidia.com/
+    logoUrl: https://blogs.nvidia.com/favicon.ico
     collectionMode: rss
     feedUrl: https://blogs.nvidia.com/feed/
     enabled: true
@@ -331,6 +357,7 @@ sources:
     company: Red Hat
     category: technology
     homepageUrl: https://www.redhat.com/en/blog
+    logoUrl: https://www.redhat.com/favicon.ico
     collectionMode: rss
     feedUrl: https://www.redhat.com/en/rss/blog
     enabled: true
@@ -344,6 +371,7 @@ sources:
     company: Microsoft
     category: technology
     homepageUrl: https://news.microsoft.com/source/
+    logoUrl: https://news.microsoft.com/source/wp-content/uploads/2022/10/cropped-Microsoft_logo.svg_-300x300-1.png
     # blogs.microsoft.com/feed/ answers 403; the Microsoft Source newsroom feed does
     # not. Validated 2026-08-23.
     collectionMode: rss
@@ -359,6 +387,7 @@ sources:
     company: Microsoft
     category: cybersecurity
     homepageUrl: https://www.microsoft.com/en-us/security/blog/
+    logoUrl: https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2018/08/cropped-cropped-microsoft_logo_element.png
     # Added 2026-08-23: a distinct publication from Microsoft Source, and the one that
     # actually covers the monitored cybersecurity and AI-security topics.
     collectionMode: rss
@@ -374,6 +403,7 @@ sources:
     company: Google Cloud
     category: technology
     homepageUrl: https://cloud.google.com/blog
+    logoUrl: https://www.gstatic.com/cgc/supercloud_favicon.ico
     # cloud.google.com/blog/rss/ serves the HTML app shell; the canonical feed lives on
     # cloudblog.withgoogle.com. Validated 2026-08-23.
     collectionMode: rss
@@ -389,6 +419,7 @@ sources:
     company: Hugging Face
     category: artificial-intelligence
     homepageUrl: https://huggingface.co/blog
+    logoUrl: https://huggingface.co/front/thumbnails/blog.png
     collectionMode: rss
     feedUrl: https://huggingface.co/blog/feed.xml
     enabled: true
@@ -415,6 +446,7 @@ sources:
     company: Mistral AI
     category: artificial-intelligence
     homepageUrl: https://mistral.ai/news
+    logoUrl: https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp
     # Validated 2026-08-23 — the feed is at /rss.xml, not the /news/rss.xml first tried.
     collectionMode: rss
     feedUrl: https://mistral.ai/rss.xml
@@ -431,6 +463,7 @@ sources:
     company: CrowdStrike
     category: cybersecurity
     homepageUrl: https://www.crowdstrike.com/en-us/blog/
+    logoUrl: https://www.crowdstrike.com/content/dam/crowdstrike/marketing/en-us/logos/crowdstrike/crowdstrike-logos/CrowdStrike-logo-primary-white.png
     collectionMode: rss
     feedUrl: https://www.crowdstrike.com/blog/feed/
     enabled: true
@@ -444,6 +477,7 @@ sources:
     company: Palo Alto Networks
     category: cybersecurity
     homepageUrl: https://www.paloaltonetworks.com/blog
+    logoUrl: https://www.paloaltonetworks.com/content/dam/pan/en_US/microsite/pan-logo-black.svg
     collectionMode: rss
     feedUrl: https://www.paloaltonetworks.com/blog/feed
     enabled: true
@@ -457,6 +491,7 @@ sources:
     company: Rapid7
     category: cybersecurity
     homepageUrl: https://www.rapid7.com/blog/
+    logoUrl: https://www.rapid7.com/rapid7-social-card.jpg
     collectionMode: rss
     feedUrl: https://www.rapid7.com/blog/rss/
     enabled: true
@@ -470,6 +505,7 @@ sources:
     company: Snyk
     category: cybersecurity
     homepageUrl: https://snyk.io/blog/
+    logoUrl: https://snyk.io/icon.png
     collectionMode: rss
     feedUrl: https://snyk.io/blog/feed.xml
     enabled: true
@@ -496,6 +532,7 @@ sources:
     company: Tenable
     category: cybersecurity
     homepageUrl: https://www.tenable.com/blog
+    logoUrl: https://www.tenable.com/themes/custom/tenable/images-new/favicons/apple-touch-icon-180x180.png
     collectionMode: rss
     feedUrl: https://www.tenable.com/blog/feed
     enabled: true
@@ -509,6 +546,7 @@ sources:
     company: Proofpoint
     category: cybersecurity
     homepageUrl: https://www.proofpoint.com/us/blog
+    logoUrl: https://www.proofpoint.com/themes/custom/proofpoint/apps/drupal/images/favicons/favicon-180x180.png
     collectionMode: rss
     feedUrl: https://www.proofpoint.com/us/rss.xml
     enabled: true
@@ -522,6 +560,7 @@ sources:
     company: Wiz
     category: cybersecurity
     homepageUrl: https://www.wiz.io/blog
+    logoUrl: https://www.wiz.io/favicon.png
     # Validated 2026-08-23 — the feed is at /feed/rss.xml, not /blog/rss.xml.
     collectionMode: rss
     feedUrl: https://www.wiz.io/feed/rss.xml
@@ -536,6 +575,7 @@ sources:
     company: Fortinet
     category: cybersecurity
     homepageUrl: https://www.fortinet.com/blog
+    logoUrl: https://www.fortinet.com/content/dam/fortinet/images/icons/fortinet-social-icon.jpg
     # Validated 2026-08-23. Fortinet publishes through FeedBlitz; the feed opens with an
     # <?xml-stylesheet?> processing instruction, which first masked it as non-XML.
     collectionMode: rss
@@ -551,6 +591,7 @@ sources:
     company: Okta
     category: cybersecurity
     homepageUrl: https://sec.okta.com/
+    logoUrl: https://www.okta.com/sites/all/themes/Okta/images/logo.svg
     # Validated 2026-08-23. www.okta.com/blog has no feed; Okta Security Research
     # (sec.okta.com) does, and it is the identity-security content we monitor.
     collectionMode: rss
@@ -566,6 +607,7 @@ sources:
     company: Check Point
     category: cybersecurity
     homepageUrl: https://blog.checkpoint.com/
+    logoUrl: https://blog.checkpoint.com/wp-content/uploads/2026/06/check-point-logo-600x450-1.png
     # Validated 2026-08-23 — the feed is on blog.checkpoint.com, not www.checkpoint.com.
     collectionMode: rss
     feedUrl: https://blog.checkpoint.com/feed/
@@ -582,6 +624,7 @@ sources:
     company: TechCrunch
     category: media
     homepageUrl: https://techcrunch.com/
+    logoUrl: https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180
     collectionMode: rss
     feedUrl: https://techcrunch.com/feed/
     enabled: true
@@ -595,6 +638,7 @@ sources:
     company: BleepingComputer
     category: media
     homepageUrl: https://www.bleepingcomputer.com/
+    logoUrl: https://www.bleepstatic.com/logos/bleepingcomputer-logo.png
     collectionMode: rss
     feedUrl: https://www.bleepingcomputer.com/feed/
     enabled: true
@@ -608,6 +652,7 @@ sources:
     company: The Hacker News
     category: media
     homepageUrl: https://thehackernews.com/
+    logoUrl: https://thehackernews.com/downloads/assets/sq-logo.jpg
     collectionMode: rss
     feedUrl: https://feeds.feedburner.com/TheHackersNews
     enabled: true
@@ -621,6 +666,7 @@ sources:
     company: Dark Reading
     category: media
     homepageUrl: https://www.darkreading.com/
+    logoUrl: https://www.darkreading.com/favicon.ico
     collectionMode: rss
     feedUrl: https://www.darkreading.com/rss.xml
     enabled: true
@@ -634,6 +680,7 @@ sources:
     company: MIT Technology Review
     category: media
     homepageUrl: https://www.technologyreview.com/
+    logoUrl: https://www.technologyreview.com/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico
     collectionMode: rss
     feedUrl: https://www.technologyreview.com/feed/
     enabled: true
@@ -647,6 +694,7 @@ sources:
     company: The Register
     category: media
     homepageUrl: https://www.theregister.com/
+    logoUrl: https://www.theregister.com/view-resources/dachser2/public/theregister/logo.svg
     collectionMode: rss
     feedUrl: https://www.theregister.com/headlines.atom
     enabled: true
@@ -660,6 +708,7 @@ sources:
     company: VentureBeat
     category: media
     homepageUrl: https://venturebeat.com/
+    logoUrl: https://venturebeat.com/favicon.ico
     collectionMode: rss
     feedUrl: https://venturebeat.com/feed/
     enabled: true
@@ -673,6 +722,7 @@ sources:
     company: InfoQ
     category: media
     homepageUrl: https://www.infoq.com/
+    logoUrl: https://cdn.infoq.com/statics_s1_20261102191315/apple-touch-icon.png
     # Validated 2026-08-23 — the feed is on feed.infoq.com.
     collectionMode: rss
     feedUrl: https://feed.infoq.com/
