@@ -32,8 +32,12 @@ import type { SourceConfig } from './schemas.ts';
 const SOURCE_CONCURRENCY = 5;
 /** A logo below this is a favicon fragment, too small to fill a card slot. */
 const MIN_LOGO_BYTES = 400;
-/** Guards against a publisher serving a huge hero image where a logo was expected. */
-const MAX_LOGO_BYTES = 2 * 1024 * 1024;
+/**
+ * A brand mark is a few tens of KB. Anything heavier is a hero photograph dressed up as
+ * `og:image` — NVIDIA's homepage serves a 1 MB key visual — and shipping that as a card
+ * thumbnail would both mislead (it reads as the article's own image) and cost page weight.
+ */
+const MAX_LOGO_BYTES = 400 * 1024;
 
 const repositoryUrl = resolveRepositoryUrl();
 const userAgent = repositoryUrl ? `${USER_AGENT_BASE} (+${repositoryUrl})` : USER_AGENT_BASE;
@@ -130,10 +134,14 @@ function collectCandidates($: cheerio.CheerioAPI, baseUrl: string): Candidate[] 
   for (const href of bySize('link[rel~="apple-touch-icon"]')) {
     push(absolute(href, baseUrl), 'link:apple-touch-icon');
   }
-  push(absolute($('meta[property="og:image"]').attr('content'), baseUrl), 'meta:og:image');
   for (const href of bySize('link[rel~="icon"]')) {
     push(absolute(href, baseUrl), 'link:icon');
   }
+  // Ranked below the icon channels on purpose. A homepage's og:image is its social share
+  // card, which is branded but is usually a hero photograph rather than a mark: used as a
+  // card fallback it reads as the article's own image. It stays only to rescue publishers
+  // that declare no icon at all.
+  push(absolute($('meta[property="og:image"]').attr('content'), baseUrl), 'meta:og:image');
   push(absolute('/favicon.ico', baseUrl), 'favicon.ico');
 
   return candidates;
