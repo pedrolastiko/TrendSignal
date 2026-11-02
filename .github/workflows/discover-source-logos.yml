@@ -1,0 +1,60 @@
+name: Discover source logos
+
+# Manual-only diagnostic. Finds and validates a publisher logo per source so articles
+# with no image of their own can fall back to their publisher's mark. Read-only: it
+# prints `logoUrl:` lines to paste into config/sources.yml and writes nothing itself.
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_id:
+        description: 'Limit discovery to a single enabled source id'
+        type: string
+        default: ''
+  # TEMPORARY: workflow_dispatch only becomes available once the file is on the default
+  # branch, and the results are needed before this can merge. Removed in the commit that
+  # adds the discovered logos.
+  push:
+    branches: [claude/source-update-frequency-bxretj]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trendsignal-discover-source-logos
+  cancel-in-progress: true
+
+jobs:
+  discover:
+    name: Discover publisher logos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Setup Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Discover logos
+        env:
+          SOURCE_ID: ${{ github.event.inputs.source_id }}
+        run: |
+          set -eo pipefail
+          args=(--json=source-logos.json)
+          if [ -n "$SOURCE_ID" ]; then args+=("--source-id=$SOURCE_ID"); fi
+          npx tsx scripts/discover-source-logos.ts "${args[@]}"
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: source-logos
+          path: source-logos.json
+          retention-days: 14
+          if-no-files-found: warn
