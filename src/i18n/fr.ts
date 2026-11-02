@@ -45,6 +45,7 @@ export const fr: TranslationDictionary = {
     readMore: 'Lire sur le site source',
     imageAlt: 'Illustration article',
     placeholderAlt: 'Aucune image disponible',
+    logoAlt: "Logo de l'éditeur",
     matchedKeywords: 'Mots-clés correspondants',
     publisherTags: "Tags de l'éditeur",
   },

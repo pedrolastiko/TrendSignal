@@ -68,6 +68,11 @@ export function DashboardPage() {
 
   const { data } = state;
   const keywordsById = new Map(data.keywords.map((k) => [k.id, k]));
+  // Sources that never declared a validated logo are simply absent from the map, so
+  // the card falls through to the generic placeholder as before.
+  const logoBySourceId = new Map(
+    data.sources.flatMap((s) => (s.logoUrl ? [[s.id, s.logoUrl] as const] : [])),
+  );
 
   const searched =
     debouncedQuery.trim() && fuse ? fuse.search(debouncedQuery).map((r) => r.item) : data.articles;
@@ -209,7 +214,12 @@ export function DashboardPage() {
       ) : (
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {sorted.map((article) => (
-            <ArticleCard key={article.id} article={article} keywordsById={keywordsById} />
+            <ArticleCard
+              key={article.id}
+              article={article}
+              keywordsById={keywordsById}
+              sourceLogoUrl={logoBySourceId.get(article.sourceId)}
+            />
           ))}
         </div>
       )}

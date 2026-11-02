@@ -30,6 +30,7 @@ export interface TranslationDictionary {
     readMore: string;
     imageAlt: string;
     placeholderAlt: string;
+    logoAlt: string;
     matchedKeywords: string;
     publisherTags: string;
   };

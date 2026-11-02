@@ -362,6 +362,7 @@ export async function collect(options: CollectOptions): Promise<void> {
       company: s.company,
       category: s.category,
       homepageUrl: s.homepageUrl,
+      logoUrl: s.logoUrl,
       collectionMode: s.collectionMode,
       enabled: s.enabled,
       priority: s.priority,

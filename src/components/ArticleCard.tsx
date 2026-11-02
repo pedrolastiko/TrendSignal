@@ -21,23 +21,54 @@ function formatDate(iso: string, locale: string): string {
 export function ArticleCard({
   article,
   keywordsById,
+  sourceLogoUrl,
 }: {
   article: Article;
   keywordsById: Map<string, KeywordPublic>;
+  /** Publisher logo, shown when the article has no usable image of its own. */
+  sourceLogoUrl?: string;
 }) {
   const { t, locale } = useI18n();
-  const [imgError, setImgError] = useState(false);
-  const showImage = Boolean(article.imageUrl) && !imgError;
+  const [imageFailed, setImageFailed] = useState(false);
+  const [logoFailed, setLogoFailed] = useState(false);
+
+  // Two independent failure flags rather than one: a broken article image must still
+  // let the logo be tried, and a broken logo must still fall through to the placeholder.
+  const variant: 'article' | 'logo' | 'placeholder' =
+    article.imageUrl && !imageFailed
+      ? 'article'
+      : sourceLogoUrl && !logoFailed
+        ? 'logo'
+        : 'placeholder';
+
+  const imageSrc =
+    variant === 'article'
+      ? article.imageUrl
+      : variant === 'logo'
+        ? sourceLogoUrl
+        : PLACEHOLDER_IMAGE;
+  const imageAlt =
+    variant === 'article'
+      ? t.article.imageAlt
+      : variant === 'logo'
+        ? `${article.company} — ${t.article.logoAlt}`
+        : t.article.placeholderAlt;
 
   return (
     <article className="flex flex-col overflow-hidden rounded-card border border-border bg-white shadow-sm transition-shadow hover:shadow-md">
       <div className="aspect-[16/9] w-full bg-surface">
         <img
-          src={showImage ? article.imageUrl : PLACEHOLDER_IMAGE}
-          alt={showImage ? t.article.imageAlt : t.article.placeholderAlt}
+          src={imageSrc}
+          alt={imageAlt}
           loading="lazy"
-          onError={() => setImgError(true)}
-          className="h-full w-full object-cover"
+          onError={() => (variant === 'article' ? setImageFailed(true) : setLogoFailed(true))}
+          // A logo is not a 16:9 photograph: cropping it to fill would cut the wordmark,
+          // so it is contained and padded on the muted surface instead.
+          className={
+            variant === 'article'
+              ? 'h-full w-full object-cover'
+              : 'h-full w-full object-contain p-8'
+          }
         />
       </div>
       <div className="flex flex-1 flex-col gap-3 p-4">
