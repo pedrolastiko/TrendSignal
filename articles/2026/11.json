@@ -40,7 +40,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "0bed561f10e179cb3266f608d7179990eb9a04cddd8ca1205ff47909b8e068c8",
@@ -131,8 +131,85 @@
     "relevanceScore": 12
   },
   {
+    "id": "163964ef4da25ae5e8ffb58a170509d3e08aee5c605e685e16da07020c609876",
+    "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
+    "canonicalUrl": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026",
+    "sourceId": "aws-news-blog",
+    "sourceName": "AWS News Blog",
+    "company": "Amazon Web Services",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T16:45:48.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams already trust became callable without a rewrite. In the […]",
+    "language": "en",
+    "tags": [
+      "Amazon Aurora",
+      "Amazon Bedrock",
+      "Amazon Bedrock AgentCore",
+      "Amazon EC2",
+      "Amazon Elastic Container Registry",
+      "Amazon Elastic Container Service",
+      "Amazon Elastic Kubernetes Service",
+      "Amazon SageMaker AI",
+      "Amazon Simple Storage Service (S3)",
+      "AWS Certificate Manager",
+      "AWS Fault Injection Service (FIS)",
+      "AWS IAM Identity Center"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
+  },
+  {
+    "id": "1675f5566da94dce828836c32c4c56088e5febde7625aeacc7a259203f8e7b23",
+    "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+    "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T18:16:34.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "1685fdd4b7989a0834bb08da522736db98f106f9d59de08a138753beb67566fb",
+    "title": "Google Cloud Developer plugin now available in Antigravity Marketplace",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/",
+    "canonicalUrl": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace",
+    "sourceId": "google-cloud-blog",
+    "sourceName": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T18:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Building cloud solutions with autonomous AI agents should feel fast, safe, and reliable. Without cloud-specific context, coding agents often struggle. They might invent deprecated SDK syntax, guess invalid command flags, or attempt operations without the required Identity and Access Management (IAM) permissions. Even…",
+    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/google-cloud-developer-plugin-now-available-.max-600x600.jpg",
+    "language": "en",
+    "tags": [
+      "Developers & Practitioners"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "identity-access-management"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 44
+  },
+  {
     "id": "1adfef6329d1d0c8963d09136892ba22295807b0134cecb6abec91787e2f451f",
-    "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+    "title": "AWS Capacity Largely Sold out through 2027, with On-Demand Headroom Reserved",
     "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out",
     "sourceId": "infoq",
@@ -145,8 +222,8 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/aws-capacity-sold-out/en/headerimage/generatedHeaderImage-1793124716899.jpg",
     "language": "en",
     "tags": [
-      "Cloud",
       "Capacity Planning",
+      "Cloud",
       "Amazon Web Services",
       "AWS",
       "AI",
@@ -185,6 +262,27 @@
     "relevanceScore": 16
   },
   {
+    "id": "1d941635bc2e293582ae2560f8ee78f68f35c48320295563340e611a0fa5d752",
+    "title": "Marvell wants to be a copper topper, bets $115B on photonics leader to push optical networking",
+    "url": "https://www.theregister.com/systems/2026/11/02/marvell-wants-to-be-a-copper-topper-bets-115b-on-photonics-leader-to-push-optical-networking/5307028",
+    "canonicalUrl": "https://www.theregister.com/systems/2026/11/02/marvell-wants-to-be-a-copper-topper-bets-115b-on-photonics-leader-to-push-optical-networking/5307028",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T18:02:55.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "IP house believes optics demand is going to explode as Nvidia and others eye bigger systems",
+    "imageUrl": "https://image.theregister.com/?imageId=253714&width=800",
+    "language": "en",
+    "tags": [
+      "systems"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "1ecbe4e6739f4075f55e1c266453c6060a019e41cfdfa747134b4705693e925d",
     "title": "Vintage fun: Prodding AI agents using retro hardware just because you can",
     "url": "https://www.theregister.com/offbeat/2026/11/02/vintage-fun-prodding-ai-agents-using-retro-hardware-just-because-you-can/5306705",
@@ -208,6 +306,47 @@
     "relevanceScore": 47
   },
   {
+    "id": "20e63825dd927f7df8f7caa46126ed7a411f0af7a9d6824c34850ec009a483bb",
+    "title": "Oracle gobbles $20 billion borrowing limit a week after setting it",
+    "url": "https://www.theregister.com/paas-and-iaas/2026/11/02/oracle-gobbles-20-billion-borrowing-limit-a-week-after-setting-it/5307014",
+    "canonicalUrl": "https://www.theregister.com/paas-and-iaas/2026/11/02/oracle-gobbles-20-billion-borrowing-limit-a-week-after-setting-it/5307014",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T17:35:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "In the middle of a datacenter capex binge, vendor promises no more borrowing until the end of 2030",
+    "imageUrl": "https://image.theregister.com/?imageId=4094260&width=800",
+    "language": "en",
+    "tags": [
+      "paas and iaas"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
+    "id": "214d325509e9b7228d4d1c813f7feee3a8e8fd258ed383f3b04fe8419e0f786d",
+    "title": "Rx for Compliance: Using Analytics to Manage Life Sciences Risk",
+    "url": "https://www.fticonsulting.com/insights/articles/life-sciences-compliance-analytics-risk",
+    "canonicalUrl": "https://www.fticonsulting.com/insights/articles/life-sciences-compliance-analytics-risk",
+    "sourceId": "fti-consulting-insights",
+    "sourceName": "FTI Consulting Insights",
+    "company": "FTI Consulting",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "updatedAt": "2026-11-02T00:00:00.000Z",
+    "summary": "Life sciences compliance teams can use integrated data and analytics to anticipate risk and act before regulators, whistleblowers or partners do.",
+    "imageUrl": "https://www.fticonsulting.com/-/media/images/shared-content/insights/articles/2026/oct/life-sciences-compliance-analytics-risk_900x471_center.jpeg?as=0&dmc=0&iar=0&thn=0&udi=0&rev=73c14e6642734b388386c49c54f47248&hash=409AD3EADBC34A932CA556A8FC0C0D30",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 12
+  },
+  {
     "id": "21738fe3b441118d8167cb5c4f4ed1f674ce20951a6a034140140882ce74702c",
     "title": "Frozen part II: Hackers remotely defrost produce in Euro supermarkets ... again",
     "url": "https://www.theregister.com/cyber-crime/2026/11/02/frozen-part-ii-hackers-remotely-defrost-produce-in-euro-supermarkets-again/5306924",
@@ -229,6 +368,58 @@
       "threat-intelligence"
     ],
     "relevanceScore": 15
+  },
+  {
+    "id": "22adc5b0d3b281f1d0fa7ea2c3ee89d8ab2bc5ff146c4a18af9d6f15a55a3ba8",
+    "title": "Thieves pilfer environment variables from Trigger AI workflow tool",
+    "url": "https://www.theregister.com/security/2026/11/02/thieves-pilfer-environment-variables-from-trigger-ai-workflow-tool/5306998",
+    "canonicalUrl": "https://www.theregister.com/security/2026/11/02/thieves-pilfer-environment-variables-from-trigger-ai-workflow-tool/5306998",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T16:44:30.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "So, who's ready to clear the dust out of that server closet and move things back on-prem?",
+    "imageUrl": "https://image.theregister.com/?imageId=260694&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 37
+  },
+  {
+    "id": "23fdff5d5644a68a56dedd4a5d2f6299a0feb6a6ae04a26ab8fb4983dfa81972",
+    "title": "Design-to-Code: Reimagine Handoff Workflow with AI – Rebuilding PubHub Part 3",
+    "url": "https://blogs.cisco.com/cisco-devnet/design-to-code-ai-handoff-workflow",
+    "canonicalUrl": "https://blogs.cisco.com/cisco-devnet/design-to-code-ai-handoff-workflow",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T17:23:42.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "How the PubHub team replaced the Figma handoff with an AI-built, designer-refined HTML prototype, and what worked and didn't along the way, so other teams can adapt it.",
+    "language": "en",
+    "tags": [
+      "DevNet",
+      "Agentic AI",
+      "Cisco DevNet",
+      "developer"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai"
+    ],
+    "relevanceScore": 48
   },
   {
     "id": "26db6f8a9060cd7620884bea096c304f029f361f122725879e14e74ffda271d8",
@@ -274,6 +465,52 @@
     "relevanceScore": 15
   },
   {
+    "id": "277870ffc8d71544c0465c137654062f6f2bf7e7d7a1ec8af9071c966d86edc3",
+    "title": "Scaling Git at OpenAI",
+    "url": "https://openai.com/index/scaling-git-at-openai",
+    "canonicalUrl": "https://openai.com/index/scaling-git-at-openai",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-11-02T15:30:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+    "language": "en",
+    "tags": [
+      "Engineering"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
+  },
+  {
+    "id": "29f1fd5cb64a11a5f04aea55ad4c9c68b8caf83909578680ac8c1ecf297c507b",
+    "title": "Web host Squarespace lays off 19% of its employees",
+    "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T19:25:59.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "The website builder said that the job losses are part of a broader restructuring of its organization.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Commerce",
+      "Layoffs",
+      "Squarespace",
+      "vibe coding"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "2aa0343475369aa8e17f0df4c83cbf44fad8117f5435ddc542ecfe0a81f05b00",
     "title": "Linus Torvalds says Linux kernel is out of 'stabilization phase' and using 'much healthier model' for AI contributions",
     "url": "https://www.theregister.com/os-platforms/2026/11/01/linus-torvalds-says-linux-kernel-is-out-of-stabilization-phase-and-using-much-healthier-model-for-ai-contributions/5306852",
@@ -294,7 +531,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "30e8e4a4ce37dd8230450a7291676aee1c8bc6f3d825615b4064293b2ba99ec9",
@@ -409,7 +646,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "38ccb4d7c6dea3e2414d878b60cf51e667f16b003cb55336c711277c2947f671",
@@ -456,6 +693,26 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "3d266b18525861c0eaea5f65d000b8cdf3b6ae684fefa7d44a8124ae0c199c0d",
+    "title": "Lumen and Microsoft expand collaboration to co-sell enterprise AI-ready networks",
+    "url": "https://news.microsoft.com/source/2026/11/02/lumen-and-microsoft-expand-collaboration-to-co-sell-enterprise-ai-ready-networks/",
+    "canonicalUrl": "https://news.microsoft.com/source/2026/11/02/lumen-and-microsoft-expand-collaboration-to-co-sell-enterprise-ai-ready-networks",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T17:51:17.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "The post Lumen and Microsoft expand collaboration to co-sell enterprise AI-ready networks appeared first on Source.",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 50
   },
   {
     "id": "3d804a393aff428d7a12311b0a1451f31dc75e15cc46e33218ed6bd75b679432",
@@ -511,11 +768,11 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "406768394f36ebd64c7854a2ca628c56c348a9ebf06a1e099d5d2a583f7828b4",
-    "title": "BTCPay Server warns of hot wallet thefts targeting outdated instances",
+    "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
     "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
     "canonicalUrl": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances",
     "sourceId": "bleepingcomputer",
@@ -537,6 +794,28 @@
     "relevanceScore": 16
   },
   {
+    "id": "4094d4340f9e66f9e2fcbdf55d52c8459c6b02d6daa5c6c2ae592ebcd92aa22f",
+    "title": "Qodo builds context into AI code review with Codex",
+    "url": "https://openai.com/index/qodo-codex-plugin",
+    "canonicalUrl": "https://openai.com/index/qodo-codex-plugin",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+    "language": "en",
+    "tags": [
+      "Startup"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 37
+  },
+  {
     "id": "4283801458603742be9d5e0a9a4f22524b883df21341fe24e7195c3406d54f66",
     "title": "A fresh wave of cyberattacks has hit Europe’s supermarket refrigerators, destroying food across countries",
     "url": "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/",
@@ -553,13 +832,41 @@
       "Security",
       "cyberattack",
       "cybersecurity",
-      "food supply"
+      "food supply",
+      "In Brief"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "cybersecurity"
     ],
     "relevanceScore": 16
+  },
+  {
+    "id": "43988feebac4c4309da2a8ea67c26c115d2dc9b7f9120eb94c8bff020883c0de",
+    "title": "Raising the quality of insights in agentic analytics",
+    "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+    "canonicalUrl": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics",
+    "sourceId": "mit-technology-review",
+    "sourceName": "MIT Technology Review",
+    "company": "MIT Technology Review",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T17:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that…",
+    "language": "en",
+    "tags": [
+      "Artificial intelligence",
+      "sponsored"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 49
   },
   {
     "id": "4432f1dbea0caa5b7f06abe6b418d0f65477d6b9f093ef9d580abf58fec337eb",
@@ -581,6 +888,40 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 30
+  },
+  {
+    "id": "445d58520367c33d7150463a304916702c4a96e3e09ad52d8a1688dda3747843",
+    "title": "Google and Meta Open-source TorchTPU to Bring Native PyTorch Support to Google TPUs",
+    "url": "https://www.infoq.com/news/2026/11/torchtpu-native-pythorch-tpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/11/torchtpu-native-pythorch-tpu",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T17:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "TorchTPU is an open-source project developed by Google in collaboration with Meta that provides a native PyTorch backend for Google TPUs. It enables PyTorch workloads to execute on TPU hardware with minimal code modifications, supporting eager and compiled execution, distributed computing, and hardware-specific…",
+    "imageUrl": "https://res.infoq.com/news/2026/11/torchtpu-native-pythorch-tpu/en/headerimage/torchtpu-1793636927771.jpeg",
+    "language": "en",
+    "tags": [
+      "Open Source",
+      "Large language models",
+      "Agents",
+      "Google",
+      "PyTorch",
+      "Facebook",
+      "GPU",
+      "AI",
+      "ML & Data Engineering",
+      "Development"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 14
   },
   {
     "id": "45479892e16d4e607d79886dee5f0074db8763341ac2ff66cc13075e36407b2e",
@@ -645,6 +986,26 @@
     "relevanceScore": 13
   },
   {
+    "id": "4874616ab54bfb174d7a2b1e96af8c890a0cf90e59dbb0e3ded1a04e24847798",
+    "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+    "canonicalUrl": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks",
+    "sourceId": "microsoft-security-blog",
+    "sourceName": "Microsoft Security Blog",
+    "company": "Microsoft",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-11-02T20:20:59.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius. The post What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks appeared first on…",
+    "language": "en",
+    "tags": [
+      "Vulnerability"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
+  },
+  {
     "id": "4981cab7fa7fafcbc1a9103db71d7e7d074a27e7e0132c27e0cf9cb752ffd0d2",
     "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
     "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
@@ -691,6 +1052,34 @@
     "relevanceScore": 16
   },
   {
+    "id": "4d8c7b43ae7625b416acc9095a49ca94223c01495ed45c53be45fcdeb5e75906",
+    "title": "Storm Ransomware Is Scaling Fast and Selling an AI Powered Image",
+    "url": "https://blog.checkpoint.com/exposure-management/storm-ransomware-is-scaling-fast-and-selling-an-ai-powered-image/",
+    "canonicalUrl": "https://blog.checkpoint.com/exposure-management/storm-ransomware-is-scaling-fast-and-selling-an-ai-powered-image",
+    "sourceId": "checkpoint-blog",
+    "sourceName": "Check Point Blog",
+    "company": "Check Point",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-11-02T17:09:29.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "A new ransomware operation appeared in August 2026 with an ambitious pitch: sophisticated infrastructure, aggressive affiliate payouts, global ambitions, and what it calls the “first AI powered, quantum resistant ransomware.” Within approximately six weeks, Storm had claimed over 50 victims across North America,…",
+    "imageUrl": "https://blog.checkpoint.com/wp-content/uploads/2026/11/storm-4.png",
+    "language": "en",
+    "tags": [
+      "Exposure Management",
+      "Research",
+      "Threat Research"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "ransomware"
+    ],
+    "tagMatchedIds": [
+      "threat-intelligence"
+    ],
+    "relevanceScore": 72
+  },
+  {
     "id": "4fec7fe9f35775636becc55369ac06c2dbdbc105f1f935ccd9f49a4ca070e8b6",
     "title": "Nuclear threats and street brawls: Russia, Ukraine report attacks on their emergency alert apps",
     "url": "https://www.theregister.com/security/2026/11/02/nuclear-threats-and-street-brawls-russia-ukraine-report-attacks-on-their-emergency-alert-apps/5306901",
@@ -734,6 +1123,54 @@
     "relevanceScore": 16
   },
   {
+    "id": "57a661b28da30bccfe271b2f8977c311e0ac7daa55f3484b25739d477f50b047",
+    "title": "Germany says lawmakers’ iPhones may have been hacked with spyware",
+    "url": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T19:45:54.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "German lawmakers and a filmmaker are among the people who received notifications from Apple warning that their phones may have been hacked.",
+    "language": "en",
+    "tags": [
+      "Security",
+      "Apple",
+      "cyberattack",
+      "cybersecurity",
+      "Spyware"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "5a014341bc3fc0f1d8b6431c4e4adac34c7a9984ff7e1d40ed22dd094e75323f",
+    "title": "LifeVal",
+    "url": "https://openai.com/index/lifeval",
+    "canonicalUrl": "https://openai.com/index/lifeval",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-11-02T09:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+    "language": "en",
+    "tags": [
+      "Research"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 35
+  },
+  {
     "id": "5d33ed0c66ace544e65f6063efa96737fd184e0288033033361ae48877b21fc8",
     "title": "Introducing the Grid Protectors Program",
     "url": "https://openai.com/index/grid-protectors-program",
@@ -755,7 +1192,7 @@
   },
   {
     "id": "5edf827d9310fa4ed305c475622be2f455021b6b86234356fc221328054cba73",
-    "title": "From Expertise to Intelligence: NISCO Deploys World's First Swarm-Intelligence Steel Model at Scale",
+    "title": "From expertise to intelligence: NISCO deploys world's first swarm-intelligence steel model at scale",
     "url": "https://www.theregister.com/ai-and-ml/2026/11/02/partner-content-from-expertise-to-intelligence-nisco-deploys-worlds-first-swarm-intelligence-steel-model-at-scale/5306614",
     "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/11/02/partner-content-from-expertise-to-intelligence-nisco-deploys-worlds-first-swarm-intelligence-steel-model-at-scale/5306614",
     "sourceId": "theregister",
@@ -777,6 +1214,33 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 32
+  },
+  {
+    "id": "62954b6003d956addf3086ec22a413f2b48e48b88c17db268017b8dab5f546b4",
+    "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+    "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T22:14:50.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "TC",
+      "Anthropic",
+      "RSI"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
   },
   {
     "id": "63aa33c16615844d1bd456635d31fb5bdbb9898d4ab39693487b6f9b66872430",
@@ -801,7 +1265,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "6689171f577eeb946c807c7c25dfa8355be4ba2bd1e513f49223ec00bdf444c4",
@@ -844,7 +1308,32 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
+  },
+  {
+    "id": "69a3cf0adeeaddb641ecaebfae9ca5b3585f7c08a74024a5ca9d4a88dff44268",
+    "title": "AI could break legal systems by finding previously hidden loopholes",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/02/ai-could-break-legal-systems-by-finding-previously-hidden-loopholes/5307066",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/11/02/ai-could-break-legal-systems-by-finding-previously-hidden-loopholes/5307066",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T21:12:21.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Turns out legislation may have bugs, too",
+    "imageUrl": "https://image.theregister.com/?imageId=5307077&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 37
   },
   {
     "id": "6aca75eb89cc0e00ecd83e9713afd347fcb2facba530068d023e3188aa0e5b8d",
@@ -867,6 +1356,104 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48
+  },
+  {
+    "id": "6c299e7ed47e6af238de198107346812e164e14f559d9fbd4546a317590dd4a1",
+    "title": "Token thieves costing companies $100K+ per day in illicit LLM charges",
+    "url": "https://www.theregister.com/security/2026/11/02/token-thieves-costing-companies-100k-per-day-in-illicit-llm-charges/5306967",
+    "canonicalUrl": "https://www.theregister.com/security/2026/11/02/token-thieves-costing-companies-100k-per-day-in-illicit-llm-charges/5306967",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T16:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Don't let the LLMjackers hit you",
+    "imageUrl": "https://image.theregister.com/?imageId=5306978&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [
+      "generative-ai"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 38
+  },
+  {
+    "id": "70786c813b5e717dc01c7798c70b5d73d20f07875f2a8abc583e2cd9f6650ba7",
+    "title": "Readwise takes on Amazon’s Kindle and Goodreads with its new app for book lovers",
+    "url": "https://techcrunch.com/2026/11/02/readwise-takes-on-amazons-kindle-and-goodreads-with-its-new-app-for-book-lovers/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/readwise-takes-on-amazons-kindle-and-goodreads-with-its-new-app-for-book-lovers",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T17:49:41.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Readwise Books combines an e-book store, reading tracker, detailed reading stats, and AI features in a bid to challenge Amazon's ecosystem.",
+    "language": "en",
+    "tags": [
+      "Apps",
+      "Startups",
+      "Amazon",
+      "e-books",
+      "goodreads"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
+    "id": "710515d713d53bab7df622d06f4d1a73c16ea1f804fee90da7b5a1bbda5e8a09",
+    "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T21:40:14.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
+    "language": "en",
+    "tags": [
+      "Security",
+      "Artificial Intelligence"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "relevanceScore": 48
+  },
+  {
+    "id": "7386c59777f9afa494423490193a2e7effca18c94f540367b9cff264abcefcb3",
+    "title": "Beyond Migration: Using Database Migration Service for disk shrinking",
+    "url": "https://cloud.google.com/blog/products/databases/use-dms-to-shrink-cloud-sql-for-sql-server-disk/",
+    "canonicalUrl": "https://cloud.google.com/blog/products/databases/use-dms-to-shrink-cloud-sql-for-sql-server-disk",
+    "sourceId": "google-cloud-blog",
+    "sourceName": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T17:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "When database engineers hear “database migration\", they typically think of a one-time onboarding pathway—moving databases from on-premises environments to the cloud, or between different cloud providers. However, Google Cloud's Database Migration Service (DMS) supports Cloud SQL for SQL Server as a source. This opens…",
+    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_oV7twdV.max-1000x1000.png",
+    "language": "en",
+    "tags": [
+      "Databases"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
   },
   {
     "id": "76572919696607187326c826e56b538562588ce30aaa22c0011589c99ae62195",
@@ -896,6 +1483,25 @@
       "cybersecurity"
     ],
     "relevanceScore": 48
+  },
+  {
+    "id": "7687771085e490d3a5654d12ea8b39eab581c6d4cc99610e4406a112a51befc6",
+    "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+    "canonicalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T22:27:24.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5a6c898e92d21e63/6ae8ffda91cb5739c41bd1e1/binance_creativetan_shutterstock.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "772d27d38d32d9015ad1b31c6956a58c2f18bcf8704cb7baac836b5cd9973106",
@@ -956,8 +1562,8 @@
     "tags": [
       "gRPC",
       "Model Context Protocol (MCP)",
-      "Service Discovery",
       "Agents",
+      "Service Discovery",
       "Thrift",
       "Microservices",
       "Distributed Systems",
@@ -976,6 +1582,25 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 62
+  },
+  {
+    "id": "7a8b5fe3b630ce05e6975a3a5dda0a650b6ec1c25855d4aef5701096a73dec8c",
+    "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+    "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T15:50:26.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad fraud…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkbU6vLZjF0nlz7vqN6UVf3kN1IcdUfIpAmVWlh2II4gGbMMmSuiE1S8HLzP4JV-ImeCa64hU-cEaa-yGXWqUO_XHOurKtEw61DFvjGOJhM7gHpRPpegBcCFYrXkd59wGX-PoV6zm7z7uq6PpXjc4GLhDRzcinR5IIjcOVZEVl8FMQ0v0Dt3CV9sRxZNk/s1600/android-tv-botnet.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "7f9612cb10f4e5b2b03174305dd1c1b43e80b63c4d2a7ab429d1c8bf81830703",
@@ -1111,6 +1736,27 @@
     "relevanceScore": 16
   },
   {
+    "id": "84eb149e7ed2d0278e7114cbca2321d7cc644449963a1af57c196b47a39f5b8c",
+    "title": "These smart glasses promise to turn your silent mouth movements into text",
+    "url": "https://www.theregister.com/offbeat/2026/11/02/these-smart-glasses-promise-to-turn-your-silent-mouth-movements-into-text/5307070",
+    "canonicalUrl": "https://www.theregister.com/offbeat/2026/11/02/these-smart-glasses-promise-to-turn-your-silent-mouth-movements-into-text/5307070",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T21:50:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Crazy person, or efficient employee? As always, it depends on what they're wearing",
+    "imageUrl": "https://image.theregister.com/?imageId=261585&width=800",
+    "language": "en",
+    "tags": [
+      "offbeat"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "890f114888d2b8607277443bdc7660270cd878e9405c81a7e28d93fe068b38b3",
     "title": "Data centers are now a midterm issue, even in Brooklyn",
     "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
@@ -1136,6 +1782,52 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 30
+  },
+  {
+    "id": "8b13f249e0f16fc940a8787e1f14631deaf0e6af9d8599ba2c2285204f1af68b",
+    "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
+    "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T23:25:32.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Apple says iPhone Duo production is ramping up, but it still can't say when supply will catch up with demand as shipping delays stretch into next year.",
+    "language": "en",
+    "tags": [
+      "TC",
+      "Hardware",
+      "Apple",
+      "iPhone"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
+    "id": "8c147c5c8e2a7274fd1310615797ce96160a234caeac90977429483d078e0fc8",
+    "title": "Cops bust botnet of 1.3M infected Android TV boxes",
+    "url": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+    "canonicalUrl": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T19:03:31.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Videostrong accused of shipping devices with a backdoor baked in",
+    "imageUrl": "https://image.theregister.com/?imageId=247072&width=800",
+    "language": "en",
+    "tags": [
+      "cyber-crime"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "threat-intelligence"
+    ],
+    "relevanceScore": 15
   },
   {
     "id": "8c62a7af1d6782d65ba85f85dec575c32aaa67add4162e178ac3a73b2e954426",
@@ -1164,6 +1856,45 @@
     "relevanceScore": 44
   },
   {
+    "id": "8dbf7e8e6aae9f5351f7a2cfc919037616ce53dbbb3adb7676a3899ee52c0533",
+    "title": "Salesforce Signs Definitive Agreement to Acquire Cresta",
+    "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+    "canonicalUrl": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta",
+    "sourceId": "salesforce-news",
+    "sourceName": "Salesforce News",
+    "company": "Salesforce",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T21:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Combination unites advanced voice agents with the world’s #1 CRM, bringing together the customer, the conversation and the outcome",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
+    "id": "945f879ef3a469b4aebe760cf27598de5ac153aec5be30239cc23bf038b35a21",
+    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+    "url": "https://openai.com/index/dan-driscoll-joins-openai",
+    "canonicalUrl": "https://openai.com/index/dan-driscoll-joins-openai",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "ai-governance",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 43
+  },
+  {
     "id": "9585e93ffd2441932b33549bd3696559de267f8f0f6c84c809d6a3d0e7d36786",
     "title": "What’s new in Red Hat OpenShift migration advisor: Clearer reports and smarter planning",
     "url": "https://www.redhat.com/en/blog/whats-new-red-hat-openshift-migration-advisor-clearer-reports-and-smarter-planning",
@@ -1179,7 +1910,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "965207ba40486e11730b94effb165426d015e045643a89b8fa382e2f93e2a9e5",
@@ -1207,6 +1938,81 @@
       "devsecops"
     ],
     "relevanceScore": 14
+  },
+  {
+    "id": "9736e53c133415732714bd54ea030d9a5d9b835f1a061427465121b7225ddc14",
+    "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+    "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T19:19:17.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Brave",
+      "In Brief",
+      "new york times"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "977334dcf0434eb1c0aefc299ac59f0795305cd3f4dcb4379fa59cdc04fa3766",
+    "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+    "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T23:13:53.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "The one-year-old startup is now valued at $300 million.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Fundraising",
+      "Startups",
+      "Venture",
+      "fine-tuning",
+      "Sequoia"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 38
+  },
+  {
+    "id": "97a1493a3c98cdb055aab75e8d9f70c6ca093c4a50957c5755734bb573062352",
+    "title": "Apple’s inventory surges 154% as memory chip costs climb",
+    "url": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T23:04:57.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Apple says unprecedented memory chip costs will continue to rise, raising questions about future device prices as its inventory climbs to $14.5 billion.",
+    "language": "en",
+    "tags": [
+      "Hardware",
+      "Apple"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "99d9f26804fc58ad3b32451d8322fe199f18e2769fe33d406e25254f66bb9d97",
@@ -1302,6 +2108,25 @@
     "relevanceScore": 15
   },
   {
+    "id": "a3562df3fff969c304c828c1c4f1a3f36ce8570fa4befb07a56a56fcc14fb350",
+    "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+    "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T16:57:56.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices,…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj03NmPVHpoxRjXKDh7s6v2Dav4D-MCSLBTLalEb9ScH_lLc4yQJWOW8QfTIBePp7Pcgo1qrq6MYuQvNeyb0LCvWO4E4e7BLQKEj-g3Z2LImj4CXV-UUGfVd-vVL0NGtxMMn50klhOLlyI3p6DXhIFf-LkMsST7LK4kh3gIjqlvBwOUgbKTq8-hRdvmfz46/s1600/rcap.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "a3e45d1e6b6ccc1c6948ab3454b45aa5690779a6df854fb8a3c5eac246956538",
     "title": "TechCrunch Mobility: A new, bigger AV boom is here",
     "url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
@@ -1369,6 +2194,29 @@
     "relevanceScore": 15
   },
   {
+    "id": "ab9f51c8b2c31abdc33008b7ce33e3060606e2b7736e675cc2c3a572d36755ef",
+    "title": "SUSE to cut one in ten employees because of... AI",
+    "url": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+    "canonicalUrl": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T15:30:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "'Modern tooling is already changing our daily workflows' says CEO at open source biz",
+    "imageUrl": "https://image.theregister.com/?imageId=5243339&width=800",
+    "language": "en",
+    "tags": [
+      "software"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 37
+  },
+  {
     "id": "abb7567267d0247f7c90bbc34b0984b59251637296e98fabf73a15e52fd33092",
     "title": "Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world",
     "url": "https://techcrunch.com/2026/11/01/pixel-11-pro-fold-sturdy-rectengale-in-a-wide-wide-world/",
@@ -1413,6 +2261,54 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 58
+  },
+  {
+    "id": "b2dba00a019aa797753d06796e57c4ad644d10313aeb823572569d0c06ac0d7f",
+    "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T19:00:45.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "b5df426afab2071076af1a84f375baa04035f6913e414ab7b920dd8e784169e4",
+    "title": "What Google Cloud announced in AI this month",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
+    "canonicalUrl": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month",
+    "sourceId": "google-cloud-blog",
+    "sourceName": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T16:00:00.000Z",
+    "discoveredAt": "2026-09-01T21:04:18.574Z",
+    "summary": "Editor’s note: Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. This October, we took massive leaps forward in delivering flexible, open, and powerful enterprise AI solutions. From bringing…",
+    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/AI_this_month.max-600x600.jpg",
+    "language": "en",
+    "tags": [
+      "Google Cloud",
+      "AI & Machine Learning"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 49
   },
   {
     "id": "bcfce8074fe98f42a51de39f8a056f4c6561128c87d6fb018967cab7344d47b2",
@@ -1555,7 +2451,7 @@
   },
   {
     "id": "ccd3ce2a22b91d8b3df37b1efdc3414d9af279b240d9e36475bc91844859d809",
-    "title": "Northwood Space raises $375M Series C at a $2B valuation from a16z and DFJ growth",
+    "title": "Northwood Space raises $375M Series C at a $2B valuation from a16z and DFJ Growth",
     "url": "https://techcrunch.com/2026/11/02/northwood-space-raises-375m-series-c-at-a-2b-valuation-from-a16z-and-dfj-growth/",
     "canonicalUrl": "https://techcrunch.com/2026/11/02/northwood-space-raises-375m-series-c-at-a-2b-valuation-from-a16z-and-dfj-growth",
     "sourceId": "techcrunch",
@@ -1569,12 +2465,115 @@
     "tags": [
       "Fundraising",
       "Space",
+      "In Brief",
       "Northwood Space",
       "spacetech"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 16
+  },
+  {
+    "id": "cfe776d783ceaa5caccc751b6cdc971dca158390693fb99026f72957a1e7e81c",
+    "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+    "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T16:30:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Startups",
+      "behavioral analysis",
+      "predictive analytics",
+      "world models"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
+  },
+  {
+    "id": "d1216f8c9a5661b627d1613acbacb1179a4ce8c44d60f1ada6c125a324c9c3cc",
+    "title": "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
+    "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T17:54:11.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Marvell's planned purchase of Lumentum is one of the biggest acquisitions in tech history. And they both have the same strategic investor: Nvidia.",
+    "language": "en",
+    "tags": [
+      "Enterprise",
+      "Hardware",
+      "TC",
+      "In Brief",
+      "marvell",
+      "Mergers and Acquisitions"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
+    "id": "d2ebc506d8c8ced16e9c3b6615fbd6a44382e8f754f520053732b300d489c663",
+    "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+    "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T16:23:21.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Elon Musk",
+      "Grok",
+      "In Brief"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "d38f7b5068359c02019572a7a3d3e94184f9d64c956af44bbfd87c44673d770c",
+    "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+    "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-03T00:35:52.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "Y Combinator Garry Tan has, in the past, jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, set to publish on Tuesday, Tan put a price tag on his passion.",
+    "language": "en",
+    "tags": [
+      "Startups",
+      "TC",
+      "Y Combinator"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 48
   },
   {
     "id": "d7106bc5092386d02f40580288a2b7dcc27c39b6a29252b85877d8ea8da77414",
@@ -1720,6 +2719,30 @@
     "relevanceScore": 16
   },
   {
+    "id": "ddbd37620061238fe500c8c647d3000cbc30373f9a63077052911a2e75219347",
+    "title": "Hinge tests a cheaper plan as users become more fed up paying for dating apps",
+    "url": "https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-03T00:14:51.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "At a time when people are increasingly tired of dating apps, Hinge is testing a cheaper subscription plan.",
+    "language": "en",
+    "tags": [
+      "Apps",
+      "Social",
+      "dating apps",
+      "Hinge",
+      "Match Group"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "e1dc1203c72851bbedcb84b0a5fe2133b5b039454675f92859fd709622eb74f7",
     "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
     "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
@@ -1766,8 +2789,32 @@
     "relevanceScore": 38
   },
   {
+    "id": "e67671dcb34ca3e42f6df3cb10ad6f6dc6208029ca60b404e52d817c064719d7",
+    "title": "SpaceX reportedly wants to buy Boost Mobile to compete with AT&T, T-Mobile, and Verizon",
+    "url": "https://techcrunch.com/2026/11/02/spacex-reportedly-wants-to-buy-boost-mobile-to-compete-with-att-t-mobile-and-verizon/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/spacex-reportedly-wants-to-buy-boost-mobile-to-compete-with-att-t-mobile-and-verizon",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T16:44:48.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "SpaceX has been looking for new ways to use its Starlink network, and a tie-up with cellular operator Boost Mobile could give it the terrestrial access it needs.",
+    "language": "en",
+    "tags": [
+      "Space",
+      "EchoStar",
+      "Elon Musk",
+      "SpaceX",
+      "Starlink"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "e6aaea818998f1af65b38c2abfdb4cad299f843eded139d5a5e80bfe325d0a2c",
-    "title": "PapRAT Cyber Espionage Campaign Leaves a 'BITTER' Taste in South Asia",
+    "title": "PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
     "url": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
     "canonicalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
     "sourceId": "darkreading",
@@ -1776,10 +2823,30 @@
     "sourceCategory": "media",
     "publishedAt": "2026-11-02T14:00:00.000Z",
     "discoveredAt": "2026-11-02T16:02:00.294Z",
-    "summary": "Organizations in the region face attacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
+    "summary": "Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
     "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5084e1dd5e7db648/6ae882291b7efb363cec70fb/rat-David_Chapman-Alamy.jpg?width=720&quality=80&disable=upscale",
     "language": "en",
     "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
+    "id": "e7cec448dcf1b9580d695fb117e92353fd2cc65bcfed9b0c39fcc284903eeda9",
+    "title": "Lakebase Postgres is now generally available on Google Cloud",
+    "url": "https://www.databricks.com/blog/lakebase-postgres-now-generally-available-google-cloud",
+    "canonicalUrl": "https://www.databricks.com/blog/lakebase-postgres-now-generally-available-google-cloud",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T14:26:08.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "We're excited to announce that Lakebase Postgres is generally available on Google Cloud...",
+    "language": "en",
+    "tags": [
+      "Platform"
+    ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 16
@@ -1804,6 +2871,138 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "ee3e2b745546a7f9a491ff68875282f61420893531018fb48c0460fb4fc4ee7b",
+    "title": "Java News Roundup: TornadoVM 8.0, JNoSQL, Endive, JReleaser, JBang, LangChain4j, Quarkus Almanac",
+    "url": "https://www.infoq.com/news/2026/11/java-news-roundup-oct26-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/11/java-news-roundup-oct26-2026",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T17:00:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "This week's Java roundup for October 26th, 2026, features news highlighting: the GA release of TornadoVM 8.0; point releases of JNoSQL, Endive, JBang, JReleaser and LangChain4j; a maintenance release of JobRunr; beta releases of Hibernate ORM and Hibernate Reactive; and introducing the Quarkus Almanac. By Michael…",
+    "imageUrl": "https://res.infoq.com/news/2026/11/java-news-roundup-oct26-2026/en/headerimage/java-news-roundup-image-1793638258393.jpg",
+    "language": "en",
+    "tags": [
+      "Eclipse JNoSQL",
+      "Java",
+      "Quarkus",
+      "JBang",
+      "JobRunr",
+      "Gradle",
+      "JReleaser",
+      "LangChain4j",
+      "Endive",
+      "JDK 28",
+      "Hibernate Reactive",
+      "Hibernate ORM"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 14
+  },
+  {
+    "id": "ef35a9662ac8f2dc5a9d0fb68fb08e085cf4fed5799e1661011e19f77ffc312a",
+    "title": "PHP2Shell: How Cisco Helps Customers Respond to AI-Accelerated Threats",
+    "url": "https://blogs.cisco.com/security/php2shell-how-cisco-helps-customers-respond-to-ai-accelerated-threats",
+    "canonicalUrl": "https://blogs.cisco.com/security/php2shell-how-cisco-helps-customers-respond-to-ai-accelerated-threats",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T18:24:13.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "The following resources address the coverage available for PHP2Shell today, as well as ways Cisco customers can begin to increase resilience for whatever AI-driven threat comes next.",
+    "language": "en",
+    "tags": [
+      "Security",
+      "Firewall",
+      "Splunk"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 48
+  },
+  {
+    "id": "ef9cfdc485baf38c4a311de516642ff319e4ce5458cd038b5a0d91921bb0cdf6",
+    "title": "Ericsson says it can detect, track drones using only mobile networks",
+    "url": "https://www.theregister.com/networks/2026/11/02/ericsson-says-it-can-detect-track-drones-using-only-mobile-networks/5306958",
+    "canonicalUrl": "https://www.theregister.com/networks/2026/11/02/ericsson-says-it-can-detect-track-drones-using-only-mobile-networks/5306958",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T17:29:00.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "ISAC technology adds detection ability to existing cell networks, enabling them to track low-flying small drones",
+    "imageUrl": "https://image.theregister.com/?imageId=5297253&width=800",
+    "language": "en",
+    "tags": [
+      "networks"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
+    "id": "f4b9c0b11bc2046ee8c2784b1393d128a18fa207911255cbcddb5ce0271f2161",
+    "title": "Snap settles lawsuit accusing platform of fueling teen depression and eating disorders",
+    "url": "https://techcrunch.com/2026/11/02/snap-settles-lawsuit-accusing-platform-of-fueling-teen-depression-and-eating-disorders/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/02/snap-settles-lawsuit-accusing-platform-of-fueling-teen-depression-and-eating-disorders",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-02T19:11:49.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "The plaintiffs said they started using YouTube as young as age 3 and other social media platforms at around age 9 and developed compulsive usage habits that they attributed to features such as autoplay and infinite scrolling.",
+    "language": "en",
+    "tags": [
+      "Apps",
+      "Social",
+      "In Brief",
+      "Snap"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
+    "id": "f5d6e5b473324aae8096a1d5268bbb2dba3cdb86e44f753360e356c0fddee525",
+    "title": "Foundry in the real world: Turning LLM hunches into verified findings – Security Loop Series, Part 2",
+    "url": "https://blogs.cisco.com/cisco-devnet/foundry-verified-security-findings-part-2",
+    "canonicalUrl": "https://blogs.cisco.com/cisco-devnet/foundry-verified-security-findings-part-2",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T16:30:13.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "An LLM's \"look here\" is not \"this is real\". Foundry adds an evidence gate that turns hunches into verified findings, tested on Langflow, MLflow, and PyGoat.",
+    "language": "en",
+    "tags": [
+      "DevNet",
+      "AI Security",
+      "AI Skills",
+      "Common Vulnerabilities and Exposures (CVE)",
+      "Security",
+      "vulnerability"
+    ],
+    "matchedKeywordIds": [
+      "generative-ai"
+    ],
+    "tagMatchedIds": [
+      "ai-security",
+      "cybersecurity"
+    ],
+    "relevanceScore": 49
   },
   {
     "id": "f801cd5ccac777b3305e9e61d349a5b7e53d0a81e77d39e5dd238b86b8a17627",
@@ -1854,5 +3053,28 @@
       "devsecops"
     ],
     "relevanceScore": 11
+  },
+  {
+    "id": "ff6400886000fd41d741d48fd3bf60a26b042a35034daaf24a77bfe1ddcecfab",
+    "title": "Nine engineers, 1,211 code updates in a day: Lessons from building Copilot Cowork",
+    "url": "https://commandline.microsoft.com/how-we-built-copilot-cowork-python-to-rust-migration/",
+    "canonicalUrl": "https://commandline.microsoft.com/how-we-built-copilot-cowork-python-to-rust-migration",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-02T21:48:25.000Z",
+    "discoveredAt": "2026-11-03T01:00:55.442Z",
+    "summary": "The post Nine engineers, 1,211 code updates in a day: Lessons from building Copilot Cowork appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Product development"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 18
   }
 ]
