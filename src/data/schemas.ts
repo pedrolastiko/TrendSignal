@@ -49,6 +49,7 @@ export const publicSourceSchema = z.object({
   company: z.string().min(1),
   category: sourceCategorySchema,
   homepageUrl: z.string().url(),
+  logoUrl: z.string().url().optional(),
   collectionMode: collectionModeSchema,
   enabled: z.boolean(),
   priority: z.number().int(),

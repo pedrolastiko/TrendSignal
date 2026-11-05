@@ -39,10 +39,10 @@ const keywordsById = new Map<string, KeywordPublic>([
   ],
 ]);
 
-function renderCard(article: Article) {
+function renderCard(article: Article, sourceLogoUrl?: string) {
   return render(
     <I18nProvider>
-      <ArticleCard article={article} keywordsById={keywordsById} />
+      <ArticleCard article={article} keywordsById={keywordsById} sourceLogoUrl={sourceLogoUrl} />
     </I18nProvider>,
   );
 }
@@ -108,5 +108,63 @@ describe('ArticleCard publisher tags', () => {
       </I18nProvider>,
     );
     expect(screen.queryByLabelText(/tags/i)).not.toBeInTheDocument();
+  });
+});
+
+describe('ArticleCard publisher logo fallback', () => {
+  const LOGO = 'https://example.com/logo.png';
+
+  it('shows the publisher logo instead of the placeholder when the article has no image', () => {
+    renderCard(baseArticle({ imageUrl: undefined }), LOGO);
+    const img = screen.getByRole('img');
+    expect(img.getAttribute('src')).toBe(LOGO);
+    // A logo is not a 16:9 photograph; cropping it would cut the wordmark.
+    expect(img.className).toContain('object-contain');
+  });
+
+  it('prefers the article image over the logo when both exist', () => {
+    renderCard(baseArticle({ imageUrl: 'https://example.com/photo.jpg' }), LOGO);
+    const img = screen.getByRole('img');
+    expect(img.getAttribute('src')).toBe('https://example.com/photo.jpg');
+    expect(img.className).toContain('object-cover');
+  });
+
+  it('falls back to the logo when the article image fails to load', () => {
+    renderCard(baseArticle({ imageUrl: 'https://example.com/broken.jpg' }), LOGO);
+    const img = screen.getByRole('img');
+    fireEvent.error(img);
+    expect(screen.getByRole('img').getAttribute('src')).toBe(LOGO);
+  });
+
+  it('falls back to the placeholder when the logo itself fails to load', () => {
+    renderCard(baseArticle({ imageUrl: undefined }), LOGO);
+    fireEvent.error(screen.getByRole('img'));
+    expect(screen.getByRole('img').getAttribute('src')).toContain('article-placeholder.svg');
+  });
+
+  it('chains both failures: broken article image, then broken logo, then placeholder', () => {
+    renderCard(baseArticle({ imageUrl: 'https://example.com/broken.jpg' }), LOGO);
+    fireEvent.error(screen.getByRole('img'));
+    expect(screen.getByRole('img').getAttribute('src')).toBe(LOGO);
+    fireEvent.error(screen.getByRole('img'));
+    expect(screen.getByRole('img').getAttribute('src')).toContain('article-placeholder.svg');
+  });
+
+  it('names the publisher in the logo alt text', () => {
+    renderCard(baseArticle({ imageUrl: undefined, company: 'Acme Corp' }), LOGO);
+    expect(screen.getByRole('img').getAttribute('alt')).toContain('Acme Corp');
+  });
+
+  it('keeps the placeholder when the source declared no logo', () => {
+    renderCard(baseArticle({ imageUrl: undefined }));
+    expect(screen.getByRole('img').getAttribute('src')).toContain('article-placeholder.svg');
+  });
+
+  it('leaves the placeholder filling the frame, as it did before logos existed', () => {
+    renderCard(baseArticle({ imageUrl: undefined }));
+    const img = screen.getByRole('img');
+    // Only a logo is contained-and-padded; the placeholder artwork is drawn to fill 16:9.
+    expect(img.className).toContain('object-cover');
+    expect(img.className).not.toContain('object-contain');
   });
 });

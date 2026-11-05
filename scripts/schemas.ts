@@ -18,6 +18,11 @@ export const sourceConfigSchema = z.object({
   company: z.string().min(1),
   category: sourceCategorySchema,
   homepageUrl: z.string().url(),
+  /**
+   * Publisher logo, used as the article-card image when an article has none of its
+   * own. Discovered and validated by scripts/discover-source-logos.ts — never guessed.
+   */
+  logoUrl: z.string().url().optional(),
   collectionMode: collectionModeSchema,
   feedUrl: z.string(),
   enabled: z.boolean(),
@@ -126,6 +131,7 @@ export const publicSourceSchema = z.object({
   company: z.string().min(1),
   category: sourceCategorySchema,
   homepageUrl: z.string().url(),
+  logoUrl: z.string().url().optional(),
   collectionMode: collectionModeSchema,
   enabled: z.boolean(),
   priority: z.number().int(),

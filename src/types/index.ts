@@ -58,6 +58,8 @@ export interface PublicSource {
   company: string;
   category: SourceCategory;
   homepageUrl: string;
+  /** Publisher logo used when an article carries no image of its own. */
+  logoUrl?: string;
   collectionMode: CollectionMode;
   enabled: boolean;
   priority: number;
