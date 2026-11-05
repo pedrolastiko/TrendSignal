@@ -152,7 +152,7 @@ function collectCandidates($: cheerio.CheerioAPI, baseUrl: string): Candidate[] 
  * Publishers routinely answer 200 with an HTML error page for a missing icon, which a
  * status check alone would happily accept.
  */
-async function validateImage(
+export async function validateImage(
   url: string,
 ): Promise<{ ok: boolean; contentType?: string; bytes?: number }> {
   const controller = new AbortController();
@@ -168,8 +168,33 @@ async function validateImage(
     const contentType = response.headers.get('content-type') ?? '';
     if (!contentType.toLowerCase().startsWith('image/')) return { ok: false, contentType };
 
-    const bytes = (await response.arrayBuffer()).byteLength;
-    return { ok: bytes >= MIN_LOGO_BYTES && bytes <= MAX_LOGO_BYTES, contentType, bytes };
+    // A declared length over the ceiling is settled without reading a byte.
+    const declaredLength = Number(response.headers.get('content-length'));
+    if (Number.isFinite(declaredLength) && declaredLength > MAX_LOGO_BYTES) {
+      await response.body?.cancel();
+      return { ok: false, contentType, bytes: declaredLength };
+    }
+
+    // Streamed rather than buffered through arrayBuffer(): nothing stops a publisher
+    // serving a 500 MB file where a logo was expected, and arrayBuffer() would hold all
+    // of it in memory before the ceiling could reject it — with five candidates in
+    // flight at once. AGENTS.md #10 requires bounding response size, which is why
+    // http.ts carries its own cap; this path bypasses http.ts, so it needs its own.
+    const reader = response.body?.getReader();
+    if (!reader) return { ok: false, contentType };
+
+    let bytes = 0;
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      bytes += value.byteLength;
+      if (bytes > MAX_LOGO_BYTES) {
+        await reader.cancel();
+        return { ok: false, contentType, bytes };
+      }
+    }
+
+    return { ok: bytes >= MIN_LOGO_BYTES, contentType, bytes };
   } catch {
     return { ok: false };
   } finally {
@@ -262,7 +287,10 @@ async function main(): Promise<void> {
   }
 }
 
-main().catch((error: unknown) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+const isMain = process.argv[1] !== undefined && import.meta.url === `file://${process.argv[1]}`;
+if (isMain) {
+  main().catch((error: unknown) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
