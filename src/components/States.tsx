@@ -4,7 +4,7 @@ import { useI18n } from '../hooks/useI18n';
 export function LoadingState() {
   const { t } = useI18n();
   return (
-    <div className="flex flex-col items-center justify-center gap-3 rounded-card border border-border bg-white py-16 text-muted">
+    <div className="flex flex-col items-center justify-center gap-3 rounded-card border border-border bg-card py-16 text-muted">
       <Loader2 className="animate-spin" size={28} aria-hidden="true" />
       <p role="status">{t.dashboard.states.loading}</p>
     </div>
@@ -16,7 +16,7 @@ export function ErrorState({ message, onRetry }: { message?: string; onRetry?: (
   return (
     <div
       role="alert"
-      className="flex flex-col items-center gap-3 rounded-card border border-danger/30 bg-white py-16 text-center text-ink"
+      className="flex flex-col items-center gap-3 rounded-card border border-danger/30 bg-card py-16 text-center text-ink"
     >
       <AlertTriangle className="text-danger" size={28} aria-hidden="true" />
       <p className="font-medium">{t.dashboard.states.error}</p>
@@ -37,7 +37,7 @@ export function ErrorState({ message, onRetry }: { message?: string; onRetry?: (
 export function EmptyState({ message }: { message?: string }) {
   const { t } = useI18n();
   return (
-    <div className="flex flex-col items-center gap-3 rounded-card border border-border bg-white py-16 text-center text-muted">
+    <div className="flex flex-col items-center gap-3 rounded-card border border-border bg-card py-16 text-center text-muted">
       <Inbox size={28} aria-hidden="true" />
       <p>{message ?? t.dashboard.states.empty}</p>
     </div>

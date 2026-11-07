@@ -3,6 +3,8 @@ import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxi
 import { ArrowDownRight, ArrowUpRight, Minus, Users } from 'lucide-react';
 import { useI18n } from '../hooks/useI18n';
 import { useTrendSignalData } from '../hooks/useTrendSignalData';
+import { useTheme } from '../hooks/useTheme';
+import { CHART_COLORS } from '../lib/theme';
 import { LoadingState, ErrorState, EmptyState } from '../components/States';
 import { TrendStatusBadge } from '../components/StatusBadge';
 import { CATEGORY_LABELS, SOURCE_CATEGORIES } from '../data/categories';
@@ -32,6 +34,8 @@ function GrowthIndicator({ growthRate }: { growthRate: number | null }) {
 export function TrendsPage() {
   const { t, locale } = useI18n();
   const { state, reload } = useTrendSignalData();
+  const { resolved: theme } = useTheme();
+  const chartColors = CHART_COLORS[theme];
   const [timeframe, setTimeframe] = useState<TrendTimeframe>('24h');
   const [category, setCategory] = useState<'all' | string>('all');
   const [sourceCategory, setSourceCategory] = useState<'all' | SourceCategory>('all');
@@ -71,7 +75,7 @@ export function TrendsPage() {
         <p className="text-sm text-muted">{t.trends.subtitle}</p>
       </div>
 
-      <div className="mb-6 flex flex-wrap gap-3 rounded-card border border-border bg-white p-4">
+      <div className="mb-6 flex flex-wrap gap-3 rounded-card border border-border bg-card p-4">
         <div className="flex gap-1" role="group" aria-label={t.dashboard.filters.date}>
           {(['24h', '7d', '30d'] as const).map((tf) => (
             <button
@@ -81,7 +85,7 @@ export function TrendsPage() {
               aria-pressed={timeframe === tf}
               className={`rounded-control border px-3 py-2 text-sm font-medium ${
                 timeframe === tf
-                  ? 'border-primary bg-primary text-white'
+                  ? 'border-primary bg-primary text-on-primary'
                   : 'border-border text-ink hover:bg-surface'
               }`}
             >
@@ -124,14 +128,29 @@ export function TrendsPage() {
       </div>
 
       {chartData.length > 0 && (
-        <div className="mb-6 h-64 rounded-card border border-border bg-white p-4">
+        <div className="mb-6 h-64 rounded-card border border-border bg-card p-4">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={chartData} layout="vertical" margin={{ left: 24 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#E5E7EB" />
-              <XAxis type="number" domain={[0, 100]} stroke="#6B7280" fontSize={12} />
-              <YAxis type="category" dataKey="label" width={140} stroke="#6B7280" fontSize={12} />
-              <Tooltip />
-              <Bar dataKey="score" fill="#0F172A" radius={[0, 4, 4, 0]} />
+              <CartesianGrid strokeDasharray="3 3" stroke={chartColors.grid} />
+              <XAxis type="number" domain={[0, 100]} stroke={chartColors.axis} fontSize={12} />
+              <YAxis
+                type="category"
+                dataKey="label"
+                width={140}
+                stroke={chartColors.axis}
+                fontSize={12}
+              />
+              <Tooltip
+                contentStyle={{
+                  backgroundColor: chartColors.tooltipBg,
+                  color: chartColors.tooltipText,
+                  borderColor: chartColors.grid,
+                }}
+                labelStyle={{ color: chartColors.tooltipText }}
+                itemStyle={{ color: chartColors.tooltipText }}
+                cursor={{ fill: chartColors.grid, fillOpacity: 0.4 }}
+              />
+              <Bar dataKey="score" fill={chartColors.bar} radius={[0, 4, 4, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
@@ -142,7 +161,7 @@ export function TrendsPage() {
       ) : (
         <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
           {filtered.map((trend) => (
-            <article key={trend.id} className="rounded-card border border-border bg-white p-4">
+            <article key={trend.id} className="rounded-card border border-border bg-card p-4">
               <div className="mb-3 flex items-start justify-between gap-3">
                 <h2 className="text-base font-semibold text-ink">{trend.label}</h2>
                 <TrendStatusBadge status={trend.status} />

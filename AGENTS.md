@@ -648,7 +648,7 @@ Every keyword needs a stable ID, French and English labels, category, terms, use
 
 ## 17. Local preferences
 
-Use versioned `localStorage` only for hidden keywords/sources, filters, sort order, language preference, and dismissed banners. Handle corrupted values and provide reset. Never store secrets, authentication data, or article bodies.
+Use versioned `localStorage` only for hidden keywords/sources, filters, sort order, language preference, theme (system/light/dark), dashboard layout (cards/compact), the keyboard-shortcuts on/off switch, the last-seen timestamp behind the "new articles" banner, and dismissed banners. Handle corrupted values and provide reset. Never store secrets, authentication data, or article bodies.
 
 ## 18. Security, performance, and accessibility
 

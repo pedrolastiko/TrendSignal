@@ -3,30 +3,33 @@ import { ExternalLink } from 'lucide-react';
 import type { Article, KeywordPublic } from '../types';
 import { useI18n } from '../hooks/useI18n';
 import { CATEGORY_LABELS } from '../data/categories';
+import { formatArticleDate } from '../lib/format';
 
 const PLACEHOLDER_IMAGE = `${import.meta.env.BASE_URL}images/article-placeholder.svg`;
 /** Tag-heavy publishers emit a dozen per article; the card shows the first few. */
 const MAX_VISIBLE_TAGS = 5;
 
-function formatDate(iso: string, locale: string): string {
-  const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) return '';
-  return new Intl.DateTimeFormat(locale === 'fr' ? 'fr-FR' : 'en-US', {
-    day: '2-digit',
-    month: 'short',
-    year: 'numeric',
-  }).format(date);
+export function NewBadge() {
+  const { t } = useI18n();
+  return (
+    <span className="rounded-full bg-primary px-2 py-0.5 text-xs font-semibold text-on-primary">
+      {t.whatsNew.badge}
+    </span>
+  );
 }
 
 export function ArticleCard({
   article,
   keywordsById,
   sourceLogoUrl,
+  isNew = false,
 }: {
   article: Article;
   keywordsById: Map<string, KeywordPublic>;
   /** Publisher logo, shown when the article has no usable image of its own. */
   sourceLogoUrl?: string;
+  /** Discovered since the reader last marked the feed as seen. */
+  isNew?: boolean;
 }) {
   const { t, locale } = useI18n();
   const [imageFailed, setImageFailed] = useState(false);
@@ -55,7 +58,11 @@ export function ArticleCard({
         : t.article.placeholderAlt;
 
   return (
-    <article className="flex flex-col overflow-hidden rounded-card border border-border bg-white shadow-sm transition-shadow hover:shadow-md">
+    <article
+      data-article-card
+      tabIndex={-1}
+      className="flex scroll-mt-20 flex-col overflow-hidden rounded-card border border-border bg-card shadow-sm transition-shadow hover:shadow-md"
+    >
       <div className="aspect-[16/9] w-full bg-surface">
         <img
           src={imageSrc}
@@ -65,12 +72,17 @@ export function ArticleCard({
           // A logo is not a 16:9 photograph: cropping it to fill would cut the wordmark,
           // so it is contained and padded on the muted surface instead.
           className={
-            variant === 'logo' ? 'h-full w-full object-contain p-8' : 'h-full w-full object-cover'
+            variant === 'logo'
+              ? 'h-full w-full object-contain p-8'
+              : variant === 'placeholder'
+                ? 'h-full w-full object-cover dark:brightness-75'
+                : 'h-full w-full object-cover'
           }
         />
       </div>
       <div className="flex flex-1 flex-col gap-3 p-4">
         <div className="flex flex-wrap items-center gap-2 text-xs text-muted">
+          {isNew && <NewBadge />}
           <span className="font-medium text-ink">{article.company}</span>
           <span aria-hidden="true">·</span>
           <span>{article.sourceName}</span>
@@ -114,7 +126,7 @@ export function ArticleCard({
         )}
 
         <div className="mt-auto flex items-center justify-between pt-2 text-xs text-muted">
-          <span>{formatDate(article.publishedAt, locale)}</span>
+          <span>{formatArticleDate(article.publishedAt, locale)}</span>
           <span aria-label={`${t.article.relevance}: ${article.relevanceScore}`}>
             {t.article.relevance}: {article.relevanceScore}
           </span>
@@ -124,7 +136,8 @@ export function ArticleCard({
           href={article.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-1 inline-flex items-center justify-center gap-2 rounded-control border border-primary px-3 py-2 text-sm font-medium text-primary hover:bg-primary hover:text-white"
+          data-article-link
+          className="mt-1 inline-flex items-center justify-center gap-2 rounded-control border border-primary px-3 py-2 text-sm font-medium text-primary hover:bg-primary hover:text-on-primary"
         >
           {t.article.readMore}
           <ExternalLink size={14} aria-hidden="true" />

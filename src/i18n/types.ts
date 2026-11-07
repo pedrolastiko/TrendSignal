@@ -24,6 +24,37 @@ export interface TranslationDictionary {
       sortTrend: string;
     };
     states: { loading: string; empty: string; error: string; stale: string };
+    view: { label: string; grid: string; compact: string };
+  };
+  whatsNew: {
+    summaryOne: string;
+    summaryOther: string;
+    showNew: string;
+    showAll: string;
+    markSeen: string;
+    badge: string;
+  };
+  preferences: {
+    title: string;
+    theme: { label: string; system: string; light: string; dark: string };
+    language: { label: string; en: string; fr: string };
+  };
+  shortcuts: {
+    open: string;
+    title: string;
+    description: string;
+    enabled: string;
+    enabledHint: string;
+    focusSearch: string;
+    nextArticle: string;
+    previousArticle: string;
+    openArticle: string;
+    goDashboard: string;
+    goTrends: string;
+    goKeywords: string;
+    goSources: string;
+    help: string;
+    then: string;
   };
   article: {
     relevance: string;
@@ -87,7 +118,14 @@ export interface TranslationDictionary {
     hideLocally: string;
     showLocally: string;
   };
-  common: { close: string; reset: string; loading: string; menu: string; externalLink: string };
+  common: {
+    close: string;
+    reset: string;
+    loading: string;
+    menu: string;
+    externalLink: string;
+    skipToContent: string;
+  };
   notifications: {
     enable: string;
     enabled: string;
