@@ -43,7 +43,7 @@ export function KeywordsPage() {
           href={addKeywordUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-control bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-primary/90"
+          className="inline-flex items-center gap-2 rounded-control bg-primary px-4 py-2 text-sm font-medium text-on-primary hover:bg-primary/90"
         >
           <Plus size={16} aria-hidden="true" />
           {t.keywords.add}
@@ -63,7 +63,7 @@ export function KeywordsPage() {
       {data.keywords.length === 0 ? (
         <EmptyState />
       ) : (
-        <div className="overflow-x-auto rounded-card border border-border bg-white">
+        <div className="overflow-x-auto rounded-card border border-border bg-card">
           <table className="w-full min-w-[720px] text-left text-sm">
             <thead className="border-b border-border bg-surface text-xs font-medium uppercase text-muted">
               <tr>

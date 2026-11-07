@@ -1,11 +1,16 @@
 import { useMemo, useState, type ReactNode } from 'react';
 import Fuse from 'fuse.js';
-import { FileText, Tags, Rss, Clock, RefreshCw } from 'lucide-react';
+import { FileText, Tags, Rss, Clock, RefreshCw, LayoutGrid, List } from 'lucide-react';
 import { useI18n } from '../hooks/useI18n';
 import { useTrendSignalData, isStale } from '../hooks/useTrendSignalData';
 import { useDebouncedValue } from '../hooks/useDebouncedValue';
+import { useLocalStorage } from '../hooks/useLocalStorage';
+import { useLastSeen } from '../hooks/useLastSeen';
 import { KpiCard } from '../components/KpiCard';
 import { ArticleCard } from '../components/ArticleCard';
+import { ArticleRow } from '../components/ArticleRow';
+import { WhatsNewBanner } from '../components/WhatsNewBanner';
+import { isNewArticle } from '../lib/whatsNew';
 import { LoadingState, ErrorState, EmptyState, StaleBanner } from '../components/States';
 import { TrendStatusBadge } from '../components/StatusBadge';
 import { CATEGORY_LABELS, SOURCE_CATEGORIES } from '../data/categories';
@@ -13,6 +18,7 @@ import type { Article, SourceCategory } from '../types';
 
 type SortOption = 'newest' | 'relevance' | 'trend';
 type DateOption = 'all' | '24h' | '7d' | '30d';
+type ViewMode = 'grid' | 'compact';
 
 function withinDateRange(publishedAt: string, range: DateOption): boolean {
   if (range === 'all') return true;
@@ -40,6 +46,10 @@ export function DashboardPage() {
   const [categoryFilter, setCategoryFilter] = useState<'all' | SourceCategory>('all');
   const [dateFilter, setDateFilter] = useState<DateOption>('all');
   const [sortBy, setSortBy] = useState<SortOption>('newest');
+  const [storedView, setView] = useLocalStorage<ViewMode>('dashboard-view', 'grid');
+  const view: ViewMode = storedView === 'compact' ? 'compact' : 'grid';
+  const [onlyNew, setOnlyNew] = useState(false);
+  const { lastSeenAt, markSeen } = useLastSeen();
   const debouncedQuery = useDebouncedValue(query, 250);
 
   const fuse = useMemo(() => {
@@ -82,6 +92,7 @@ export function DashboardPage() {
     if (sourceFilter !== 'all' && article.sourceId !== sourceFilter) return false;
     if (categoryFilter !== 'all' && article.sourceCategory !== categoryFilter) return false;
     if (!withinDateRange(article.publishedAt, dateFilter)) return false;
+    if (onlyNew && !isNewArticle(article, lastSeenAt)) return false;
     return true;
   });
 
@@ -97,10 +108,24 @@ export function DashboardPage() {
     .slice(0, 4);
 
   const stale = isStale(data.statistics.lastSuccessfulScanAt);
+  const newCount = data.articles.filter((a) => isNewArticle(a, lastSeenAt)).length;
 
   return (
     <PageShell reload={reload}>
       {stale && <StaleBanner />}
+
+      {lastSeenAt !== null && newCount > 0 && (
+        <WhatsNewBanner
+          count={newCount}
+          lastSeenAt={lastSeenAt}
+          onlyNew={onlyNew}
+          onToggleOnlyNew={() => setOnlyNew((v) => !v)}
+          onMarkSeen={() => {
+            markSeen();
+            setOnlyNew(false);
+          }}
+        />
+      )}
 
       <div className="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <KpiCard
@@ -127,7 +152,7 @@ export function DashboardPage() {
 
       {topTrends.length > 0 && (
         <section
-          className="mb-6 rounded-card border border-border bg-white p-4"
+          className="mb-6 rounded-card border border-border bg-card p-4"
           aria-label={t.dashboard.topTrends}
         >
           <h2 className="mb-3 text-sm font-semibold text-ink">{t.dashboard.topTrends}</h2>
@@ -145,7 +170,7 @@ export function DashboardPage() {
         </section>
       )}
 
-      <div className="mb-6 flex flex-col gap-3 rounded-card border border-border bg-white p-4">
+      <div className="mb-6 flex flex-col gap-3 rounded-card border border-border bg-card p-4">
         <label className="sr-only" htmlFor="dashboard-search">
           {t.dashboard.searchPlaceholder}
         </label>
@@ -206,11 +231,50 @@ export function DashboardPage() {
               <option value="trend">{t.dashboard.filters.sortTrend}</option>
             </select>
           </div>
+          <div className="flex flex-col gap-1 text-xs font-medium text-muted">
+            <span id="view-mode-label">{t.dashboard.view.label}</span>
+            <div
+              role="group"
+              aria-labelledby="view-mode-label"
+              className="flex gap-1 rounded-control border border-border p-1"
+            >
+              {(
+                [
+                  { mode: 'grid', icon: LayoutGrid, label: t.dashboard.view.grid },
+                  { mode: 'compact', icon: List, label: t.dashboard.view.compact },
+                ] as const
+              ).map(({ mode, icon: Icon, label }) => (
+                <button
+                  key={mode}
+                  type="button"
+                  aria-pressed={view === mode}
+                  onClick={() => setView(mode)}
+                  className={`inline-flex items-center gap-1.5 rounded-control px-2.5 py-1 text-sm font-medium ${
+                    view === mode ? 'bg-primary text-on-primary' : 'text-ink hover:bg-surface'
+                  }`}
+                >
+                  <Icon size={14} aria-hidden="true" />
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 
       {sorted.length === 0 ? (
         <EmptyState />
+      ) : view === 'compact' ? (
+        <div className="divide-y divide-border overflow-hidden rounded-card border border-border bg-card">
+          {sorted.map((article) => (
+            <ArticleRow
+              key={article.id}
+              article={article}
+              keywordsById={keywordsById}
+              isNew={isNewArticle(article, lastSeenAt)}
+            />
+          ))}
+        </div>
       ) : (
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {sorted.map((article) => (
@@ -219,6 +283,7 @@ export function DashboardPage() {
               article={article}
               keywordsById={keywordsById}
               sourceLogoUrl={logoBySourceId.get(article.sourceId)}
+              isNew={isNewArticle(article, lastSeenAt)}
             />
           ))}
         </div>
@@ -287,7 +352,7 @@ function PageShell({ children, reload }: { children: ReactNode; reload: () => vo
           type="button"
           onClick={reload}
           title={t.dashboard.refreshHint}
-          className="inline-flex items-center gap-2 rounded-control bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-primary/90"
+          className="inline-flex items-center gap-2 rounded-control bg-primary px-4 py-2 text-sm font-medium text-on-primary hover:bg-primary/90"
         >
           <RefreshCw size={16} aria-hidden="true" />
           {t.dashboard.refresh}

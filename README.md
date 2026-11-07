@@ -9,10 +9,16 @@ are collected like any other — so French content is still matched and indexed.
 
 ## Product overview
 
-- **Dashboard** — KPIs, top trends, search, filters, and a responsive article grid.
+- **Dashboard** — KPIs, top trends, search, filters, and an article grid that can switch to a
+  compact list. A banner flags articles discovered since your last visit.
 - **Trends** — 24h/7d/30d trend scores, growth, source diversity, and related articles.
 - **Keywords** — the monitored topic list with per-keyword detection stats.
 - **Sources** — monitored publishers and their collection health.
+
+Across the app: a light/dark/system theme, an English/French interface switch, and keyboard
+shortcuts (`/` search, `j`/`k` move between articles, `o` open, `g` then `d`/`t`/`k`/`s` to
+navigate, `?` for help; single-key shortcuts can be switched off). These are personal display
+preferences stored in this browser only.
 
 TrendSignal indexes public article **metadata** (title, short excerpt, date, image, link) — never
 full article bodies — and always sends readers back to the original publisher.

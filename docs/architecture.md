@@ -97,8 +97,17 @@ yet.
 - `src/data/client.ts` loads `manifest.json` first, then uses its `files` map and `generatedAt` as
   a cache-busting query param for the rest.
 - `src/hooks/useLocalStorage.ts` — versioned, corruption-tolerant local storage for personal
-  display preferences only (hidden keywords/sources, filters, sort, locale). Never used for
-  anything that needs to be shared or trusted.
+  display preferences only (hidden keywords/sources, filters, sort, locale, theme, dashboard
+  layout, shortcuts switch, last-seen timestamp). Never used for anything that needs to be
+  shared or trusted.
+- Theme: colours are CSS variables (`src/styles/index.css`) mapped to Tailwind tokens, so dark
+  mode is a variable swap on `<html data-theme>`. `src/main.tsx` applies the stored theme before
+  the first render; `ThemeProvider` follows the OS when the preference is `system`. Recharts
+  takes colours as SVG attributes, so `CHART_COLORS` in `src/lib/theme.ts` mirrors the tokens.
+- Keyboard shortcuts (`src/hooks/useKeyboardShortcuts.ts`) are single-key and can be switched
+  off from the help dialog (WCAG 2.1.4). They are ignored while typing in a field.
+- "New since your last visit": an article is new when its `discoveredAt` is later than the
+  locally stored last-seen timestamp. The first visit starts the clock, so nothing is flagged.
 
 ## Auditing what sources actually contribute
 

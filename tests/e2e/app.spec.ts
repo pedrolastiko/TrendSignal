@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
 
 test.describe('TrendSignal', () => {
   test('dashboard loads fixture data with KPIs and article cards', async ({ page }) => {
@@ -67,5 +67,91 @@ test.describe('TrendSignal', () => {
     await page.goto('/#/keywords');
     await expect(page.getByRole('heading', { name: 'Keywords' })).toBeVisible();
     await expect(page.getByRole('link', { name: 'Add' })).toBeVisible();
+  });
+
+  test.describe('experience and accessibility', () => {
+    async function openPreferences(page: Page, isMobile: boolean) {
+      // Below the lg breakpoint the preferences live in the drawer.
+      if (isMobile) await page.getByRole('button', { name: 'Menu' }).click();
+    }
+
+    test('dark theme can be selected and survives a reload', async ({ page, isMobile }) => {
+      await page.goto('/');
+      await openPreferences(page, isMobile);
+      await page.getByRole('button', { name: 'Dark', exact: true }).click();
+      await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+
+      await page.reload();
+      await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+      await expect(page.locator('article').first()).toBeVisible();
+    });
+
+    test('interface language can be switched to French', async ({ page, isMobile }) => {
+      await page.goto('/');
+      await openPreferences(page, isMobile);
+      await page.getByRole('button', { name: 'Français' }).click();
+      await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
+      await expect(page.getByRole('heading', { name: 'Tableau de bord' })).toBeVisible();
+    });
+
+    test('compact list shows the same articles and is remembered', async ({ page }) => {
+      await page.goto('/');
+      await expect(page.locator('article').first()).toBeVisible();
+      const cardCount = await page.locator('article').count();
+
+      await page.getByRole('button', { name: 'Compact list' }).click();
+      await expect(page.getByRole('button', { name: 'Compact list' })).toHaveAttribute(
+        'aria-pressed',
+        'true',
+      );
+      await expect(page.locator('article')).toHaveCount(cardCount);
+      await expect(page.locator('article img')).toHaveCount(0);
+
+      await page.reload();
+      await expect(page.getByRole('button', { name: 'Compact list' })).toHaveAttribute(
+        'aria-pressed',
+        'true',
+      );
+    });
+
+    test('keyboard shortcuts search, move between articles, and open help', async ({
+      page,
+      isMobile,
+    }) => {
+      test.skip(isMobile, 'Keyboard shortcuts are for devices with a keyboard');
+      await page.goto('/');
+      await expect(page.locator('article').first()).toBeVisible();
+
+      await page.keyboard.press('/');
+      await expect(page.getByRole('searchbox')).toBeFocused();
+      await page.getByRole('searchbox').blur();
+
+      await page.keyboard.press('j');
+      await expect(page.locator('article').first()).toBeFocused();
+      await page.keyboard.press('j');
+      await expect(page.locator('article').nth(1)).toBeFocused();
+      await page.keyboard.press('k');
+      await expect(page.locator('article').first()).toBeFocused();
+
+      await page.keyboard.press('?');
+      await expect(page.getByRole('dialog', { name: 'Keyboard shortcuts' })).toBeVisible();
+      await page.keyboard.press('Escape');
+      await expect(page.getByRole('dialog')).toHaveCount(0);
+
+      await page.keyboard.press('g');
+      await page.keyboard.press('t');
+      await expect(page.getByRole('heading', { name: 'Trends' })).toBeVisible();
+    });
+
+    test('single-key shortcuts can be switched off', async ({ page, isMobile }) => {
+      test.skip(isMobile, 'Keyboard shortcuts are for devices with a keyboard');
+      await page.goto('/');
+      await page.getByRole('button', { name: 'Keyboard shortcuts' }).click();
+      await page.getByRole('checkbox', { name: /single-key shortcuts/i }).uncheck();
+      await page.keyboard.press('Escape');
+
+      await page.keyboard.press('?');
+      await expect(page.getByRole('dialog')).toHaveCount(0);
+    });
   });
 });
