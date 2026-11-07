@@ -381,6 +381,8 @@ export interface EventItem {
   matchedKeywordIds: string[];
   relevanceScore: number; // 0-90: article model without the recency component
   discoveredAt: string;
+  dateStatus: 'confirmed' | 'estimated'; // estimated: not confirmed by the organiser
+  estimatedFrom?: string; // YYYY-MM-DD of the edition an estimate was projected from
 }
 
 export interface EventsFile {
@@ -420,7 +422,7 @@ sources:
     excludePaths: []
 ```
 
-`config/event-sources.yml` declares event sources the same way (`collectionMode`: `ics`, `rss` where `pubDate` is the event start, `jsonld` for a listing page whose linked pages carry a schema.org Event, or the source-specific `cncf-events`), plus `region` (`north-america` or `global`) and `includeUnmatched` (keep events matching no tracked keyword; only for publishers whose whole scope is IT, AI or cybersecurity). Validate every endpoint live with `scripts/audit-events.ts` before setting `enabled: true`; never guess one.
+`config/event-sources.yml` declares event sources the same way (`collectionMode`: `ics`, `rss` where `pubDate` is the event start, `jsonld` for a listing page whose linked pages carry a schema.org Event, the source-specific `cncf-events`, `techconf-ca` and `observability-360`, or `curated` for a hand-kept YAML file of flagship conferences), plus `region` (`north-america` or `global`) and `includeUnmatched` (keep events matching no tracked keyword; only for publishers whose whole scope is IT, AI or cybersecurity). Validate every endpoint live with `scripts/audit-events.ts` before setting `enabled: true`; never guess one. A date that is not confirmed by the organiser must be flagged `estimated`: either projected from last year's edition (same calendar day, only when that edition is less than a year old) or reported by listings only. Hand-entered dates carry the URL they were read at and the day they were checked.
 
 `config/keywords.yml` contains bilingual terms:
 

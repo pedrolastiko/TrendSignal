@@ -20,6 +20,21 @@
 #               schema.org Event in JSON-LD (`jsonld` adapter). Its events page lists many
 #               Asia-Pacific in-person events, which the scope rule drops.
 #
+# Added afterwards, also probed live on 2026-11-07:
+#   - BSides   the global community's iCalendar feed (`bsides.org/events/?ical=1`), 30 entries.
+#   - techconf.ca   a community list of Canadian tech conferences. Its "past" page lets recurring
+#               conferences be projected one year on, flagged as not confirmed; three dates were
+#               checked by hand (see `knownEditions`). 98 series, 1 with a date already listed.
+#   - Observability 360   a hand-maintained calendar page. On the probe date it listed four events
+#               of October and November 2025, all over, so it yields none until it is updated.
+#   - Flagship conferences   `config/event-series.yml`, entered by hand with the URL each date
+#               was read at: RSA Conference, Black Hat USA, DEF CON, AWS re:Invent, Microsoft
+#               Ignite and Build, and the Gartner Security & Risk Management Summit (North America).
+#
+# Cannot be collected: Gartner's cybersecurity hub, Black Hat's and RSAC's own sites (all answer
+# HTTP 403 to the collector; the protection is not circumvented) and defcon.org (not reachable
+# from the collector's network). Their dates come from the hand-kept file.
+#
 # Left out, with what was found. "No structured data" means the listing and the event pages
 # reachable from the publisher's homepage carried no JSON-LD Event, calendar or events feed.
 #
@@ -152,5 +167,82 @@ sources:
     includePaths:
       - /webinars/
     excludePaths: []
+    region: global
+    includeUnmatched: true
+
+  - id: techconf-ca
+    name: Tech Conferences Canada
+    company: Tech Conferences Canada
+    category: technology
+    homepageUrl: https://techconf.ca/
+    collectionMode: techconf-ca
+    feedUrl: https://techconf.ca/
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 200
+    region: north-america
+    includeUnmatched: true
+    # Dates checked by hand on 2026-11-07 for series that would otherwise be projected from last
+    # year. Only these two had a newer date; the others had none announced. (BSides Ottawa's new
+    # date, 19-20 November 2026, comes from the BSides feed below, which supersedes the estimate.)
+    knownEditions:
+      - name: PGConf.dev
+        startDate: '2027-05-11'
+        endDate: '2027-05-14'
+        location: Montréal, QC, Canada
+        url: https://www.postgresql.org/about/event/pgconfdev-2027-the-postgresql-developer-conference-2614/
+        status: confirmed
+        sourceUrl: https://www.postgresql.org/about/event/pgconfdev-2027-the-postgresql-developer-conference-2614/
+        verifiedOn: '2026-11-07'
+        note: Moves from Vancouver to Montréal.
+      - name: Web Summit Vancouver
+        startDate: '2027-05-25'
+        endDate: '2027-05-28'
+        location: Vancouver, BC, Canada
+        url: https://vancouver.websummit.com/web-summit-vancouver-2027/
+        status: unconfirmed
+        sourceUrl: https://www.opencurious.com/tech-events/web-summit-vancouver-2027
+        verifiedOn: '2026-11-07'
+        note: The organiser says it returns in 2027; the dates come from listing sites.
+
+  - id: observability-360
+    name: Observability 360 Events
+    company: Observability 360
+    category: technology
+    homepageUrl: https://observability-360.com/Calendar/Events
+    collectionMode: observability-360
+    feedUrl: https://observability-360.com/Calendar/Events
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 50
+    region: global
+    includeUnmatched: true
+
+  - id: bsides-events
+    name: BSides Global Community Events
+    company: BSides Global Community
+    category: cybersecurity
+    homepageUrl: https://bsides.org/events/
+    collectionMode: ics
+    feedUrl: https://bsides.org/events/?ical=1
+    enabled: true
+    priority: 5
+    language: en
+    maxItemsPerRun: 100
+    region: global
+    includeUnmatched: true
+
+  - id: flagship-conferences
+    name: Flagship conferences (curated)
+    company: Curated by hand
+    category: technology
+    collectionMode: curated
+    feedUrl: config/event-series.yml
+    enabled: true
+    priority: 8
+    language: en
+    maxItemsPerRun: 50
     region: global
     includeUnmatched: true

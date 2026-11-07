@@ -51,7 +51,14 @@ function endOf(event: EventItem): string {
 /** A one-event iCalendar document, built in the browser from the published JSON. */
 export function buildEventIcs(event: EventItem, now: Date = new Date()): string {
   const location = event.location ?? (event.format === 'online' ? 'Online' : undefined);
-  const description = [event.summary, event.url].filter(Boolean).join('\n');
+  const tentative = event.dateStatus === 'estimated';
+  const description = [
+    tentative ? 'Date not confirmed by the organiser.' : '',
+    event.summary,
+    event.url,
+  ]
+    .filter(Boolean)
+    .join('\n');
 
   const properties = [
     'BEGIN:VCALENDAR',
@@ -70,6 +77,7 @@ export function buildEventIcs(event: EventItem, now: Date = new Date()): string 
     `SUMMARY:${escapeText(event.title)}`,
     `DESCRIPTION:${escapeText(description)}`,
     `URL:${event.url}`,
+    ...(tentative ? ['STATUS:TENTATIVE'] : []),
     ...(location ? [`LOCATION:${escapeText(location)}`] : []),
     'END:VEVENT',
     'END:VCALENDAR',

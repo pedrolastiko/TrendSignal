@@ -56,6 +56,7 @@ function source(overrides: Partial<EventSourceConfig> = {}): EventSourceConfig {
     maxItemsPerRun: 50,
     includePaths: [],
     excludePaths: [],
+    knownEditions: [],
     region: 'global',
     includeUnmatched: false,
     ...overrides,
@@ -364,9 +365,12 @@ describe('deduplicateEvents', () => {
     expect(deduplicateEvents([a, sameUrl, sameTitle])).toHaveLength(1);
   });
 
-  it('keeps similar events from different companies', () => {
+  it('keeps similar-named events that start on different days', () => {
     const a = build({});
-    const other = build({ url: 'https://other.example/e/1' }, source({ company: 'Other Co' }));
+    const other = build(
+      { url: 'https://other.example/e/1', startsAt: '2026-12-20T15:00:00.000Z' },
+      source({ company: 'Other Co' }),
+    );
     expect(deduplicateEvents([a, other])).toHaveLength(2);
   });
 
@@ -434,6 +438,10 @@ describe('collecting events from fixture sources', () => {
         'Cybersecurity Leadership Summit',
         'DevSecOps Forum',
         'Webinar: Ransomware readiness',
+        'Fixture Alpha Conf',
+        'Fixture Known Conf',
+        'Fixture Observability Day',
+        'Fixture CiliumCon North America',
       ]),
     );
     for (const excluded of [
@@ -447,11 +455,13 @@ describe('collecting events from fixture sources', () => {
       'Cyber Security Summit Sydney', // in person, outside North America
       'Webinar: Cancelled session',
       'Webinar: A past session',
+      'Fixture Delta Forum', // last held more than a year ago
+      'Fixture Past Observability Meetup',
     ]) {
       expect(titles).not.toContain(excluded);
     }
-    expect(file.events).toHaveLength(10);
-    expect(summary).toMatchObject({ targeted: 4, succeeded: 4, failed: 0 });
+    expect(file.events).toHaveLength(18);
+    expect(summary).toMatchObject({ targeted: 6, succeeded: 6, failed: 0 });
     expect(file.sources.every((s) => s.health.status === 'healthy')).toBe(true);
     expect(() => eventsFileSchema.parse(file)).not.toThrow();
   });
@@ -471,7 +481,7 @@ describe('collecting events from fixture sources', () => {
     );
     const second = await run({ sources: broken, previous: first.file });
 
-    expect(second.summary).toMatchObject({ succeeded: 3, failed: 1 });
+    expect(second.summary).toMatchObject({ succeeded: 5, failed: 1 });
     const status = second.file.sources.find((s) => s.id === 'fixture-ics-events')!;
     expect(status.health.status).toBe('warning');
     expect(status.health.consecutiveFailures).toBe(1);
@@ -489,7 +499,7 @@ describe('collecting events from fixture sources', () => {
       s.id === 'fixture-rss-events' ? { ...s, enabled: false } : s,
     );
     const { file, summary } = await run({ sources });
-    expect(summary.targeted).toBe(3);
+    expect(summary.targeted).toBe(5);
     expect(file.sources.find((s) => s.id === 'fixture-rss-events')?.health.status).toBe('disabled');
     expect(file.events.some((e) => e.sourceId === 'fixture-rss-events')).toBe(false);
   });

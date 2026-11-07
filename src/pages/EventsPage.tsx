@@ -128,6 +128,16 @@ export function EventsPage() {
                 options={[{ value: 'all', label: t.dashboard.filters.all }, ...sourceOptions]}
               />
               <EventSelect
+                id="events-filter-date-status"
+                label={t.events.filters.dateStatus}
+                value={filters.dateStatus}
+                onChange={(v) => update({ dateStatus: v as EventFilters['dateStatus'] })}
+                options={[
+                  { value: 'all', label: t.events.filters.dateStatusAll },
+                  { value: 'confirmed', label: t.events.filters.dateStatusConfirmed },
+                ]}
+              />
+              <EventSelect
                 id="events-filter-period"
                 label={t.events.filters.period}
                 value={filters.period}
@@ -223,15 +233,19 @@ function EventSources({ sources }: { sources: EventSourceStatus[] }) {
             key={source.id}
             className="flex flex-wrap items-center justify-between gap-2 text-sm text-ink"
           >
-            <a
-              href={source.homepageUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-primary underline-offset-2 hover:underline"
-            >
-              {source.name}
-              <span className="sr-only"> ({t.common.externalLink})</span>
-            </a>
+            {source.homepageUrl ? (
+              <a
+                href={source.homepageUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-primary underline-offset-2 hover:underline"
+              >
+                {source.name}
+                <span className="sr-only"> ({t.common.externalLink})</span>
+              </a>
+            ) : (
+              <span className="font-medium text-ink">{source.name}</span>
+            )}
             <span className="flex flex-wrap items-center gap-3 text-xs text-muted">
               <span>
                 {source.health.itemsFetched} {t.events.sources.events}

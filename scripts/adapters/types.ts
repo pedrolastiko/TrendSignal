@@ -1,3 +1,5 @@
+import type { SourceCategory } from '../schemas.ts';
+
 export interface RawArticleCandidate {
   title: string;
   url: string;
@@ -34,6 +36,18 @@ export interface RawEventCandidate {
   /** What the publisher declares (schema.org eventAttendanceMode); beats the text heuristics. */
   attendanceMode?: 'online' | 'offline' | 'mixed';
   language?: 'fr' | 'en';
+  /** Overrides the source's company: the organiser, for a curated or aggregated listing. */
+  company?: string;
+  /** Overrides the source's category, for a curated list that spans several. */
+  category?: SourceCategory;
+  /** Overrides the text-based guess of the event's kind. */
+  kind?: 'webinar' | 'conference' | 'event';
+  /** `estimated` when the date is not confirmed by the organiser. */
+  dateStatus?: 'confirmed' | 'estimated';
+  /** First day (YYYY-MM-DD) of the edition an estimated date was projected from. */
+  estimatedFrom?: string;
+  /** Tells apart events that share one URL (a listing page) so their ids do not collide. */
+  idSuffix?: string;
 }
 
 export interface EventAdapterResult {

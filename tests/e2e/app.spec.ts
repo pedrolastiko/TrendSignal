@@ -243,8 +243,9 @@ test.describe('TrendSignal', () => {
         await expect(cards.first()).toBeVisible();
 
         await page.getByLabel('Format').selectOption('hybrid');
-        await expect(cards).toHaveCount(1);
-        await expect(cards.first()).toContainText('Hybrid');
+        await expect(cards.first()).toBeVisible();
+        expect(await cards.count()).toBeGreaterThan(0);
+        await expect(cards.filter({ hasNotText: 'Hybrid' })).toHaveCount(0);
 
         // No hybrid event is a webinar, so the two filters together leave nothing.
         await page
@@ -253,6 +254,41 @@ test.describe('TrendSignal', () => {
           .click();
         await expect(cards).toHaveCount(0);
         await expect(page.getByText('No upcoming event matches these filters.')).toBeVisible();
+      });
+
+      test('dates the organiser has not confirmed are flagged, and can be filtered out', async ({
+        page,
+      }) => {
+        await page.goto('/#/events');
+        const cards = page.locator('article[data-event-card]');
+        await expect(cards.first()).toBeVisible();
+        const total = await cards.count();
+
+        const flagged = cards.filter({ hasText: 'Date not confirmed' });
+        const flaggedCount = await flagged.count();
+        expect(flaggedCount).toBeGreaterThan(0);
+        expect(flaggedCount).toBeLessThan(total);
+        await expect(flagged.first()).toContainText(/Based on the .* edition|has not confirmed/);
+
+        await page.getByLabel('Dates').selectOption('confirmed');
+        await expect(cards).toHaveCount(total - flaggedCount);
+        await expect(cards.filter({ hasText: 'Date not confirmed' })).toHaveCount(0);
+      });
+
+      test('an unconfirmed date is exported as a tentative calendar entry', async ({ page }) => {
+        await page.goto('/#/events');
+        const card = page
+          .locator('article[data-event-card]')
+          .filter({ hasText: 'Date not confirmed' })
+          .first();
+        await expect(card).toBeVisible();
+        const [download] = await Promise.all([
+          page.waitForEvent('download'),
+          card.getByRole('button', { name: 'Add to calendar' }).click(),
+        ]);
+        const { readFile } = await import('node:fs/promises');
+        const content = await readFile(await download.path(), 'utf-8');
+        expect(content).toContain('STATUS:TENTATIVE');
       });
 
       test('event links are safe, and a calendar file can be saved', async ({ page }) => {

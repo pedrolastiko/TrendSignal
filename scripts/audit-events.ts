@@ -5,6 +5,8 @@
  *
  *   npx tsx scripts/audit-events.ts [--source-id=<id>]
  *
+ * A `~` after a date marks one the organiser has not confirmed.
+ *
  * Hits live publishers, so it is never part of CI. Writes nothing.
  */
 import { loadEventSourcesConfig, loadKeywordsConfig } from './config-loader.ts';
@@ -33,9 +35,9 @@ async function main(): Promise<void> {
       `\n== ${status.id}: ${status.health.status}, ${status.health.itemsFetched} fetched, ${own.length} kept` +
         (status.health.lastError ? `, error: ${status.health.lastError}` : ''),
     );
-    for (const event of own.slice(0, 6)) {
+    for (const event of own.slice(0, 20)) {
       console.log(
-        `   ${event.startsAt.slice(0, 16)} ${event.format.padEnd(9)} ${event.kind.padEnd(10)} ` +
+        `   ${event.startsAt.slice(0, 10)}${event.dateStatus === 'estimated' ? '~' : ' '} ${event.format.padEnd(9)} ${event.kind.padEnd(10)} ` +
           `${event.title.slice(0, 60)} [${event.matchedKeywordIds.join(',') || '-'}]`,
       );
     }

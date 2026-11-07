@@ -2,9 +2,11 @@ import { readFileSync } from 'node:fs';
 import { load as loadYaml } from 'js-yaml';
 import {
   categoriesConfigFileSchema,
+  eventSeriesFileSchema,
   eventsConfigFileSchema,
   keywordsConfigFileSchema,
   sourcesConfigFileSchema,
+  type EventSeries,
   type EventSourceConfig,
   type KeywordConfig,
   type SourceConfig,
@@ -47,4 +49,12 @@ export function loadEventSourcesConfig(path = 'config/event-sources.yml'): Event
     throw new ConfigValidationError(`Invalid ${path}: ${parsed.error.message}`);
   }
   return parsed.data.sources;
+}
+
+export function loadEventSeriesConfig(path = 'config/event-series.yml'): EventSeries[] {
+  const parsed = eventSeriesFileSchema.safeParse(readYamlFile(path));
+  if (!parsed.success) {
+    throw new ConfigValidationError(`Invalid ${path}: ${parsed.error.message}`);
+  }
+  return parsed.data.series;
 }

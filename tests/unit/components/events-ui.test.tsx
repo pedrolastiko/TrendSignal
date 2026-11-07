@@ -39,6 +39,7 @@ function event(overrides: Partial<EventItem> = {}): EventItem {
     matchedKeywordIds: ['zero-trust'],
     relevanceScore: 40,
     discoveredAt: '2026-11-07T00:00:00.000Z',
+    dateStatus: 'confirmed',
     ...overrides,
   };
 }
@@ -60,6 +61,26 @@ describe('EventCard', () => {
     expect(screen.getByText('Example Co')).toBeInTheDocument();
     expect(screen.getByText('Toronto, Canada')).toBeInTheDocument();
     expect(screen.getByText('Zero Trust')).toBeInTheDocument();
+  });
+
+  it('flags a date the organiser has not confirmed, and says which edition it came from', () => {
+    renderCard(event({ dateStatus: 'estimated', estimatedFrom: '2026-06-02' }));
+    expect(screen.getByText('Date not confirmed')).toBeInTheDocument();
+    expect(
+      screen.getByText(/Based on the Jun 02, 2026 edition; new dates have not been announced\./),
+    ).toBeInTheDocument();
+  });
+
+  it('flags a date only third parties report without claiming it was projected', () => {
+    renderCard(event({ dateStatus: 'estimated' }));
+    expect(screen.getByText('Date not confirmed')).toBeInTheDocument();
+    expect(screen.getByText('The organiser has not confirmed this date yet.')).toBeInTheDocument();
+    expect(screen.queryByText(/Based on the/)).not.toBeInTheDocument();
+  });
+
+  it('shows no flag for a confirmed date', () => {
+    renderCard(event());
+    expect(screen.queryByText('Date not confirmed')).not.toBeInTheDocument();
   });
 
   it('links out with safe attributes', () => {
@@ -114,6 +135,11 @@ describe('UpcomingEvents', () => {
       'href',
       '/events',
     );
+  });
+
+  it('flags unconfirmed dates in the dashboard block too', () => {
+    renderWidget([event({ dateStatus: 'estimated', estimatedFrom: '2026-06-02' })]);
+    expect(screen.getByText('Date not confirmed')).toBeInTheDocument();
   });
 
   it('skips events that are already over, and renders nothing when none is left', () => {

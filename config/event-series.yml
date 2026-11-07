@@ -1,0 +1,140 @@
+# Flagship conferences kept by hand, for organisers whose sites the collector cannot read
+# (Black Hat, RSAC and Gartner answer HTTP 403, defcon.org is not reachable from here) and for
+# conferences that are one-off pages rather than listings. Nothing here is fetched.
+#
+# Each edition records where its date was read (`sourceUrl`) and when (`verifiedOn`), and a
+# status: `confirmed` only when the organiser, or the venue hosting it, states the date;
+# `unconfirmed` when only third-party listings do (shown as "Date not confirmed").
+#
+# A series with no edition still to come is projected: the latest edition's calendar day is
+# assumed to repeat next year and the event is flagged as estimated. Add the new edition here
+# as soon as the organiser announces it, and it replaces the projection.
+#
+# Dates were checked on 2026-11-07. Black Hat and DEF CON could not be read directly, so their
+# dates come from what a web search returned.
+schemaVersion: 1
+series:
+  - id: aws-reinvent
+    name: AWS re:Invent
+    organiser: Amazon Web Services
+    category: technology
+    url: https://aws.amazon.com/events/reinvent/
+    kind: conference
+    format: in-person
+    location: Las Vegas, NV, United States
+    countryCode: US
+    summary: AWS's annual conference on cloud and AI.
+    editions:
+      - startDate: '2026-11-30'
+        endDate: '2026-12-04'
+        status: confirmed
+        sourceUrl: https://aws.amazon.com/events/reinvent/
+        verifiedOn: '2026-11-07'
+
+  - id: microsoft-ignite
+    name: Microsoft Ignite
+    organiser: Microsoft
+    category: technology
+    url: https://ignite.microsoft.com/
+    kind: conference
+    format: hybrid
+    location: San Francisco, CA, United States
+    countryCode: US
+    summary: Microsoft's conference for IT professionals and developers, in person and online.
+    editions:
+      - startDate: '2026-11-17'
+        endDate: '2026-11-20'
+        status: confirmed
+        sourceUrl: https://www.moscone.com/node/852
+        verifiedOn: '2026-11-07'
+        note: Dates from the venue's listing; Microsoft's own page is rendered in the browser.
+
+  - id: microsoft-build
+    name: Microsoft Build
+    organiser: Microsoft
+    category: technology
+    url: https://build.microsoft.com/
+    kind: conference
+    format: hybrid
+    location: San Francisco, CA, United States
+    countryCode: US
+    summary: Microsoft's developer conference, in San Francisco and online.
+    editions:
+      # No 2027 date announced on 2026-11-07, so the next one is projected from this edition.
+      - startDate: '2026-06-02'
+        endDate: '2026-06-03'
+        status: confirmed
+        sourceUrl: https://build.microsoft.com/en-US/home
+        verifiedOn: '2026-11-07'
+
+  - id: black-hat-usa
+    name: Black Hat USA
+    organiser: Black Hat (Informa)
+    category: cybersecurity
+    url: https://www.blackhat.com/
+    kind: conference
+    format: in-person
+    location: Las Vegas, NV, United States
+    countryCode: US
+    summary: Information security conference with trainings, briefings and an expo.
+    editions:
+      - startDate: '2027-07-31'
+        endDate: '2027-08-05'
+        status: unconfirmed
+        sourceUrl: https://expolume.com/expo/black-hat-usa/
+        verifiedOn: '2026-11-07'
+        note: Listed by third-party calendars; blackhat.com answers 403 to the collector.
+
+  - id: def-con
+    name: DEF CON
+    organiser: DEF CON Communications
+    category: cybersecurity
+    url: https://defcon.org/
+    kind: conference
+    format: in-person
+    location: Las Vegas, NV, United States
+    countryCode: US
+    summary: Hacker conference. The 2027 edition is DEF CON 35.
+    editions:
+      - startDate: '2027-08-05'
+        endDate: '2027-08-08'
+        status: confirmed
+        sourceUrl: https://defcon.org/
+        verifiedOn: '2026-11-07'
+        note: Announced on defcon.org (posted 2025-10-29), read through a web search because the site is not reachable from here.
+
+  - id: rsac
+    name: RSA Conference
+    organiser: RSAC
+    category: cybersecurity
+    url: https://www.rsaconference.com/usa
+    kind: conference
+    format: in-person
+    location: San Francisco, CA, United States
+    countryCode: US
+    summary: Cybersecurity conference and expo at the Moscone Center.
+    editions:
+      - startDate: '2027-04-05'
+        endDate: '2027-04-08'
+        status: confirmed
+        sourceUrl: https://moscone.com/events/rsac-2027-conference
+        verifiedOn: '2026-11-07'
+        note: Dates from the venue's listing, the same ones Tenable's page gives; rsaconference.com answers 403 to the collector.
+
+  - id: gartner-security-risk-management-us
+    name: Gartner Security & Risk Management Summit
+    organiser: Gartner
+    category: cybersecurity
+    url: https://www.gartner.com/en/conferences/na/security-risk-management-us
+    kind: conference
+    format: in-person
+    location: National Harbor, MD, United States
+    countryCode: US
+    summary: Gartner's flagship security and risk conference for North America.
+    editions:
+      - startDate: '2027-06-14'
+        endDate: '2027-06-16'
+        status: confirmed
+        sourceUrl: https://www.gartner.com/en/conferences/na/security-risk-management-us
+        verifiedOn: '2026-11-07'
+        note: Read through a web search; gartner.com answers 403 to the collector, so Gartner's cybersecurity hub cannot be collected. Gartner's other security summits are held outside North America.

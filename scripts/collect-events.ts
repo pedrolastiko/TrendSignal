@@ -2,6 +2,9 @@ import pLimit from 'p-limit';
 import { collectEventsFromIcs } from './adapters/events-ics.ts';
 import { collectEventsFromJsonLd } from './adapters/events-jsonld.ts';
 import { collectEventsFromRss } from './adapters/events-rss.ts';
+import { collectEventsFromCuratedSeries } from './adapters/source-specific/curated-series.ts';
+import { collectEventsFromObservability360 } from './adapters/source-specific/observability-360.ts';
+import { collectEventsFromTechconf } from './adapters/source-specific/techconf-ca.ts';
 import { collectEventsFromCncf } from './adapters/source-specific/cncf-events.ts';
 import type { EventAdapterResult } from './adapters/types.ts';
 import { buildEvent, deduplicateEvents, hasEnded } from './events/build.ts';
@@ -39,6 +42,7 @@ export interface CollectEventsSummary {
 function runAdapter(
   source: EventSourceConfig,
   repositoryUrl: string | undefined,
+  now: Date,
 ): Promise<EventAdapterResult> {
   switch (source.collectionMode) {
     case 'ics':
@@ -49,6 +53,12 @@ function runAdapter(
       return collectEventsFromJsonLd(source, repositoryUrl);
     case 'cncf-events':
       return collectEventsFromCncf(source, repositoryUrl);
+    case 'techconf-ca':
+      return collectEventsFromTechconf(source, repositoryUrl, now);
+    case 'observability-360':
+      return collectEventsFromObservability360(source, repositoryUrl);
+    case 'curated':
+      return collectEventsFromCuratedSeries(source, now);
   }
 }
 
@@ -94,7 +104,7 @@ export async function collectEvents(
 
         summary.targeted += 1;
         try {
-          const result = await runAdapter(source, repositoryUrl);
+          const result = await runAdapter(source, repositoryUrl, now);
           const built = result.candidates
             .map((c) => buildEvent(c, source, keywords, previousById, now))
             .filter((e): e is EventItem => e !== null)

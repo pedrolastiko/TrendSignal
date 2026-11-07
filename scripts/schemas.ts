@@ -8,6 +8,8 @@ export const sourceCategorySchema = z.enum([
   'media',
 ]);
 
+export type SourceCategory = z.infer<typeof sourceCategorySchema>;
+
 export const collectionModeSchema = z.enum(['rss', 'atom', 'sitemap', 'html']);
 
 // --- config/sources.yml ----------------------------------------------------
@@ -245,14 +247,66 @@ export const sourceStateFileSchema = z.array(sourceStateEntrySchema);
 // Events are a separate dataset from articles: their date lies ahead, so they must not
 // feed trend scoring or the "latest articles" ordering. See docs/data-model.md.
 
-export const eventCollectionModeSchema = z.enum(['ics', 'rss', 'jsonld', 'cncf-events']);
+export const eventCollectionModeSchema = z.enum([
+  'ics',
+  'rss',
+  'jsonld',
+  'cncf-events',
+  'techconf-ca',
+  'observability-360',
+  'curated',
+]);
+
+const isoDay = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'expected YYYY-MM-DD');
+
+/**
+ * A date someone checked by hand. `confirmed` only when the organiser (or its venue) states it;
+ * `unconfirmed` when only third-party listings do. Always with where it was read and when.
+ */
+export const knownEditionSchema = z.object({
+  startDate: isoDay,
+  /** Last day, inclusive. */
+  endDate: isoDay.optional(),
+  location: z.string().optional(),
+  url: z.string().url().optional(),
+  status: z.enum(['confirmed', 'unconfirmed']),
+  sourceUrl: z.string().url(),
+  verifiedOn: isoDay,
+  note: z.string().optional(),
+});
+export type KnownEdition = z.infer<typeof knownEditionSchema>;
+
+/** A conference series with its known editions; used by the `curated` mode and by techconf-ca overrides. */
+export const eventSeriesSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  /** The organiser, shown as the event's company. */
+  organiser: z.string().min(1),
+  category: sourceCategorySchema,
+  /** The conference's own site. */
+  url: z.string().url(),
+  kind: z.enum(['webinar', 'conference', 'event']).default('conference'),
+  format: z.enum(['online', 'in-person', 'hybrid']),
+  location: z.string().optional(),
+  /** ISO 3166-1 alpha-2. */
+  countryCode: z.string().length(2).optional(),
+  summary: z.string().max(320).default(''),
+  editions: z.array(knownEditionSchema).min(1),
+});
+export type EventSeries = z.infer<typeof eventSeriesSchema>;
+
+export const eventSeriesFileSchema = z.object({
+  schemaVersion: z.number().int(),
+  series: z.array(eventSeriesSchema),
+});
 
 export const eventSourceConfigSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   company: z.string().min(1),
   category: sourceCategorySchema,
-  homepageUrl: z.string().url(),
+  /** A hand-curated list has no page of its own. */
+  homepageUrl: z.string().url().optional(),
   /**
    * `rss`: the item's pubDate is the event start. `jsonld`: a listing page whose linked pages
    * carry a schema.org Event. `cncf-events`: cncf.io WordPress REST API.
@@ -266,6 +320,11 @@ export const eventSourceConfigSchema = z.object({
   /** `jsonld` only: which links of the listing page are event pages (path substrings, required). */
   includePaths: z.array(z.string()).default([]),
   excludePaths: z.array(z.string()).default([]),
+  /**
+   * `techconf-ca` only: dates verified by hand for a series (matched by name), used instead of
+   * projecting last year's.
+   */
+  knownEditions: z.array(knownEditionSchema.extend({ name: z.string().min(1) })).default([]),
   /**
    * Where the publisher's in-person events take place when the feed gives no location.
    * Online events are kept whatever the region.
@@ -308,6 +367,12 @@ export const eventSchema = z.object({
   matchedKeywordIds: z.array(z.string()),
   relevanceScore: z.number().int().min(0).max(100),
   discoveredAt: z.string(),
+  /**
+   * `estimated` when the organiser has not confirmed the date: either projected from last
+   * year's edition (`estimatedFrom` is that edition's first day) or only reported by listings.
+   */
+  dateStatus: z.enum(['confirmed', 'estimated']).default('confirmed'),
+  estimatedFrom: isoDay.optional(),
 });
 export type EventItem = z.infer<typeof eventSchema>;
 
@@ -315,7 +380,7 @@ export const eventSourceStatusSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   company: z.string().min(1),
-  homepageUrl: z.string().url(),
+  homepageUrl: z.string().url().optional(),
   collectionMode: eventCollectionModeSchema,
   enabled: z.boolean(),
   health: sourceHealthSchema,
