@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>x</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          { "@type": "WebPage", "name": "Toronto forum" },
+          {
+            "@type": "BusinessEvent",
+            "name": "DevSecOps Forum",
+            "startDate": "{{IN_DAYS:45:ISO_LOCAL}}",
+            "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+            "location": {
+              "@type": "Place",
+              "name": "Convention Centre",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Toronto",
+                "addressCountry": "CA"
+              }
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

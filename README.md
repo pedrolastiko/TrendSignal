@@ -179,12 +179,14 @@ the branch's file layout.
 ## Events
 
 Events are collected from `config/event-sources.yml` in the same `collect` run and published as
-`events.json`. Wave 1 collects **OpenSSF** and **FIDO Alliance** (iCalendar feeds), **NIST** (RSS)
-and **CNCF** (its WordPress REST API), each checked live on 2026-11-07 with
-`npx tsx scripts/audit-events.ts`. SANS, (ISC)², ISACA, IAPP, OWASP and the Cloud Security Alliance
-were left out because they expose no machine-readable listing; the reason for each is in the
-header of the file. The scope, the rules for what is kept and the data contract are in
-`docs/data-model.md`; `docs/adding-a-source.md` explains how to add an event source.
+`events.json`. Six sources from five publishers are collected, each checked live on 2026-11-07
+with `npx tsx scripts/audit-events.ts`: **OpenSSF** and **FIDO Alliance** (iCalendar feeds),
+**NIST** (RSS), **CNCF** (its WordPress REST API) and **Tenable** (events and webinars, read from
+the JSON-LD of the pages its listings link to). The other candidates of the three waves were
+probed too and left out because they expose no usable listing (client-rendered pages, no
+structured data, anti-bot protection, or unusable titles); the finding for each is in the header of
+the file. The scope, the rules for what is kept and the data contract are in `docs/data-model.md`;
+`docs/adding-a-source.md` explains how to add an event source.
 
 ## Adding a source or keyword
 

@@ -151,7 +151,7 @@ export interface EventSourceStatus {
   name: string;
   company: string;
   homepageUrl: string;
-  collectionMode: 'ics' | 'rss' | 'cncf-events';
+  collectionMode: 'ics' | 'rss' | 'jsonld' | 'cncf-events';
   enabled: boolean;
   health: SourceHealth;
 }

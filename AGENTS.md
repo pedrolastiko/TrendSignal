@@ -420,7 +420,7 @@ sources:
     excludePaths: []
 ```
 
-`config/event-sources.yml` declares event sources the same way (`collectionMode`: `ics`, `rss` where `pubDate` is the event start, or the source-specific `cncf-events`), plus `region` (`north-america` or `global`) and `includeUnmatched` (keep events matching no tracked keyword; only for publishers whose whole scope is IT, AI or cybersecurity). Validate every endpoint live with `scripts/audit-events.ts` before setting `enabled: true`; never guess one.
+`config/event-sources.yml` declares event sources the same way (`collectionMode`: `ics`, `rss` where `pubDate` is the event start, `jsonld` for a listing page whose linked pages carry a schema.org Event, or the source-specific `cncf-events`), plus `region` (`north-america` or `global`) and `includeUnmatched` (keep events matching no tracked keyword; only for publishers whose whole scope is IT, AI or cybersecurity). Validate every endpoint live with `scripts/audit-events.ts` before setting `enabled: true`; never guess one.
 
 `config/keywords.yml` contains bilingual terms:
 

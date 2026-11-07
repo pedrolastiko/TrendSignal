@@ -237,11 +237,21 @@ test.describe('TrendSignal', () => {
         await expect(cards).toHaveCount(total);
       });
 
-      test('format and period filters work, and an empty result says so', async ({ page }) => {
+      test('format filter works, and an empty result says so', async ({ page }) => {
         await page.goto('/#/events');
-        await expect(page.locator('article[data-event-card]').first()).toBeVisible();
+        const cards = page.locator('article[data-event-card]');
+        await expect(cards.first()).toBeVisible();
+
         await page.getByLabel('Format').selectOption('hybrid');
-        await expect(page.locator('article[data-event-card]')).toHaveCount(0);
+        await expect(cards).toHaveCount(1);
+        await expect(cards.first()).toContainText('Hybrid');
+
+        // No hybrid event is a webinar, so the two filters together leave nothing.
+        await page
+          .getByRole('group', { name: 'Type' })
+          .getByRole('button', { name: 'Webinars' })
+          .click();
+        await expect(cards).toHaveCount(0);
         await expect(page.getByText('No upcoming event matches these filters.')).toBeVisible();
       });
 

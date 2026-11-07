@@ -32,6 +32,15 @@ export function hasEnded(event: TimeSpan, now: Date): boolean {
   return eventEndMs(event) <= now.getTime();
 }
 
+const FORMAT_BY_MODE = { online: 'online', mixed: 'hybrid', offline: 'in-person' } as const;
+
+/** A publisher's own statement (schema.org eventAttendanceMode) outranks any text heuristic. */
+function formatFromAttendanceMode(
+  mode: RawEventCandidate['attendanceMode'],
+): EventItem['format'] | undefined {
+  return mode ? FORMAT_BY_MODE[mode] : undefined;
+}
+
 export function deterministicEventId(canonicalUrl: string, startsAt: string): string {
   return createHash('sha256').update(`${canonicalUrl}#${startsAt}`).digest('hex');
 }
@@ -63,11 +72,14 @@ export function buildEvent(
   const location = candidate.location?.slice(0, MAX_LOCATION_LENGTH) || undefined;
   const text = [title, summary, location, ...(candidate.categories ?? [])].join(' ');
 
-  const format = classifyFormat({ title, location, summary });
+  const format =
+    formatFromAttendanceMode(candidate.attendanceMode) ??
+    classifyFormat({ title, location, summary });
   if (
     !isInScope({
       format,
       text,
+      location,
       countryCode: candidate.countryCode,
       sourceRegion: source.region,
     })

@@ -245,7 +245,7 @@ export const sourceStateFileSchema = z.array(sourceStateEntrySchema);
 // Events are a separate dataset from articles: their date lies ahead, so they must not
 // feed trend scoring or the "latest articles" ordering. See docs/data-model.md.
 
-export const eventCollectionModeSchema = z.enum(['ics', 'rss', 'cncf-events']);
+export const eventCollectionModeSchema = z.enum(['ics', 'rss', 'jsonld', 'cncf-events']);
 
 export const eventSourceConfigSchema = z.object({
   id: z.string().min(1),
@@ -253,13 +253,19 @@ export const eventSourceConfigSchema = z.object({
   company: z.string().min(1),
   category: sourceCategorySchema,
   homepageUrl: z.string().url(),
-  /** `rss`: the item's pubDate is the event start. `cncf-events`: cncf.io WordPress REST API. */
+  /**
+   * `rss`: the item's pubDate is the event start. `jsonld`: a listing page whose linked pages
+   * carry a schema.org Event. `cncf-events`: cncf.io WordPress REST API.
+   */
   collectionMode: eventCollectionModeSchema,
   feedUrl: z.string(),
   enabled: z.boolean(),
   priority: z.number().int().min(0).max(10),
   language: z.enum(['fr', 'en']),
   maxItemsPerRun: z.number().int().positive(),
+  /** `jsonld` only: which links of the listing page are event pages (path substrings, required). */
+  includePaths: z.array(z.string()).default([]),
+  excludePaths: z.array(z.string()).default([]),
   /**
    * Where the publisher's in-person events take place when the feed gives no location.
    * Online events are kept whatever the region.

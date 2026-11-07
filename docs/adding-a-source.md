@@ -115,9 +115,12 @@ Events (webinars, conferences) have their own file, `config/event-sources.yml`, 
    WordPress sites running The Events Calendar answer at `…/events/?ical=1`), an RSS feed whose
    `pubDate` is the event start, or a documented public API. A page that renders its list in the
    browser (Algolia, a single-page app) carries no event data in its HTML and cannot be collected.
-2. Add the entry. `collectionMode` is `ics`, `rss` (pubDate = start) or `cncf-events`. Set `region`
+2. Add the entry. `collectionMode` is `ics`, `rss` (pubDate = start), `jsonld` or `cncf-events`. Set `region`
    to `north-america` only if the publisher's in-person events really are there, and
    `includeUnmatched: true` only if the publisher's whole scope is IT, AI or cybersecurity.
+   For `jsonld`, `feedUrl` is a listing page whose HTML contains the links to the event pages, and
+   `includePaths` (required) are substrings of those links' paths; check on a few event pages that
+   the JSON-LD carries a real ISO `startDate` with a time zone, or a date-only value.
 3. Validate it with the real adapters and the collector's own fetch policy:
 
    ```bash

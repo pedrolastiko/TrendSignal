@@ -2,29 +2,66 @@
 #
 # Same validation policy as sources.yml (AGENTS.md #9): a source is only `enabled: true` once
 # its endpoint has been fetched live and `npx tsx scripts/audit-events.ts --source-id=<id>`
-# shows it yielding real, upcoming, in-scope events. Never guess an endpoint.
+# shows it yielding real, upcoming, in-scope events. Never guess an endpoint. Candidates that
+# cannot be collected are left out, not parked as disabled placeholders; the reason is below.
 #
 # Scope: every online event, plus in-person and hybrid events held in North America
 # (United States, Canada, Mexico). A source's `region` says where its in-person events are
 # when the feed gives no location; `includeUnmatched` keeps events that match no tracked
 # keyword, which is only right for a publisher whose whole scope is IT, AI or cybersecurity.
 #
-# Wave 1, probed on 2026-11-07 with the collector's own User-Agent. Collected:
+# Collected (each probed live, wave 1 on 2026-11-07, waves 2 and 3 the same day):
 #   - OpenSSF   iCalendar feed (The Events Calendar plugin, `?ical=1`).
 #   - FIDO Alliance   the same, with per-event time zones.
 #   - NIST      RSS events feed; `pubDate` is the event start. Mixed scope (metrology too),
 #               so it stays keyword-gated and is declared North American.
 #   - CNCF      public WordPress REST API (`lf_event`); source-specific adapter.
+#   - Tenable   two listing pages (`/events`, `/webinars`) whose linked pages each carry a
+#               schema.org Event in JSON-LD (`jsonld` adapter). Its events page lists many
+#               Asia-Pacific in-person events, which the scope rule drops.
 #
-# Left out, with the reason found:
-#   - SANS: the webcast and event lists are rendered client-side from Algolia; the static
-#     HTML carries no event data.
+# Left out, with what was found. "No structured data" means the listing and the event pages
+# reachable from the publisher's homepage carried no JSON-LD Event, calendar or events feed.
+#
+# Wave 1
+#   - SANS: webcast and event lists are rendered client-side from Algolia; the static HTML
+#     carries no event data.
 #   - (ISC)2: events are Sitecore-rendered pages linking out to Cvent; no structured data.
-#   - ISACA, IAPP, OWASP: static pages with no JSON-LD `Event`, feed or calendar link.
+#   - ISACA, IAPP, OWASP: static pages, no structured data.
 #   - Cloud Security Alliance: dates appear in the HTML but the only structured data is an
 #     `Organization` block, and there is no events API (its REST types list is a 404).
-#   - CNCF online programs (`lf_webinar`): the endpoint works, but none of the latest 100
+#   - CNCF online programs (`lf_webinar`): the endpoint works, but none of its latest 100
 #     entries was upcoming on the probe date, so it could not be validated as yielding.
+#
+# Wave 2 (vendors)
+#   - Check Point: The Events Calendar REST API answers, but event titles are internal
+#     campaign codes such as "FM-CH_TS_26Q4_AMER_ALL-SanFrancisco_2026-...", unusable on screen.
+#   - NVIDIA, Snowflake: some event pages carry JSON-LD, but the listings expose no event links
+#     in their HTML, and their sitemaps mix hundreds of past and regional pages (the JSON-LD
+#     found was a 2024 and a 2023 event), so finding the few upcoming ones would take hundreds
+#     of page fetches per run.
+#   - AWS, Google Cloud, Microsoft Reactor, Palo Alto Networks: listings are client-rendered
+#     shells; no structured data. AWS's page does call an undocumented JSON API, not used.
+#   - Red Hat, Databricks, Cloudflare, CrowdStrike, Fortinet, Okta, Proofpoint, Rapid7, Snyk,
+#     Wiz: no structured data. Rapid7's only feed is its general site feed, not events.
+#   - GitHub: the homepage answers HTTP 400 to the collector, and no events listing was found.
+#
+# Wave 3
+#   - CGI: the events page links 8 pages with JSON-LD, but dates are written
+#     "Wed, 11/11/2026 - 08:00" with no time zone, some end times precede their start, and many
+#     entries are CGI's presence at someone else's event (a booth number) or a results webcast.
+#     Say so if it should be added anyway, as dates only.
+#   - EY: webcast pages carry JSON-LD, but the listing is client-rendered (one static link) and
+#     the sitemap lists only 3 event URLs, so the upcoming ones cannot be enumerated.
+#   - Capgemini, Deloitte, Wavestone, Thoughtworks: no structured data (Capgemini's only feed
+#     is its general posts feed).
+#   - PwC, KPMG: no events listing reachable from the homepage.
+#   - Dark Reading: answers HTTP 403 to the collector; anti-bot protection is not circumvented.
+#   - SecurityWeek, MIT Technology Review, InfoQ/QCon: no structured data.
+#   - ANSSI, Forum InCyber, CLUSIF, Cigref, Numeum: no agenda listing with structured data
+#     reachable from the homepage (InCyber and CLUSIF only expose general blog feeds).
+#   - ENISA: static event pages, but no structured data, and a European focus.
+#
 # Re-run the probe before adding any of these: publishers change their sites.
 schemaVersion: 1
 sources:
@@ -81,5 +118,39 @@ sources:
     priority: 7
     language: en
     maxItemsPerRun: 100
+    region: global
+    includeUnmatched: true
+
+  - id: tenable-events
+    name: Tenable Events
+    company: Tenable
+    category: cybersecurity
+    homepageUrl: https://www.tenable.com/events
+    collectionMode: jsonld
+    feedUrl: https://www.tenable.com/events
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 50
+    includePaths:
+      - /events/
+    excludePaths: []
+    region: global
+    includeUnmatched: true
+
+  - id: tenable-webinars
+    name: Tenable Webinars
+    company: Tenable
+    category: cybersecurity
+    homepageUrl: https://www.tenable.com/webinars
+    collectionMode: jsonld
+    feedUrl: https://www.tenable.com/webinars
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 50
+    includePaths:
+      - /webinars/
+    excludePaths: []
     region: global
     includeUnmatched: true

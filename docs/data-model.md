@@ -173,13 +173,21 @@ questions. They are collected in the same run (`scripts/collect.ts`), published 
 `events.json` is `{ generatedAt, events: EventItem[], sources: EventSourceStatus[] }`; the schemas
 are in `scripts/schemas.ts` (generation) and `src/data/schemas.ts` (browser).
 
-**Sources** are declared in `config/event-sources.yml` (`ics`, `rss`, `cncf-events`):
+**Sources** are declared in `config/event-sources.yml` (`ics`, `rss`, `jsonld`, `cncf-events`):
 
 - `ics`: an iCalendar feed. Times with a `TZID` are converted to UTC through `Intl`; a floating
   time is read as UTC; `VALUE=DATE` events are all-day. Cancelled events are skipped. The response
   must contain `BEGIN:VCALENDAR`, so an HTML app shell is an error, not zero events.
 - `rss`: an events feed where each item's `pubDate` is the **event start**. A start at exactly
   00:00:00 in the feed's own offset is read as an all-day event on the date as written.
+- `jsonld`: a listing page whose linked pages each carry a schema.org `Event` in JSON-LD. The
+  listing is only used to find links (`includePaths`, required, filters them; same host, each page
+  fetched once, at most 60 per run). The event is read from the page: name, `startDate`/`endDate`,
+  description, `eventAttendanceMode`, location. A date-only `startDate` is an all-day event, and a
+  date-only `endDate` is the last day, inclusive; an offset written `+0000` is accepted; a time
+  with no offset is read as UTC. Cancelled and postponed events are skipped. The event's URL is
+  the one that was fetched, not the one the page claims. No link on the listing, or no Event on
+  any linked page, is an error, so a layout change shows up in the health instead of as "no events".
 - `cncf-events`: cncf.io's WordPress REST API (`lf_event`), a source-specific adapter. The data is
   under `meta`, not `acf`; the country comes from the `lf-country` terms.
 
@@ -192,11 +200,15 @@ are in `scripts/schemas.ts` (generation) and `src/data/schemas.ts` (browser).
 4. Not more than 548 days ahead.
 5. **In scope**: every online event, plus in-person and hybrid events in North America (United
    States, Canada, Mexico). An explicit country code settles it; otherwise the text is searched
-   for the area, a country or a conference town; a source declared `region: north-america`
+   for the area, a country or a conference town, and a location ending in a US state or Canadian
+   province ("Half Moon Bay, CA"; only abbreviations that are not also an ISO country code, so
+   "Mumbai, IN" or "Berlin, DE" never match); a source declared `region: north-america`
    vouches for its in-person events unless a country says otherwise.
 6. It matches at least one enabled keyword, unless the source sets `includeUnmatched: true`.
 
-**Format** is `online` when the title or location says so (webinar, webcast, virtual, online…), a
+**Format**: when the publisher declares an attendance mode (schema.org `eventAttendanceMode`,
+or a `VirtualLocation`), it is used as is: online, offline (in person) or mixed (hybrid). Otherwise
+it is read from the text: `online` when the title or location says so (webinar, webcast, virtual, online…), a
 title ends in "Call", or the summary says the event itself is online ("online event", "virtual
 summit", "held online"). A bare "online" in the summary does not count: "online authentication"
 describes the topic, not the event. `hybrid` when the text says so or says both. Otherwise

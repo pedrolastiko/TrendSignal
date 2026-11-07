@@ -1,5 +1,6 @@
 import pLimit from 'p-limit';
 import { collectEventsFromIcs } from './adapters/events-ics.ts';
+import { collectEventsFromJsonLd } from './adapters/events-jsonld.ts';
 import { collectEventsFromRss } from './adapters/events-rss.ts';
 import { collectEventsFromCncf } from './adapters/source-specific/cncf-events.ts';
 import type { EventAdapterResult } from './adapters/types.ts';
@@ -44,6 +45,8 @@ function runAdapter(
       return collectEventsFromIcs(source, repositoryUrl);
     case 'rss':
       return collectEventsFromRss(source, repositoryUrl);
+    case 'jsonld':
+      return collectEventsFromJsonLd(source, repositoryUrl);
     case 'cncf-events':
       return collectEventsFromCncf(source, repositoryUrl);
   }

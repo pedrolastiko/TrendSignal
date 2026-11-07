@@ -152,7 +152,7 @@ export const eventSourceStatusSchema = z.object({
   name: z.string().min(1),
   company: z.string().min(1),
   homepageUrl: z.string().url(),
-  collectionMode: z.enum(['ics', 'rss', 'cncf-events']),
+  collectionMode: z.enum(['ics', 'rss', 'jsonld', 'cncf-events']),
   enabled: z.boolean(),
   health: sourceHealthSchema,
 });

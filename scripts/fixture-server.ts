@@ -31,7 +31,8 @@ const RFC822_MONTHS = [
  * Renders `{{BASE_URL}}` and relative-date tokens in fixture text. `{{IN_DAYS:N:KIND}}` is the
  * date N days after `now`, so event fixtures stay upcoming whenever the demo is generated:
  * ICS_DATE `20261109`, ICS_UTC `20261109T150000Z`, ICS_LOCAL `20261109T100000`,
- * SLASH `2026/11/09`, RFC822 `Mon, 09 Nov 2026 15:00:00 +0000`, RFC822_MIDNIGHT `… 00:00:00 +0000`.
+ * SLASH `2026/11/09`, ISO_DATE `2026-11-09`, ISO_OFFSET `2026-11-09T15:00:00+0000`,
+ * ISO_LOCAL `2026-11-09T15:00:00`, RFC822 `Mon, 09 Nov 2026 15:00:00 +0000`, RFC822_MIDNIGHT `… 00:00:00 +0000`.
  */
 export function renderFixtureText(text: string, baseUrl: string, now: Date = new Date()): string {
   return text
@@ -50,6 +51,12 @@ export function renderFixtureText(text: string, baseUrl: string, now: Date = new
           return `${date}T100000`;
         case 'SLASH':
           return slash;
+        case 'ISO_DATE':
+          return slash.replaceAll('/', '-');
+        case 'ISO_OFFSET':
+          return `${slash.replaceAll('/', '-')}T15:00:00+0000`;
+        case 'ISO_LOCAL':
+          return `${slash.replaceAll('/', '-')}T15:00:00`;
         case 'RFC822':
           return `${rfc} 15:00:00 +0000`;
         case 'RFC822_MIDNIGHT':

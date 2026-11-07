@@ -31,6 +31,8 @@ export interface RawEventCandidate {
   /** ISO 3166-1 alpha-2, only when the publisher states the country explicitly. */
   countryCode?: string;
   categories?: string[];
+  /** What the publisher declares (schema.org eventAttendanceMode); beats the text heuristics. */
+  attendanceMode?: 'online' | 'offline' | 'mixed';
   language?: 'fr' | 'en';
 }
 

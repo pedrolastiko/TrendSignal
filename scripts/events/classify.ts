@@ -63,6 +63,51 @@ const NORTH_AMERICA_PATTERN = new RegExp(
   'i',
 );
 
+/**
+ * "Half Moon Bay, CA": a US state or Canadian province after a comma at the end of a location.
+ * Only abbreviations that are not also an ISO country code, so "Mumbai, IN" (India), "Berlin, DE"
+ * or "Jakarta, ID" never read as Indiana, Delaware or Idaho. States left out are still caught by
+ * their city or by a country name.
+ */
+const REGION_SUFFIX_PATTERN = new RegExp(
+  `,\\s*(${[
+    'AK',
+    'CA',
+    'CT',
+    'DC',
+    'FL',
+    'HI',
+    'IA',
+    'KS',
+    'MI',
+    'ND',
+    'NH',
+    'NJ',
+    'NM',
+    'NV',
+    'NC',
+    'NY',
+    'OH',
+    'OK',
+    'OR',
+    'RI',
+    'TX',
+    'UT',
+    'VT',
+    'WA',
+    'WI',
+    'WV',
+    'WY',
+    'AB',
+    'BC',
+    'MB',
+    'NB',
+    'NS',
+    'ON',
+    'QC',
+  ].join('|')})\\s*$`,
+);
+
 export function isCallForProposals(title: string, categories: string[] = []): boolean {
   return CALL_FOR_PROPOSALS_PATTERN.test(title) || categories.some((c) => /\bcfps?\b/i.test(c));
 }
@@ -94,14 +139,18 @@ export function classifyKind(text: string, format: EventFormat): EventKind {
  * True when the text points at North America. An explicit country code settles it either
  * way; without one, the text is searched for the area, a country or a conference town.
  */
-export function isNorthAmerica(text: string, countryCode?: string): boolean {
+export function isNorthAmerica(text: string, countryCode?: string, location?: string): boolean {
   if (countryCode) return NORTH_AMERICA_COUNTRIES.has(countryCode.toUpperCase());
-  return NORTH_AMERICA_PATTERN.test(text);
+  return (
+    NORTH_AMERICA_PATTERN.test(text) || (location ? REGION_SUFFIX_PATTERN.test(location) : false)
+  );
 }
 
 export interface ScopeInput {
   format: EventFormat;
   text: string;
+  /** The location on its own, for the state/province suffix test. */
+  location?: string;
   countryCode?: string;
   sourceRegion: 'north-america' | 'global';
 }
@@ -111,9 +160,15 @@ export interface ScopeInput {
  * A source declared `north-america` vouches for its in-person events unless an explicit
  * country says otherwise.
  */
-export function isInScope({ format, text, countryCode, sourceRegion }: ScopeInput): boolean {
+export function isInScope({
+  format,
+  text,
+  location,
+  countryCode,
+  sourceRegion,
+}: ScopeInput): boolean {
   if (format === 'online') return true;
   if (countryCode) return isNorthAmerica(text, countryCode);
   if (sourceRegion === 'north-america') return true;
-  return isNorthAmerica(text);
+  return isNorthAmerica(text, undefined, location);
 }
