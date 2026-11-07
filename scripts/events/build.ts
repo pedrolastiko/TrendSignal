@@ -151,14 +151,20 @@ const startDay = (event: EventItem) => event.startsAt.slice(0, 10);
  * One entry per event:
  *  - the same URL and start, or the same company, title and start (one event listed twice);
  *  - the same conference starting the same day, whoever lists it (KubeCon on CNCF's page and on a
- *    sponsor's): the better-scored entry stays;
+ *    sponsor's): the confirmed, then better-scored, entry stays;
  *  - an estimated date next to a confirmed one for the same conference, within 45 days: the
  *    estimate goes.
  * Different conferences are never merged on a similar title alone.
  */
 export function deduplicateEvents(events: EventItem[]): EventItem[] {
+  // A confirmed date outranks an estimate whatever their scores, so the same-day collapse below
+  // can never keep a projection over the date the organiser announced.
+  const confirmedFirst = (event: EventItem) => (event.dateStatus === 'confirmed' ? 0 : 1);
   const ranked = [...events].sort(
-    (a, b) => b.relevanceScore - a.relevanceScore || a.id.localeCompare(b.id),
+    (a, b) =>
+      confirmedFirst(a) - confirmedFirst(b) ||
+      b.relevanceScore - a.relevanceScore ||
+      a.id.localeCompare(b.id),
   );
   const seenIds = new Set<string>();
   const seenTitles = new Set<string>();

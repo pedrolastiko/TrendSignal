@@ -197,8 +197,10 @@ other security summits are held outside North America and fall outside the scope
 
 **Dates the organiser has not confirmed** are shown as such ("Date not confirmed"). For the
 techconf.ca list, a conference with no new date announced is assumed to repeat last year's
-calendar day, one year later, when its last edition is less than a year old; three dates were
-checked by hand instead. The others (SANS, ISACA, IAPP, CGI…) and the reasons are in the header of
+calendar day, one year later, when its last edition is less than a year old; two dates were
+checked by hand instead. A date a list merely reports (techconf.ca, Observability 360) is flagged
+too, as not verified with the organiser: only dates stated by the organiser or its venue are
+"confirmed". The others (SANS, ISACA, IAPP, CGI…) and the reasons are in the header of
 the file. The scope, the rules for what is kept and the data contract are in `docs/data-model.md`;
 `docs/adding-a-source.md` explains how to add an event source or a conference.
 

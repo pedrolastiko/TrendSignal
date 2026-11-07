@@ -23,8 +23,9 @@
 # Added afterwards, also probed live on 2026-11-07:
 #   - BSides   the global community's iCalendar feed (`bsides.org/events/?ical=1`), 30 entries.
 #   - techconf.ca   a community list of Canadian tech conferences. Its "past" page lets recurring
-#               conferences be projected one year on, flagged as not confirmed; three dates were
-#               checked by hand (see `knownEditions`). 98 series, 1 with a date already listed.
+#               conferences be projected one year on, flagged as not confirmed; two dates were
+#               checked by hand (see `knownEditions`). 98 series, 1 with a date already listed;
+#               a date a list merely reports is flagged as not verified with the organiser.
 #   - Observability 360   a hand-maintained calendar page. On the probe date it listed four events
 #               of October and November 2025, all over, so it yields none until it is updated.
 #   - Flagship conferences   `config/event-series.yml`, entered by hand with the URL each date

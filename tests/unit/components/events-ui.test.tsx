@@ -74,7 +74,9 @@ describe('EventCard', () => {
   it('flags a date only third parties report without claiming it was projected', () => {
     renderCard(event({ dateStatus: 'estimated' }));
     expect(screen.getByText('Date not confirmed')).toBeInTheDocument();
-    expect(screen.getByText('The organiser has not confirmed this date yet.')).toBeInTheDocument();
+    expect(
+      screen.getByText('Reported by a listing; not verified with the organiser.'),
+    ).toBeInTheDocument();
     expect(screen.queryByText(/Based on the/)).not.toBeInTheDocument();
   });
 

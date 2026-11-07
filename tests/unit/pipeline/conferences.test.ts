@@ -171,11 +171,15 @@ describe('techconf.ca', () => {
 
   const byTitle = (list: RawEventCandidate[], title: string) => list.find((c) => c.title === title);
 
-  it('uses a date already listed as upcoming, and projects the others from last year', () => {
+  it('uses a date already listed as upcoming (flagged as reported) and projects the others from last year', () => {
     const list = buildTechconfCandidates(upcoming, past, [], NOW);
 
+    // Listed as upcoming: used as is, but a list only reports the date, so it is not "confirmed"
+    // and, not being a projection, names no edition it came from.
     const alpha = byTitle(list, 'Fixture Alpha Conf')!;
-    expect(alpha.dateStatus).toBe('confirmed');
+    expect(alpha.dateStatus).toBe('estimated');
+    expect(alpha.estimatedFrom).toBeUndefined();
+    expect(alpha.startsAt).toBe('2027-01-06T00:00:00.000Z');
     expect(alpha.url).toBe('https://alpha.example.test');
 
     // Latest edition (-100 days), not the older one: so the 2025 date, one year on.
@@ -313,6 +317,8 @@ describe('Observability 360', () => {
   it('marks a virtual event as online and the others as in person', () => {
     const candidates = observabilityCandidates(events);
     expect(candidates.map((c) => c.attendanceMode)).toEqual(['online', 'offline', 'online']);
+    // A calendar page reports dates; the organisers have not stated them.
+    expect(candidates.every((c) => c.dateStatus === 'estimated' && !c.estimatedFrom)).toBe(true);
     expect(candidates[0]?.endsAt).toBe(
       new Date(Date.parse(`${events[0]!.startDate}T00:00:00Z`) + 86_400_000).toISOString(),
     );
@@ -456,6 +462,31 @@ describe('de-duplicating across sources', () => {
     expect(merged[0]?.company).toBe('Organiser');
   });
 
+  it('keeps the confirmed entry over an estimate of the same day, whatever their scores', () => {
+    const confirmed = make(
+      { url: 'https://example.com/official' },
+      { company: 'Organiser', priority: 1 },
+    );
+    const estimate = make(
+      {
+        url: 'https://techconf.ca/',
+        dateStatus: 'estimated',
+        estimatedFrom: '2025-11-19',
+        idSuffix: 'ottawasecurityday',
+      },
+      { company: 'Listing', priority: 9 },
+    );
+    expect(estimate.relevanceScore).toBeGreaterThan(confirmed.relevanceScore);
+    for (const order of [
+      [confirmed, estimate],
+      [estimate, confirmed],
+    ]) {
+      const merged = deduplicateEvents(order);
+      expect(merged).toHaveLength(1);
+      expect(merged[0]).toMatchObject({ company: 'Organiser', dateStatus: 'confirmed' });
+    }
+  });
+
   it('does not merge the same name in another city, or on another day', () => {
     const a = make({});
     const elsewhere = make(
@@ -564,7 +595,13 @@ describe('date status through the pipeline', () => {
       expect(file.sources.every((s) => s.health.status === 'healthy')).toBe(true);
       const estimated = file.events.filter((e) => e.dateStatus === 'estimated');
       expect(estimated.length).toBeGreaterThanOrEqual(4);
-      expect(estimated.every((e) => Boolean(e.estimatedFrom))).toBe(true);
+      // Projections say which edition they come from; dates a list merely reports do not.
+      const projected = estimated.filter((e) => Boolean(e.estimatedFrom));
+      expect(projected.length).toBeGreaterThanOrEqual(4);
+      const reported = estimated.filter((e) => !e.estimatedFrom).map((e) => e.title);
+      expect(reported).toEqual(
+        expect.arrayContaining(['Fixture Alpha Conf', 'Fixture Observability Day']),
+      );
       expect(
         file.events.some((e) => e.title === 'Fixture Known Conf' && e.dateStatus === 'confirmed'),
       ).toBe(true);

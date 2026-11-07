@@ -128,7 +128,7 @@ export const en: TranslationDictionary = {
     },
     dateStatus: { estimated: 'Date not confirmed' },
     estimatedFrom: 'Based on the {date} edition; new dates have not been announced.',
-    estimatedReported: 'The organiser has not confirmed this date yet.',
+    estimatedReported: 'Reported by a listing; not verified with the organiser.',
     kind: { webinar: 'Webinar', conference: 'Conference', event: 'Event' },
     format: { online: 'Online', 'in-person': 'In person', hybrid: 'Hybrid' },
     viewEvent: 'View event',

@@ -268,7 +268,9 @@ test.describe('TrendSignal', () => {
         const flaggedCount = await flagged.count();
         expect(flaggedCount).toBeGreaterThan(0);
         expect(flaggedCount).toBeLessThan(total);
-        await expect(flagged.first()).toContainText(/Based on the .* edition|has not confirmed/);
+        await expect(flagged.first()).toContainText(
+          /Based on the .* edition|Reported by a listing/,
+        );
 
         await page.getByLabel('Dates').selectOption('confirmed');
         await expect(cards).toHaveCount(total - flaggedCount);

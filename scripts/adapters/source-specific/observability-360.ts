@@ -144,6 +144,8 @@ export function observabilityCandidates(events: ObservabilityEvent[]): RawEventC
       : event.hybrid
         ? 'mixed'
         : 'offline',
+    // A calendar page reports dates; it is not the organiser stating them.
+    dateStatus: 'estimated',
     language: 'en',
   }));
 }

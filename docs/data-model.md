@@ -237,9 +237,10 @@ conference's name to it so ids do not collide. Entries are merged when they are:
 - the same conference starting the same day, whoever lists it. "Same conference" means the same
   name once the year, ordinal, accents, spacing and punctuation are folded away ("BSides" and
   "B|Sides" match) and a compatible place (a missing one matches anything; otherwise one's city
-  appears in the other's location). The better-scored entry stays, which is how KubeCon on CNCF's
+  appears in the other's location). The confirmed entry stays, then the better-scored one, which is how KubeCon on CNCF's
   page and on a sponsor's collapses to one;
-- an estimated date and a confirmed date of the same conference within 45 days: the estimate goes.
+- an estimated date and a confirmed date of the same conference within 45 days: the estimate goes
+  (and a confirmed entry is never the one dropped in the same-day case, whatever the scores).
 
 Two conferences are never merged on a similar title alone: a different city or a different day
 keeps both.
@@ -257,7 +258,8 @@ For `techconf-ca`, each conference series (identified as above) is resolved in t
 
 1. a hand-checked date in the source's `knownEditions`, with its own `confirmed` or `unconfirmed`
    status;
-2. an edition already listed as upcoming, used as is;
+2. an edition already listed as upcoming, used as is but flagged `estimated` (reported by a list, so
+   no `estimatedFrom`): a list reports a date, it is not the organiser stating it;
 3. otherwise projected from the latest edition on the past page.
 
 "A new date is already known" is judged by those lists and `knownEditions`; the conferences' own

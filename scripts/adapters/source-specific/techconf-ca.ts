@@ -18,7 +18,8 @@ import type { EventAdapterResult, RawEventCandidate } from '../types.ts';
  * recurring conferences visible, so for each series with no upcoming date:
  *
  *   1. a date checked by hand (`knownEditions`) wins, with its own confirmed/unconfirmed status;
- *   2. otherwise an edition already listed as upcoming is used as is;
+ *   2. otherwise an edition already listed as upcoming is used, flagged `estimated` without an
+ *      `estimatedFrom`: a list reports the date, it is not the organiser stating it;
  *   3. otherwise the latest edition's date is assumed to repeat next year, flagged `estimated`
  *      (an edition older than a year is not projected: it may no longer run).
  *
@@ -156,7 +157,8 @@ export function buildTechconfCandidates(
         summary: '',
         location: listed.location,
         attendanceMode: attendanceOf(listed.location, listed.onlineLabel),
-        dateStatus: 'confirmed',
+        // techconf.ca is a list: its dates are reported, not stated by the organiser.
+        dateStatus: 'estimated',
         idSuffix,
       });
       continue;
