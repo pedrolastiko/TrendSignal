@@ -80,6 +80,7 @@ export const en: TranslationDictionary = {
     logoAlt: 'Publisher logo',
     matchedKeywords: 'Matched keywords',
     publisherTags: 'Publisher tags',
+    upcoming: 'Upcoming',
   },
   trends: {
     title: 'Trends',

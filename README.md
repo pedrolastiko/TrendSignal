@@ -10,7 +10,9 @@ are collected like any other — so French content is still matched and indexed.
 ## Product overview
 
 - **Dashboard** — KPIs, top trends, search, filters, and an article grid that can switch to a
-  compact list. A banner flags articles discovered since your last visit.
+  compact list. A banner flags articles discovered since your last visit, and an "Upcoming"
+  ribbon marks items whose date is still in the future (events, webinars…; dates less than an
+  hour ahead are treated as publisher clock drift).
 - **Trends** — 24h/7d/30d trend scores, growth, source diversity, and related articles.
 - **Keywords** — the monitored topic list with per-keyword detection stats.
 - **Sources** — monitored publishers and their collection health.

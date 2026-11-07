@@ -4,6 +4,8 @@ import type { Article, KeywordPublic } from '../types';
 import { useI18n } from '../hooks/useI18n';
 import { CATEGORY_LABELS } from '../data/categories';
 import { formatArticleDate } from '../lib/format';
+import { isUpcoming } from '../lib/upcoming';
+import { UpcomingRibbon } from './UpcomingRibbon';
 
 const PLACEHOLDER_IMAGE = `${import.meta.env.BASE_URL}images/article-placeholder.svg`;
 /** Tag-heavy publishers emit a dozen per article; the card shows the first few. */
@@ -63,7 +65,10 @@ export function ArticleCard({
       tabIndex={-1}
       className="flex scroll-mt-20 flex-col overflow-hidden rounded-card border border-border bg-card shadow-sm transition-shadow hover:shadow-md"
     >
-      <div className="aspect-[16/9] w-full bg-surface">
+      <div className="relative aspect-[16/9] w-full bg-surface">
+        {isUpcoming(article.publishedAt) && (
+          <UpcomingRibbon publishedAt={article.publishedAt} variant="ribbon" />
+        )}
         <img
           src={imageSrc}
           alt={imageAlt}

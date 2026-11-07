@@ -278,3 +278,41 @@ describe('what is new UI', () => {
     );
   });
 });
+
+describe('upcoming ribbon', () => {
+  const future = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString();
+  const past = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+
+  it('shows a ribbon with the date on a card whose date is in the future', () => {
+    const { container } = render(
+      <I18nProvider>
+        <ArticleCard article={article({ publishedAt: future })} keywordsById={keywordsById} />
+      </I18nProvider>,
+    );
+    const ribbon = container.querySelector('[data-upcoming]');
+    expect(ribbon).not.toBeNull();
+    expect(ribbon).toHaveTextContent('Upcoming');
+  });
+
+  it('shows an inline marker on a compact row whose date is in the future', () => {
+    const { container } = render(
+      <I18nProvider>
+        <ArticleRow article={article({ publishedAt: future })} keywordsById={keywordsById} />
+      </I18nProvider>,
+    );
+    expect(container.querySelector('[data-upcoming]')).toHaveTextContent('Upcoming');
+  });
+
+  it('shows nothing for an already published article', () => {
+    const { container } = render(
+      <I18nProvider>
+        <ArticleCard article={article({ publishedAt: past })} keywordsById={keywordsById} />
+        <ArticleRow
+          article={article({ id: 'a2', publishedAt: past })}
+          keywordsById={keywordsById}
+        />
+      </I18nProvider>,
+    );
+    expect(container.querySelector('[data-upcoming]')).toBeNull();
+  });
+});

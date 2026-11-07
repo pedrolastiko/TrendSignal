@@ -153,5 +153,22 @@ test.describe('TrendSignal', () => {
       await page.keyboard.press('?');
       await expect(page.getByRole('dialog')).toHaveCount(0);
     });
+
+    test('articles dated in the future carry an Upcoming ribbon', async ({ page }) => {
+      const future = new Date(Date.now() + 21 * 24 * 60 * 60 * 1000).toISOString();
+      // Rewrite one article's date in the static JSON the app loads; the pipeline is untouched.
+      await page.route('**/articles-latest.json*', async (route) => {
+        const response = await route.fetch();
+        const body = (await response.json()) as { publishedAt: string }[];
+        const [first] = body;
+        if (first) first.publishedAt = future;
+        await route.fulfill({ response, json: body });
+      });
+
+      await page.goto('/');
+      await expect(page.locator('article').first()).toBeVisible();
+      await expect(page.locator('[data-upcoming]')).toHaveCount(1);
+      await expect(page.locator('[data-upcoming]')).toContainText('Upcoming');
+    });
   });
 });

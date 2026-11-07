@@ -1,5 +1,6 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 import { formatMessage } from '../../../src/lib/format';
+import { UPCOMING_TOLERANCE_MS, isUpcoming } from '../../../src/lib/upcoming';
 import { isTypingTarget, nextCardIndex } from '../../../src/lib/shortcuts';
 import { applyTheme, readStoredThemePreference, resolveTheme } from '../../../src/lib/theme';
 import { isNewArticle, parseLastSeen } from '../../../src/lib/whatsNew';
@@ -86,5 +87,24 @@ describe('formatMessage', () => {
       '3 new since Nov 1',
     );
     expect(formatMessage('{missing} stays', {})).toBe('{missing} stays');
+  });
+});
+
+describe('isUpcoming', () => {
+  const now = Date.parse('2026-11-07T12:00:00.000Z');
+
+  it('flags dates clearly in the future', () => {
+    expect(isUpcoming('2026-12-03T09:00:00.000Z', now)).toBe(true);
+    expect(isUpcoming(new Date(now + UPCOMING_TOLERANCE_MS + 1000).toISOString(), now)).toBe(true);
+  });
+
+  it('does not flag past dates, or clock drift within the tolerance', () => {
+    expect(isUpcoming('2026-11-01T00:00:00.000Z', now)).toBe(false);
+    expect(isUpcoming(new Date(now).toISOString(), now)).toBe(false);
+    expect(isUpcoming(new Date(now + UPCOMING_TOLERANCE_MS).toISOString(), now)).toBe(false);
+  });
+
+  it('ignores unparseable dates', () => {
+    expect(isUpcoming('garbage', now)).toBe(false);
   });
 });

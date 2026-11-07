@@ -64,6 +64,7 @@ export interface TranslationDictionary {
     logoAlt: string;
     matchedKeywords: string;
     publisherTags: string;
+    upcoming: string;
   };
   trends: {
     title: string;
