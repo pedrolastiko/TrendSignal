@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fixture Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:19701101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fixture-zero-trust@example.test
+DTSTART:{{IN_DAYS:10:ICS_UTC}}
+DTEND:{{IN_DAYS:10:ICS_UTC}}
+SUMMARY:Webinar: Zero Trust in practice
+DESCRIPTION:A practical session on Zero Trust architecture\, with a live demo.\nRegistration is free.
+URL:{{BASE_URL}}/events/zero-trust-webinar
+END:VEVENT
+BEGIN:VEVENT
+UID:fixture-ai-governance@example.test
+DTSTART;TZID=America/New_York:{{IN_DAYS:20:ICS_LOCAL}}
+DTEND;TZID=America/New_York:{{IN_DAYS:20:ICS_LOCAL}}
+SUMMARY:Virtual summit: AI governance for security leaders
+DESCRIPTION:Two speakers discuss AI governance programmes. This long description is folded
+  across several lines the way real feeds do it.
+URL:{{BASE_URL}}/events/ai-governance-summit
+END:VEVENT
+BEGIN:VEVENT
+UID:fixture-toronto@example.test
+DTSTART;VALUE=DATE:{{IN_DAYS:40:ICS_DATE}}
+DTEND;VALUE=DATE:{{IN_DAYS:42:ICS_DATE}}
+SUMMARY:Cyber Defense Conference
+LOCATION:Toronto\, Canada
+DESCRIPTION:Two days on cyber defense for practitioners.
+URL:{{BASE_URL}}/events/cyber-defense-conference
+END:VEVENT
+BEGIN:VEVENT
+UID:fixture-paris@example.test
+DTSTART;VALUE=DATE:{{IN_DAYS:50:ICS_DATE}}
+DTEND;VALUE=DATE:{{IN_DAYS:51:ICS_DATE}}
+SUMMARY:Security Forum Paris
+LOCATION:Paris\, France
+DESCRIPTION:An in-person forum held in Paris.
+URL:{{BASE_URL}}/events/security-forum-paris
+END:VEVENT
+BEGIN:VEVENT
+UID:fixture-cfp@example.test
+DTSTART;VALUE=DATE:{{IN_DAYS:5:ICS_DATE}}
+DTEND;VALUE=DATE:{{IN_DAYS:30:ICS_DATE}}
+SUMMARY:CFP OPEN: SecurityCon 2027
+CATEGORIES:Upcoming CFPs
+URL:{{BASE_URL}}/events/securitycon-cfp
+END:VEVENT
+BEGIN:VEVENT
+UID:fixture-cancelled@example.test
+DTSTART:{{IN_DAYS:12:ICS_UTC}}
+SUMMARY:Webinar: Cancelled ransomware briefing
+STATUS:CANCELLED
+URL:{{BASE_URL}}/events/cancelled
+END:VEVENT
+BEGIN:VEVENT
+UID:fixture-past@example.test
+DTSTART:{{IN_DAYS:-5:ICS_UTC}}
+DTEND:{{IN_DAYS:-5:ICS_UTC}}
+SUMMARY:Webinar: A past Zero Trust session
+URL:{{BASE_URL}}/events/past-webinar
+END:VEVENT
+END:VCALENDAR

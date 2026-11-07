@@ -60,6 +60,7 @@ The deployed browser must never scrape publishers directly. It loads:
 /data/statistics.json
 /data/sources-public.json
 /data/source-health.json
+/data/events.json
 ```
 
 Load `manifest.json` first, then use its file map and `generatedAt` as a cache-busting version.
@@ -192,6 +193,7 @@ Required routes:
 ```text
 /#/          Dashboard
 /#/trends    Trends
+/#/events    Events
 /#/keywords  Keywords
 /#/sources   Sources
 ```
@@ -241,6 +243,16 @@ For each trend show:
 - Related recent articles
 
 Statuses: `Breakout`, `Emerging`, `Rising`, `Stable`, `Declining`.
+
+### 7.3b Events
+
+Webinars and conferences, kept apart from articles because their date lies ahead.
+
+Scope: every online event (webinars, webcasts, virtual conferences), plus in-person and hybrid events held in North America (United States, Canada, Mexico), in IT, AI and cybersecurity. Language is irrelevant.
+
+Display: a left-menu entry, upcoming events grouped by day, filters (type, format, keyword, source, period), a card per event (type and format in words, date and time in the reader's time zone, organiser, location, matched keywords, summary, external link), a client-side `.ics` download per event (no backend, no reminders), a compact "Upcoming events" block on the Dashboard, and a collapsible list of event sources with their health.
+
+Event sources live in `config/event-sources.yml`, follow the same validation policy as `sources.yml`, and are collected into `generated/events.json` (see sections 8 and 12).
 
 ### 7.4 Keywords
 
@@ -349,6 +361,37 @@ export interface DataManifest {
 }
 ```
 
+```ts
+export interface EventItem {
+  id: string;            // SHA-256 of normalized canonical URL + '#' + startsAt
+  title: string;
+  url: string;
+  sourceId: string;
+  sourceName: string;
+  company: string;
+  sourceCategory: SourceCategory;
+  startsAt: string;      // ISO 8601 UTC; all-day: midnight UTC of the first day
+  endsAt?: string;       // ISO 8601 UTC; all-day: exclusive
+  allDay: boolean;
+  kind: 'webinar' | 'conference' | 'event';
+  format: 'online' | 'in-person' | 'hybrid';
+  location?: string;
+  summary: string;       // plain text, max 320 characters
+  language: 'fr' | 'en' | 'unknown';
+  matchedKeywordIds: string[];
+  relevanceScore: number; // 0-90: article model without the recency component
+  discoveredAt: string;
+}
+
+export interface EventsFile {
+  generatedAt: string;
+  events: EventItem[];                  // upcoming only, soonest first
+  sources: EventSourceStatus[];         // public source fields + SourceHealth
+}
+```
+
+`DataManifest` gains an optional `eventCount`, and `files` lists `events.json`. The browser treats a missing `events.json` as "no events yet".
+
 Rules:
 - Article ID is deterministic, preferably SHA-256 of normalized canonical URL.
 - Scores are integers from 0 to 100.
@@ -376,6 +419,8 @@ sources:
     includePaths: []
     excludePaths: []
 ```
+
+`config/event-sources.yml` declares event sources the same way (`collectionMode`: `ics`, `rss` where `pubDate` is the event start, or the source-specific `cncf-events`), plus `region` (`north-america` or `global`) and `includeUnmatched` (keep events matching no tracked keyword; only for publishers whose whole scope is IT, AI or cybersecurity). Validate every endpoint live with `scripts/audit-events.ts` before setting `enabled: true`; never guess one.
 
 `config/keywords.yml` contains bilingual terms:
 
@@ -512,6 +557,7 @@ generated/source-health.json
 generated/sources-public.json
 generated/statistics.json
 generated/trends.json
+generated/events.json
 ```
 
 Requirements:

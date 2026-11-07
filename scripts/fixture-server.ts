@@ -6,7 +6,59 @@ const CONTENT_TYPES: Record<string, string> = {
   '.xml': 'application/xml',
   '.html': 'text/html',
   '.json': 'application/json',
+  '.ics': 'text/calendar',
 };
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+const pad = (n: number) => String(n).padStart(2, '0');
+const RFC822_DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const RFC822_MONTHS = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
+];
+
+/**
+ * Renders `{{BASE_URL}}` and relative-date tokens in fixture text. `{{IN_DAYS:N:KIND}}` is the
+ * date N days after `now`, so event fixtures stay upcoming whenever the demo is generated:
+ * ICS_DATE `20261109`, ICS_UTC `20261109T150000Z`, ICS_LOCAL `20261109T100000`,
+ * SLASH `2026/11/09`, RFC822 `Mon, 09 Nov 2026 15:00:00 +0000`, RFC822_MIDNIGHT `… 00:00:00 +0000`.
+ */
+export function renderFixtureText(text: string, baseUrl: string, now: Date = new Date()): string {
+  return text
+    .replaceAll('{{BASE_URL}}', baseUrl)
+    .replace(/\{\{IN_DAYS:(-?\d+):([A-Z_0-9]+)\}\}/g, (match, days: string, kind: string) => {
+      const d = new Date(now.getTime() + Number(days) * DAY_MS);
+      const date = `${d.getUTCFullYear()}${pad(d.getUTCMonth() + 1)}${pad(d.getUTCDate())}`;
+      const slash = `${d.getUTCFullYear()}/${pad(d.getUTCMonth() + 1)}/${pad(d.getUTCDate())}`;
+      const rfc = `${RFC822_DAYS[d.getUTCDay()]}, ${pad(d.getUTCDate())} ${RFC822_MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
+      switch (kind) {
+        case 'ICS_DATE':
+          return date;
+        case 'ICS_UTC':
+          return `${date}T150000Z`;
+        case 'ICS_LOCAL':
+          return `${date}T100000`;
+        case 'SLASH':
+          return slash;
+        case 'RFC822':
+          return `${rfc} 15:00:00 +0000`;
+        case 'RFC822_MIDNIGHT':
+          return `${rfc} 00:00:00 +0000`;
+        default:
+          return match;
+      }
+    });
+}
 
 export interface FixtureServerHandle {
   baseUrl: string;
@@ -22,9 +74,11 @@ export function startFixtureServer(rootDir: string): Promise<FixtureServerHandle
         const requestPath = decodeURIComponent((req.url ?? '/').split('?')[0] ?? '/');
         const filePath = join(rootDir, requestPath);
         const ext = extname(filePath);
-        const contentType = CONTENT_TYPES[ext] ?? 'application/octet-stream';
-        if (ext === '.xml' || ext === '.html') {
-          const text = (await readFile(filePath, 'utf-8')).replaceAll('{{BASE_URL}}', baseUrl);
+        const contentType =
+          CONTENT_TYPES[ext] ?? (ext === '' ? 'application/json' : 'application/octet-stream');
+        // Extensionless files are WordPress REST endpoints (…/wp-json/wp/v2/lf_event).
+        if (['.xml', '.html', '.ics', '.json', ''].includes(ext)) {
+          const text = renderFixtureText(await readFile(filePath, 'utf-8'), baseUrl);
           res.writeHead(200, { 'Content-Type': contentType });
           res.end(text);
         } else {

@@ -1,6 +1,7 @@
 import type {
   Article,
   DataManifest,
+  EventsFile,
   KeywordPublic,
   PublicSource,
   SourceHealth,
@@ -10,6 +11,7 @@ import type {
 import {
   articlesFileSchema,
   dataManifestSchema,
+  eventsFileSchema,
   keywordsFileSchema,
   sourceHealthFileSchema,
   sourcesPublicFileSchema,
@@ -61,21 +63,32 @@ export interface TrendSignalData {
   sources: PublicSource[];
   sourceHealth: SourceHealth[];
   keywords: KeywordPublic[];
+  /** Null when the published data predates events (no `events.json` in the manifest). */
+  events: EventsFile | null;
 }
 
 export async function loadAllData(): Promise<TrendSignalData> {
   const manifest = await loadManifest();
   const version = manifest.generatedAt;
 
-  const [articlesRaw, trendsRaw, statisticsRaw, sourcesRaw, sourceHealthRaw, keywordsRaw] =
-    await Promise.all([
-      fetchJson('articles-latest.json', version),
-      fetchJson('trends.json', version),
-      fetchJson('statistics.json', version),
-      fetchJson('sources-public.json', version),
-      fetchJson('source-health.json', version),
-      fetchJson('keywords-public.json', version),
-    ]);
+  const eventsPath = manifest.files['events.json'];
+  const [
+    articlesRaw,
+    trendsRaw,
+    statisticsRaw,
+    sourcesRaw,
+    sourceHealthRaw,
+    keywordsRaw,
+    eventsRaw,
+  ] = await Promise.all([
+    fetchJson('articles-latest.json', version),
+    fetchJson('trends.json', version),
+    fetchJson('statistics.json', version),
+    fetchJson('sources-public.json', version),
+    fetchJson('source-health.json', version),
+    fetchJson('keywords-public.json', version),
+    eventsPath ? fetchJson(eventsPath, version) : Promise.resolve(null),
+  ]);
 
   const articles = articlesFileSchema.safeParse(articlesRaw);
   if (!articles.success)
@@ -101,6 +114,14 @@ export async function loadAllData(): Promise<TrendSignalData> {
   if (!keywords.success)
     throw new DataLoadError('keywords-public.json failed schema validation', keywords.error);
 
+  let events: EventsFile | null = null;
+  if (eventsRaw !== null) {
+    const parsed = eventsFileSchema.safeParse(eventsRaw);
+    if (!parsed.success)
+      throw new DataLoadError('events.json failed schema validation', parsed.error);
+    events = parsed.data;
+  }
+
   return {
     manifest,
     articles: articles.data,
@@ -109,5 +130,6 @@ export async function loadAllData(): Promise<TrendSignalData> {
     sources: sources.data,
     sourceHealth: sourceHealth.data,
     keywords: keywords.data,
+    events,
   };
 }

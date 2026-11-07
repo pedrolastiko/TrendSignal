@@ -109,6 +109,16 @@ yet.
 - "New since your last visit": an article is new when its `discoveredAt` is later than the
   locally stored last-seen timestamp. The first visit starts the clock, so nothing is flagged.
 
+## Events
+
+Events (webinars and conferences) run through their own small pipeline inside the same
+`collect` run: `scripts/collect-events.ts` reads `config/event-sources.yml`, runs one adapter per
+source (`adapters/events-ics.ts`, `adapters/events-rss.ts`,
+`adapters/source-specific/cncf-events.ts`), then `scripts/events/build.ts` applies scope, keyword,
+expiry and de-duplication rules. The result is `generated/events.json`. Details and the exact rules
+are in `docs/data-model.md`. Before enabling a source, check it live with
+`npx tsx scripts/audit-events.ts --source-id=<id>`.
+
 ## Auditing what sources actually contribute
 
 Per-source health (`healthy`/`warning`/`error`) only records whether a fetch succeeded. A

@@ -16,6 +16,8 @@ are collected like any other — so French content is still matched and indexed.
   ribbon marks items whose date is still in the future (events, webinars…; dates less than an
   hour ahead are treated as publisher clock drift).
 - **Trends** — 24h/7d/30d trend scores, growth, source diversity, and related articles.
+- **Events** — upcoming webinars and conferences on the topics you track (online worldwide, plus
+  in-person events in North America), grouped by day, with filters and a per-event calendar file.
 - **Keywords** — the monitored topic list with per-keyword detection stats.
 - **Sources** — monitored publishers and their collection health.
 
@@ -174,6 +176,16 @@ does, it's checked out into `./data-branch` as a git worktree; if not, an orphan
 created there automatically — no manual bootstrap step is required. See `docs/data-model.md` for
 the branch's file layout.
 
+## Events
+
+Events are collected from `config/event-sources.yml` in the same `collect` run and published as
+`events.json`. Wave 1 collects **OpenSSF** and **FIDO Alliance** (iCalendar feeds), **NIST** (RSS)
+and **CNCF** (its WordPress REST API), each checked live on 2026-11-07 with
+`npx tsx scripts/audit-events.ts`. SANS, (ISC)², ISACA, IAPP, OWASP and the Cloud Security Alliance
+were left out because they expose no machine-readable listing; the reason for each is in the
+header of the file. The scope, the rules for what is kept and the data contract are in
+`docs/data-model.md`; `docs/adding-a-source.md` explains how to add an event source.
+
 ## Adding a source or keyword
 
 - From the UI: the **Ajouter** button on the Sources/Keywords pages opens the repository's
@@ -201,6 +213,12 @@ source actually contributes — health alone does not distinguish a working sour
 fetches successfully but yields no usable article. See `docs/architecture.md`.
 
 ## Limitations
+
+- Events: a source's feed lists upcoming events only, so there is no history. Whether an event is
+  online is read from its title, location and summary, which is a heuristic; a publisher that
+  never says "webinar" or "virtual" for an online event will have it treated as in-person (and
+  dropped outside North America). CNCF's webinar listing (`lf_webinar`) is not collected: none of
+  its latest 100 entries was upcoming when it was probed.
 
 - MVP-scope generic HTML/sitemap adapters use metadata extraction only (JSON-LD → Open Graph →
   standard `<meta>` → publisher-specific `<meta>` names declared per source); no headless browser

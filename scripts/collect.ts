@@ -1,7 +1,8 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import pLimit from 'p-limit';
-import { loadKeywordsConfig, loadSourcesConfig } from './config-loader.ts';
+import { loadEventSourcesConfig, loadKeywordsConfig, loadSourcesConfig } from './config-loader.ts';
+import { collectEvents } from './collect-events.ts';
 import {
   readJsonFile,
   writeJsonFile,
@@ -23,12 +24,13 @@ import { updateSourceHealth, disabledSourceHealth } from './source-health.ts';
 import { collectFromRss } from './adapters/rss.ts';
 import { collectFromSitemap } from './adapters/sitemap.ts';
 import { collectFromGenericHtml } from './adapters/generic-html.ts';
-import { buildFixtureSources } from './fixture-sources.ts';
+import { buildFixtureEventSources, buildFixtureSources } from './fixture-sources.ts';
 import { startFixtureServer } from './fixture-server.ts';
 import { resolveRepositoryUrl } from './repository-url.ts';
 import {
   articlesFileSchema,
   dataManifestSchema,
+  eventsFileSchema,
   httpCacheFileSchema,
   keywordsFileSchema,
   runHistoryFileSchema,
@@ -39,6 +41,7 @@ import {
   trendsFileSchema,
   type Article,
   type DataManifest,
+  type EventSourceConfig,
   type HttpCacheEntry,
   type KeywordConfig,
   type KeywordPublic,
@@ -159,11 +162,14 @@ export async function collect(options: CollectOptions): Promise<void> {
 
   let fixtureServer: Awaited<ReturnType<typeof startFixtureServer>> | undefined;
   let sources: SourceConfig[];
+  let eventSources: EventSourceConfig[];
   if (options.fixtures) {
     fixtureServer = await startFixtureServer(join(process.cwd(), 'tests/fixtures'));
     sources = buildFixtureSources(fixtureServer.baseUrl);
+    eventSources = buildFixtureEventSources(fixtureServer.baseUrl);
   } else {
     sources = loadSourcesConfig();
+    eventSources = loadEventSourcesConfig();
   }
   const keywords = loadKeywordsConfig();
 
@@ -301,6 +307,22 @@ export async function collect(options: CollectOptions): Promise<void> {
     }),
   );
 
+  // Events run in the same pass, after articles; their failures are isolated per source and
+  // never abort the run (the failure threshold above concerns article sources).
+  const previousEvents = await readJsonFile(
+    join(dataDir, 'generated', 'events.json'),
+    eventsFileSchema.nullable(),
+    null,
+  );
+  const { file: eventsFile, summary: eventsSummary } = await collectEvents({
+    sources: eventSources,
+    keywords,
+    previous: previousEvents,
+    now,
+    repositoryUrl,
+    targetSourceId: options.sourceId,
+  });
+
   await fixtureServer?.close();
 
   // Sources not targeted this run (disabled, or excluded by --source-id) keep their prior health/state.
@@ -394,6 +416,7 @@ export async function collect(options: CollectOptions): Promise<void> {
     articleCount: articlesLatest.length,
     sourceCount: sources.filter((s) => s.enabled).length,
     activeKeywordCount: keywords.filter((k) => k.enabled).length,
+    eventCount: eventsFile.events.length,
     files: {
       'articles-latest.json': 'articles-latest.json',
       'trends.json': 'trends.json',
@@ -401,6 +424,7 @@ export async function collect(options: CollectOptions): Promise<void> {
       'sources-public.json': 'sources-public.json',
       'source-health.json': 'source-health.json',
       'keywords-public.json': 'keywords-public.json',
+      'events.json': 'events.json',
     },
   };
 
@@ -411,6 +435,7 @@ export async function collect(options: CollectOptions): Promise<void> {
   sourcesPublicFileSchema.parse(sourcesPublic);
   sourceHealthFileSchema.parse(sortedHealth);
   keywordsFileSchema.parse(keywordsPublic);
+  eventsFileSchema.parse(eventsFile);
   dataManifestSchema.parse(manifest);
 
   const runHistory = await readJsonFile(
@@ -443,6 +468,7 @@ export async function collect(options: CollectOptions): Promise<void> {
       total: dedupedArticles.length,
     },
     trends: trends.length,
+    events: eventsSummary,
   };
   console.log(JSON.stringify(summary, null, 2));
 
@@ -467,6 +493,7 @@ export async function collect(options: CollectOptions): Promise<void> {
   await writeJsonFile(join(dataDir, 'generated', 'sources-public.json'), sourcesPublic);
   await writeJsonFile(join(dataDir, 'generated', 'source-health.json'), sortedHealth);
   await writeJsonFile(join(dataDir, 'generated', 'keywords-public.json'), keywordsPublic);
+  await writeJsonFile(join(dataDir, 'generated', 'events.json'), eventsFile);
   await writeJsonFile(join(dataDir, 'generated', 'manifest.json'), manifest);
 
   if (process.env.GITHUB_STEP_SUMMARY) {
@@ -476,6 +503,7 @@ export async function collect(options: CollectOptions): Promise<void> {
       `- Sources: ${successCount}/${targetSources.length} succeeded (${failureCount} failed)`,
       `- Articles: ${collectedArticles.length} collected, ${duplicateCount} deduplicated, ${dedupedArticles.length} total in archive`,
       `- Published: ${articlesLatest.length} articles, ${trends.length} trend entries`,
+      `- Events: ${eventsSummary.succeeded}/${eventsSummary.targeted} sources succeeded (${eventsSummary.failed} failed), ${eventsFile.events.length} upcoming events published`,
       `- Last successful scan: ${lastSuccessfulScanAt}`,
       '',
     ].join('\n');

@@ -1,6 +1,15 @@
 import { useCallback, useState, type ReactNode } from 'react';
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, TrendingUp, Tags, Rss, Menu, X, Keyboard } from 'lucide-react';
+import {
+  LayoutDashboard,
+  TrendingUp,
+  CalendarDays,
+  Tags,
+  Rss,
+  Menu,
+  X,
+  Keyboard,
+} from 'lucide-react';
 import { useI18n } from '../hooks/useI18n';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import { useKeyboardShortcuts } from '../hooks/useKeyboardShortcuts';
@@ -12,6 +21,7 @@ import { ShortcutsDialog } from './ShortcutsDialog';
 const navItems = [
   { to: '/', icon: LayoutDashboard, key: 'dashboard' as const },
   { to: '/trends', icon: TrendingUp, key: 'trends' as const },
+  { to: '/events', icon: CalendarDays, key: 'events' as const },
   { to: '/keywords', icon: Tags, key: 'keywords' as const },
   { to: '/sources', icon: Rss, key: 'sources' as const },
 ];

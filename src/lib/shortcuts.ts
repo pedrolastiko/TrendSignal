@@ -6,6 +6,7 @@ export const CHORD_TIMEOUT_MS = 1500;
 export const GO_TO_ROUTES: Record<string, string> = {
   d: '/',
   t: '/trends',
+  e: '/events',
   k: '/keywords',
   s: '/sources',
 };
