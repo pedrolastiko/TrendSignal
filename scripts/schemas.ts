@@ -176,6 +176,8 @@ export const dataManifestSchema = z.object({
   articleCount: z.number().int().nonnegative(),
   sourceCount: z.number().int().nonnegative(),
   activeKeywordCount: z.number().int().nonnegative(),
+  /** Upcoming events in events.json; absent on data generated before events existed. */
+  eventCount: z.number().int().nonnegative().optional(),
   files: z.record(z.string()),
 });
 export type DataManifest = z.infer<typeof dataManifestSchema>;
@@ -238,3 +240,85 @@ export const sourceStateEntrySchema = z.object({
 });
 export type SourceStateEntry = z.infer<typeof sourceStateEntrySchema>;
 export const sourceStateFileSchema = z.array(sourceStateEntrySchema);
+
+// --- Events -------------------------------------------------------------------------
+// Events are a separate dataset from articles: their date lies ahead, so they must not
+// feed trend scoring or the "latest articles" ordering. See docs/data-model.md.
+
+export const eventCollectionModeSchema = z.enum(['ics', 'rss', 'cncf-events']);
+
+export const eventSourceConfigSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  company: z.string().min(1),
+  category: sourceCategorySchema,
+  homepageUrl: z.string().url(),
+  /** `rss`: the item's pubDate is the event start. `cncf-events`: cncf.io WordPress REST API. */
+  collectionMode: eventCollectionModeSchema,
+  feedUrl: z.string(),
+  enabled: z.boolean(),
+  priority: z.number().int().min(0).max(10),
+  language: z.enum(['fr', 'en']),
+  maxItemsPerRun: z.number().int().positive(),
+  /**
+   * Where the publisher's in-person events take place when the feed gives no location.
+   * Online events are kept whatever the region.
+   */
+  region: z.enum(['north-america', 'global']).default('global'),
+  /**
+   * Keep events that match no tracked keyword. Only for publishers whose whole scope is
+   * IT, AI or cybersecurity; a mixed publisher (NIST) must stay keyword-gated.
+   */
+  includeUnmatched: z.boolean().default(false),
+});
+export type EventSourceConfig = z.infer<typeof eventSourceConfigSchema>;
+
+export const eventsConfigFileSchema = z.object({
+  schemaVersion: z.number().int(),
+  sources: z.array(eventSourceConfigSchema),
+});
+
+export const eventFormatSchema = z.enum(['online', 'in-person', 'hybrid']);
+export const eventKindSchema = z.enum(['webinar', 'conference', 'event']);
+
+export const eventSchema = z.object({
+  id: z.string().min(1),
+  title: z.string().min(1),
+  url: z.string().url(),
+  sourceId: z.string().min(1),
+  sourceName: z.string().min(1),
+  company: z.string().min(1),
+  sourceCategory: sourceCategorySchema,
+  /** ISO 8601 UTC. For all-day events: midnight UTC of the first day. */
+  startsAt: z.string(),
+  /** ISO 8601 UTC. For all-day events it is exclusive: midnight UTC after the last day. */
+  endsAt: z.string().optional(),
+  allDay: z.boolean(),
+  kind: eventKindSchema,
+  format: eventFormatSchema,
+  location: z.string().max(120).optional(),
+  summary: z.string().max(320),
+  language: z.enum(['fr', 'en', 'unknown']),
+  matchedKeywordIds: z.array(z.string()),
+  relevanceScore: z.number().int().min(0).max(100),
+  discoveredAt: z.string(),
+});
+export type EventItem = z.infer<typeof eventSchema>;
+
+export const eventSourceStatusSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  company: z.string().min(1),
+  homepageUrl: z.string().url(),
+  collectionMode: eventCollectionModeSchema,
+  enabled: z.boolean(),
+  health: sourceHealthSchema,
+});
+export type EventSourceStatus = z.infer<typeof eventSourceStatusSchema>;
+
+export const eventsFileSchema = z.object({
+  generatedAt: z.string(),
+  events: z.array(eventSchema),
+  sources: z.array(eventSourceStatusSchema),
+});
+export type EventsFile = z.infer<typeof eventsFileSchema>;

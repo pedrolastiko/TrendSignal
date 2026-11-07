@@ -76,3 +76,36 @@ export function scoreArticleRelevance(
 
   return { relevanceScore, matchedKeywordIds: match.matchedKeywordIds };
 }
+
+export interface EventRelevanceInput {
+  title: string;
+  summary: string;
+  sourcePriority: number;
+}
+
+/**
+ * Event relevance reuses the article components minus recency, so it tops out at 90:
+ * an event's date lies ahead and says nothing about how fresh or timely the topic is.
+ */
+export function scoreEventRelevance(
+  event: EventRelevanceInput,
+  keywords: KeywordConfig[],
+): RelevanceResult {
+  const match: KeywordMatchResult = matchKeywords(event, keywords);
+  const keywordsById = new Map(keywords.map((k) => [k.id, k]));
+  const matchedKeywords = match.matchedKeywordIds
+    .map((id) => keywordsById.get(id))
+    .filter((k): k is KeywordConfig => Boolean(k));
+
+  const relevanceScore = Math.max(
+    0,
+    Math.min(
+      100,
+      scoreTitleMatches(match.titleMatchedIds.length) +
+        scoreSummaryMatches(match.summaryMatchedIds.length) +
+        scoreKeywordWeight(matchedKeywords) +
+        scoreSourcePriority(event.sourcePriority),
+    ),
+  );
+  return { relevanceScore, matchedKeywordIds: match.matchedKeywordIds };
+}

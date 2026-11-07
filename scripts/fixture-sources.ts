@@ -1,4 +1,4 @@
-import type { SourceConfig } from './schemas.ts';
+import type { EventSourceConfig, SourceConfig } from './schemas.ts';
 
 /**
  * Local fixture sources used by `collect:fixtures` and `generate:demo` so the
@@ -55,6 +55,57 @@ export function buildFixtureSources(baseUrl: string): SourceConfig[] {
       includePaths: ['/pages/article'],
       excludePaths: [],
       dateMetaNames: [],
+    },
+  ];
+}
+
+/** Event counterparts of the fixture sources, one per event adapter. */
+export function buildFixtureEventSources(baseUrl: string): EventSourceConfig[] {
+  return [
+    {
+      id: 'fixture-ics-events',
+      name: 'Fixture Calendar',
+      company: 'Fixture Events Co',
+      category: 'cybersecurity',
+      homepageUrl: `${baseUrl}/ics/`,
+      collectionMode: 'ics',
+      feedUrl: `${baseUrl}/ics/events.ics`,
+      enabled: true,
+      priority: 6,
+      language: 'en',
+      maxItemsPerRun: 50,
+      region: 'global',
+      includeUnmatched: true,
+    },
+    {
+      id: 'fixture-rss-events',
+      name: 'Fixture Standards Events',
+      company: 'Fixture Standards Body',
+      category: 'technology',
+      homepageUrl: `${baseUrl}/rss/`,
+      collectionMode: 'rss',
+      feedUrl: `${baseUrl}/rss/events-feed.xml`,
+      enabled: true,
+      priority: 7,
+      language: 'en',
+      maxItemsPerRun: 50,
+      region: 'north-america',
+      includeUnmatched: false,
+    },
+    {
+      id: 'fixture-cncf-events',
+      name: 'Fixture Foundation Events',
+      company: 'Fixture Foundation',
+      category: 'technology',
+      homepageUrl: `${baseUrl}/cncf/`,
+      collectionMode: 'cncf-events',
+      feedUrl: `${baseUrl}/cncf/wp-json/wp/v2/lf_event`,
+      enabled: true,
+      priority: 7,
+      language: 'en',
+      maxItemsPerRun: 100,
+      region: 'global',
+      includeUnmatched: true,
     },
   ];
 }

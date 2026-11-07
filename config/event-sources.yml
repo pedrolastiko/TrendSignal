@@ -1,0 +1,85 @@
+# Event sources for TrendSignal: webinars and conferences, collected apart from articles.
+#
+# Same validation policy as sources.yml (AGENTS.md #9): a source is only `enabled: true` once
+# its endpoint has been fetched live and `npx tsx scripts/audit-events.ts --source-id=<id>`
+# shows it yielding real, upcoming, in-scope events. Never guess an endpoint.
+#
+# Scope: every online event, plus in-person and hybrid events held in North America
+# (United States, Canada, Mexico). A source's `region` says where its in-person events are
+# when the feed gives no location; `includeUnmatched` keeps events that match no tracked
+# keyword, which is only right for a publisher whose whole scope is IT, AI or cybersecurity.
+#
+# Wave 1, probed on 2026-11-07 with the collector's own User-Agent. Collected:
+#   - OpenSSF   iCalendar feed (The Events Calendar plugin, `?ical=1`).
+#   - FIDO Alliance   the same, with per-event time zones.
+#   - NIST      RSS events feed; `pubDate` is the event start. Mixed scope (metrology too),
+#               so it stays keyword-gated and is declared North American.
+#   - CNCF      public WordPress REST API (`lf_event`); source-specific adapter.
+#
+# Left out, with the reason found:
+#   - SANS: the webcast and event lists are rendered client-side from Algolia; the static
+#     HTML carries no event data.
+#   - (ISC)2: events are Sitecore-rendered pages linking out to Cvent; no structured data.
+#   - ISACA, IAPP, OWASP: static pages with no JSON-LD `Event`, feed or calendar link.
+#   - Cloud Security Alliance: dates appear in the HTML but the only structured data is an
+#     `Organization` block, and there is no events API (its REST types list is a 404).
+#   - CNCF online programs (`lf_webinar`): the endpoint works, but none of the latest 100
+#     entries was upcoming on the probe date, so it could not be validated as yielding.
+# Re-run the probe before adding any of these: publishers change their sites.
+schemaVersion: 1
+sources:
+  - id: openssf-events
+    name: OpenSSF Events
+    company: Open Source Security Foundation
+    category: cybersecurity
+    homepageUrl: https://openssf.org/events/
+    collectionMode: ics
+    feedUrl: https://openssf.org/events/?ical=1
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 50
+    region: global
+    includeUnmatched: true
+
+  - id: fido-events
+    name: FIDO Alliance Events
+    company: FIDO Alliance
+    category: cybersecurity
+    homepageUrl: https://fidoalliance.org/events/
+    collectionMode: ics
+    feedUrl: https://fidoalliance.org/events/?ical=1
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 50
+    region: global
+    includeUnmatched: true
+
+  - id: nist-events
+    name: NIST Events
+    company: NIST
+    category: technology
+    homepageUrl: https://www.nist.gov/news-events/events
+    collectionMode: rss
+    feedUrl: https://www.nist.gov/news-events/events/rss.xml
+    enabled: true
+    priority: 7
+    language: en
+    maxItemsPerRun: 50
+    region: north-america
+    includeUnmatched: false
+
+  - id: cncf-events
+    name: CNCF Events
+    company: Cloud Native Computing Foundation
+    category: technology
+    homepageUrl: https://www.cncf.io/events/
+    collectionMode: cncf-events
+    feedUrl: https://www.cncf.io/wp-json/wp/v2/lf_event
+    enabled: true
+    priority: 7
+    language: en
+    maxItemsPerRun: 100
+    region: global
+    includeUnmatched: true

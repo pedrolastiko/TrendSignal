@@ -106,6 +106,7 @@ export interface DataManifest {
   articleCount: number;
   sourceCount: number;
   activeKeywordCount: number;
+  eventCount?: number;
   files: Record<string, string>;
 }
 
@@ -117,4 +118,46 @@ export interface Statistics {
   lastSuccessfulScanAt: string;
   articlesByCategory: Record<SourceCategory, number>;
   keywordStats: KeywordStat[];
+}
+
+export type EventKind = 'webinar' | 'conference' | 'event';
+export type EventFormat = 'online' | 'in-person' | 'hybrid';
+
+export interface EventItem {
+  id: string;
+  title: string;
+  url: string;
+  sourceId: string;
+  sourceName: string;
+  company: string;
+  sourceCategory: SourceCategory;
+  /** ISO 8601 UTC. For all-day events: midnight UTC of the first day. */
+  startsAt: string;
+  /** ISO 8601 UTC. For all-day events it is exclusive. */
+  endsAt?: string;
+  allDay: boolean;
+  kind: EventKind;
+  format: EventFormat;
+  location?: string;
+  summary: string;
+  language: 'fr' | 'en' | 'unknown';
+  matchedKeywordIds: string[];
+  relevanceScore: number;
+  discoveredAt: string;
+}
+
+export interface EventSourceStatus {
+  id: string;
+  name: string;
+  company: string;
+  homepageUrl: string;
+  collectionMode: 'ics' | 'rss' | 'cncf-events';
+  enabled: boolean;
+  health: SourceHealth;
+}
+
+export interface EventsFile {
+  generatedAt: string;
+  events: EventItem[];
+  sources: EventSourceStatus[];
 }

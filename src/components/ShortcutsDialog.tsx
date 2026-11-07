@@ -39,6 +39,7 @@ export function ShortcutsDialog({
     { keys: ['o'], label: t.shortcuts.openArticle },
     { keys: ['g', 'd'], label: t.shortcuts.goDashboard },
     { keys: ['g', 't'], label: t.shortcuts.goTrends },
+    { keys: ['g', 'e'], label: t.shortcuts.goEvents },
     { keys: ['g', 'k'], label: t.shortcuts.goKeywords },
     { keys: ['g', 's'], label: t.shortcuts.goSources },
     { keys: ['?'], label: t.shortcuts.help },

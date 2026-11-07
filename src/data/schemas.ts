@@ -91,6 +91,8 @@ export const dataManifestSchema = z.object({
   articleCount: z.number().int().nonnegative(),
   sourceCount: z.number().int().nonnegative(),
   activeKeywordCount: z.number().int().nonnegative(),
+  // Absent on data generated before events existed.
+  eventCount: z.number().int().nonnegative().optional(),
   files: z.record(z.string()),
 });
 
@@ -123,3 +125,40 @@ export const articlesFileSchema = z.array(articleSchema);
 export const sourcesPublicFileSchema = z.array(publicSourceSchema);
 export const sourceHealthFileSchema = z.array(sourceHealthSchema);
 export const trendsFileSchema = z.array(trendSchema);
+
+export const eventSchema = z.object({
+  id: z.string().min(1),
+  title: z.string().min(1),
+  url: z.string().url(),
+  sourceId: z.string().min(1),
+  sourceName: z.string().min(1),
+  company: z.string().min(1),
+  sourceCategory: sourceCategorySchema,
+  startsAt: z.string().datetime({ offset: true }),
+  endsAt: z.string().datetime({ offset: true }).optional(),
+  allDay: z.boolean(),
+  kind: z.enum(['webinar', 'conference', 'event']),
+  format: z.enum(['online', 'in-person', 'hybrid']),
+  location: z.string().optional(),
+  summary: z.string().max(320),
+  language: z.enum(['fr', 'en', 'unknown']),
+  matchedKeywordIds: z.array(z.string()),
+  relevanceScore: z.number().int().min(0).max(100),
+  discoveredAt: z.string(),
+});
+
+export const eventSourceStatusSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  company: z.string().min(1),
+  homepageUrl: z.string().url(),
+  collectionMode: z.enum(['ics', 'rss', 'cncf-events']),
+  enabled: z.boolean(),
+  health: sourceHealthSchema,
+});
+
+export const eventsFileSchema = z.object({
+  generatedAt: z.string(),
+  events: z.array(eventSchema),
+  sources: z.array(eventSourceStatusSchema),
+});

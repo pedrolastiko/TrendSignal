@@ -17,3 +17,24 @@ export interface AdapterResult {
   lastModified?: string;
   responseTimeMs: number;
 }
+
+/** An event as a publisher states it, before scope, keyword and expiry rules are applied. */
+export interface RawEventCandidate {
+  title: string;
+  url: string;
+  startsAt: string;
+  /** Exclusive for all-day events. */
+  endsAt?: string;
+  allDay: boolean;
+  summary: string;
+  location?: string;
+  /** ISO 3166-1 alpha-2, only when the publisher states the country explicitly. */
+  countryCode?: string;
+  categories?: string[];
+  language?: 'fr' | 'en';
+}
+
+export interface EventAdapterResult {
+  candidates: RawEventCandidate[];
+  responseTimeMs: number;
+}

@@ -105,3 +105,26 @@ CI (`.github/workflows/ci.yml`) runs lint/typecheck/tests/build against fixtures
 contact your new source. The next scheduled or manual `refresh-and-deploy` run will attempt it for
 real, isolate any failure (one bad source never blocks the others), and the Sources page will show
 its health on the next deploy.
+
+## Adding an event source
+
+Events (webinars, conferences) have their own file, `config/event-sources.yml`, with the same rule:
+**never guess an endpoint**, and only set `enabled: true` once it has been checked live.
+
+1. Look for a machine-readable listing, in order of preference: an iCalendar feed (many
+   WordPress sites running The Events Calendar answer at `…/events/?ical=1`), an RSS feed whose
+   `pubDate` is the event start, or a documented public API. A page that renders its list in the
+   browser (Algolia, a single-page app) carries no event data in its HTML and cannot be collected.
+2. Add the entry. `collectionMode` is `ics`, `rss` (pubDate = start) or `cncf-events`. Set `region`
+   to `north-america` only if the publisher's in-person events really are there, and
+   `includeUnmatched: true` only if the publisher's whole scope is IT, AI or cybersecurity.
+3. Validate it with the real adapters and the collector's own fetch policy:
+
+   ```bash
+   npx tsx scripts/audit-events.ts --source-id=<id>
+   ```
+
+   It prints what would be published: dates, format, kind, matched keywords. Check that the events
+   are real, upcoming and in scope (online, or North America), and that nothing off-topic gets in.
+
+4. Record in the file's header comment what you collected and what you left out, with the reason.

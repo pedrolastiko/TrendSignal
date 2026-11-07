@@ -5,6 +5,7 @@ import { Layout } from './components/Layout';
 import { UpdatePrompt } from './components/UpdatePrompt';
 import { DashboardPage } from './pages/DashboardPage';
 import { TrendsPage } from './pages/TrendsPage';
+import { EventsPage } from './pages/EventsPage';
 import { KeywordsPage } from './pages/KeywordsPage';
 import { SourcesPage } from './pages/SourcesPage';
 
@@ -17,6 +18,7 @@ export default function App() {
             <Routes>
               <Route path="/" element={<DashboardPage />} />
               <Route path="/trends" element={<TrendsPage />} />
+              <Route path="/events" element={<EventsPage />} />
               <Route path="/keywords" element={<KeywordsPage />} />
               <Route path="/sources" element={<SourcesPage />} />
             </Routes>

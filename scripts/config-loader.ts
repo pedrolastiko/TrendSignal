@@ -2,8 +2,10 @@ import { readFileSync } from 'node:fs';
 import { load as loadYaml } from 'js-yaml';
 import {
   categoriesConfigFileSchema,
+  eventsConfigFileSchema,
   keywordsConfigFileSchema,
   sourcesConfigFileSchema,
+  type EventSourceConfig,
   type KeywordConfig,
   type SourceConfig,
 } from './schemas.ts';
@@ -37,4 +39,12 @@ export function loadCategoriesConfig(path = 'config/categories.yml') {
     throw new ConfigValidationError(`Invalid ${path}: ${parsed.error.message}`);
   }
   return parsed.data.categories;
+}
+
+export function loadEventSourcesConfig(path = 'config/event-sources.yml'): EventSourceConfig[] {
+  const parsed = eventsConfigFileSchema.safeParse(readYamlFile(path));
+  if (!parsed.success) {
+    throw new ConfigValidationError(`Invalid ${path}: ${parsed.error.message}`);
+  }
+  return parsed.data.sources;
 }

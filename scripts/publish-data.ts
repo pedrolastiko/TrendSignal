@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import {
   articlesFileSchema,
   dataManifestSchema,
+  eventsFileSchema,
   keywordsFileSchema,
   sourceHealthFileSchema,
   sourcesPublicFileSchema,
@@ -18,6 +19,7 @@ const FILES: { name: string; schema: { parse: (data: unknown) => unknown } }[] =
   { name: 'sources-public.json', schema: sourcesPublicFileSchema },
   { name: 'source-health.json', schema: sourceHealthFileSchema },
   { name: 'keywords-public.json', schema: keywordsFileSchema },
+  { name: 'events.json', schema: eventsFileSchema },
 ];
 
 export interface PublishOptions {

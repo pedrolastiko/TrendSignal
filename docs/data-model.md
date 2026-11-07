@@ -14,6 +14,7 @@ generated/sources-public.json
 generated/statistics.json
 generated/trends.json
 generated/keywords-public.json
+generated/events.json
 ```
 
 Only `generated/*.json` is ever copied into `public/data/` and shipped to the browser
@@ -29,15 +30,16 @@ The client (`src/data/client.ts`) loads `manifest.json` first, then uses its `ge
 cache-busting query parameter (`?v=<generatedAt>`) for every other file, and validates every
 response with Zod (`src/data/schemas.ts`) before rendering anything.
 
-| File                   | Purpose                                             |
-| ---------------------- | --------------------------------------------------- |
-| `manifest.json`        | `DataManifest` — versions, counts, and the file map |
-| `articles-latest.json` | `Article[]`                                         |
-| `trends.json`          | `Trend[]`                                           |
-| `statistics.json`      | `Statistics` — KPI counts + per-keyword stats       |
-| `sources-public.json`  | `PublicSource[]`                                    |
-| `source-health.json`   | `SourceHealth[]`                                    |
-| `keywords-public.json` | `KeywordPublic[]` — see note below                  |
+| File                   | Purpose                                              |
+| ---------------------- | ---------------------------------------------------- |
+| `manifest.json`        | `DataManifest` — versions, counts, and the file map  |
+| `articles-latest.json` | `Article[]`                                          |
+| `trends.json`          | `Trend[]`                                            |
+| `statistics.json`      | `Statistics` — KPI counts + per-keyword stats        |
+| `sources-public.json`  | `PublicSource[]`                                     |
+| `source-health.json`   | `SourceHealth[]`                                     |
+| `keywords-public.json` | `KeywordPublic[]` — see note below                   |
+| `events.json`          | `EventsFile` — upcoming events + event-source health |
 
 > **`keywords-public.json` is a small, deliberate addition** beyond the six files the spec calls
 > out by example. The Keywords page and the article keyword badges need keyword labels/categories,
@@ -161,3 +163,59 @@ Status thresholds:
 All three are parsed and validated with Zod at pipeline start (`scripts/config-loader.ts`,
 `npm run validate:config`); an invalid config file fails the run before any network request is
 made.
+
+## Events (`scripts/collect-events.ts`, `scripts/events/`)
+
+Events are a separate dataset from articles. An event's date lies ahead, so it must not feed trend
+scoring or the "latest articles" ordering, and an article date and an event date answer different
+questions. They are collected in the same run (`scripts/collect.ts`), published as
+`generated/events.json`, and listed in the manifest (`files['events.json']`, `eventCount`).
+`events.json` is `{ generatedAt, events: EventItem[], sources: EventSourceStatus[] }`; the schemas
+are in `scripts/schemas.ts` (generation) and `src/data/schemas.ts` (browser).
+
+**Sources** are declared in `config/event-sources.yml` (`ics`, `rss`, `cncf-events`):
+
+- `ics`: an iCalendar feed. Times with a `TZID` are converted to UTC through `Intl`; a floating
+  time is read as UTC; `VALUE=DATE` events are all-day. Cancelled events are skipped. The response
+  must contain `BEGIN:VCALENDAR`, so an HTML app shell is an error, not zero events.
+- `rss`: an events feed where each item's `pubDate` is the **event start**. A start at exactly
+  00:00:00 in the feed's own offset is read as an all-day event on the date as written.
+- `cncf-events`: cncf.io's WordPress REST API (`lf_event`), a source-specific adapter. The data is
+  under `meta`, not `acf`; the country comes from the `lf-country` terms.
+
+**Which events are kept**, in this order (`scripts/events/build.ts`):
+
+1. A usable title, a parseable start and a safe `http(s)` URL.
+2. Not a call for proposals (`CFP …`, "call for papers/speakers", a `CFP` category).
+3. Not over: for all-day events the end is exclusive, so a one-day event ends the next midnight
+   UTC; a timed event with no end is assumed to last two hours.
+4. Not more than 548 days ahead.
+5. **In scope**: every online event, plus in-person and hybrid events in North America (United
+   States, Canada, Mexico). An explicit country code settles it; otherwise the text is searched
+   for the area, a country or a conference town; a source declared `region: north-america`
+   vouches for its in-person events unless a country says otherwise.
+6. It matches at least one enabled keyword, unless the source sets `includeUnmatched: true`.
+
+**Format** is `online` when the title or location says so (webinar, webcast, virtual, online…), a
+title ends in "Call", or the summary says the event itself is online ("online event", "virtual
+summit", "held online"). A bare "online" in the summary does not count: "online authentication"
+describes the topic, not the event. `hybrid` when the text says so or says both. Otherwise
+`in-person`. **Kind** is `conference` for conference/summit/forum/seminar/workshop/expo and the
+usual `…Con` names, `webinar` for any other online event, else `event`.
+
+**Relevance** reuses the article components minus recency, so it is 0–90:
+title matches (up to 45) + summary matches (up to 25) + keyword weight (up to 10) + source
+priority (up to 10).
+
+**Identity and de-duplication**: `id` is the SHA-256 of the normalized URL plus `#` plus the start,
+so a recurring event keeps one id per date. Events are merged on the same id, or on the same
+company, normalized title and start; similar events from different companies are not merged
+(OpenSSF listing KubeCon next to CNCF stays two entries).
+
+**Failures**: a source that fails keeps its previous events that are still upcoming and has its
+health degraded (`warning` after one failure, `error` after three); the others carry on. Events
+failures never abort the run. `--source-id=<id>` refreshes one event source and carries over the
+rest. Only upcoming events are published: there is no history.
+
+The browser drops events that ended since the data was generated, shows times in the reader's
+zone (all-day events in UTC dates), and builds the `.ics` file locally (`src/lib/ics.ts`).

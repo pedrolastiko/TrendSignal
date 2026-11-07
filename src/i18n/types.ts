@@ -1,6 +1,6 @@
 export interface TranslationDictionary {
   app: { name: string; tagline: string };
-  nav: { dashboard: string; trends: string; keywords: string; sources: string };
+  nav: { dashboard: string; trends: string; events: string; keywords: string; sources: string };
   dashboard: {
     title: string;
     subtitle: string;
@@ -51,6 +51,7 @@ export interface TranslationDictionary {
     openArticle: string;
     goDashboard: string;
     goTrends: string;
+    goEvents: string;
     goKeywords: string;
     goSources: string;
     help: string;
@@ -85,6 +86,32 @@ export interface TranslationDictionary {
       stable: string;
       declining: string;
     };
+  };
+  events: {
+    title: string;
+    subtitle: string;
+    countOne: string;
+    countOther: string;
+    filters: {
+      kind: string;
+      kindAll: string;
+      kindWebinar: string;
+      kindConference: string;
+      format: string;
+      formatAll: string;
+      period: string;
+      period7d: string;
+      period30d: string;
+      period90d: string;
+      periodAll: string;
+    };
+    kind: { webinar: string; conference: string; event: string };
+    format: { online: string; 'in-person': string; hybrid: string };
+    viewEvent: string;
+    addToCalendar: string;
+    states: { unavailable: string; empty: string };
+    sources: { title: string; lastSuccess: string; events: string };
+    widget: { title: string; viewAll: string };
   };
   keywords: {
     title: string;

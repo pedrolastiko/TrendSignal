@@ -1,0 +1,30 @@
+[
+  {
+    "title": { "rendered": "KCD Austin &#8211; Zero Trust Day" },
+    "link": "{{BASE_URL}}/cncf/events/kcd-austin/",
+    "content": { "rendered": "<p>A community day about <b>Zero Trust</b> on Kubernetes.</p>" },
+    "lf-country": [11],
+    "meta": {
+      "lf_event_date_start": "{{IN_DAYS:60:SLASH}}",
+      "lf_event_date_end": "{{IN_DAYS:61:SLASH}}",
+      "lf_event_city": "Austin"
+    }
+  },
+  {
+    "title": { "rendered": "KCD Lyon" },
+    "link": "{{BASE_URL}}/cncf/events/kcd-lyon/",
+    "content": { "rendered": "" },
+    "lf-country": [12],
+    "meta": {
+      "lf_event_date_start": "{{IN_DAYS:70:SLASH}}",
+      "lf_event_date_end": "{{IN_DAYS:70:SLASH}}",
+      "lf_event_city": "Lyon"
+    }
+  },
+  {
+    "title": { "rendered": "Event with empty custom fields" },
+    "link": "{{BASE_URL}}/cncf/events/empty/",
+    "content": { "rendered": "" },
+    "meta": []
+  }
+]

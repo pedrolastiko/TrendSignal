@@ -207,5 +207,92 @@ test.describe('TrendSignal', () => {
       await page.goto('/');
       await expect(page.locator('header svg[data-logo]')).toBeVisible();
     });
+
+    test.describe('events', () => {
+      test('the Events menu item opens a page of upcoming events', async ({ page, isMobile }) => {
+        await page.goto('/');
+        if (isMobile) await page.getByRole('button', { name: 'Menu' }).click();
+        await page.getByRole('link', { name: 'Events', exact: true }).click();
+        await expect(page.getByRole('heading', { name: 'Events', level: 1 })).toBeVisible();
+        await expect(page.locator('article[data-event-card]').first()).toBeVisible();
+        await expect(
+          page.getByRole('status').filter({ hasText: /upcoming events?/ }),
+        ).toBeVisible();
+      });
+
+      test('type buttons narrow the list, and each card says what it is', async ({ page }) => {
+        await page.goto('/#/events');
+        const cards = page.locator('article[data-event-card]');
+        await expect(cards.first()).toBeVisible();
+        const total = await cards.count();
+
+        const kind = page.getByRole('group', { name: 'Type' });
+        await kind.getByRole('button', { name: 'Webinars' }).click();
+        const webinars = await cards.count();
+        expect(webinars).toBeGreaterThan(0);
+        expect(webinars).toBeLessThan(total);
+        await expect(cards.filter({ hasNotText: 'Webinar' })).toHaveCount(0);
+
+        await kind.getByRole('button', { name: 'All' }).click();
+        await expect(cards).toHaveCount(total);
+      });
+
+      test('format and period filters work, and an empty result says so', async ({ page }) => {
+        await page.goto('/#/events');
+        await expect(page.locator('article[data-event-card]').first()).toBeVisible();
+        await page.getByLabel('Format').selectOption('hybrid');
+        await expect(page.locator('article[data-event-card]')).toHaveCount(0);
+        await expect(page.getByText('No upcoming event matches these filters.')).toBeVisible();
+      });
+
+      test('event links are safe, and a calendar file can be saved', async ({ page }) => {
+        await page.goto('/#/events');
+        const card = page.locator('article[data-event-card]').first();
+        await expect(card).toBeVisible();
+
+        const link = card.getByRole('link', { name: /View event/ });
+        await expect(link).toHaveAttribute('target', '_blank');
+        await expect(link).toHaveAttribute('rel', 'noopener noreferrer');
+
+        const [download] = await Promise.all([
+          page.waitForEvent('download'),
+          card.getByRole('button', { name: 'Add to calendar' }).click(),
+        ]);
+        expect(download.suggestedFilename()).toMatch(/\.ics$/);
+        const path = await download.path();
+        const { readFile } = await import('node:fs/promises');
+        const content = await readFile(path, 'utf-8');
+        expect(content).toContain('BEGIN:VCALENDAR');
+        expect(content).toContain('BEGIN:VEVENT');
+        expect(content).toContain('SUMMARY:');
+      });
+
+      test('the dashboard shows the next events and links to the page', async ({ page }) => {
+        await page.goto('/');
+        const widget = page.getByRole('region', { name: 'Upcoming events' });
+        await expect(widget).toBeVisible();
+        await widget.getByRole('link', { name: 'View all events' }).click();
+        await expect(page.getByRole('heading', { name: 'Events', level: 1 })).toBeVisible();
+      });
+
+      test('g then e goes to Events', async ({ page, isMobile }) => {
+        test.skip(isMobile, 'Keyboard shortcuts are for devices with a keyboard');
+        await page.goto('/');
+        await expect(page.locator('article').first()).toBeVisible();
+        await page.keyboard.press('g');
+        await page.keyboard.press('e');
+        await expect(page.getByRole('heading', { name: 'Events', level: 1 })).toBeVisible();
+      });
+
+      test('the interface can be switched to French on the Events page', async ({
+        page,
+        isMobile,
+      }) => {
+        await page.goto('/#/events');
+        if (isMobile) await page.getByRole('button', { name: 'Menu' }).click();
+        await page.getByRole('button', { name: 'Français' }).click();
+        await expect(page.getByRole('heading', { name: 'Événements', level: 1 })).toBeVisible();
+      });
+    });
   });
 });

@@ -10,6 +10,7 @@ import { KpiCard } from '../components/KpiCard';
 import { ArticleCard } from '../components/ArticleCard';
 import { ArticleRow } from '../components/ArticleRow';
 import { WhatsNewBanner } from '../components/WhatsNewBanner';
+import { UpcomingEvents } from '../components/UpcomingEvents';
 import { isNewArticle } from '../lib/whatsNew';
 import { LoadingState, ErrorState, EmptyState, StaleBanner } from '../components/States';
 import { TrendStatusBadge } from '../components/StatusBadge';
@@ -182,6 +183,8 @@ export function DashboardPage() {
           </ul>
         </section>
       )}
+
+      {data.events && <UpcomingEvents events={data.events.events} />}
 
       <CategoryFilter value={categoryFilter} onChange={setCategoryFilter} counts={categoryCounts} />
 
