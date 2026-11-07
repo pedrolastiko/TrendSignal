@@ -4,6 +4,7 @@ import { LayoutDashboard, TrendingUp, Tags, Rss, Menu, X, Keyboard } from 'lucid
 import { useI18n } from '../hooks/useI18n';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import { useKeyboardShortcuts } from '../hooks/useKeyboardShortcuts';
+import { Logo } from './Logo';
 import { NotificationsToggle } from './NotificationsToggle';
 import { PreferencesPanel } from './PreferencesPanel';
 import { ShortcutsDialog } from './ShortcutsDialog';
@@ -60,7 +61,10 @@ export function Layout({ children }: { children: ReactNode }) {
         {t.common.skipToContent}
       </a>
       <header className="sticky top-0 z-40 flex items-center justify-between border-b border-border bg-card px-4 py-3 lg:hidden">
-        <span className="text-lg font-semibold text-primary">{t.app.name}</span>
+        <span className="flex items-center gap-2 text-lg font-semibold text-primary">
+          <Logo size={28} />
+          {t.app.name}
+        </span>
         <button
           type="button"
           className="rounded-control border border-border p-2"
@@ -81,7 +85,10 @@ export function Layout({ children }: { children: ReactNode }) {
           />
           <div className="absolute left-0 top-0 h-full w-72 overflow-y-auto bg-card p-4 shadow-xl">
             <div className="mb-4 flex items-center justify-between">
-              <span className="text-lg font-semibold text-primary">{t.app.name}</span>
+              <span className="flex items-center gap-2 text-lg font-semibold text-primary">
+                <Logo size={28} />
+                {t.app.name}
+              </span>
               <button
                 type="button"
                 className="rounded-control border border-border p-2"
@@ -110,6 +117,7 @@ export function Layout({ children }: { children: ReactNode }) {
       <div className="mx-auto flex max-w-[1400px]">
         <aside className="sticky top-0 hidden h-screen w-64 shrink-0 flex-col overflow-y-auto border-r border-border bg-card p-4 lg:flex">
           <div className="mb-6 px-2">
+            <Logo size={48} className="mb-3" />
             <p className="text-lg font-semibold text-primary">{t.app.name}</p>
             <p className="text-xs text-muted">{t.app.tagline}</p>
           </div>

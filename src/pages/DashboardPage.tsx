@@ -13,8 +13,9 @@ import { WhatsNewBanner } from '../components/WhatsNewBanner';
 import { isNewArticle } from '../lib/whatsNew';
 import { LoadingState, ErrorState, EmptyState, StaleBanner } from '../components/States';
 import { TrendStatusBadge } from '../components/StatusBadge';
-import { CATEGORY_LABELS, SOURCE_CATEGORIES } from '../data/categories';
-import type { Article, SourceCategory } from '../types';
+import { SOURCE_CATEGORIES } from '../data/categories';
+import { CategoryFilter, type CategoryValue } from '../components/CategoryFilter';
+import type { Article } from '../types';
 
 type SortOption = 'newest' | 'relevance' | 'trend';
 type DateOption = 'all' | '24h' | '7d' | '30d';
@@ -43,7 +44,7 @@ export function DashboardPage() {
   const [query, setQuery] = useState('');
   const [keywordFilter, setKeywordFilter] = useState('all');
   const [sourceFilter, setSourceFilter] = useState('all');
-  const [categoryFilter, setCategoryFilter] = useState<'all' | SourceCategory>('all');
+  const [categoryFilter, setCategoryFilter] = useState<CategoryValue>('all');
   const [dateFilter, setDateFilter] = useState<DateOption>('all');
   const [sortBy, setSortBy] = useState<SortOption>('newest');
   const [storedView, setView] = useLocalStorage<ViewMode>('dashboard-view', 'grid');
@@ -87,14 +88,26 @@ export function DashboardPage() {
   const searched =
     debouncedQuery.trim() && fuse ? fuse.search(debouncedQuery).map((r) => r.item) : data.articles;
 
-  const filtered: Article[] = searched.filter((article) => {
+  // Everything except the category: the chips count against these, so each shows how many
+  // articles choosing it would leave.
+  const beforeCategory: Article[] = searched.filter((article) => {
     if (keywordFilter !== 'all' && !article.matchedKeywordIds.includes(keywordFilter)) return false;
     if (sourceFilter !== 'all' && article.sourceId !== sourceFilter) return false;
-    if (categoryFilter !== 'all' && article.sourceCategory !== categoryFilter) return false;
     if (!withinDateRange(article.publishedAt, dateFilter)) return false;
     if (onlyNew && !isNewArticle(article, lastSeenAt)) return false;
     return true;
   });
+  const categoryCounts = Object.fromEntries([
+    ['all', beforeCategory.length],
+    ...SOURCE_CATEGORIES.map((c) => [
+      c,
+      beforeCategory.filter((a) => a.sourceCategory === c).length,
+    ]),
+  ]) as Record<CategoryValue, number>;
+  const filtered: Article[] =
+    categoryFilter === 'all'
+      ? beforeCategory
+      : beforeCategory.filter((article) => article.sourceCategory === categoryFilter);
 
   const sorted = [...filtered].sort((a, b) => {
     if (sortBy === 'relevance') return b.relevanceScore - a.relevanceScore;
@@ -170,6 +183,8 @@ export function DashboardPage() {
         </section>
       )}
 
+      <CategoryFilter value={categoryFilter} onChange={setCategoryFilter} counts={categoryCounts} />
+
       <div className="mb-6 flex flex-col gap-3 rounded-card border border-border bg-card p-4">
         <label className="sr-only" htmlFor="dashboard-search">
           {t.dashboard.searchPlaceholder}
@@ -196,16 +211,6 @@ export function DashboardPage() {
             value={sourceFilter}
             onChange={setSourceFilter}
             options={data.sources.map((s) => ({ value: s.id, label: s.name }))}
-          />
-          <FilterSelect
-            id="filter-category"
-            label={t.dashboard.filters.category}
-            value={categoryFilter}
-            onChange={(v) => setCategoryFilter(v as 'all' | SourceCategory)}
-            options={SOURCE_CATEGORIES.map((c) => ({
-              value: c,
-              label: CATEGORY_LABELS[c][locale],
-            }))}
           />
           <FilterSelect
             id="filter-date"

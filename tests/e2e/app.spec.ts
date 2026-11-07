@@ -170,5 +170,42 @@ test.describe('TrendSignal', () => {
       await expect(page.locator('[data-upcoming]')).toHaveCount(1);
       await expect(page.locator('[data-upcoming]')).toContainText('Upcoming');
     });
+
+    test('category buttons filter the articles in one click', async ({ page }) => {
+      await page.goto('/');
+      await expect(page.locator('article').first()).toBeVisible();
+      const total = await page.locator('article').count();
+      const group = page.getByRole('group', { name: 'Category' });
+      await expect(page.locator('select#filter-category')).toHaveCount(0); // no dropdown any more
+
+      const consulting = group.getByRole('button', { name: /^Consulting/ });
+      await consulting.click();
+      await expect(consulting).toHaveAttribute('aria-pressed', 'true');
+      const filtered = await page.locator('article').count();
+      expect(filtered).toBeGreaterThan(0);
+      expect(filtered).toBeLessThan(total);
+      // The chip's own count matches what is shown.
+      await expect(consulting).toContainText(String(filtered));
+
+      await group.getByRole('button', { name: /^All/ }).click();
+      await expect(page.locator('article')).toHaveCount(total);
+    });
+
+    test('the logo sits above the product name in the sidebar', async ({ page, isMobile }) => {
+      test.skip(isMobile, 'The stacked logo is the desktop sidebar; mobile shows it inline');
+      await page.goto('/');
+      const logo = page.locator('aside svg[data-logo]');
+      const name = page.locator('aside').getByText('TrendSignal', { exact: true });
+      await expect(logo).toBeVisible();
+      const logoBox = await logo.boundingBox();
+      const nameBox = await name.boundingBox();
+      expect(logoBox && nameBox && logoBox.y + logoBox.height <= nameBox.y + 1).toBe(true);
+    });
+
+    test('the logo is shown in the mobile header', async ({ page, isMobile }) => {
+      test.skip(!isMobile, 'Mobile header only');
+      await page.goto('/');
+      await expect(page.locator('header svg[data-logo]')).toBeVisible();
+    });
   });
 });
