@@ -3,7 +3,9 @@ import type { Article, KeywordPublic } from '../types';
 import { useI18n } from '../hooks/useI18n';
 import { CATEGORY_LABELS } from '../data/categories';
 import { formatArticleDate } from '../lib/format';
+import { isUpcoming } from '../lib/upcoming';
 import { NewBadge } from './ArticleCard';
+import { UpcomingRibbon } from './UpcomingRibbon';
 
 /** Dense one-entry-per-row alternative to `ArticleCard`: no image or excerpt, title is the link. */
 export function ArticleRow({
@@ -29,6 +31,9 @@ export function ArticleRow({
     >
       <div className="flex min-w-0 flex-1 flex-col gap-1">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted">
+          {isUpcoming(article.publishedAt) && (
+            <UpcomingRibbon publishedAt={article.publishedAt} variant="inline" />
+          )}
           {isNew && <NewBadge />}
           <span className="font-medium text-ink">{article.company}</span>
           <span aria-hidden="true">·</span>
