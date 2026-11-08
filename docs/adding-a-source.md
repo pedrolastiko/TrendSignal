@@ -115,9 +115,13 @@ Events (webinars, conferences) have their own file, `config/event-sources.yml`, 
    WordPress sites running The Events Calendar answer at `…/events/?ical=1`), an RSS feed whose
    `pubDate` is the event start, or a documented public API. A page that renders its list in the
    browser (Algolia, a single-page app) carries no event data in its HTML and cannot be collected.
-2. Add the entry. `collectionMode` is `ics`, `rss` (pubDate = start) or `cncf-events`. Set `region`
+2. Add the entry. `collectionMode` is `ics`, `rss` (pubDate = start), `jsonld`, `cncf-events`,
+   `techconf-ca`, `observability-360` or `curated`. Set `region`
    to `north-america` only if the publisher's in-person events really are there, and
    `includeUnmatched: true` only if the publisher's whole scope is IT, AI or cybersecurity.
+   For `jsonld`, `feedUrl` is a listing page whose HTML contains the links to the event pages, and
+   `includePaths` (required) are substrings of those links' paths; check on a few event pages that
+   the JSON-LD carries a real ISO `startDate` with a time zone, or a date-only value.
 3. Validate it with the real adapters and the collector's own fetch policy:
 
    ```bash
@@ -128,3 +132,18 @@ Events (webinars, conferences) have their own file, `config/event-sources.yml`, 
    are real, upcoming and in scope (online, or North America), and that nothing off-topic gets in.
 
 4. Record in the file's header comment what you collected and what you left out, with the reason.
+
+### Adding a flagship conference by hand
+
+For an organiser that cannot be collected (its site answers 403, or renders in the browser, or
+there is no listing), add a series to `config/event-series.yml`. Each edition needs:
+
+- `startDate` and `endDate` (the last day, inclusive), as quoted `'YYYY-MM-DD'` strings;
+- `status: confirmed` only if the **organiser or the venue** states the date, otherwise
+  `unconfirmed` plus a `note` saying who does;
+- `sourceUrl` (where you read it) and `verifiedOn` (the day you checked).
+
+Never enter a date from memory. When the next edition is announced, add it as a new edition: it
+replaces the projection, which otherwise assumes last year's calendar day and shows the event as
+"Date not confirmed". For `techconf-ca`, the equivalent is an entry in the source's
+`knownEditions`, matched by the conference's name.

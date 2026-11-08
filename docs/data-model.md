@@ -173,13 +173,31 @@ questions. They are collected in the same run (`scripts/collect.ts`), published 
 `events.json` is `{ generatedAt, events: EventItem[], sources: EventSourceStatus[] }`; the schemas
 are in `scripts/schemas.ts` (generation) and `src/data/schemas.ts` (browser).
 
-**Sources** are declared in `config/event-sources.yml` (`ics`, `rss`, `cncf-events`):
+**Sources** are declared in `config/event-sources.yml` (`ics`, `rss`, `jsonld`, `cncf-events`):
 
 - `ics`: an iCalendar feed. Times with a `TZID` are converted to UTC through `Intl`; a floating
   time is read as UTC; `VALUE=DATE` events are all-day. Cancelled events are skipped. The response
   must contain `BEGIN:VCALENDAR`, so an HTML app shell is an error, not zero events.
 - `rss`: an events feed where each item's `pubDate` is the **event start**. A start at exactly
   00:00:00 in the feed's own offset is read as an all-day event on the date as written.
+- `jsonld`: a listing page whose linked pages each carry a schema.org `Event` in JSON-LD. The
+  listing is only used to find links (`includePaths`, required, filters them; same host, each page
+  fetched once, at most 60 per run). The event is read from the page: name, `startDate`/`endDate`,
+  description, `eventAttendanceMode`, location. A date-only `startDate` is an all-day event, and a
+  date-only `endDate` is the last day, inclusive; an offset written `+0000` is accepted; a time
+  with no offset is read as UTC. Cancelled and postponed events are skipped. The event's URL is
+  the one that was fetched, not the one the page claims. No link on the listing, or no Event on
+  any linked page, is an error, so a layout change shows up in the health instead of as "no events".
+- `techconf-ca`: techconf.ca, a community list of Canadian tech conferences, from its upcoming and
+  past pages; see "Dates the organiser has not confirmed" below.
+- `observability-360`: the hand-maintained calendar page of observability-360.com. Each event
+  appears twice on the page (a card and a summary row), so blocks are merged on their link; dates
+  are written for people ("23-24 Oct 2025") and parsed, a place of "Virtual" or "Online" is an
+  online event. No block, or none with a date, is an error.
+- `curated`: a YAML file under `config/` (`config/event-series.yml`) kept by hand, for conferences
+  whose organisers cannot be collected (Black Hat, RSAC and Gartner answer 403) or that are not
+  listings (DEF CON, re:Invent, Microsoft Ignite and Build). Nothing is fetched. Each series lists
+  its editions with the URL the date was read at, the day it was checked and a status.
 - `cncf-events`: cncf.io's WordPress REST API (`lf_event`), a source-specific adapter. The data is
   under `meta`, not `acf`; the country comes from the `lf-country` terms.
 
@@ -192,11 +210,15 @@ are in `scripts/schemas.ts` (generation) and `src/data/schemas.ts` (browser).
 4. Not more than 548 days ahead.
 5. **In scope**: every online event, plus in-person and hybrid events in North America (United
    States, Canada, Mexico). An explicit country code settles it; otherwise the text is searched
-   for the area, a country or a conference town; a source declared `region: north-america`
+   for the area, a country or a conference town, and a location ending in a US state or Canadian
+   province ("Half Moon Bay, CA"; only abbreviations that are not also an ISO country code, so
+   "Mumbai, IN" or "Berlin, DE" never match); a source declared `region: north-america`
    vouches for its in-person events unless a country says otherwise.
 6. It matches at least one enabled keyword, unless the source sets `includeUnmatched: true`.
 
-**Format** is `online` when the title or location says so (webinar, webcast, virtual, online…), a
+**Format**: when the publisher declares an attendance mode (schema.org `eventAttendanceMode`,
+or a `VirtualLocation`), it is used as is: online, offline (in person) or mixed (hybrid). Otherwise
+it is read from the text: `online` when the title or location says so (webinar, webcast, virtual, online…), a
 title ends in "Call", or the summary says the event itself is online ("online event", "virtual
 summit", "held online"). A bare "online" in the summary does not count: "online authentication"
 describes the topic, not the event. `hybrid` when the text says so or says both. Otherwise
@@ -208,9 +230,43 @@ title matches (up to 45) + summary matches (up to 25) + keyword weight (up to 10
 priority (up to 10).
 
 **Identity and de-duplication**: `id` is the SHA-256 of the normalized URL plus `#` plus the start,
-so a recurring event keeps one id per date. Events are merged on the same id, or on the same
-company, normalized title and start; similar events from different companies are not merged
-(OpenSSF listing KubeCon next to CNCF stays two entries).
+so a recurring event keeps one id per date; a listing page that stands for many events adds the
+conference's name to it so ids do not collide. Entries are merged when they are:
+
+- the same id, or the same company, normalized title and start (one event listed twice);
+- the same conference starting the same day, whoever lists it. "Same conference" means the same
+  name once the year, ordinal, accents, spacing and punctuation are folded away ("BSides" and
+  "B|Sides" match) and a compatible place (a missing one matches anything; otherwise one's city
+  appears in the other's location). The confirmed entry stays, then the better-scored one, which is how KubeCon on CNCF's
+  page and on a sponsor's collapses to one;
+- an estimated date and a confirmed date of the same conference within 45 days: the estimate goes
+  (and a confirmed entry is never the one dropped in the same-day case, whatever the scores).
+
+Two conferences are never merged on a similar title alone: a different city or a different day
+keeps both.
+
+**Dates the organiser has not confirmed**: every event has a `dateStatus`. `estimated` means the
+organiser has not confirmed the date, for one of two reasons. Either the date was **projected**:
+the latest known edition's calendar day is assumed to repeat one year later (29 February becomes 28
+February in a common year, the length of the edition is kept) and `estimatedFrom` holds that
+edition's first day; an edition older than a year is not projected, since it may no longer run. Or
+it was **reported** by listings but not by the organiser, and `estimatedFrom` is absent. The
+browser shows a "Date not confirmed" badge and says which of the two, can filter to confirmed dates
+only, and exports such an event as `STATUS:TENTATIVE`.
+
+For `techconf-ca`, each conference series (identified as above) is resolved in this order:
+
+1. a hand-checked date in the source's `knownEditions`, with its own `confirmed` or `unconfirmed`
+   status;
+2. an edition already listed as upcoming, used as is but flagged `estimated` (reported by a list, so
+   no `estimatedFrom`): a list reports a date, it is not the organiser stating it;
+3. otherwise projected from the latest edition on the past page.
+
+"A new date is already known" is judged by those lists and `knownEditions`; the conferences' own
+sites are not crawled, since the past page carries no links. `confirmed` is only for a date the
+organiser, or the venue hosting it, states. The upcoming page also marks an event's own window
+(`today >= dateTimestamp('<start>') && today <= dateTimestamp('<end>')`), which is how an end date
+is read; a window that does not start on the event's first day is a call for papers and is ignored.
 
 **Failures**: a source that fails keeps its previous events that are still upcoming and has its
 health degraded (`warning` after one failure, `error` after three); the others carry on. Events

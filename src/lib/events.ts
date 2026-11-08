@@ -13,6 +13,7 @@ export interface EventFilters {
   keywordId: string;
   sourceId: string;
   period: EventPeriod;
+  dateStatus: 'all' | 'confirmed';
 }
 
 export const DEFAULT_EVENT_FILTERS: EventFilters = {
@@ -21,6 +22,7 @@ export const DEFAULT_EVENT_FILTERS: EventFilters = {
   keywordId: 'all',
   sourceId: 'all',
   period: 'all',
+  dateStatus: 'all',
 };
 
 const PERIOD_DAYS: Record<Exclude<EventPeriod, 'all'>, number> = { '7d': 7, '30d': 30, '90d': 90 };
@@ -49,6 +51,7 @@ export function filterEvents(
     if (filters.keywordId !== 'all' && !event.matchedKeywordIds.includes(filters.keywordId))
       return false;
     if (filters.sourceId !== 'all' && event.sourceId !== filters.sourceId) return false;
+    if (filters.dateStatus === 'confirmed' && event.dateStatus !== 'confirmed') return false;
     return Date.parse(event.startsAt) <= horizon;
   });
 }

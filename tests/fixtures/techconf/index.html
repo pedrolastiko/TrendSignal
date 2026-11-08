@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tech Conferences - Canada</title>
+  </head>
+  <body>
+    <ul class="conference-list list-unstyled">
+      <li id="1">
+        {{IN_DAYS:60:ISO_DATE}}&nbsp;
+        <a class="post-link" href="https://alpha.example.test" target="_blank"
+          >Fixture Alpha Conf</a
+        >
+        &nbsp;<small>Toronto, ON, Canada</small>
+        <script>
+          if (
+            today >= dateTimestamp('{{IN_DAYS:60:ISO_DATE}}') &&
+            today <= dateTimestamp('{{IN_DAYS:62:ISO_DATE}}')
+          ) {
+            document.write('<span class="label label-warning">Now</span>');
+          }
+          if (
+            today >= dateTimestamp('{{IN_DAYS:-30:ISO_DATE}}') &&
+            today <= dateTimestamp('{{IN_DAYS:20:ISO_DATE}}')
+          ) {
+            document.write(
+              '<a href="https://alpha.example.test/cfp"><span class="label label-success">CFP</span></a>',
+            );
+          }
+        </script>
+      </li>
+      <li id="2">
+        {{IN_DAYS:-40:ISO_DATE}}&nbsp;
+        <a class="post-link" href="https://beta.example.test" target="_blank"
+          >Fixture Beta Summit</a
+        >
+        &nbsp;<small>Vancouver, BC, Canada</small>
+        <script>
+          document.write('<span class="label label-primary">Online</span>');
+        </script>
+      </li>
+    </ul>
+  </body>
+</html>

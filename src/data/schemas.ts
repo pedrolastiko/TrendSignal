@@ -145,14 +145,25 @@ export const eventSchema = z.object({
   matchedKeywordIds: z.array(z.string()),
   relevanceScore: z.number().int().min(0).max(100),
   discoveredAt: z.string(),
+  // Defaulted so data published before this field existed still loads.
+  dateStatus: z.enum(['confirmed', 'estimated']).default('confirmed'),
+  estimatedFrom: z.string().optional(),
 });
 
 export const eventSourceStatusSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   company: z.string().min(1),
-  homepageUrl: z.string().url(),
-  collectionMode: z.enum(['ics', 'rss', 'cncf-events']),
+  homepageUrl: z.string().url().optional(),
+  collectionMode: z.enum([
+    'ics',
+    'rss',
+    'jsonld',
+    'cncf-events',
+    'techconf-ca',
+    'observability-360',
+    'curated',
+  ]),
   enabled: z.boolean(),
   health: sourceHealthSchema,
 });

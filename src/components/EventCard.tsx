@@ -1,8 +1,9 @@
-import { CalendarPlus, ExternalLink, MapPin } from 'lucide-react';
+import { CalendarClock, CalendarPlus, ExternalLink, MapPin } from 'lucide-react';
 import type { EventItem, KeywordPublic } from '../types';
 import { useI18n } from '../hooks/useI18n';
 import { CATEGORY_LABELS } from '../data/categories';
 import { formatEventWhen } from '../lib/events';
+import { formatArticleDate, formatMessage } from '../lib/format';
 import { downloadEventIcs } from '../lib/ics';
 
 /** Words carry the type and the format, so the badges never rely on colour alone. */
@@ -16,6 +17,12 @@ export function EventBadges({ event }: { event: EventItem }) {
       <span className="rounded-full border border-border px-2 py-0.5 text-xs font-medium text-ink">
         {t.events.format[event.format]}
       </span>
+      {event.dateStatus === 'estimated' && (
+        <span className="inline-flex items-center gap-1 rounded-full border border-warning/40 bg-warning/10 px-2 py-0.5 text-xs font-medium text-ink">
+          <CalendarClock size={12} aria-hidden="true" />
+          {t.events.dateStatus.estimated}
+        </span>
+      )}
     </div>
   );
 }
@@ -49,6 +56,15 @@ export function EventCard({
       <h3 className="text-base font-semibold leading-snug text-ink">{event.title}</h3>
 
       <p className="text-sm font-medium text-ink">{formatEventWhen(event, locale)}</p>
+      {event.dateStatus === 'estimated' && (
+        <p className="-mt-1 text-xs text-muted">
+          {event.estimatedFrom
+            ? formatMessage(t.events.estimatedFrom, {
+                date: formatArticleDate(`${event.estimatedFrom}T00:00:00Z`, locale),
+              })
+            : t.events.estimatedReported}
+        </p>
+      )}
 
       <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted">
         <span className="font-medium text-ink">{event.company}</span>

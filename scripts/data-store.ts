@@ -1,10 +1,15 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
-import type { ZodType } from 'zod';
+import type { ZodType, ZodTypeDef } from 'zod';
 import type { Article } from './schemas.ts';
 
-export async function readJsonFile<T>(path: string, schema: ZodType<T>, fallback: T): Promise<T> {
+// The input type is `unknown`: a schema with defaults accepts more than it returns.
+export async function readJsonFile<T>(
+  path: string,
+  schema: ZodType<T, ZodTypeDef, unknown>,
+  fallback: T,
+): Promise<T> {
   if (!existsSync(path)) return fallback;
   const raw = await readFile(path, 'utf-8');
   if (!raw.trim()) return fallback;

@@ -104,7 +104,13 @@ export interface TranslationDictionary {
       period30d: string;
       period90d: string;
       periodAll: string;
+      dateStatus: string;
+      dateStatusAll: string;
+      dateStatusConfirmed: string;
     };
+    dateStatus: { estimated: string };
+    estimatedFrom: string;
+    estimatedReported: string;
     kind: { webinar: string; conference: string; event: string };
     format: { online: string; 'in-person': string; hybrid: string };
     viewEvent: string;

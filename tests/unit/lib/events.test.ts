@@ -31,6 +31,7 @@ function event(overrides: Partial<EventItem> = {}): EventItem {
     matchedKeywordIds: ['zero-trust'],
     relevanceScore: 40,
     discoveredAt: '2026-11-07T00:00:00.000Z',
+    dateStatus: 'confirmed',
     ...overrides,
   };
 }
@@ -60,6 +61,15 @@ describe('filterEvents', () => {
     expect(f({ format: 'online' })).toEqual(['e1']);
     expect(f({ keywordId: 'devsecops' })).toEqual(['e2']);
     expect(f({ sourceId: 's1' })).toEqual(['e1']);
+  });
+
+  it('can keep only dates the organiser has confirmed', () => {
+    const estimated = event({ id: 'e4', dateStatus: 'estimated', estimatedFrom: '2026-06-02' });
+    const list = [webinar, estimated];
+    const f = (dateStatus: 'all' | 'confirmed') =>
+      filterEvents(list, { ...DEFAULT_EVENT_FILTERS, dateStatus }, NOW).map((e) => e.id);
+    expect(f('all')).toEqual(['e1', 'e4']);
+    expect(f('confirmed')).toEqual(['e1']);
   });
 
   it('limits to a number of days ahead', () => {
@@ -157,6 +167,13 @@ describe('calendar export', () => {
     expect(lines.map((l, i) => (i === 0 ? l : l.slice(1))).join('')).toBe(
       `SUMMARY:${'é'.repeat(80)}`,
     );
+  });
+
+  it('marks an event whose date is not confirmed as tentative, and says so in the description', () => {
+    const ics = buildEventIcs(event({ dateStatus: 'estimated', estimatedFrom: '2026-06-02' }), now);
+    expect(ics).toContain('STATUS:TENTATIVE\r\n');
+    expect(ics).toContain('DESCRIPTION:Date not confirmed by the organiser.\\n');
+    expect(buildEventIcs(event(), now)).not.toContain('TENTATIVE');
   });
 
   it('names the file after the title', () => {

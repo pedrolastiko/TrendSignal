@@ -6,6 +6,7 @@ import {
   stripHtml,
   truncateSummary,
 } from '../normalize.ts';
+import { conferenceKey, sameLocation } from './identity.ts';
 import { scoreEventRelevance } from '../scoring.ts';
 import type { EventItem, EventSourceConfig, KeywordConfig } from '../schemas.ts';
 import type { RawEventCandidate } from '../adapters/types.ts';
@@ -32,8 +33,22 @@ export function hasEnded(event: TimeSpan, now: Date): boolean {
   return eventEndMs(event) <= now.getTime();
 }
 
-export function deterministicEventId(canonicalUrl: string, startsAt: string): string {
-  return createHash('sha256').update(`${canonicalUrl}#${startsAt}`).digest('hex');
+const FORMAT_BY_MODE = { online: 'online', mixed: 'hybrid', offline: 'in-person' } as const;
+
+/** A publisher's own statement (schema.org eventAttendanceMode) outranks any text heuristic. */
+function formatFromAttendanceMode(
+  mode: RawEventCandidate['attendanceMode'],
+): EventItem['format'] | undefined {
+  return mode ? FORMAT_BY_MODE[mode] : undefined;
+}
+
+export function deterministicEventId(
+  canonicalUrl: string,
+  startsAt: string,
+  suffix?: string,
+): string {
+  const input = suffix ? `${canonicalUrl}#${startsAt}#${suffix}` : `${canonicalUrl}#${startsAt}`;
+  return createHash('sha256').update(input).digest('hex');
 }
 
 /**
@@ -63,11 +78,14 @@ export function buildEvent(
   const location = candidate.location?.slice(0, MAX_LOCATION_LENGTH) || undefined;
   const text = [title, summary, location, ...(candidate.categories ?? [])].join(' ');
 
-  const format = classifyFormat({ title, location, summary });
+  const format =
+    formatFromAttendanceMode(candidate.attendanceMode) ??
+    classifyFormat({ title, location, summary });
   if (
     !isInScope({
       format,
       text,
+      location,
       countryCode: candidate.countryCode,
       sourceRegion: source.region,
     })
@@ -89,19 +107,19 @@ export function buildEvent(
   );
   if (matchedKeywordIds.length === 0 && !source.includeUnmatched) return null;
 
-  const id = deterministicEventId(canonicalUrl, candidate.startsAt);
+  const id = deterministicEventId(canonicalUrl, candidate.startsAt, candidate.idSuffix);
   return {
     id,
     title,
     url: candidate.url,
     sourceId: source.id,
     sourceName: source.name,
-    company: source.company,
-    sourceCategory: source.category,
+    company: candidate.company ?? source.company,
+    sourceCategory: candidate.category ?? source.category,
     startsAt: candidate.startsAt,
     endsAt: candidate.endsAt,
     allDay: candidate.allDay,
-    kind: classifyKind(text, format),
+    kind: candidate.kind ?? classifyKind(text, format),
     format,
     location,
     summary,
@@ -109,6 +127,8 @@ export function buildEvent(
     matchedKeywordIds,
     relevanceScore,
     discoveredAt: previousById.get(id)?.discoveredAt ?? now.toISOString(),
+    dateStatus: candidate.dateStatus ?? 'confirmed',
+    estimatedFrom: candidate.estimatedFrom,
   };
 }
 
@@ -117,10 +137,34 @@ function titleKey(event: EventItem): string {
   return `${event.company.toLowerCase()}|${title.replace(/[^\p{L}\p{N}]+/gu, ' ').trim()}|${event.startsAt}`;
 }
 
-/** Same URL and start, or same company, title and start (one event listed on two pages). */
+/** An estimated date is dropped for a confirmed one this close to it: the same edition, announced. */
+const ESTIMATE_WINDOW_MS = 45 * 24 * 60 * 60 * 1000;
+
+/** The same conference: same name once years and punctuation are folded away, in a compatible place. */
+function sameConference(a: EventItem, b: EventItem): boolean {
+  return conferenceKey(a.title) === conferenceKey(b.title) && sameLocation(a.location, b.location);
+}
+
+const startDay = (event: EventItem) => event.startsAt.slice(0, 10);
+
+/**
+ * One entry per event:
+ *  - the same URL and start, or the same company, title and start (one event listed twice);
+ *  - the same conference starting the same day, whoever lists it (KubeCon on CNCF's page and on a
+ *    sponsor's): the confirmed, then better-scored, entry stays;
+ *  - an estimated date next to a confirmed one for the same conference, within 45 days: the
+ *    estimate goes.
+ * Different conferences are never merged on a similar title alone.
+ */
 export function deduplicateEvents(events: EventItem[]): EventItem[] {
+  // A confirmed date outranks an estimate whatever their scores, so the same-day collapse below
+  // can never keep a projection over the date the organiser announced.
+  const confirmedFirst = (event: EventItem) => (event.dateStatus === 'confirmed' ? 0 : 1);
   const ranked = [...events].sort(
-    (a, b) => b.relevanceScore - a.relevanceScore || a.id.localeCompare(b.id),
+    (a, b) =>
+      confirmedFirst(a) - confirmedFirst(b) ||
+      b.relevanceScore - a.relevanceScore ||
+      a.id.localeCompare(b.id),
   );
   const seenIds = new Set<string>();
   const seenTitles = new Set<string>();
@@ -128,11 +172,23 @@ export function deduplicateEvents(events: EventItem[]): EventItem[] {
   for (const event of ranked) {
     const key = titleKey(event);
     if (seenIds.has(event.id) || seenTitles.has(key)) continue;
+    if (kept.some((other) => sameConference(event, other) && startDay(event) === startDay(other))) {
+      continue;
+    }
     seenIds.add(event.id);
     seenTitles.add(key);
     kept.push(event);
   }
-  return sortEvents(kept);
+
+  const confirmed = kept.filter((e) => e.dateStatus === 'confirmed');
+  const superseded = (event: EventItem) =>
+    event.dateStatus === 'estimated' &&
+    confirmed.some(
+      (other) =>
+        sameConference(event, other) &&
+        Math.abs(Date.parse(event.startsAt) - Date.parse(other.startsAt)) <= ESTIMATE_WINDOW_MS,
+    );
+  return sortEvents(kept.filter((event) => !superseded(event)));
 }
 
 /** Soonest first; the id breaks ties so regenerated files do not reshuffle. */

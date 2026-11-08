@@ -26,6 +26,12 @@ import {
 import { parseRssEventStart } from '../../../scripts/adapters/events-rss.ts';
 import { collectEventsFromCncf } from '../../../scripts/adapters/source-specific/cncf-events.ts';
 import {
+  candidateFromLdEvent,
+  collectEventsFromJsonLd,
+  extractLdEvents,
+  parseJsonLdDate,
+} from '../../../scripts/adapters/events-jsonld.ts';
+import {
   eventsFileSchema,
   type EventItem,
   type EventSourceConfig,
@@ -48,6 +54,9 @@ function source(overrides: Partial<EventSourceConfig> = {}): EventSourceConfig {
     priority: 5,
     language: 'en',
     maxItemsPerRun: 50,
+    includePaths: [],
+    excludePaths: [],
+    knownEditions: [],
     region: 'global',
     includeUnmatched: false,
     ...overrides,
@@ -356,9 +365,12 @@ describe('deduplicateEvents', () => {
     expect(deduplicateEvents([a, sameUrl, sameTitle])).toHaveLength(1);
   });
 
-  it('keeps similar events from different companies', () => {
+  it('keeps similar-named events that start on different days', () => {
     const a = build({});
-    const other = build({ url: 'https://other.example/e/1' }, source({ company: 'Other Co' }));
+    const other = build(
+      { url: 'https://other.example/e/1', startsAt: '2026-12-20T15:00:00.000Z' },
+      source({ company: 'Other Co' }),
+    );
     expect(deduplicateEvents([a, other])).toHaveLength(2);
   });
 
@@ -422,6 +434,14 @@ describe('collecting events from fixture sources', () => {
         'Ransomware Response Workshop',
         'Cybersecurity Community Call',
         'KCD Austin – Zero Trust Day',
+        'Webinar: AI security in practice',
+        'Cybersecurity Leadership Summit',
+        'DevSecOps Forum',
+        'Webinar: Ransomware readiness',
+        'Fixture Alpha Conf',
+        'Fixture Known Conf',
+        'Fixture Observability Day',
+        'Fixture CiliumCon North America',
       ]),
     );
     for (const excluded of [
@@ -432,11 +452,16 @@ describe('collecting events from fixture sources', () => {
       'Annual Gardening Expo', // no tracked keyword
       'KCD Lyon', // CNCF's country term is France
       'Event with empty custom fields',
+      'Cyber Security Summit Sydney', // in person, outside North America
+      'Webinar: Cancelled session',
+      'Webinar: A past session',
+      'Fixture Delta Forum', // last held more than a year ago
+      'Fixture Past Observability Meetup',
     ]) {
       expect(titles).not.toContain(excluded);
     }
-    expect(file.events).toHaveLength(6);
-    expect(summary).toMatchObject({ targeted: 3, succeeded: 3, failed: 0 });
+    expect(file.events).toHaveLength(18);
+    expect(summary).toMatchObject({ targeted: 6, succeeded: 6, failed: 0 });
     expect(file.sources.every((s) => s.health.status === 'healthy')).toBe(true);
     expect(() => eventsFileSchema.parse(file)).not.toThrow();
   });
@@ -456,7 +481,7 @@ describe('collecting events from fixture sources', () => {
     );
     const second = await run({ sources: broken, previous: first.file });
 
-    expect(second.summary).toMatchObject({ succeeded: 2, failed: 1 });
+    expect(second.summary).toMatchObject({ succeeded: 5, failed: 1 });
     const status = second.file.sources.find((s) => s.id === 'fixture-ics-events')!;
     expect(status.health.status).toBe('warning');
     expect(status.health.consecutiveFailures).toBe(1);
@@ -474,7 +499,7 @@ describe('collecting events from fixture sources', () => {
       s.id === 'fixture-rss-events' ? { ...s, enabled: false } : s,
     );
     const { file, summary } = await run({ sources });
-    expect(summary.targeted).toBe(2);
+    expect(summary.targeted).toBe(5);
     expect(file.sources.find((s) => s.id === 'fixture-rss-events')?.health.status).toBe('disabled');
     expect(file.events.some((e) => e.sourceId === 'fixture-rss-events')).toBe(false);
   });
@@ -542,5 +567,233 @@ describe('events file schema', () => {
     ['a missing title', { ...valid, title: undefined }],
   ])('rejects %s', (_label, event) => {
     expect(eventsFileSchema.safeParse(wrap(event)).success).toBe(false);
+  });
+});
+
+describe('state and province suffixes', () => {
+  it('reads a US state or Canadian province after a comma as North America', () => {
+    expect(isNorthAmerica('x', undefined, 'Half Moon Bay, CA')).toBe(true);
+    expect(isNorthAmerica('x', undefined, 'New Orleans, LA')).toBe(false); // LA is also Laos
+    expect(isNorthAmerica('x', undefined, 'Montreal, QC')).toBe(true);
+    expect(isNorthAmerica('x', undefined, 'Austin, TX')).toBe(true);
+  });
+
+  it('never reads an ISO country code as a state', () => {
+    for (const place of [
+      'Mumbai, IN',
+      'Berlin, DE',
+      'Jakarta, ID',
+      'Tel Aviv, IL',
+      'Lima, PE',
+      'Bogota, CO',
+    ]) {
+      expect(isNorthAmerica('x', undefined, place)).toBe(false);
+    }
+  });
+
+  it('applies it only to a location, and an explicit country still wins', () => {
+    expect(isNorthAmerica('Half Moon Bay, CA')).toBe(false);
+    expect(isNorthAmerica('x', 'FR', 'Paris, TX')).toBe(false);
+    expect(
+      isInScope({ format: 'in-person', text: 'x', location: 'Austin, TX', sourceRegion: 'global' }),
+    ).toBe(true);
+  });
+});
+
+describe('publisher attendance mode', () => {
+  const none = new Map<string, EventItem>();
+  it('outranks the text heuristics', () => {
+    // The title says "virtual" but the publisher declares a physical event.
+    const offline = buildEvent(
+      candidate({
+        title: 'Virtual reality in security, Toronto',
+        location: 'Toronto, Canada',
+        attendanceMode: 'offline',
+      }),
+      source({ includeUnmatched: true }),
+      keywords,
+      none,
+      NOW,
+    );
+    expect(offline?.format).toBe('in-person');
+    const mixed = buildEvent(
+      candidate({ attendanceMode: 'mixed', location: 'Toronto, Canada' }),
+      source(),
+      keywords,
+      none,
+      NOW,
+    );
+    expect(mixed?.format).toBe('hybrid');
+    const online = buildEvent(
+      candidate({ attendanceMode: 'online' }),
+      source(),
+      keywords,
+      none,
+      NOW,
+    );
+    expect(online?.format).toBe('online');
+  });
+});
+
+describe('JSON-LD events', () => {
+  it('parses date-only, offset and floating dates', () => {
+    expect(parseJsonLdDate('2026-12-02')).toEqual({
+      iso: '2026-12-02T00:00:00.000Z',
+      allDay: true,
+    });
+    expect(parseJsonLdDate('2026-11-10T20:30:00+0000')).toEqual({
+      iso: '2026-11-10T20:30:00.000Z',
+      allDay: false,
+    });
+    expect(parseJsonLdDate('2026-11-10T10:30:00-05:00')?.iso).toBe('2026-11-10T15:30:00.000Z');
+    expect(parseJsonLdDate('2026-11-10T09:00:00')?.iso).toBe('2026-11-10T09:00:00.000Z');
+    expect(parseJsonLdDate('next week')).toBeNull();
+  });
+
+  const page = (body: unknown) =>
+    `<html><head><script type="application/ld+json">${JSON.stringify(body)}</script></head></html>`;
+
+  it('finds events in a graph or a list, whatever the Event subtype', () => {
+    const html = page({
+      '@graph': [
+        { '@type': 'WebPage', name: 'p' },
+        { '@type': 'EducationEvent', name: 'A', startDate: '2026-12-01' },
+      ],
+    });
+    expect(extractLdEvents(html).map((e) => e.name)).toEqual(['A']);
+    expect(
+      extractLdEvents(page([{ '@type': 'Event', name: 'B', startDate: '2026-12-01' }])),
+    ).toHaveLength(1);
+  });
+
+  it('skips events without a name or start, and malformed blocks', () => {
+    expect(extractLdEvents(page({ '@type': 'Event', name: 'No date' }))).toHaveLength(0);
+    expect(extractLdEvents('<script type="application/ld+json">{ nope</script>')).toEqual([]);
+  });
+
+  it('turns an event into a candidate: the fetched URL, an inclusive date-only end, the address', () => {
+    const [node] = extractLdEvents(
+      page({
+        '@type': 'Event',
+        name: 'Forum',
+        startDate: '2026-12-02',
+        endDate: '2026-12-03',
+        description: '<p>Two <b>days</b>.</p>',
+        url: 'https://elsewhere.example/claims-this',
+        eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+        location: {
+          '@type': 'Place',
+          name: 'Convention Centre',
+          address: { addressLocality: 'Toronto', addressCountry: 'CA' },
+        },
+      }),
+    );
+    const result = candidateFromLdEvent(node!, 'https://example.com/e/forum', 'en')!;
+    expect(result.url).toBe('https://example.com/e/forum');
+    expect(result.allDay).toBe(true);
+    expect(result.endsAt).toBe('2026-12-04T00:00:00.000Z'); // 3 Dec inclusive -> 4 Dec exclusive
+    expect(result.summary).toBe('Two days.');
+    expect(result.location).toBe('Convention Centre, Toronto');
+    expect(result.countryCode).toBe('CA');
+    expect(result.attendanceMode).toBe('mixed');
+  });
+
+  it('treats a virtual location as online, and drops cancelled or postponed events', () => {
+    const virtual = extractLdEvents(
+      page({
+        '@type': 'Event',
+        name: 'V',
+        startDate: '2026-12-01T10:00:00Z',
+        location: { '@type': 'VirtualLocation', url: 'https://x.test' },
+      }),
+    )[0]!;
+    expect(candidateFromLdEvent(virtual, 'https://example.com/v', 'en')?.attendanceMode).toBe(
+      'online',
+    );
+    for (const status of [
+      'https://schema.org/EventCancelled',
+      'https://schema.org/EventPostponed',
+    ]) {
+      const node = extractLdEvents(
+        page({ '@type': 'Event', name: 'X', startDate: '2026-12-01', eventStatus: status }),
+      )[0]!;
+      expect(candidateFromLdEvent(node, 'https://example.com/x', 'en')).toBeNull();
+    }
+  });
+
+  describe('collecting from a listing page', () => {
+    let server: FixtureServerHandle;
+    beforeAll(async () => {
+      server = await startFixtureServer(join(process.cwd(), 'tests/fixtures'));
+    });
+    afterAll(async () => {
+      await server.close();
+    });
+    const fixtureSource = (overrides: Partial<EventSourceConfig> = {}) => ({
+      ...buildFixtureEventSources(server.baseUrl).find((s) => s.id === 'fixture-jsonld-events')!,
+      ...overrides,
+    });
+
+    it('follows only the event links, once each, on the listing host', async () => {
+      const { candidates } = await collectEventsFromJsonLd(fixtureSource(), undefined);
+      const titles = candidates.map((c) => c.title);
+      expect(titles).toEqual(
+        expect.arrayContaining([
+          'Webinar: AI security in practice',
+          'Cybersecurity Leadership Summit',
+          'Cyber Security Summit Sydney',
+          'Webinar: A past session',
+          'DevSecOps Forum',
+          'Webinar: Ransomware readiness',
+        ]),
+      );
+      expect(titles).not.toContain('Webinar: Cancelled session');
+      expect(titles).toHaveLength(new Set(candidates.map((c) => c.url)).size);
+      expect(candidates.every((c) => c.url.startsWith(server.baseUrl))).toBe(true);
+    });
+
+    it('survives a malformed block next to a valid one', async () => {
+      const { candidates } = await collectEventsFromJsonLd(fixtureSource(), undefined);
+      expect(
+        candidates.find((c) => c.title === 'Webinar: Ransomware readiness')?.attendanceMode,
+      ).toBe('online');
+    });
+
+    it('fails loudly when it cannot tell event links apart, or finds none', async () => {
+      await expect(
+        collectEventsFromJsonLd(fixtureSource({ includePaths: [] }), undefined),
+      ).rejects.toThrow(/includePaths/);
+      await expect(
+        collectEventsFromJsonLd(fixtureSource({ includePaths: ['/does-not-exist/'] }), undefined),
+      ).rejects.toThrow(/No event links/);
+      await expect(
+        collectEventsFromJsonLd(
+          fixtureSource({
+            feedUrl: `${server.baseUrl}/jsonld/events/no-event.html`,
+            includePaths: ['/x/'],
+          }),
+          undefined,
+        ),
+      ).rejects.toThrow(/No event links/);
+    });
+
+    it('rejects pages that link events but none carry a schema.org Event', async () => {
+      await expect(
+        collectEventsFromJsonLd(
+          fixtureSource({
+            excludePaths: [
+              'ai-security',
+              'austin',
+              'sydney',
+              'cancelled',
+              'past',
+              'toronto',
+              'malformed',
+            ],
+          }),
+          undefined,
+        ),
+      ).rejects.toThrow(/No schema.org Event/);
+    });
   });
 });

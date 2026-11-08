@@ -179,12 +179,30 @@ the branch's file layout.
 ## Events
 
 Events are collected from `config/event-sources.yml` in the same `collect` run and published as
-`events.json`. Wave 1 collects **OpenSSF** and **FIDO Alliance** (iCalendar feeds), **NIST** (RSS)
-and **CNCF** (its WordPress REST API), each checked live on 2026-11-07 with
-`npx tsx scripts/audit-events.ts`. SANS, (ISC)², ISACA, IAPP, OWASP and the Cloud Security Alliance
-were left out because they expose no machine-readable listing; the reason for each is in the
-header of the file. The scope, the rules for what is kept and the data contract are in
-`docs/data-model.md`; `docs/adding-a-source.md` explains how to add an event source.
+`events.json`. Ten sources are collected, each checked live on 2026-11-07 with
+`npx tsx scripts/audit-events.ts` (71 events kept that day):
+
+- **Feeds and APIs**: OpenSSF, FIDO Alliance and BSides (iCalendar), NIST (RSS), CNCF (its
+  WordPress REST API), Tenable (events and webinars, read from the JSON-LD of the pages its
+  listings link to).
+- **Lists of conferences**: techconf.ca (Canada) and Observability 360. The latter's page only
+  lists events of autumn 2025, so it currently yields none.
+- **Flagship conferences kept by hand** in `config/event-series.yml`, each date traced to where it
+  was read: RSA Conference, Black Hat USA, DEF CON, AWS re:Invent, Microsoft Ignite and Build, and
+  the Gartner Security & Risk Management Summit (North America).
+
+**Gartner's cybersecurity hub cannot be collected**: it answers 403 to the collector, and that
+protection is not circumvented. Only its North American flagship summit is entered by hand; its
+other security summits are held outside North America and fall outside the scope.
+
+**Dates the organiser has not confirmed** are shown as such ("Date not confirmed"). For the
+techconf.ca list, a conference with no new date announced is assumed to repeat last year's
+calendar day, one year later, when its last edition is less than a year old; two dates were
+checked by hand instead. A date a list merely reports (techconf.ca, Observability 360) is flagged
+too, as not verified with the organiser: only dates stated by the organiser or its venue are
+"confirmed". The others (SANS, ISACA, IAPP, CGI…) and the reasons are in the header of
+the file. The scope, the rules for what is kept and the data contract are in `docs/data-model.md`;
+`docs/adding-a-source.md` explains how to add an event source or a conference.
 
 ## Adding a source or keyword
 
@@ -214,7 +232,8 @@ fetches successfully but yields no usable article. See `docs/architecture.md`.
 
 ## Limitations
 
-- Events: a source's feed lists upcoming events only, so there is no history. Whether an event is
+- Events: a source's feed lists upcoming events only, so there is no history. A projected date
+  (same day, next year) is a guess and is flagged as one: conferences move, and some stop. Whether an event is
   online is read from its title, location and summary, which is a heuristic; a publisher that
   never says "webinar" or "virtual" for an online event will have it treated as in-person (and
   dropped outside North America). CNCF's webinar listing (`lf_webinar`) is not collected: none of

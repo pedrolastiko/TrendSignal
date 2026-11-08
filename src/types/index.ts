@@ -144,14 +144,19 @@ export interface EventItem {
   matchedKeywordIds: string[];
   relevanceScore: number;
   discoveredAt: string;
+  /** `estimated`: the organiser has not confirmed the date. */
+  dateStatus: 'confirmed' | 'estimated';
+  /** First day of the edition an estimated date was projected from, when it was. */
+  estimatedFrom?: string;
 }
 
 export interface EventSourceStatus {
   id: string;
   name: string;
   company: string;
-  homepageUrl: string;
-  collectionMode: 'ics' | 'rss' | 'cncf-events';
+  homepageUrl?: string;
+  collectionMode:
+    'ics' | 'rss' | 'jsonld' | 'cncf-events' | 'techconf-ca' | 'observability-360' | 'curated';
   enabled: boolean;
   health: SourceHealth;
 }
