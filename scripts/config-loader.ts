@@ -6,6 +6,7 @@ import {
   eventsConfigFileSchema,
   keywordsConfigFileSchema,
   sourcesConfigFileSchema,
+  type EventScope,
   type EventSeries,
   type EventSourceConfig,
   type KeywordConfig,
@@ -57,4 +58,13 @@ export function loadEventSeriesConfig(path = 'config/event-series.yml'): EventSe
     throw new ConfigValidationError(`Invalid ${path}: ${parsed.error.message}`);
   }
   return parsed.data.series;
+}
+
+/** Which in-person events the pipeline keeps, read from the top of config/event-sources.yml. */
+export function loadEventScope(path = 'config/event-sources.yml'): EventScope {
+  const parsed = eventsConfigFileSchema.safeParse(readYamlFile(path));
+  if (!parsed.success) {
+    throw new ConfigValidationError(`Invalid ${path}: ${parsed.error.message}`);
+  }
+  return parsed.data.scope;
 }

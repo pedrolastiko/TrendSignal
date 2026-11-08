@@ -1,7 +1,12 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import pLimit from 'p-limit';
-import { loadEventSourcesConfig, loadKeywordsConfig, loadSourcesConfig } from './config-loader.ts';
+import {
+  loadEventScope,
+  loadEventSourcesConfig,
+  loadKeywordsConfig,
+  loadSourcesConfig,
+} from './config-loader.ts';
 import { collectEvents } from './collect-events.ts';
 import {
   readJsonFile,
@@ -321,6 +326,7 @@ export async function collect(options: CollectOptions): Promise<void> {
     now,
     repositoryUrl,
     targetSourceId: options.sourceId,
+    scope: loadEventScope(),
   });
 
   await fixtureServer?.close();

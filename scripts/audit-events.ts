@@ -9,7 +9,7 @@
  *
  * Hits live publishers, so it is never part of CI. Writes nothing.
  */
-import { loadEventSourcesConfig, loadKeywordsConfig } from './config-loader.ts';
+import { loadEventScope, loadEventSourcesConfig, loadKeywordsConfig } from './config-loader.ts';
 import { collectEvents } from './collect-events.ts';
 import { resolveRepositoryUrl } from './repository-url.ts';
 
@@ -27,6 +27,7 @@ async function main(): Promise<void> {
     previous: null,
     now: new Date(),
     repositoryUrl: resolveRepositoryUrl(),
+    scope: loadEventScope(),
   });
 
   for (const status of file.sources) {
@@ -37,7 +38,7 @@ async function main(): Promise<void> {
     );
     for (const event of own.slice(0, 20)) {
       console.log(
-        `   ${event.startsAt.slice(0, 10)}${event.dateStatus === 'estimated' ? '~' : ' '} ${event.format.padEnd(9)} ${event.kind.padEnd(10)} ` +
+        `   ${event.startsAt.slice(0, 10)}${event.dateStatus === 'estimated' ? '~' : ' '} ${event.format.padEnd(9)} ${(event.continent ?? '-').padEnd(13)} ` +
           `${event.title.slice(0, 60)} [${event.matchedKeywordIds.join(',') || '-'}]`,
       );
     }

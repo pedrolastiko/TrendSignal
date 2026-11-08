@@ -140,6 +140,11 @@ export const eventSchema = z.object({
   kind: z.enum(['webinar', 'conference', 'event']),
   format: z.enum(['online', 'in-person', 'hybrid']),
   location: z.string().optional(),
+  // Display-only: an unknown value (a continent added later) is dropped rather than rejected.
+  continent: z
+    .enum(['north-america', 'south-america', 'europe', 'asia', 'africa', 'oceania'])
+    .optional()
+    .catch(undefined),
   summary: z.string().max(320),
   language: z.enum(['fr', 'en', 'unknown']),
   matchedKeywordIds: z.array(z.string()),

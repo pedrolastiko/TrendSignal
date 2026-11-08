@@ -107,7 +107,20 @@ export interface TranslationDictionary {
       dateStatus: string;
       dateStatusAll: string;
       dateStatusConfirmed: string;
+      continent: string;
+      continentAll: string;
+      continentHint: string;
     };
+    continent: {
+      'north-america': string;
+      'south-america': string;
+      europe: string;
+      asia: string;
+      africa: string;
+      oceania: string;
+    };
+    showMore: string;
+    shownOfTotal: string;
     dateStatus: { estimated: string };
     estimatedFrom: string;
     estimatedReported: string;

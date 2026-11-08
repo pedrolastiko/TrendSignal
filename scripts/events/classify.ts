@@ -153,10 +153,13 @@ export interface ScopeInput {
   location?: string;
   countryCode?: string;
   sourceRegion: 'north-america' | 'global';
+  /** `worldwide` (the default) keeps every event; `north-america` drops in-person ones elsewhere. */
+  scope?: 'worldwide' | 'north-america';
 }
 
 /**
- * Scope rule: every online event, plus in-person and hybrid events held in North America.
+ * Scope rule: every online event, plus (depending on `scope`) every in-person and hybrid event,
+ * or only those held in North America.
  * A source declared `north-america` vouches for its in-person events unless an explicit
  * country says otherwise.
  */
@@ -166,8 +169,9 @@ export function isInScope({
   location,
   countryCode,
   sourceRegion,
+  scope = 'worldwide',
 }: ScopeInput): boolean {
-  if (format === 'online') return true;
+  if (format === 'online' || scope === 'worldwide') return true;
   if (countryCode) return isNorthAmerica(text, countryCode);
   if (sourceRegion === 'north-america') return true;
   return isNorthAmerica(text, undefined, location);

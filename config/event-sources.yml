@@ -5,9 +5,8 @@
 # shows it yielding real, upcoming, in-scope events. Never guess an endpoint. Candidates that
 # cannot be collected are left out, not parked as disabled placeholders; the reason is below.
 #
-# Scope: every online event, plus in-person and hybrid events held in North America
-# (United States, Canada, Mexico). A source's `region` says where its in-person events are
-# when the feed gives no location; `includeUnmatched` keeps events that match no tracked
+# Scope: see `scope` below. A source's `region` says where its in-person events are when the
+# feed gives no location (and so which continent to show); `includeUnmatched` keeps events that match no tracked
 # keyword, which is only right for a publisher whose whole scope is IT, AI or cybersecurity.
 #
 # Collected (each probed live, wave 1 on 2026-11-07, waves 2 and 3 the same day):
@@ -79,6 +78,9 @@
 #   - ENISA: static event pages, but no structured data, and a European focus.
 #
 # Re-run the probe before adding any of these: publishers change their sites.
+# Which in-person and hybrid events are kept. `worldwide` keeps every one, each labelled with its
+# continent; `north-america` keeps only those held there. Online events are always kept.
+scope: worldwide
 schemaVersion: 1
 sources:
   - id: openssf-events

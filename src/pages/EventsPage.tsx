@@ -5,7 +5,9 @@ import { EventCard } from '../components/EventCard';
 import { LoadingState, ErrorState, EmptyState, StaleBanner } from '../components/States';
 import { HealthBadge } from '../components/StatusBadge';
 import {
+  CONTINENTS,
   DEFAULT_EVENT_FILTERS,
+  countByContinent,
   filterEvents,
   formatDayHeading,
   groupEventsByDay,
@@ -21,6 +23,8 @@ function chipClass(active: boolean): string {
   }`;
 }
 
+/** Events drawn at once: the world is a long list, and each card is a lot of DOM. */
+const PAGE_SIZE = 60;
 const FORMATS: EventFormat[] = ['online', 'in-person', 'hybrid'];
 const PERIODS: EventPeriod[] = ['all', '7d', '30d', '90d'];
 
@@ -28,7 +32,11 @@ export function EventsPage() {
   const { t, locale } = useI18n();
   const { state, reload } = useTrendSignalData();
   const [filters, setFilters] = useState<EventFilters>(DEFAULT_EVENT_FILTERS);
-  const update = (patch: Partial<EventFilters>) => setFilters((f) => ({ ...f, ...patch }));
+  const [limit, setLimit] = useState(PAGE_SIZE);
+  const update = (patch: Partial<EventFilters>) => {
+    setFilters((f) => ({ ...f, ...patch }));
+    setLimit(PAGE_SIZE);
+  };
 
   const events = state.status === 'ready' ? state.data.events : null;
   const visible = useMemo(
@@ -41,7 +49,8 @@ export function EventsPage() {
 
   const { data } = state;
   const keywordsById = new Map(data.keywords.map((k) => [k.id, k]));
-  const groups = groupEventsByDay(visible);
+  const groups = groupEventsByDay(visible.slice(0, limit));
+  const continentCounts = countByContinent(events?.events ?? []);
   const plural = new Intl.PluralRules(locale).select(visible.length) === 'one';
   const count = formatMessage(plural ? t.events.countOne : t.events.countOther, {
     count: visible.length,
@@ -144,6 +153,20 @@ export function EventsPage() {
                 ]}
               />
               <EventSelect
+                id="events-filter-continent"
+                label={t.events.filters.continent}
+                title={t.events.filters.continentHint}
+                value={filters.continent}
+                onChange={(v) => update({ continent: v as EventFilters['continent'] })}
+                options={[
+                  { value: 'all', label: t.events.filters.continentAll },
+                  ...CONTINENTS.filter((c) => continentCounts.has(c)).map((c) => ({
+                    value: c,
+                    label: `${t.events.continent[c]} (${continentCounts.get(c)})`,
+                  })),
+                ]}
+              />
+              <EventSelect
                 id="events-filter-period"
                 label={t.events.filters.period}
                 value={filters.period}
@@ -182,6 +205,21 @@ export function EventsPage() {
             </div>
           )}
 
+          {visible.length > limit && (
+            <div className="mt-8 flex flex-col items-center gap-2">
+              <p className="text-sm text-muted">
+                {formatMessage(t.events.shownOfTotal, { shown: limit, total: visible.length })}
+              </p>
+              <button
+                type="button"
+                onClick={() => setLimit((n) => n + PAGE_SIZE)}
+                className="rounded-control border border-border px-4 py-2 text-sm font-medium text-ink hover:bg-surface"
+              >
+                {t.events.showMore}
+              </button>
+            </div>
+          )}
+
           <EventSources sources={events.sources} />
         </>
       )}
@@ -195,18 +233,21 @@ function EventSelect({
   value,
   onChange,
   options,
+  title,
 }: {
   id: string;
   label: string;
   value: string;
   onChange: (value: string) => void;
   options: { value: string; label: string }[];
+  title?: string;
 }) {
   return (
     <div className="flex flex-col gap-1 text-xs font-medium text-muted">
       <label htmlFor={id}>{label}</label>
       <select
         id={id}
+        title={title}
         value={value}
         onChange={(e) => onChange(e.target.value)}
         className="rounded-control border border-border px-3 py-2 text-sm text-ink"

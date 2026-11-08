@@ -1,4 +1,14 @@
-import type { EventFormat, EventItem, EventKind } from '../types';
+import type { Continent, EventFormat, EventItem, EventKind } from '../types';
+
+/** In the order they are listed. */
+export const CONTINENTS: readonly Continent[] = [
+  'north-america',
+  'south-america',
+  'europe',
+  'asia',
+  'africa',
+  'oceania',
+];
 
 const HOUR_MS = 60 * 60 * 1000;
 const DAY_MS = 24 * HOUR_MS;
@@ -14,6 +24,8 @@ export interface EventFilters {
   sourceId: string;
   period: EventPeriod;
   dateStatus: 'all' | 'confirmed';
+  /** Online events have no continent, so choosing one leaves them out. */
+  continent: 'all' | Continent;
 }
 
 export const DEFAULT_EVENT_FILTERS: EventFilters = {
@@ -23,6 +35,7 @@ export const DEFAULT_EVENT_FILTERS: EventFilters = {
   sourceId: 'all',
   period: 'all',
   dateStatus: 'all',
+  continent: 'all',
 };
 
 const PERIOD_DAYS: Record<Exclude<EventPeriod, 'all'>, number> = { '7d': 7, '30d': 30, '90d': 90 };
@@ -52,6 +65,7 @@ export function filterEvents(
       return false;
     if (filters.sourceId !== 'all' && event.sourceId !== filters.sourceId) return false;
     if (filters.dateStatus === 'confirmed' && event.dateStatus !== 'confirmed') return false;
+    if (filters.continent !== 'all' && event.continent !== filters.continent) return false;
     return Date.parse(event.startsAt) <= horizon;
   });
 }
@@ -130,4 +144,13 @@ export function formatEventWhen(event: EventItem, locale: string, timeZone?: str
   const from = time.format(start);
   if (!event.endsAt) return from;
   return `${from} – ${time.format(new Date(event.endsAt))}`;
+}
+
+/** How many events each continent has, for the filter. */
+export function countByContinent(events: EventItem[]): Map<Continent, number> {
+  const counts = new Map<Continent, number>();
+  for (const event of events) {
+    if (event.continent) counts.set(event.continent, (counts.get(event.continent) ?? 0) + 1);
+  }
+  return counts;
 }

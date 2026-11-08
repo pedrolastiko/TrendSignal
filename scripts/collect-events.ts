@@ -11,6 +11,7 @@ import { buildEvent, deduplicateEvents, hasEnded } from './events/build.ts';
 import { disabledSourceHealth, updateSourceHealth } from './source-health.ts';
 import type {
   EventItem,
+  EventScope,
   EventSourceConfig,
   EventSourceStatus,
   EventsFile,
@@ -29,6 +30,8 @@ export interface CollectEventsOptions {
   repositoryUrl?: string;
   /** Refresh only this source; the others keep their previous events and health. */
   targetSourceId?: string;
+  /** Which in-person events are kept; defaults to every continent. */
+  scope?: EventScope;
 }
 
 export interface CollectEventsSummary {
@@ -69,7 +72,7 @@ function runAdapter(
 export async function collectEvents(
   options: CollectEventsOptions,
 ): Promise<{ file: EventsFile; summary: CollectEventsSummary }> {
-  const { sources, keywords, previous, now, repositoryUrl, targetSourceId } = options;
+  const { sources, keywords, previous, now, repositoryUrl, targetSourceId, scope } = options;
 
   const previousEvents = previous?.events ?? [];
   const previousById = new Map(previousEvents.map((e) => [e.id, e]));
@@ -106,7 +109,7 @@ export async function collectEvents(
         try {
           const result = await runAdapter(source, repositoryUrl, now);
           const built = result.candidates
-            .map((c) => buildEvent(c, source, keywords, previousById, now))
+            .map((c) => buildEvent(c, source, keywords, previousById, now, scope))
             .filter((e): e is EventItem => e !== null)
             .sort((a, b) => a.startsAt.localeCompare(b.startsAt))
             .slice(0, source.maxItemsPerRun);

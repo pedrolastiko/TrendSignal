@@ -6,9 +6,10 @@ import {
   stripHtml,
   truncateSummary,
 } from '../normalize.ts';
+import { resolveContinent } from './continent.ts';
 import { conferenceKey, sameLocation } from './identity.ts';
 import { scoreEventRelevance } from '../scoring.ts';
-import type { EventItem, EventSourceConfig, KeywordConfig } from '../schemas.ts';
+import type { EventItem, EventScope, EventSourceConfig, KeywordConfig } from '../schemas.ts';
 import type { RawEventCandidate } from '../adapters/types.ts';
 import { classifyFormat, classifyKind, isCallForProposals, isInScope } from './classify.ts';
 
@@ -62,6 +63,7 @@ export function buildEvent(
   keywords: KeywordConfig[],
   previousById: Map<string, EventItem>,
   now: Date,
+  scope: EventScope = 'worldwide',
 ): EventItem | null {
   const title = normalizeWhitespace(stripHtml(candidate.title));
   if (!title || Number.isNaN(Date.parse(candidate.startsAt))) return null;
@@ -88,6 +90,7 @@ export function buildEvent(
       location,
       countryCode: candidate.countryCode,
       sourceRegion: source.region,
+      scope,
     })
   ) {
     return null;
@@ -122,6 +125,16 @@ export function buildEvent(
     kind: candidate.kind ?? classifyKind(text, format),
     format,
     location,
+    // An online event is held nowhere in particular.
+    continent:
+      format === 'online'
+        ? undefined
+        : resolveContinent({
+            countryCode: candidate.countryCode,
+            location,
+            title,
+            sourceRegion: source.region,
+          }),
     summary,
     language: candidate.language ?? guessLanguage(`${title} ${summary}`),
     matchedKeywordIds,

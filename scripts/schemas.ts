@@ -338,10 +338,27 @@ export const eventSourceConfigSchema = z.object({
 });
 export type EventSourceConfig = z.infer<typeof eventSourceConfigSchema>;
 
+export const eventScopeSchema = z.enum(['worldwide', 'north-america']);
+export type EventScope = z.infer<typeof eventScopeSchema>;
+
 export const eventsConfigFileSchema = z.object({
   schemaVersion: z.number().int(),
+  /**
+   * Which in-person events are kept: `worldwide` keeps every one (each carries its continent);
+   * `north-america` keeps only those held there. Online events are always kept.
+   */
+  scope: eventScopeSchema.default('worldwide'),
   sources: z.array(eventSourceConfigSchema),
 });
+
+export const continentSchema = z.enum([
+  'north-america',
+  'south-america',
+  'europe',
+  'asia',
+  'africa',
+  'oceania',
+]);
 
 export const eventFormatSchema = z.enum(['online', 'in-person', 'hybrid']);
 export const eventKindSchema = z.enum(['webinar', 'conference', 'event']);
@@ -362,6 +379,8 @@ export const eventSchema = z.object({
   kind: eventKindSchema,
   format: eventFormatSchema,
   location: z.string().max(120).optional(),
+  /** Where an in-person or hybrid event is held; absent for online events or when unknown. */
+  continent: continentSchema.optional(),
   summary: z.string().max(320),
   language: z.enum(['fr', 'en', 'unknown']),
   matchedKeywordIds: z.array(z.string()),

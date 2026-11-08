@@ -63,6 +63,16 @@ describe('EventCard', () => {
     expect(screen.getByText('Zero Trust')).toBeInTheDocument();
   });
 
+  it('names the continent of an in-person event, and none for an online one', () => {
+    const first = renderCard(
+      event({ format: 'in-person', continent: 'asia', location: 'Seoul, South Korea' }),
+    );
+    expect(screen.getByText('Asia')).toBeInTheDocument();
+    first.unmount();
+    renderCard(event());
+    expect(screen.queryByText('Asia')).not.toBeInTheDocument();
+  });
+
   it('flags a date the organiser has not confirmed, and says which edition it came from', () => {
     renderCard(event({ dateStatus: 'estimated', estimatedFrom: '2026-06-02' }));
     expect(screen.getByText('Date not confirmed')).toBeInTheDocument();

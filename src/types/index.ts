@@ -120,6 +120,9 @@ export interface Statistics {
   keywordStats: KeywordStat[];
 }
 
+export type Continent =
+  'north-america' | 'south-america' | 'europe' | 'asia' | 'africa' | 'oceania';
+
 export type EventKind = 'webinar' | 'conference' | 'event';
 export type EventFormat = 'online' | 'in-person' | 'hybrid';
 
@@ -139,6 +142,8 @@ export interface EventItem {
   kind: EventKind;
   format: EventFormat;
   location?: string;
+  /** Where an in-person or hybrid event is held; absent for online events or when unknown. */
+  continent?: Continent;
   summary: string;
   language: 'fr' | 'en' | 'unknown';
   matchedKeywordIds: string[];

@@ -199,8 +199,11 @@ describe('classification', () => {
     expect(isNorthAmerica('FIDO Tokyo Seminar')).toBe(false);
   });
 
-  it('keeps every online event, and in-person ones only in North America', () => {
-    const base = { text: 'x', sourceRegion: 'global' as const };
+  it('keeps every online event, and in-person ones only in North America (scope north-america)', () => {
+    const base = { text: 'x', sourceRegion: 'global' as const, scope: 'north-america' as const };
+    expect(isInScope({ ...base, scope: 'worldwide', format: 'in-person', text: 'Paris' })).toBe(
+      true,
+    );
     expect(isInScope({ ...base, format: 'online', countryCode: 'FR' })).toBe(true);
     expect(isInScope({ ...base, format: 'in-person', text: 'Paris' })).toBe(false);
     expect(isInScope({ ...base, format: 'hybrid', text: 'Seattle' })).toBe(true);
@@ -212,6 +215,7 @@ describe('classification', () => {
       format: 'in-person' as const,
       text: 'Gaithersburg',
       sourceRegion: 'north-america' as const,
+      scope: 'north-america' as const,
     };
     expect(isInScope(base)).toBe(true);
     expect(isInScope({ ...base, countryCode: 'DE' })).toBe(false);
@@ -309,17 +313,23 @@ describe('buildEvent', () => {
     expect(buildEvent(running, source(), keywords, none, NOW)).not.toBeNull();
   });
 
-  it('applies the North America rule to in-person events only', () => {
+  it('applies the North America rule to in-person events only, when so configured', () => {
     const paris = candidate({ title: 'Zero Trust Forum', location: 'Paris, France', summary: '' });
-    expect(buildEvent(paris, source(), keywords, none, NOW)).toBeNull();
+    expect(buildEvent(paris, source(), keywords, none, NOW, 'north-america')).toBeNull();
+    const worldwide = buildEvent(paris, source(), keywords, none, NOW);
+    expect(worldwide?.continent).toBe('europe');
     const toronto = candidate({
       title: 'Zero Trust Forum',
       location: 'Toronto, Canada',
       summary: '',
     });
-    expect(buildEvent(toronto, source(), keywords, none, NOW)?.format).toBe('in-person');
+    expect(buildEvent(toronto, source(), keywords, none, NOW)?.continent).toBe('north-america');
+    expect(buildEvent(toronto, source(), keywords, none, NOW, 'north-america')?.format).toBe(
+      'in-person',
+    );
     const onlineFromParis = candidate({ location: 'Paris, France' });
     expect(buildEvent(onlineFromParis, source(), keywords, none, NOW)?.format).toBe('online');
+    expect(buildEvent(onlineFromParis, source(), keywords, none, NOW)?.continent).toBeUndefined();
   });
 
   it('gates on tracked keywords unless the source is exempt', () => {
@@ -420,6 +430,7 @@ describe('collecting events from fixture sources', () => {
       keywords,
       previous: null,
       now: clock,
+      scope: 'north-america',
       ...extra,
     });
 

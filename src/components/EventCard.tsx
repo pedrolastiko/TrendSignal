@@ -1,4 +1,4 @@
-import { CalendarClock, CalendarPlus, ExternalLink, MapPin } from 'lucide-react';
+import { CalendarClock, CalendarPlus, ExternalLink, Globe2, MapPin } from 'lucide-react';
 import type { EventItem, KeywordPublic } from '../types';
 import { useI18n } from '../hooks/useI18n';
 import { CATEGORY_LABELS } from '../data/categories';
@@ -74,6 +74,15 @@ export function EventCard({
             <span className="inline-flex items-center gap-1">
               <MapPin size={12} aria-hidden="true" />
               {event.location}
+            </span>
+          </>
+        )}
+        {event.continent && (
+          <>
+            <span aria-hidden="true">·</span>
+            <span className="inline-flex items-center gap-1" data-continent={event.continent}>
+              <Globe2 size={12} aria-hidden="true" />
+              {t.events.continent[event.continent]}
             </span>
           </>
         )}

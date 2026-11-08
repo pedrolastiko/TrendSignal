@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   DEFAULT_EVENT_FILTERS,
+  countByContinent,
   eventDayKey,
   filterEvents,
   formatDayHeading,
@@ -35,6 +36,26 @@ function event(overrides: Partial<EventItem> = {}): EventItem {
     ...overrides,
   };
 }
+
+describe('continent filter', () => {
+  const paris = event({ id: 'p', format: 'in-person', continent: 'europe' });
+  const austin = event({ id: 'a', format: 'in-person', continent: 'north-america' });
+  const online = event({ id: 'o' });
+  it('keeps only events held on that continent, which leaves online events out', () => {
+    const ids = (continent: 'all' | 'europe') =>
+      filterEvents([paris, austin, online], { ...DEFAULT_EVENT_FILTERS, continent }, NOW).map(
+        (e) => e.id,
+      );
+    expect(ids('all')).toEqual(['p', 'a', 'o']);
+    expect(ids('europe')).toEqual(['p']);
+  });
+  it('counts events by continent', () => {
+    const counts = countByContinent([paris, austin, online, paris]);
+    expect(counts.get('europe')).toBe(2);
+    expect(counts.get('north-america')).toBe(1);
+    expect(counts.has('asia')).toBe(false);
+  });
+});
 
 describe('filterEvents', () => {
   const webinar = event();
