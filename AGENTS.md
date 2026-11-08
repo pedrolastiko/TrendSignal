@@ -392,7 +392,7 @@ export interface EventsFile {
 }
 ```
 
-`DataManifest` gains an optional `eventCount`, and `files` lists `events.json`. The browser treats a missing `events.json` as "no events yet".
+`DataManifest` gains an optional `eventCount`, and `files` lists `events.json`. The browser treats a missing `events.json` as "no events yet", and an unreadable one (unreachable, or failing validation) must break the Events page only, never the rest of the app; it reports which field failed. Display-only labels such as a source's collection mode must not be validated against a closed list, since newer data may carry values an older cached build has never seen.
 
 Rules:
 - Article ID is deterministic, preferably SHA-256 of normalized canonical URL.

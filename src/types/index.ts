@@ -155,8 +155,8 @@ export interface EventSourceStatus {
   name: string;
   company: string;
   homepageUrl?: string;
-  collectionMode:
-    'ics' | 'rss' | 'jsonld' | 'cncf-events' | 'techconf-ca' | 'observability-360' | 'curated';
+  /** How it is collected; free text, since newer data may use modes this build does not know. */
+  collectionMode: string;
   enabled: boolean;
   health: SourceHealth;
 }

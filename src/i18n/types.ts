@@ -115,7 +115,7 @@ export interface TranslationDictionary {
     format: { online: string; 'in-person': string; hybrid: string };
     viewEvent: string;
     addToCalendar: string;
-    states: { unavailable: string; empty: string };
+    states: { unavailable: string; empty: string; loadFailed: string };
     sources: { title: string; lastSuccess: string; events: string };
     widget: { title: string; viewAll: string };
   };

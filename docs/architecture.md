@@ -100,6 +100,12 @@ yet.
   display preferences only (hidden keywords/sources, filters, sort, locale, theme, dashboard
   layout, shortcuts switch, last-seen timestamp). Never used for anything that needs to be
   shared or trusted.
+- `events.json` is optional and loaded apart from the required files: if it is missing,
+  unreachable or fails validation, the app loads without events and the Events page says so
+  (`eventsError`, naming the failing field). The data is fetched fresh while the code is precached
+  by the service worker, so a device still on an older build can read newer data; this keeps that
+  case to the Events page, and display-only fields (a source's collection mode) are free text for
+  the same reason. Updating the app (the "Update" prompt) fixes it.
 - Theme: colours are CSS variables (`src/styles/index.css`) mapped to Tailwind tokens, so dark
   mode is a variable swap on `<html data-theme>`. `src/main.tsx` applies the stored theme before
   the first render; `ThemeProvider` follows the OS when the preference is `system`. Recharts

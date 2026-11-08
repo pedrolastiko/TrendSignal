@@ -1,3 +1,4 @@
+import type { ZodError } from 'zod';
 import type {
   Article,
   DataManifest,
@@ -46,11 +47,18 @@ async function fetchJson(path: string, version?: string): Promise<unknown> {
   }
 }
 
+/** "name failed schema validation (path: reason)": says which field, never what the data held. */
+function validationMessage(name: string, error: ZodError): string {
+  const issue = error.issues[0];
+  const where = issue?.path.length ? `${issue.path.join('.')}: ` : '';
+  return `${name} failed schema validation${issue ? ` (${where}${issue.message})` : ''}`;
+}
+
 export async function loadManifest(): Promise<DataManifest> {
   const raw = await fetchJson('manifest.json');
   const parsed = dataManifestSchema.safeParse(raw);
   if (!parsed.success) {
-    throw new DataLoadError('manifest.json failed schema validation', parsed.error);
+    throw new DataLoadError(validationMessage('manifest.json', parsed.error), parsed.error);
   }
   return parsed.data;
 }
@@ -63,15 +71,38 @@ export interface TrendSignalData {
   sources: PublicSource[];
   sourceHealth: SourceHealth[];
   keywords: KeywordPublic[];
-  /** Null when the published data predates events (no `events.json` in the manifest). */
+  /** Null when the published data predates events, or when `events.json` could not be used. */
   events: EventsFile | null;
+  /** Why `events` is null although the manifest lists a file; the rest of the data is unaffected. */
+  eventsError?: string;
+}
+
+/**
+ * Events are an optional extra: a missing, unreachable or unreadable `events.json` must not take
+ * the dashboard down with it. The usual cause is an older cached build reading newer data.
+ */
+async function loadEvents(
+  path: string | undefined,
+  version: string,
+): Promise<{ events: EventsFile | null; eventsError?: string }> {
+  if (!path) return { events: null };
+  try {
+    const parsed = eventsFileSchema.safeParse(await fetchJson(path, version));
+    if (!parsed.success)
+      return { events: null, eventsError: validationMessage('events.json', parsed.error) };
+    return { events: parsed.data };
+  } catch (error) {
+    return {
+      events: null,
+      eventsError: error instanceof Error ? error.message : 'events.json failed to load',
+    };
+  }
 }
 
 export async function loadAllData(): Promise<TrendSignalData> {
   const manifest = await loadManifest();
   const version = manifest.generatedAt;
 
-  const eventsPath = manifest.files['events.json'];
   const [
     articlesRaw,
     trendsRaw,
@@ -79,7 +110,7 @@ export async function loadAllData(): Promise<TrendSignalData> {
     sourcesRaw,
     sourceHealthRaw,
     keywordsRaw,
-    eventsRaw,
+    eventsResult,
   ] = await Promise.all([
     fetchJson('articles-latest.json', version),
     fetchJson('trends.json', version),
@@ -87,40 +118,44 @@ export async function loadAllData(): Promise<TrendSignalData> {
     fetchJson('sources-public.json', version),
     fetchJson('source-health.json', version),
     fetchJson('keywords-public.json', version),
-    eventsPath ? fetchJson(eventsPath, version) : Promise.resolve(null),
+    loadEvents(manifest.files['events.json'], version),
   ]);
 
   const articles = articlesFileSchema.safeParse(articlesRaw);
   if (!articles.success)
-    throw new DataLoadError('articles-latest.json failed schema validation', articles.error);
+    throw new DataLoadError(
+      validationMessage('articles-latest.json', articles.error),
+      articles.error,
+    );
 
   const trends = trendsFileSchema.safeParse(trendsRaw);
   if (!trends.success)
-    throw new DataLoadError('trends.json failed schema validation', trends.error);
+    throw new DataLoadError(validationMessage('trends.json', trends.error), trends.error);
 
   const statistics = statisticsSchema.safeParse(statisticsRaw);
   if (!statistics.success)
-    throw new DataLoadError('statistics.json failed schema validation', statistics.error);
+    throw new DataLoadError(
+      validationMessage('statistics.json', statistics.error),
+      statistics.error,
+    );
 
   const sources = sourcesPublicFileSchema.safeParse(sourcesRaw);
   if (!sources.success)
-    throw new DataLoadError('sources-public.json failed schema validation', sources.error);
+    throw new DataLoadError(validationMessage('sources-public.json', sources.error), sources.error);
 
   const sourceHealth = sourceHealthFileSchema.safeParse(sourceHealthRaw);
   if (!sourceHealth.success)
-    throw new DataLoadError('source-health.json failed schema validation', sourceHealth.error);
+    throw new DataLoadError(
+      validationMessage('source-health.json', sourceHealth.error),
+      sourceHealth.error,
+    );
 
   const keywords = keywordsFileSchema.safeParse(keywordsRaw);
   if (!keywords.success)
-    throw new DataLoadError('keywords-public.json failed schema validation', keywords.error);
-
-  let events: EventsFile | null = null;
-  if (eventsRaw !== null) {
-    const parsed = eventsFileSchema.safeParse(eventsRaw);
-    if (!parsed.success)
-      throw new DataLoadError('events.json failed schema validation', parsed.error);
-    events = parsed.data;
-  }
+    throw new DataLoadError(
+      validationMessage('keywords-public.json', keywords.error),
+      keywords.error,
+    );
 
   return {
     manifest,
@@ -130,6 +165,6 @@ export async function loadAllData(): Promise<TrendSignalData> {
     sources: sources.data,
     sourceHealth: sourceHealth.data,
     keywords: keywords.data,
-    events,
+    ...eventsResult,
   };
 }

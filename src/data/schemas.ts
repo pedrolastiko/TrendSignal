@@ -155,15 +155,8 @@ export const eventSourceStatusSchema = z.object({
   name: z.string().min(1),
   company: z.string().min(1),
   homepageUrl: z.string().url().optional(),
-  collectionMode: z.enum([
-    'ics',
-    'rss',
-    'jsonld',
-    'cncf-events',
-    'techconf-ca',
-    'observability-360',
-    'curated',
-  ]),
+  // Display-only, and new modes appear with newer data: never reject a source for an unknown one.
+  collectionMode: z.string().min(1),
   enabled: z.boolean(),
   health: sourceHealthSchema,
 });

@@ -135,6 +135,8 @@ export const fr: TranslationDictionary = {
     addToCalendar: 'Ajouter au calendrier',
     states: {
       unavailable: 'Les événements ne figurent pas encore dans les données publiées.',
+      loadFailed:
+        "Les événements n'ont pas pu être lus. Le reste de TrendSignal n'est pas touché ; mettre l'application à jour règle généralement le problème.",
       empty: 'Aucun événement à venir ne correspond à ces filtres.',
     },
     sources: { title: "Sources d'événements", lastSuccess: 'Dernier succès', events: 'événements' },

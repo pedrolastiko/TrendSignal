@@ -67,7 +67,13 @@ export function EventsPage() {
       </div>
 
       {events === null ? (
-        <EmptyState message={t.events.states.unavailable} />
+        <EmptyState
+          message={
+            data.eventsError
+              ? `${t.events.states.loadFailed} (${data.eventsError})`
+              : t.events.states.unavailable
+          }
+        />
       ) : (
         <>
           {isStale(events.generatedAt) && <StaleBanner />}

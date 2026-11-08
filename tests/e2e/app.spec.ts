@@ -293,6 +293,22 @@ test.describe('TrendSignal', () => {
         expect(content).toContain('STATUS:TENTATIVE');
       });
 
+      test('an unreadable events.json breaks the Events page only, not the app', async ({
+        page,
+      }) => {
+        await page.route('**/events.json*', (route) =>
+          route.fulfill({ json: { generatedAt: 'x', events: [{ nonsense: true }], sources: [] } }),
+        );
+        await page.goto('/');
+        // The dashboard still loads its articles.
+        await expect(page.locator('article').first()).toBeVisible();
+        await expect(page.getByText('Unable to load data')).toHaveCount(0);
+
+        await page.goto('/#/events');
+        await expect(page.getByText(/Events could not be read/)).toBeVisible();
+        await expect(page.getByText(/events\.json failed schema validation/)).toBeVisible();
+      });
+
       test('event links are safe, and a calendar file can be saved', async ({ page }) => {
         await page.goto('/#/events');
         const card = page.locator('article[data-event-card]').first();
