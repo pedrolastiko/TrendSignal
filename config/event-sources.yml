@@ -19,6 +19,13 @@
 #               schema.org Event in JSON-LD (`jsonld` adapter). Its events page lists many
 #               Asia-Pacific in-person events, which the scope rule drops.
 #
+# Added on 2026-11-08, probed live with audit-events.ts:
+#   - QG Media events   qgmedia.io/events, the organiser's own events (ISMG, CS4CA, CyberSeries...).
+#   - Infosec Conferences   a directory, read through its public WordPress REST API; its dates are
+#               reported, so flagged as not confirmed.
+#   - github-list-conferences   52 conferences of the MrM8BRH/CyberSecurity_Conferences list,
+#               researched by hand into config/event-series-github-list.yml (see its header).
+#
 # Added afterwards, also probed live on 2026-11-07:
 #   - BSides   the global community's iCalendar feed (`bsides.org/events/?ical=1`), 30 entries.
 #   - techconf.ca   a community list of Canadian tech conferences. Its "past" page lets recurring
@@ -247,5 +254,47 @@ sources:
     priority: 8
     language: en
     maxItemsPerRun: 50
+    region: global
+    includeUnmatched: true
+
+  - id: github-list-conferences
+    name: Security conferences (MrM8BRH list, curated)
+    company: Curated by hand
+    category: cybersecurity
+    collectionMode: curated
+    feedUrl: config/event-series-github-list.yml
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 80
+    region: global
+    includeUnmatched: true
+
+  # Validated live on 2026-11-08 with scripts/audit-events.ts (see docs/adding-a-source.md).
+  - id: qgmedia-events
+    name: QG Media events
+    company: QG Media
+    category: cybersecurity
+    homepageUrl: https://qgmedia.io/events/
+    collectionMode: qgmedia
+    feedUrl: https://qgmedia.io/events/
+    enabled: true
+    priority: 6
+    language: en
+    maxItemsPerRun: 100
+    region: global
+    includeUnmatched: true
+
+  - id: infosec-conferences
+    name: Infosec Conferences
+    company: Infosec Conferences
+    category: cybersecurity
+    homepageUrl: https://infosec-conferences.com/
+    collectionMode: infosec-conferences
+    feedUrl: https://infosec-conferences.com/
+    enabled: true
+    priority: 4
+    language: en
+    maxItemsPerRun: 600
     region: global
     includeUnmatched: true

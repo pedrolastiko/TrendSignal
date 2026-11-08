@@ -1,0 +1,1047 @@
+# Conferences from the MrM8BRH/CyberSecurity_Conferences list, researched by hand: the list
+# itself carries no dates, so each conference's own site was read (or, where it could not be,
+# a web search was used) on the day recorded in `verifiedOn`. Nothing here is fetched at run time.
+#
+# `confirmed`: the organiser's page (or its ticketing/schedule host) states the date.
+# `unconfirmed`: only third-party listings or search summaries do; the card says
+# "Date not confirmed". A series with no announced edition is projected from its latest edition
+# (same calendar day, only when that edition is less than a year old) and flagged as estimated.
+#
+# Not included: series whose latest known edition is more than a year old, or that have none
+# (dormant, cancelled, or no date findable), and organisers that refuse automated access
+# (never bypassed). Add a new edition below as soon as the organiser announces it.
+schemaVersion: 1
+series:
+  - id: gh-arab-security-conference
+    name: Arab Security Conference
+    organiser: Arab Security Conference
+    category: cybersecurity
+    url: https://www.arabsecurityconference.com
+    kind: conference
+    format: in-person
+    location: Cairo
+    countryCode: EG
+    editions:
+      - startDate: '2026-09-27'
+        endDate: '2026-09-28'
+        location: Cairo
+        status: confirmed
+        sourceUrl: https://www.arabsecurityconference.com
+        verifiedOn: '2026-11-08'
+  - id: gh-attandckcon
+    name: ATT&CKcon
+    organiser: ATT&CKcon
+    category: cybersecurity
+    url: https://www.mitre.org/events/attackcon-4
+    kind: conference
+    format: in-person
+    location: McLean, Virginia
+    countryCode: US
+    editions:
+      - startDate: '2026-10-27'
+        endDate: '2026-10-28'
+        location: McLean, Virginia
+        status: confirmed
+        sourceUrl: https://attack.mitre.org/resources/attackcon/
+        verifiedOn: '2026-11-08'
+  - id: gh-authenticatecon
+    name: AuthenticateCon
+    organiser: AuthenticateCon
+    category: cybersecurity
+    url: https://authenticatecon.com
+    kind: conference
+    format: in-person
+    location: San Antonio, United States
+    countryCode: US
+    editions:
+      - startDate: '2027-10-18'
+        endDate: '2027-10-21'
+        location: San Antonio, United States
+        status: confirmed
+        sourceUrl: https://authenticatecon.com
+        verifiedOn: '2026-11-08'
+        note:
+          Authenticate U.S. 2027 at the JW Marriott Hill Country Resort & Spa. The speaker call and registration
+          were still pending. The format is not stated and is inferred as in-person.
+  - id: gh-blackhillsinfosec
+    name: BlackHillsInfoSec (Wild West Hackin' Fest)
+    organiser: BlackHillsInfoSec (Wild West Hackin' Fest)
+    category: cybersecurity
+    url: https://www.wildwesthackinfest.com/
+    kind: conference
+    format: in-person
+    location: Denver, United States
+    countryCode: US
+    editions:
+      - startDate: '2027-02-17'
+        endDate: '2027-02-19'
+        location: Denver, United States
+        status: confirmed
+        sourceUrl: https://www.wildwesthackinfest.com/
+        verifiedOn: '2026-11-08'
+        note:
+          Wild West Hackin' Fest Mile High 2027 at Sheraton Denver Downtown Hotel; pre-conference training
+          Feb 16-17, conference Feb 17-19.
+  - id: gh-brucon
+    name: BRUCON
+    organiser: BRUCON
+    category: cybersecurity
+    url: https://www.brucon.org
+    kind: conference
+    format: in-person
+    location: Mechelen
+    countryCode: BE
+    editions:
+      - startDate: '2026-09-24'
+        endDate: '2026-09-25'
+        location: Mechelen
+        status: unconfirmed
+        sourceUrl: https://sessionize.com/brucon-0x12
+        verifiedOn: '2026-11-08'
+  - id: gh-bsides-munich
+    name: BSides Munich
+    organiser: BSides Munich
+    category: cybersecurity
+    url: https://bsidesmunich.org
+    kind: conference
+    format: in-person
+    location: Munich, Germany
+    countryCode: DE
+    editions:
+      - startDate: '2025-11-15'
+        endDate: '2025-11-17'
+        location: Munich
+        status: unconfirmed
+        sourceUrl: https://pretalx.com/bsides-munich-2025/schedule/changelog
+        verifiedOn: '2026-11-08'
+      - startDate: '2026-11-07'
+        endDate: '2026-11-09'
+        location: Munich, Germany
+        status: confirmed
+        sourceUrl: https://pretalx.com/bsides-munich-2026/schedule/
+        verifiedOn: '2026-11-08'
+        note:
+          Organiser's pretalx schedule lists 2026-11-07 (workshop day at Hochschule München) and 2026-11-09
+          (Westin Munich); 2026-11-08 shows no sessions. Today is 2026-11-08, so the edition has not ended.
+          The day split is read from the schedule table. 2025 followed the same pattern (workshops Nov 15,
+          conference Nov 17). bsidesmunich.org itself gives no 2026 dates.
+  - id: gh-c0c0n
+    name: c0c0n
+    organiser: c0c0n
+    category: cybersecurity
+    url: https://me.c0c0n.org/home
+    kind: conference
+    format: in-person
+    location: Kochi
+    countryCode: IN
+    editions:
+      - startDate: '2026-10-06'
+        endDate: '2026-10-13'
+        location: Kochi
+        status: confirmed
+        sourceUrl: https://www.c0c0n.org
+        verifiedOn: '2026-11-08'
+  - id: gh-cansecwest
+    name: CanSecWest
+    organiser: CanSecWest
+    category: cybersecurity
+    url: https://cansecwest.com
+    kind: conference
+    format: in-person
+    location: Vancouver
+    countryCode: CA
+    editions:
+      - startDate: '2026-09-30'
+        endDate: '2026-10-01'
+        location: Vancouver
+        status: confirmed
+        sourceUrl: https://www.register.cansecwest.com/csw26/cansecwest-2026-newtype-in-person-sept30-to-oct1
+        verifiedOn: '2026-11-08'
+  - id: gh-cycon
+    name: CYCON
+    organiser: CYCON
+    category: cybersecurity
+    url: https://www.cycon.org/
+    kind: conference
+    format: in-person
+    location: Tallinn, Estonia
+    countryCode: EE
+    editions:
+      - startDate: '2026-05-27'
+        endDate: '2026-05-29'
+        location: Tallinn
+        status: unconfirmed
+        sourceUrl: https://ccdcoe.org/news/2026/registration-now-open-for-cycon-2026-securing-tomorrow
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-05-25'
+        endDate: '2027-05-28'
+        location: Tallinn, Estonia
+        status: confirmed
+        sourceUrl: https://web.cvent.com/event/22ec37f7-0e66-40ba-a5f1-23182e97dfcd/websitePage:539f549f-e974-4c4b-9c22-11bd919241fe
+        verifiedOn: '2026-11-08'
+        note:
+          "CyCon 2027: Unified Response (19th International Conference on Cyber Conflict), 'Tuesday,
+          25 May 2027 - Friday, 28 May 2027'. Reached via the cycon.org redirect to the organiser's (NATO
+          CCDCOE) Cvent page. The page does not state the format; in-person is assumed. The range may include
+          a workshop day."
+  - id: gh-cyphercon
+    name: CypherCon
+    organiser: CypherCon
+    category: cybersecurity
+    url: https://cyphercon.com
+    kind: conference
+    format: in-person
+    location: Milwaukee, United States
+    countryCode: US
+    editions:
+      - startDate: '2027-03-24'
+        endDate: '2027-03-25'
+        location: Milwaukee, United States
+        status: confirmed
+        sourceUrl: https://cyphercon.com
+        verifiedOn: '2026-11-08'
+        note: Baird Center, Milwaukee. Registration is open. The format is not stated and is inferred as in-person.
+  - id: gh-dunasec
+    name: DunaSec
+    organiser: DunaSec
+    category: cybersecurity
+    url: https://dunasec.com.br/
+    kind: conference
+    format: in-person
+    location: Natal
+    countryCode: BR
+    editions:
+      - startDate: '2026-05-30'
+        endDate: '2026-05-30'
+        location: Natal
+        status: confirmed
+        sourceUrl: https://dunasec.com.br/
+        verifiedOn: '2026-11-08'
+  - id: gh-elbsides
+    name: Elbsides
+    organiser: Elbsides
+    category: cybersecurity
+    url: https://elbsides.de
+    kind: conference
+    format: in-person
+    location: Hamburg
+    countryCode: DE
+    editions:
+      - startDate: '2026-06-05'
+        endDate: '2026-06-05'
+        location: Hamburg
+        status: unconfirmed
+        sourceUrl: https://elbsides.eu/
+        verifiedOn: '2026-11-08'
+  - id: gh-fal-con
+    name: Fal.Con (CrowdStrike)
+    organiser: Fal.Con (CrowdStrike)
+    category: cybersecurity
+    url: https://www.crowdstrike.com/en-us/events/fal-con/las-vegas/
+    kind: conference
+    format: in-person
+    location: Las Vegas
+    countryCode: US
+    editions:
+      - startDate: '2026-08-31'
+        endDate: '2026-09-03'
+        location: Las Vegas
+        status: confirmed
+        sourceUrl: https://www.crowdstrike.com/en-us/events/fal-con/las-vegas/
+        verifiedOn: '2026-11-08'
+  - id: gh-first-conference
+    name: FIRST Conference
+    organiser: FIRST Conference
+    category: cybersecurity
+    url: https://www.first.org/conference
+    kind: conference
+    format: in-person
+    location: Bangkok, Thailand
+    countryCode: TH
+    editions:
+      - startDate: '2026-06-14'
+        endDate: '2026-06-19'
+        location: Denver
+        status: confirmed
+        sourceUrl: https://www.first.org/conference
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-06-13'
+        endDate: '2027-06-18'
+        location: Bangkok, Thailand
+        status: confirmed
+        sourceUrl: https://www.first.org/conference
+        verifiedOn: '2026-11-08'
+        note:
+          39th Annual FIRST Conference, hosted by ThaiCERT and NCSA. The 40th is Prague, 11-16 June 2028
+          (save the date).
+  - id: gh-gisec-global
+    name: GISEC Global
+    organiser: GISEC Global
+    category: cybersecurity
+    url: https://www.gisec.ae
+    kind: conference
+    format: in-person
+    location: Dubai, United Arab Emirates
+    countryCode: AE
+    editions:
+      - startDate: '2026-05-05'
+        endDate: '2026-05-07'
+        location: Dubai
+        status: unconfirmed
+        sourceUrl: https://www.jetro.go.jp/en/database/j-messe/tradefair/detail/158811
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-05-04'
+        endDate: '2027-05-06'
+        location: Dubai, United Arab Emirates
+        status: confirmed
+        sourceUrl: https://www.gisec.ae
+        verifiedOn: '2026-11-08'
+        note: Dubai Exhibition Centre (DEC), Expo City.
+  - id: gh-gitex-global
+    name: GITEX Global
+    organiser: GITEX Global
+    category: cybersecurity
+    url: https://www.gitex.com
+    kind: conference
+    format: in-person
+    location: Dubai, United Arab Emirates
+    countryCode: AE
+    editions:
+      - startDate: '2025-10-13'
+        endDate: '2025-10-17'
+        location: Dubai
+        status: unconfirmed
+        sourceUrl: https://www.globalsources.com/trade-fair/resources/gitex-global
+        verifiedOn: '2026-11-08'
+      - startDate: '2026-12-07'
+        endDate: '2026-12-11'
+        location: Dubai, United Arab Emirates
+        status: confirmed
+        sourceUrl: https://www.gitex.com
+        verifiedOn: '2026-11-08'
+        note: Summit 7 Dec at Dubai World Trade Centre; Expo 8-11 Dec at Dubai Exhibition Centre, Expo City.
+  - id: gh-global-appsec-san-francisco
+    name: Global AppSec San Francisco
+    organiser: Global AppSec San Francisco
+    category: cybersecurity
+    url: https://sf.globalappsec.org
+    kind: conference
+    format: in-person
+    location: Atlanta, United States
+    countryCode: US
+    editions:
+      - startDate: '2026-11-02'
+        endDate: '2026-11-06'
+        location: San Francisco
+        status: unconfirmed
+        sourceUrl: https://owasp.glueup.com/event/owasp-global-appsec-usa-2026-167174/
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-09-20'
+        endDate: '2027-09-24'
+        location: Atlanta, United States
+        status: unconfirmed
+        sourceUrl: https://owasp.org/index.php/OWASP_Events/upcoming_events
+        verifiedOn: '2026-11-08'
+        note:
+          This is the 2027 OWASP Global AppSec USA, not a San Francisco edition. It comes from a search-result
+          summary of the OWASP events page, which I did not see directly; my fetch of that page showed no
+          2027 dates. Format is not stated and is assumed in-person.
+  - id: gh-gnu-radio-conference
+    name: GNU Radio Conference
+    organiser: GNU Radio Conference
+    category: cybersecurity
+    url: https://events.gnuradio.org/
+    kind: conference
+    format: in-person
+    editions:
+      - startDate: '2026-09-21'
+        endDate: '2026-09-25'
+        status: confirmed
+        sourceUrl: https://events.gnuradio.org/category/3/
+        verifiedOn: '2026-11-08'
+  - id: gh-grrcon
+    name: GrrCon
+    organiser: GrrCon
+    category: cybersecurity
+    url: https://grrcon.com
+    kind: conference
+    format: in-person
+    location: Grand Rapids, United States
+    countryCode: US
+    editions:
+      - startDate: '2026-09-24'
+        endDate: '2026-09-25'
+        location: Grand Rapids
+        status: unconfirmed
+        sourceUrl: https://nebulock.io/events/grrcon-2026
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-09-16'
+        endDate: '2027-09-17'
+        location: Grand Rapids, United States
+        status: confirmed
+        sourceUrl: https://grrcon.com
+        verifiedOn: '2026-11-08'
+        note: grrcon.com states 'September 16th and 17th, 2027 | DeVos Place, Grand Rapids Michigan'.
+  - id: gh-hack-lu
+    name: hack.lu
+    organiser: hack.lu
+    category: cybersecurity
+    url: https://hack.lu
+    kind: conference
+    format: in-person
+    location: Luxembourg
+    countryCode: LU
+    editions:
+      - startDate: '2026-10-20'
+        endDate: '2026-10-23'
+        location: Luxembourg
+        status: confirmed
+        sourceUrl: https://2026.hack.lu
+        verifiedOn: '2026-11-08'
+  - id: gh-hackfest
+    name: HackFest
+    organiser: HackFest
+    category: cybersecurity
+    url: https://hackfest.ca/en
+    kind: conference
+    format: in-person
+    location: Quebec City, Canada
+    countryCode: CA
+    editions:
+      - startDate: '2026-10-29'
+        endDate: '2026-10-31'
+        location: Quebec City
+        status: confirmed
+        sourceUrl: https://hackfest.ca/en
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-10-21'
+        endDate: '2027-10-23'
+        location: Quebec City, Canada
+        status: confirmed
+        sourceUrl: https://hackfest.ca/en
+        verifiedOn: '2026-11-08'
+        note: 19th edition. Trainings Oct 18-21 at Hotel Palace Royal; POLAR Oct 21 at Le Capitole de Quebec.
+  - id: gh-hardwear-io
+    name: hardwear.io
+    organiser: hardwear.io
+    category: cybersecurity
+    url: https://hardwear.io
+    kind: conference
+    format: in-person
+    location: Amsterdam, Netherlands
+    countryCode: NL
+    editions:
+      - startDate: '2026-05-29'
+        endDate: '2026-05-30'
+        location: Santa Clara
+        status: confirmed
+        sourceUrl: https://cfp.hardwear.io/hardwear-io-usa-2026/
+        verifiedOn: '2026-11-08'
+      - startDate: '2026-11-19'
+        endDate: '2026-11-20'
+        location: Amsterdam, Netherlands
+        status: confirmed
+        sourceUrl: https://hardwear.io
+        verifiedOn: '2026-11-08'
+        note:
+          Hardwear.io NL 2026, Amsterdam Marriott Hotel; conference days 19-20 Nov, trainings 16-18 Nov.
+          Registration open.
+  - id: gh-hitb
+    name: HITB
+    organiser: HITB
+    category: cybersecurity
+    url: https://conference.hitb.org
+    kind: conference
+    format: in-person
+    location: Jakarta
+    countryCode: ID
+    editions:
+      - startDate: '2026-04-29'
+        endDate: '2026-04-30'
+        location: Jakarta
+        status: confirmed
+        sourceUrl: https://conference.hitb.org
+        verifiedOn: '2026-11-08'
+  - id: gh-icispp
+    name: ICISPP
+    organiser: ICISPP
+    category: cybersecurity
+    url: http://icispp.org
+    kind: conference
+    format: in-person
+    location: Nantong, China
+    countryCode: CN
+    editions:
+      - startDate: '2027-07-16'
+        endDate: '2027-07-18'
+        location: Nantong, China
+        status: confirmed
+        sourceUrl: http://icispp.org
+        verifiedOn: '2026-11-08'
+        note:
+          Workshop of ICSIP 2027 (12th International Conference on Signal and Image Processing); sponsored
+          by Nantong University, Southeast University, Hohai University.
+  - id: gh-ieee-security-and-privacy
+    name: IEEE Security & Privacy
+    organiser: IEEE Security & Privacy
+    category: cybersecurity
+    url: https://www.ieee-security.org/TC/SP2027
+    kind: conference
+    format: in-person
+    location: Montreal, Canada
+    countryCode: CA
+    editions:
+      - startDate: '2026-05-18'
+        endDate: '2026-05-20'
+        location: San Francisco
+        status: confirmed
+        sourceUrl: https://www.ieee-security.org/TC/SP2026
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-05-17'
+        endDate: '2027-05-19'
+        location: Montreal, Canada
+        status: confirmed
+        sourceUrl: https://www.ieee-security.org/TC/SP2027
+        verifiedOn: '2026-11-08'
+        note: Le Centre Sheraton Montreal Hotel; workshops May 20.
+  - id: gh-infosecurity-europe
+    name: InfoSecurity Europe
+    organiser: InfoSecurity Europe
+    category: cybersecurity
+    url: https://www.infosecurityeurope.com
+    kind: conference
+    format: in-person
+    location: London, United Kingdom
+    countryCode: GB
+    editions:
+      - startDate: '2026-06-02'
+        endDate: '2026-06-04'
+        location: London
+        status: unconfirmed
+        sourceUrl: https://www.infosecurity-magazine.com/events/infosecurity-europe-2026/
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-06-08'
+        endDate: '2027-06-10'
+        location: London, United Kingdom
+        status: confirmed
+        sourceUrl: https://www.infosecurityeurope.com
+        verifiedOn: '2026-11-08'
+        note: Excel London, One Western Gateway, Royal Victoria Dock.
+  - id: gh-insomnihack
+    name: Insomnihack
+    organiser: Insomnihack
+    category: cybersecurity
+    url: https://insomnihack.ch
+    kind: conference
+    format: in-person
+    location: Lausanne (Ecublens), Switzerland
+    countryCode: CH
+    editions:
+      - startDate: '2026-03-16'
+        endDate: '2026-03-20'
+        location: Lausanne
+        status: confirmed
+        sourceUrl: https://cfp.insomnihack.ch/insomnihack-2026/cfp
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-02-01'
+        endDate: '2027-02-05'
+        location: Lausanne (Ecublens), Switzerland
+        status: confirmed
+        sourceUrl: https://insomnihack.ch
+        verifiedOn: '2026-11-08'
+        note:
+          SwissTech Convention Center. The official page lists 1-5 Feb 2027, but one header reads 1-6
+          Feb. The official CFP says workshops run 1-3 Feb.
+  - id: gh-it-sa-expo-and-congress
+    name: IT-SA Expo & Congress
+    organiser: IT-SA Expo & Congress
+    category: cybersecurity
+    url: https://www.itsa365.de/en/it-sa-expo-congress
+    kind: conference
+    format: in-person
+    location: Nuremberg, Germany
+    countryCode: DE
+    editions:
+      - startDate: '2027-10-05'
+        endDate: '2027-10-07'
+        location: Nuremberg, Germany
+        status: confirmed
+        sourceUrl: https://www.itsa365.de/en/it-sa-expo-congress
+        verifiedOn: '2026-11-08'
+        note: Organiser site states 5-7 October 2027.
+  - id: gh-jsac
+    name: JSAC
+    organiser: JSAC
+    category: cybersecurity
+    url: https://jsac.jpcert.or.jp
+    kind: conference
+    format: in-person
+    location: Tokyo, Japan
+    countryCode: JP
+    editions:
+      - startDate: '2026-01-21'
+        endDate: '2026-01-23'
+        location: Tokyo
+        status: confirmed
+        sourceUrl: https://jsac.jpcert.or.jp/archive/2026
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-01-19'
+        endDate: '2027-01-22'
+        location: Tokyo, Japan
+        status: confirmed
+        sourceUrl: https://jsac.jpcert.or.jp
+        verifiedOn: '2026-11-08'
+        note:
+          JSAC 2027, shown on the organiser (JPCERT/CC) site as 'January 19-22, 2027 @Tokyo, Japan'. Format
+          is not stated on the page; in-person is an assumption. The four-day range may include a training
+          or pre-event day.
+  - id: gh-labscon
+    name: LABScon
+    organiser: LABScon
+    category: cybersecurity
+    url: https://www.labscon.io
+    kind: conference
+    format: in-person
+    location: Scottsdale
+    countryCode: US
+    editions:
+      - startDate: '2026-09-16'
+        endDate: '2026-09-19'
+        location: Scottsdale
+        status: unconfirmed
+        sourceUrl: https://www.sentinelone.com/press/the-worlds-elite-security-researchers-head-to-arizona-for-labscon-2026/
+        verifiedOn: '2026-11-08'
+  - id: gh-layer-8-conference
+    name: Layer 8 Conference
+    organiser: Layer 8 Conference
+    category: cybersecurity
+    url: https://layer8conference.com
+    kind: conference
+    format: in-person
+    location: Boston
+    countryCode: US
+    editions:
+      - startDate: '2026-06-05'
+        endDate: '2026-06-06'
+        location: Boston
+        status: confirmed
+        sourceUrl: https://layer8conference.com
+        verifiedOn: '2026-11-08'
+  - id: gh-layerone
+    name: LayerOne
+    organiser: LayerOne
+    category: cybersecurity
+    url: https://www.layerone.org
+    kind: conference
+    format: in-person
+    location: Pasadena
+    countryCode: US
+    editions:
+      - startDate: '2026-05-23'
+        endDate: '2026-05-24'
+        location: Pasadena
+        status: confirmed
+        sourceUrl: https://www.layerone.org/layerone-2026-starts-tomorrow/
+        verifiedOn: '2026-11-08'
+  - id: gh-linux-foundation-events
+    name: Linux Foundation Events (Open Source SecurityCon North America)
+    organiser: Linux Foundation Events (Open Source SecurityCon North America)
+    category: cybersecurity
+    url: https://events.linuxfoundation.org
+    kind: conference
+    format: in-person
+    location: Salt Lake City, United States
+    countryCode: US
+    editions:
+      - startDate: '2025-11-10'
+        endDate: '2025-11-10'
+        location: Atlanta
+        status: confirmed
+        sourceUrl: https://events.linuxfoundation.org/archive/2025/kubecon-cloudnativecon-north-america/co-located-events/open-source-securitycon/
+        verifiedOn: '2026-11-08'
+      - startDate: '2026-11-09'
+        endDate: '2026-11-09'
+        location: Salt Lake City, United States
+        status: confirmed
+        sourceUrl: https://events.linuxfoundation.org
+        verifiedOn: '2026-11-08'
+        note:
+          Open Source SecurityCon North America, one day, co-located with KubeCon + CloudNativeCon North
+          America. Listed on the Linux Foundation events page as Nov 9, 2026, Salt Lake City. OpenSSF also
+          lists 2026-11-09. It is tomorrow, so it has not ended. The other North American security event on
+          the page is Confidential Computing Summit, Apr 19-20, 2027, San Francisco.
+  - id: gh-nsec
+    name: NSEC
+    organiser: NSEC
+    category: cybersecurity
+    url: https://www.nsec.io
+    kind: conference
+    format: in-person
+    location: Montreal, Canada
+    countryCode: CA
+    editions:
+      - startDate: '2026-05-10'
+        endDate: '2026-05-17'
+        location: Montreal
+        status: confirmed
+        sourceUrl: https://cfp.nsec.io/2026/cfp
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-05-10'
+        endDate: '2027-05-16'
+        location: Montreal, Canada
+        status: confirmed
+        sourceUrl: https://nsec.io
+        verifiedOn: '2026-11-08'
+        note:
+          nsec.io shows 'May 10-16, 2027' and a 2027 ticket link. That span probably covers training through
+          the CTF; the 2026 pattern had conference days within it. Venue likely Bonsecours Market (from the
+          2026 registration page). Third-party listings (infosec-conferences, Luminik) give May 17-23, 2027,
+          which conflicts. I trust the organiser's site.
+  - id: gh-nullcon
+    name: NullCon
+    organiser: NullCon
+    category: cybersecurity
+    url: https://nullcon.net
+    kind: conference
+    format: in-person
+    location: Goa, India
+    countryCode: IN
+    editions:
+      - startDate: '2026-11-05'
+        endDate: '2026-11-06'
+        location: Berlin
+        status: confirmed
+        sourceUrl: https://nullcon.net
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-02-27'
+        endDate: '2027-02-28'
+        location: Goa, India
+        status: confirmed
+        sourceUrl: https://nullcon.net
+        verifiedOn: '2026-11-08'
+        note:
+          Nullcon Goa 2027 at Urja Bharat Convention Center (UBCC), ONGC Goa. Trainings 24-26 Feb, Day
+          Zero 26 Feb, conference 27-28 Feb.
+  - id: gh-offensivecon
+    name: OffensiveCon
+    organiser: OffensiveCon
+    category: cybersecurity
+    url: https://www.offensivecon.org
+    kind: conference
+    format: in-person
+    location: Berlin
+    countryCode: DE
+    editions:
+      - startDate: '2026-05-15'
+        endDate: '2026-05-16'
+        location: Berlin
+        status: confirmed
+        sourceUrl: https://www.offensivecon.org
+        verifiedOn: '2026-11-08'
+  - id: gh-offzone
+    name: OFFZONE
+    organiser: OFFZONE
+    category: cybersecurity
+    url: https://www.offzone.moscow
+    kind: conference
+    format: in-person
+    location: Moscow
+    countryCode: RU
+    editions:
+      - startDate: '2026-08-20'
+        endDate: '2026-08-21'
+        location: Moscow
+        status: confirmed
+        sourceUrl: https://offzone.moscow
+        verifiedOn: '2026-11-08'
+  - id: gh-osintcon
+    name: OSINTCon
+    organiser: OSINTCon
+    category: cybersecurity
+    url: https://osintconference.com
+    kind: conference
+    format: online
+    editions:
+      - startDate: '2026-05-31'
+        endDate: '2026-05-31'
+        location: Online
+        status: unconfirmed
+        sourceUrl: https://osintverse.com/osintcon
+        verifiedOn: '2026-11-08'
+  - id: gh-power-of-community
+    name: Power of Community
+    organiser: Power of Community
+    category: cybersecurity
+    url: https://powerofcommunity.net
+    kind: conference
+    format: in-person
+    location: Seoul, South Korea
+    countryCode: KR
+    editions:
+      - startDate: '2025-11-13'
+        endDate: '2025-11-14'
+        location: Seoul
+        status: confirmed
+        sourceUrl: https://powerofcommunity.net/archive/2025
+        verifiedOn: '2026-11-08'
+      - startDate: '2026-11-12'
+        endDate: '2026-11-13'
+        location: Seoul, South Korea
+        status: confirmed
+        sourceUrl: https://powerofcommunity.net
+        verifiedOn: '2026-11-08'
+        note:
+          "Official site: 'November 12-13, 2026, The Westin Seoul Parnas, Korea'. This is days away
+          and has not ended."
+  - id: gh-pwn2own
+    name: Pwn2Own
+    organiser: Pwn2Own
+    category: cybersecurity
+    url: https://www.zerodayinitiative.com/blog
+    kind: conference
+    format: in-person
+    location: Cork
+    countryCode: IE
+    editions:
+      - startDate: '2026-10-06'
+        endDate: '2026-10-09'
+        location: Cork
+        status: unconfirmed
+        sourceUrl: https://www.thezdi.com/blog/2026/7/21/pwn2own-ireland-2026-new-targets-and-categories
+        verifiedOn: '2026-11-08'
+  - id: gh-recon
+    name: REcon
+    organiser: REcon
+    category: cybersecurity
+    url: https://recon.cx/
+    kind: conference
+    format: in-person
+    location: Montreal, Canada
+    countryCode: CA
+    editions:
+      - startDate: '2026-06-19'
+        endDate: '2026-06-21'
+        location: Montreal
+        status: confirmed
+        sourceUrl: https://recon.cx/2026/en/index.html
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-06-18'
+        endDate: '2027-06-20'
+        location: Montreal, Canada
+        status: confirmed
+        sourceUrl: https://recon.cx/2027/en/index.html
+        verifiedOn: '2026-11-08'
+        note:
+          REcon 2027, DoubleTree by Hilton Montreal, from the organiser's schema.org Event data. The 18-20
+          June span may cover the conference only or include training, so check the page.
+  - id: gh-sans-open-source-intelligence-summit
+    name: SANS Open-Source Intelligence Summit
+    organiser: SANS Open-Source Intelligence Summit
+    category: cybersecurity
+    url: https://www.sans.org/cyber-security-summit
+    kind: conference
+    format: in-person
+    location: Alexandria, Virginia, United States
+    countryCode: US
+    editions:
+      - startDate: '2026-03-16'
+        endDate: '2026-03-16'
+        location: Arlington, Virginia
+        status: confirmed
+        sourceUrl: https://www.sans.org/cyber-security-training-events/sans-osint-summit-2026
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-02-01'
+        endDate: '2027-02-02'
+        location: Alexandria, Virginia, United States
+        status: confirmed
+        sourceUrl: https://www.sans.org/cyber-security-training-events/sans-osint-summit-2027
+        verifiedOn: '2026-11-08'
+        note:
+          SANS OSINT Summit 2027 at The Westin Alexandria Old Town. Summit is in person only, co-located
+          with the SANS CTI Summit. Training runs 3-8 Feb 2027 in person or live online.
+  - id: gh-sector
+    name: SecTor
+    organiser: SecTor
+    category: cybersecurity
+    url: https://www.blackhat.com/sector/
+    kind: conference
+    format: in-person
+    location: Toronto
+    countryCode: CA
+    editions:
+      - startDate: '2026-10-06'
+        endDate: '2026-10-08'
+        location: Toronto
+        status: confirmed
+        sourceUrl: https://blackhat.com/html/press/2026-09-16.html
+        verifiedOn: '2026-11-08'
+  - id: gh-splunk-conf
+    name: Splunk .conf
+    organiser: Splunk .conf
+    category: cybersecurity
+    url: https://conf.splunk.com
+    kind: conference
+    format: in-person
+    location: Chicago, United States
+    countryCode: US
+    editions:
+      - startDate: '2026-09-14'
+        endDate: '2026-09-17'
+        location: Denver
+        status: confirmed
+        sourceUrl: https://www.splunk.com/de_de/blog/conf-splunklive/top-5-reasons-to-attend-conf26-in-denver.html
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-10-04'
+        endDate: '2027-10-07'
+        location: Chicago, United States
+        status: confirmed
+        sourceUrl: https://conf.splunk.com
+        verifiedOn: '2026-11-08'
+        note: .conf27 at McCormick Place Convention Center, Chicago. Registration not yet open.
+  - id: gh-steelcon
+    name: SteelCon
+    organiser: SteelCon
+    category: cybersecurity
+    url: https://www.steelcon.info/
+    kind: conference
+    format: in-person
+    location: Sheffield
+    countryCode: GB
+    editions:
+      - startDate: '2026-07-10'
+        endDate: '2026-07-12'
+        location: Sheffield
+        status: confirmed
+        sourceUrl: https://www.steelcon.info/
+        verifiedOn: '2026-11-08'
+  - id: gh-technosecurity
+    name: TechnoSecurity
+    organiser: TechnoSecurity
+    category: cybersecurity
+    url: https://www.technosecurity.us
+    kind: conference
+    format: in-person
+    location: Myrtle Beach, United States
+    countryCode: US
+    editions:
+      - startDate: '2026-10-20'
+        endDate: '2026-10-22'
+        location: San Diego
+        status: confirmed
+        sourceUrl: https://www.technosecurity.us
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-05-25'
+        endDate: '2027-05-27'
+        location: Myrtle Beach, United States
+        status: confirmed
+        sourceUrl: https://www.technosecurity.us
+        verifiedOn: '2026-11-08'
+        note:
+          Myrtle Beach Sheraton & Convention Center. The site gives no country or format; the US location
+          and in-person format are inferred.
+  - id: gh-techsponyc
+    name: Techsponyc
+    organiser: Techsponyc
+    category: cybersecurity
+    url: https://techsponyc.com/
+    kind: conference
+    format: in-person
+    location: New York, United States
+    countryCode: US
+    editions:
+      - startDate: '2026-04-09'
+        endDate: '2026-04-10'
+        location: New York
+        status: confirmed
+        sourceUrl: https://techsponyc.com/
+        verifiedOn: '2026-11-08'
+      - startDate: '2027-04-22'
+        endDate: '2027-04-23'
+        location: New York, United States
+        status: confirmed
+        sourceUrl: https://techsponyc.com/
+        verifiedOn: '2026-11-08'
+        note:
+          TECHSPO New York 2027 at the New York Marriott at the Brooklyn Bridge Hotel. The format is not
+          stated and is inferred as in-person.
+  - id: gh-thotcon
+    name: THOTCON
+    organiser: THOTCON
+    category: cybersecurity
+    url: https://www.thotcon.org
+    kind: conference
+    format: in-person
+    location: Chicago, United States
+    countryCode: US
+    editions:
+      - startDate: '2027-06-11'
+        endDate: '2027-06-12'
+        location: Chicago, United States
+        status: confirmed
+        sourceUrl: https://www.thotcon.org
+        verifiedOn: '2026-11-08'
+        note: THOTCON 0xE; venue is only disclosed to attendees in the two weeks before the event.
+  - id: gh-vulncon
+    name: VulnCon
+    organiser: VulnCon
+    category: cybersecurity
+    url: https://vulncon.in
+    kind: conference
+    format: in-person
+    location: Bengaluru
+    countryCode: IN
+    editions:
+      - startDate: '2026-06-12'
+        endDate: '2026-06-13'
+        location: Bengaluru
+        status: confirmed
+        sourceUrl: https://vulncon.in
+        verifiedOn: '2026-11-08'
+  - id: gh-whitehatdesert
+    name: WhiteHatDesert
+    organiser: WhiteHatDesert
+    category: cybersecurity
+    url: https://whitehatdesert.com
+    kind: conference
+    format: in-person
+    location: Doha
+    countryCode: QA
+    editions:
+      - startDate: '2025-11-15'
+        endDate: '2025-11-15'
+        location: Doha
+        status: confirmed
+        sourceUrl: https://whitehatdesert.com
+        verifiedOn: '2026-11-08'
+  - id: gh-wisec
+    name: WISEC
+    organiser: WISEC
+    category: cybersecurity
+    url: https://wisec26.events.cispa.de/
+    kind: conference
+    format: in-person
+    location: Saarbrucken
+    countryCode: DE
+    editions:
+      - startDate: '2026-06-30'
+        endDate: '2026-07-03'
+        location: Saarbrucken
+        status: confirmed
+        sourceUrl: https://wisec26.events.cispa.de/
+        verifiedOn: '2026-11-08'
+  - id: gh-zer0con
+    name: zer0con
+    organiser: zer0con
+    category: cybersecurity
+    url: https://zer0con.org
+    kind: conference
+    format: in-person
+    location: Seoul
+    countryCode: KR
+    editions:
+      - startDate: '2026-04-02'
+        endDate: '2026-04-03'
+        location: Seoul
+        status: confirmed
+        sourceUrl: https://zer0con.org
+        verifiedOn: '2026-11-08'

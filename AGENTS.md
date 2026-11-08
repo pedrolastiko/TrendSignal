@@ -248,7 +248,7 @@ Statuses: `Breakout`, `Emerging`, `Rising`, `Stable`, `Declining`.
 
 Webinars and conferences, kept apart from articles because their date lies ahead.
 
-Scope: every online event (webinars, webcasts, virtual conferences), plus in-person and hybrid events held in North America (United States, Canada, Mexico), in IT, AI and cybersecurity. Language is irrelevant.
+Scope: every online event (webinars, webcasts, virtual conferences), plus in-person and hybrid events held anywhere in the world (`scope: worldwide`, the default of `config/event-sources.yml`; `north-america` restricts in-person events to the United States, Canada and Mexico), in IT, AI and cybersecurity. Each in-person or hybrid event carries a `continent` (derived from the stated country, else the location text, else the source's `region`), shown on its card and usable as a filter. Language is irrelevant.
 
 Display: a left-menu entry, upcoming events grouped by day, filters (type, format, keyword, source, period), a card per event (type and format in words, date and time in the reader's time zone, organiser, location, matched keywords, summary, external link), a client-side `.ics` download per event (no backend, no reminders), a compact "Upcoming events" block on the Dashboard, and a collapsible list of event sources with their health.
 
@@ -422,7 +422,7 @@ sources:
     excludePaths: []
 ```
 
-`config/event-sources.yml` declares event sources the same way (`collectionMode`: `ics`, `rss` where `pubDate` is the event start, `jsonld` for a listing page whose linked pages carry a schema.org Event, the source-specific `cncf-events`, `techconf-ca` and `observability-360`, or `curated` for a hand-kept YAML file of flagship conferences), plus `region` (`north-america` or `global`) and `includeUnmatched` (keep events matching no tracked keyword; only for publishers whose whole scope is IT, AI or cybersecurity). Validate every endpoint live with `scripts/audit-events.ts` before setting `enabled: true`; never guess one. A date that is not confirmed by the organiser must be flagged `estimated`: either projected from last year's edition (same calendar day, only when that edition is less than a year old) or reported by listings only. Hand-entered dates carry the URL they were read at and the day they were checked.
+`config/event-sources.yml` declares event sources the same way (`collectionMode`: `ics`, `rss` where `pubDate` is the event start, `jsonld` for a listing page whose linked pages carry a schema.org Event, the source-specific `cncf-events`, `techconf-ca`, `observability-360`, `qgmedia` and `infosec-conferences`, or `curated` for a hand-kept YAML file of flagship conferences), plus `region` (`north-america` or `global`) and `includeUnmatched` (keep events matching no tracked keyword; only for publishers whose whole scope is IT, AI or cybersecurity). Validate every endpoint live with `scripts/audit-events.ts` before setting `enabled: true`; never guess one. A date that is not confirmed by the organiser must be flagged `estimated`: either projected from last year's edition (same calendar day, only when that edition is less than a year old) or reported by listings only. Hand-entered dates carry the URL they were read at and the day they were checked.
 
 `config/keywords.yml` contains bilingual terms:
 

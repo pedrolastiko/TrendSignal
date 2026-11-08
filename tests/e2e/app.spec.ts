@@ -309,6 +309,57 @@ test.describe('TrendSignal', () => {
         await expect(page.getByText(/events\.json failed schema validation/)).toBeVisible();
       });
 
+      test('the continent shows on each card and filters the list', async ({ page }) => {
+        const start = new Date(Date.now() + 10 * 24 * 3600 * 1000).toISOString();
+        const base = {
+          url: 'https://example.com/e',
+          sourceId: 's',
+          sourceName: 'Source',
+          company: 'Organiser',
+          sourceCategory: 'cybersecurity',
+          startsAt: start,
+          allDay: false,
+          kind: 'conference',
+          format: 'in-person',
+          summary: '',
+          language: 'en',
+          matchedKeywordIds: [],
+          relevanceScore: 10,
+          discoveredAt: start,
+          dateStatus: 'confirmed',
+        };
+        await page.route('**/events.json*', (route) =>
+          route.fulfill({
+            json: {
+              generatedAt: new Date().toISOString(),
+              events: [
+                {
+                  ...base,
+                  id: 'a',
+                  title: 'Seoul Security Days',
+                  location: 'Seoul',
+                  continent: 'asia',
+                },
+                {
+                  ...base,
+                  id: 'b',
+                  title: 'Paris Cyber Forum',
+                  location: 'Paris',
+                  continent: 'europe',
+                },
+              ],
+              sources: [],
+            },
+          }),
+        );
+        await page.goto('/#/events');
+        await expect(page.getByText('Seoul Security Days')).toBeVisible();
+        await expect(page.getByText('Paris Cyber Forum')).toBeVisible();
+        await page.getByLabel('Continent').selectOption('europe');
+        await expect(page.getByText('Paris Cyber Forum')).toBeVisible();
+        await expect(page.getByText('Seoul Security Days')).toHaveCount(0);
+      });
+
       test('event links are safe, and a calendar file can be saved', async ({ page }) => {
         await page.goto('/#/events');
         const card = page.locator('article[data-event-card]').first();

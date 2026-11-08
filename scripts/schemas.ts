@@ -254,6 +254,8 @@ export const eventCollectionModeSchema = z.enum([
   'cncf-events',
   'techconf-ca',
   'observability-360',
+  'qgmedia',
+  'infosec-conferences',
   'curated',
 ]);
 

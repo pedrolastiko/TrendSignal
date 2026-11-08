@@ -3,7 +3,9 @@ import { collectEventsFromIcs } from './adapters/events-ics.ts';
 import { collectEventsFromJsonLd } from './adapters/events-jsonld.ts';
 import { collectEventsFromRss } from './adapters/events-rss.ts';
 import { collectEventsFromCuratedSeries } from './adapters/source-specific/curated-series.ts';
+import { collectEventsFromInfosecConferences } from './adapters/source-specific/infosec-conferences.ts';
 import { collectEventsFromObservability360 } from './adapters/source-specific/observability-360.ts';
+import { collectEventsFromQgMedia } from './adapters/source-specific/qgmedia.ts';
 import { collectEventsFromTechconf } from './adapters/source-specific/techconf-ca.ts';
 import { collectEventsFromCncf } from './adapters/source-specific/cncf-events.ts';
 import type { EventAdapterResult } from './adapters/types.ts';
@@ -60,6 +62,10 @@ function runAdapter(
       return collectEventsFromTechconf(source, repositoryUrl, now);
     case 'observability-360':
       return collectEventsFromObservability360(source, repositoryUrl);
+    case 'qgmedia':
+      return collectEventsFromQgMedia(source, repositoryUrl);
+    case 'infosec-conferences':
+      return collectEventsFromInfosecConferences(source, repositoryUrl, now);
     case 'curated':
       return collectEventsFromCuratedSeries(source, now);
   }

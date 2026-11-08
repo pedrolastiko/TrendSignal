@@ -116,7 +116,7 @@ Events (webinars, conferences) have their own file, `config/event-sources.yml`, 
    `pubDate` is the event start, or a documented public API. A page that renders its list in the
    browser (Algolia, a single-page app) carries no event data in its HTML and cannot be collected.
 2. Add the entry. `collectionMode` is `ics`, `rss` (pubDate = start), `jsonld`, `cncf-events`,
-   `techconf-ca`, `observability-360` or `curated`. Set `region`
+   `techconf-ca`, `observability-360`, `qgmedia`, `infosec-conferences` or `curated`. Set `region`
    to `north-america` only if the publisher's in-person events really are there, and
    `includeUnmatched: true` only if the publisher's whole scope is IT, AI or cybersecurity.
    For `jsonld`, `feedUrl` is a listing page whose HTML contains the links to the event pages, and
@@ -129,7 +129,8 @@ Events (webinars, conferences) have their own file, `config/event-sources.yml`, 
    ```
 
    It prints what would be published: dates, format, kind, matched keywords. Check that the events
-   are real, upcoming and in scope (online, or North America), and that nothing off-topic gets in.
+   are real, upcoming and in scope (see `scope` at the top of the file), that the continent column is
+   right, and that nothing off-topic gets in.
 
 4. Record in the file's header comment what you collected and what you left out, with the reason.
 

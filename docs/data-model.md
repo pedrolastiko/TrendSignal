@@ -170,10 +170,13 @@ Events are a separate dataset from articles. An event's date lies ahead, so it m
 scoring or the "latest articles" ordering, and an article date and an event date answer different
 questions. They are collected in the same run (`scripts/collect.ts`), published as
 `generated/events.json`, and listed in the manifest (`files['events.json']`, `eventCount`).
-`events.json` is `{ generatedAt, events: EventItem[], sources: EventSourceStatus[] }`; the schemas
+`events.json` is `{ generatedAt, events: EventItem[], sources: EventSourceStatus[] }`; an in-person or hybrid
+event carries an optional `continent` (`north-america`, `south-america`, `europe`, `asia`, `africa`,
+`oceania`), derived by `scripts/events/continent.ts`, absent for online events or when the place cannot be
+placed; the schemas
 are in `scripts/schemas.ts` (generation) and `src/data/schemas.ts` (browser).
 
-**Sources** are declared in `config/event-sources.yml` (`ics`, `rss`, `jsonld`, `cncf-events`):
+**Sources** are declared in `config/event-sources.yml` (`ics`, `rss`, `jsonld`, `cncf-events`, `techconf-ca`, `observability-360`, `qgmedia`, `infosec-conferences`, `curated`):
 
 - `ics`: an iCalendar feed. Times with a `TZID` are converted to UTC through `Intl`; a floating
   time is read as UTC; `VALUE=DATE` events are all-day. Cancelled events are skipped. The response
@@ -194,6 +197,15 @@ are in `scripts/schemas.ts` (generation) and `src/data/schemas.ts` (browser).
   appears twice on the page (a card and a summary row), so blocks are merged on their link; dates
   are written for people ("23-24 Oct 2025") and parsed, a place of "Virtual" or "Online" is an
   online event. No block, or none with a date, is an error.
+- `qgmedia`: qgmedia.io/events, one card per event of the organiser (title, link, series label,
+  an excerpt "27th – 28th October 2026 | São Paulo"). Dates go through the shared human-date parser
+  (`scripts/events/human-date.ts`), which needs a year and refuses anything it cannot read; cards
+  without a date are skipped. The organiser lists its own events, so dates are `confirmed`. No
+  card is an error.
+- `infosec-conferences`: infosec-conferences.com through its public WordPress REST API. A slug
+  starts with the start day, so events are listed by slug, latest first, and paging stops at the
+  first past day. Country and US state come from taxonomy terms; an event with no country is a
+  webinar. A directory only reports dates, so they are `estimated` (no `estimatedFrom`).
 - `curated`: a YAML file under `config/` (`config/event-series.yml`) kept by hand, for conferences
   whose organisers cannot be collected (Black Hat, RSAC and Gartner answer 403) or that are not
   listings (DEF CON, re:Invent, Microsoft Ignite and Build). Nothing is fetched. Each series lists
@@ -208,7 +220,8 @@ are in `scripts/schemas.ts` (generation) and `src/data/schemas.ts` (browser).
 3. Not over: for all-day events the end is exclusive, so a one-day event ends the next midnight
    UTC; a timed event with no end is assumed to last two hours.
 4. Not more than 548 days ahead.
-5. **In scope**: every online event, plus in-person and hybrid events in North America (United
+5. **In scope**: every event under the default `scope: worldwide`. Under `scope: north-america`,
+   every online event, plus in-person and hybrid events in North America (United
    States, Canada, Mexico). An explicit country code settles it; otherwise the text is searched
    for the area, a country or a conference town, and a location ending in a US state or Canadian
    province ("Half Moon Bay, CA"; only abbreviations that are not also an ISO country code, so

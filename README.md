@@ -16,8 +16,9 @@ are collected like any other — so French content is still matched and indexed.
   ribbon marks items whose date is still in the future (events, webinars…; dates less than an
   hour ahead are treated as publisher clock drift).
 - **Trends** — 24h/7d/30d trend scores, growth, source diversity, and related articles.
-- **Events** — upcoming webinars and conferences on the topics you track (online worldwide, plus
-  in-person events in North America), grouped by day, with filters and a per-event calendar file.
+- **Events** — upcoming webinars and conferences on the topics you track (online and in-person, worldwide),
+  grouped by day, with filters (including the continent where an event is held) and a per-event
+  calendar file.
 - **Keywords** — the monitored topic list with per-keyword detection stats.
 - **Sources** — monitored publishers and their collection health.
 
@@ -187,13 +188,28 @@ Events are collected from `config/event-sources.yml` in the same `collect` run a
   listings link to).
 - **Lists of conferences**: techconf.ca (Canada) and Observability 360. The latter's page only
   lists events of autumn 2025, so it currently yields none.
+- **Directories** (validated live on 2026-11-08): qgmedia.io/events (the events QG Media
+  organises itself, so their dates count as organiser-stated) and infosec-conferences.com (read
+  through the site's public WordPress REST API; a directory only reports dates, so each is shown
+  as "Date not confirmed"; entries without a country are treated as webinars).
+- **A researched conference list**: the 52 conferences of the MrM8BRH/CyberSecurity_Conferences
+  list that could be dated, kept by hand in `config/event-series-github-list.yml`. The list itself
+  carries no dates, so each conference's own site was read (or a web search used when the site
+  could not be, which is then marked unconfirmed) on the day recorded per edition. 13 are left
+  out (dormant, cancelled, or no date findable); the file's header says so.
 - **Flagship conferences kept by hand** in `config/event-series.yml`, each date traced to where it
   was read: RSA Conference, Black Hat USA, DEF CON, AWS re:Invent, Microsoft Ignite and Build, and
   the Gartner Security & Risk Management Summit (North America).
 
 **Gartner's cybersecurity hub cannot be collected**: it answers 403 to the collector, and that
-protection is not circumvented. Only its North American flagship summit is entered by hand; its
-other security summits are held outside North America and fall outside the scope.
+protection is not circumvented. Only its North American flagship summit is entered by hand.
+
+**Scope and continent**: by default every event is kept wherever it is held
+(`scope: worldwide` at the top of `config/event-sources.yml`; set `north-america` to keep only
+online events and North American in-person ones). Each in-person or hybrid event carries the
+continent it is held on, worked out from the country the publisher states, else from the
+location text (country, major city, US state or Canadian province), else from the source's
+`region`; the Events page shows it on the card and filters on it. Online events have no continent.
 
 **Dates the organiser has not confirmed** are shown as such ("Date not confirmed"). For the
 techconf.ca list, a conference with no new date announced is assumed to repeat last year's
@@ -235,8 +251,9 @@ fetches successfully but yields no usable article. See `docs/architecture.md`.
 - Events: a source's feed lists upcoming events only, so there is no history. A projected date
   (same day, next year) is a guess and is flagged as one: conferences move, and some stop. Whether an event is
   online is read from its title, location and summary, which is a heuristic; a publisher that
-  never says "webinar" or "virtual" for an online event will have it treated as in-person (and
-  dropped outside North America). CNCF's webinar listing (`lf_webinar`) is not collected: none of
+  never says "webinar" or "virtual" for an online event will have it treated as in-person. An
+  event whose place the collector cannot place gets no continent and shows under "All continents"
+  only. CNCF's webinar listing (`lf_webinar`) is not collected: none of
   its latest 100 entries was upcoming when it was probed.
 
 - MVP-scope generic HTML/sitemap adapters use metadata extraction only (JSON-LD → Open Graph →
