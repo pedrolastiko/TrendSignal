@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T03:54:57.248Z",
+  "generatedAt": "2026-11-08T06:06:38.423Z",
   "events": [
     {
       "id": "13631fa371060aa9bd0ec2d58a2bf8ab444eb5584b6bf45508ab3efa97dd2a4c",
@@ -1501,11 +1501,11 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-08T03:54:57.248Z",
-        "lastSuccessAt": "2026-11-08T03:54:57.248Z",
-        "responseTimeMs": 1464,
+        "lastAttemptAt": "2026-11-08T06:06:38.423Z",
+        "lastSuccessAt": "2026-11-08T06:06:38.423Z",
+        "responseTimeMs": 1335,
         "itemsFetched": 30,
-        "newItems": 12,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     },
@@ -1519,9 +1519,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-08T03:54:57.248Z",
-        "lastSuccessAt": "2026-11-08T03:54:57.248Z",
-        "responseTimeMs": 3513,
+        "lastAttemptAt": "2026-11-08T06:06:38.423Z",
+        "lastSuccessAt": "2026-11-08T06:06:38.423Z",
+        "responseTimeMs": 3152,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1537,9 +1537,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-08T03:54:57.248Z",
-        "lastSuccessAt": "2026-11-08T03:54:57.248Z",
-        "responseTimeMs": 1407,
+        "lastAttemptAt": "2026-11-08T06:06:38.423Z",
+        "lastSuccessAt": "2026-11-08T06:06:38.423Z",
+        "responseTimeMs": 1087,
         "itemsFetched": 14,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1554,11 +1554,11 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-08T03:54:57.248Z",
-        "lastSuccessAt": "2026-11-08T03:54:57.248Z",
+        "lastAttemptAt": "2026-11-08T06:06:38.423Z",
+        "lastSuccessAt": "2026-11-08T06:06:38.423Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
-        "newItems": 7,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     },
@@ -1572,9 +1572,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-08T03:54:57.248Z",
-        "lastSuccessAt": "2026-11-08T03:54:57.248Z",
-        "responseTimeMs": 300,
+        "lastAttemptAt": "2026-11-08T06:06:38.423Z",
+        "lastSuccessAt": "2026-11-08T06:06:38.423Z",
+        "responseTimeMs": 174,
         "itemsFetched": 25,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1590,9 +1590,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-08T03:54:57.248Z",
-        "lastSuccessAt": "2026-11-08T03:54:57.248Z",
-        "responseTimeMs": 614,
+        "lastAttemptAt": "2026-11-08T06:06:38.423Z",
+        "lastSuccessAt": "2026-11-08T06:06:38.423Z",
+        "responseTimeMs": 419,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1608,11 +1608,11 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-08T03:54:57.248Z",
-        "lastSuccessAt": "2026-11-08T03:54:57.248Z",
-        "responseTimeMs": 492,
+        "lastAttemptAt": "2026-11-08T06:06:38.423Z",
+        "lastSuccessAt": "2026-11-08T06:06:38.423Z",
+        "responseTimeMs": 213,
         "itemsFetched": 5,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1626,11 +1626,11 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-08T03:54:57.248Z",
-        "lastSuccessAt": "2026-11-08T03:54:57.248Z",
-        "responseTimeMs": 340,
+        "lastAttemptAt": "2026-11-08T06:06:38.423Z",
+        "lastSuccessAt": "2026-11-08T06:06:38.423Z",
+        "responseTimeMs": 285,
         "itemsFetched": 15,
-        "newItems": 15,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1644,11 +1644,11 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-08T03:54:57.248Z",
-        "lastSuccessAt": "2026-11-08T03:54:57.248Z",
-        "responseTimeMs": 3512,
+        "lastAttemptAt": "2026-11-08T06:06:38.423Z",
+        "lastSuccessAt": "2026-11-08T06:06:38.423Z",
+        "responseTimeMs": 3328,
         "itemsFetched": 12,
-        "newItems": 4,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1662,11 +1662,11 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-08T03:54:57.248Z",
-        "lastSuccessAt": "2026-11-08T03:54:57.248Z",
-        "responseTimeMs": 2312,
+        "lastAttemptAt": "2026-11-08T06:06:38.423Z",
+        "lastSuccessAt": "2026-11-08T06:06:38.423Z",
+        "responseTimeMs": 1545,
         "itemsFetched": 12,
-        "newItems": 6,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     }
