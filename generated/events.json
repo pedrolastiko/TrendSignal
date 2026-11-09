@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T06:39:36.551Z",
+  "generatedAt": "2026-11-09T22:24:47.285Z",
   "events": [
     {
       "id": "0d20ff5dada365ac352c165e64e98ead017d37bb76892d0cfcb5223aba44bea2",
@@ -523,6 +523,26 @@
       "dateStatus": "confirmed"
     },
     {
+      "id": "4c6e8e6b8716f7cec6b9fe2d3a7d7cbc358db4b31d6b6a2a782571053fea33c0",
+      "title": "Member Webinar: Building a Business Case for Passkeys",
+      "url": "https://fidoalliance.org/event/member-webinar-building-a-business-case-for-passkeys/",
+      "sourceId": "fido-events",
+      "sourceName": "FIDO Alliance Events",
+      "company": "FIDO Alliance",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2026-11-18T16:00:00.000Z",
+      "endsAt": "2026-11-18T17:00:00.000Z",
+      "allDay": false,
+      "kind": "webinar",
+      "format": "online",
+      "summary": "Passkeys only save money when users actually log in with them. In 45 minutes, Vincent Delitz shows banks, insurers and public sector teams where the savings come from and how to calculate them with their own numbers. What you’ll learn: The four cost levers: SMS OTP, password resets, account takeover and compliance…",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 6,
+      "discoveredAt": "2026-11-09T22:24:47.285Z",
+      "dateStatus": "confirmed"
+    },
+    {
       "id": "4efb36e748d68b0684074e92033d4ce99c935c370b6538ada9ab07c5c19a07a2",
       "title": "Tenable OT Office Hours",
       "url": "https://www.tenable.com/webinars/emea-tenable-ot-office-hours-q4-2026",
@@ -717,6 +737,25 @@
       ],
       "relevanceScore": 54,
       "discoveredAt": "2026-11-08T03:54:57.248Z",
+      "dateStatus": "confirmed"
+    },
+    {
+      "id": "2d7d5a9d7be6675dc139c51f8622f5d92f37b5ea2f285608b6553ab919154b28",
+      "title": "2027年のセキュリティ戦略を磨く: CTEM（継続的エクスポージャー管理）で実践するリスク主導の予防アプローチ",
+      "url": "https://www.tenable.com/webinars/apac-strategy-security-in-2027-risk-driven-preventive-ctem",
+      "sourceId": "tenable-webinars",
+      "sourceName": "Tenable Webinars",
+      "company": "Tenable",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2026-12-09T07:00:00.000Z",
+      "allDay": false,
+      "kind": "webinar",
+      "format": "online",
+      "summary": "2027年度や中長期のセキュリティロードマップ策定に向けて、サイバーリスクの可視化や「予防的サイバーセキュリティ」の導入検討を進める企業が増加しています。本ウェビナーでは、Gartnerが提唱するCTEM（継続的エクスポージャー管理）やエクスポージャー管理の基礎概念から、具体的な導入アプローチまでを分かりやすく解説します。8月に実施したウェビナーから最新の市場動向やAIリスク対策の視点を加えてアップデート。セキュリティ施策の優先順位付けに課題をお持ちの方、2027年に向けて実質的なリスク削減を図りたい企業の情報システム・セキュリティ部門の皆様におすすめです。【主なアジェンダ】",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 6,
+      "discoveredAt": "2026-11-09T22:24:47.285Z",
       "dateStatus": "confirmed"
     },
     {
@@ -1480,9 +1519,9 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-09T06:39:36.551Z",
-        "lastSuccessAt": "2026-11-09T06:39:36.551Z",
-        "responseTimeMs": 1190,
+        "lastAttemptAt": "2026-11-09T22:24:47.285Z",
+        "lastSuccessAt": "2026-11-09T22:24:47.285Z",
+        "responseTimeMs": 1179,
         "itemsFetched": 30,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1498,9 +1537,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-09T06:39:36.551Z",
-        "lastSuccessAt": "2026-11-09T06:39:36.551Z",
-        "responseTimeMs": 2838,
+        "lastAttemptAt": "2026-11-09T22:24:47.285Z",
+        "lastSuccessAt": "2026-11-09T22:24:47.285Z",
+        "responseTimeMs": 3677,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1516,11 +1555,11 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-09T06:39:36.551Z",
-        "lastSuccessAt": "2026-11-09T06:39:36.551Z",
-        "responseTimeMs": 864,
-        "itemsFetched": 14,
-        "newItems": 0,
+        "lastAttemptAt": "2026-11-09T22:24:47.285Z",
+        "lastSuccessAt": "2026-11-09T22:24:47.285Z",
+        "responseTimeMs": 667,
+        "itemsFetched": 15,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1533,8 +1572,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-09T06:39:36.551Z",
-        "lastSuccessAt": "2026-11-09T06:39:36.551Z",
+        "lastAttemptAt": "2026-11-09T22:24:47.285Z",
+        "lastSuccessAt": "2026-11-09T22:24:47.285Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1551,9 +1590,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-09T06:39:36.551Z",
-        "lastSuccessAt": "2026-11-09T06:39:36.551Z",
-        "responseTimeMs": 244,
+        "lastAttemptAt": "2026-11-09T22:24:47.285Z",
+        "lastSuccessAt": "2026-11-09T22:24:47.285Z",
+        "responseTimeMs": 310,
         "itemsFetched": 25,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1569,9 +1608,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-09T06:39:36.551Z",
-        "lastSuccessAt": "2026-11-09T06:39:36.551Z",
-        "responseTimeMs": 529,
+        "lastAttemptAt": "2026-11-09T22:24:47.285Z",
+        "lastSuccessAt": "2026-11-09T22:24:47.285Z",
+        "responseTimeMs": 716,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1587,9 +1626,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-09T06:39:36.551Z",
-        "lastSuccessAt": "2026-11-09T06:39:36.551Z",
-        "responseTimeMs": 628,
+        "lastAttemptAt": "2026-11-09T22:24:47.285Z",
+        "lastSuccessAt": "2026-11-09T22:24:47.285Z",
+        "responseTimeMs": 1048,
         "itemsFetched": 5,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1605,9 +1644,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-09T06:39:36.551Z",
-        "lastSuccessAt": "2026-11-09T06:39:36.551Z",
-        "responseTimeMs": 206,
+        "lastAttemptAt": "2026-11-09T22:24:47.285Z",
+        "lastSuccessAt": "2026-11-09T22:24:47.285Z",
+        "responseTimeMs": 517,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1623,9 +1662,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-09T06:39:36.551Z",
-        "lastSuccessAt": "2026-11-09T06:39:36.551Z",
-        "responseTimeMs": 4010,
+        "lastAttemptAt": "2026-11-09T22:24:47.285Z",
+        "lastSuccessAt": "2026-11-09T22:24:47.285Z",
+        "responseTimeMs": 2058,
         "itemsFetched": 12,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1641,11 +1680,11 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-09T06:39:36.551Z",
-        "lastSuccessAt": "2026-11-09T06:39:36.551Z",
-        "responseTimeMs": 2774,
+        "lastAttemptAt": "2026-11-09T22:24:47.285Z",
+        "lastSuccessAt": "2026-11-09T22:24:47.285Z",
+        "responseTimeMs": 2098,
         "itemsFetched": 12,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     }
