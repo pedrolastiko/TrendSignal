@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T07:23:30.290Z",
+  "generatedAt": "2026-11-10T19:46:31.205Z",
   "events": [
     {
       "id": "a3d2d85356018636cb4bd308c40995c551409cca177c9ba6f0a12f40a72b9df3",
@@ -19,26 +19,6 @@
       "language": "en",
       "matchedKeywordIds": [],
       "relevanceScore": 7,
-      "discoveredAt": "2026-11-07T20:16:38.914Z",
-      "dateStatus": "confirmed"
-    },
-    {
-      "id": "ec7d32ec27d3aee1e981d6102079ad03dc43a467de91d0bcc9c8ab56ee438e61",
-      "title": "FIDO Sponsored Webinar Series | Closing the Frontline Authentication Gap: From Friction to Secure Access",
-      "url": "https://fidoalliance.org/event/fido-sponsored-webinar-closing-the-frontline-authentication-gap-from-friction-to-secure-access/",
-      "sourceId": "fido-events",
-      "sourceName": "FIDO Alliance Events",
-      "company": "FIDO Alliance",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-10T15:00:00.000Z",
-      "endsAt": "2026-11-10T16:00:00.000Z",
-      "allDay": false,
-      "kind": "webinar",
-      "format": "online",
-      "summary": "Second Webinar in the Series:Closing the Frontline Authentication Gap: From Friction to Secure AccessDate: November 10, 2026Time: 10am ET / 4pm CET How can organizations make frontline access faster and more secure without disrupting the flow of work? Building on the research findings, FIDO and Imprivata will share…",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 6,
       "discoveredAt": "2026-11-07T20:16:38.914Z",
       "dateStatus": "confirmed"
     },
@@ -399,6 +379,25 @@
       "dateStatus": "confirmed"
     },
     {
+      "id": "0a2587c71b157673ecc80c520cda1706f12054760564cfc8713276ff362019b6",
+      "title": "Beyond the Essential Eight: Exposing Attack Chains in ASD’s New Era",
+      "url": "https://www.tenable.com/webinars/beyond-the-essential-eight-exposing-attack-chains-in-asds-new-era",
+      "sourceId": "tenable-webinars",
+      "sourceName": "Tenable Webinars",
+      "company": "Tenable",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2026-12-01T05:00:00.000Z",
+      "allDay": false,
+      "kind": "webinar",
+      "format": "online",
+      "summary": "How to identify hidden attack paths, prioritise high-impact fixes, and meet ASD’s new baseline.Australia’s cyber baseline is shifting with ASD’s release of Essentials for enterprise IT. Building on the Essential Eight across eight domains and three priority phases mapped to MITRE ATT&CK, the new framework demands…",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 6,
+      "discoveredAt": "2026-11-10T19:46:31.205Z",
+      "dateStatus": "confirmed"
+    },
+    {
       "id": "271d8983e60c40c37b5817f5fada5c2b3275dbd06b3fca1010590beab46faf74",
       "title": "GBI Impact CISO and CIO Leadership Summit",
       "url": "https://www.tenable.com/events/gbi-impact-ciso-and-cio-leadership-summit",
@@ -640,7 +639,7 @@
       "allDay": false,
       "kind": "conference",
       "format": "in-person",
-      "summary": "FISSEA Forums are designed to provide opportunities for the exchange of best practices and discussion and engagement among members of the Federal Information Security Educators (FISSEA) community. Submit a proposal to speak at the Winter Forum. Learn",
+      "summary": "FISSEA Forums are designed to provide opportunities for the exchange of best practices and discussion and engagement among members of the Federal Information Security Educators (FISSEA) community. FISSEA events in 2027 will be focused around the",
       "language": "en",
       "matchedKeywordIds": [
         "cybersecurity"
@@ -1285,11 +1284,11 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-10T07:23:30.290Z",
-        "lastSuccessAt": "2026-11-10T07:23:30.290Z",
-        "responseTimeMs": 1221,
+        "lastAttemptAt": "2026-11-10T19:46:31.205Z",
+        "lastSuccessAt": "2026-11-10T19:46:31.205Z",
+        "responseTimeMs": 1193,
         "itemsFetched": 30,
-        "newItems": 1,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     },
@@ -1303,9 +1302,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-10T07:23:30.290Z",
-        "lastSuccessAt": "2026-11-10T07:23:30.290Z",
-        "responseTimeMs": 2805,
+        "lastAttemptAt": "2026-11-10T19:46:31.205Z",
+        "lastSuccessAt": "2026-11-10T19:46:31.205Z",
+        "responseTimeMs": 3006,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1321,10 +1320,10 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-10T07:23:30.290Z",
-        "lastSuccessAt": "2026-11-10T07:23:30.290Z",
-        "responseTimeMs": 799,
-        "itemsFetched": 15,
+        "lastAttemptAt": "2026-11-10T19:46:31.205Z",
+        "lastSuccessAt": "2026-11-10T19:46:31.205Z",
+        "responseTimeMs": 1374,
+        "itemsFetched": 14,
         "newItems": 0,
         "consecutiveFailures": 0
       }
@@ -1338,8 +1337,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-10T07:23:30.290Z",
-        "lastSuccessAt": "2026-11-10T07:23:30.290Z",
+        "lastAttemptAt": "2026-11-10T19:46:31.205Z",
+        "lastSuccessAt": "2026-11-10T19:46:31.205Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1356,9 +1355,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-10T07:23:30.290Z",
-        "lastSuccessAt": "2026-11-10T07:23:30.290Z",
-        "responseTimeMs": 128,
+        "lastAttemptAt": "2026-11-10T19:46:31.205Z",
+        "lastSuccessAt": "2026-11-10T19:46:31.205Z",
+        "responseTimeMs": 213,
         "itemsFetched": 25,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1374,9 +1373,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-10T07:23:30.290Z",
-        "lastSuccessAt": "2026-11-10T07:23:30.290Z",
-        "responseTimeMs": 488,
+        "lastAttemptAt": "2026-11-10T19:46:31.205Z",
+        "lastSuccessAt": "2026-11-10T19:46:31.205Z",
+        "responseTimeMs": 609,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1392,9 +1391,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-10T07:23:30.290Z",
-        "lastSuccessAt": "2026-11-10T07:23:30.290Z",
-        "responseTimeMs": 650,
+        "lastAttemptAt": "2026-11-10T19:46:31.205Z",
+        "lastSuccessAt": "2026-11-10T19:46:31.205Z",
+        "responseTimeMs": 610,
         "itemsFetched": 4,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1410,9 +1409,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-10T07:23:30.290Z",
-        "lastSuccessAt": "2026-11-10T07:23:30.290Z",
-        "responseTimeMs": 178,
+        "lastAttemptAt": "2026-11-10T19:46:31.205Z",
+        "lastSuccessAt": "2026-11-10T19:46:31.205Z",
+        "responseTimeMs": 152,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1428,9 +1427,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-10T07:23:30.290Z",
-        "lastSuccessAt": "2026-11-10T07:23:30.290Z",
-        "responseTimeMs": 1714,
+        "lastAttemptAt": "2026-11-10T19:46:31.205Z",
+        "lastSuccessAt": "2026-11-10T19:46:31.205Z",
+        "responseTimeMs": 5127,
         "itemsFetched": 12,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1446,11 +1445,11 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-10T07:23:30.290Z",
-        "lastSuccessAt": "2026-11-10T07:23:30.290Z",
-        "responseTimeMs": 1460,
+        "lastAttemptAt": "2026-11-10T19:46:31.205Z",
+        "lastSuccessAt": "2026-11-10T19:46:31.205Z",
+        "responseTimeMs": 1886,
         "itemsFetched": 12,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     }
