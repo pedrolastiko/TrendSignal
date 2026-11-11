@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T06:29:57.727Z",
+  "generatedAt": "2026-11-11T19:39:16.219Z",
   "events": [
     {
       "id": "a3d2d85356018636cb4bd308c40995c551409cca177c9ba6f0a12f40a72b9df3",
@@ -307,6 +307,27 @@
       "matchedKeywordIds": [],
       "relevanceScore": 5,
       "discoveredAt": "2026-11-08T03:54:57.248Z",
+      "dateStatus": "confirmed"
+    },
+    {
+      "id": "81041e2c035f3926a05696f023781e0c02ab4cffc1f97c25909ae1bf7a655a6c",
+      "title": "Meeting CERT-In Mandates with CTEM",
+      "url": "https://www.tenable.com/webinars/apac-meeting-cert-in-mandates-with-ctem",
+      "sourceId": "tenable-webinars",
+      "sourceName": "Tenable Webinars",
+      "company": "Tenable",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2026-11-26T05:00:00.000Z",
+      "allDay": false,
+      "kind": "webinar",
+      "format": "online",
+      "summary": "Strengthen Cyber Resilience and Meet CERT-In & Regional Cybersecurity Directives with Continuous Threat Exposure Management (CTEM).Don’t wait for an audit finding or an incident to uncover critical security blind spots.",
+      "language": "en",
+      "matchedKeywordIds": [
+        "cybersecurity"
+      ],
+      "relevanceScore": 23,
+      "discoveredAt": "2026-11-11T19:39:16.219Z",
       "dateStatus": "confirmed"
     },
     {
@@ -1263,9 +1284,9 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-11T06:29:57.727Z",
-        "lastSuccessAt": "2026-11-11T06:29:57.727Z",
-        "responseTimeMs": 1246,
+        "lastAttemptAt": "2026-11-11T19:39:16.219Z",
+        "lastSuccessAt": "2026-11-11T19:39:16.219Z",
+        "responseTimeMs": 1300,
         "itemsFetched": 30,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1281,9 +1302,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-11T06:29:57.727Z",
-        "lastSuccessAt": "2026-11-11T06:29:57.727Z",
-        "responseTimeMs": 2979,
+        "lastAttemptAt": "2026-11-11T19:39:16.219Z",
+        "lastSuccessAt": "2026-11-11T19:39:16.219Z",
+        "responseTimeMs": 4400,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1299,9 +1320,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-11T06:29:57.727Z",
-        "lastSuccessAt": "2026-11-11T06:29:57.727Z",
-        "responseTimeMs": 2213,
+        "lastAttemptAt": "2026-11-11T19:39:16.219Z",
+        "lastSuccessAt": "2026-11-11T19:39:16.219Z",
+        "responseTimeMs": 1052,
         "itemsFetched": 14,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1316,8 +1337,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-11T06:29:57.727Z",
-        "lastSuccessAt": "2026-11-11T06:29:57.727Z",
+        "lastAttemptAt": "2026-11-11T19:39:16.219Z",
+        "lastSuccessAt": "2026-11-11T19:39:16.219Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1334,9 +1355,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-11T06:29:57.727Z",
-        "lastSuccessAt": "2026-11-11T06:29:57.727Z",
-        "responseTimeMs": 79,
+        "lastAttemptAt": "2026-11-11T19:39:16.219Z",
+        "lastSuccessAt": "2026-11-11T19:39:16.219Z",
+        "responseTimeMs": 72,
         "itemsFetched": 24,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1352,9 +1373,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-11T06:29:57.727Z",
-        "lastSuccessAt": "2026-11-11T06:29:57.727Z",
-        "responseTimeMs": 369,
+        "lastAttemptAt": "2026-11-11T19:39:16.219Z",
+        "lastSuccessAt": "2026-11-11T19:39:16.219Z",
+        "responseTimeMs": 656,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1370,9 +1391,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-11T06:29:57.727Z",
-        "lastSuccessAt": "2026-11-11T06:29:57.727Z",
-        "responseTimeMs": 207,
+        "lastAttemptAt": "2026-11-11T19:39:16.219Z",
+        "lastSuccessAt": "2026-11-11T19:39:16.219Z",
+        "responseTimeMs": 1035,
         "itemsFetched": 4,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1388,9 +1409,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-11T06:29:57.727Z",
-        "lastSuccessAt": "2026-11-11T06:29:57.727Z",
-        "responseTimeMs": 340,
+        "lastAttemptAt": "2026-11-11T19:39:16.219Z",
+        "lastSuccessAt": "2026-11-11T19:39:16.219Z",
+        "responseTimeMs": 404,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1406,9 +1427,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-11T06:29:57.727Z",
-        "lastSuccessAt": "2026-11-11T06:29:57.727Z",
-        "responseTimeMs": 2179,
+        "lastAttemptAt": "2026-11-11T19:39:16.219Z",
+        "lastSuccessAt": "2026-11-11T19:39:16.219Z",
+        "responseTimeMs": 4703,
         "itemsFetched": 11,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1424,11 +1445,11 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-11T06:29:57.727Z",
-        "lastSuccessAt": "2026-11-11T06:29:57.727Z",
-        "responseTimeMs": 1229,
+        "lastAttemptAt": "2026-11-11T19:39:16.219Z",
+        "lastSuccessAt": "2026-11-11T19:39:16.219Z",
+        "responseTimeMs": 2042,
         "itemsFetched": 12,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     }
