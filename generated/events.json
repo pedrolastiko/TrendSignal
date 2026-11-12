@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T07:16:07.723Z",
+  "generatedAt": "2026-11-12T19:58:11.188Z",
   "events": [
     {
       "id": "a3d2d85356018636cb4bd308c40995c551409cca177c9ba6f0a12f40a72b9df3",
@@ -62,46 +62,6 @@
       "matchedKeywordIds": [],
       "relevanceScore": 5,
       "discoveredAt": "2026-11-08T03:54:57.248Z",
-      "dateStatus": "confirmed"
-    },
-    {
-      "id": "311c9e6d4076203a6987a26a52858529e86aa8ae7b2296cf9300a72ebd136c3d",
-      "title": "FIDO Sponsored Webinar: Passkeys Built for Banking: From Account Access to Transaction Approval",
-      "url": "https://fidoalliance.org/event/fido-sponsored-webinar-passkeys-built-for-banking-from-account-access-to-transaction-approval/",
-      "sourceId": "fido-events",
-      "sourceName": "FIDO Alliance Events",
-      "company": "FIDO Alliance",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-12T16:00:00.000Z",
-      "endsAt": "2026-11-12T17:00:00.000Z",
-      "allDay": false,
-      "kind": "webinar",
-      "format": "online",
-      "summary": "Make the decisions, challenge your assumptions, and discover what’s possible for banking authentication. Whether your bank is considering passkeys or already putting them into practice, there are important decisions to make. But are you considering all the options? Your choices could open up possibilities you hadn’t…",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 6,
-      "discoveredAt": "2026-11-07T20:16:38.914Z",
-      "dateStatus": "confirmed"
-    },
-    {
-      "id": "c4387c91aac1d7aa3fe3af9a936c0e95e15b1af7e8503268e81bb105b810be51",
-      "title": "FIDO Sponsored Webinar in Spanish: Las passkeys han llegado: cómo reforzar la seguridad, mejorar el acceso y dar los primeros pasos",
-      "url": "https://fidoalliance.org/event/fido-sponsored-webinar-in-spanish-las-passkeys-han-llegado-como-reforzar-la-seguridad-mejorar-el-acceso-y-dar-los-primeros-pasos/",
-      "sourceId": "fido-events",
-      "sourceName": "FIDO Alliance Events",
-      "company": "FIDO Alliance",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-12T18:00:00.000Z",
-      "endsAt": "2026-11-12T19:00:00.000Z",
-      "allDay": false,
-      "kind": "webinar",
-      "format": "online",
-      "summary": "Las organizaciones necesitan una mejor manera para proteger el acceso digital sin añadir más fricción a los usuarios. Las passkeys proveen autenticación resistente al phishing con una experiencia de usuario más simple, pero muchos equipos todavía tienen preguntas acerca de cómo funcionan, cómo integrarlas y dónde…",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 6,
-      "discoveredAt": "2026-11-07T20:16:38.914Z",
       "dateStatus": "confirmed"
     },
     {
@@ -416,6 +376,25 @@
       "matchedKeywordIds": [],
       "relevanceScore": 6,
       "discoveredAt": "2026-11-08T03:54:57.248Z",
+      "dateStatus": "confirmed"
+    },
+    {
+      "id": "e56681f97d0ff67f138fe7acfbd44a604a58399d48bb8176b9ee06ff5a1d7a09",
+      "title": "Exposure Management Training December 2026",
+      "url": "https://www.tenable.com/webinars/apac-exposure-management-training-december-2026",
+      "sourceId": "tenable-webinars",
+      "sourceName": "Tenable Webinars",
+      "company": "Tenable",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2026-12-02T05:00:00.000Z",
+      "allDay": false,
+      "kind": "conference",
+      "format": "online",
+      "summary": "A technical deep-dive into operationalizing Tenable One (3 hours)Join us for a free, 3-hour hands-on workshop to experience Tenable One, the exposure management platform that unifies visibility, provides deep context, and enables decisive action across your entire attack surface.",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 6,
+      "discoveredAt": "2026-11-12T19:58:11.188Z",
       "dateStatus": "confirmed"
     },
     {
@@ -1284,9 +1263,9 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T07:16:07.723Z",
-        "lastSuccessAt": "2026-11-12T07:16:07.723Z",
-        "responseTimeMs": 1185,
+        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
+        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
+        "responseTimeMs": 1276,
         "itemsFetched": 30,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1302,9 +1281,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T07:16:07.723Z",
-        "lastSuccessAt": "2026-11-12T07:16:07.723Z",
-        "responseTimeMs": 2767,
+        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
+        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
+        "responseTimeMs": 3630,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1320,10 +1299,10 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T07:16:07.723Z",
-        "lastSuccessAt": "2026-11-12T07:16:07.723Z",
-        "responseTimeMs": 6511,
-        "itemsFetched": 14,
+        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
+        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
+        "responseTimeMs": 228,
+        "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
       }
@@ -1337,8 +1316,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T07:16:07.723Z",
-        "lastSuccessAt": "2026-11-12T07:16:07.723Z",
+        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
+        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1355,9 +1334,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T07:16:07.723Z",
-        "lastSuccessAt": "2026-11-12T07:16:07.723Z",
-        "responseTimeMs": 190,
+        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
+        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
+        "responseTimeMs": 253,
         "itemsFetched": 24,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1373,9 +1352,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T07:16:07.723Z",
-        "lastSuccessAt": "2026-11-12T07:16:07.723Z",
-        "responseTimeMs": 404,
+        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
+        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
+        "responseTimeMs": 447,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1391,9 +1370,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T07:16:07.723Z",
-        "lastSuccessAt": "2026-11-12T07:16:07.723Z",
-        "responseTimeMs": 575,
+        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
+        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
+        "responseTimeMs": 654,
         "itemsFetched": 3,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1409,9 +1388,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T07:16:07.723Z",
-        "lastSuccessAt": "2026-11-12T07:16:07.723Z",
-        "responseTimeMs": 205,
+        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
+        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
+        "responseTimeMs": 137,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1427,9 +1406,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T07:16:07.723Z",
-        "lastSuccessAt": "2026-11-12T07:16:07.723Z",
-        "responseTimeMs": 3151,
+        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
+        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
+        "responseTimeMs": 1731,
         "itemsFetched": 11,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1445,11 +1424,11 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T07:16:07.723Z",
-        "lastSuccessAt": "2026-11-12T07:16:07.723Z",
-        "responseTimeMs": 1129,
+        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
+        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
+        "responseTimeMs": 1265,
         "itemsFetched": 12,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     }
