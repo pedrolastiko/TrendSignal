@@ -225,6 +225,29 @@
     "relevanceScore": 12
   },
   {
+    "id": "0294f744fc7b189ed0ff34c8d8cb2f0ee88dbc7c96ed34c6a4b5fe231b00757c",
+    "title": "November Patch Tuesday boasts over 1,000 bugs, one already under attack",
+    "url": "https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-one-already-under-attack/5308946",
+    "canonicalUrl": "https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-one-already-under-attack/5308946",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-10T22:37:01.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Microsoft admins wail and gnash their teeth",
+    "imageUrl": "https://image.theregister.com/?imageId=5308965&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 12
+  },
+  {
     "id": "02c0862224b43591667fb5fbd0dd041c32da5c138a81468c30fa21fccf2749b5",
     "title": "Britain's driverless dream hits a roundabout of awkward questions",
     "url": "https://www.theregister.com/ai-and-ml/2026/11/02/britains-driverless-dream-hits-a-roundabout-of-awkward-questions/5306715",
@@ -312,9 +335,9 @@
     "summary": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
     "language": "en",
     "tags": [
-      "Startups",
       "AI",
       "Fundraising",
+      "Startups",
       "semiconductor chips"
     ],
     "matchedKeywordIds": [
@@ -523,7 +546,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 39
+    "relevanceScore": 36
   },
   {
     "id": "05b6d772d2d4ab89c82960204ee4a15bdd0bdf42dc1575b499cdd36f44c00240",
@@ -815,7 +838,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "07e137b229277c8a57a4e86d47f8b5bd34a8e56942341546170248f32391196a",
@@ -863,6 +886,26 @@
     "relevanceScore": 57
   },
   {
+    "id": "08ef23e442f354518e6363e6f2855e1b1149fa923cb36d3b257ac82fde41ed27",
+    "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+    "canonicalUrl": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2",
+    "sourceId": "microsoft-security-blog",
+    "sourceName": "Microsoft Security Blog",
+    "company": "Microsoft",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-11-11T19:49:57.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. The post The global socket: how threat actors are weaponizing GSocket for stealthy C2 appeared first on Microsoft…",
+    "language": "en",
+    "tags": [
+      "Linux"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
+  },
+  {
     "id": "09608d045fdccbcc7350a3b9916da33f41d87e695b21901ecc1ec4d9284eb218",
     "title": "Meet Drops, the new music app bringing back the fun of sharing songs with friends",
     "url": "https://techcrunch.com/2026/11/09/meet-drops-the-new-music-app-bringing-back-the-fun-of-sharing-songs-with-friends/",
@@ -908,6 +951,28 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 29
+  },
+  {
+    "id": "099a6b7783e3c7d3e58f8645e9fe92ae3dd0d8856c5634fabae2e3a8320b6c6a",
+    "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+    "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T21:27:40.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "09d02629fc9055f4205930be3920d865ec01e32e6f0aac17696887e27f945c2d",
@@ -971,6 +1036,25 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "0a7fd303a43b8569f851a7ca8513d58fa9e560a0afea633fe33a6ac5de83c5fb",
+    "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+    "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-12T04:39:48.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a vulnerability in the…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEfz7InYm8UO-p35K6B4j009BxA-MO7DdZ2x1d-xhyphenhyphenPxNnVs848IlgAGelmuW-sPbEZbE8-L9_KWEYNH_M5HaTMy14MFd87A7YkqHAzDKaamKOdpZKR9owL3nK3gbqAngvWa6A4NC1KK1l0ie9FK731LfKPI0lguiGQ1b71sHIZj2kR2H3I-GJjSPY4kJU/s1600/screenconnect-hack.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "0a977ad70db420d3e2b0b7b5ae09db58c1bb77807020d70643d6fd425bbce130",
@@ -1201,7 +1285,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "0be0e4cfafdf6ab1bc17592fc45a85ec891ad137546837c151651ac217e10283",
@@ -1584,7 +1668,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 10
   },
   {
     "id": "0e3a69c861c603dff491d8bb5fa27882a4cfa86eb1ff6f14535f92cc51775532",
@@ -1861,7 +1945,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "11a3e4cb137f52664836d1e39d6b9e1bc691ed995443b82ed307d91f14e7cecb",
@@ -2083,6 +2167,28 @@
       "generative-ai"
     ],
     "relevanceScore": 53
+  },
+  {
+    "id": "13725f321abbfa22ba195987d134a93e647a830e2b42984f10f7bc3b3296e7f3",
+    "title": "Detecting credential-driven attacks on Databricks",
+    "url": "https://www.databricks.com/blog/detecting-credential-driven-attacks-databricks",
+    "canonicalUrl": "https://www.databricks.com/blog/detecting-credential-driven-attacks-databricks",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-11T23:00:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "At Databricks, we know your data is your most valuable asset. Databricks has worked...",
+    "language": "en",
+    "tags": [
+      "Platform",
+      "Security and Trust",
+      "Security Threat Research"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "138ff2139612c54239049099fd61bd90b9f16e4c0a05d5a3132cc7e9e530cbce",
@@ -2365,7 +2471,7 @@
     "sourceName": "MongoDB Blog",
     "company": "MongoDB",
     "sourceCategory": "technology",
-    "publishedAt": "2026-11-05T15:00:01.000Z",
+    "publishedAt": "2026-11-12T00:44:22.000Z",
     "discoveredAt": "2026-11-05T19:59:17.634Z",
     "summary": "We are excited to announce the release of the MongoDB Vercel AI SDK integration, which provides AI applications and agents built with Vercel’s SDK with a persistent memory store in MongoDB Atlas. It's now open source and generally available on npm. This integration adds MongoDB Atlas as the memory store in the…",
     "language": "en",
@@ -2374,7 +2480,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 41
+    "relevanceScore": 47
   },
   {
     "id": "15be3cae26c2fff8e03399a41ddd431953c3c529eb8c1edc7ab1298ec37a467d",
@@ -2758,7 +2864,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "19c368a9fd9f819a7d0f230a929011d3367e100523ada1fb5128bf2f9d56c1df",
@@ -3122,6 +3228,32 @@
     "relevanceScore": 13
   },
   {
+    "id": "1e110be16a7c859e35a4464f4917f9f16bf81b9aa14ccf774a759bb929863769",
+    "title": "What it takes to bring an AI research assistant to thousands of medical experts",
+    "url": "https://commandline.microsoft.com/from-custom-infrastructure-to-hosted-agents/",
+    "canonicalUrl": "https://commandline.microsoft.com/from-custom-infrastructure-to-hosted-agents",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-11T21:40:16.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "The post What it takes to bring an AI research assistant to thousands of medical experts appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Customers",
+      "Health"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 50
+  },
+  {
     "id": "1ecbe4e6739f4075f55e1c266453c6060a019e41cfdfa747134b4705693e925d",
     "title": "Vintage fun: Prodding AI agents using retro hardware just because you can",
     "url": "https://www.theregister.com/offbeat/2026/11/02/vintage-fun-prodding-ai-agents-using-retro-hardware-just-because-you-can/5306705",
@@ -3295,6 +3427,24 @@
     "relevanceScore": 11
   },
   {
+    "id": "2037f8cecfb453a113758998889279d593fc54c740faa1e1594b3deb39c40d54",
+    "title": "Brickster Voices: Meet Alasdair Anderson",
+    "url": "https://www.databricks.com/blog/brickster-voices-meet-alasdair-anderson",
+    "canonicalUrl": "https://www.databricks.com/blog/brickster-voices-meet-alasdair-anderson",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-11T22:50:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Q: What does a typical week look like for a Lead Solutions Architect, and how would...",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "2097902c90785b4f520f16b62a89f90f350b3f849be52f3f12ee93093d859cf4",
     "title": "Reinventing the channel: How can your partner ecosystem fuel AI growth?",
     "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/reinventing-the-channel-how-can-your-partner-ecosystem-fuel-ai-growth",
@@ -3320,7 +3470,7 @@
     "tagMatchedIds": [
       "generative-ai"
     ],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "20e63825dd927f7df8f7caa46126ed7a411f0af7a9d6824c34850ec009a483bb",
@@ -3722,6 +3872,27 @@
     "relevanceScore": 45
   },
   {
+    "id": "24520a738c44c50bad7b4b181e94dd790df0ba5f513277e4824728bed1144c4c",
+    "title": "US bit barn boom sees energy needs grow 10x as fast as grid capacity",
+    "url": "https://www.theregister.com/systems/2026/11/11/us-bit-barn-boom-sees-energy-needs-grow-10x-as-fast-as-grid-capacity/5309191",
+    "canonicalUrl": "https://www.theregister.com/systems/2026/11/11/us-bit-barn-boom-sees-energy-needs-grow-10x-as-fast-as-grid-capacity/5309191",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T17:47:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Operators face longer connection waits and a growing need to bring their own electricity",
+    "imageUrl": "https://image.theregister.com/?imageId=259070&width=800",
+    "language": "en",
+    "tags": [
+      "systems"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "246d45790f69876be5d353b8a329416b93d10943b5b6bba7378090c1dbbfe8ca",
     "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
     "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
@@ -3868,7 +4039,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 70
+    "relevanceScore": 68
   },
   {
     "id": "2684d0c5512f6b691ae8517286c27187ced7be1e4d2e2cbf19287ba27bbf7057",
@@ -3960,7 +4131,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "26db6f8a9060cd7620884bea096c304f029f361f122725879e14e74ffda271d8",
@@ -4462,8 +4633,8 @@
       "Observability",
       "Distributed Tracing",
       "OpenTelemetry",
-      "Service Level Objectives",
       "QCon London 2026",
+      "Service Level Objectives",
       "Culture & Methods",
       "Architecture & Design",
       "Development"
@@ -4488,7 +4659,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 10
   },
   {
     "id": "2dd2d7d1f7d906a4e2b20719a12d975cf89e85800ee1bb7ec3abd2201098e2b1",
@@ -4834,6 +5005,31 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 48
+  },
+  {
+    "id": "321d8b43ce72dae60562d150f2699be8eb77467f1b94d6251bec46b9a5c793f7",
+    "title": "Why the data center you dread might never even be built",
+    "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+    "canonicalUrl": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T20:15:15.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With…",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Government & Policy",
+      "AI data center",
+      "data center"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "3244ff9afb24b87842c480cda8182a0df457ab8225bb9c50f8d4dc456c12c3bb",
@@ -5341,7 +5537,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "384d647e41e467fec0312f1c967763d6598248bec9472fef5c4d0f14d4e30743",
@@ -5461,6 +5657,34 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "3927e8656e242ccd50913d090fdbd80790febb228567c7190078ad1fcdbbee77",
+    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T23:50:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "China",
+      "nvidia",
+      "Donald Trump",
+      "Jensen Huang"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 33
   },
   {
     "id": "3928e1f4b03ea385a1ad4bc2385e2b42f1d07f1608d3c9f21a38a8f7f9a56593",
@@ -5613,7 +5837,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "3b71139034dea3967b03e2c0889322749175dc1df9ea16c5a4e512666cb00213",
@@ -5768,6 +5992,35 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42
+  },
+  {
+    "id": "3d57f0a932498580f5556d03864321e9a3afa1696cafdfb5fca6d2a1b8de6fdd",
+    "title": "Rural healthcare and America’s $340 billion workforce earnings opportunity",
+    "url": "https://www.mckinsey.com/institute-for-economic-mobility/our-insights/rural-healthcare-and-americas-340-billion-dollar-workforce-earnings-opportunity",
+    "canonicalUrl": "https://www.mckinsey.com/institute-for-economic-mobility/our-insights/rural-healthcare-and-americas-340-billion-dollar-workforce-earnings-opportunity",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Rural facilities are closing as staffing shortages worsen. Yet 38 million “bridge workers”—nearly 100 times the national workforce shortage—could move into nursing and allied health roles and gain economic mobility.",
+    "language": "en",
+    "tags": [
+      "Health Care",
+      "McKinsey Health Institute",
+      "United States",
+      "Organization",
+      "Growth",
+      "Managing in Uncertainty",
+      "Health equity",
+      "Research topics",
+      "Workers & talent",
+      "McKinsey Institute for Economic Mobility"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "3d804a393aff428d7a12311b0a1451f31dc75e15cc46e33218ed6bd75b679432",
@@ -5960,7 +6213,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "40566ba9ca9f9355dfb22396f5185d8d01b423f5d162cc384e1f66492d8a8c66",
@@ -5981,7 +6234,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "4059041434beee1a2181221ccf94c66524112db08409137f0f859698e8b03a44",
@@ -6132,7 +6385,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "4283801458603742be9d5e0a9a4f22524b883df21341fe24e7195c3406d54f66",
@@ -6393,6 +6646,25 @@
       "generative-ai"
     ],
     "relevanceScore": 8
+  },
+  {
+    "id": "44d134eb437794a13e5bc3cbbd2bb87df9a64b04b2dcb719e456086a487c6f55",
+    "title": "Baxter Cochennet",
+    "url": "https://www.simon-kucher.com/en/people/senior-manager/baxter-cochennet",
+    "canonicalUrl": "https://www.simon-kucher.com/en/people/senior-manager/baxter-cochennet",
+    "sourceId": "simon-kucher-insights",
+    "sourceName": "Simon-Kucher Insights",
+    "company": "Simon-Kucher",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-11-10T11:20:56.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Baxter Cochennet SLoniewska Tue, 11/10/2026 - 11:20 Baxter Cochennet is a Senior Manager in the Technology, Media, and Telecom practice. Based in our Chicago office, he specializes in developing and operationalizing monetization strategies for software and technology companies. Baxter combines his extensive…",
+    "imageUrl": "https://www.simon-kucher.com/sites/default/files/styles/max_325x325/public/content-type-person-profile/2026-11/13830_baxter_cochennet_2222.jpg?itok=OhJceV_7",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 12
   },
   {
     "id": "452012a5ab466238f0d93e380465ce8ba39abe29e0f1d91091c0682f096d8efd",
@@ -7534,7 +7806,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "4d352c405eb745c6b7f17c5f1d645add33092318638124207be8ddb1fe4eb890",
@@ -8085,7 +8357,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "5350cf64f29cdc8ac80e555f0f95287832f53528f8c51bf82ed1bf74b1669c24",
@@ -8186,6 +8458,33 @@
     "relevanceScore": 33
   },
   {
+    "id": "5413a692ab5366d74989e7dc7d56ebfb4e784aae1c12a1952ee15965c8ff2419",
+    "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+    "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T19:54:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "ai infrastructure",
+      "Cloud Computing",
+      "CoreWeave"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 38
+  },
+  {
     "id": "545366a1d1b56c84e755575ed5be159f3c5884efd74eb04c12dd9c1c6e76806f",
     "title": "CrowdStrike Brings Enterprise Browser Security to the Falcon Platform",
     "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/",
@@ -8225,6 +8524,28 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "54d780c30fec13d20874fd3a9a056bab4f423a997a15954b521df8a82a351a12",
+    "title": "Baker Tilly notifies clients of data breach at third-party provider",
+    "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T23:01:31.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "5523ef782a102f9407e48ea2548f3436dcdf106068bf3e331a15436bd3297fac",
@@ -8341,7 +8662,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 50
+    "relevanceScore": 47
   },
   {
     "id": "5661dc783044a7f62e3b6287af4a9c85c478c0464ae13507920b8d0da7611647",
@@ -8499,7 +8820,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "58a49828244205471a6ee53805903c4e9f1b636dfc941e8c8813d1305859810b",
@@ -8518,7 +8839,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "595e0a9dfde72e646cd28a67932b651952978a198cb241994e5194f1631b34a4",
@@ -8648,7 +8969,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "5a641c5b3b39be9994ccc7ac31ea82194d2904b87d383a01b3cac765e814ebab",
@@ -9507,7 +9828,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "625745be90af46fc814a478c572dddef131ec05a0f60554482bfb90b37687d68",
@@ -9572,7 +9893,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "62954b6003d956addf3086ec22a413f2b48e48b88c17db268017b8dab5f546b4",
@@ -10310,6 +10631,27 @@
     "relevanceScore": 34
   },
   {
+    "id": "69c02301fa510ed248af004537f9575632372e05120e06e7ba673bbe02f77f9a",
+    "title": "Olaf Sakkers is betting he can beat the emerging-manager squeeze",
+    "url": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T20:04:28.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Entering into the world of venture capital has never been easy, especially as a first-time fund manager. But it's especially daunting right now. Olaf Sakkers has spent the past five years proving that difficult doesn't mean impossible.",
+    "language": "en",
+    "tags": [
+      "TC",
+      "Venture"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "69d4d9d74efa01629a6c751d8fa58a99d17f0aecb815f679bbfeeb3edf259e44",
     "title": "Closing the AI guidance gap in education",
     "url": "https://openai.com/index/closing-ai-guidance-gap-education",
@@ -10424,7 +10766,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "6af871579a0e9c9322663d6f3c4a5bbe5d37120e034a7bb5bb88e8d122d1da6d",
@@ -10553,6 +10895,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "6cb51ebe747314a762f245d0db623be17205fceebd7ddfa1a5ae44a2a3012c04",
+    "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+    "url": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+    "canonicalUrl": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-12T01:00:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "The CCP built a Big Data system to scrape reams of information and learn about individuals abroad, to potentially target and exploit them. Think Alice Huang Lite.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6aad3115d0b39df8/6af3b700f317a18a4957378c/Jinan_University-TkKurikawa-Getty.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 38
   },
   {
     "id": "6cff4ce23922367b980eaf0c6362e9a59c6c15f8c5d96911aaec8d4380ad8e72",
@@ -11015,7 +11378,7 @@
       "digital-sovereignty"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "7291fa91f87216d7e55b43c1fdcf02aac48863c1285f5743350d93aec9a24cda",
@@ -11110,7 +11473,27 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
+  },
+  {
+    "id": "736a0d30025489008628e54fba34ffb1ad88e065d653ae51cc76e3e7e7178aeb",
+    "title": "Is Your Risk Framework Capable, or Just Compliant?",
+    "url": "https://www.fticonsulting.com/insights/articles/risk-framework-capable-compliant",
+    "canonicalUrl": "https://www.fticonsulting.com/insights/articles/risk-framework-capable-compliant",
+    "sourceId": "fti-consulting-insights",
+    "sourceName": "FTI Consulting Insights",
+    "company": "FTI Consulting",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z",
+    "summary": "Effective risk frameworks help boards and CROs connect emerging risk signals, escalate issues early and act before disruption or harm occurs.",
+    "imageUrl": "https://www.fticonsulting.com/-/media/images/shared-content/insights/articles/2026/nov/risk-framework-capable-compliant_900x471_right.jpeg?as=0&dmc=0&iar=0&thn=0&udi=0&rev=379dc3f7380d4b36830d8cc406db9f9b&hash=6624C990D79414CCB1183436FFE8BC68",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "736b28f2b8c65dbf480b236394ff935c856d3afad457db5c5bdda6fbbb962ff0",
@@ -11159,7 +11542,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "7386c59777f9afa494423490193a2e7effca18c94f540367b9cff264abcefcb3",
@@ -11606,7 +11989,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "77de106f4626bc10279cccadd016c6a3aa2525ea1f47c9daf3f5f0be41ba6e5b",
@@ -11686,7 +12069,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "7877431f65b702743e2ef566b17e15a22ac463600754af93c7db33288555d6cc",
@@ -11845,8 +12228,8 @@
       "Model Context Protocol (MCP)",
       "Transcripts",
       "Batch Processing",
-      "Large language models",
       "Agents",
+      "Large language models",
       "AI Cost Optimisation",
       "Architecture & Design",
       "Development",
@@ -11948,6 +12331,25 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "7c413c5b5223a5760079bec0892f6eba625bf03921259c82233698ccd9d9db80",
+    "title": "Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know",
+    "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+    "canonicalUrl": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+    "sourceId": "wiz-blog",
+    "sourceName": "Wiz Blog",
+    "company": "Wiz",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-11-11T19:49:10.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
+    "imageUrl": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "7c592589ecc9e5013a1083fca0e2278a8154afebf7d07d5e98e28d44dcddc2b5",
@@ -12423,6 +12825,29 @@
     "relevanceScore": 8
   },
   {
+    "id": "812f8709154182ed7fd8d1e8e231051a237bae04a58f9ad1ac1ab47b2b52d970",
+    "title": "Disgraced former CA eMudhra blames buggy script for hopelessly weak certificates",
+    "url": "https://www.theregister.com/security/2026/11/12/disgraced-former-ca-emudhra-blames-buggy-script-for-hopelessly-weak-certificates/5309244",
+    "canonicalUrl": "https://www.theregister.com/security/2026/11/12/disgraced-former-ca-emudhra-blames-buggy-script-for-hopelessly-weak-certificates/5309244",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-12T04:22:18.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Couldn’t get the hardware it needed to generate certs, so tried to code a workaround",
+    "imageUrl": "https://image.theregister.com/?imageId=229817&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
+  },
+  {
     "id": "81383615f11d44b5920289ca8b5e3ed90dd946885370bfbdb4067aaa4b845ecf",
     "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
     "url": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -12855,7 +13280,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "85e39806fde133144e3eda24efec264ec69b7f5ddc5ec35800faeae0fe00c49a",
@@ -12880,7 +13305,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 44
+    "relevanceScore": 42
   },
   {
     "id": "860aeaaa7a7fc5f36ac984d8a67124aa53c8ad61823aa4642546837faee9ccf5",
@@ -13008,7 +13433,7 @@
     "tagMatchedIds": [
       "generative-ai"
     ],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "87209848417b63cfc5323ac30a2478c54745cf6540e64a0ef28f56dec80499e5",
@@ -13024,12 +13449,14 @@
     "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
     "language": "en",
     "tags": [
-      "AI"
+      "AI",
+      "AI agents"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
     ],
     "tagMatchedIds": [
+      "agentic-ai",
       "artificial-intelligence"
     ],
     "relevanceScore": 48
@@ -13058,6 +13485,27 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 13
+  },
+  {
+    "id": "87800d9dfbf8d4a6f43781e2626503ea10f97fda708e15444c7d99ead5dcbde9",
+    "title": "Russian cloud Yandex says drone attacks on its datacenters caused data loss",
+    "url": "https://www.theregister.com/off-prem/2026/11/12/russian-cloud-yandex-says-drone-attacks-on-its-datacenters-caused-data-loss/5309234",
+    "canonicalUrl": "https://www.theregister.com/off-prem/2026/11/12/russian-cloud-yandex-says-drone-attacks-on-its-datacenters-caused-data-loss/5309234",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-12T01:10:24.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Now enables backup by default and hints a little on-prem infra never hurt anyone",
+    "imageUrl": "https://image.theregister.com/?imageId=5309241&width=800",
+    "language": "en",
+    "tags": [
+      "off-prem"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "87893c219097abee42a4be81d6ff289535df5695b5cd421ffbb3481f5e27d4b8",
@@ -13701,6 +14149,27 @@
     "relevanceScore": 13
   },
   {
+    "id": "8e891bacf51bdd23aa4c1d78c2960aa26f3fbae69709a55dd4617952ff14d203",
+    "title": "AWS distills its cloud into a local emulator that runs on your PC",
+    "url": "https://www.theregister.com/off-prem/2026/11/12/aws-distills-its-cloud-into-a-local-emulator-that-runs-on-your-pc/5309251",
+    "canonicalUrl": "https://www.theregister.com/off-prem/2026/11/12/aws-distills-its-cloud-into-a-local-emulator-that-runs-on-your-pc/5309251",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-12T05:47:31.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Hyperscale meets micro-computing by offering APIs to test your apps",
+    "imageUrl": "https://image.theregister.com/?imageId=5309256&width=800",
+    "language": "en",
+    "tags": [
+      "off-prem"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "8e8b7043123e5c5f9315dc07b03a035e28d038448678e5b47a039c28d3cfae8e",
     "title": "Guide to observability with Red Hat OpenShift 5",
     "url": "https://www.redhat.com/en/blog/guide-observability-red-hat-openshift-5",
@@ -13716,7 +14185,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "8eeaa5e81881cd502a1f2cda52ae03186568d110f7f4145cac890f6e6e7e2640",
@@ -14075,7 +14544,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "91c1d37ce0ccbf2c996eb21308c23f23540e3204d852b42c8b8c099d472f1873",
@@ -15158,6 +15627,28 @@
     "relevanceScore": 10
   },
   {
+    "id": "99798711eb74097d76dafaccac802ab00892df71fe767109ac98e180b1f5a965",
+    "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+    "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T22:56:21.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "9979909f374cecc923643b7e485fd9429b60e8eccc704f3811f1828bb746139f",
     "title": "Node.js Project: November 11 Security Releases",
     "url": "https://sec.okta.com/articles/2026/11/node.js-project-november-11-security-releases/",
@@ -15173,7 +15664,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "9989e939e148877e42d3f7d922aab90603dc59a66ff0f4a6cb50296f8b131241",
@@ -15278,6 +15769,28 @@
       "cybersecurity"
     ],
     "relevanceScore": 13
+  },
+  {
+    "id": "9a08fb8455b5f6d0633f2479bf5cb698ec11e33c138c281099e797bbab748276",
+    "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+    "url": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+    "canonicalUrl": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc3d52fd595b74813/6af39e0cb6c48b43d1f3dedb/musashi-kojiro-attack-defense-statues-GARAGE38-shutterstock.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 63
   },
   {
     "id": "9a1f2f6f2756d2c6b535bdad7e74b0f5419e58e9839dd329d22075adfaee34d1",
@@ -15969,8 +16482,8 @@
     "tags": [
       "Machine Learning",
       "AI Architecture",
-      "Reliability",
       "InfoQ Certification Program",
+      "Reliability",
       "Verification",
       "Software Engineering",
       "AI Engineering Certification",
@@ -16525,7 +17038,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "a75982b151db7f3d54834d455ca52d59a57f082d703d83752d8979462e35884d",
@@ -16715,7 +17228,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 27
   },
   {
     "id": "a8e913ead2ec264fd48229d68f2d67b9e892443c7565fd596d1d0ae46a5fd06e",
@@ -16924,6 +17437,25 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34
+  },
+  {
+    "id": "abb1d03524101316824be030e61f64375b67b529970a89aa442a1ab4cf052307",
+    "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
+    "url": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
+    "canonicalUrl": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T20:05:18.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "The RMM provider also released a hotfix as one of recommended mitigations to address public exploits for the alleged zero-days that allow for attacker takeover.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1eb3a07d69de328b/6af4605e4c33022b5dec789d/RMM_panthermedia_Alamy.png?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "abb39ecf5b88c0d077a47b9d9b053368382957b35df4b2024187c6c5fcde1db7",
@@ -17251,7 +17783,7 @@
       "ai-security",
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "ae54e6d5ee931988444facf419b903b2d9e4f2c02012e5bb53611bb48e4299ad",
@@ -17269,7 +17801,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "af42b0a369b51f792835e55a7a58dc44a521dbd129c11a509fcbc79843cef46a",
@@ -17419,7 +17951,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 58
+    "relevanceScore": 55
   },
   {
     "id": "b024199ea3b9c78497997d4933f515b81e19b7ebd08c4b65f169d08b4866ac6d",
@@ -17568,6 +18100,27 @@
     "relevanceScore": 34
   },
   {
+    "id": "b111380ace3390dcf84089a2b49148df99a659a60108795d4205d194de7fe1d1",
+    "title": "AI Raises the Stakes for Cyber Resilience",
+    "url": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+    "canonicalUrl": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T21:20:41.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltcc4e8093ca09a7aa/6af4d41325a88f7635e2ef35/resops_Sohan_stock_shutterstock.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 48
+  },
+  {
     "id": "b12ca73a56ad5494d156cfda458a9cb1fcd1f656fca1d513b4e2aaa448d8f7c2",
     "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
     "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
@@ -17691,7 +18244,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "b29194820f61d38809b52aa1f4f1847b12aa0718d05045f267ac6af3cd82a4fd",
@@ -18219,6 +18772,25 @@
     "relevanceScore": 11
   },
   {
+    "id": "b92486adb822eb8ab12a834c13b3872136451a5e86ffd7f65879015f0a51c0ad",
+    "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+    "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-12T05:12:26.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to Red Hat, which ships…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s1600/apache-http.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "b9ba4e436fc8e927c57d6687f49e6c5a110203675a4b9b1fc106800ed0980395",
     "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
     "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
@@ -18385,7 +18957,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "baa4aee90fb081330729b3df41e2219d82f0d7acf77b69a1c1b4a1732f92cc2f",
@@ -19096,6 +19668,25 @@
     "relevanceScore": 44
   },
   {
+    "id": "c3250efb84244eb8e597cf88b0e48f960ed0ec56d7e44d88ca717743c1464aae",
+    "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
+    "url": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+    "canonicalUrl": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T21:44:04.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Researchers dubbed an attack chain \"Greeter\" after discovering that attackers deliberately covered their trail by leaving \"hello\" messages in logs.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt10d089cc23c19918/6af23c18ddd4d34d271f90a5/GettyImages-511970077.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "c33aab374796d53e0f1dd35dd37abe6f327eb57844a5b62330e5e6bfb8b4754b",
     "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
     "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
@@ -19183,6 +19774,32 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "c3fa6b6a983077561348d3dd6c5ad83f26dbe8cce9ec99204f1c31392a5daa09",
+    "title": "Meta is losing its longtime head of  infrastructure",
+    "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T20:12:01.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "compute",
+      "infrastructure",
+      "Meta",
+      "social media"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "c425ae09135a98ced6a71b58a5e14976cb85c9ac879f4e58b06d5a00415e3415",
@@ -19351,7 +19968,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "c6c865ffc7b3b372cc90d8affb09de8b65034952205c65437708c745f118839e",
@@ -19457,7 +20074,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "c8792c65f2c309ee704b6cc65b23f7a1944e7aceec82aa2c25c0ba52fa6acbd8",
@@ -20000,7 +20617,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "ccd3ce2a22b91d8b3df37b1efdc3414d9af279b240d9e36475bc91844859d809",
@@ -20112,7 +20729,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "cdb58f2515a399368061539b216795f0dc922bdbee30c8b05b8ddefb9420327f",
@@ -20237,7 +20854,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "cfa135623addae02e2c405df8beef6f0391ac8fbd3c6c94591214e7c0a1fd393",
@@ -20434,6 +21051,29 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 46
+  },
+  {
+    "id": "d0923a9bc12806766f81948138e973277568f85d2d33efe6c4de1f9ef7acae1b",
+    "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+    "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-12T03:13:10.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "TC"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "d0f1f838e80b5da2b69004ba31390db54bf259f238c9f3e082bff06441d83cbe",
@@ -20657,6 +21297,30 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [
       "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "d1f3df81d4d143b4729a65212212d6f778f2216f316191385f62aa325ab2619b",
+    "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+    "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T23:17:05.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Jensen Huang",
+      "nvidia"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
     ],
     "relevanceScore": 16
   },
@@ -20982,7 +21646,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "d5515ba1e3206a5dd1cb8210c64b9c623517363a906289ffcd35259823b5a73b",
@@ -21008,7 +21672,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "d6031f26938e035199903a22c212ec6cb67d873e520d207f753724182998b2d1",
@@ -21185,7 +21849,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "d7b8914a8cdea3b2b50120d93c61e950ec877639f1770825a646713c44adeda6",
@@ -21350,6 +22014,32 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 9
+  },
+  {
+    "id": "d8c93229c44950ebd04f55a45c5d6a0f2cf93addca88318439fda06aef97cd7a",
+    "title": "Programmatic M&A in Australia: The most reliable way to unlock value",
+    "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/programmatic-m-and-a-in-australia-the-most-reliable-way-to-unlock-value",
+    "canonicalUrl": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/programmatic-m-and-a-in-australia-the-most-reliable-way-to-unlock-value",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Fewer than one in 20 Australian-listed companies pursued programmatic M&A over the past decade, but they delivered the highest excess shareholder returns of any cohort.",
+    "language": "en",
+    "tags": [
+      "Strategy & Corporate Finance Insights",
+      "Financial Services",
+      "Mining",
+      "Engineering & Construction",
+      "Australia",
+      "Mergers & acquisitions",
+      "Strategy"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "d941be27f61c5d7c174bfbe7ed3facf83a10e2965d44b90fdf446ee7e8effe06",
@@ -21556,7 +22246,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 18
+    "relevanceScore": 15
   },
   {
     "id": "daa4c6179017387d17a02d7332aea1ae462dffc89cff7572d454b0cf257bc4ce",
@@ -21576,7 +22266,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 10
   },
   {
     "id": "dabbcc2d7885d3bb9c20d2a055b776a8de58d1845d07eaf1844c9ab639126295",
@@ -21673,7 +22363,7 @@
   },
   {
     "id": "db7259129f1b6fc440fc600ab8c2ac04b72870477121fc3dcc77cae802a6305c",
-    "title": "Google Finds that Technical Debt Can Derail Coding Agents Through \"Agent Distraction\"",
+    "title": "Google Finds That Technical Debt Can Derail Coding Agents through \"Agent Distraction\"",
     "url": "https://www.infoq.com/news/2026/11/google-agent-distraction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/11/google-agent-distraction",
     "sourceId": "infoq",
@@ -22203,7 +22893,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "e0e6fbcf10b3fbc3d1508a78b25ce4a12477ddee1fe404ba2e29e68e1596f8a3",
@@ -22353,6 +23043,24 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "e2e1e732980a70f840b9f1e3a034aeb8d307a0a1a32abc93bb9b481d00f61972",
+    "title": "Introducing the MongoDB Claude SDK Session Adapter: Durable Session Storage for Agents",
+    "url": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-claude-sdk-session-adapter-durable-session-storage-for-agents",
+    "canonicalUrl": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-claude-sdk-session-adapter-durable-session-storage-for-agents",
+    "sourceId": "mongodb-blog",
+    "sourceName": "MongoDB Blog",
+    "company": "MongoDB",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-11T20:54:41.000Z",
+    "discoveredAt": "2026-11-03T23:26:26.561Z",
+    "summary": "The Claude Agent SDK is a package that lets you embed Claude Code's own agent loop directly into your application: web search, file search, file editing, MCP server connections, and more, all without having to define those tools or manage the agent loop yourself. The SDK also automatically persists session…",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "e2efa7231c37b8d530ff8b25e11416c54605b941cb74c9a1d289a8ed5e87bbf5",
@@ -22724,7 +23432,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "e6e8dcce3d759f2e7982869312567a4ffb16a8ed4935bab1577282f1baa6bb2c",
@@ -22769,7 +23477,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "e7487d243d6b463453685466ec135c05cfefeebbc28f17b26f800108dfbd624e",
@@ -22866,6 +23574,35 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 70
+  },
+  {
+    "id": "e810884244a24be519db96f8fdc843f3f2aac60bd1511b2a8ca6836fe4f61f0a",
+    "title": "The Achilles’ heel of global trade: Building resilience where it matters most",
+    "url": "https://www.mckinsey.com/mgi/our-research/the-achilles-heel-of-global-trade-building-resilience-where-it-matters-most",
+    "canonicalUrl": "https://www.mckinsey.com/mgi/our-research/the-achilles-heel-of-global-trade-building-resilience-where-it-matters-most",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "International trade has been resilient, but important vulnerabilities lurk beneath the surface. Identifying and managing these Achilles’ heels could help unlock new markets, products, and economic growth.",
+    "language": "en",
+    "tags": [
+      "Research",
+      "Logistics",
+      "Manufacturing",
+      "Energy",
+      "Resources & Materials",
+      "McKinsey Global Institute",
+      "Risk Management",
+      "Globalization",
+      "Operations",
+      "MGI Research"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "e811360dc86da18ed11e34ee4ba43d00337239e8c97036fe2a3509c2568b821a",
@@ -23007,6 +23744,32 @@
     "relevanceScore": 12
   },
   {
+    "id": "e9b1651e2709b7ea14f395fd455f4fa11f87f6bf842add147b7e66e43b4f2ad8",
+    "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+    "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T20:54:20.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+    "language": "en",
+    "tags": [
+      "Security",
+      "Artificial Intelligence"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "relevanceScore": 48
+  },
+  {
     "id": "e9c408abaceb68e8451739d576c771eff0b8e417cd3a5a6a8d5bce2e4037ce9a",
     "title": "Architect creates open source replacement for VM migration tool VMware has hidden",
     "url": "https://www.theregister.com/virtualization/2026/11/03/architect-creates-open-source-replacement-for-vm-migration-tool-vmware-has-hidden/5307124",
@@ -23122,6 +23885,31 @@
     "relevanceScore": 31
   },
   {
+    "id": "eb294a56c70bf2d1f7b8cbb5fbafbfda730c217f34c384a7eb55559da64535ca",
+    "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+    "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-11T23:28:45.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "In Brief",
+      "Jensen Huang",
+      "nvidia"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "eb6475e2960c5813b2b151cc08654bae9c20fb702e1d20cc48a73d5da1d2c604",
     "title": "Five rules for evaluating agent skills before they bloat your context window",
     "url": "https://cloud.google.com/blog/topics/developers-practitioners/evaluate-agent-skills-before-they-bloat-your-context-window/",
@@ -23166,7 +23954,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "ebb6222498e1d541a4ba68ba5c41f7727e3482741285ce6a9a28e0b8e79bbbaa",
@@ -23274,7 +24062,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "ecd908aefcc485c1bbc0153f93c0f6f16bccc3a737c7757ca4f9e207febd8ff9",
@@ -23557,7 +24345,7 @@
     "sourceName": "Databricks Blog",
     "company": "Databricks",
     "sourceCategory": "technology",
-    "publishedAt": "2026-11-11T16:10:00.000Z",
+    "publishedAt": "2026-11-11T23:42:00.000Z",
     "discoveredAt": "2026-11-11T19:39:16.219Z",
     "summary": "Bright Machines gives customers live, governed dashboards of their factory data without...",
     "language": "en",
@@ -23698,7 +24486,7 @@
       "generative-ai"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "ef35a9662ac8f2dc5a9d0fb68fb08e085cf4fed5799e1661011e19f77ffc312a",
@@ -23747,7 +24535,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "ef6d6400be29135bbf19b7185b6c7bf9d73f9ad773d1c81a6fc75d13cfee97b6",
@@ -23828,6 +24616,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "f06afad95fd280ed49928db4ad2f9c57102c3d958429ef96d2187222fdd8cd8f",
+    "title": "How Observe.AI Used MongoDB Resharding to Scale Its AI Platform",
+    "url": "https://www.mongodb.com/company/blog/innovation/how-observe-ai-used-mongodb-resharding-scale-ai-platform",
+    "canonicalUrl": "https://www.mongodb.com/company/blog/innovation/how-observe-ai-used-mongodb-resharding-scale-ai-platform",
+    "sourceId": "mongodb-blog",
+    "sourceName": "MongoDB Blog",
+    "company": "MongoDB",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-12T01:00:00.000Z",
+    "discoveredAt": "2026-11-12T07:16:07.723Z",
+    "summary": "Launched in 2017, Observe.AI was originally known for its expertise in conversation intelligence and contact center analytics. In recent years, however, the company has grown into a comprehensive agentic AI platform, and now has three core offerings: AI agents for customers that resolve customer requests across voice…",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 58
   },
   {
     "id": "f080f06a17c86c038b86d4d43368abeb6da0591d31d84f0774e94f6f21d25fa8",
@@ -24019,8 +24828,9 @@
     "tags": [
       "AI",
       "Government & Policy",
-      "nvidia",
-      "Jensen Huang"
+      "In Brief",
+      "Jensen Huang",
+      "nvidia"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -24235,7 +25045,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "f47827659be1597d644d97fceb6a9d0d5b42f28dd1563e252719438bd6c3febf",
@@ -24315,7 +25125,6 @@
     "language": "en",
     "tags": [
       "AI",
-      "TC",
       "China",
       "Jensen Huang",
       "nvidia"
@@ -24349,7 +25158,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "f512d2b299db62af357a35909b980a0d580fb84a00f63e9c5a1d2807f90404c3",
@@ -24965,14 +25774,14 @@
     "sourceName": "MongoDB Blog",
     "company": "MongoDB",
     "sourceCategory": "technology",
-    "publishedAt": "2026-11-04T15:29:17.000Z",
+    "publishedAt": "2026-11-11T20:14:25.000Z",
     "discoveredAt": "2026-11-04T19:48:22.788Z",
     "summary": "We’re excited to announce the MongoDB Google ADK Integration, which provides developers with the building blocks they need to create durable memory for agent state. As agents move from prototypes to real-world applications, they need secure, dependable access to data and the ability to retain context over a long…",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 7
+    "relevanceScore": 15
   },
   {
     "id": "fc17a80ae37f1112ec9a99ec43d9f757e0ddb50cfb9c1b4265ac381a12971d09",
@@ -25202,7 +26011,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "ff067a90e6ee197fb3911fece2d3935a67ca2a34a2cd41dc7c641c847770cd80",
