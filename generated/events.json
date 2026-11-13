@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T06:50:47.393Z",
+  "generatedAt": "2026-11-13T19:45:49.155Z",
   "events": [
     {
       "id": "6d3001af5dd013650e24b24bdd27a77be837e8402abe126cc0dfddd5b80e534e",
@@ -19,25 +19,6 @@
       "language": "en",
       "matchedKeywordIds": [],
       "relevanceScore": 5,
-      "discoveredAt": "2026-11-08T03:54:57.248Z",
-      "dateStatus": "confirmed"
-    },
-    {
-      "id": "9b1ab57f2d2bc81477a664add37b9a5a1f4a7f559b28a3e0f4c9dd18f4a7364e",
-      "title": "Come utilizzare Tenable per identificare e rimediare le vulnerabilità di PHP2Shell",
-      "url": "https://www.tenable.com/webinars/emea-come-utilizzare-tenable-per-identificare-e-rimediare-alle-vulnerabilita-di-PHP2Shell",
-      "sourceId": "tenable-webinars",
-      "sourceName": "Tenable Webinars",
-      "company": "Tenable",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-13T11:00:00.000Z",
-      "allDay": false,
-      "kind": "webinar",
-      "format": "online",
-      "summary": "Sono state rese note due vulnerabilità critiche in PHP, una tecnologia ampiamente utilizzata che costituisce la base di siti web e applicazioni in tutto il mondo.",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 6,
       "discoveredAt": "2026-11-08T03:54:57.248Z",
       "dateStatus": "confirmed"
     },
@@ -544,6 +525,29 @@
       "dateStatus": "confirmed"
     },
     {
+      "id": "57fb06313d9f0863a85ba1cc922506f39e6496d02a0d859bbc23e52a57fe90c7",
+      "title": "S4X27",
+      "url": "https://www.tenable.com/events/s4x27",
+      "sourceId": "tenable-events",
+      "sourceName": "Tenable Events",
+      "company": "Tenable",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2027-02-08T00:00:00.000Z",
+      "endsAt": "2027-02-12T00:00:00.000Z",
+      "allDay": true,
+      "kind": "event",
+      "format": "in-person",
+      "location": "Tampa, FL",
+      "summary": "S4 is an optimistic, forward-looking event for 1,000+ OT security pros. Experience 3 days of innovative sessions, world-class networking, and eclectic parties designed to break normal thought patterns and drive change for secure, resilient ICS.",
+      "language": "en",
+      "matchedKeywordIds": [
+        "operational-technology-security"
+      ],
+      "relevanceScore": 24,
+      "discoveredAt": "2026-11-13T19:45:49.155Z",
+      "dateStatus": "confirmed"
+    },
+    {
       "id": "6f6d3f0253f60c07de68d53a23f0d4ce02a6e20404eb51e196ed30c13d80f018",
       "title": "FISSEA Winter Forum: February 9, 2027",
       "url": "https://www.nist.gov/news-events/events/2027/02/fissea-winter-forum-february-9-2027",
@@ -670,6 +674,27 @@
       "dateStatus": "confirmed"
     },
     {
+      "id": "17e8ed9c60297468789f8d564fb016684f0c176b42815066430934056d44a6b8",
+      "title": "FS-ISAC Spring Summit",
+      "url": "https://www.tenable.com/events/fs-isac-spring-summit-1",
+      "sourceId": "tenable-events",
+      "sourceName": "Tenable Events",
+      "company": "Tenable",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2027-03-15T00:00:00.000Z",
+      "endsAt": "2027-03-18T00:00:00.000Z",
+      "allDay": true,
+      "kind": "conference",
+      "format": "in-person",
+      "location": "Orlando, FL",
+      "summary": "Join fellow FS-ISAC members for the Americas Summit. Experience three days of expert-led sessions on intelligence, security, and resilience. Build lasting connections and fortify the financial sector’s ecosystem through world-class collaboration.",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 6,
+      "discoveredAt": "2026-11-13T19:45:49.155Z",
+      "dateStatus": "confirmed"
+    },
+    {
       "id": "6cd34f9ecef47d5abb656e8b95accbffb7f3b3f8142d78dbcacc11cee9714fdb",
       "title": "RSA Conference",
       "url": "https://www.rsaconference.com/usa",
@@ -776,6 +801,26 @@
       "matchedKeywordIds": [],
       "relevanceScore": 5,
       "discoveredAt": "2026-11-08T03:54:57.248Z",
+      "dateStatus": "confirmed"
+    },
+    {
+      "id": "51f169a7a454908c3cafa758e563df3d35e580ef8e6ea52ad9b045102953c464",
+      "title": "Open Source Summit North America",
+      "url": "https://openssf.org/event/open-source-summit-north-america-3/",
+      "sourceId": "openssf-events",
+      "sourceName": "OpenSSF Events",
+      "company": "Open Source Security Foundation",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2027-05-17T00:00:00.000Z",
+      "endsAt": "2027-05-20T00:00:00.000Z",
+      "allDay": true,
+      "kind": "conference",
+      "format": "in-person",
+      "summary": "",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 6,
+      "discoveredAt": "2026-11-13T19:45:49.155Z",
       "dateStatus": "confirmed"
     },
     {
@@ -928,6 +973,27 @@
       "discoveredAt": "2026-11-08T03:54:57.248Z",
       "dateStatus": "estimated",
       "estimatedFrom": "2026-06-19"
+    },
+    {
+      "id": "82e5c9288129d45b0dd0077ee5df041ccb70d7e9016fcd7f637c227a6ab5d886",
+      "title": "Gartner C-Level Communities New York CISO Summit",
+      "url": "https://www.tenable.com/events/gartner-c-level-communities-new-york-ciso-summit",
+      "sourceId": "tenable-events",
+      "sourceName": "Tenable Events",
+      "company": "Tenable",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2027-06-23T00:00:00.000Z",
+      "endsAt": "2027-06-24T00:00:00.000Z",
+      "allDay": true,
+      "kind": "conference",
+      "format": "in-person",
+      "location": "Pier Sixty New York",
+      "summary": "Collaborate with your peers.",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 6,
+      "discoveredAt": "2026-11-13T19:45:49.155Z",
+      "dateStatus": "confirmed"
     },
     {
       "id": "a85008087109ede411c6e2cc069f8b3b1970a2ec455518c6b3e337cb3e74767a",
@@ -1200,9 +1266,9 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
-        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
-        "responseTimeMs": 1200,
+        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
+        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
+        "responseTimeMs": 1336,
         "itemsFetched": 30,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1218,9 +1284,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
-        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
-        "responseTimeMs": 3233,
+        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
+        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
+        "responseTimeMs": 4672,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1236,9 +1302,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
-        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
-        "responseTimeMs": 816,
+        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
+        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
+        "responseTimeMs": 1053,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1253,8 +1319,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
-        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
+        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
+        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1271,10 +1337,10 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
-        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
-        "responseTimeMs": 79,
-        "itemsFetched": 24,
+        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
+        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
+        "responseTimeMs": 243,
+        "itemsFetched": 25,
         "newItems": 0,
         "consecutiveFailures": 0
       }
@@ -1289,9 +1355,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
-        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
-        "responseTimeMs": 575,
+        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
+        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
+        "responseTimeMs": 352,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1307,11 +1373,11 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
-        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
-        "responseTimeMs": 259,
+        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
+        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
+        "responseTimeMs": 872,
         "itemsFetched": 3,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1325,9 +1391,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
-        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
-        "responseTimeMs": 127,
+        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
+        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
+        "responseTimeMs": 232,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1343,11 +1409,11 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
-        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
-        "responseTimeMs": 13271,
-        "itemsFetched": 11,
-        "newItems": 1,
+        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
+        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
+        "responseTimeMs": 6616,
+        "itemsFetched": 16,
+        "newItems": 4,
         "consecutiveFailures": 0
       }
     },
@@ -1361,9 +1427,9 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
-        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
-        "responseTimeMs": 2051,
+        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
+        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
+        "responseTimeMs": 3006,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
