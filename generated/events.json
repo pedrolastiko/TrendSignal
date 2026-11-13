@@ -1,69 +1,6 @@
 {
-  "generatedAt": "2026-11-12T19:58:11.188Z",
+  "generatedAt": "2026-11-13T06:50:47.393Z",
   "events": [
-    {
-      "id": "a3d2d85356018636cb4bd308c40995c551409cca177c9ba6f0a12f40a72b9df3",
-      "title": "KubeCon + CloudNativeCon North America 2026",
-      "url": "https://www.cncf.io/events/kubecon-cloudnativecon-north-america-2026/",
-      "sourceId": "cncf-events",
-      "sourceName": "CNCF Events",
-      "company": "Cloud Native Computing Foundation",
-      "sourceCategory": "technology",
-      "startsAt": "2026-11-09T00:00:00.000Z",
-      "endsAt": "2026-11-13T00:00:00.000Z",
-      "allDay": true,
-      "kind": "conference",
-      "format": "in-person",
-      "location": "Salt Lake City",
-      "summary": "",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 7,
-      "discoveredAt": "2026-11-07T20:16:38.914Z",
-      "dateStatus": "confirmed"
-    },
-    {
-      "id": "3798c9387694e04580919148b888beccc4b8206b7a59017c6866f64ffd11ba27",
-      "title": "BSides Halifax",
-      "url": "https://bsides.org/event/bsides-halifax/",
-      "sourceId": "bsides-events",
-      "sourceName": "BSides Global Community Events",
-      "company": "BSides Global Community",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-12T00:00:00.000Z",
-      "endsAt": "2026-11-13T00:00:00.000Z",
-      "allDay": true,
-      "kind": "event",
-      "format": "in-person",
-      "location": "BSidesHalifax, Halifax, NS, Canada",
-      "summary": "Unconfirmed",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 5,
-      "discoveredAt": "2026-11-08T03:54:57.248Z",
-      "dateStatus": "confirmed"
-    },
-    {
-      "id": "c976689419170cc1d99cc7bbcb02073852f5fb2fd5b50d87aa30fc9a070c5ba9",
-      "title": "BSides Flood City",
-      "url": "https://bsides.org/event/bsides-flood-city/",
-      "sourceId": "bsides-events",
-      "sourceName": "BSides Global Community Events",
-      "company": "BSides Global Community",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-12T00:00:00.000Z",
-      "endsAt": "2026-11-13T00:00:00.000Z",
-      "allDay": true,
-      "kind": "event",
-      "format": "in-person",
-      "location": "BSidesFloodCity, Johnstown, PA, USA",
-      "summary": "",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 5,
-      "discoveredAt": "2026-11-08T03:54:57.248Z",
-      "dateStatus": "confirmed"
-    },
     {
       "id": "6d3001af5dd013650e24b24bdd27a77be837e8402abe126cc0dfddd5b80e534e",
       "title": "BSidesDE",
@@ -1263,9 +1200,9 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
-        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
-        "responseTimeMs": 1276,
+        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
+        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
+        "responseTimeMs": 1200,
         "itemsFetched": 30,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1281,9 +1218,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
-        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
-        "responseTimeMs": 3630,
+        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
+        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
+        "responseTimeMs": 3233,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1299,9 +1236,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
-        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
-        "responseTimeMs": 228,
+        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
+        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
+        "responseTimeMs": 816,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1316,8 +1253,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
-        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
+        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
+        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1334,9 +1271,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
-        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
-        "responseTimeMs": 253,
+        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
+        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
+        "responseTimeMs": 79,
         "itemsFetched": 24,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1352,9 +1289,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
-        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
-        "responseTimeMs": 447,
+        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
+        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
+        "responseTimeMs": 575,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1370,11 +1307,11 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
-        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
-        "responseTimeMs": 654,
+        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
+        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
+        "responseTimeMs": 259,
         "itemsFetched": 3,
-        "newItems": 1,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     },
@@ -1388,9 +1325,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
-        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
-        "responseTimeMs": 137,
+        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
+        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
+        "responseTimeMs": 127,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1406,9 +1343,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
-        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
-        "responseTimeMs": 1731,
+        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
+        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
+        "responseTimeMs": 13271,
         "itemsFetched": 11,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1424,11 +1361,11 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-12T19:58:11.188Z",
-        "lastSuccessAt": "2026-11-12T19:58:11.188Z",
-        "responseTimeMs": 1265,
+        "lastAttemptAt": "2026-11-13T06:50:47.393Z",
+        "lastSuccessAt": "2026-11-13T06:50:47.393Z",
+        "responseTimeMs": 2051,
         "itemsFetched": 12,
-        "newItems": 1,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     }
