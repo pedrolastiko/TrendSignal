@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T19:45:49.155Z",
+  "generatedAt": "2026-11-14T06:29:56.871Z",
   "events": [
     {
       "id": "6d3001af5dd013650e24b24bdd27a77be837e8402abe126cc0dfddd5b80e534e",
@@ -674,6 +674,27 @@
       "dateStatus": "confirmed"
     },
     {
+      "id": "ff96b20129ef78b6cdfd8e85d4ae3f352e4f4d8e2915138f47e185b4300570b9",
+      "title": "BSides Space Coast",
+      "url": "https://bsides.org/event/bsides-space-coast/",
+      "sourceId": "bsides-events",
+      "sourceName": "BSides Global Community Events",
+      "company": "BSides Global Community",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2027-03-13T00:00:00.000Z",
+      "endsAt": "2027-03-14T00:00:00.000Z",
+      "allDay": true,
+      "kind": "event",
+      "format": "in-person",
+      "location": "BSidesSpaceCoast, 3865 North Wickham Road, Melbourne, FL, United States",
+      "summary": "Melbourne, FL, USA",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 5,
+      "discoveredAt": "2026-11-14T06:29:56.871Z",
+      "dateStatus": "confirmed"
+    },
+    {
       "id": "17e8ed9c60297468789f8d564fb016684f0c176b42815066430934056d44a6b8",
       "title": "FS-ISAC Spring Summit",
       "url": "https://www.tenable.com/events/fs-isac-spring-summit-1",
@@ -1266,11 +1287,11 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
-        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
-        "responseTimeMs": 1336,
+        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
+        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
+        "responseTimeMs": 1233,
         "itemsFetched": 30,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1284,9 +1305,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
-        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
-        "responseTimeMs": 4672,
+        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
+        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
+        "responseTimeMs": 3349,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1302,9 +1323,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
-        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
-        "responseTimeMs": 1053,
+        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
+        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
+        "responseTimeMs": 747,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1319,8 +1340,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
-        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
+        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
+        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1337,9 +1358,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
-        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
-        "responseTimeMs": 243,
+        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
+        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
+        "responseTimeMs": 68,
         "itemsFetched": 25,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1355,9 +1376,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
-        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
-        "responseTimeMs": 352,
+        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
+        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
+        "responseTimeMs": 528,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1373,11 +1394,11 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
-        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
-        "responseTimeMs": 872,
+        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
+        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
+        "responseTimeMs": 252,
         "itemsFetched": 3,
-        "newItems": 1,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     },
@@ -1391,9 +1412,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
-        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
-        "responseTimeMs": 232,
+        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
+        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
+        "responseTimeMs": 430,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1409,11 +1430,11 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
-        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
-        "responseTimeMs": 6616,
+        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
+        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
+        "responseTimeMs": 3237,
         "itemsFetched": 16,
-        "newItems": 4,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1427,9 +1448,9 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-13T19:45:49.155Z",
-        "lastSuccessAt": "2026-11-13T19:45:49.155Z",
-        "responseTimeMs": 3006,
+        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
+        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
+        "responseTimeMs": 1978,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
