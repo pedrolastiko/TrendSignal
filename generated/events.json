@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T06:29:56.871Z",
+  "generatedAt": "2026-11-14T18:08:54.062Z",
   "events": [
     {
       "id": "6d3001af5dd013650e24b24bdd27a77be837e8402abe126cc0dfddd5b80e534e",
@@ -1287,11 +1287,11 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
-        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
-        "responseTimeMs": 1233,
+        "lastAttemptAt": "2026-11-14T18:08:54.062Z",
+        "lastSuccessAt": "2026-11-14T18:08:54.062Z",
+        "responseTimeMs": 1217,
         "itemsFetched": 30,
-        "newItems": 1,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     },
@@ -1305,9 +1305,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
-        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
-        "responseTimeMs": 3349,
+        "lastAttemptAt": "2026-11-14T18:08:54.062Z",
+        "lastSuccessAt": "2026-11-14T18:08:54.062Z",
+        "responseTimeMs": 2753,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1323,9 +1323,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
-        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
-        "responseTimeMs": 747,
+        "lastAttemptAt": "2026-11-14T18:08:54.062Z",
+        "lastSuccessAt": "2026-11-14T18:08:54.062Z",
+        "responseTimeMs": 672,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1340,8 +1340,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
-        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
+        "lastAttemptAt": "2026-11-14T18:08:54.062Z",
+        "lastSuccessAt": "2026-11-14T18:08:54.062Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1358,9 +1358,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
-        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
-        "responseTimeMs": 68,
+        "lastAttemptAt": "2026-11-14T18:08:54.062Z",
+        "lastSuccessAt": "2026-11-14T18:08:54.062Z",
+        "responseTimeMs": 57,
         "itemsFetched": 25,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1376,9 +1376,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
-        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
-        "responseTimeMs": 528,
+        "lastAttemptAt": "2026-11-14T18:08:54.062Z",
+        "lastSuccessAt": "2026-11-14T18:08:54.062Z",
+        "responseTimeMs": 497,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1394,9 +1394,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
-        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
-        "responseTimeMs": 252,
+        "lastAttemptAt": "2026-11-14T18:08:54.062Z",
+        "lastSuccessAt": "2026-11-14T18:08:54.062Z",
+        "responseTimeMs": 566,
         "itemsFetched": 3,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1412,9 +1412,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
-        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
-        "responseTimeMs": 430,
+        "lastAttemptAt": "2026-11-14T18:08:54.062Z",
+        "lastSuccessAt": "2026-11-14T18:08:54.062Z",
+        "responseTimeMs": 313,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1430,9 +1430,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
-        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
-        "responseTimeMs": 3237,
+        "lastAttemptAt": "2026-11-14T18:08:54.062Z",
+        "lastSuccessAt": "2026-11-14T18:08:54.062Z",
+        "responseTimeMs": 2706,
         "itemsFetched": 16,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1448,9 +1448,9 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T06:29:56.871Z",
-        "lastSuccessAt": "2026-11-14T06:29:56.871Z",
-        "responseTimeMs": 1978,
+        "lastAttemptAt": "2026-11-14T18:08:54.062Z",
+        "lastSuccessAt": "2026-11-14T18:08:54.062Z",
+        "responseTimeMs": 2193,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
