@@ -1,27 +1,6 @@
 {
-  "generatedAt": "2026-11-14T22:28:49.000Z",
+  "generatedAt": "2026-11-15T06:39:14.626Z",
   "events": [
-    {
-      "id": "6d3001af5dd013650e24b24bdd27a77be837e8402abe126cc0dfddd5b80e534e",
-      "title": "BSidesDE",
-      "url": "https://bsides.org/event/bsidesde-5/",
-      "sourceId": "bsides-events",
-      "sourceName": "BSides Global Community Events",
-      "company": "BSides Global Community",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-13T00:00:00.000Z",
-      "endsAt": "2026-11-15T00:00:00.000Z",
-      "allDay": true,
-      "kind": "event",
-      "format": "in-person",
-      "location": "BSidesDelaware, Newark, DE, United States",
-      "summary": "Unconfirmed",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 5,
-      "discoveredAt": "2026-11-08T03:54:57.248Z",
-      "dateStatus": "confirmed"
-    },
     {
       "id": "19531ae9911d9d496ee2f70d44287efc7812de5f6e1ce88ea2e119ab20e8f824",
       "title": "FIDO Sponsored Webinar: Blueprint for Tomorrow: Where Identity is Heading and How to Lead It",
@@ -716,6 +695,48 @@
       "dateStatus": "confirmed"
     },
     {
+      "id": "5d630a88a4eb46fe3228a5094162bdfc1be6dafc8df72210ff642d5cf0cabfdf",
+      "title": "BSides Regina",
+      "url": "https://bsides.org/event/bsides-regina/",
+      "sourceId": "bsides-events",
+      "sourceName": "BSides Global Community Events",
+      "company": "BSides Global Community",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2027-03-17T00:00:00.000Z",
+      "endsAt": "2027-03-19T00:00:00.000Z",
+      "allDay": true,
+      "kind": "conference",
+      "format": "in-person",
+      "location": "BSidesRegina, Regina, Canada",
+      "summary": "Workshops 17th, Conference 18th",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 5,
+      "discoveredAt": "2026-11-15T06:39:14.626Z",
+      "dateStatus": "confirmed"
+    },
+    {
+      "id": "80dd184dfa7b566ceb41968db07bdac3b40d0201d0f490cad57abdb2bdf65e82",
+      "title": "BSides ROC",
+      "url": "https://bsides.org/event/bsides-roc/",
+      "sourceId": "bsides-events",
+      "sourceName": "BSides Global Community Events",
+      "company": "BSides Global Community",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2027-03-20T00:00:00.000Z",
+      "endsAt": "2027-03-22T00:00:00.000Z",
+      "allDay": true,
+      "kind": "conference",
+      "format": "in-person",
+      "location": "BSidesROC, Rochester, NY, USA",
+      "summary": "Training Day 20th, Conference 21st",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 5,
+      "discoveredAt": "2026-11-15T06:39:14.626Z",
+      "dateStatus": "confirmed"
+    },
+    {
       "id": "6cd34f9ecef47d5abb656e8b95accbffb7f3b3f8142d78dbcacc11cee9714fdb",
       "title": "RSA Conference",
       "url": "https://www.rsaconference.com/usa",
@@ -1287,11 +1308,11 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T22:28:49.000Z",
-        "lastSuccessAt": "2026-11-14T22:28:49.000Z",
-        "responseTimeMs": 1217,
+        "lastAttemptAt": "2026-11-15T06:39:14.626Z",
+        "lastSuccessAt": "2026-11-15T06:39:14.626Z",
+        "responseTimeMs": 1362,
         "itemsFetched": 30,
-        "newItems": 0,
+        "newItems": 2,
         "consecutiveFailures": 0
       }
     },
@@ -1305,9 +1326,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T22:28:49.000Z",
-        "lastSuccessAt": "2026-11-14T22:28:49.000Z",
-        "responseTimeMs": 3502,
+        "lastAttemptAt": "2026-11-15T06:39:14.626Z",
+        "lastSuccessAt": "2026-11-15T06:39:14.626Z",
+        "responseTimeMs": 3383,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1323,9 +1344,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T22:28:49.000Z",
-        "lastSuccessAt": "2026-11-14T22:28:49.000Z",
-        "responseTimeMs": 1875,
+        "lastAttemptAt": "2026-11-15T06:39:14.626Z",
+        "lastSuccessAt": "2026-11-15T06:39:14.626Z",
+        "responseTimeMs": 1559,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1340,8 +1361,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T22:28:49.000Z",
-        "lastSuccessAt": "2026-11-14T22:28:49.000Z",
+        "lastAttemptAt": "2026-11-15T06:39:14.626Z",
+        "lastSuccessAt": "2026-11-15T06:39:14.626Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1358,9 +1379,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T22:28:49.000Z",
-        "lastSuccessAt": "2026-11-14T22:28:49.000Z",
-        "responseTimeMs": 106,
+        "lastAttemptAt": "2026-11-15T06:39:14.626Z",
+        "lastSuccessAt": "2026-11-15T06:39:14.626Z",
+        "responseTimeMs": 147,
         "itemsFetched": 25,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1376,9 +1397,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T22:28:49.000Z",
-        "lastSuccessAt": "2026-11-14T22:28:49.000Z",
-        "responseTimeMs": 573,
+        "lastAttemptAt": "2026-11-15T06:39:14.626Z",
+        "lastSuccessAt": "2026-11-15T06:39:14.626Z",
+        "responseTimeMs": 504,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1394,9 +1415,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T22:28:49.000Z",
-        "lastSuccessAt": "2026-11-14T22:28:49.000Z",
-        "responseTimeMs": 319,
+        "lastAttemptAt": "2026-11-15T06:39:14.626Z",
+        "lastSuccessAt": "2026-11-15T06:39:14.626Z",
+        "responseTimeMs": 496,
         "itemsFetched": 3,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1412,9 +1433,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T22:28:49.000Z",
-        "lastSuccessAt": "2026-11-14T22:28:49.000Z",
-        "responseTimeMs": 194,
+        "lastAttemptAt": "2026-11-15T06:39:14.626Z",
+        "lastSuccessAt": "2026-11-15T06:39:14.626Z",
+        "responseTimeMs": 511,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1430,9 +1451,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T22:28:49.000Z",
-        "lastSuccessAt": "2026-11-14T22:28:49.000Z",
-        "responseTimeMs": 2936,
+        "lastAttemptAt": "2026-11-15T06:39:14.626Z",
+        "lastSuccessAt": "2026-11-15T06:39:14.626Z",
+        "responseTimeMs": 12116,
         "itemsFetched": 16,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1448,9 +1469,9 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-14T22:28:49.000Z",
-        "lastSuccessAt": "2026-11-14T22:28:49.000Z",
-        "responseTimeMs": 1577,
+        "lastAttemptAt": "2026-11-15T06:39:14.626Z",
+        "lastSuccessAt": "2026-11-15T06:39:14.626Z",
+        "responseTimeMs": 2063,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
