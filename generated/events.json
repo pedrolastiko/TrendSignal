@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-11-16T06:35:43.229Z",
+  "generatedAt": "2026-11-16T22:09:10.710Z",
   "events": [
-    {
-      "id": "19531ae9911d9d496ee2f70d44287efc7812de5f6e1ce88ea2e119ab20e8f824",
-      "title": "FIDO Sponsored Webinar: Blueprint for Tomorrow: Where Identity is Heading and How to Lead It",
-      "url": "https://fidoalliance.org/event/fido-sponsored-webinar-blueprint-for-tomorrow-where-identity-is-heading-and-how-to-lead-it/",
-      "sourceId": "fido-events",
-      "sourceName": "FIDO Alliance Events",
-      "company": "FIDO Alliance",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-16T16:00:00.000Z",
-      "endsAt": "2026-11-16T17:00:00.000Z",
-      "allDay": false,
-      "kind": "webinar",
-      "format": "online",
-      "summary": "Deepfakes, AI-driven phishing, and post-quantum capabilities are redefining how digital identity is verified, stolen, and secured. Navigating this shift demands more than quick fixes, it requires strategic clarity across your entire organization. Staying ahead requires an architectural leap. Join us for a CTO-led…",
-      "language": "en",
-      "matchedKeywordIds": [
-        "artificial-intelligence"
-      ],
-      "relevanceScore": 23,
-      "discoveredAt": "2026-11-07T20:16:38.914Z",
-      "dateStatus": "confirmed"
-    },
     {
       "id": "dc10b5de4972c67d7729404f473b95bbf6093cb9d4aa0356a009c063d30e16c5",
       "title": "Microsoft Ignite",
@@ -459,6 +437,27 @@
       ],
       "relevanceScore": 34,
       "discoveredAt": "2026-11-08T03:54:57.248Z",
+      "dateStatus": "confirmed"
+    },
+    {
+      "id": "42f2aafe2834b2d4cb76b91dda796667ffdf1f532a9634294901e9b49be63da6",
+      "title": "Cybersecurity for Solopreneurs",
+      "url": "https://www.nist.gov/news-events/events/2027/01/cybersecurity-solopreneurs",
+      "sourceId": "nist-events",
+      "sourceName": "NIST Events",
+      "company": "NIST",
+      "sourceCategory": "technology",
+      "startsAt": "2027-01-26T19:00:00.000Z",
+      "allDay": false,
+      "kind": "event",
+      "format": "in-person",
+      "summary": "According to the U.S. Small Business Administration Office of Advocacy, there are 34.8 million small businesses in the United States, comprising 99 % of all U.S. businesses. Of those, 81.9 % are “non-employer firms” with no paid employees other than",
+      "language": "en",
+      "matchedKeywordIds": [
+        "cybersecurity"
+      ],
+      "relevanceScore": 29,
+      "discoveredAt": "2026-11-16T22:09:10.710Z",
       "dateStatus": "confirmed"
     },
     {
@@ -1308,9 +1307,9 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-16T06:35:43.229Z",
-        "lastSuccessAt": "2026-11-16T06:35:43.229Z",
-        "responseTimeMs": 2091,
+        "lastAttemptAt": "2026-11-16T22:09:10.710Z",
+        "lastSuccessAt": "2026-11-16T22:09:10.710Z",
+        "responseTimeMs": 1299,
         "itemsFetched": 30,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1326,9 +1325,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-16T06:35:43.229Z",
-        "lastSuccessAt": "2026-11-16T06:35:43.229Z",
-        "responseTimeMs": 3109,
+        "lastAttemptAt": "2026-11-16T22:09:10.710Z",
+        "lastSuccessAt": "2026-11-16T22:09:10.710Z",
+        "responseTimeMs": 3311,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1344,10 +1343,10 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-16T06:35:43.229Z",
-        "lastSuccessAt": "2026-11-16T06:35:43.229Z",
-        "responseTimeMs": 190,
-        "itemsFetched": 12,
+        "lastAttemptAt": "2026-11-16T22:09:10.710Z",
+        "lastSuccessAt": "2026-11-16T22:09:10.710Z",
+        "responseTimeMs": 6870,
+        "itemsFetched": 11,
         "newItems": 0,
         "consecutiveFailures": 0
       }
@@ -1361,8 +1360,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-16T06:35:43.229Z",
-        "lastSuccessAt": "2026-11-16T06:35:43.229Z",
+        "lastAttemptAt": "2026-11-16T22:09:10.710Z",
+        "lastSuccessAt": "2026-11-16T22:09:10.710Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1379,11 +1378,11 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-16T06:35:43.229Z",
-        "lastSuccessAt": "2026-11-16T06:35:43.229Z",
-        "responseTimeMs": 148,
-        "itemsFetched": 25,
-        "newItems": 0,
+        "lastAttemptAt": "2026-11-16T22:09:10.710Z",
+        "lastSuccessAt": "2026-11-16T22:09:10.710Z",
+        "responseTimeMs": 145,
+        "itemsFetched": 26,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1397,9 +1396,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-16T06:35:43.229Z",
-        "lastSuccessAt": "2026-11-16T06:35:43.229Z",
-        "responseTimeMs": 429,
+        "lastAttemptAt": "2026-11-16T22:09:10.710Z",
+        "lastSuccessAt": "2026-11-16T22:09:10.710Z",
+        "responseTimeMs": 769,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1415,9 +1414,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-16T06:35:43.229Z",
-        "lastSuccessAt": "2026-11-16T06:35:43.229Z",
-        "responseTimeMs": 208,
+        "lastAttemptAt": "2026-11-16T22:09:10.710Z",
+        "lastSuccessAt": "2026-11-16T22:09:10.710Z",
+        "responseTimeMs": 537,
         "itemsFetched": 3,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1433,9 +1432,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-16T06:35:43.229Z",
-        "lastSuccessAt": "2026-11-16T06:35:43.229Z",
-        "responseTimeMs": 346,
+        "lastAttemptAt": "2026-11-16T22:09:10.710Z",
+        "lastSuccessAt": "2026-11-16T22:09:10.710Z",
+        "responseTimeMs": 223,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1451,10 +1450,10 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-16T06:35:43.229Z",
-        "lastSuccessAt": "2026-11-16T06:35:43.229Z",
-        "responseTimeMs": 3887,
-        "itemsFetched": 16,
+        "lastAttemptAt": "2026-11-16T22:09:10.710Z",
+        "lastSuccessAt": "2026-11-16T22:09:10.710Z",
+        "responseTimeMs": 5236,
+        "itemsFetched": 13,
         "newItems": 1,
         "consecutiveFailures": 0
       }
@@ -1469,9 +1468,9 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-16T06:35:43.229Z",
-        "lastSuccessAt": "2026-11-16T06:35:43.229Z",
-        "responseTimeMs": 3410,
+        "lastAttemptAt": "2026-11-16T22:09:10.710Z",
+        "lastSuccessAt": "2026-11-16T22:09:10.710Z",
+        "responseTimeMs": 1450,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
