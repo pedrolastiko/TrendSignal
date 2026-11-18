@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T07:33:56.720Z",
+  "generatedAt": "2026-11-18T20:35:53.144Z",
   "events": [
     {
       "id": "dc10b5de4972c67d7729404f473b95bbf6093cb9d4aa0356a009c063d30e16c5",
@@ -19,47 +19,6 @@
       "language": "en",
       "matchedKeywordIds": [],
       "relevanceScore": 8,
-      "discoveredAt": "2026-11-08T03:54:57.248Z",
-      "dateStatus": "confirmed"
-    },
-    {
-      "id": "4c6e8e6b8716f7cec6b9fe2d3a7d7cbc358db4b31d6b6a2a782571053fea33c0",
-      "title": "Member Webinar: Building a Business Case for Passkeys",
-      "url": "https://fidoalliance.org/event/member-webinar-building-a-business-case-for-passkeys/",
-      "sourceId": "fido-events",
-      "sourceName": "FIDO Alliance Events",
-      "company": "FIDO Alliance",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-18T16:00:00.000Z",
-      "endsAt": "2026-11-18T17:00:00.000Z",
-      "allDay": false,
-      "kind": "webinar",
-      "format": "online",
-      "summary": "Passkeys only save money when users actually log in with them. In 45 minutes, Vincent Delitz shows banks, insurers and public sector teams where the savings come from and how to calculate them with their own numbers. What you’ll learn: The four cost levers: SMS OTP, password resets, account takeover and compliance…",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 6,
-      "discoveredAt": "2026-11-09T22:24:47.285Z",
-      "dateStatus": "confirmed"
-    },
-    {
-      "id": "4efb36e748d68b0684074e92033d4ce99c935c370b6538ada9ab07c5c19a07a2",
-      "title": "Tenable OT Office Hours",
-      "url": "https://www.tenable.com/webinars/emea-tenable-ot-office-hours-q4-2026",
-      "sourceId": "tenable-webinars",
-      "sourceName": "Tenable Webinars",
-      "company": "Tenable",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-18T17:00:00.000Z",
-      "allDay": false,
-      "kind": "webinar",
-      "format": "online",
-      "summary": "Join the Tenable OT team for recurring sessions addressing your questions, highlighting product features, and exploring best practices for using Tenable OT Security.If you have questions about your Tenable OT Security solution, join our Office Hours webinars for answers. Led by the Tenable OT security engineers,…",
-      "language": "en",
-      "matchedKeywordIds": [
-        "operational-technology-security"
-      ],
-      "relevanceScore": 24,
       "discoveredAt": "2026-11-08T03:54:57.248Z",
       "dateStatus": "confirmed"
     },
@@ -315,6 +274,27 @@
       "matchedKeywordIds": [],
       "relevanceScore": 6,
       "discoveredAt": "2026-11-09T22:24:47.285Z",
+      "dateStatus": "confirmed"
+    },
+    {
+      "id": "052bce619f422bbc091df2fb9ac48734ee18d151c47ce9dd65130d56e6b5d695",
+      "title": "NIST CSF 2.0 Semiconductor Manufacturing Profile Kick-Off Webinar",
+      "url": "https://www.nist.gov/news-events/events/2026/12/nist-csf-20-semiconductor-manufacturing-profile-kick-webinar",
+      "sourceId": "nist-events",
+      "sourceName": "NIST Events",
+      "company": "NIST",
+      "sourceCategory": "technology",
+      "startsAt": "2026-12-10T17:00:00.000Z",
+      "allDay": false,
+      "kind": "webinar",
+      "format": "online",
+      "summary": "Join the NIST National Cybersecurity Center of Excellence (NCCoE) on December 10, 2026, for a webinar update on the Cybersecurity Framework (CSF) 2.0 Semiconductor Manufacturing Community Profile. In the coming weeks, the NCCoE will release a revised",
+      "language": "en",
+      "matchedKeywordIds": [
+        "cybersecurity"
+      ],
+      "relevanceScore": 24,
+      "discoveredAt": "2026-11-18T20:35:53.144Z",
       "dateStatus": "confirmed"
     },
     {
@@ -1268,9 +1248,9 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-18T07:33:56.720Z",
-        "lastSuccessAt": "2026-11-18T07:33:56.720Z",
-        "responseTimeMs": 1015,
+        "lastAttemptAt": "2026-11-18T20:35:53.144Z",
+        "lastSuccessAt": "2026-11-18T20:35:53.144Z",
+        "responseTimeMs": 1151,
         "itemsFetched": 30,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1286,9 +1266,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-18T07:33:56.720Z",
-        "lastSuccessAt": "2026-11-18T07:33:56.720Z",
-        "responseTimeMs": 3006,
+        "lastAttemptAt": "2026-11-18T20:35:53.144Z",
+        "lastSuccessAt": "2026-11-18T20:35:53.144Z",
+        "responseTimeMs": 4806,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1304,10 +1284,10 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-18T07:33:56.720Z",
-        "lastSuccessAt": "2026-11-18T07:33:56.720Z",
-        "responseTimeMs": 664,
-        "itemsFetched": 10,
+        "lastAttemptAt": "2026-11-18T20:35:53.144Z",
+        "lastSuccessAt": "2026-11-18T20:35:53.144Z",
+        "responseTimeMs": 3281,
+        "itemsFetched": 9,
         "newItems": 0,
         "consecutiveFailures": 0
       }
@@ -1321,8 +1301,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-18T07:33:56.720Z",
-        "lastSuccessAt": "2026-11-18T07:33:56.720Z",
+        "lastAttemptAt": "2026-11-18T20:35:53.144Z",
+        "lastSuccessAt": "2026-11-18T20:35:53.144Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1339,11 +1319,11 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-18T07:33:56.720Z",
-        "lastSuccessAt": "2026-11-18T07:33:56.720Z",
-        "responseTimeMs": 146,
-        "itemsFetched": 25,
-        "newItems": 0,
+        "lastAttemptAt": "2026-11-18T20:35:53.144Z",
+        "lastSuccessAt": "2026-11-18T20:35:53.144Z",
+        "responseTimeMs": 200,
+        "itemsFetched": 26,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1357,9 +1337,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-18T07:33:56.720Z",
-        "lastSuccessAt": "2026-11-18T07:33:56.720Z",
-        "responseTimeMs": 411,
+        "lastAttemptAt": "2026-11-18T20:35:53.144Z",
+        "lastSuccessAt": "2026-11-18T20:35:53.144Z",
+        "responseTimeMs": 481,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1375,9 +1355,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-18T07:33:56.720Z",
-        "lastSuccessAt": "2026-11-18T07:33:56.720Z",
-        "responseTimeMs": 562,
+        "lastAttemptAt": "2026-11-18T20:35:53.144Z",
+        "lastSuccessAt": "2026-11-18T20:35:53.144Z",
+        "responseTimeMs": 469,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1393,9 +1373,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-18T07:33:56.720Z",
-        "lastSuccessAt": "2026-11-18T07:33:56.720Z",
-        "responseTimeMs": 275,
+        "lastAttemptAt": "2026-11-18T20:35:53.144Z",
+        "lastSuccessAt": "2026-11-18T20:35:53.144Z",
+        "responseTimeMs": 706,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1411,9 +1391,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-18T07:33:56.720Z",
-        "lastSuccessAt": "2026-11-18T07:33:56.720Z",
-        "responseTimeMs": 1915,
+        "lastAttemptAt": "2026-11-18T20:35:53.144Z",
+        "lastSuccessAt": "2026-11-18T20:35:53.144Z",
+        "responseTimeMs": 2443,
         "itemsFetched": 13,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1429,9 +1409,9 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-18T07:33:56.720Z",
-        "lastSuccessAt": "2026-11-18T07:33:56.720Z",
-        "responseTimeMs": 1320,
+        "lastAttemptAt": "2026-11-18T20:35:53.144Z",
+        "lastSuccessAt": "2026-11-18T20:35:53.144Z",
+        "responseTimeMs": 2162,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
