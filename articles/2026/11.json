@@ -125,7 +125,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "011b27afc6a841bff218ff10f7e7a10a5094a3a75295a7bb8ab437c19b3b0ee7",
@@ -143,6 +143,7 @@
     "language": "en",
     "tags": [
       "Supercomputing",
+      "Events",
       "SC26"
     ],
     "matchedKeywordIds": [
@@ -648,7 +649,7 @@
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "discoveredAt": "2026-11-03T23:26:26.561Z",
     "summary": "The token bleed reality: Bridging the chasm from unthrottled AI adoption to sustainable AI transformation",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/articles/abs_articles_039.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/articles/abs_articles_008.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -738,6 +739,33 @@
       "cybersecurity"
     ],
     "relevanceScore": 45
+  },
+  {
+    "id": "04c4dac80f3d2432755a18ace0577b2d71223f474fce1a5c8122a5da40c67ed2",
+    "title": "SEC reportedly investigating Nvidia amid Huang exit",
+    "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T21:48:07.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Government & Policy",
+      "nvidia",
+      "SEC",
+      "Jensen Huang",
+      "In Brief"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "04ebd8b7418d3eb708ef46978f426fcf09ea8f555b07b47322a5ef8ebdf7f87c",
@@ -1227,6 +1255,26 @@
     "relevanceScore": 12
   },
   {
+    "id": "07c2ea0deef45ad697f5cc970b4df577a6d5604c801beaaf693cbdfae8c91f47",
+    "title": "How we raised Databricks cluster rate limits by 7.5×",
+    "url": "https://www.databricks.com/blog/how-we-raised-databricks-cluster-rate-limits-75",
+    "canonicalUrl": "https://www.databricks.com/blog/how-we-raised-databricks-cluster-rate-limits-75",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-18T02:30:31.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "As part of the Compute Platform team at Databricks, we turn cloud infrastructure...",
+    "language": "en",
+    "tags": [
+      "Engineering"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "07e137b229277c8a57a4e86d47f8b5bd34a8e56942341546170248f32391196a",
     "title": "Sovereignty in the AI era: Choice, control, and autonomy",
     "url": "https://www.redhat.com/en/blog/sovereignty-ai-era-choice-control-and-autonomy",
@@ -1265,7 +1313,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "089a26d26696ca1b8a4f15ef4ae8d36e184664fe7e16a99775305e2032736b83",
@@ -1780,6 +1828,29 @@
     "relevanceScore": 12
   },
   {
+    "id": "0b4f94262b7f6cbcc92e9dfe52d3676f5b960ecaa9a61b7735d49df9518ad883",
+    "title": "Oracle reveals fix-this-ASAP-grade Java4Shell bug that allows attacks on many third-party apps",
+    "url": "https://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661",
+    "canonicalUrl": "https://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-18T04:33:05.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Attackers can crash the JVM or achieve unauthenticated RCE",
+    "imageUrl": "https://image.theregister.com/?imageId=5310666&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
+  },
+  {
     "id": "0b5401a8842f0b62f62615adee47a5b1be36295b3cdce9a912ca0de9ecc8fbad",
     "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
     "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
@@ -2272,6 +2343,32 @@
     "relevanceScore": 43
   },
   {
+    "id": "0d4a3780c61dc50a9792e1628507ed5b78e9c29578c078ca35ed3692c28be46a",
+    "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
+    "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-18T01:44:21.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Startups",
+      "Colette Kress",
+      "Jensen Huang",
+      "nvidia"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "0d6a234c7f5167beb8dbd9452bfc260a6da4f70de5eaa1c944f12e1ba543c46a",
     "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
@@ -2541,7 +2638,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 40
+    "relevanceScore": 37
   },
   {
     "id": "0e99fb5736734a15059c9169ba0b90a709a5b52decc9ef5300786b9948191c69",
@@ -2857,6 +2954,33 @@
     "relevanceScore": 11
   },
   {
+    "id": "10493fa85ddbf2d5567cd4cda921a42757fc5fb7de59969bf9fd5ecfe6902f19",
+    "title": "Google joins the tech outage trend by announcing it’s not having one",
+    "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T21:34:50.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Security",
+      "gmail",
+      "Google",
+      "Outage"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "10acb845ed09a002affc9ca634fc1013d9ffdd00055eef0cb265bd0423dbb3aa",
     "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17",
     "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17",
@@ -2963,7 +3087,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 43
+    "relevanceScore": 41
   },
   {
     "id": "11568aa8dfcf9a3c07504fe25196e1495017d378dc1ddce0dd1b3a34d4b9b5b8",
@@ -2981,7 +3105,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "11a3e4cb137f52664836d1e39d6b9e1bc691ed995443b82ed307d91f14e7cecb",
@@ -3119,7 +3243,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 37
+    "relevanceScore": 34
   },
   {
     "id": "126b111b5d436487e51fda5640cc23dc9efd7f8eb71d3c126a1dccbd53436749",
@@ -3825,6 +3949,27 @@
     "relevanceScore": 10
   },
   {
+    "id": "164e150f10263c888f360869112d94ae5da3bfb4a9fc44e6ebe4f0f39063dc9a",
+    "title": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
+    "url": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
+    "canonicalUrl": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T20:58:13.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "The commercial kit uses attacker-supplied AI models to personalize lures, evade spam filters, and scale campaigns to tens of thousands of targets.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6f7643977746699c/6afcac2049ae9b70b9695c91/red_mailbox_white_brick_wall-Liudmila_Chernetska-GettyImages-1477282383.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 48
+  },
+  {
     "id": "1675f5566da94dce828836c32c4c56088e5febde7625aeacc7a259203f8e7b23",
     "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
     "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
@@ -4393,7 +4538,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 9
   },
   {
     "id": "19c368a9fd9f819a7d0f230a929011d3367e100523ada1fb5128bf2f9d56c1df",
@@ -5213,16 +5358,16 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Software Engineering",
-      "OpenSearch",
-      "Claude",
       "Agentic AI Architecture",
+      "Microsoft Office",
+      "OpenSearch",
       "Legal Matters",
       "Artificial Intelligence",
-      "Microsoft Office",
       "Retrieval-Augmented Generation",
-      "Redis",
+      "Software Engineering",
+      "Claude",
       "Uber",
+      "Redis",
       "Architecture & Design",
       "Development"
     ],
@@ -5646,13 +5791,13 @@
     "imageUrl": "https://res.infoq.com/articles/utility-governed-autonomous-intelligence-ai/en/headerimage/utility-governed-autonomous-intelligence-ai-header-1793368487796.jpg",
     "language": "en",
     "tags": [
-      "Observability",
       "Agentic AI Architecture",
       "Governance",
-      "AI Architecture",
       "Operating Systems",
-      "Operational Intelligence",
+      "AI Architecture",
+      "Observability",
       "Operations management",
+      "Operational Intelligence",
       "Large language models",
       "Architecture & Design",
       "article"
@@ -6199,6 +6344,25 @@
     "relevanceScore": 35
   },
   {
+    "id": "25a2c6d6c5744db7ca09c9d9f6b0f711f8c0a1dd489751821ce36e2f446b90c0",
+    "title": "Java4Shell (CVE-2026-114938): Frequently asked questions about OpenJDK remote code execution vulnerability",
+    "url": "https://www.tenable.com/blog/java4shell-cve-2026-114938-frequently-asked-questions-about-openjdk-rce-vulnerability",
+    "canonicalUrl": "https://www.tenable.com/blog/java4shell-cve-2026-114938-frequently-asked-questions-about-openjdk-rce-vulnerability",
+    "sourceId": "tenable-blog",
+    "sourceName": "Tenable Blog",
+    "company": "Tenable",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-11-18T02:49:16.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Java4Shell is a flaw in how Java decodes Base64 data. Calif, which found it, says it can let attackers run code on widely used Java applications without logging in. Oracle released fixed Java builds on November 17, and Calif is withholding its exploits for individual applications for now. Key takeaways…",
+    "imageUrl": "https://www.tenable.com/sites/default/files/inline/images/tenable-attack-surface-management-query-java.png",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "25ad25e4fea3fca4505e5d3dced80816f61d9feee9595f4bf2aefa2d185dfea3",
     "title": "A third of US AI chatters are hot at bots, hurling insults at LLMs",
     "url": "https://www.theregister.com/ai-and-ml/2026/11/12/a-third-of-us-ai-chatters-are-hot-at-bots-hurling-insults-at-llms/5309506",
@@ -6486,16 +6650,16 @@
     "sourceName": "InfoQ",
     "company": "InfoQ",
     "sourceCategory": "media",
-    "publishedAt": "2026-11-17T11:50:00.000Z",
+    "publishedAt": "2026-11-17T10:20:00.000Z",
     "discoveredAt": "2026-11-17T20:58:44.559Z",
     "summary": "Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zstandard compression, asynchronous validation and OpenAPI 3.2 in ASP.NET Core, CoreCLR as the default runtime in .NET…",
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      ".NET",
       ".NET 11",
-      ".NET 9",
+      ".NET",
       ".NET 10",
+      ".NET 9",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -6790,18 +6954,18 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/java-news-roundup-nov09-2026/en/headerimage/java-news-roundup-image-1794842460564.jpg",
     "language": "en",
     "tags": [
-      "Apache TomEE",
-      "Hibernate ORM",
-      "Java",
       "TornadoVM",
-      "Hibernate Reactive",
       "Open JDK",
-      "Seed4j",
-      "Quarkus",
-      "Spring Boot",
+      "Hibernate Reactive",
+      "Hibernate ORM",
+      "Apache TomEE",
+      "Spring AI",
+      "JDK 28",
       "JobRunr",
       "Glassfish",
-      "JDK 28"
+      "Spring Boot",
+      "Seed4j",
+      "Java"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -7004,6 +7168,28 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "2bdfaf90a407b61a0ef9859f64e263eee655207d2c638c0c1ab7ab86ba8dfdbc",
+    "title": "Stripe backer Atomico calls for Europe to own its success stories",
+    "url": "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-18T00:01:00.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Europe is home to many of the world's fastest growing companies of all time, veteran VC firm Atomico highlighted in its latest annual State of European Tech report.",
+    "language": "en",
+    "tags": [
+      "Venture",
+      "Atomico",
+      "state of european tech"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "2c28aa370c3ce7bd04f203b82afc6e233e307bbec29bcdf98b6df6446060175a",
@@ -7687,6 +7873,26 @@
     "relevanceScore": 16
   },
   {
+    "id": "3047d7657748ea760feb4367a861eff886526fc9a8d7d29ee939532b2c42b6aa",
+    "title": "Introducing ChatGPT for Sales",
+    "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+    "canonicalUrl": "https://openai.com/index/introducing-chatgpt-for-sales",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-11-17T08:00:00.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+    "language": "en",
+    "tags": [
+      "Product"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 18
+  },
+  {
     "id": "3059d9cac08149f15f5b440e4269986ed9a6f2dfc814591a0c0c9ff163f3c857",
     "title": "Model sovereignty is not about owning the model",
     "url": "https://www.thoughtworks.com/insights/articles/model-sovereignty-is-not-about-owning-the-model",
@@ -7703,7 +7909,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "30e8e4a4ce37dd8230450a7291676aee1c8bc6f3d825615b4064293b2ba99ec9",
@@ -9101,7 +9307,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "3b53bf6090ab9868ec4d537392370a44237352182f157d7fbf6dbb11f5afeda3",
@@ -9145,6 +9351,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "3b767831c7caaf477ede15fb42d828dd7ce18b7817b3bc74b83d6c5dca8d02bf",
+    "title": "Python parallel debugging comes to HPC thanks to TotalView upgrade",
+    "url": "https://www.theregister.com/devops/2026/11/17/python-parallel-debugging-comes-to-hpc-thanks-to-totalview-upgrade/5310564",
+    "canonicalUrl": "https://www.theregister.com/devops/2026/11/17/python-parallel-debugging-comes-to-hpc-thanks-to-totalview-upgrade/5310564",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T20:14:31.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "TotalView has supported C/C++ and Fortran. With the latest quarterly release, it supports Python as well",
+    "imageUrl": "https://image.theregister.com/?imageId=5310582&width=800",
+    "language": "en",
+    "tags": [
+      "devops"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "devsecops"
+    ],
+    "relevanceScore": 15
   },
   {
     "id": "3c5178eab5967d42a4958cd03ca4589ce6f7d337575a26285ef7267c1680f6d0",
@@ -9476,7 +9705,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 49
+    "relevanceScore": 46
   },
   {
     "id": "3ea624e61126b81c7ebfb1fd0d1075e8a00c1ecd260bcad4a1e50135123b479b",
@@ -9754,6 +9983,40 @@
     "relevanceScore": 32
   },
   {
+    "id": "40a7be1c6231b2461f958ae66354e894817341d0aea43dd6a903cb051dc9ee52",
+    "title": "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
+    "url": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T21:00:00.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test and maintain iOS and Android applications and in parallel. By Sergio De Simone",
+    "imageUrl": "https://res.infoq.com/news/2026/11/shopify-remote-ai-dev/en/headerimage/shopify-ruvy-ruby-wasm-1794947458635.jpeg",
+    "language": "en",
+    "tags": [
+      "iOS",
+      "Orchestration",
+      "Xcode",
+      "AI coding agents",
+      "Android",
+      "Mobile",
+      "Architecture & Design",
+      "Development",
+      "AI",
+      "ML & Data Engineering"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 46
+  },
+  {
     "id": "40f230b452446feecfaf43315ddfa05448df0975996abf554599261e2138c167",
     "title": "Production AI, Architecture Trade-offs & Team Design: InfoQ Opens Registration for 6 January Cohorts",
     "url": "https://www.infoq.com/news/2026/11/onlinecohort-jan27-certification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -9768,11 +10031,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/onlinecohort-jan27-certification/en/headerimage/onlinecohorts-jan27-certifications-1794839939505.jpg",
     "language": "en",
     "tags": [
-      "High Performing Teams Certification",
-      "AI Architecture",
-      "AI Engineering Certification",
       "AI Certification",
+      "AI Architecture",
       "InfoQ Certification Program",
+      "High Performing Teams Certification",
+      "AI Engineering Certification",
       "AI",
       "ML & Data Engineering"
     ],
@@ -9956,7 +10219,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 30
   },
   {
     "id": "427b0584b51a025a3cfd0183d1aecbc7618328d21c499e824dc6da208baea065",
@@ -10269,7 +10532,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 8
   },
   {
     "id": "4432f1dbea0caa5b7f06abe6b418d0f65477d6b9f093ef9d580abf58fec337eb",
@@ -10830,6 +11093,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 9
+  },
+  {
+    "id": "4816a5c313d508c2d8b0724398a9adac9161458ad29490ae2b7e06fdbe6904fc",
+    "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+    "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-18T05:58:04.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said it investigated a…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLbxlzqi-uBPlDXGecxrfXQ8kZLpAKsDO5c7KmTTyYyNQQE6bdI0TqT7Rk_JrKRie2pMB_xrLRKy1Cksp1GYHfUGHXz7UGg5nWOAQmPmiRKoUJkMCHrMvW7A72W9x7_I7KESMQmJLQVrJth_Ozj7i1nF7IPB4W_WV-NQyy0afEMgGVbGdaSNfIjolqtC4-/s1600/cloud.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "threat-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 34
   },
   {
     "id": "4832a1d87c293de0a9867eae146290adb2cdf884b795532a33b227aef1675c69",
@@ -11595,6 +11879,30 @@
       "cybersecurity"
     ],
     "relevanceScore": 11
+  },
+  {
+    "id": "4bb34b5685db3eddb2b78256fcc4f110166e2ad5e9eb18211222d941130b7d68",
+    "title": "What drives the cost of AI at work",
+    "url": "https://news.microsoft.com/source/2026/11/16/what-ai-at-work-really-costs/",
+    "canonicalUrl": "https://news.microsoft.com/source/2026/11/16/what-ai-at-work-really-costs",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-16T21:06:29.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "The post What drives the cost of AI at work appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "AI"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 47
   },
   {
     "id": "4bcbfdd483b73d2242b215e7431c9ed1a21b2f6c855070f125ed576fa41bf7d4",
@@ -12615,6 +12923,31 @@
     "relevanceScore": 9
   },
   {
+    "id": "52e5a82eefdf7a3f5665b52615f66c88ab165abd68a391131bf71429abfe8689",
+    "title": "Satya sorry for SaaS-y SNAFU - look over there, more AI!",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/17/satya-sorry-for-saas-y-snafu-look-over-there-more-ai/5310594",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/11/17/satya-sorry-for-saas-y-snafu-look-over-there-more-ai/5310594",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T21:44:58.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "At Ignite, the Windows-Azure giant is all about Copilot",
+    "imageUrl": "https://image.theregister.com/?imageId=5250857&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 37
+  },
+  {
     "id": "530ef17f2167fa95a5713884c8bcfcc1b5227c36c7d7a7096c6845dbada3aad2",
     "title": "Microsoft improves Windows 11 performance on 8 GB PCs as RAM prices keep climbing",
     "url": "https://www.theregister.com/software/2026/11/03/microsoft-improves-windows-11-performance-on-8-gb-pcs-as-ram-prices-keep-climbing/5307382",
@@ -12702,7 +13035,26 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
+  },
+  {
+    "id": "533b590042a015080bb5ceb318949a4db906b41c1a62e336003cbb72fb077463",
+    "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+    "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-18T06:45:26.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_LozO7RAz13Jr3eqWHIjlAF6M0Cs-mJXX2mKUqU0TxVS02piD1na92TAZjICmeySD4z0zS-Y_BFvceERBdk-UZvV1DUh1LGN6wK-T-yt_TROJ5fcuvROu807jqESQo93CFP3faBbReKMZQxvgYOAGl_vS2VzfO67O24NdAgh6d9jMO2mTSy2jaNJMPD9T/s1600/ms-python.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "5350cf64f29cdc8ac80e555f0f95287832f53528f8c51bf82ed1bf74b1669c24",
@@ -12917,11 +13269,11 @@
     "imageUrl": "https://res.infoq.com/podcasts/company-closer-digital-sovereignty/en/smallimage/infoq-podcast-500-1794318137932.jpg",
     "language": "en",
     "tags": [
-      "Software Supply Chain",
       "The InfoQ Podcast",
+      "OpenSSF",
       "Resilience",
       "AI Security",
-      "OpenSSF",
+      "Software Supply Chain",
       "Development",
       "podcast"
     ],
@@ -13093,7 +13445,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 42
   },
   {
     "id": "5617ddb10d21484052e9c9f60b54cfd4a1fdc3e7da4a9566dc9c2465bb509f93",
@@ -13438,6 +13790,25 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "5966ac56e61b79d55a1dfb8eb6cbaa68575d2db5b8e296af4960ef8de6aef4da",
+    "title": "Critical Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+    "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-18T04:27:41.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTrbBEjGUxldrJAnxC5ilrZqnNHyexGDTR-zS3vAX-Qw_ZNtNNEsomeDRYT40hQkUZt3G4T6y9oKi7G88dN0gatwvi03ItVtDmFCA8V7Zrb2lh5l4oGf8BUVF0UUbvybU0XuGpBnynGfvsCS_y4aWYtzvD_eNyqtids_c8w1auCGMWMYlxrReU-iS0FWc/s1600/java.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "5981d1d5812b64efe6ed3e00e08ef6915c7c064f90a0a81fe2432a53e5d6fb13",
@@ -14540,6 +14911,24 @@
     "relevanceScore": 34
   },
   {
+    "id": "603d7e5380813c67244c402e7d7818bf6a754fd7e99010abd4bec33de7a1680e",
+    "title": "Azure Red Hat OpenShift with hosted control planes is now generally available",
+    "url": "https://www.redhat.com/en/blog/azure-red-hat-openshift-hosted-control-planes-now-generally-available",
+    "canonicalUrl": "https://www.redhat.com/en/blog/azure-red-hat-openshift-hosted-control-planes-now-generally-available",
+    "sourceId": "redhat-blog",
+    "sourceName": "Red Hat Blog",
+    "company": "Red Hat",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Microsoft Azure Red Hat OpenShift with hosted control planes is now generally available to help teams reduce infrastructure costs, simplify Day 2 operations, and provision clusters with more flexibility.Jointly engineered, supported, and operated by Red Hat and Microsoft, Azure Red Hat OpenShift is a fully-managed…",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 12
+  },
+  {
     "id": "60ad05abd88898ef530edc6420a642b36dc77677bbbee31bfa26b5a8557183d5",
     "title": "GitHub Makes Agentic Workflows Generally Available with Isolation and Budget Controls",
     "url": "https://www.infoq.com/news/2026/11/github-agentic-workflows-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -14837,7 +15226,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "62954b6003d956addf3086ec22a413f2b48e48b88c17db268017b8dab5f546b4",
@@ -14961,7 +15350,7 @@
   },
   {
     "id": "62fc8b99c7dc5539e570ecfa4185f3f8162ad866655dd1935dfb04fc43b2b991",
-    "title": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field",
+    "title": "AWS Nitro Sandboxes Put Each EKS Pod in its Own MicroVM with One RuntimeClass Field",
     "url": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks",
     "sourceId": "infoq",
@@ -14974,14 +15363,14 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/en/headerimage/generatedHeaderImage-1794301940782.jpg",
     "language": "en",
     "tags": [
-      "AWS",
-      "Amazon Web Services",
-      "Security",
-      "Kubernetes",
       "Cloud",
+      "Security",
+      "Amazon Web Services",
+      "Kubernetes",
+      "AWS",
       "Containers",
-      "Development",
       "Architecture & Design",
+      "Development",
       "DevOps"
     ],
     "matchedKeywordIds": [],
@@ -14990,6 +15379,27 @@
       "devsecops"
     ],
     "relevanceScore": 11
+  },
+  {
+    "id": "633e0176bf58cff3772fa572c48556628881474a3667bbe36bf530cc30762835",
+    "title": "Jensen Huang thrilled to be spending time with family, but will retake leadership burden if Nvidia asks",
+    "url": "https://www.theregister.com/systems/2026/11/17/jensen-huang-thrilled-to-be-spending-time-with-family-but-will-retake-leadership-burden-if-nvidia-asks/5310585",
+    "canonicalUrl": "https://www.theregister.com/systems/2026/11/17/jensen-huang-thrilled-to-be-spending-time-with-family-but-will-retake-leadership-burden-if-nvidia-asks/5310585",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T21:15:42.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "But the new chairman shot that idea down on the company's earnings call",
+    "imageUrl": "https://image.theregister.com/?imageId=222354&width=800",
+    "language": "en",
+    "tags": [
+      "systems"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "6374479c2cad0bda29e92aac383c59373e1ec807b870c1b22535075bb708c0be",
@@ -15212,6 +15622,28 @@
     "relevanceScore": 13
   },
   {
+    "id": "6496df90b5f7d21d42399e208fcef60eaf3c4ef1fcee55f9969900e550201c72",
+    "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+    "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T21:27:17.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "64c44d59b825268a39968ce5a827ea5599aff883f10c4f3500238f0266cce90f",
     "title": "Drax wants to feed Britain's AI habit with £20B datacenter at biomass power station",
     "url": "https://www.theregister.com/on-prem/2026/11/03/drax-wants-to-feed-britains-ai-habit-with-20b-datacenter-at-biomass-power-station/5307237",
@@ -15273,7 +15705,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "64e891378c13ac062e9fbd46fab0f1d32a0bf282bfb9d724ea51b53892587e06",
@@ -15408,6 +15840,24 @@
     "relevanceScore": 13
   },
   {
+    "id": "659fbaea406d349ad26f6ad021d949b4e270a96fdc86dbd185a2dcbe329fceda",
+    "title": "Oracle Java Security Updates & OpenJDK Advisory (CVE-2026-114938)",
+    "url": "https://sec.okta.com/articles/2026/11/oracle-java-security-updates-openjdk-advisory-cve-2026-114938/",
+    "canonicalUrl": "https://sec.okta.com/articles/2026/11/oracle-java-security-updates-openjdk-advisory-cve-2026-114938",
+    "sourceId": "okta-blog",
+    "sourceName": "Okta Blog",
+    "company": "Okta",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Okta's response We are aware of the OpenJDK advisory (CVE-2026-114938) and Oracle’s newly released Java security updates. Our teams are actively investigating and will provide updates as more information becomes available. ...",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 11
+  },
+  {
     "id": "65b96c238445cdedc96b3e82ec1a6dd0c150d0317effbb199d997528a4ce6af2",
     "title": "Gilbert + Tobin rethinks the business of law with AI",
     "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
@@ -15518,10 +15968,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/datadog-ai-agent-observability/en/headerimage/generatedHeaderImage-1794408423767.jpg",
     "language": "en",
     "tags": [
-      "Observability",
       "AIOps",
-      "Artificial Intelligence",
       "AI coding agents",
+      "Artificial Intelligence",
+      "Observability",
       "DevOps",
       "AI",
       "ML & Data Engineering"
@@ -15657,7 +16107,7 @@
     "publishedAt": "2026-11-13T21:23:19.000Z",
     "discoveredAt": "2026-11-14T06:29:56.871Z",
     "summary": "Learn how SentinelOne Behavioral AI, Singularity AI SIEM, and Purple AI detect and stop autonomous ARTEX attacks across cloud, identity, and endpoints.",
-    "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltc73e4c876c2b79c4/6af77b55a2c08e789b706300/Blog_ARTEX_Unmasked_1680x520.jpg",
+    "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltde1054de554304f0/6afcbe9ba2c08e2e90706f47/blog-artex-unmasked.webp",
     "language": "en",
     "tags": [
       "artex",
@@ -16716,6 +17166,25 @@
     "relevanceScore": 16
   },
   {
+    "id": "6ff39f6e0b4000f057d7a237524337f92c4d731c0f5e1cc8b7e27522edbdd5e6",
+    "title": "Defending Against Java4Shell: Vulnerability in OpenJDK Enables RCE on AVX-512 CPUs",
+    "url": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/",
+    "canonicalUrl": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus",
+    "sourceId": "sentinelone-blog",
+    "sourceName": "SentinelOne Blog",
+    "company": "SentinelOne",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-11-17T22:19:19.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "On November 17, 2026, security researchers at Calif disclosed Java4Shell (CVE-2026-114938, CVSS 4.0: 9.2 Critical), a memory-corruption vulnerability in OpenJDK’s Base64 decoder that allows malformed Base64 input to trigger remote code execution (RCE).",
+    "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltbb11a1187f77c544/6afcbf89671008fdd7cf2236/Blog_Java4Shell_1680x520.png",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "7066bf1c44b6d15523db55187093805cc75895312ae06c1513d612a3518d4ba8",
     "title": "NHS breach helpline left staff carrying a 'significant emotional burden'",
     "url": "https://www.theregister.com/security/2026/11/07/nhs-breach-helpline-left-staff-carrying-a-significant-emotional-burden/5308201",
@@ -16836,7 +17305,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "7123cd190c188339d05d02625c9c7ffdd801a73b9e06a54369e5a1dc3e7af93d",
@@ -17586,6 +18055,30 @@
     "relevanceScore": 33
   },
   {
+    "id": "7648720b0216823afd6f4aa19845bf845e1099706e20de3f7fff3ce89351f0be",
+    "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+    "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T23:37:48.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Jensen Huang",
+      "nvidia"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "76572919696607187326c826e56b538562588ce30aaa22c0011589c99ae62195",
     "title": "Cisco AI Transit connects AI environments to your SD-WAN",
     "url": "https://blogs.cisco.com/security/cisco-ai-transit-connects-ai-environments-to-your-sd-wan",
@@ -17829,7 +18322,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "779af30bf284ca57d23a707afbcf5aacdd8b6b50202d22f3bdbb62f3fc6e7676",
@@ -18294,6 +18787,32 @@
     "relevanceScore": 10
   },
   {
+    "id": "7c1076c2aa096bdea8247769916876818674de4badc3819c94966d724554da73",
+    "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+    "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T23:04:35.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "TC",
+      "nvidia"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 48
+  },
+  {
     "id": "7c225847cb1f92a8abc539fa962941863199d50d47f78cefaba8e179d30ce169",
     "title": "SpecBench: A tool to evaluate AI-enabled software development workflows",
     "url": "https://www.thoughtworks.com/insights/blog/generative-ai/specbench-tool-evaluate-ai-enabled-software-development-workflows",
@@ -18305,7 +18824,7 @@
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "discoveredAt": "2026-11-13T19:45:49.155Z",
     "summary": "SpecBench: A tool to evaluate AI-enabled software development workflows",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_001.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_049.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -18577,7 +19096,26 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
+  },
+  {
+    "id": "7dad0d8bf0fb7efc6b70bf01574eab87528050b000c19064b24960d64a6cce20",
+    "title": "Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines",
+    "url": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
+    "canonicalUrl": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
+    "sourceId": "wiz-blog",
+    "sourceName": "Wiz Blog",
+    "company": "Wiz",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-11-17T22:03:37.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer. The package gets almost 200k downloads a month. The malicious versions have since been quarantined.",
+    "imageUrl": "https://www.datocms-assets.com/75231/1794951224-threat-update-purple-wireframe_custom.jpeg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "7dcaa30178c3f369e091bbe2702ba927b4a72c60469bb859de98e85eef9f02bc",
@@ -18667,7 +19205,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "7e4d2d51d36f1ae8d272cab6d59f307a771bafedb0acc6114bc6139550bed1e2",
@@ -19618,7 +20156,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 73
+    "relevanceScore": 70
   },
   {
     "id": "841aa4ea11c14db739bb0f15747a5a0f9d268b59ff7731a4796645090548bb54",
@@ -20826,7 +21364,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 8
   },
   {
     "id": "8bce5f08f7ca76a4ab300aede517adbc0176f05c1bae18a5dfb3fc452250e1e1",
@@ -21749,7 +22287,7 @@
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "discoveredAt": "2026-11-03T23:26:26.561Z",
     "summary": "The next chapter: Why quantum is the catalyst AI has been waiting for",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/articles/abs_articles_008.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/articles/abs_articles_039.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -22378,7 +22916,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "9638dd696d0357742ac880a6feff3bee5dcc63513fa78c60c5b43e50bdf52631",
@@ -22855,7 +23393,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "97e7471d9904e89882ffd1591a4793eb0e9bec803e75b347a2641c68b2770852",
@@ -23030,6 +23568,31 @@
     "relevanceScore": 9
   },
   {
+    "id": "98994749567699b5a74b7adac59a2a7febb58dcc9aeefc86d49523b98c14a05d",
+    "title": "Gemini test proves once again that amoral AI agents will do almost anything if told ‘NEVER give up’",
+    "url": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
+    "canonicalUrl": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T19:52:57.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "If you design a test to find misalignment, you will find misalignment",
+    "imageUrl": "https://image.theregister.com/?imageId=223243&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 37
+  },
+  {
     "id": "98b0ee9b19ed0c23f1f7efe823301e838c1b040aecdbd23f319b169a5ef2768c",
     "title": "Chrome zero-day whack-a-mole continues as 2026 tally hits 8",
     "url": "https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732",
@@ -23116,6 +23679,26 @@
       "cybersecurity"
     ],
     "relevanceScore": 12
+  },
+  {
+    "id": "98ecf3c1e04dcb9510350a7277b013e6c89273f1359e20ee6c5cc5afca849032",
+    "title": "Explore 25 years of XBOX games and memories in a new anniversary magazine",
+    "url": "https://news.xbox.com/en-us/2026/11/15/xbox-25th-anniversary-the-magazine/",
+    "canonicalUrl": "https://news.xbox.com/en-us/2026/11/15/xbox-25th-anniversary-the-magazine",
+    "sourceId": "microsoft-blog",
+    "sourceName": "Microsoft Source",
+    "company": "Microsoft",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-16T21:00:21.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "The post Explore 25 years of XBOX games and memories in a new anniversary magazine appeared first on Source.",
+    "language": "en",
+    "tags": [
+      "Gaming"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "991a8f7ace2dbef42f27dae640cde8092a8d98152b33f2ab11f759325f38df49",
@@ -23248,7 +23831,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 8
+    "relevanceScore": 6
   },
   {
     "id": "997f368b8e58b5d1b0570f1f6a83a3d370638588990bc71698c2c2e919e28c5e",
@@ -24606,6 +25189,25 @@
     "relevanceScore": 9
   },
   {
+    "id": "a0f5dbbd52e5e59bc24745d6624aee4429d458cfb4ab151b65834bdcbac381d2",
+    "title": "Oracle November 2026 Critical Security Patch Update Addresses 640 CVEs (CVE-2026-114938)",
+    "url": "https://www.tenable.com/blog/oracle-november-2026-critical-security-patch-update-addresses-640-cves-cve-2026-114938",
+    "canonicalUrl": "https://www.tenable.com/blog/oracle-november-2026-critical-security-patch-update-addresses-640-cves-cve-2026-114938",
+    "sourceId": "tenable-blog",
+    "sourceName": "Tenable Blog",
+    "company": "Tenable",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-11-17T21:45:17.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Oracle addresses 640 CVEs in its November 2026 Critical Security Patch Update with 655 patches, including 62 critical updates. Key Takeaways The November 2026 Critical Security Patch Update (CSPU) contains fixes for 640 unique CVEs in 655 security updates 62 issues (9.5% of all patches) were assigned a critical…",
+    "imageUrl": "https://www.tenable.com/sites/default/files/images/blog/2498688c-7d09-49e1-b84c-c69776faa632.png",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "a10feda0a6232d5a2de5414b9b52aa6f07486d60488a8aa683a4683a19554345",
     "title": "Financial Crime Mitigation with MongoDB / Series Overview",
     "url": "https://www.mongodb.com/company/blog/innovation/building-financial-crime-mitigation-platform-with-mongodb-series-overview",
@@ -25338,6 +25940,30 @@
     "relevanceScore": 9
   },
   {
+    "id": "a726a4f040d1324990be17e82228bbfef4349f7eb63bfd2ad8e3e4d3e67ea03b",
+    "title": "Nvidia promises that revenue will keep soaring — for now",
+    "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-18T00:16:50.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "TC",
+      "nvidia"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "a72f51291be9caba0463ea49c16baf2445c00c6ee505a6c4c32d669931d560b2",
     "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
     "url": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
@@ -25456,6 +26082,26 @@
       "agentic-ai",
       "cybersecurity"
     ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "a7fc353202f92c807de2d0d0e33617cdb6d584aa28e4797535f586afec2673ad",
+    "title": "From purchase to production: Automate full-stack deployment with Cisco",
+    "url": "https://blogs.cisco.com/datacenter/from-purchase-to-production-automate-full-stack-deployment-with-cisco",
+    "canonicalUrl": "https://blogs.cisco.com/datacenter/from-purchase-to-production-automate-full-stack-deployment-with-cisco",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-17T09:50:51.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "A validated design proves the architecture works, but deploying it can still take weeks. See how Stack Automation by Quali turns validated designs into automated, repeatable full-stack deployments.",
+    "language": "en",
+    "tags": [
+      "Data Center"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 16
   },
   {
@@ -26488,13 +27134,13 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/aws-emulator-agents/en/headerimage/generatedHeaderImage-1794516406278.jpg",
     "language": "en",
     "tags": [
-      "AWS",
+      "AI coding agents",
+      "AI Development",
+      "github",
       "Software Development",
       "Artificial Intelligence",
-      "AI coding agents",
+      "AWS",
       "Agents",
-      "github",
-      "AI Development",
       "AI",
       "ML & Data Engineering"
     ],
@@ -27219,11 +27865,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/quik-2-streaming/en/headerimage/generatedHeaderImage-1794907611481.jpg",
     "language": "en",
     "tags": [
+      "JavaScript",
       "Web Development",
-      "Streaming",
       "HTML",
       "TypeScript",
-      "JavaScript",
+      "Streaming",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -27495,7 +28141,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "b2dba00a019aa797753d06796e57c4ad644d10313aeb823572569d0c06ac0d7f",
@@ -27686,7 +28332,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 18
+    "relevanceScore": 15
   },
   {
     "id": "b484ce188f49530b48dffe92bfe50934868cf787d50fe73669ce7fa7d0b1637b",
@@ -27777,7 +28423,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "b57538abd6dff7518586a46480a1f11381a923338d3bcacc4867c50ff90da9d4",
@@ -28009,7 +28655,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 11
+    "relevanceScore": 8
   },
   {
     "id": "b6b371a91cafdd86ad70acdbf22cba64ac024e0361c9a6c5e2e1b44ea48a9a37",
@@ -28962,6 +29608,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 10
+  },
+  {
+    "id": "bc96603036a28784fc9dd07dfb0a6bcb02833de1d2c8272fa2230575a740cfbe",
+    "title": "Daily disruptive outages that ground planes and halt work – welcome to the new normal",
+    "url": "https://www.theregister.com/security/2026/11/17/daily-disruptive-outages-that-ground-planes-and-halt-work-welcome-to-the-new-normal/5310634",
+    "canonicalUrl": "https://www.theregister.com/security/2026/11/17/daily-disruptive-outages-that-ground-planes-and-halt-work-welcome-to-the-new-normal/5310634",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T23:41:31.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "NSA, Apple add to a week of high-profile network outages, largely attributed to 'routine maintenance'",
+    "imageUrl": "https://image.theregister.com/?imageId=5310644&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
   },
   {
     "id": "bc9e4700608b70a66874bfbc83b091ac99347905f9aa9bc9c71ad7c9faa64fd2",
@@ -30048,7 +30717,7 @@
     "sourceCategory": "media",
     "publishedAt": "2026-11-17T19:49:41.000Z",
     "discoveredAt": "2026-11-17T20:58:44.559Z",
-    "summary": "The California Department of Motor Vehicles, which regulates the testing and deployment of autonomous vehicles in the state, issued the operational restrictions on Waymo following several incidents.",
+    "summary": "The DMV said Waymo's freeway operations pose an imminent hazard to public safety. Restrictions will remain in place until Waymo can demonstrate that it has taken \"effective corrective actions\" to address the deficiencies.",
     "language": "en",
     "tags": [
       "Transportation",
@@ -32532,7 +33201,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "d2b8633e1a6f94d63a714a7c774e62f3ce67b640ffe8efe14658a60ce189320f",
@@ -32698,7 +33367,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
@@ -32819,6 +33488,27 @@
       "ai-security"
     ],
     "relevanceScore": 31
+  },
+  {
+    "id": "d4964360d88d47213fd17535d913fb05b56945c26ab7967a28baf4388670ab63",
+    "title": "How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops/",
+    "canonicalUrl": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops",
+    "sourceId": "google-cloud-blog",
+    "sourceName": "Google Cloud Blog",
+    "company": "Google Cloud",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-18T00:11:00.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "I watched the discussion on agentic loops grow louder over the past few months. But for me, the reality is simpler: prompt engineering has shifted from individual tasks to systems design, and the harness around the model (not the model itself) is now my primary constraint in software engineering. In this article,…",
+    "imageUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/how-to-build-durable-agentic-systems-with-go.max-600x600.jpg",
+    "language": "en",
+    "tags": [
+      "Developers & Practitioners"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 17
   },
   {
     "id": "d4a33e969a633c45e9da420610ad8ece8dff0c6185ca57272ac315cbb5e21aef",
@@ -33088,6 +33778,37 @@
     "relevanceScore": 48
   },
   {
+    "id": "d65c371382d315bf6b28f1159d206928e324e8e1cb9b0aad07c621aa63dfd589",
+    "title": "Cisco U. Spotlight 2026: Learn, Connect, and Innovate Together",
+    "url": "https://blogs.cisco.com/learning/cisco-u-spotlight-2026",
+    "canonicalUrl": "https://blogs.cisco.com/learning/cisco-u-spotlight-2026",
+    "sourceId": "cisco-blogs",
+    "sourceName": "Cisco Blogs",
+    "company": "Cisco",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-17T23:59:40.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Build with AI. Run enterprise networks. Join us at Cisco U. Spotlight, a free virtual event on December 9, 2026, to learn how it's done from the engineers doing the work.",
+    "language": "en",
+    "tags": [
+      "Learn with Cisco",
+      "CCIE Certification",
+      "CCNP",
+      "CCST",
+      "Cisco Certifications",
+      "Cisco Certified Design Expert (CCDE)",
+      "Cisco Certified Network Associate (CCNA)",
+      "Cisco Learning Network",
+      "Cisco U.",
+      "Learning"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
     "id": "d6a0c3df6c7fff40e930551d8ba0fc12d9365fc03422dd9ebb5ed951b2e5d812",
     "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
     "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
@@ -33130,6 +33851,25 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "d6f2e7e5c99d44e4f68d6734c4aecb98d7822f304cf06e4055cc620c5d79b794",
+    "title": "CVE-2026-114938 RCE in OpenJDK: Everything You Need to Know",
+    "url": "https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk",
+    "canonicalUrl": "https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk",
+    "sourceId": "wiz-blog",
+    "sourceName": "Wiz Blog",
+    "company": "Wiz",
+    "sourceCategory": "cybersecurity",
+    "publishedAt": "2026-11-17T22:29:57.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Detect and mitigate Java4Shell (CVE-2026-114938), a critical 9.2 RCE vulnerability affecting OpenJDK and major Java-based applications.",
+    "imageUrl": "https://www.datocms-assets.com/75231/1794954804-threat-update-large-title_custom.jpeg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "d7106bc5092386d02f40580288a2b7dcc27c39b6a29252b85877d8ea8da77414",
@@ -34077,6 +34817,27 @@
     "relevanceScore": 28
   },
   {
+    "id": "db7b3da78aee7439fc3635c3a678cebbffd385847667911edc475de298b603cd",
+    "title": "Temu's compliance regime is low-quality, fits badly, and full of holes, says Europe",
+    "url": "https://www.theregister.com/legal/2026/11/18/temus-compliance-regime-is-low-quality-fits-badly-and-full-of-holes-says-europe/5310684",
+    "canonicalUrl": "https://www.theregister.com/legal/2026/11/18/temus-compliance-regime-is-low-quality-fits-badly-and-full-of-holes-says-europe/5310684",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-18T06:16:12.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Prepares to unleash full wrath of Digital Services Act over Chinese e-tailer's alleged sales of illegal products",
+    "imageUrl": "https://image.theregister.com/?imageId=5310689&width=800",
+    "language": "en",
+    "tags": [
+      "legal"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "db918bafa08cb13b8fcbdd07086afe23eb069535185f09c9e70b054338bc0be8",
     "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
     "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
@@ -34200,6 +34961,33 @@
       "Apps",
       "ChatGPT",
       "OpenAI"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "dc52e334dcb4a85254194e1bc6e956548f4ad7d366b482f69a001f142983fdd0",
+    "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+    "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T22:29:05.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "TC",
+      "Amazon",
+      "Anthropic",
+      "Google",
+      "IPO"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -34333,7 +35121,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "dd3dbae0137e1e4cc8873a882463febc3ac6ef3122d8f95ec6fc6103c0c02391",
@@ -34768,7 +35556,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "e0d4e8d01f8bdc5f4fe6be321f1fc388023feed03fa0ea52fb1e74aafc5d4286",
@@ -35027,16 +35815,16 @@
     "imageUrl": "https://res.infoq.com/presentations/scale-llm-ranking-systems-linkedin/en/mediumimage/SundaraRamanRamachandran-medium-1793279019345.jpeg",
     "language": "en",
     "tags": [
-      "Low Latency",
-      "Transcripts",
-      "GPU",
       "Optimization",
+      "GPU",
       "QCon AI Boston 2026",
+      "Transcripts",
+      "Low Latency",
+      "Rankings",
       "Large language models",
       "LinkedIn",
-      "Rankings",
-      "Development",
       "Architecture & Design",
+      "Development",
       "AI",
       "ML & Data Engineering"
     ],
@@ -35323,6 +36111,28 @@
     "relevanceScore": 16
   },
   {
+    "id": "e53ed293c7ab77efbf338f066f93729174c158034073bccf831039e3c79b66b5",
+    "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T23:04:21.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "e5492f9867506c1763a92226a47c0040d7bbb2c6a01e7ebc7f704d255be77f82",
     "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
     "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
@@ -35463,9 +36273,9 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/google-sre-book-ai-era/en/headerimage/generatedHeaderImage-1794674690062.jpg",
     "language": "en",
     "tags": [
-      "Observability",
-      "Google",
       "Metrics",
+      "Google",
+      "Observability",
       "Site Reliability Engineering",
       "Service Level Objectives",
       "DevOps"
@@ -35655,7 +36465,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "e6e8dcce3d759f2e7982869312567a4ffb16a8ed4935bab1577282f1baa6bb2c",
@@ -36036,7 +36846,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 41
+    "relevanceScore": 39
   },
   {
     "id": "e93e4f7095dd9b14ffbfa90bc5bdb31a582dfc074180112c09f07f51880c842f",
@@ -36561,6 +37371,25 @@
     "relevanceScore": 8
   },
   {
+    "id": "eca29034562855efb708bfcdd819ce30491859e7942cac906c00bfe0fab1b89f",
+    "title": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
+    "url": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+    "canonicalUrl": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "company": "Dark Reading",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T22:34:22.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "At least 178 organizations, including several major brands, unwittingly exposed website visitors to hydra-like malware via a third-party platform.",
+    "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0c54a284942546cd/6afccec91ecf5c62546c1c34/hydra_Daniel_Eskridge_shutterstock.jpg?width=720&quality=80&disable=upscale",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "ecd7204d77eddee1eba592208bad473cf730204fa4c1b5c64c7bd7f47f38d3af",
     "title": "How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders",
     "url": "https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/",
@@ -37054,6 +37883,27 @@
     "relevanceScore": 8
   },
   {
+    "id": "ef0b76775bfa4a4abdb29d174b2c9ecfdc23d8c65beb00e8985722d97407d26f",
+    "title": "GPU giants throw HPC users some tasty crumbs",
+    "url": "https://www.theregister.com/hpc/2026/11/17/gpu-giants-throw-hpc-users-some-tasty-crumbs/5310611",
+    "canonicalUrl": "https://www.theregister.com/hpc/2026/11/17/gpu-giants-throw-hpc-users-some-tasty-crumbs/5310611",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T22:37:46.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Nvidia unveils an HPC-optimized Rubin GPU to challenge AMD's 288 teraFLOPS MI430X",
+    "imageUrl": "https://image.theregister.com/?imageId=5310625&width=800",
+    "language": "en",
+    "tags": [
+      "hpc"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "ef0cbf11c2750545b6dda66f77802b0dea7515795b281dd5ed5d23764f3c3f43",
     "title": "Now in Developer Preview: The self-managed Red Hat Enterprise Linux command-line assistant",
     "url": "https://www.redhat.com/en/blog/now-developer-preview-self-managed-red-hat-enterprise-linux-command-line-assistant",
@@ -37395,7 +38245,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "f0d40b6eb5cac62ee86cf717f406d05317d47708def4f82c98769f895c4ecee0",
@@ -37427,7 +38277,7 @@
     "sourceCategory": "technology",
     "publishedAt": "2026-11-10T18:00:00.000Z",
     "discoveredAt": "2026-11-10T19:46:31.205Z",
-    "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog.",
+    "summary": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog.",
     "language": "en",
     "tags": [
       "Git",
@@ -37869,7 +38719,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "f47827659be1597d644d97fceb6a9d0d5b42f28dd1563e252719438bd6c3febf",
@@ -38349,7 +39199,7 @@
     "publishedAt": "2026-11-13T00:00:00.000Z",
     "discoveredAt": "2026-11-13T19:45:49.155Z",
     "summary": "Attackers are targeting the AI tools that produce our software",
-    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_049.jpg",
+    "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/abstract/insights/blog/abs_blogs_001.jpg",
     "language": "en",
     "tags": [],
     "matchedKeywordIds": [
@@ -38434,7 +39284,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "f918c85d53b408b094c73a2293876a0619076facc23977c687e39ac3aa78c048",
@@ -38504,6 +39354,31 @@
       "generative-ai"
     ],
     "relevanceScore": 11
+  },
+  {
+    "id": "f93a920690941fea17791e6a7f911973d7b934ec8a35112a3150ab2abadf6415",
+    "title": "A Chinese bottle-cap manufacturer brilliantly deflated AI hype",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/18/a-chinese-bottle-cap-manufacturer-brilliantly-deflated-ai-hype/5310651",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/11/18/a-chinese-bottle-cap-manufacturer-brilliantly-deflated-ai-hype/5310651",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-18T06:32:00.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "Pre-digital tech can't be transformed and automated",
+    "imageUrl": "https://image.theregister.com/?imageId=5310658&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 37
   },
   {
     "id": "f99559a9dbb099f78dc93a23a337b2250ee5445935286df13171f771b4926457",
@@ -38818,7 +39693,7 @@
   },
   {
     "id": "fac2a81a6b888b247b2383251cd030650c3f77d697580bdab4d2373c4c340933",
-    "title": "GitHub Rebuilds the Copilot App's Diff Surface to Open Million-Line Pull Requests Without Jank",
+    "title": "GitHub Rebuilds the Copilot App's Diff Surface to Open Million-Line Pull Requests without Jank",
     "url": "https://www.infoq.com/news/2026/11/github-pull-requests-rebuild/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "canonicalUrl": "https://www.infoq.com/news/2026/11/github-pull-requests-rebuild",
     "sourceId": "infoq",
@@ -38831,10 +39706,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/github-pull-requests-rebuild/en/headerimage/generatedHeaderImage-1794747791339.jpg",
     "language": "en",
     "tags": [
+      "JavaScript",
       "Web Development",
       "React",
       "Performance",
-      "JavaScript",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -39103,6 +39978,31 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 13
+  },
+  {
+    "id": "fc38b51a6db9bccf157aa5daf6a61ad024bc85f5f157fed3e759b2ecf9e4e94a",
+    "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+    "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-17T22:42:27.000Z",
+    "discoveredAt": "2026-11-18T07:33:56.720Z",
+    "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Hardware",
+      "Jensen Huang",
+      "nvidia"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "fc6fad21799949ce345c842c3541fe25b21beb19a8b510569e3ff212d885ab63",
