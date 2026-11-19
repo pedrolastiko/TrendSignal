@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T07:30:36.305Z",
+  "generatedAt": "2026-11-19T20:41:33.306Z",
   "events": [
     {
       "id": "dc10b5de4972c67d7729404f473b95bbf6093cb9d4aa0356a009c063d30e16c5",
@@ -806,6 +806,27 @@
       "dateStatus": "confirmed"
     },
     {
+      "id": "36cbef79e5cffbe25c648ecef6774e16b89aa4d314aca7350dfdd5327725f481",
+      "title": "EXPOSURE: Americas 2027",
+      "url": "https://www.tenable.com/events/exposure-americas-2027",
+      "sourceId": "tenable-events",
+      "sourceName": "Tenable Events",
+      "company": "Tenable",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2027-05-24T00:00:00.000Z",
+      "endsAt": "2027-05-28T00:00:00.000Z",
+      "allDay": true,
+      "kind": "event",
+      "format": "in-person",
+      "location": "Nashville, TN",
+      "summary": "Join the security community in Nashville and take control. From in-depth training and keynotes to interactive breakouts, you will leave smarter with the skills to find, prioritize, and remediate your cyber exposures.",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 6,
+      "discoveredAt": "2026-11-19T20:41:33.306Z",
+      "dateStatus": "confirmed"
+    },
+    {
       "id": "49ae0644f9f6aeda6dc3d59a873cc2145faa72aac251e5bcf4e1dd826dcb3154",
       "title": "Web Summit Vancouver",
       "url": "https://vancouver.websummit.com/web-summit-vancouver-2027/",
@@ -955,27 +976,6 @@
       "discoveredAt": "2026-11-08T03:54:57.248Z",
       "dateStatus": "estimated",
       "estimatedFrom": "2026-06-19"
-    },
-    {
-      "id": "82e5c9288129d45b0dd0077ee5df041ccb70d7e9016fcd7f637c227a6ab5d886",
-      "title": "Gartner C-Level Communities New York CISO Summit",
-      "url": "https://www.tenable.com/events/gartner-c-level-communities-new-york-ciso-summit",
-      "sourceId": "tenable-events",
-      "sourceName": "Tenable Events",
-      "company": "Tenable",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2027-06-23T00:00:00.000Z",
-      "endsAt": "2027-06-24T00:00:00.000Z",
-      "allDay": true,
-      "kind": "conference",
-      "format": "in-person",
-      "location": "Pier Sixty New York",
-      "summary": "Collaborate with your peers.",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 6,
-      "discoveredAt": "2026-11-13T19:45:49.155Z",
-      "dateStatus": "confirmed"
     },
     {
       "id": "a85008087109ede411c6e2cc069f8b3b1970a2ec455518c6b3e337cb3e74767a",
@@ -1248,9 +1248,9 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T07:30:36.305Z",
-        "lastSuccessAt": "2026-11-19T07:30:36.305Z",
-        "responseTimeMs": 1109,
+        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
+        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
+        "responseTimeMs": 1202,
         "itemsFetched": 30,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1266,9 +1266,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T07:30:36.305Z",
-        "lastSuccessAt": "2026-11-19T07:30:36.305Z",
-        "responseTimeMs": 4396,
+        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
+        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
+        "responseTimeMs": 4598,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1284,9 +1284,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T07:30:36.305Z",
-        "lastSuccessAt": "2026-11-19T07:30:36.305Z",
-        "responseTimeMs": 722,
+        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
+        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
+        "responseTimeMs": 926,
         "itemsFetched": 9,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1301,8 +1301,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T07:30:36.305Z",
-        "lastSuccessAt": "2026-11-19T07:30:36.305Z",
+        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
+        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1319,9 +1319,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T07:30:36.305Z",
-        "lastSuccessAt": "2026-11-19T07:30:36.305Z",
-        "responseTimeMs": 702,
+        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
+        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
+        "responseTimeMs": 99,
         "itemsFetched": 26,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1337,9 +1337,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T07:30:36.305Z",
-        "lastSuccessAt": "2026-11-19T07:30:36.305Z",
-        "responseTimeMs": 591,
+        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
+        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
+        "responseTimeMs": 693,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1355,9 +1355,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T07:30:36.305Z",
-        "lastSuccessAt": "2026-11-19T07:30:36.305Z",
-        "responseTimeMs": 723,
+        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
+        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
+        "responseTimeMs": 470,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1373,9 +1373,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T07:30:36.305Z",
-        "lastSuccessAt": "2026-11-19T07:30:36.305Z",
-        "responseTimeMs": 134,
+        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
+        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
+        "responseTimeMs": 363,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1391,11 +1391,11 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T07:30:36.305Z",
-        "lastSuccessAt": "2026-11-19T07:30:36.305Z",
-        "responseTimeMs": 4043,
+        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
+        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
+        "responseTimeMs": 6998,
         "itemsFetched": 13,
-        "newItems": 1,
+        "newItems": 2,
         "consecutiveFailures": 0
       }
     },
@@ -1409,9 +1409,9 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T07:30:36.305Z",
-        "lastSuccessAt": "2026-11-19T07:30:36.305Z",
-        "responseTimeMs": 2608,
+        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
+        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
+        "responseTimeMs": 4685,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
