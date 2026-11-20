@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:41:33.306Z",
+  "generatedAt": "2026-11-20T07:22:00.148Z",
   "events": [
     {
       "id": "dc10b5de4972c67d7729404f473b95bbf6093cb9d4aa0356a009c063d30e16c5",
@@ -677,6 +677,27 @@
       "dateStatus": "confirmed"
     },
     {
+      "id": "93c43548a4b5dcafbefe3dc433753427f8c1a96dc3df5485520c4566a59814a4",
+      "title": "BSidesMilwaukee",
+      "url": "https://bsides.org/event/bsidesmilwaukee-3/",
+      "sourceId": "bsides-events",
+      "sourceName": "BSides Global Community Events",
+      "company": "BSides Global Community",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2027-03-26T00:00:00.000Z",
+      "endsAt": "2027-03-27T00:00:00.000Z",
+      "allDay": true,
+      "kind": "event",
+      "format": "in-person",
+      "location": "BSidesMilwaukee, Milwaukee, WI, United States",
+      "summary": "",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 5,
+      "discoveredAt": "2026-11-20T07:22:00.148Z",
+      "dateStatus": "confirmed"
+    },
+    {
       "id": "6cd34f9ecef47d5abb656e8b95accbffb7f3b3f8142d78dbcacc11cee9714fdb",
       "title": "RSA Conference",
       "url": "https://www.rsaconference.com/usa",
@@ -1248,11 +1269,11 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
-        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
-        "responseTimeMs": 1202,
+        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
+        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
+        "responseTimeMs": 1032,
         "itemsFetched": 30,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1266,9 +1287,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
-        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
-        "responseTimeMs": 4598,
+        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
+        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
+        "responseTimeMs": 3911,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1284,9 +1305,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
-        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
-        "responseTimeMs": 926,
+        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
+        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
+        "responseTimeMs": 645,
         "itemsFetched": 9,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1301,8 +1322,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
-        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
+        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
+        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1319,9 +1340,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
-        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
-        "responseTimeMs": 99,
+        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
+        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
+        "responseTimeMs": 102,
         "itemsFetched": 26,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1337,9 +1358,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
-        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
-        "responseTimeMs": 693,
+        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
+        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
+        "responseTimeMs": 284,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1355,9 +1376,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
-        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
-        "responseTimeMs": 470,
+        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
+        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
+        "responseTimeMs": 365,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1373,9 +1394,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
-        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
-        "responseTimeMs": 363,
+        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
+        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
+        "responseTimeMs": 174,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1391,11 +1412,11 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
-        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
-        "responseTimeMs": 6998,
+        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
+        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
+        "responseTimeMs": 4861,
         "itemsFetched": 13,
-        "newItems": 2,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1409,9 +1430,9 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-19T20:41:33.306Z",
-        "lastSuccessAt": "2026-11-19T20:41:33.306Z",
-        "responseTimeMs": 4685,
+        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
+        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
+        "responseTimeMs": 2674,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
