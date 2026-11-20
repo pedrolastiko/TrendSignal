@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T07:22:00.148Z",
+  "generatedAt": "2026-11-20T20:26:11.248Z",
   "events": [
     {
       "id": "dc10b5de4972c67d7729404f473b95bbf6093cb9d4aa0356a009c063d30e16c5",
@@ -274,6 +274,28 @@
       "matchedKeywordIds": [],
       "relevanceScore": 6,
       "discoveredAt": "2026-11-09T22:24:47.285Z",
+      "dateStatus": "confirmed"
+    },
+    {
+      "id": "212cf881bf65873ee7bee4904e5b231630bc108fc33f63115e033ca27784a00e",
+      "title": "FIDO Sponsored Webinar: Break the Autonomy Ceiling: Scaling AI Agents with Passkeys, Delegation & Human Authorization",
+      "url": "https://fidoalliance.org/event/fido-sponsored-webinar-break-the-autonomy-ceiling-scaling-ai-agents-with-passkeys-delegation-human-authorization/",
+      "sourceId": "fido-events",
+      "sourceName": "FIDO Alliance Events",
+      "company": "FIDO Alliance",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2026-12-10T16:00:00.000Z",
+      "endsAt": "2026-12-10T17:00:00.000Z",
+      "allDay": false,
+      "kind": "webinar",
+      "format": "online",
+      "summary": "AI agents are already working inside the enterprise: coding agents on developer laptops, copilots in browsers, and cloud agents touching payment and customer systems. Most run at machine speed on borrowed identities, like a developer’s API key or a shared service account, so when one acts, the log shows a key with no…",
+      "language": "en",
+      "matchedKeywordIds": [
+        "artificial-intelligence"
+      ],
+      "relevanceScore": 38,
+      "discoveredAt": "2026-11-20T20:26:11.248Z",
       "dateStatus": "confirmed"
     },
     {
@@ -1269,11 +1291,11 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
-        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
-        "responseTimeMs": 1032,
+        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
+        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
+        "responseTimeMs": 1134,
         "itemsFetched": 30,
-        "newItems": 1,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     },
@@ -1287,9 +1309,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
-        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
-        "responseTimeMs": 3911,
+        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
+        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
+        "responseTimeMs": 3684,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1305,11 +1327,11 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
-        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
-        "responseTimeMs": 645,
-        "itemsFetched": 9,
-        "newItems": 0,
+        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
+        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
+        "responseTimeMs": 872,
+        "itemsFetched": 10,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1322,8 +1344,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
-        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
+        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
+        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1340,9 +1362,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
-        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
-        "responseTimeMs": 102,
+        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
+        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
+        "responseTimeMs": 284,
         "itemsFetched": 26,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1358,9 +1380,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
-        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
-        "responseTimeMs": 284,
+        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
+        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
+        "responseTimeMs": 431,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1376,9 +1398,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
-        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
-        "responseTimeMs": 365,
+        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
+        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
+        "responseTimeMs": 599,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1394,9 +1416,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
-        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
-        "responseTimeMs": 174,
+        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
+        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
+        "responseTimeMs": 245,
         "itemsFetched": 15,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1412,9 +1434,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
-        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
-        "responseTimeMs": 4861,
+        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
+        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
+        "responseTimeMs": 2317,
         "itemsFetched": 13,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1430,9 +1452,9 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T07:22:00.148Z",
-        "lastSuccessAt": "2026-11-20T07:22:00.148Z",
-        "responseTimeMs": 2674,
+        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
+        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
+        "responseTimeMs": 1304,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
