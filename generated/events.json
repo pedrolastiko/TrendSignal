@@ -1,69 +1,6 @@
 {
-  "generatedAt": "2026-11-20T20:26:11.248Z",
+  "generatedAt": "2026-11-21T07:14:13.811Z",
   "events": [
-    {
-      "id": "dc10b5de4972c67d7729404f473b95bbf6093cb9d4aa0356a009c063d30e16c5",
-      "title": "Microsoft Ignite",
-      "url": "https://ignite.microsoft.com/",
-      "sourceId": "flagship-conferences",
-      "sourceName": "Flagship conferences (curated)",
-      "company": "Microsoft",
-      "sourceCategory": "technology",
-      "startsAt": "2026-11-17T00:00:00.000Z",
-      "endsAt": "2026-11-21T00:00:00.000Z",
-      "allDay": true,
-      "kind": "conference",
-      "format": "hybrid",
-      "location": "San Francisco, CA, United States",
-      "summary": "Microsoft's conference for IT professionals and developers, in person and online.",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 8,
-      "discoveredAt": "2026-11-08T03:54:57.248Z",
-      "dateStatus": "confirmed"
-    },
-    {
-      "id": "305928dfa76d1ff5d4d4e861ed45d33b141e00cb45dcbfbefc33fefb99938286",
-      "title": "BSidesOttawa",
-      "url": "https://bsides.org/event/bsidesottawa-2/",
-      "sourceId": "bsides-events",
-      "sourceName": "BSides Global Community Events",
-      "company": "BSides Global Community",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-19T00:00:00.000Z",
-      "endsAt": "2026-11-21T00:00:00.000Z",
-      "allDay": true,
-      "kind": "event",
-      "format": "in-person",
-      "location": "BSidesOttawa, Ottawa, ONT, Canada",
-      "summary": "",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 5,
-      "discoveredAt": "2026-11-08T03:54:57.248Z",
-      "dateStatus": "confirmed"
-    },
-    {
-      "id": "6a22328a8803234e9f14d8ee768095ecfe0dcab5d8b71844be272221e180de92",
-      "title": "BSidesAccra",
-      "url": "https://bsides.org/event/bsidesaccra/",
-      "sourceId": "bsides-events",
-      "sourceName": "BSides Global Community Events",
-      "company": "BSides Global Community",
-      "sourceCategory": "cybersecurity",
-      "startsAt": "2026-11-20T00:00:00.000Z",
-      "endsAt": "2026-11-21T00:00:00.000Z",
-      "allDay": true,
-      "kind": "webinar",
-      "format": "online",
-      "location": "BSidesAccra, Accra, Ghana",
-      "summary": "Virtual Event",
-      "language": "en",
-      "matchedKeywordIds": [],
-      "relevanceScore": 5,
-      "discoveredAt": "2026-11-08T03:54:57.248Z",
-      "dateStatus": "confirmed"
-    },
     {
       "id": "81041e2c035f3926a05696f023781e0c02ab4cffc1f97c25909ae1bf7a655a6c",
       "title": "Meeting CERT-In Mandates with CTEM",
@@ -699,6 +636,27 @@
       "dateStatus": "confirmed"
     },
     {
+      "id": "805b3fe926e98b725d311b2c1ebd748d7e4da07ab78c1a3da63d600451b06ec8",
+      "title": "BSides Red Rocks",
+      "url": "https://bsides.org/event/bsides-red-rocks/",
+      "sourceId": "bsides-events",
+      "sourceName": "BSides Global Community Events",
+      "company": "BSides Global Community",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2027-03-26T00:00:00.000Z",
+      "endsAt": "2027-03-27T00:00:00.000Z",
+      "allDay": true,
+      "kind": "event",
+      "format": "in-person",
+      "location": "BSidesRedRocks, St. George, UT, United States",
+      "summary": "St. George, UT, USA",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 5,
+      "discoveredAt": "2026-11-21T07:14:13.811Z",
+      "dateStatus": "confirmed"
+    },
+    {
       "id": "93c43548a4b5dcafbefe3dc433753427f8c1a96dc3df5485520c4566a59814a4",
       "title": "BSidesMilwaukee",
       "url": "https://bsides.org/event/bsidesmilwaukee-3/",
@@ -1278,6 +1236,28 @@
       "relevanceScore": 7,
       "discoveredAt": "2026-11-07T20:16:38.914Z",
       "dateStatus": "confirmed"
+    },
+    {
+      "id": "9487c2b990f4de93d9b1a67aec44d167023f4e927d75d8e07a448993b8b07b0b",
+      "title": "Microsoft Ignite",
+      "url": "https://ignite.microsoft.com/",
+      "sourceId": "flagship-conferences",
+      "sourceName": "Flagship conferences (curated)",
+      "company": "Microsoft",
+      "sourceCategory": "technology",
+      "startsAt": "2027-11-17T00:00:00.000Z",
+      "endsAt": "2027-11-21T00:00:00.000Z",
+      "allDay": true,
+      "kind": "conference",
+      "format": "hybrid",
+      "location": "San Francisco, CA, United States",
+      "summary": "Microsoft's conference for IT professionals and developers, in person and online.",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 8,
+      "discoveredAt": "2026-11-21T07:14:13.811Z",
+      "dateStatus": "estimated",
+      "estimatedFrom": "2026-11-17"
     }
   ],
   "sources": [
@@ -1291,11 +1271,11 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
-        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
-        "responseTimeMs": 1134,
+        "lastAttemptAt": "2026-11-21T07:14:13.811Z",
+        "lastSuccessAt": "2026-11-21T07:14:13.811Z",
+        "responseTimeMs": 1153,
         "itemsFetched": 30,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1309,9 +1289,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
-        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
-        "responseTimeMs": 3684,
+        "lastAttemptAt": "2026-11-21T07:14:13.811Z",
+        "lastSuccessAt": "2026-11-21T07:14:13.811Z",
+        "responseTimeMs": 3615,
         "itemsFetched": 146,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1327,11 +1307,11 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
-        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
-        "responseTimeMs": 872,
+        "lastAttemptAt": "2026-11-21T07:14:13.811Z",
+        "lastSuccessAt": "2026-11-21T07:14:13.811Z",
+        "responseTimeMs": 756,
         "itemsFetched": 10,
-        "newItems": 1,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     },
@@ -1344,11 +1324,11 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
-        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
+        "lastAttemptAt": "2026-11-21T07:14:13.811Z",
+        "lastSuccessAt": "2026-11-21T07:14:13.811Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     },
@@ -1362,9 +1342,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
-        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
-        "responseTimeMs": 284,
+        "lastAttemptAt": "2026-11-21T07:14:13.811Z",
+        "lastSuccessAt": "2026-11-21T07:14:13.811Z",
+        "responseTimeMs": 290,
         "itemsFetched": 26,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1380,9 +1360,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
-        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
-        "responseTimeMs": 431,
+        "lastAttemptAt": "2026-11-21T07:14:13.811Z",
+        "lastSuccessAt": "2026-11-21T07:14:13.811Z",
+        "responseTimeMs": 395,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1398,9 +1378,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
-        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
-        "responseTimeMs": 599,
+        "lastAttemptAt": "2026-11-21T07:14:13.811Z",
+        "lastSuccessAt": "2026-11-21T07:14:13.811Z",
+        "responseTimeMs": 310,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1416,11 +1396,11 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
-        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
-        "responseTimeMs": 245,
-        "itemsFetched": 15,
-        "newItems": 1,
+        "lastAttemptAt": "2026-11-21T07:14:13.811Z",
+        "lastSuccessAt": "2026-11-21T07:14:13.811Z",
+        "responseTimeMs": 132,
+        "itemsFetched": 14,
+        "newItems": 0,
         "consecutiveFailures": 0
       }
     },
@@ -1434,9 +1414,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
-        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
-        "responseTimeMs": 2317,
+        "lastAttemptAt": "2026-11-21T07:14:13.811Z",
+        "lastSuccessAt": "2026-11-21T07:14:13.811Z",
+        "responseTimeMs": 3024,
         "itemsFetched": 13,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1452,9 +1432,9 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-20T20:26:11.248Z",
-        "lastSuccessAt": "2026-11-20T20:26:11.248Z",
-        "responseTimeMs": 1304,
+        "lastAttemptAt": "2026-11-21T07:14:13.811Z",
+        "lastSuccessAt": "2026-11-21T07:14:13.811Z",
+        "responseTimeMs": 1009,
         "itemsFetched": 12,
         "newItems": 0,
         "consecutiveFailures": 0
