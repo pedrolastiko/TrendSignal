@@ -727,6 +727,32 @@
     "relevanceScore": 13
   },
   {
+    "id": "044fb7804e00ac8eecfab38be8fae4272b61749d695322e323f1abdd1c3601dd",
+    "title": "A tale of two Nvidias",
+    "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-21T21:07:42.000Z",
+    "discoveredAt": "2026-11-22T06:55:14.481Z",
+    "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Hardware",
+      "Equity podcast",
+      "Jensen Huang",
+      "nvidia"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "0453ad67f70bd2c63903c6e9e7aa540f74a0056cf413260f01ba449884548ae9",
     "title": "The token bleed reality: Bridging the chasm from unthrottled AI adoption to sustainable AI transformation",
     "url": "https://www.thoughtworks.com/insights/articles/the-token-bleed-reality",
@@ -1272,7 +1298,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "06cec402a16c2b07cc4920278127821e0ba6bee6b668167f723bdaf6c0bcab0e",
@@ -2591,7 +2617,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "0c8fb121c8b50e334a020b7efe60a0ad6d7e41d84c749a37f8b9227f49e80bee",
@@ -5114,7 +5140,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "17fe50b330c12989c41a893270e519f81e1dbf7ed7fc7731c4c0e14c954aa70a",
@@ -7972,14 +7998,14 @@
     "sourceCategory": "media",
     "publishedAt": "2026-11-19T13:00:00.000Z",
     "discoveredAt": "2026-11-19T20:41:33.306Z",
-    "summary": "At QCon San Francisco 2026, Jordan Cutler, Senior Staff Engineer and Web Platform Tech Lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same AI tools. By Daniel Dominguez",
+    "summary": "At QCon San Francisco 2026, Jordan Cutler, senior staff engineer and web platform tech lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same AI tools. By Daniel Dominguez",
     "imageUrl": "https://res.infoq.com/news/2026/11/ai-staff-engineer/en/headerimage/generatedHeaderImage-1795089716434.jpg",
     "language": "en",
     "tags": [
-      "QCon San Francisco 2026",
-      "Software Development",
       "Artificial Intelligence",
       "QCon Software Development Conference",
+      "Software Development",
+      "QCon San Francisco 2026",
       "AI",
       "ML & Data Engineering",
       "Development"
@@ -8391,7 +8417,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 56
+    "relevanceScore": 53
   },
   {
     "id": "2a72d224faa91cb6adcd992bee8771e5f5e48bd509ab78f59a20f60dbb6b894c",
@@ -10217,10 +10243,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler/en/headerimage/meta-java-kotlin-port-1795195032767.jpeg",
     "language": "en",
     "tags": [
-      "Large language models",
-      "Facebook",
-      "PyTorch",
       "GPU",
+      "Large language models",
+      "PyTorch",
+      "Facebook",
       "AI",
       "ML & Data Engineering",
       "Development"
@@ -11058,16 +11084,16 @@
     "tags": [
       "Automated testing",
       "InfoQ Live - November 2026",
+      "Quality",
+      "Productivity",
+      "AI coding agents",
       "Code Reviews",
+      "Architecture",
+      "Continuous Delivery",
+      "DevSecOps",
       "Transcripts",
       "Governance",
-      "DevSecOps",
-      "Reliability",
-      "Architecture",
-      "Productivity",
-      "Continuous Delivery",
-      "Quality",
-      "AI coding agents"
+      "Reliability"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -14554,6 +14580,41 @@
     "relevanceScore": 33
   },
   {
+    "id": "4cbe852ef1a9ac5267a91358b2edd726f651a901b76b7e1fe1329acc3ed16f56",
+    "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+    "url": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T06:27:00.000Z",
+    "discoveredAt": "2026-11-22T06:55:14.481Z",
+    "summary": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first…",
+    "imageUrl": "https://res.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/en/headerimage/generatedHeaderImage-1795178998128.jpg",
+    "language": "en",
+    "tags": [
+      "GPU",
+      "AWS Lambda",
+      "Cloud",
+      "Serverless",
+      "Amazon Web Services",
+      "EC2",
+      "AWS",
+      "DevOps",
+      "AI",
+      "ML & Data Engineering",
+      "Development",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "devsecops"
+    ],
+    "relevanceScore": 14
+  },
+  {
     "id": "4cc686f0d8904bd210ba8527d956c91073e12d14da6cd1e27485a6e54d5e8dbd",
     "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
     "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
@@ -15230,6 +15291,28 @@
     "relevanceScore": 34
   },
   {
+    "id": "4fc724297b01d343188e7793d42d495e9d10312dc5d2c0345f1a019e308a0c41",
+    "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+    "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-21T22:59:58.000Z",
+    "discoveredAt": "2026-11-22T06:55:14.481Z",
+    "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "4fe7fa6c08bf27def6ec369dc496e7a596c9a9438f3f24b7bebb03561f0c8c14",
     "title": "Microsoft's Patch Tuesday can't break stuff if it won't install",
     "url": "https://www.theregister.com/os-platforms/2026/11/11/microsofts-patch-tuesday-cant-break-stuff-if-it-wont-install/5309059",
@@ -15545,7 +15628,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "528e71b40096eaa4b9984d8450c11c88a53ba03c595b47cfd89dba5d7980d2b3",
@@ -16828,7 +16911,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "598072de300586834d903d77560821f11d1a06f6e7b8c2cb2ec6730a63f0f0b2",
@@ -16849,7 +16932,7 @@
       "ransomware"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 31
+    "relevanceScore": 28
   },
   {
     "id": "5981d1d5812b64efe6ed3e00e08ef6915c7c064f90a0a81fe2432a53e5d6fb13",
@@ -17891,9 +17974,9 @@
     "language": "en",
     "tags": [
       ".NET",
-      ".NET 9",
       ".NET 11",
       ".NET 10",
+      ".NET 9",
       "Development"
     ],
     "matchedKeywordIds": [
@@ -18765,6 +18848,43 @@
     "relevanceScore": 12
   },
   {
+    "id": "635424aeefc408255a8adb4dbc798d57b806e2fe2c1176d7a0857ff6c2895caf",
+    "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+    "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/11/google-agent-compute-engine",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T06:30:00.000Z",
+    "discoveredAt": "2026-11-22T06:55:14.481Z",
+    "summary": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to…",
+    "imageUrl": "https://res.infoq.com/news/2026/11/google-agent-compute-engine/en/headerimage/generatedHeaderImage-1793561615054.jpg",
+    "language": "en",
+    "tags": [
+      "Cloud",
+      "AI Security",
+      "Agentic AI Architecture",
+      "Google",
+      "Kubernetes",
+      "Google Cloud",
+      "Agents",
+      "AI",
+      "ML & Data Engineering",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "ai-security",
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 62
+  },
+  {
     "id": "6374479c2cad0bda29e92aac383c59373e1ec807b870c1b22535075bb708c0be",
     "title": "Highlights and reflections from Google Public Sector Summit: Where mission meets moonshot",
     "url": "https://cloud.google.com/blog/topics/public-sector/highlights-and-reflections-from-google-public-sector-summit-where-mission-meets-moonshot/",
@@ -19588,7 +19708,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "66f82d90ac644961a3d29e01b1b423ecec311eeeffa11d9ee4c2e9e2fa776a98",
@@ -20678,6 +20798,28 @@
     "relevanceScore": 13
   },
   {
+    "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
+    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+    "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T05:06:55.000Z",
+    "discoveredAt": "2026-11-22T06:55:14.481Z",
+    "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored.…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1600/openrouter.png",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 58
+  },
+  {
     "id": "6d13b76ede2c2b5471e0e3eaa233cf678ca5e9e798679d854b8f4912ab83e11d",
     "title": "'Stop dirty datacenters': Europe-wide protests planned demanding building moratorium",
     "url": "https://www.theregister.com/systems/2026/11/05/stop-dirty-datacenters-europe-wide-protests-planned-demanding-building-moratorium/5307790",
@@ -21133,11 +21275,11 @@
     "language": "en",
     "tags": [
       "Data Analytics",
-      "QCon San Francisco 2026",
+      "Open Source",
       "Apache Iceberg",
       "Apache Spark",
       "Data Lake",
-      "Open Source",
+      "QCon San Francisco 2026",
       "AI",
       "ML & Data Engineering",
       "Architecture & Design"
@@ -21607,7 +21749,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "73de3fa2f1aaf9ceb57169d3bc20682df1527797f407e4d00d1b18e9de093bf8",
@@ -22062,7 +22204,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "75f7b7caa3520092ab0d11907b88fb51d27acdcac764281b5e9a2a2c3ff78487",
@@ -22834,11 +22976,11 @@
     "language": "en",
     "tags": [
       "Routing",
+      "Cloud",
+      "Architecture",
+      "Cloud Computing",
       "Observability",
       "Site Reliability Engineering",
-      "Cloud Computing",
-      "Architecture",
-      "Cloud",
       "DevOps",
       "Development",
       "Architecture & Design",
@@ -24357,7 +24499,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "81383615f11d44b5920289ca8b5e3ed90dd946885370bfbdb4067aaa4b845ecf",
@@ -24786,7 +24928,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "83270260bb0f21b115a2dc4014475bd7a5454ef19aecab9f6c53a56a178160a4",
@@ -25115,7 +25257,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "85689c23fd19b57765e3e48b765c2f9ce6b59eac636f282312046dcda8daae01",
@@ -25335,7 +25477,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "867efe339e979fea4b8eaa84bc5520c4223506aea4fc11ccb90ea145f2668e7a",
@@ -26152,7 +26294,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "89be98d92d9e645fab74cf519c6067819abe52dea42433f448ceb88c0365d953",
@@ -26657,12 +26799,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/aws-emulator-local-testing/en/headerimage/generatedHeaderImage-1795086946449.jpg",
     "language": "en",
     "tags": [
-      "Agents",
-      "Amazon Web Services",
-      "AWS",
-      "Testing",
       "Cloud",
       "Developer Experience",
+      "Amazon Web Services",
+      "Testing",
+      "AWS",
+      "Agents",
       "DevOps",
       "AI",
       "ML & Data Engineering",
@@ -26855,7 +26997,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "8e891bacf51bdd23aa4c1d78c2960aa26f3fbae69709a55dd4617952ff14d203",
@@ -27818,7 +27960,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 42
+    "relevanceScore": 39
   },
   {
     "id": "9342dbf934e428aa00c16520441f258a949ccd62bcb28471deb475c04ce3c227",
@@ -27938,7 +28080,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "940b542808337faa1a37f2ba2cb291c906cd9a228841d5d504bb13a4baf2b0aa",
@@ -28506,7 +28648,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "969acdd4c66c8c6624da2c865dfc135c723688821e5abab9c0021ae193c43321",
@@ -29000,7 +29142,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "981785a01550309d0739d8f0393613130409c9a98cd0180f1072e2be43156c86",
@@ -31242,7 +31384,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "a3433e936d2c04bfa7722c64f05b5efdfdc6024634f8a182254f80d5e66c1036",
@@ -31373,6 +31515,25 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
+    "relevanceScore": 16
+  },
+  {
+    "id": "a3c63e958cb92eef3df0aa513c9e2bcc89f1a4d836647a4f3bac9eefc4d8cd48",
+    "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+    "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T05:03:41.000Z",
+    "discoveredAt": "2026-11-22T06:55:14.481Z",
+    "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1BiCJUIrSJXNfKPZEkM46ynK6Rs7gba2xMaTUdoJ7yOK6Y8kcKMqJ_6PhbUIog_U1E8gRCpbj2HrkQ9UEpbPi1HOvkxdxCE5Afa5LbkNhUPvgU7Sa60IVHAWqSvgJaX1p6frMAN335QncL5UTZ3a4v1-agyb8ZXIlMGZTOtzsC0Gll2qRI0NJNMHTsf8/s1600/ghostscript.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 16
   },
   {
@@ -31735,7 +31896,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "a60c29c498ad06a8e5ba45bd928d3edee22489e728f52dd05496a46e8d98fb8f",
@@ -32272,7 +32433,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "a89fc45af709a9b8b3fe037e8b4b8828556e34a0e57f49993c7177223f735b03",
@@ -34690,7 +34851,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "b36815ecc93428e208b8b8cb92ce71717e1af26f06e2c7264c62d6bf5bb5ee47",
@@ -35709,7 +35870,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "b9b3936785bef30064f915828934bad5b201c06a144b5edfc385649f96b5ce01",
@@ -35896,7 +36057,7 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "ba7dc281de14147215fad1d06454119879f298f5ed09d787914ad4c359f28591",
@@ -35999,9 +36160,9 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/scalling-tech-humans/en/headerimage/generatedHeaderImage-1795181753113.jpg",
     "language": "en",
     "tags": [
-      "QCon San Francisco 2026",
-      "Software Development",
       "AI coding agents",
+      "Software Development",
+      "QCon San Francisco 2026",
       "Culture & Methods"
     ],
     "matchedKeywordIds": [],
@@ -36503,7 +36664,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "bce0ffcba988b4eacb4590895ebe0fc1f0ebcdd5eb367b3cbd027429ad68c897",
@@ -37928,7 +38089,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "c5f5186c2b354ea85ef7ec3784ef8b3478508c5deac99f2b94dbf35d460ac421",
@@ -38821,7 +38982,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "cb4a03f1e6a50e8b1e042a3f75e39ca1d5d2706a973326782b51236e1631520c",
@@ -39161,13 +39322,13 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/gke-kernel-network-bug/en/headerimage/generatedHeaderImage-1794082671635.jpg",
     "language": "en",
     "tags": [
-      "Networking",
       "Linux",
       "TCP",
+      "Networking",
+      "Infrastructure",
       "Site Reliability Engineering",
       "Kubernetes",
       "Google Cloud",
-      "Infrastructure",
       "DevOps",
       "Architecture & Design"
     ],
@@ -39983,13 +40144,13 @@
     "language": "en",
     "tags": [
       "Containers",
-      "AIOps",
-      "Cloud Native Computing Foundation",
-      "Kubernetes",
       "AI coding agents",
+      "AIOps",
+      "Kubernetes",
+      "Cloud Native Computing Foundation",
+      "DevOps",
       "AI",
-      "ML & Data Engineering",
-      "DevOps"
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [
       "agentic-ai",
@@ -40406,14 +40567,14 @@
     "imageUrl": "https://res.infoq.com/presentations/tesco-enterprise-tech-transformation/en/mediumimage/JayeshBhayani-medium-1792654742095.jpg",
     "language": "en",
     "tags": [
-      "Enterprise Architecture",
       "Digital Transformation",
+      "Cloud Computing",
+      "Enterprise Architecture",
+      "Leadership",
       "Transcripts",
       "Platform Engineering",
-      "Cloud Computing",
-      "Edge Computing",
       "QCon London 2026",
-      "Leadership",
+      "Edge Computing",
       "DevOps",
       "Architecture & Design",
       "Culture & Methods",
@@ -42138,7 +42299,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "da3e1f1754bed841e447d6b9174630adae0f1e8f14c9c2ba090337f857d616f1",
@@ -42345,7 +42506,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "db01d072adb842da9f5aad746996ccc62cdcf6a34da7fd4ece962950c6b90920",
@@ -43041,7 +43202,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 58
+    "relevanceScore": 55
   },
   {
     "id": "ddb370c34e5553db3786cebf1aa2425795826b5bfc8e588383a8c4f69f2b1f9c",
@@ -46855,7 +47016,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "f0d40b6eb5cac62ee86cf717f406d05317d47708def4f82c98769f895c4ecee0",
@@ -47032,7 +47193,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "f2571adad4d38d7232eb9512f5c154a8cbfa928b13a024388260bc9356460191",
@@ -47484,16 +47645,16 @@
     "language": "en",
     "tags": [
       "GarbageCollection",
+      "Optimization",
+      "Caching",
       "Performance Tuning",
+      "Concurrency",
+      "Distributed Systems",
+      "Memory",
+      "Uber",
+      "Go Language",
       "Low Latency",
       "Hybrid Work",
-      "Optimization",
-      "Go Language",
-      "Memory",
-      "Distributed Systems",
-      "Uber",
-      "Concurrency",
-      "Caching",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -47946,6 +48107,36 @@
       "cybersecurity"
     ],
     "relevanceScore": 48
+  },
+  {
+    "id": "f6f5282ad9e3c36becf8337f22dfe98b714cceb5714699a8a4ed52de92759a9a",
+    "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+    "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-21T21:37:10.000Z",
+    "discoveredAt": "2026-11-22T06:55:14.481Z",
+    "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Apps",
+      "Security",
+      "Social",
+      "Meredith Whittaker",
+      "signal"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "relevanceScore": 38
   },
   {
     "id": "f71c4aad0bb2837063f07976ca6e67881cca33941055aad5ab2d0b9f39d5ba0e",
@@ -48996,9 +49187,9 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/grafana-13-3-shared-variables/en/headerimage/header-1795209346746.jpeg",
     "language": "en",
     "tags": [
-      "Observability",
-      "Monitoring Tools",
       "Monitoring",
+      "Monitoring Tools",
+      "Observability",
       "DevOps",
       "Development"
     ],
