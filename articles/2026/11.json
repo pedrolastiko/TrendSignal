@@ -104,7 +104,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "00bfb3e3b49bef1af6f5c365ce5932c928c4a18ba8ad2ff4870002ffd231815f",
@@ -478,6 +478,41 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 27
+  },
+  {
+    "id": "02f7f06c4d9a9f3d582d7329243e98df1b2c9b85ffed9baff0b2d9b63b310971",
+    "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
+    "url": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T11:00:00.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared…",
+    "imageUrl": "https://res.infoq.com/news/2026/11/claude-code-leaking-secrets/en/headerimage/linux-6-12-real-time-1795344939763.jpeg",
+    "language": "en",
+    "tags": [
+      "Cloud Security",
+      "git",
+      "Claude",
+      "github",
+      "AI coding agents",
+      "AI Security",
+      "AI",
+      "ML & Data Engineering",
+      "DevOps",
+      "Development"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "ai-security",
+      "artificial-intelligence",
+      "cloud-security",
+      "devsecops"
+    ],
+    "relevanceScore": 14
   },
   {
     "id": "0358f72200e4cdd4aa6523981a0a98fd0ef56786dc42adb6090d4a5f4d5dc934",
@@ -882,6 +917,32 @@
     "relevanceScore": 45
   },
   {
+    "id": "04c4a7f01a7ccd0bf2967fb7ad2b8544dfe6a090c6567aba34e92bd0ef8ac16f",
+    "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+    "url": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/11/postgresql-19-released",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T12:54:00.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and…",
+    "imageUrl": "https://res.infoq.com/news/2026/11/postgresql-19-released/en/headerimage/generatedHeaderImage-1795349035334.jpg",
+    "language": "en",
+    "tags": [
+      "Postgres",
+      "Database",
+      "AI",
+      "ML & Data Engineering"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 14
+  },
+  {
     "id": "04c4dac80f3d2432755a18ace0577b2d71223f474fce1a5c8122a5da40c67ed2",
     "title": "SEC reportedly investigating Nvidia amid Huang exit",
     "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
@@ -1068,7 +1129,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "059e30cfca7341a0e49dcdcb5397bfc10af4e87b6788314fd1b62c6d1344d4d7",
@@ -1087,7 +1148,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "05b6d772d2d4ab89c82960204ee4a15bdd0bdf42dc1575b499cdd36f44c00240",
@@ -1127,6 +1188,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 11
+  },
+  {
+    "id": "0603ecb3f6843f81647a3f222e14bd8cd2acfcdffb25569d21a7c1ff8c3f20f1",
+    "title": "Can a TV be too large? An investigation",
+    "url": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T15:00:00.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "Can a TV be too large? This writer's recent upgrade to a 65-inch OLED came with some unexpected challenges.",
+    "language": "en",
+    "tags": [
+      "Hardware",
+      "smart tv",
+      "consumer",
+      "Reviews"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "062d03b73d1f0fc795517298854cb77a1181f0441209794a5cccdd186ada91a6",
@@ -1366,7 +1450,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "0718f64434b112c823b18eb32838599386c95bbe8c68310833c22d12b5e6aac4",
@@ -3610,7 +3694,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "10bbbe00f6860fea900369329956e5ffe43fd16a8557029799037dc6a59ae5a0",
@@ -4531,7 +4615,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "153d9223a0898224454f2e2187d03447ac0e2e44628cef7581a60a82afa227b6",
@@ -4552,7 +4636,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "15756984bcc6b700f1867476c691a843f3a0144e43875f107ef2e2e00f2bd375",
@@ -5652,6 +5736,28 @@
     "relevanceScore": 16
   },
   {
+    "id": "1a10f1676d46fc01a909d8eab6d17033b89331ee5fd1f1e04952fc2f6f54665c",
+    "title": "Perplexity and Intelligence",
+    "url": "https://openai.com/index/perplexity-and-intelligence",
+    "canonicalUrl": "https://openai.com/index/perplexity-and-intelligence",
+    "sourceId": "openai-news",
+    "sourceName": "OpenAI News",
+    "company": "OpenAI",
+    "sourceCategory": "artificial-intelligence",
+    "publishedAt": "2026-11-22T00:00:00.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+    "language": "en",
+    "tags": [
+      "Research"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 35
+  },
+  {
     "id": "1a30c16ead343045843d834b1b3715675fe4647eefade64caa4ae3645aafdb8a",
     "title": "Introducing the Databricks AI Index: The state of enterprise AI tokenomics",
     "url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
@@ -6008,7 +6114,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "1d138336ed9325c15ba2ed892f78201c520dc6be740f16fa0cfd053903a31329",
@@ -6655,7 +6761,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "21450afb0279b4a1b278c074443a83f9d5872b0d8135ff797128ec090b2860eb",
@@ -8141,6 +8247,34 @@
     "relevanceScore": 16
   },
   {
+    "id": "28c48f816e4d2e4f04da66e15f945a6ea974467e103fee5fdfec73f9f016db63",
+    "title": "TechCrunch Mobility: A/B testing robots vs. humans",
+    "url": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T17:06:00.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.",
+    "language": "en",
+    "tags": [
+      "Transportation",
+      "Tesla",
+      "Uber",
+      "zoox",
+      "Waymo",
+      "techcrunch mobility",
+      "cybercab"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 33
+  },
+  {
     "id": "28cc7a562c85ad38a67f6487f871048cf5375f76437b5e0e668667d887e03163",
     "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
     "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
@@ -8176,7 +8310,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "295354ff422b0d4db922748e7c3d1bbebb7a9ab588c6d205b09352b92e57d424",
@@ -8348,7 +8482,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "29f1fd5cb64a11a5f04aea55ad4c9c68b8caf83909578680ac8c1ecf297c507b",
@@ -8852,6 +8986,27 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 34
+  },
+  {
+    "id": "2d8a122985454dfbf132d1eeb66af1f2258ec27b5583528c6684926d32a191c8",
+    "title": "Passive 'ghost' radar can detect airborne threats without revealing its own position",
+    "url": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+    "canonicalUrl": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T09:15:00.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "Kit piggybacks off TV and mobile signals and can be neatly stuffed into an SUV",
+    "imageUrl": "https://image.theregister.com/?imageId=5311030&width=800",
+    "language": "en",
+    "tags": [
+      "offbeat"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "2db09ce09c0f71a00fb09ef52e3d0f921b369b7f6435c300a2676c32878da497",
@@ -9412,7 +9567,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "30e8e4a4ce37dd8230450a7291676aee1c8bc6f3d825615b4064293b2ba99ec9",
@@ -9514,7 +9669,7 @@
       "threat-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 58
+    "relevanceScore": 55
   },
   {
     "id": "31f08b59cb1733fd7c6ac128d7728193850cd1c0dff12be5127aff5295edea5a",
@@ -10146,7 +10301,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "354c3234708920a06e6a1bde07595a554b780d541cde91709650f72bd4f163a2",
@@ -10243,10 +10398,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler/en/headerimage/meta-java-kotlin-port-1795195032767.jpeg",
     "language": "en",
     "tags": [
-      "GPU",
       "Large language models",
-      "PyTorch",
       "Facebook",
+      "PyTorch",
+      "GPU",
       "AI",
       "ML & Data Engineering",
       "Development"
@@ -10463,7 +10618,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "36bbeb249216ceb6a04b8ce0e9b2036af7c13889e2ddcea03778038cd547846f",
@@ -10977,7 +11132,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "392776af3f66fe525bd9a6491bf4a4bd4e68fd16d3463626a951f692a4a1fbbc",
@@ -11084,16 +11239,16 @@
     "tags": [
       "Automated testing",
       "InfoQ Live - November 2026",
-      "Quality",
-      "Productivity",
-      "AI coding agents",
       "Code Reviews",
-      "Architecture",
-      "Continuous Delivery",
-      "DevSecOps",
       "Transcripts",
       "Governance",
-      "Reliability"
+      "DevSecOps",
+      "Reliability",
+      "Architecture",
+      "Productivity",
+      "Continuous Delivery",
+      "Quality",
+      "AI coding agents"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -11101,7 +11256,7 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 43
+    "relevanceScore": 40
   },
   {
     "id": "39a95748c7d3ae2c0e50cbfc03e4a014c599eee70beb3ce8136fcb75c2cd4a6f",
@@ -11230,7 +11385,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "3b53bf6090ab9868ec4d537392370a44237352182f157d7fbf6dbb11f5afeda3",
@@ -11274,6 +11429,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 13
+  },
+  {
+    "id": "3b756778f4e94e61736c9165f6b5957d4363364907786edffd7dc00e5eae367b",
+    "title": "As cars go digital, US consumers pay an extra $12 billion a year for repairs",
+    "url": "https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412",
+    "canonicalUrl": "https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T16:08:00.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "Today's vehicles need software tools to make repairs, and the subscriptions inflate insurance fees",
+    "imageUrl": "https://image.theregister.com/?imageId=5311508&width=800",
+    "language": "en",
+    "tags": [
+      "personal tech"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "3b767831c7caaf477ede15fb42d828dd7ce18b7817b3bc74b83d6c5dca8d02bf",
@@ -11578,7 +11754,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "3e4cd1e3871dc6c4ca350785836e987a02249c1fce0d6c2c14266d1b5697c950",
@@ -11740,7 +11916,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "3ea7cd27eafe16dadc94cb726e304b858cd4eaa2af2be71a19b37645819cb02f",
@@ -11888,7 +12064,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "3fa90a6279ddb3ab78cf0710435dd55101a3673b11ccfeedfab58abba2515102",
@@ -12347,7 +12523,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "422e02936447b3fe4f01cd44a8dc3a3ed8b161d7f7a44bbfb3d63f2aa55d3186",
@@ -12883,7 +13059,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 31
+    "relevanceScore": 28
   },
   {
     "id": "44d134eb437794a13e5bc3cbbd2bb87df9a64b04b2dcb719e456086a487c6f55",
@@ -13368,6 +13544,31 @@
     "relevanceScore": 16
   },
   {
+    "id": "47b2738e2872fd88c166151463e7074b4ab4231ec0a98dc66eca7ebcb1440813",
+    "title": "Why data centers are at the center of the Big Tech backlash",
+    "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+    "canonicalUrl": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash",
+    "sourceId": "techcrunch",
+    "sourceName": "TechCrunch",
+    "company": "TechCrunch",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T18:08:43.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+    "language": "en",
+    "tags": [
+      "AI",
+      "Government & Policy",
+      "Media & Entertainment",
+      "data centers"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 16
+  },
+  {
     "id": "47c9e2c2f127bea1bcf0c5f44636d9c44b68172ada4adef1e638898910c582f5",
     "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
     "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
@@ -13451,7 +13652,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "4832a1d87c293de0a9867eae146290adb2cdf884b795532a33b227aef1675c69",
@@ -14220,7 +14421,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "4b0033536e5760bb8ffda6cde2cc4d786994e6e616c2e75633df9544b95e6a89",
@@ -14594,13 +14795,13 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/en/headerimage/generatedHeaderImage-1795178998128.jpg",
     "language": "en",
     "tags": [
-      "GPU",
-      "AWS Lambda",
-      "Cloud",
-      "Serverless",
       "Amazon Web Services",
       "EC2",
       "AWS",
+      "Serverless",
+      "Cloud",
+      "AWS Lambda",
+      "GPU",
       "DevOps",
       "AI",
       "ML & Data Engineering",
@@ -14964,7 +15165,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "4e12b553994bd3ebade211b01d9de0d343c08b9d880e2173a502efc1c7e13643",
@@ -15150,7 +15351,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 26
   },
   {
     "id": "4f1fb189b728584ec103ffd17887da2dd4416395a5507e3c33fe51cccbb8eae4",
@@ -15397,7 +15598,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "510ffbcc89afcdc3e2c66b38dc2ff9207b784f38c55edd3fb15bf68aa27c6633",
@@ -16092,7 +16293,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "546a244806f2026b04801fc09f8a45ceb8da5ca5886850b98de6ff402dcee1e4",
@@ -16264,7 +16465,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "554481bd87b76bc65daed94ffe3c7d26f205a43860d9902a513d23f40b871383",
@@ -18779,7 +18980,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "633a67e2de20159c26f488da6b0111c194c03c03fb4ef7ab5a0cc0b42b28e63b",
@@ -18862,13 +19063,13 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/google-agent-compute-engine/en/headerimage/generatedHeaderImage-1793561615054.jpg",
     "language": "en",
     "tags": [
-      "Cloud",
-      "AI Security",
       "Agentic AI Architecture",
-      "Google",
+      "Agents",
       "Kubernetes",
       "Google Cloud",
-      "Agents",
+      "Google",
+      "Cloud",
+      "AI Security",
       "AI",
       "ML & Data Engineering",
       "Architecture & Design"
@@ -19036,7 +19237,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "640f892301ede48957e153f749c81a019fe11cda0f90d5f1d44834da72ced7f1",
@@ -19168,6 +19369,28 @@
       "cybersecurity"
     ],
     "relevanceScore": 30
+  },
+  {
+    "id": "64b20ec1d532f296fe6f0fffb42fec5052f08b70cbe8a8abf5000f036c5ebed1",
+    "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+    "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T15:43:04.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "64c44d59b825268a39968ce5a827ea5599aff883f10c4f3500238f0266cce90f",
@@ -20637,7 +20860,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "6c299e7ed47e6af238de198107346812e164e14f559d9fbd4546a317590dd4a1",
@@ -21045,7 +21268,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "6ec0dce548ff06fef1684d29c17304a8f76b7440dcceb43742a6c4c0623b83b9",
@@ -21275,11 +21498,11 @@
     "language": "en",
     "tags": [
       "Data Analytics",
-      "Open Source",
+      "QCon San Francisco 2026",
       "Apache Iceberg",
       "Apache Spark",
       "Data Lake",
-      "QCon San Francisco 2026",
+      "Open Source",
       "AI",
       "ML & Data Engineering",
       "Architecture & Design"
@@ -22857,7 +23080,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "78ad0b5e9e73fe613d612fbad9cd7fbee636abdeb828ca739b9d0f39fa844067",
@@ -22976,11 +23199,11 @@
     "language": "en",
     "tags": [
       "Routing",
-      "Cloud",
-      "Architecture",
-      "Cloud Computing",
       "Observability",
       "Site Reliability Engineering",
+      "Cloud Computing",
+      "Architecture",
+      "Cloud",
       "DevOps",
       "Development",
       "Architecture & Design",
@@ -23126,7 +23349,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "7a13d6f6db3e8fb5334274630f347bfe7890d1c3c4128db51c26b011c803ffa9",
@@ -24278,7 +24501,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "7fff5e6c80fbe88084c3d43afc5e61688b198e85474546ca2acfb7fdf470cc32",
@@ -24846,7 +25069,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "82d4f8e1487b9eb78e5499835d3b5bc84ce1a3fe9c608f63ab3dac55f7b9cb7f",
@@ -25480,6 +25703,27 @@
     "relevanceScore": 45
   },
   {
+    "id": "862649af3eadb697e26f9b977a4b06f9a289485b03abc209d9f5c63b7160fd97",
+    "title": "Come for the science, stay for the big iron: Supercomputer admin on why he loves the job",
+    "url": "https://www.theregister.com/hpc/2026/11/22/come-for-the-science-stay-for-the-big-iron-supercomputer-admin-on-why-he-loves-the-job/5311247",
+    "canonicalUrl": "https://www.theregister.com/hpc/2026/11/22/come-for-the-science-stay-for-the-big-iron-supercomputer-admin-on-why-he-loves-the-job/5311247",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T08:48:00.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "From the dotcom bubble to 200,00 cores of raw power",
+    "imageUrl": "https://image.theregister.com/?imageId=5311252&width=800",
+    "language": "en",
+    "tags": [
+      "hpc"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
+  },
+  {
     "id": "867efe339e979fea4b8eaa84bc5520c4223506aea4fc11ccb90ea145f2668e7a",
     "title": "The Blueprint: How Authentic Brands Group expands creativity with AuthOS",
     "url": "https://cloud.google.com/blog/topics/retail/the-blueprint-how-authentic-brands-group-expands-creativity-with-authos/",
@@ -25532,6 +25776,28 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 41
+  },
+  {
+    "id": "86d05566c7a214bc432a39da04766658142a1eb8ed7d02ad0e1e382caadd856a",
+    "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T18:45:37.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+    "language": "en",
+    "tags": [
+      "Security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 16
   },
   {
     "id": "86f9aea00d5ec50add6ce43e4b75b3a41ea56fee42f4067f292a2b0a1939960b",
@@ -26026,7 +26292,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "88d6d55f0b06ce11ebd6ca5cbacdb3f63a8bbb35535198355b69323ae482a09e",
@@ -26592,7 +26858,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "8b54db93a1fbe37b71aceac394f05e40f936dbd8f11a5164abaae9c4865c95c8",
@@ -26799,12 +27065,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/aws-emulator-local-testing/en/headerimage/generatedHeaderImage-1795086946449.jpg",
     "language": "en",
     "tags": [
+      "Agents",
+      "Amazon Web Services",
+      "AWS",
+      "Testing",
       "Cloud",
       "Developer Experience",
-      "Amazon Web Services",
-      "Testing",
-      "AWS",
-      "Agents",
       "DevOps",
       "AI",
       "ML & Data Engineering",
@@ -26924,7 +27190,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "8de0734e3530d354cd70df9c3e839679134f8e8899440d77ac137a0206416f9b",
@@ -27277,7 +27543,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "8f65e30832ee44be78f722d2d4fe34884f906265601e1d9ceaf8ab54c470bd0f",
@@ -27980,7 +28246,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "93df787a9fba9d2a68ea84d0ddf9f1fc80be58af6b6d10ed347b890649d8797c",
@@ -30220,7 +30486,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "9cab894bedb03d90d23f57c259bb4b1acd1a9ac4153462c3b5ca7d8899b60e5c",
@@ -32361,7 +32627,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "a83a56374fd6aa91bfb5c5e279fa15b1331653c38bb895589dd8bcff0d7ab1f8",
@@ -34608,7 +34874,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "b1edb457befc260f587318355f17c14244f8c841c8fb545574849c38115dc0fb",
@@ -36160,14 +36426,14 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/scalling-tech-humans/en/headerimage/generatedHeaderImage-1795181753113.jpg",
     "language": "en",
     "tags": [
-      "AI coding agents",
-      "Software Development",
       "QCon San Francisco 2026",
+      "Software Development",
+      "AI coding agents",
       "Culture & Methods"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "bb315cafa402d8202158b92c80fb3b631d48dc04c903437f557bc009a7871f52",
@@ -37562,7 +37828,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "c281bea158b9baeb937bebce8693f2de192c08e13f9932313979c0a4bc618bc2",
@@ -37955,7 +38221,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "c553075ca27177e7d92b0803ff534e44136316e5fc045aa50e93d1e1016fc695",
@@ -39305,7 +39571,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "cc9417583db1fb4fe7b005643eaf4a80bd478b946ddc77f7c60247338cbb63c4",
@@ -39322,13 +39588,13 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/gke-kernel-network-bug/en/headerimage/generatedHeaderImage-1794082671635.jpg",
     "language": "en",
     "tags": [
+      "Networking",
       "Linux",
       "TCP",
-      "Networking",
-      "Infrastructure",
       "Site Reliability Engineering",
       "Kubernetes",
       "Google Cloud",
+      "Infrastructure",
       "DevOps",
       "Architecture & Design"
     ],
@@ -39336,7 +39602,7 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "ccd3ce2a22b91d8b3df37b1efdc3414d9af279b240d9e36475bc91844859d809",
@@ -40144,13 +40410,13 @@
     "language": "en",
     "tags": [
       "Containers",
-      "AI coding agents",
       "AIOps",
-      "Kubernetes",
       "Cloud Native Computing Foundation",
-      "DevOps",
+      "Kubernetes",
+      "AI coding agents",
       "AI",
-      "ML & Data Engineering"
+      "ML & Data Engineering",
+      "DevOps"
     ],
     "matchedKeywordIds": [
       "agentic-ai",
@@ -40567,14 +40833,14 @@
     "imageUrl": "https://res.infoq.com/presentations/tesco-enterprise-tech-transformation/en/mediumimage/JayeshBhayani-medium-1792654742095.jpg",
     "language": "en",
     "tags": [
-      "Digital Transformation",
-      "Cloud Computing",
       "Enterprise Architecture",
-      "Leadership",
+      "Digital Transformation",
       "Transcripts",
       "Platform Engineering",
-      "QCon London 2026",
+      "Cloud Computing",
       "Edge Computing",
+      "QCon London 2026",
+      "Leadership",
       "DevOps",
       "Architecture & Design",
       "Culture & Methods",
@@ -41017,7 +41283,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "d38f7b5068359c02019572a7a3d3e94184f9d64c956af44bbfd87c44673d770c",
@@ -41229,7 +41495,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "d4fab9269a72c10ccf0d8aa6e847e70dcc7ee54bddcb8971df506ffb5066a3bc",
@@ -41585,7 +41851,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "d6f2e7e5c99d44e4f68d6734c4aecb98d7822f304cf06e4055cc620c5d79b794",
@@ -42051,7 +42317,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "d91fd06de7b8771ee8ad78bbe6c6a0f8795962915436321f9652c6b42b553b9c",
@@ -42943,7 +43209,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "dc9b00f988f99db7330689f39a0969f1b30b0ef51b161801ff8f75c5cbc6d58f",
@@ -43031,7 +43297,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "dd09d605ad9a10e6884349da6289c8bc153ccf018ca8956c8e1294ea5e149ae0",
@@ -43154,7 +43420,7 @@
       "ransomware"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "dd9d10ec61939a9712c1adfe2403f4d513a006f67dc05cf7e15e2de5979549c1",
@@ -44062,7 +44328,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "e3f6e444c8dea91200fa2fa5d907b5cc185fb7f96cc15ea247949b34d3913fd4",
@@ -44767,7 +45033,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "e6db21ab66f4d43e0764af5d413c3b3e5f7b0d4f0263f4dd5c850a90e4d1d108",
@@ -45232,7 +45498,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "e8884a0ba45abd7629fdc7cfc69248bb7092da8b1cf5a102b40c8d4e35041a56",
@@ -45390,7 +45656,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "e99ca1eba4eca776242a22c2d73d4994951f1cadf7490163847a048c35ae41b1",
@@ -45607,7 +45873,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "ea8f2c6821428bc14d0c57540ec5967cacd227d730d9c6de861c4282b5cc47b4",
@@ -46788,7 +47054,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 34
+    "relevanceScore": 31
   },
   {
     "id": "f020d812e8ed826cbd47b6e76147ba98891330b4782c81adb55415a8d6c76eef",
@@ -46998,7 +47264,7 @@
     "tagMatchedIds": [
       "threat-intelligence"
     ],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "f0b81ce3c14612880642c854f15f292b941326a9491f444584b41bfe82ab7a56",
@@ -47326,10 +47592,10 @@
     "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
     "language": "en",
     "tags": [
-      "Media & Entertainment",
       "AI",
-      "Hollywood",
+      "Media & Entertainment",
       "entertainment",
+      "Hollywood",
       "microdramas"
     ],
     "matchedKeywordIds": [
@@ -47338,7 +47604,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 38
+    "relevanceScore": 35
   },
   {
     "id": "f30eabe3ae69a985032205976349207e2bdeea56ed29009b539fdb25b1ed22c5",
@@ -47645,16 +47911,16 @@
     "language": "en",
     "tags": [
       "GarbageCollection",
-      "Optimization",
-      "Caching",
       "Performance Tuning",
-      "Concurrency",
-      "Distributed Systems",
-      "Memory",
-      "Uber",
-      "Go Language",
       "Low Latency",
       "Hybrid Work",
+      "Optimization",
+      "Go Language",
+      "Memory",
+      "Distributed Systems",
+      "Uber",
+      "Concurrency",
+      "Caching",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -47848,7 +48114,7 @@
       "agentic-ai",
       "artificial-intelligence"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "f57c0c7e4c0df08a694cc4f2516cbe08d3aa57a85dcb546050c701f7ef37690b",
@@ -48407,7 +48673,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "f92a09eb2a575c9154937e41ca771474e511386bb41747f4bcaa3e2d49094b90",
@@ -48545,7 +48811,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "f9d001bba19ce9d4bb3101b7fa7de1282e621750498478d7b24f1e134a36d7ab",
@@ -49187,9 +49453,9 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/grafana-13-3-shared-variables/en/headerimage/header-1795209346746.jpeg",
     "language": "en",
     "tags": [
-      "Monitoring",
-      "Monitoring Tools",
       "Observability",
+      "Monitoring Tools",
+      "Monitoring",
       "DevOps",
       "Development"
     ],
@@ -49197,7 +49463,34 @@
     "tagMatchedIds": [
       "devsecops"
     ],
-    "relevanceScore": 14
+    "relevanceScore": 11
+  },
+  {
+    "id": "fc690aee93bd492c13e7ad88f12fc6e9527a86fd1930cd619880aa587a90fde0",
+    "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+    "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+    "canonicalUrl": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "company": "BleepingComputer",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-22T15:15:25.000Z",
+    "discoveredAt": "2026-11-22T19:44:33.155Z",
+    "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+    "language": "en",
+    "tags": [
+      "Security",
+      "Artificial Intelligence",
+      "Mobile"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "relevanceScore": 48
   },
   {
     "id": "fc6fad21799949ce345c842c3541fe25b21beb19a8b510569e3ff212d885ab63",
