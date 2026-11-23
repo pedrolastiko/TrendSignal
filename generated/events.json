@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T07:44:20.578Z",
+  "generatedAt": "2026-11-23T23:57:08.575Z",
   "events": [
     {
       "id": "81041e2c035f3926a05696f023781e0c02ab4cffc1f97c25909ae1bf7a655a6c",
@@ -20,6 +20,25 @@
       ],
       "relevanceScore": 23,
       "discoveredAt": "2026-11-11T19:39:16.219Z",
+      "dateStatus": "confirmed"
+    },
+    {
+      "id": "57db79f3f0d67559cdacea35ddba718daacb40583818d08d623fd63a49a8836c",
+      "title": "エクスポージャーの把握と対策",
+      "url": "https://www.tenable.com/webinars/apac-assessing-and-addressing-exposure",
+      "sourceId": "tenable-webinars",
+      "sourceName": "Tenable Webinars",
+      "company": "Tenable",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2026-11-27T07:00:00.000Z",
+      "allDay": false,
+      "kind": "webinar",
+      "format": "online",
+      "summary": "Java4Shell (CVE-2026-114938) の脅威とTenableによる迅速なエクスポージャーの把握と対策2026年11月17日、OpenJDKにおける高度なリモートコード実行（RCE）の脆弱性「Java4Shell (CVE-2026-114938)」が公表されました。本脆弱性は、未認証の第三者がリモートでコードを実行できる重大なリスクをはらんでおり、Jira、Confluence、Jenkins、Keycloakなどのエンタープライズ製品への影響が確認されています。本ウェビナーでは、Java4Shellの技術的メカニズムと影響範囲を迅速に解説するとともに、プラグイン適用を待たずに組織内のエクスポージャーを即座に特…",
+      "language": "en",
+      "matchedKeywordIds": [],
+      "relevanceScore": 6,
+      "discoveredAt": "2026-11-23T23:57:08.575Z",
       "dateStatus": "confirmed"
     },
     {
@@ -1292,9 +1311,9 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-23T07:44:20.578Z",
-        "lastSuccessAt": "2026-11-23T07:44:20.578Z",
-        "responseTimeMs": 1180,
+        "lastAttemptAt": "2026-11-23T23:57:08.575Z",
+        "lastSuccessAt": "2026-11-23T23:57:08.575Z",
+        "responseTimeMs": 1035,
         "itemsFetched": 30,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1310,9 +1329,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-23T07:44:20.578Z",
-        "lastSuccessAt": "2026-11-23T07:44:20.578Z",
-        "responseTimeMs": 3170,
+        "lastAttemptAt": "2026-11-23T23:57:08.575Z",
+        "lastSuccessAt": "2026-11-23T23:57:08.575Z",
+        "responseTimeMs": 3005,
         "itemsFetched": 145,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1328,9 +1347,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-23T07:44:20.578Z",
-        "lastSuccessAt": "2026-11-23T07:44:20.578Z",
-        "responseTimeMs": 836,
+        "lastAttemptAt": "2026-11-23T23:57:08.575Z",
+        "lastSuccessAt": "2026-11-23T23:57:08.575Z",
+        "responseTimeMs": 1095,
         "itemsFetched": 10,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1345,8 +1364,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-23T07:44:20.578Z",
-        "lastSuccessAt": "2026-11-23T07:44:20.578Z",
+        "lastAttemptAt": "2026-11-23T23:57:08.575Z",
+        "lastSuccessAt": "2026-11-23T23:57:08.575Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1363,9 +1382,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-23T07:44:20.578Z",
-        "lastSuccessAt": "2026-11-23T07:44:20.578Z",
-        "responseTimeMs": 388,
+        "lastAttemptAt": "2026-11-23T23:57:08.575Z",
+        "lastSuccessAt": "2026-11-23T23:57:08.575Z",
+        "responseTimeMs": 65,
         "itemsFetched": 26,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1381,9 +1400,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-23T07:44:20.578Z",
-        "lastSuccessAt": "2026-11-23T07:44:20.578Z",
-        "responseTimeMs": 393,
+        "lastAttemptAt": "2026-11-23T23:57:08.575Z",
+        "lastSuccessAt": "2026-11-23T23:57:08.575Z",
+        "responseTimeMs": 270,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1399,9 +1418,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-23T07:44:20.578Z",
-        "lastSuccessAt": "2026-11-23T07:44:20.578Z",
-        "responseTimeMs": 326,
+        "lastAttemptAt": "2026-11-23T23:57:08.575Z",
+        "lastSuccessAt": "2026-11-23T23:57:08.575Z",
+        "responseTimeMs": 553,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1417,9 +1436,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-23T07:44:20.578Z",
-        "lastSuccessAt": "2026-11-23T07:44:20.578Z",
-        "responseTimeMs": 120,
+        "lastAttemptAt": "2026-11-23T23:57:08.575Z",
+        "lastSuccessAt": "2026-11-23T23:57:08.575Z",
+        "responseTimeMs": 55,
         "itemsFetched": 14,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1435,9 +1454,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-23T07:44:20.578Z",
-        "lastSuccessAt": "2026-11-23T07:44:20.578Z",
-        "responseTimeMs": 1495,
+        "lastAttemptAt": "2026-11-23T23:57:08.575Z",
+        "lastSuccessAt": "2026-11-23T23:57:08.575Z",
+        "responseTimeMs": 3388,
         "itemsFetched": 13,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1453,11 +1472,11 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-23T07:44:20.578Z",
-        "lastSuccessAt": "2026-11-23T07:44:20.578Z",
-        "responseTimeMs": 1503,
+        "lastAttemptAt": "2026-11-23T23:57:08.575Z",
+        "lastSuccessAt": "2026-11-23T23:57:08.575Z",
+        "responseTimeMs": 2101,
         "itemsFetched": 12,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     }
