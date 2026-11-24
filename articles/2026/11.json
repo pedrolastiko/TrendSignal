@@ -217,7 +217,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "00e9eb3e7a4e7910c804c1939b119113002961ca1aef8918cbda535f0b19b292",
@@ -545,8 +545,8 @@
       "git",
       "Claude",
       "github",
-      "AI coding agents",
       "AI Security",
+      "AI coding agents",
       "AI",
       "ML & Data Engineering",
       "DevOps",
@@ -3393,7 +3393,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 34
+    "relevanceScore": 32
   },
   {
     "id": "0e99fb5736734a15059c9169ba0b90a709a5b52decc9ef5300786b9948191c69",
@@ -3806,7 +3806,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 35
+    "relevanceScore": 32
   },
   {
     "id": "10acb845ed09a002affc9ca634fc1013d9ffdd00055eef0cb265bd0423dbb3aa",
@@ -3850,7 +3850,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "10bbbe00f6860fea900369329956e5ffe43fd16a8557029799037dc6a59ae5a0",
@@ -4297,7 +4297,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 35
+    "relevanceScore": 32
   },
   {
     "id": "126b111b5d436487e51fda5640cc23dc9efd7f8eb71d3c126a1dccbd53436749",
@@ -4734,7 +4734,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 41
+    "relevanceScore": 39
   },
   {
     "id": "148e5585dc9fb07958c136351836357a3d82355aa241ff76e8dd75bcf3286670",
@@ -6461,7 +6461,7 @@
     "tagMatchedIds": [
       "generative-ai"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "1c617c25707b9462e0abd4e106999ddc44b730979202f3c9f39c025f70428609",
@@ -6499,7 +6499,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "1d138336ed9325c15ba2ed892f78201c520dc6be740f16fa0cfd053903a31329",
@@ -7332,7 +7332,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "21aa266256aa654ba858c4dcbf915591c093c6116eb0ce8a13927538f5462624",
@@ -7497,6 +7497,36 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 34
+  },
+  {
+    "id": "2260847acbbf9fb57c59d42670c0fa3ac38134e7aa4b48d0f9f8672ac748109a",
+    "title": "QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI",
+    "url": "https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-24T06:32:00.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "At QCon San Francisco 2026, OpenAI's Brian Yang described building the ChatGPT ads product with Codex agents and no human-written code. He outlined layered testing, sandboxes, and batched pull request reviews, and noted failure modes such as code \"slop\" and unsafe agent actions. He advised gradual adoption and framed…",
+    "imageUrl": "https://res.infoq.com/news/2026/11/qcon-sf-openai-lessons/en/headerimage/generatedHeaderImage-1795453078651.jpg",
+    "language": "en",
+    "tags": [
+      "Software Development Lifecycle",
+      "Code Reviews",
+      "OpenAI",
+      "QCon San Francisco 2026",
+      "Web Development",
+      "AI",
+      "ML & Data Engineering",
+      "Development"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 14
   },
   {
     "id": "226d22a423412bf1bab548b2b4ebfb0ad8bb211d62155b44d8cd851df1268eb0",
@@ -9013,6 +9043,42 @@
     "relevanceScore": 16
   },
   {
+    "id": "2a1ae419ec637df26f65fb9a0fe9b0754540a17eabd6119b66e61ecc456f0ffb",
+    "title": "Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports",
+    "url": "https://www.infoq.com/articles/llm-agent-architecture-evals-grounding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/articles/llm-agent-architecture-evals-grounding",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-24T09:30:00.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem. This architectural blueprint shows engineering leaders and architects how to build trustworthy agentic workflows using knowledge graphs, dual-layer eval judges, CI/CD release gates, and regression testing against…",
+    "imageUrl": "https://res.infoq.com/articles/llm-agent-architecture-evals-grounding/en/headerimage/llm-agent-architecture-evals-grounding-header-1795173682566.jpg",
+    "language": "en",
+    "tags": [
+      "Large language models",
+      "Agentic AI Architecture",
+      "Architecture",
+      "InfoQ Certification Program",
+      "Fintech",
+      "AI Engineering Certification",
+      "AI",
+      "ML & Data Engineering",
+      "Architecture & Design",
+      "article"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "relevanceScore": 46
+  },
+  {
     "id": "2a37e297392522469c503132329fedcd90a2bb4e085d6c7a6b8781af52d443d9",
     "title": "Instagram brings Edits to desktop to take on CapCut",
     "url": "https://techcrunch.com/2026/11/05/instagram-brings-edits-to-desktop-to-take-on-capcut/",
@@ -10022,7 +10088,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 10
   },
   {
     "id": "3059d9cac08149f15f5b440e4269986ed9a6f2dfc814591a0c0c9ff163f3c857",
@@ -10062,7 +10128,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "308d05b3ca4fe8fce951ff2c8f15181506278c68e74b91f558cb71c17a0e73ab",
@@ -11949,7 +12015,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 40
+    "relevanceScore": 38
   },
   {
     "id": "3b426a1ae4872b68d25bbba331a65da5910e737396686526cdd4f211ec3c5161",
@@ -13947,7 +14013,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "46af6181519f324d9e173fd80d8e4dfbc41737aad7f8f0fe41a52951c2f6f011",
@@ -14104,6 +14170,25 @@
       "cybersecurity"
     ],
     "relevanceScore": 38
+  },
+  {
+    "id": "474aada24755d1e9954ce963d5309964634b4484a45be5e9ef237dc306683f03",
+    "title": "European Private Equity in 2026: Four Shifts Shaping Investment Strategies",
+    "url": "https://www.lek.com/insights/private-equity/european-private-equity-2026-four-shifts-shaping-investment-strategies",
+    "canonicalUrl": "https://www.lek.com/insights/private-equity/european-private-equity-2026-four-shifts-shaping-investment-strategies",
+    "sourceId": "lek-insights",
+    "sourceName": "L.E.K. Insights",
+    "company": "L.E.K. Consulting",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-11-23T17:42:22.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "European Private Equity in 2026: Four Shifts Shaping Investment Strategies November 24, 2026 Share this content European private equity investors are navigating a challenging deal environment. Selective deployment, an increased focus on portfolio value creation and growing pressure to realise investments are shaping…",
+    "imageUrl": "https://www.lek.com/sites/default/files/styles/thumbnail/public/profile-images/serge-hovsepian_web-gmc.jpg.webp?itok=Et44W8Sw",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 15
   },
   {
     "id": "477618803f26b8733880695ef4eb24a5e76677f13d6ec4a6bcc666d0af190a93",
@@ -14519,8 +14604,8 @@
       "Spring",
       "Spring Modulith",
       "Event Driven Architecture",
-      "payment",
       "AI Assisted Coding",
+      "payment",
       "AI",
       "ML & Data Engineering",
       "Development",
@@ -15545,11 +15630,11 @@
     "tags": [
       "Amazon Web Services",
       "EC2",
-      "AWS",
       "Serverless",
+      "AWS",
       "Cloud",
-      "AWS Lambda",
       "GPU",
+      "AWS Lambda",
       "DevOps",
       "AI",
       "ML & Data Engineering",
@@ -16398,7 +16483,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "510ffbcc89afcdc3e2c66b38dc2ff9207b784f38c55edd3fb15bf68aa27c6633",
@@ -16604,7 +16689,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "522e96a4171f74d06d91d940d326eac24def3b477ea25a46c5bc410011e3148d",
@@ -16858,7 +16943,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 42
+    "relevanceScore": 40
   },
   {
     "id": "533b590042a015080bb5ceb318949a4db906b41c1a62e336003cbb72fb077463",
@@ -17332,7 +17417,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "5523ef782a102f9407e48ea2548f3436dcdf106068bf3e331a15436bd3297fac",
@@ -17382,7 +17467,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 30
+    "relevanceScore": 27
   },
   {
     "id": "554481bd87b76bc65daed94ffe3c7d26f205a43860d9902a513d23f40b871383",
@@ -19495,7 +19580,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "6057d88428e76f2c8240f0da3b7ecfb720ba02961e5063035fdca3748123904a",
@@ -19517,6 +19602,31 @@
     ],
     "tagMatchedIds": [],
     "relevanceScore": 42
+  },
+  {
+    "id": "60874055d807837d196e68c6b324f3241d28f9cece208b3194148fc616ca2785",
+    "title": "Anthropic says Claude solved an age-old math problem, but the written proof is 250,000 pages of slop",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-24T00:18:17.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "If the AI can't explain what it's proven, are we actually any closer to understanding?",
+    "imageUrl": "https://image.theregister.com/?imageId=5264648&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 32
   },
   {
     "id": "60ad05abd88898ef530edc6420a642b36dc77677bbbee31bfa26b5a8557183d5",
@@ -19710,7 +19820,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "616c68177b707eae60eb2b7e618a86105e3926c540e149caa916945e5a2342dd",
@@ -19819,6 +19929,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "6260f4ff3765eba682f657fd1e46816445018e1bcf2856406aaa2882c5628b9e",
+    "title": "Orgs that leak data 'prioritize corporate interests over customers' says Have I Been Pwned’s Troy Hunt",
+    "url": "https://www.theregister.com/security/2026/11/24/orgs-that-leak-data-prioritize-corporate-interests-over-customers-says-have-i-been-pwneds-troy-hunt/5311802",
+    "canonicalUrl": "https://www.theregister.com/security/2026/11/24/orgs-that-leak-data-prioritize-corporate-interests-over-customers-says-have-i-been-pwneds-troy-hunt/5311802",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-24T05:13:51.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "Leakers move through denial, bargaining, delay, legal threats, then claiming Hunt is the real villain",
+    "imageUrl": "https://image.theregister.com/?imageId=259203&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
   },
   {
     "id": "626108da40f3a32b39922ec07dd98bca49ba8a51642be4a4243e3db2c49793cf",
@@ -20726,7 +20859,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "6593af1ba26578ec4678e2bc05c571db5de17d5669633ef75f32df7f36af81e6",
@@ -20863,6 +20996,33 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
+    "id": "65ecd23117de50e0e12b75596628d17321053e423e713e9cab469cb3a09c1077",
+    "title": "What is the agentic factory? An update to the machinery of transformation for financial-services businesses",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/what-is-the-agentic-factory-an-update-to-the-machinery-of-transformation-for-financial-services-businesses",
+    "canonicalUrl": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/what-is-the-agentic-factory-an-update-to-the-machinery-of-transformation-for-financial-services-businesses",
+    "sourceId": "mckinsey-insights",
+    "sourceName": "McKinsey & Company Insights",
+    "company": "McKinsey & Company",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "An agentic factory is a centralized model to accelerate the development of effective agentic systems.",
+    "language": "en",
+    "tags": [
+      "Insights on Artificial Intelligence",
+      "Financial Services",
+      "Retail & Small Business Banking",
+      "Artificial Intelligence",
+      "Organization",
+      "Operations"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
     "relevanceScore": 16
   },
   {
@@ -21010,7 +21170,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 33
+    "relevanceScore": 30
   },
   {
     "id": "66b6525086e7c8cdf5d91a5029a2db2eba9fda4ee6401c2dece037de07f028a0",
@@ -22874,6 +23034,29 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 12
+  },
+  {
+    "id": "71bd2defe8150cd6ecce37c79d4e9b76c9c4b50ca5f339407fffe2e69aacd2d8",
+    "title": "Education software supplier's legacy login system left 355,000 school email addresses exposed",
+    "url": "https://www.theregister.com/cyber-crime/2026/11/24/education-software-suppliers-legacy-login-system-left-355000-school-email-addresses-exposed/5311622",
+    "canonicalUrl": "https://www.theregister.com/cyber-crime/2026/11/24/education-software-suppliers-legacy-login-system-left-355000-school-email-addresses-exposed/5311622",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-24T08:37:00.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "Have I Been Pwned puts a number on September's attack on Bromcom",
+    "imageUrl": "https://image.theregister.com/?imageId=5303385&width=800",
+    "language": "en",
+    "tags": [
+      "cyber-crime"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "threat-intelligence"
+    ],
+    "relevanceScore": 15
   },
   {
     "id": "71d2447b3f96dafea8ce10b351033bc417462d6c6797200913212dea0b89ef15",
@@ -26460,7 +26643,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "82d4f8e1487b9eb78e5499835d3b5bc84ce1a3fe9c608f63ab3dac55f7b9cb7f",
@@ -28774,7 +28957,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "8df8323d95f39ff15ce4d1c87da21000739d9325ea5cf4b265bde773330ffd1b",
@@ -29805,8 +29988,8 @@
       "The InfoQ Podcast",
       "Simulation",
       "Software Testing",
-      "Software Development",
       "Architecture",
+      "Software Development",
       "Architecture & Design",
       "podcast"
     ],
@@ -29959,6 +30142,29 @@
       "cybersecurity"
     ],
     "relevanceScore": 35
+  },
+  {
+    "id": "940939f2535771037aebaae91410186930e34000e08bdad7a8d6a532a77b3a68",
+    "title": "Cisco and OpenAI pitch eBPF kernel plugins as the way to tame the patchpocalypse",
+    "url": "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795",
+    "canonicalUrl": "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-24T01:46:56.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "‘Shirudo’ project promises to whip up compensating controls in a hurry",
+    "imageUrl": "https://image.theregister.com/?imageId=1682068&width=800",
+    "language": "en",
+    "tags": [
+      "security"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [
+      "cybersecurity"
+    ],
+    "relevanceScore": 15
   },
   {
     "id": "940b542808337faa1a37f2ba2cb291c906cd9a228841d5d504bb13a4baf2b0aa",
@@ -32171,7 +32377,7 @@
     "tagMatchedIds": [
       "generative-ai"
     ],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "9ccf02f3129f7388553ed38666caf88cf3c690714ac96023d579f75e1a79f9a2",
@@ -32310,6 +32516,27 @@
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
     "relevanceScore": 8
+  },
+  {
+    "id": "9d31d4456633013b51aed501414ae20c8015ef4926e848bac8e751315815bc70",
+    "title": "Piramal Finance Scales Its Internal Agentic AI Assistant With MongoDB",
+    "url": "https://www.mongodb.com/company/blog/innovation/piramal-finance-scales-internal-agentic-ai-assistant",
+    "canonicalUrl": "https://www.mongodb.com/company/blog/innovation/piramal-finance-scales-internal-agentic-ai-assistant",
+    "sourceId": "mongodb-blog",
+    "sourceName": "MongoDB Blog",
+    "company": "MongoDB",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-24T01:00:00.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "Piramal Finance Limited is a retail-led upper-layer NBFC with a pan-India presence. It offers a diverse portfolio of retail lending products spanning affordable housing loans, loan against property, microfinance, personal loans, insurance solutions, and more, as well as wholesale lending, which provides asset-backed,…",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "agentic-ai",
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 53
   },
   {
     "id": "9d694fa95af0cfaecf5267b73e7d6230221ffb467ae88ba047b8eeb9ff850562",
@@ -32587,7 +32814,7 @@
       "threat-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 27
   },
   {
     "id": "9ea3142936572e580cc87a0fe7baccfe278aa7b3e8aff0b5c5bf9f526123b00b",
@@ -33294,7 +33521,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "a2520f5e2eee6f79fac80645945e6c53b6e7e528ad80081ac3ae659bb6e35478",
@@ -33361,7 +33588,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "a2c0c081d1c351302f3410525cb53db9b91e3fa97f9d3fc35eba9e7c7316ecc8",
@@ -35586,7 +35813,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "ac8f18750241a65f1eaff59406bf9b8d8a419cb23f6d29d213a586908db91264",
@@ -36148,7 +36375,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "aef632472a5e3af7f91b4cd9c5d8e0ecee47135327c9822e26d24027e878b6a3",
@@ -36688,6 +36915,27 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 38
+  },
+  {
+    "id": "b0d72916ebeceea8cb41017bf0b586d3324e098b155b3c45366bccd22da6800b",
+    "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+    "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-24T06:02:57.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKBknwzOcmsT5P3Gnyn8-WGRNbttWLAtmWlHkVuS900lrH1Q7Wj_kBCJiASbBvhNUKWEsO8Xt5VKKokGA-M17y8Pj4EtH6564yafSWGebOVgMuTwxUUB5fV4oProNTbg8MeEhcaiy95WbMi6og3q0uSM4SxLCyzVwV3FbCfiSXrVoJtQUrYpJfyeW1AUFm/s1600/openai-linux.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 48
   },
   {
     "id": "b0dceb532ab9002d913a58add347e4321fc2a58d0a0b9f748dabcca16b309e75",
@@ -37383,7 +37631,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 10
   },
   {
     "id": "b44c0a854e15b1852d0ece8a64e0acd1db9eb19271c34c1eeef276701d27db06",
@@ -37628,7 +37876,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 47
+    "relevanceScore": 44
   },
   {
     "id": "b5b0ef99e191cd08d80e1af739149c18ea9422967cb24e7af520772ac4e42dd4",
@@ -38378,7 +38626,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 35
+    "relevanceScore": 32
   },
   {
     "id": "b9fc0becb37165bbcdbe80e8613caa9fbcfa3536036347b32a7647bd8124e5f9",
@@ -38486,7 +38734,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "ba638793afe4c62a70b01ee81f99d2f6d46cdb0d59dc57791653f81ed803df9b",
@@ -39226,7 +39474,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "bcfce8074fe98f42a51de39f8a056f4c6561128c87d6fb018967cab7344d47b2",
@@ -39688,6 +39936,26 @@
       "cybersecurity"
     ],
     "relevanceScore": 12
+  },
+  {
+    "id": "bfe594a7f8664c0e1938d10e3d0a4aa9a025030237ace7062bd293563e1496d1",
+    "title": "What 5,400 Malicious npm Packages Reveal about Software Supply Chain Risk in 2026",
+    "url": "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026",
+    "canonicalUrl": "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-23T20:47:23.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "Executive summaryThis report is the first of a series of blogs analyzing the supply chain threat landscape...",
+    "language": "en",
+    "tags": [
+      "Platform"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
   },
   {
     "id": "bffad4ea9973205415aa0b0472c2b96d070c9316703d6034b13b3e0eef4fd768",
@@ -40540,7 +40808,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "c553075ca27177e7d92b0803ff534e44136316e5fc045aa50e93d1e1016fc695",
@@ -41659,6 +41927,25 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
+    "relevanceScore": 12
+  },
+  {
+    "id": "cb163043c36942a67095b80f9301fec4dd635f87fc90b712bfd4d96ed0f1bdd3",
+    "title": "Guancong Wu",
+    "url": "https://www.lek.com/authors/guancong-wu",
+    "canonicalUrl": "https://www.lek.com/authors/guancong-wu",
+    "sourceId": "lek-insights",
+    "sourceName": "L.E.K. Insights",
+    "company": "L.E.K. Consulting",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-11-24T07:05:07.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "Guancong Wu Author Type Internal Author https://www.linkedin.com/in/guan%C3%A7ong-wu-9a329712b/",
+    "imageUrl": "https://www.lek.com/sites/default/files/styles/large/public/2026-11/Guancong%20Wu%20250x250.jpg.webp?itok=0JjsMXks",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
     "relevanceScore": 15
   },
   {
@@ -42322,8 +42609,8 @@
       "Large language models",
       "Claude",
       "Anthropic",
-      "Software Development",
       "Artificial Intelligence",
+      "Software Development",
       "JavaScript",
       "AI",
       "ML & Data Engineering"
@@ -42829,7 +43116,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "cfe776d783ceaa5caccc751b6cdc971dca158390693fb99026f72957a1e7e81c",
@@ -43647,7 +43934,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 27
+    "relevanceScore": 25
   },
   {
     "id": "d2b8633e1a6f94d63a714a7c774e62f3ce67b640ffe8efe14658a60ce189320f",
@@ -43813,7 +44100,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
@@ -44450,6 +44737,28 @@
     "relevanceScore": 16
   },
   {
+    "id": "d70285cdacc0c3a7734f42127ce5d6c20eed3bf74071823c528e7e4bdf1cb755",
+    "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+    "canonicalUrl": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+    "sourceId": "thehackernews",
+    "sourceName": "The Hacker News",
+    "company": "The Hacker News",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-24T06:02:45.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A…",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrPCPwSotVSX8IYSgpSrVceRAIYqba8YSZSlNwD5RjetEhPG6vLRhk_NKkatjg1h-fulZJDm4CucsLvQrEtCO6v0NtuJGo3nZD3mXSHyKpgPrUZMpq7YNpheStYC_AqyMWRfWIFiK9bcHJNAw6pwK9JqirhO8JESKdmsI5Pl8UgtsVsRivmMmMenQ01ClW/s1600/cisa-kev.jpg",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence",
+      "cybersecurity"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 48
+  },
+  {
     "id": "d7106bc5092386d02f40580288a2b7dcc27c39b6a29252b85877d8ea8da77414",
     "title": "Here’s what ‘renoa’ — the first new fiber in 25 years — feels like",
     "url": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/",
@@ -44980,6 +45289,31 @@
       "artificial-intelligence"
     ],
     "relevanceScore": 34
+  },
+  {
+    "id": "d9a2fb190d9ffe44305f6cff2113911083add8d79e400fa27072289872809ebc",
+    "title": "UK gov invests in defense startup making virtual training ground for AI",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707",
+    "canonicalUrl": "https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707",
+    "sourceId": "theregister",
+    "sourceName": "The Register",
+    "company": "The Register",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-24T09:16:00.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "Britain wants sovereign capability to test whether military AI will work before it gets deployed for real",
+    "imageUrl": "https://image.theregister.com/?imageId=260608&width=800",
+    "language": "en",
+    "tags": [
+      "ai and ml"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "artificial-intelligence"
+    ],
+    "relevanceScore": 47
   },
   {
     "id": "d9b2ba33ee06bda91c36b41305de8de465609993c21ac5092dbe4d164d24ae89",
@@ -46740,6 +47074,26 @@
     "relevanceScore": 10
   },
   {
+    "id": "e1929b02de8244ed563b5df4b4351060c331c0ac175a5deda3f0c13e6a6d2de7",
+    "title": "How AI delivers friction-free retail",
+    "url": "https://www.cgi.com/en/blog/retail-consumer-and-services/how-ai-delivers-friction-free-retail",
+    "canonicalUrl": "https://www.cgi.com/en/blog/retail-consumer-and-services/how-ai-delivers-friction-free-retail",
+    "sourceId": "cgi-blog",
+    "sourceName": "CGI Blog",
+    "company": "CGI",
+    "sourceCategory": "consulting",
+    "publishedAt": "2026-11-23T05:45:18.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "How can retailers prepare for agentic search? Christian Haeger explores how trusted, accessible product data can support AI-powered product discovery, improve customer experiences and help retailers manage increasingly complex shopping journeys.",
+    "language": "en",
+    "tags": [],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [],
+    "relevanceScore": 45
+  },
+  {
     "id": "e1a8ff3359c4713f6d4ae47c9802eaafe0bf00c87fb33b0f8ce2f99bbb1d4516",
     "title": "Enforce Data Sovereignty With MongoDB Atlas Resource Policies",
     "url": "https://www.mongodb.com/company/blog/innovation/enforce-data-sovereignty-with-mongodb-atlas-resource-policies",
@@ -48014,7 +48368,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 48
+    "relevanceScore": 45
   },
   {
     "id": "e78926fd133168f525d97635a7c42899b1ecd2c7cf4631bd8f3a4de3cb51c71b",
@@ -48393,7 +48747,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "e92519dd0fbcb0ec54388114d0976077d23c8078eb8862a5b71c48d1b79f7c8f",
@@ -51421,6 +51775,29 @@
     "relevanceScore": 35
   },
   {
+    "id": "f6f6d5eb7a1680304112c50eda37687483d0de9e44ef9331fb9deb319fbc7e72",
+    "title": "Sharing catalog metadata across data platforms, engines, and agents",
+    "url": "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+    "canonicalUrl": "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+    "sourceId": "databricks-blog",
+    "sourceName": "Databricks Blog",
+    "company": "Databricks",
+    "sourceCategory": "technology",
+    "publishedAt": "2026-11-24T01:30:00.000Z",
+    "discoveredAt": "2026-11-24T09:58:06.615Z",
+    "summary": "We’re excited to announce support for catalog labels – a new capability in the Apache...",
+    "language": "en",
+    "tags": [
+      "Platform",
+      "Product",
+      "Unity Catalog",
+      "Open Source"
+    ],
+    "matchedKeywordIds": [],
+    "tagMatchedIds": [],
+    "relevanceScore": 16
+  },
+  {
     "id": "f71c4aad0bb2837063f07976ca6e67881cca33941055aad5ab2d0b9f39d5ba0e",
     "title": "Node management in Red Hat OpenShift 5: Server-level visibility for bare metal",
     "url": "https://www.redhat.com/en/blog/node-management-red-hat-openshift-5-bare-metal",
@@ -51619,7 +51996,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 9
+    "relevanceScore": 7
   },
   {
     "id": "f918c85d53b408b094c73a2293876a0619076facc23977c687e39ac3aa78c048",
