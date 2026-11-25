@@ -4,18 +4,17 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "24h",
-    "score": 37,
+    "score": 28,
     "status": "stable",
-    "articleCount": 3,
-    "previousArticleCount": 3,
-    "growthRate": 0,
+    "articleCount": 2,
+    "previousArticleCount": 4,
+    "growthRate": -50,
     "distinctSourceCount": 2,
     "leadingSourceIds": [
       "techcrunch",
       "microsoft-security-blog"
     ],
     "relatedArticleIds": [
-      "5edc970ed59b587c1ee8c05d8489580ad3458325bacb4c7ffdab0abba660d73e",
       "ae6a9e994b3a32ff2b51a0f6488096277230d6aa66e9cb8102d6f366b8106338",
       "3057c1692fc87eb12e35921152d2c3d2a01aa637973bb95c5a424c853ceae46f"
     ]
@@ -27,9 +26,9 @@
     "timeframe": "30d",
     "score": 47,
     "status": "rising",
-    "articleCount": 98,
-    "previousArticleCount": 90,
-    "growthRate": 9,
+    "articleCount": 97,
+    "previousArticleCount": 91,
+    "growthRate": 7,
     "distinctSourceCount": 26,
     "leadingSourceIds": [
       "techcrunch",
@@ -54,16 +53,16 @@
     "label": "Agentic AI",
     "keywordId": "agentic-ai",
     "timeframe": "7d",
-    "score": 47,
+    "score": 45,
     "status": "rising",
-    "articleCount": 23,
-    "previousArticleCount": 23,
-    "growthRate": 0,
-    "distinctSourceCount": 14,
+    "articleCount": 21,
+    "previousArticleCount": 25,
+    "growthRate": -16,
+    "distinctSourceCount": 13,
     "leadingSourceIds": [
       "techcrunch",
       "infoq",
-      "darkreading"
+      "cisco-blogs"
     ],
     "relatedArticleIds": [
       "5edc970ed59b587c1ee8c05d8489580ad3458325bacb4c7ffdab0abba660d73e",
@@ -141,10 +140,10 @@
     "keywordId": "ai-security",
     "timeframe": "24h",
     "score": 0,
-    "status": "declining",
+    "status": "stable",
     "articleCount": 0,
-    "previousArticleCount": 1,
-    "growthRate": -100,
+    "previousArticleCount": 0,
+    "growthRate": null,
     "distinctSourceCount": 0,
     "leadingSourceIds": [],
     "relatedArticleIds": []
@@ -154,16 +153,16 @@
     "label": "AI security",
     "keywordId": "ai-security",
     "timeframe": "30d",
-    "score": 42,
+    "score": 40,
     "status": "stable",
-    "articleCount": 16,
-    "previousArticleCount": 19,
-    "growthRate": -16,
+    "articleCount": 15,
+    "previousArticleCount": 20,
+    "growthRate": -25,
     "distinctSourceCount": 8,
     "leadingSourceIds": [
       "checkpoint-blog",
-      "darkreading",
-      "crowdstrike-blog"
+      "crowdstrike-blog",
+      "darkreading"
     ],
     "relatedArticleIds": [
       "abb5e64ca10a3b7b0cc1c5827c11bdd2488259e533b1b18e364e6cf8cadb36ad",
@@ -174,8 +173,8 @@
       "a657002ccd766f8779254b6438b5c8be5b2d58c99c426af98d3a63e7f72b8d8f",
       "6dc567e34d42c9764c5d0357c85eb937919bdd8c98fbb7ab90f688ceb4505d15",
       "c8b1b6de0548ed7f9d20bea06fb0e2a05b167a98eed3f84efc3e197ca539e4b2",
-      "631b0902569c74ab3b6343eb2ce423e0d411cbe10da721871851c9a94fc96c7d",
-      "03e6a4a53d1bd8c28d54b9779cbc5f222bf1b5b052f07034aa03394784b731d7"
+      "03e6a4a53d1bd8c28d54b9779cbc5f222bf1b5b052f07034aa03394784b731d7",
+      "4a451b790467be26ee89fde581e9e9ac57a5ae7312c16fac64b5780b29796f67"
     ]
   },
   {
@@ -204,19 +203,18 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "24h",
-    "score": 74,
+    "score": 73,
     "status": "emerging",
-    "articleCount": 25,
+    "articleCount": 23,
     "previousArticleCount": 35,
-    "growthRate": -29,
-    "distinctSourceCount": 12,
+    "growthRate": -34,
+    "distinctSourceCount": 13,
     "leadingSourceIds": [
       "techcrunch",
-      "theregister",
-      "mit-technology-review"
+      "mit-technology-review",
+      "theregister"
     ],
     "relatedArticleIds": [
-      "5edc970ed59b587c1ee8c05d8489580ad3458325bacb4c7ffdab0abba660d73e",
       "ae6a9e994b3a32ff2b51a0f6488096277230d6aa66e9cb8102d6f366b8106338",
       "30b9a8b58c82672d754623ef82e186154e724e347875c923cda858032e8a1006",
       "3057c1692fc87eb12e35921152d2c3d2a01aa637973bb95c5a424c853ceae46f",
@@ -225,7 +223,8 @@
       "fd3eea6ab732b7250509de6164234fbee94269776e18e7863c60be224f375b62",
       "628d3c512960bc42def6d56ad9842bcf679285e91783b802db4db2bbcd8b78d8",
       "fc7746296b2bdb02b19fb4332a152eab27c96cc356b4f4d791a768ab6474aa5a",
-      "45ee7c2e482d64d396cdb6d7fb2274227dbaa83b9963018a7a6d98fde157aab1"
+      "45ee7c2e482d64d396cdb6d7fb2274227dbaa83b9963018a7a6d98fde157aab1",
+      "e5fe98cd3647a9ada02f147ccc43cbfcb752871c2d5fac792b2da0c39a6e7efb"
     ]
   },
   {
@@ -233,11 +232,11 @@
     "label": "Artificial intelligence",
     "keywordId": "artificial-intelligence",
     "timeframe": "30d",
-    "score": 78,
+    "score": 77,
     "status": "emerging",
-    "articleCount": 1032,
-    "previousArticleCount": 1015,
-    "growthRate": 2,
+    "articleCount": 1026,
+    "previousArticleCount": 1022,
+    "growthRate": 0,
     "distinctSourceCount": 38,
     "leadingSourceIds": [
       "techcrunch",
@@ -264,9 +263,9 @@
     "timeframe": "7d",
     "score": 73,
     "status": "emerging",
-    "articleCount": 181,
-    "previousArticleCount": 255,
-    "growthRate": -29,
+    "articleCount": 176,
+    "previousArticleCount": 259,
+    "growthRate": -32,
     "distinctSourceCount": 33,
     "leadingSourceIds": [
       "techcrunch",
@@ -401,7 +400,7 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "24h",
-    "score": 56,
+    "score": 57,
     "status": "rising",
     "articleCount": 6,
     "previousArticleCount": 4,
@@ -455,7 +454,7 @@
     "label": "Cybersecurity",
     "keywordId": "cybersecurity",
     "timeframe": "7d",
-    "score": 58,
+    "score": 59,
     "status": "rising",
     "articleCount": 26,
     "previousArticleCount": 16,
@@ -569,8 +568,8 @@
     "distinctSourceCount": 3,
     "leadingSourceIds": [
       "cisco-blogs",
-      "infoq",
-      "thoughtworks-insights"
+      "thoughtworks-insights",
+      "infoq"
     ],
     "relatedArticleIds": [
       "e5c6dfe29c19f8aee7e023875ef7403efadfe806e0eb6ef5826db7f7a6d25496",
@@ -888,7 +887,7 @@
     "label": "Ransomware",
     "keywordId": "ransomware",
     "timeframe": "24h",
-    "score": 29,
+    "score": 30,
     "status": "stable",
     "articleCount": 1,
     "previousArticleCount": 0,
@@ -935,11 +934,11 @@
     "label": "Ransomware",
     "keywordId": "ransomware",
     "timeframe": "7d",
-    "score": 60,
+    "score": 51,
     "status": "rising",
-    "articleCount": 8,
-    "previousArticleCount": 4,
-    "growthRate": 100,
+    "articleCount": 7,
+    "previousArticleCount": 5,
+    "growthRate": 40,
     "distinctSourceCount": 5,
     "leadingSourceIds": [
       "bleepingcomputer",
@@ -953,7 +952,6 @@
       "3f0cae6c7721af8aa66c77a2d5e29d931e21f306e875ba2694cdccae841f0982",
       "a799be44dacf0d3801ea090862986f7d6a746a0307ad6a2eea683173b12f25e8",
       "dd71654a2f478334a00f723034869d525c8f294f52144f6d773788e3ec775e30",
-      "598072de300586834d903d77560821f11d1a06f6e7b8c2cb2ec6730a63f0f0b2",
       "b1d23014709d9b5ce5a85f2ca8c0852e4ab42f60e0e8c52cb5c9bbcf015333d5"
     ]
   },
@@ -976,20 +974,19 @@
     "label": "Software supply-chain security",
     "keywordId": "software-supply-chain-security",
     "timeframe": "30d",
-    "score": 37,
+    "score": 35,
     "status": "stable",
-    "articleCount": 7,
-    "previousArticleCount": 11,
-    "growthRate": -36,
+    "articleCount": 6,
+    "previousArticleCount": 12,
+    "growthRate": -50,
     "distinctSourceCount": 5,
     "leadingSourceIds": [
       "darkreading",
-      "theregister",
-      "infoq"
+      "infoq",
+      "theregister"
     ],
     "relatedArticleIds": [
       "5494ce3eb8b9c58953fefab6cb1f2e6891c1209273ba676bf2d29f6c0f14ccdc",
-      "3bd252fd294afc4310ce740241a3cdc7b8f965ae4c87361742267ca35b47dc64",
       "97e2e9163086c15c76941be02f5b8864b2174c991749f4936cff189f9488a006",
       "6d6915cc374791a2d4d87353b816e5204ef20e69292ddbc1265eb49e40e58653",
       "5c53bd13298133846513606462f0b79378334a90abfd8eef5b4eddcca0ffac88",
