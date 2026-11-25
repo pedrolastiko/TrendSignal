@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T08:41:15.325Z",
+  "generatedAt": "2026-11-25T19:58:29.046Z",
   "events": [
     {
       "id": "81041e2c035f3926a05696f023781e0c02ab4cffc1f97c25909ae1bf7a655a6c",
@@ -211,6 +211,27 @@
       ],
       "relevanceScore": 54,
       "discoveredAt": "2026-11-08T03:54:57.248Z",
+      "dateStatus": "confirmed"
+    },
+    {
+      "id": "19f0be6c88fa076e21e28d2c8cfe89ec0d673786711209bdfd6a9c9cfbd734c7",
+      "title": "Closing the Gap on the “Shell” Vulnerability Wave",
+      "url": "https://www.tenable.com/webinars/closing-the-gap-on-the-shell-vulnerability-wave",
+      "sourceId": "tenable-webinars",
+      "sourceName": "Tenable Webinars",
+      "company": "Tenable",
+      "sourceCategory": "cybersecurity",
+      "startsAt": "2026-12-09T05:00:00.000Z",
+      "allDay": false,
+      "kind": "webinar",
+      "format": "online",
+      "summary": "See vulnerabilities, prioritize risk and drive remediation across your assets with LLM promptsIn recent weeks, critical waves of highly exploitable “shell” vulnerabilities have forced security teams into a race against attackers. With the rapid emergence of Java4Shell, PHP2Shell, and Able2Shell, organizations face…",
+      "language": "en",
+      "matchedKeywordIds": [
+        "generative-ai"
+      ],
+      "relevanceScore": 24,
+      "discoveredAt": "2026-11-25T19:58:29.046Z",
       "dateStatus": "confirmed"
     },
     {
@@ -1311,9 +1332,9 @@
       "health": {
         "sourceId": "bsides-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-25T08:41:15.325Z",
-        "lastSuccessAt": "2026-11-25T08:41:15.325Z",
-        "responseTimeMs": 1034,
+        "lastAttemptAt": "2026-11-25T19:58:29.046Z",
+        "lastSuccessAt": "2026-11-25T19:58:29.046Z",
+        "responseTimeMs": 1132,
         "itemsFetched": 30,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1329,9 +1350,9 @@
       "health": {
         "sourceId": "cncf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-25T08:41:15.325Z",
-        "lastSuccessAt": "2026-11-25T08:41:15.325Z",
-        "responseTimeMs": 4296,
+        "lastAttemptAt": "2026-11-25T19:58:29.046Z",
+        "lastSuccessAt": "2026-11-25T19:58:29.046Z",
+        "responseTimeMs": 4000,
         "itemsFetched": 145,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1347,9 +1368,9 @@
       "health": {
         "sourceId": "fido-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-25T08:41:15.325Z",
-        "lastSuccessAt": "2026-11-25T08:41:15.325Z",
-        "responseTimeMs": 679,
+        "lastAttemptAt": "2026-11-25T19:58:29.046Z",
+        "lastSuccessAt": "2026-11-25T19:58:29.046Z",
+        "responseTimeMs": 2476,
         "itemsFetched": 10,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1364,8 +1385,8 @@
       "health": {
         "sourceId": "flagship-conferences",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-25T08:41:15.325Z",
-        "lastSuccessAt": "2026-11-25T08:41:15.325Z",
+        "lastAttemptAt": "2026-11-25T19:58:29.046Z",
+        "lastSuccessAt": "2026-11-25T19:58:29.046Z",
         "responseTimeMs": 0,
         "itemsFetched": 7,
         "newItems": 0,
@@ -1382,9 +1403,9 @@
       "health": {
         "sourceId": "nist-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-25T08:41:15.325Z",
-        "lastSuccessAt": "2026-11-25T08:41:15.325Z",
-        "responseTimeMs": 244,
+        "lastAttemptAt": "2026-11-25T19:58:29.046Z",
+        "lastSuccessAt": "2026-11-25T19:58:29.046Z",
+        "responseTimeMs": 67,
         "itemsFetched": 26,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1400,9 +1421,9 @@
       "health": {
         "sourceId": "observability-360",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-25T08:41:15.325Z",
-        "lastSuccessAt": "2026-11-25T08:41:15.325Z",
-        "responseTimeMs": 553,
+        "lastAttemptAt": "2026-11-25T19:58:29.046Z",
+        "lastSuccessAt": "2026-11-25T19:58:29.046Z",
+        "responseTimeMs": 527,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1418,9 +1439,9 @@
       "health": {
         "sourceId": "openssf-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-25T08:41:15.325Z",
-        "lastSuccessAt": "2026-11-25T08:41:15.325Z",
-        "responseTimeMs": 185,
+        "lastAttemptAt": "2026-11-25T19:58:29.046Z",
+        "lastSuccessAt": "2026-11-25T19:58:29.046Z",
+        "responseTimeMs": 661,
         "itemsFetched": 4,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1436,9 +1457,9 @@
       "health": {
         "sourceId": "techconf-ca",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-25T08:41:15.325Z",
-        "lastSuccessAt": "2026-11-25T08:41:15.325Z",
-        "responseTimeMs": 224,
+        "lastAttemptAt": "2026-11-25T19:58:29.046Z",
+        "lastSuccessAt": "2026-11-25T19:58:29.046Z",
+        "responseTimeMs": 177,
         "itemsFetched": 14,
         "newItems": 0,
         "consecutiveFailures": 0
@@ -1454,9 +1475,9 @@
       "health": {
         "sourceId": "tenable-events",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-25T08:41:15.325Z",
-        "lastSuccessAt": "2026-11-25T08:41:15.325Z",
-        "responseTimeMs": 1774,
+        "lastAttemptAt": "2026-11-25T19:58:29.046Z",
+        "lastSuccessAt": "2026-11-25T19:58:29.046Z",
+        "responseTimeMs": 2543,
         "itemsFetched": 13,
         "newItems": 1,
         "consecutiveFailures": 0
@@ -1472,11 +1493,11 @@
       "health": {
         "sourceId": "tenable-webinars",
         "status": "healthy",
-        "lastAttemptAt": "2026-11-25T08:41:15.325Z",
-        "lastSuccessAt": "2026-11-25T08:41:15.325Z",
-        "responseTimeMs": 1370,
+        "lastAttemptAt": "2026-11-25T19:58:29.046Z",
+        "lastSuccessAt": "2026-11-25T19:58:29.046Z",
+        "responseTimeMs": 1909,
         "itemsFetched": 12,
-        "newItems": 0,
+        "newItems": 1,
         "consecutiveFailures": 0
       }
     }
