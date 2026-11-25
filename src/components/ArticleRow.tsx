@@ -6,6 +6,7 @@ import { formatArticleDate } from '../lib/format';
 import { isUpcoming } from '../lib/upcoming';
 import { NewBadge } from './ArticleCard';
 import { UpcomingRibbon } from './UpcomingRibbon';
+import { LinkedInShareButton } from './LinkedInShareButton';
 
 /** Dense one-entry-per-row alternative to `ArticleCard`: no image or excerpt, title is the link. */
 export function ArticleRow({
@@ -73,6 +74,7 @@ export function ArticleRow({
       >
         {t.article.relevance}: {article.relevanceScore}
       </span>
+      <LinkedInShareButton article={article} compact />
     </article>
   );
 }

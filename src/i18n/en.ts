@@ -83,6 +83,13 @@ export const en: TranslationDictionary = {
     matchedKeywords: 'Matched keywords',
     publisherTags: 'Publisher tags',
     upcoming: 'Upcoming',
+    shareLinkedIn: 'Share on LinkedIn',
+    shareLinkedInOpinionPrompt: 'My take:',
+    shareLinkedInCopied:
+      'Suggested text copied — paste it into the LinkedIn post that just opened.',
+    shareLinkedInManual:
+      "Couldn't copy automatically. Select this text and copy it into your LinkedIn post:",
+    shareLinkedInTextLabel: 'Suggested text for the LinkedIn post',
   },
   trends: {
     title: 'Trends',

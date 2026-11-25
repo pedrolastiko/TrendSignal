@@ -6,6 +6,7 @@ import { CATEGORY_LABELS } from '../data/categories';
 import { formatArticleDate } from '../lib/format';
 import { isUpcoming } from '../lib/upcoming';
 import { UpcomingRibbon } from './UpcomingRibbon';
+import { LinkedInShareButton } from './LinkedInShareButton';
 
 const PLACEHOLDER_IMAGE = `${import.meta.env.BASE_URL}images/article-placeholder.svg`;
 /** Tag-heavy publishers emit a dozen per article; the card shows the first few. */
@@ -148,6 +149,8 @@ export function ArticleCard({
           <ExternalLink size={14} aria-hidden="true" />
           <span className="sr-only">({t.common.externalLink})</span>
         </a>
+
+        <LinkedInShareButton article={article} />
       </div>
     </article>
   );

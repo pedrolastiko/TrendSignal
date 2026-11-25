@@ -66,6 +66,11 @@ export interface TranslationDictionary {
     matchedKeywords: string;
     publisherTags: string;
     upcoming: string;
+    shareLinkedIn: string;
+    shareLinkedInOpinionPrompt: string;
+    shareLinkedInCopied: string;
+    shareLinkedInManual: string;
+    shareLinkedInTextLabel: string;
   };
   trends: {
     title: string;
