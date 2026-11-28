@@ -6375,8 +6375,8 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/grfana-ui-refresh/en/headerimage/generatedHeaderImage-1795008225435.jpg",
     "language": "en",
     "tags": [
-      "Grafana",
       "Observability",
+      "Grafana",
       "DevOps"
     ],
     "matchedKeywordIds": [],
@@ -6830,7 +6830,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 35
+    "relevanceScore": 32
   },
   {
     "id": "1b34a0b1646cfcc7e3a781a6c1908826457c15e4a34034a1b66af3daa11a71ab",
@@ -9396,7 +9396,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "281656f79c993d534c4fc84e013851b705ae195c1940a339176ea32ba42be5c2",
@@ -13433,16 +13433,16 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/microsoft-ignite-2026-recap/en/headerimage/generatedHeaderImage-1795605995597.jpg",
     "language": "en",
     "tags": [
-      "Cloud Architecture",
-      "Cloud",
-      "Microsoft",
       "Microsoft Azure",
+      "Cloud Architecture",
+      "Microsoft",
+      "Cloud",
       "AI Architecture",
-      "AI",
-      "ML & Data Engineering",
-      "Architecture & Design",
+      "DevOps",
       "Development",
-      "DevOps"
+      "Architecture & Design",
+      "AI",
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -14559,7 +14559,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "40e1efe8cfa51bc96cceb47b523afb06cdfcfbc75eb9d0119c332dd4a269505c",
@@ -17720,13 +17720,13 @@
     "imageUrl": "https://res.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/en/headerimage/engineering-reliable-smartphone-sensor-telematics-header-1795176941366.jpg",
     "language": "en",
     "tags": [
-      "autonomous vehicles",
       "Edge Computing",
       "Sensors",
-      "Mobile Development",
       "Mobile",
-      "Architecture & Design",
+      "Mobile Development",
+      "autonomous vehicles",
       "Development",
+      "Architecture & Design",
       "article"
     ],
     "matchedKeywordIds": [],
@@ -20390,10 +20390,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/en/headerimage/generatedHeaderImage-1795712695641.jpg",
     "language": "en",
     "tags": [
-      "Web Development",
       "QCon San Francisco 2026",
       "AI Coding",
       "Code Reviews",
+      "Web Development",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -26354,6 +26354,44 @@
     "relevanceScore": 41
   },
   {
+    "id": "742b8590ec8db85babb8707c3341ee3934c5f5a04f99c1fa84f59ad82b200317",
+    "title": "Azure AI Gateway Reaches General Availability as a Standalone Service",
+    "url": "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "canonicalUrl": "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga",
+    "sourceId": "infoq",
+    "sourceName": "InfoQ",
+    "company": "InfoQ",
+    "sourceCategory": "media",
+    "publishedAt": "2026-11-28T06:47:00.000Z",
+    "discoveredAt": "2026-11-28T07:54:52.361Z",
+    "summary": "Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway per month; paid billing starts January 1, 2027; and private networking remains in preview. By Steef-Jan Wiggers",
+    "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+    "language": "en",
+    "tags": [
+      "Azure",
+      "Microsoft Azure",
+      "Agents",
+      "Cloud",
+      "Model Context Protocol (MCP)",
+      "Large language models",
+      "AI Architecture",
+      "FinOps",
+      "API Gateway",
+      "DevOps",
+      "Development",
+      "Architecture & Design"
+    ],
+    "matchedKeywordIds": [
+      "artificial-intelligence"
+    ],
+    "tagMatchedIds": [
+      "agentic-ai",
+      "devsecops",
+      "generative-ai"
+    ],
+    "relevanceScore": 46
+  },
+  {
     "id": "7434649087922c0548e2de3696ae4d6e3f08e2f324f2537f01b2890bb59ba702",
     "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
     "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
@@ -27052,7 +27090,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "774b247a8cc4214485e822b9ca2b0318874e48b8599e24562074d5b7de508b54",
@@ -28073,18 +28111,18 @@
     "imageUrl": "https://res.infoq.com/presentations/sub-100ms-latency-distributed-systems/en/mediumimage/saranya-vedagiri-medium-1793800504577.jpeg",
     "language": "en",
     "tags": [
-      "Caching",
-      "Low Latency",
-      "QCon London 2026",
-      "Microservices",
-      "Performance",
-      "Distributed Systems",
       "Transcripts",
       "Architecture",
-      "Observability",
       "API",
+      "Distributed Systems",
+      "QCon London 2026",
+      "Observability",
+      "Low Latency",
+      "Performance",
+      "Microservices",
       "Metrics",
-      "Architecture & Design"
+      "Caching",
+      "Development"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -30083,7 +30121,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "83cdb5b5663a9fe97f37c25d248030db4c0389024950bf0cd47d429919b372ac",
@@ -31697,15 +31735,15 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/SRE-based-training/en/headerimage/header-1795590551520.jpg",
     "language": "en",
     "tags": [
-      "Social Skills",
       "Culture",
-      "Training / Certification",
-      "Site Reliability Engineering",
       "Culture Change",
-      "Artificial Intelligence",
+      "Site Reliability Engineering",
+      "Social Skills",
       "GOTO Conference",
-      "Culture & Methods",
-      "DevOps"
+      "Training / Certification",
+      "Artificial Intelligence",
+      "DevOps",
+      "Culture & Methods"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [
@@ -33972,7 +34010,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 12
+    "relevanceScore": 9
   },
   {
     "id": "944bcae641b0a541b6dc9dda71e04e0e72d0506b8724bc5cc8ec755ceb717504",
@@ -33989,16 +34027,16 @@
     "imageUrl": "https://res.infoq.com/presentations/fine-tune-enterprise-rag-embeddings/en/mediumimage/rachel-shalo-medium-1793801102883.jpeg",
     "language": "en",
     "tags": [
-      "Large language models",
-      "Open Source",
-      "QCon AI Boston 2026",
-      "Retrieval-Augmented Generation",
-      "Model Fine Tuning",
-      "Search",
       "Transcripts",
+      "Retrieval-Augmented Generation",
+      "Search",
+      "Open Source",
+      "Large language models",
       "Artificial Intelligence",
-      "Architecture & Design",
+      "Model Fine Tuning",
+      "QCon AI Boston 2026",
       "Development",
+      "Architecture & Design",
       "AI",
       "ML & Data Engineering"
     ],
@@ -34929,7 +34967,7 @@
       "cybersecurity"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 58
+    "relevanceScore": 55
   },
   {
     "id": "97a1493a3c98cdb055aab75e8d9f70c6ca093c4a50957c5755734bb573062352",
@@ -35480,9 +35518,9 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/en/headerimage/header-1795560880894.jpg",
     "language": "en",
     "tags": [
-      ".NET",
       ".NET MAUI",
       ".NET 11",
+      ".NET",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -38573,7 +38611,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "a67bea44a5c5cfbaca39a4d2dd8a36b342e3044b61759f890441b351c56a8f81",
@@ -40727,12 +40765,12 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/en/headerimage/tripadvisor-tca-migration-1795623375360.jpeg",
     "language": "en",
     "tags": [
-      "Computer Vision",
-      "Robotics",
       "Gemini",
+      "Robotics",
       "Google",
-      "Architecture & Design",
+      "Computer Vision",
       "Development",
+      "Architecture & Design",
       "AI",
       "ML & Data Engineering"
     ],
@@ -43003,7 +43041,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 43
+    "relevanceScore": 40
   },
   {
     "id": "b7dd5d3b3fc78e9a3f49d5db8eb5d5a915da3a40ad5f96a9a60a2ced4d5d5249",
@@ -43423,7 +43461,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 30
   },
   {
     "id": "b9fc0becb37165bbcdbe80e8613caa9fbcfa3536036347b32a7647bd8124e5f9",
@@ -45113,7 +45151,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 16
+    "relevanceScore": 13
   },
   {
     "id": "c0e7627580847f44ddcab15ca7ab9f418e27c8f69734c58c645570b438f7df40",
@@ -45549,7 +45587,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 17
+    "relevanceScore": 14
   },
   {
     "id": "c2cf4756d12e3f47d155b54cdbeac9a3e85d5f41bb196b15f9de6e606e84ec42",
@@ -46664,7 +46702,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "c86a8ce709a9e0ed034da2159363c678dd32794326321678a064d47880d7741c",
@@ -48321,10 +48359,10 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/mock-service-worker-v3/en/headerimage/generatedHeaderImage-1795626212829.jpg",
     "language": "en",
     "tags": [
+      "GraphQL",
+      "Mocking",
       "Web Development",
       "JavaScript",
-      "Mocking",
-      "GraphQL",
       "Development"
     ],
     "matchedKeywordIds": [],
@@ -48420,7 +48458,7 @@
     "tagMatchedIds": [
       "cybersecurity"
     ],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "ce922e1c246a81a73ade3e60affbcf651ba95680a04a968c6339cc590b510ac6",
@@ -49695,7 +49733,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 29
+    "relevanceScore": 26
   },
   {
     "id": "d381c9f6b7dd76514a6f407e03e27dc05ca14f2bf3dc5556a8286645294089f1",
@@ -50161,7 +50199,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 45
+    "relevanceScore": 42
   },
   {
     "id": "d6031f26938e035199903a22c212ec6cb67d873e520d207f753724182998b2d1",
@@ -51258,7 +51296,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "da30645137037f0052cd70ab3b09df0b31abc0303db9422eaa375a651d60b969",
@@ -51413,7 +51451,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "daa4c6179017387d17a02d7332aea1ae462dffc89cff7572d454b0cf257bc4ce",
@@ -52489,7 +52527,7 @@
     "tags": [],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 14
+    "relevanceScore": 11
   },
   {
     "id": "df47a366418459d4e9373d938af617304d50bd7485dadcf4afd07cfff78eb17d",
@@ -53522,13 +53560,13 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/en/headerimage/generatedHeaderImage-1795716059601.jpg",
     "language": "en",
     "tags": [
-      "Web Browser",
-      "Web Development",
       "Firefox",
       "AI Harness",
+      "Web Development",
+      "Web Browser",
+      "Development",
       "AI",
-      "ML & Data Engineering",
-      "Development"
+      "ML & Data Engineering"
     ],
     "matchedKeywordIds": [
       "artificial-intelligence"
@@ -53536,7 +53574,7 @@
     "tagMatchedIds": [
       "artificial-intelligence"
     ],
-    "relevanceScore": 46
+    "relevanceScore": 43
   },
   {
     "id": "e3f6e444c8dea91200fa2fa5d907b5cc185fb7f96cc15ea247949b34d3913fd4",
@@ -55007,18 +55045,18 @@
     "imageUrl": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
     "language": "en",
     "tags": [
-      "Semantic Versioning",
-      "Static Analysis",
-      "Code Contracts",
-      "Maintenance",
+      "API",
       "Software Engineering",
-      "Netflix",
-      "S3",
-      "AI coding agents",
       "Continuous Integration",
       "Dependency Management",
-      "API",
-      "Model Context Protocol (MCP)"
+      "Code Contracts",
+      "Netflix",
+      "Static Analysis",
+      "Model Context Protocol (MCP)",
+      "S3",
+      "AI coding agents",
+      "Maintenance",
+      "Semantic Versioning"
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
@@ -55062,11 +55100,11 @@
     "imageUrl": "https://res.infoq.com/news/2026/11/uber-agent-spend-steady/en/headerimage/radar-header-1200x630-1795391031838.jpg",
     "language": "en",
     "tags": [
-      "Open Source",
-      "AI Coding",
       "PyTorch",
-      "Artificial Intelligence",
+      "AI Coding",
       "Code Reviews",
+      "Open Source",
+      "Artificial Intelligence",
       "Development",
       "AI",
       "ML & Data Engineering"
@@ -55769,7 +55807,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 44
+    "relevanceScore": 41
   },
   {
     "id": "ebb4fd5ede1831af25d1b8edd47aa8c5daf1d0e873db8fc8383ce5f5a800ca99",
@@ -56273,7 +56311,7 @@
       "artificial-intelligence"
     ],
     "tagMatchedIds": [],
-    "relevanceScore": 32
+    "relevanceScore": 29
   },
   {
     "id": "ee003b869fd610316394507e0de8716f9f5a4a691e57b2122bee3d63eea15da8",
@@ -57171,7 +57209,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 15
+    "relevanceScore": 12
   },
   {
     "id": "f0b81ce3c14612880642c854f15f292b941326a9491f444584b41bfe82ab7a56",
@@ -58499,7 +58537,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 13
+    "relevanceScore": 10
   },
   {
     "id": "f71c4aad0bb2837063f07976ca6e67881cca33941055aad5ab2d0b9f39d5ba0e",
@@ -58966,7 +59004,7 @@
     ],
     "matchedKeywordIds": [],
     "tagMatchedIds": [],
-    "relevanceScore": 10
+    "relevanceScore": 8
   },
   {
     "id": "f9d001bba19ce9d4bb3101b7fa7de1282e621750498478d7b24f1e134a36d7ab",
